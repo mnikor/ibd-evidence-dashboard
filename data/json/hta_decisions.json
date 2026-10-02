@@ -1,0 +1,268 @@
+{
+ "table": "hta_decisions",
+ "description": "HTA decisions for TREMFYA in IBD, from the HTA bodies' public decisions (UK, Germany, France, Canada). Other markets not yet checked.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "hta_id": "HTA-001",
+   "geo_id": "GBR",
+   "body": "NICE",
+   "brand_id": "TRE",
+   "indication": "CD",
+   "decision": "recommended (restricted)",
+   "restriction_text": "TA1095: an option when conventional or biological treatment has not worked or is not tolerated, and a TNF-alpha inhibitor has not worked, is not tolerated or is not suitable",
+   "decision_date": "2025-08-28",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "hta_id": "public_verified",
+     "geo_id": "public_verified",
+     "body": "public_verified",
+     "brand_id": "public_verified",
+     "indication": "public_verified",
+     "decision": "public_verified",
+     "restriction_text": "public_verified",
+     "decision_date": "public_verified"
+    }
+   },
+   "_key": "HTA-001",
+   "_source_ids": [
+    "SRC-NICE-TA1095",
+    "SRC-007"
+   ]
+  },
+  {
+   "hta_id": "HTA-002",
+   "geo_id": "GBR",
+   "body": "NICE",
+   "brand_id": "TRE",
+   "indication": "UC",
+   "decision": "recommended (restricted)",
+   "restriction_text": "TA1094: an option when conventional, biological or JAK treatment has not worked or is not tolerated, and a TNF-alpha inhibitor has not worked, is not tolerated or is not suitable",
+   "decision_date": "2025-08-28",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "hta_id": "public_verified",
+     "geo_id": "public_verified",
+     "body": "public_verified",
+     "brand_id": "public_verified",
+     "indication": "public_verified",
+     "decision": "public_verified",
+     "restriction_text": "public_verified",
+     "decision_date": "public_verified"
+    }
+   },
+   "_key": "HTA-002",
+   "_source_ids": [
+    "SRC-NICE-TA1094",
+    "SRC-007"
+   ]
+  },
+  {
+   "hta_id": "HTA-003",
+   "geo_id": "DEU",
+   "body": "G-BA",
+   "brand_id": "TRE",
+   "indication": "UC",
+   "decision": "no added benefit proven",
+   "restriction_text": "Added benefit not proven: no usable data after biologics; no relevant differences after conventional therapy",
+   "decision_date": "2025-11-20",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "hta_id": "public_verified",
+     "geo_id": "public_verified",
+     "body": "public_verified",
+     "brand_id": "public_verified",
+     "indication": "public_verified",
+     "decision": "public_verified",
+     "restriction_text": "public_verified",
+     "decision_date": "public_verified"
+    }
+   },
+   "_key": "HTA-003",
+   "_source_ids": [
+    "SRC-GBA-UC",
+    "SRC-AMT-GBA"
+   ]
+  },
+  {
+   "hta_id": "HTA-004",
+   "geo_id": "DEU",
+   "body": "G-BA",
+   "brand_id": "TRE",
+   "indication": "CD",
+   "decision": "minor added benefit (after biologics)",
+   "restriction_text": "Hint of minor added benefit after biologic therapy (vs ustekinumab); added benefit not proven after conventional therapy",
+   "decision_date": "2025-11-20",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "hta_id": "public_verified",
+     "geo_id": "public_verified",
+     "body": "public_verified",
+     "brand_id": "public_verified",
+     "indication": "public_verified",
+     "decision": "public_verified",
+     "restriction_text": "public_verified",
+     "decision_date": "public_verified"
+    }
+   },
+   "_key": "HTA-004",
+   "_source_ids": [
+    "SRC-GBA-CD",
+    "SRC-AMT-GBA"
+   ]
+  },
+  {
+   "hta_id": "HTA-005",
+   "geo_id": "FRA",
+   "body": "HAS",
+   "brand_id": "TRE",
+   "indication": "UC",
+   "decision": "recommended (restricted)",
+   "restriction_text": "Clinical benefit moderate, no added benefit (no ASMR); reimbursed only after conventional treatment, at least one anti-TNF and vedolizumab",
+   "decision_date": "2025-07-16",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "hta_id": "public_verified",
+     "geo_id": "public_verified",
+     "body": "public_verified",
+     "brand_id": "public_verified",
+     "indication": "public_verified",
+     "decision": "public_verified",
+     "restriction_text": "public_verified",
+     "decision_date": "public_verified"
+    }
+   },
+   "_key": "HTA-005",
+   "_source_ids": [
+    "SRC-HAS-UC",
+    "SRC-VIDAL-TRE"
+   ]
+  },
+  {
+   "hta_id": "HTA-006",
+   "geo_id": "FRA",
+   "body": "HAS",
+   "brand_id": "TRE",
+   "indication": "CD",
+   "decision": "recommended (restricted)",
+   "restriction_text": "Clinical benefit important, no added benefit (ASMR V); reimbursed after conventional treatment and at least one anti-TNF, or when these are contraindicated",
+   "decision_date": "2025-11-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "hta_id": "public_verified",
+     "geo_id": "public_verified",
+     "body": "public_verified",
+     "brand_id": "public_verified",
+     "indication": "public_verified",
+     "decision": "public_verified",
+     "restriction_text": "public_verified",
+     "decision_date": "public_verified"
+    }
+   },
+   "_key": "HTA-006",
+   "_source_ids": [
+    "SRC-VIDAL-TRE"
+   ]
+  },
+  {
+   "hta_id": "HTA-007",
+   "geo_id": "CAN",
+   "body": "CDA-AMC",
+   "brand_id": "TRE",
+   "indication": "UC",
+   "decision": "recommended (restricted)",
+   "restriction_text": "Reimburse with conditions: same patients as other advanced UC therapies; not good value at the public list price, so a price reduction is needed",
+   "decision_date": "2025-11",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "hta_id": "public_verified",
+     "geo_id": "public_verified",
+     "body": "public_verified",
+     "brand_id": "public_verified",
+     "indication": "public_verified",
+     "decision": "public_verified",
+     "restriction_text": "public_verified",
+     "decision_date": "public_verified"
+    }
+   },
+   "_key": "HTA-007",
+   "_source_ids": [
+    "SRC-CDA-UC"
+   ]
+  },
+  {
+   "hta_id": "HTA-008",
+   "geo_id": "CAN",
+   "body": "CDA-AMC",
+   "brand_id": "TRE",
+   "indication": "CD",
+   "decision": "recommended (restricted)",
+   "restriction_text": "Reimburse with conditions",
+   "decision_date": "2025-09",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "hta_id": "public_verified",
+     "geo_id": "public_verified",
+     "body": "public_verified",
+     "brand_id": "public_verified",
+     "indication": "public_verified",
+     "decision": "public_verified",
+     "restriction_text": "public_verified",
+     "decision_date": "public_verified"
+    }
+   },
+   "_key": "HTA-008",
+   "_source_ids": [
+    "SRC-CDA-CD"
+   ]
+  }
+ ]
+}

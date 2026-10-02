@@ -1,0 +1,631 @@
+{
+ "table": "strategic_imperatives",
+ "description": "SIMULATED J&J strategic imperatives (replace with the real brand plan).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "imperative_id": "SI-TRE-01",
+   "brand_id": "TRE",
+   "indication_scope": "UC; CD",
+   "title": "Establish TREMFYA as the preferred IL-23 in bio-naive moderate-severe UC and CD",
+   "theme": "differentiation",
+   "time_horizon": "1-3y",
+   "priority_rank": 1,
+   "required_by_date": "2029-03-19",
+   "evidence_readiness_index": 76,
+   "status_rag": "green",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-TRE-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-TRE-02",
+   "brand_id": "TRE",
+   "indication_scope": "UC; CD",
+   "title": "Own 'deep healing': endoscopic, histologic and transmural remission",
+   "theme": "differentiation",
+   "time_horizon": "1-3y",
+   "priority_rank": 2,
+   "required_by_date": "2029-03-19",
+   "evidence_readiness_index": 73,
+   "status_rag": "green",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-TRE-02",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-TRE-03",
+   "brand_id": "TRE",
+   "indication_scope": "UC; CD",
+   "title": "Defend fully-SC flexibility leadership as SC-induction competitors arrive",
+   "theme": "convenience",
+   "time_horizon": "0-12m",
+   "priority_rank": 3,
+   "required_by_date": "2027-09-19",
+   "evidence_readiness_index": 92,
+   "status_rag": "green",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-TRE-03",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-TRE-04",
+   "brand_id": "TRE",
+   "indication_scope": "UC; CD",
+   "title": "Demonstrate long-term durability and consistent safety (>=3-5y)",
+   "theme": "durability",
+   "time_horizon": "1-3y",
+   "priority_rank": 4,
+   "required_by_date": "2029-03-19",
+   "evidence_readiness_index": 99,
+   "status_rag": "green",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-TRE-04",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-TRE-05",
+   "brand_id": "TRE",
+   "indication_scope": "UC; CD",
+   "title": "Win access vs IL-23 peers and ustekinumab biosimilars",
+   "theme": "access",
+   "time_horizon": "0-12m",
+   "priority_rank": 5,
+   "required_by_date": "2027-09-19",
+   "evidence_readiness_index": 82,
+   "status_rag": "green",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-TRE-05",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-TRE-06",
+   "brand_id": "TRE",
+   "indication_scope": "CD; UC",
+   "title": "Expand into special populations: perianal fistula, pediatric, pouchitis, pregnancy",
+   "theme": "expand population",
+   "time_horizon": "1-3y",
+   "priority_rank": 6,
+   "required_by_date": "2029-03-19",
+   "evidence_readiness_index": 70,
+   "status_rag": "green",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-TRE-06",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-TRE-07",
+   "brand_id": "JNJ4804",
+   "indication_scope": "UC; CD",
+   "title": "Raise the efficacy ceiling in refractory IBD with JNJ-4804 (guselkumab + golimumab)",
+   "theme": "lifecycle",
+   "time_horizon": "3-5y",
+   "priority_rank": 7,
+   "required_by_date": "2031-03-19",
+   "evidence_readiness_index": 87,
+   "status_rag": "green",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-TRE-07",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-ICO-01",
+   "brand_id": "ICO",
+   "indication_scope": "UC",
+   "title": "Establish oral IL-23R blockade as biologic-level efficacy in UC",
+   "theme": "differentiation",
+   "time_horizon": "1-3y",
+   "priority_rank": 1,
+   "required_by_date": "2029-03-19",
+   "evidence_readiness_index": 86,
+   "status_rag": "green",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-ICO-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-ICO-02",
+   "brand_id": "ICO",
+   "indication_scope": "UC; CD",
+   "title": "Position icotrokinra as the first advanced therapy of choice ahead of JAK/S1P/obefazimod",
+   "theme": "differentiation",
+   "time_horizon": "3-5y",
+   "priority_rank": 2,
+   "required_by_date": "2031-03-19",
+   "evidence_readiness_index": 54,
+   "status_rag": "amber",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-ICO-02",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-ICO-03",
+   "brand_id": "ICO",
+   "indication_scope": "CD",
+   "title": "Generate CD efficacy via ICONIC-CD Ph2b/3",
+   "theme": "expand population",
+   "time_horizon": "3-5y",
+   "priority_rank": 3,
+   "required_by_date": "2031-03-19",
+   "evidence_readiness_index": 50,
+   "status_rag": "amber",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-ICO-03",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-ICO-04",
+   "brand_id": "ICO",
+   "indication_scope": "UC; CD",
+   "title": "Define the TREMFYA-icotrokinra portfolio story (sequencing, preference) without cannibalisation",
+   "theme": "lifecycle",
+   "time_horizon": "1-3y",
+   "priority_rank": 4,
+   "required_by_date": "2029-03-19",
+   "evidence_readiness_index": 35,
+   "status_rag": "red",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-ICO-04",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-ICO-05",
+   "brand_id": "ICO",
+   "indication_scope": "UC",
+   "title": "Leverage psoriasis ICONIC safety/efficacy to build IBD confidence",
+   "theme": "safety",
+   "time_horizon": "0-12m",
+   "priority_rank": 5,
+   "required_by_date": "2027-09-19",
+   "evidence_readiness_index": 26,
+   "status_rag": "red",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-ICO-05",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "imperative_id": "SI-ICO-06",
+   "brand_id": "ICO",
+   "indication_scope": "UC",
+   "title": "Launch readiness: payer value story for an oral peptide vs generic/biosimilar options",
+   "theme": "launch readiness",
+   "time_horizon": "3-5y",
+   "priority_rank": 6,
+   "required_by_date": "2031-03-19",
+   "evidence_readiness_index": 54,
+   "status_rag": "amber",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "imperative_id",
+     "brand_id",
+     "indication_scope",
+     "title",
+     "theme",
+     "time_horizon",
+     "priority_rank",
+     "required_by_date"
+    ],
+    "derived_fields": [
+     "evidence_readiness_index",
+     "status_rag"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "imperative_id": "simulated",
+     "brand_id": "simulated",
+     "indication_scope": "simulated",
+     "title": "simulated",
+     "theme": "simulated",
+     "time_horizon": "simulated",
+     "priority_rank": "simulated",
+     "required_by_date": "simulated",
+     "evidence_readiness_index": "derived",
+     "status_rag": "derived"
+    }
+   },
+   "_key": "SI-ICO-06",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

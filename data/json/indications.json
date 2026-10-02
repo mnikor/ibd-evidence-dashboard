@@ -1,0 +1,133 @@
+{
+ "table": "indications",
+ "description": "Indications in scope.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "indication_id": "UC",
+   "name": "Ulcerative colitis",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "indication_id": "reference",
+     "name": "reference"
+    }
+   },
+   "_key": "UC",
+   "_source_ids": []
+  },
+  {
+   "indication_id": "CD",
+   "name": "Crohn's disease",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "indication_id": "reference",
+     "name": "reference"
+    }
+   },
+   "_key": "CD",
+   "_source_ids": []
+  },
+  {
+   "indication_id": "PFCD",
+   "name": "Perianal fistulizing Crohn's disease",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "indication_id": "reference",
+     "name": "reference"
+    }
+   },
+   "_key": "PFCD",
+   "_source_ids": []
+  },
+  {
+   "indication_id": "POUCH",
+   "name": "Pouchitis",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "indication_id": "reference",
+     "name": "reference"
+    }
+   },
+   "_key": "POUCH",
+   "_source_ids": []
+  },
+  {
+   "indication_id": "PED-UC",
+   "name": "Pediatric UC",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "indication_id": "reference",
+     "name": "reference"
+    }
+   },
+   "_key": "PED-UC",
+   "_source_ids": []
+  },
+  {
+   "indication_id": "PED-CD",
+   "name": "Pediatric CD",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "indication_id": "reference",
+     "name": "reference"
+    }
+   },
+   "_key": "PED-CD",
+   "_source_ids": []
+  },
+  {
+   "indication_id": "PSO",
+   "name": "Plaque psoriasis (cross-indication)",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "indication_id": "reference",
+     "name": "reference"
+    }
+   },
+   "_key": "PSO",
+   "_source_ids": []
+  }
+ ]
+}

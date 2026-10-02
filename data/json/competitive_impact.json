@@ -1,0 +1,349 @@
+{
+ "table": "competitive_impact",
+ "description": "SIMULATED impact of competitor events on J&J brands (derived CTI).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "impact_id": "IMP-01",
+   "event_id": "EV-101",
+   "jnj_brand_id": "TRE",
+   "affected_imperative_ids": "SI-TRE-03",
+   "affected_gap_ids": "GAP-10",
+   "impact_direction": "negative",
+   "impact_mechanism": "differentiation eroded",
+   "impact_magnitude_1to5": 4,
+   "time_to_impact_months": 3,
+   "segment_overlap": 0.86,
+   "competitive_threat_index": 49,
+   "jnj_response_options": "Generate fully-SC real-world evidence (SIM-RWE-01; ask whether GORGEOUS can report an SC-induction cohort); publish ASTRO/GRAVITI long-term data; patient-experience evidence",
+   "preparedness_status": "ready",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "impact_id",
+     "event_id",
+     "jnj_brand_id",
+     "affected_imperative_ids",
+     "affected_gap_ids",
+     "impact_direction",
+     "impact_mechanism",
+     "impact_magnitude_1to5",
+     "time_to_impact_months",
+     "segment_overlap",
+     "jnj_response_options",
+     "preparedness_status"
+    ],
+    "derived_fields": [
+     "competitive_threat_index"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "impact_id": "simulated",
+     "event_id": "simulated",
+     "jnj_brand_id": "simulated",
+     "affected_imperative_ids": "simulated",
+     "affected_gap_ids": "simulated",
+     "impact_direction": "simulated",
+     "impact_mechanism": "simulated",
+     "impact_magnitude_1to5": "simulated",
+     "time_to_impact_months": "simulated",
+     "segment_overlap": "simulated",
+     "competitive_threat_index": "derived",
+     "jnj_response_options": "simulated",
+     "preparedness_status": "simulated"
+    }
+   },
+   "_key": "IMP-01",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "impact_id": "IMP-02",
+   "event_id": "EV-107",
+   "jnj_brand_id": "TRE",
+   "affected_imperative_ids": "SI-TRE-01",
+   "affected_gap_ids": "GAP-02",
+   "impact_direction": "negative",
+   "impact_mechanism": "guideline repositioning",
+   "impact_magnitude_1to5": 4,
+   "time_to_impact_months": 13,
+   "segment_overlap": 0.76,
+   "competitive_threat_index": 21,
+   "jnj_response_options": "Commission UC NMA (SIM-ITC-02); consider UC H2H concept; prepare reactive scientific exchange",
+   "preparedness_status": "ready",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "impact_id",
+     "event_id",
+     "jnj_brand_id",
+     "affected_imperative_ids",
+     "affected_gap_ids",
+     "impact_direction",
+     "impact_mechanism",
+     "impact_magnitude_1to5",
+     "time_to_impact_months",
+     "segment_overlap",
+     "jnj_response_options",
+     "preparedness_status"
+    ],
+    "derived_fields": [
+     "competitive_threat_index"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "impact_id": "simulated",
+     "event_id": "simulated",
+     "jnj_brand_id": "simulated",
+     "affected_imperative_ids": "simulated",
+     "affected_gap_ids": "simulated",
+     "impact_direction": "simulated",
+     "impact_mechanism": "simulated",
+     "impact_magnitude_1to5": "simulated",
+     "time_to_impact_months": "simulated",
+     "segment_overlap": "simulated",
+     "competitive_threat_index": "derived",
+     "jnj_response_options": "simulated",
+     "preparedness_status": "simulated"
+    }
+   },
+   "_key": "IMP-02",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "impact_id": "IMP-03",
+   "event_id": "EV-001",
+   "jnj_brand_id": "ICO",
+   "affected_imperative_ids": "SI-ICO-02",
+   "affected_gap_ids": "GAP-18",
+   "impact_direction": "negative",
+   "impact_mechanism": "new class entrant",
+   "impact_magnitude_1to5": 3,
+   "time_to_impact_months": 12,
+   "segment_overlap": 0.58,
+   "competitive_threat_index": 8,
+   "jnj_response_options": "Position oral convenience + IL-23 safety; oral NMA; monitor TL1A maintenance data",
+   "preparedness_status": "ready",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "impact_id",
+     "event_id",
+     "jnj_brand_id",
+     "affected_imperative_ids",
+     "affected_gap_ids",
+     "impact_direction",
+     "impact_mechanism",
+     "impact_magnitude_1to5",
+     "time_to_impact_months",
+     "segment_overlap",
+     "jnj_response_options",
+     "preparedness_status"
+    ],
+    "derived_fields": [
+     "competitive_threat_index"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "impact_id": "simulated",
+     "event_id": "simulated",
+     "jnj_brand_id": "simulated",
+     "affected_imperative_ids": "simulated",
+     "affected_gap_ids": "simulated",
+     "impact_direction": "simulated",
+     "impact_mechanism": "simulated",
+     "impact_magnitude_1to5": "simulated",
+     "time_to_impact_months": "simulated",
+     "segment_overlap": "simulated",
+     "competitive_threat_index": "derived",
+     "jnj_response_options": "simulated",
+     "preparedness_status": "simulated"
+    }
+   },
+   "_key": "IMP-03",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "impact_id": "IMP-04",
+   "event_id": "EV-003",
+   "jnj_brand_id": "ICO",
+   "affected_imperative_ids": "SI-ICO-02",
+   "affected_gap_ids": "GAP-18",
+   "impact_direction": "negative",
+   "impact_mechanism": "new class entrant",
+   "impact_magnitude_1to5": 3,
+   "time_to_impact_months": 15,
+   "segment_overlap": 0.56,
+   "competitive_threat_index": 5,
+   "jnj_response_options": "Oral competitor arrives before icotrokinra UC; emphasise IL-23 efficacy/safety heritage and ICONIC-UC",
+   "preparedness_status": "in progress",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "impact_id",
+     "event_id",
+     "jnj_brand_id",
+     "affected_imperative_ids",
+     "affected_gap_ids",
+     "impact_direction",
+     "impact_mechanism",
+     "impact_magnitude_1to5",
+     "time_to_impact_months",
+     "segment_overlap",
+     "jnj_response_options",
+     "preparedness_status"
+    ],
+    "derived_fields": [
+     "competitive_threat_index"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "impact_id": "simulated",
+     "event_id": "simulated",
+     "jnj_brand_id": "simulated",
+     "affected_imperative_ids": "simulated",
+     "affected_gap_ids": "simulated",
+     "impact_direction": "simulated",
+     "impact_mechanism": "simulated",
+     "impact_magnitude_1to5": "simulated",
+     "time_to_impact_months": "simulated",
+     "segment_overlap": "simulated",
+     "competitive_threat_index": "derived",
+     "jnj_response_options": "simulated",
+     "preparedness_status": "simulated"
+    }
+   },
+   "_key": "IMP-04",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "impact_id": "IMP-05",
+   "event_id": "EV-001",
+   "jnj_brand_id": "TRE",
+   "affected_imperative_ids": "SI-TRE-01",
+   "affected_gap_ids": "GAP-06",
+   "impact_direction": "negative",
+   "impact_mechanism": "new class entrant",
+   "impact_magnitude_1to5": 2,
+   "time_to_impact_months": 18,
+   "segment_overlap": 0.74,
+   "competitive_threat_index": 5,
+   "jnj_response_options": "Long-term durability data (QUASAR/GALAXI LTE) as counter to new MoA",
+   "preparedness_status": "not started",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "impact_id",
+     "event_id",
+     "jnj_brand_id",
+     "affected_imperative_ids",
+     "affected_gap_ids",
+     "impact_direction",
+     "impact_mechanism",
+     "impact_magnitude_1to5",
+     "time_to_impact_months",
+     "segment_overlap",
+     "jnj_response_options",
+     "preparedness_status"
+    ],
+    "derived_fields": [
+     "competitive_threat_index"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "impact_id": "simulated",
+     "event_id": "simulated",
+     "jnj_brand_id": "simulated",
+     "affected_imperative_ids": "simulated",
+     "affected_gap_ids": "simulated",
+     "impact_direction": "simulated",
+     "impact_mechanism": "simulated",
+     "impact_magnitude_1to5": "simulated",
+     "time_to_impact_months": "simulated",
+     "segment_overlap": "simulated",
+     "competitive_threat_index": "derived",
+     "jnj_response_options": "simulated",
+     "preparedness_status": "simulated"
+    }
+   },
+   "_key": "IMP-05",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "impact_id": "IMP-06",
+   "event_id": "EV-106",
+   "jnj_brand_id": "TRE",
+   "affected_imperative_ids": "SI-TRE-01",
+   "affected_gap_ids": "GAP-02",
+   "impact_direction": "negative",
+   "impact_mechanism": "new class entrant",
+   "impact_magnitude_1to5": 2,
+   "time_to_impact_months": 9,
+   "segment_overlap": 0.53,
+   "competitive_threat_index": 5,
+   "jnj_response_options": "Monitor; include TL1A in NMA updates",
+   "preparedness_status": "in progress",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "impact_id",
+     "event_id",
+     "jnj_brand_id",
+     "affected_imperative_ids",
+     "affected_gap_ids",
+     "impact_direction",
+     "impact_mechanism",
+     "impact_magnitude_1to5",
+     "time_to_impact_months",
+     "segment_overlap",
+     "jnj_response_options",
+     "preparedness_status"
+    ],
+    "derived_fields": [
+     "competitive_threat_index"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "impact_id": "simulated",
+     "event_id": "simulated",
+     "jnj_brand_id": "simulated",
+     "affected_imperative_ids": "simulated",
+     "affected_gap_ids": "simulated",
+     "impact_direction": "simulated",
+     "impact_mechanism": "simulated",
+     "impact_magnitude_1to5": "simulated",
+     "time_to_impact_months": "simulated",
+     "segment_overlap": "simulated",
+     "competitive_threat_index": "derived",
+     "jnj_response_options": "simulated",
+     "preparedness_status": "simulated"
+    }
+   },
+   "_key": "IMP-06",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  }
+ ]
+}

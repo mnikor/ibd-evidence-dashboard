@@ -1,0 +1,863 @@
+{
+ "table": "competitive_events",
+ "description": "Competitor and market events. Public events verified; projected events simulated.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "event_id": "EV-001",
+   "brand_id": "TUL",
+   "type": "topline readout",
+   "date": "2026-06-22",
+   "date_certainty": "confirmed",
+   "description": "ATLAS-UC Study 2 (Ph3, induction-only) met primary endpoint (clinical remission wk12) and key secondaries; first anti-TL1A Ph3 success. ATLAS-UC Study 1 ongoing",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-001",
+   "_source_ids": [
+    "SRC-021"
+   ]
+  },
+  {
+   "event_id": "EV-002",
+   "brand_id": "OBE",
+   "type": "topline readout",
+   "date": "2026-06-01",
+   "date_certainty": "confirmed",
+   "description": "ABTECT maintenance (Ph3) positive; no new safety signals",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-002",
+   "_source_ids": [
+    "SRC-022"
+   ]
+  },
+  {
+   "event_id": "EV-003",
+   "brand_id": "OBE",
+   "type": "filing",
+   "date": "2026-Q4",
+   "date_certainty": "guided",
+   "description": "NDA submission to FDA planned Q4 2026",
+   "probability_positive": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-003",
+   "_source_ids": [
+    "SRC-023"
+   ]
+  },
+  {
+   "event_id": "EV-004",
+   "brand_id": "OBE",
+   "type": "topline readout",
+   "date": "2027-mid",
+   "date_certainty": "guided",
+   "description": "ENHANCE-CD Ph2b induction topline expected mid-2027",
+   "probability_positive": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-004",
+   "_source_ids": [
+    "SRC-023"
+   ]
+  },
+  {
+   "event_id": "EV-005",
+   "brand_id": "SKY",
+   "type": "filing",
+   "date": "2026-04-27",
+   "date_certainty": "confirmed",
+   "description": "FDA sBLA: SC induction in CD (AFFIRM)",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-005",
+   "_source_ids": [
+    "SRC-024"
+   ]
+  },
+  {
+   "event_id": "EV-006",
+   "brand_id": "SKY",
+   "type": "filing",
+   "date": "2026-09",
+   "date_certainty": "confirmed",
+   "description": "EMA filing: SC induction in CD",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-006",
+   "_source_ids": [
+    "SRC-025"
+   ]
+  },
+  {
+   "event_id": "EV-007",
+   "brand_id": "OMV",
+   "type": "approval",
+   "date": "2025-01-15",
+   "date_certainty": "confirmed",
+   "description": "Omvoh FDA approval in CD",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-007",
+   "_source_ids": [
+    "SRC-028"
+   ]
+  },
+  {
+   "event_id": "EV-008",
+   "brand_id": "ICO",
+   "type": "approval",
+   "date": "2026-03-18",
+   "date_certainty": "confirmed",
+   "description": "ICOTYDE FDA approval in psoriasis (cross-indication halo for IBD)",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-008",
+   "_source_ids": [
+    "SRC-010"
+   ]
+  },
+  {
+   "event_id": "EV-009",
+   "brand_id": "JNJ4804",
+   "type": "congress presentation",
+   "date": "2026-05",
+   "date_certainty": "confirmed",
+   "description": "DUET-UC/CD Ph2b week-48 data at DDW 2026; Ph3 DUET ENCORE started",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-009",
+   "_source_ids": [
+    "SRC-012"
+   ]
+  },
+  {
+   "event_id": "EV-010",
+   "brand_id": "TRE",
+   "type": "congress presentation",
+   "date": "2026-05",
+   "date_certainty": "confirmed",
+   "description": "FUZION CD Ph3 perianal fistula data at DDW 2026",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-010",
+   "_source_ids": [
+    "SRC-011"
+   ]
+  },
+  {
+   "event_id": "EV-011",
+   "brand_id": "TRE",
+   "type": "trial start",
+   "date": "2026-04-21",
+   "date_certainty": "confirmed",
+   "description": "CHARGE Ph3b H2H guselkumab vs risankizumab in CD started",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-011",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-012",
+   "brand_id": "STE",
+   "type": "market",
+   "date": "2026-07",
+   "date_certainty": "confirmed",
+   "description": "Stelara Q2 2026 sales $740M (-55.7%) on biosimilar erosion",
+   "probability_positive": 1.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-012",
+   "_source_ids": [
+    "SRC-030"
+   ]
+  },
+  {
+   "event_id": "EV-101",
+   "brand_id": "SKY",
+   "type": "approval",
+   "date": "2026-Q4",
+   "date_certainty": "company guidance",
+   "description": "FDA decision on Skyrizi SC induction in CD, expected later in 2026 (AbbVie guidance, Apr 2026)",
+   "probability_positive": 0.85,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "public_verified",
+     "brand_id": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "date_certainty": "public_verified",
+     "description": "public_verified",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-101",
+   "_source_ids": [
+    "SRC-024"
+   ]
+  },
+  {
+   "event_id": "EV-102",
+   "brand_id": "SKY",
+   "type": "approval",
+   "date": "2027-Q3",
+   "date_certainty": "AI-predicted",
+   "description": "Projected EC decision on Skyrizi SC induction in CD",
+   "probability_positive": 0.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-102",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-103",
+   "brand_id": "OBE",
+   "type": "approval",
+   "date": "2027-Q4",
+   "date_certainty": "AI-predicted",
+   "description": "Projected FDA decision on obefazimod in UC (standard review after Q4-2026 NDA)",
+   "probability_positive": 0.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-103",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-104",
+   "brand_id": "TUL",
+   "type": "topline readout",
+   "date": "2026-12",
+   "date_certainty": "AI-predicted",
+   "description": "Projected ATLAS-UC maintenance / programme primary completion topline",
+   "probability_positive": 0.65,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-104",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-105",
+   "brand_id": "TUL",
+   "type": "filing",
+   "date": "2027-H1",
+   "date_certainty": "AI-predicted",
+   "description": "Projected tulisokibart UC filing",
+   "probability_positive": 0.6,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-105",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-106",
+   "brand_id": "AFI",
+   "type": "topline readout",
+   "date": "2027-Q2",
+   "date_certainty": "AI-predicted",
+   "description": "Projected AMETRINE-1/2 Ph3 UC topline (PCD Jan 2027)",
+   "probability_positive": 0.6,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-106",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-107",
+   "brand_id": "SKY",
+   "type": "topline readout",
+   "date": "2027-Q4",
+   "date_certainty": "AI-predicted",
+   "description": "Projected REVAMP topline: risankizumab vs vedolizumab in targeted-therapy-naive UC (PCD Aug 2027)",
+   "probability_positive": 0.65,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-107",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-108",
+   "brand_id": "DUV",
+   "type": "topline readout",
+   "date": "2028-Q3",
+   "date_certainty": "AI-predicted",
+   "description": "Projected SUNSCAPE-1 UC induction topline (PCD May 2028)",
+   "probability_positive": 0.55,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-108",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-109",
+   "brand_id": "OMV",
+   "type": "topline readout",
+   "date": "2028-Q2",
+   "date_certainty": "AI-predicted",
+   "description": "Projected COMMIT-UC (mirikizumab + tirzepatide) topline",
+   "probability_positive": 0.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-109",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-110",
+   "brand_id": "MOR",
+   "type": "topline readout",
+   "date": "2027-Q3",
+   "date_certainty": "AI-predicted",
+   "description": "Projected TOPAZ-UC (MORF-057 + mirikizumab) Ph2 topline",
+   "probability_positive": 0.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-110",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-111",
+   "brand_id": "TRE",
+   "type": "topline readout",
+   "date": "2029-Q1",
+   "date_certainty": "AI-predicted",
+   "description": "CHARGE (GUS vs RZB) topline, PCD Nov 2028",
+   "probability_positive": 0.6,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-111",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "event_id": "EV-112",
+   "brand_id": "ICO",
+   "type": "topline readout",
+   "date": "2028-Q2",
+   "date_certainty": "AI-predicted",
+   "description": "ICONIC-UC topline, PCD Jan 2028",
+   "probability_positive": 0.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "event_id",
+     "brand_id",
+     "type",
+     "date",
+     "date_certainty",
+     "description"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "probability_positive"
+    ],
+    "field_origin": {
+     "event_id": "simulated",
+     "brand_id": "simulated",
+     "type": "simulated",
+     "date": "simulated",
+     "date_certainty": "simulated",
+     "description": "simulated",
+     "probability_positive": "ai_inferred"
+    }
+   },
+   "_key": "EV-112",
+   "_source_ids": [
+    "SRC-AI",
+    "SRC-CTGOV"
+   ]
+  }
+ ]
+}

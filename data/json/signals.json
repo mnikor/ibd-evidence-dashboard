@@ -1,0 +1,1203 @@
+{
+ "table": "signals",
+ "description": "Signal feed. Headlines are public events and registry changes; materiality scores are simulated (AI).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "signal_id": "SIG-001",
+   "detected_at": "2026-06-22",
+   "signal_type": "topline readout",
+   "brand_id": "TUL",
+   "headline": "ATLAS-UC Study 2 (Ph3, induction-only) met primary endpoint (clinical remission wk12) and key secondaries; first anti-TL1A Ph3 success. ATLAS-UC Study 1 ongoing",
+   "materiality_score": 0.92,
+   "status": "actioned",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-001",
+   "_source_ids": [
+    "SRC-021"
+   ]
+  },
+  {
+   "signal_id": "SIG-002",
+   "detected_at": "2026-06-01",
+   "signal_type": "topline readout",
+   "brand_id": "OBE",
+   "headline": "ABTECT maintenance (Ph3) positive; no new safety signals",
+   "materiality_score": 0.65,
+   "status": "actioned",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-002",
+   "_source_ids": [
+    "SRC-022"
+   ]
+  },
+  {
+   "signal_id": "SIG-003",
+   "detected_at": "2026-Q4",
+   "signal_type": "filing",
+   "brand_id": "OBE",
+   "headline": "NDA submission to FDA planned Q4 2026",
+   "materiality_score": 0.83,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-003",
+   "_source_ids": [
+    "SRC-023"
+   ]
+  },
+  {
+   "signal_id": "SIG-004",
+   "detected_at": "2027-mid",
+   "signal_type": "topline readout",
+   "brand_id": "OBE",
+   "headline": "ENHANCE-CD Ph2b induction topline expected mid-2027",
+   "materiality_score": 0.69,
+   "status": "triaged",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-004",
+   "_source_ids": [
+    "SRC-023"
+   ]
+  },
+  {
+   "signal_id": "SIG-005",
+   "detected_at": "2026-04-27",
+   "signal_type": "filing",
+   "brand_id": "SKY",
+   "headline": "FDA sBLA: SC induction in CD (AFFIRM)",
+   "materiality_score": 0.85,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-005",
+   "_source_ids": [
+    "SRC-024"
+   ]
+  },
+  {
+   "signal_id": "SIG-006",
+   "detected_at": "2026-09",
+   "signal_type": "filing",
+   "brand_id": "SKY",
+   "headline": "EMA filing: SC induction in CD",
+   "materiality_score": 0.48,
+   "status": "actioned",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-006",
+   "_source_ids": [
+    "SRC-025"
+   ]
+  },
+  {
+   "signal_id": "SIG-007",
+   "detected_at": "2025-01-15",
+   "signal_type": "approval",
+   "brand_id": "OMV",
+   "headline": "Omvoh FDA approval in CD",
+   "materiality_score": 0.43,
+   "status": "actioned",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-007",
+   "_source_ids": [
+    "SRC-028"
+   ]
+  },
+  {
+   "signal_id": "SIG-008",
+   "detected_at": "2026-03-18",
+   "signal_type": "approval",
+   "brand_id": "ICO",
+   "headline": "ICOTYDE FDA approval in psoriasis (cross-indication halo for IBD)",
+   "materiality_score": 0.88,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-008",
+   "_source_ids": [
+    "SRC-010"
+   ]
+  },
+  {
+   "signal_id": "SIG-009",
+   "detected_at": "2026-05",
+   "signal_type": "congress presentation",
+   "brand_id": "JNJ4804",
+   "headline": "DUET-UC/CD Ph2b week-48 data at DDW 2026; Ph3 DUET ENCORE started",
+   "materiality_score": 0.91,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-009",
+   "_source_ids": [
+    "SRC-012"
+   ]
+  },
+  {
+   "signal_id": "SIG-010",
+   "detected_at": "2026-05",
+   "signal_type": "congress presentation",
+   "brand_id": "TRE",
+   "headline": "FUZION CD Ph3 perianal fistula data at DDW 2026",
+   "materiality_score": 0.87,
+   "status": "triaged",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-010",
+   "_source_ids": [
+    "SRC-011"
+   ]
+  },
+  {
+   "signal_id": "SIG-011",
+   "detected_at": "2026-04-21",
+   "signal_type": "trial start",
+   "brand_id": "TRE",
+   "headline": "CHARGE Ph3b H2H guselkumab vs risankizumab in CD started",
+   "materiality_score": 0.56,
+   "status": "triaged",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-011",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "signal_id": "SIG-012",
+   "detected_at": "2026-07",
+   "signal_type": "market",
+   "brand_id": "STE",
+   "headline": "Stelara Q2 2026 sales $740M (-55.7%) on biosimilar erosion",
+   "materiality_score": 0.55,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "public_verified",
+     "detected_at": "public_verified",
+     "signal_type": "public_verified",
+     "brand_id": "public_verified",
+     "headline": "public_verified",
+     "materiality_score": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "SIG-012",
+   "_source_ids": [
+    "SRC-030"
+   ]
+  },
+  {
+   "signal_id": "SIG-013",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "SKY",
+   "headline": "REVAMP: primary completion 2027-08 (A Study to Assess the Change in Disease Activity in Adult Participants)",
+   "materiality_score": 0.39,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-013",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-014",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "SKY",
+   "headline": "AFFIRM: primary completion 2027-03 (A Study to Assess Adverse Events and Change in Disease Activity of Ris)",
+   "materiality_score": 0.56,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-014",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-015",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "MOR",
+   "headline": "TOPAZ-UC: primary completion 2027-05 (LY4268989 (MORF-057) Co-Administered With Mirikizumab in Adults With M)",
+   "materiality_score": 0.87,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-015",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-016",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "OMV",
+   "headline": "NCT06598943: primary completion 2027-12 (A Study of Eltrekibart and Mirikizumab in Adult Patients With Moderate)",
+   "materiality_score": 0.43,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-016",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-017",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "OMV",
+   "headline": "AMAY: primary completion 2027-12 (A Study of Mirikizumab (LY3074828) in Pediatric Participants With Croh)",
+   "materiality_score": 0.57,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-017",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-018",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "OMV",
+   "headline": "NCT07483099: primary completion 2027-06 (A Study of LY4395089 and Mirikizumab (LY3074828) Given Together and Mi)",
+   "materiality_score": 0.51,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-018",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-019",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "OMV",
+   "headline": "NCT07483073: primary completion 2027-06 (A Master Protocol (IIBD): A Study of Multiple Drugs in Adults With Ulc)",
+   "materiality_score": 0.32,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-019",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-020",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "RIN",
+   "headline": "U-EMPOWER: primary completion 2027-06 (Crohn's Disease: Efficacy, Safety, and Pharmacokinetics of Upadacitini)",
+   "materiality_score": 0.33,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-020",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-021",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "RIN",
+   "headline": "U-ENDURE: primary completion 2027-09 (A Maintenance and Long-Term Extension Study of the Efficacy and Safety)",
+   "materiality_score": 0.6,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-021",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-022",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "RIN",
+   "headline": "U-ACTIVATE: primary completion 2027-07 (A Study to Evaluate the Long-Term Safety and Efficacy of Upadacitinib )",
+   "materiality_score": 0.44,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-022",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-023",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "ENT",
+   "headline": "NCT06045754: primary completion 2027-06-28 (A Study of Vedolizumab Intravenous (IV) and Adalimumab or Vedolizumab )",
+   "materiality_score": 0.9,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-023",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-024",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "ENT",
+   "headline": "PANORAMA: primary completion 2027-05-01 (A Study of Vedolizumab in Adults With Ulcerative Colitis (UC) or Crohn)",
+   "materiality_score": 0.52,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-024",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-025",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "ENT",
+   "headline": "NCT04779320: primary completion 2027-09-13 (A Study of Vedolizumab in Children and Teenagers With Moderate to Seve)",
+   "materiality_score": 0.32,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-025",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-026",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "ENT",
+   "headline": "NCT03221036: primary completion 2027-09-24 (Efficacy and Safety of Vedolizumab IV in Chinese Participants With Ulc)",
+   "materiality_score": 0.86,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-026",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-027",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "ENT",
+   "headline": "NCT06095128: primary completion 2027-07-09 (A Study of Vedolizumab With Tofacitinib in Adults With Ulcerative Coli)",
+   "materiality_score": 0.8,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-027",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-028",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "ENT",
+   "headline": "VICTRIVA: primary completion 2027-06-08 (A Study of Vedolizumab With and Without Upadacitinib in Adults With Cr)",
+   "materiality_score": 0.69,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-028",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-029",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "OBE",
+   "headline": "ENHANCE-CD: primary completion 2026-12 (Efficacy and Safety of Obefazimod in Subjects With Moderately to Sever)",
+   "materiality_score": 0.77,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-029",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-030",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "AFI",
+   "headline": "Ametrine-1: primary completion 2027-01-30 (A Study to Assess the Efficacy and Safety of Afimkibart (Also Known as)",
+   "materiality_score": 0.38,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-030",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-031",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "AFI",
+   "headline": "TAHOE: primary completion 2026-12-31 (Afimkibart (RO7790121) for the Treatment of Moderate to Severe Active )",
+   "materiality_score": 0.47,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-031",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  },
+  {
+   "signal_id": "SIG-032",
+   "detected_at": "2026-09-19",
+   "signal_type": "upcoming readout (registry)",
+   "brand_id": "AFI",
+   "headline": "Ametrine-2: primary completion 2027-01-30 (A Study to Assess the Efficacy and Safety of Induction Therapy With Af)",
+   "materiality_score": 0.8,
+   "status": "new",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "materiality_score"
+    ],
+    "derived_fields": [
+     "signal_id",
+     "detected_at",
+     "signal_type",
+     "brand_id",
+     "headline",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "signal_id": "derived",
+     "detected_at": "derived",
+     "signal_type": "derived",
+     "brand_id": "derived",
+     "headline": "derived",
+     "materiality_score": "simulated",
+     "status": "derived"
+    }
+   },
+   "_key": "SIG-032",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ],
+   "_note": "derived: competitor study with PCD in next 15 months"
+  }
+ ]
+}

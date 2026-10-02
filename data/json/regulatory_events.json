@@ -1,0 +1,548 @@
+{
+ "table": "regulatory_events",
+ "description": "Approvals and filings.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "reg_id": "REG-001",
+   "brand_id": "TRE",
+   "agency": "FDA",
+   "indication": "UC",
+   "type": "approval",
+   "date": "2024-09-11",
+   "description": "IV induction + SC maintenance, adults with mod-sev UC",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-001",
+   "_source_ids": [
+    "SRC-001",
+    "SRC-FDA-API"
+   ]
+  },
+  {
+   "reg_id": "REG-002",
+   "brand_id": "TRE",
+   "agency": "FDA",
+   "indication": "CD",
+   "type": "approval",
+   "date": "2025-03",
+   "description": "SC and IV induction options, adults with mod-sev CD",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-002",
+   "_source_ids": [
+    "SRC-002"
+   ]
+  },
+  {
+   "reg_id": "REG-003",
+   "brand_id": "TRE",
+   "agency": "EC",
+   "indication": "UC",
+   "type": "approval",
+   "date": "2025-04-25",
+   "description": "Adults with mod-sev UC",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-003",
+   "_source_ids": [
+    "SRC-004"
+   ]
+  },
+  {
+   "reg_id": "REG-004",
+   "brand_id": "TRE",
+   "agency": "EC",
+   "indication": "CD",
+   "type": "approval",
+   "date": "2025-05",
+   "description": "SC and IV induction options, adults with mod-sev CD",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-004",
+   "_source_ids": [
+    "SRC-005"
+   ]
+  },
+  {
+   "reg_id": "REG-005",
+   "brand_id": "TRE",
+   "agency": "FDA",
+   "indication": "UC",
+   "type": "label update",
+   "date": "2025-09-19",
+   "description": "SC induction in UC (ASTRO); first fully SC IL-23 regimen",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-005",
+   "_source_ids": [
+    "SRC-003"
+   ]
+  },
+  {
+   "reg_id": "REG-006",
+   "brand_id": "TRE",
+   "agency": "EC",
+   "indication": "UC",
+   "type": "label update",
+   "date": "2025-10-24",
+   "description": "SC induction through maintenance in UC",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-006",
+   "_source_ids": [
+    "SRC-006"
+   ]
+  },
+  {
+   "reg_id": "REG-007",
+   "brand_id": "ICO",
+   "agency": "FDA",
+   "indication": "Psoriasis",
+   "type": "approval",
+   "date": "2026-03-18",
+   "description": "ICOTYDE approved for mod-sev plaque psoriasis (adults, adolescents >=12y, >=40kg)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-007",
+   "_source_ids": [
+    "SRC-010"
+   ]
+  },
+  {
+   "reg_id": "REG-008",
+   "brand_id": "SKY",
+   "agency": "FDA",
+   "indication": "UC",
+   "type": "approval",
+   "date": "2024-06-18",
+   "description": "UC approval (INSPIRE/COMMAND)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-008",
+   "_source_ids": [
+    "SRC-029"
+   ]
+  },
+  {
+   "reg_id": "REG-009",
+   "brand_id": "SKY",
+   "agency": "FDA",
+   "indication": "CD",
+   "type": "approval",
+   "date": "2022-06-16",
+   "description": "CD approval (IV induction)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-009",
+   "_source_ids": [
+    "SRC-FDA-API"
+   ]
+  },
+  {
+   "reg_id": "REG-010",
+   "brand_id": "SKY",
+   "agency": "FDA",
+   "indication": "CD",
+   "type": "submission",
+   "date": "2026-04-27",
+   "description": "sBLA for SC induction in CD (AFFIRM)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-010",
+   "_source_ids": [
+    "SRC-024"
+   ]
+  },
+  {
+   "reg_id": "REG-011",
+   "brand_id": "SKY",
+   "agency": "EMA",
+   "indication": "CD",
+   "type": "submission",
+   "date": "2026-09",
+   "description": "Type II variation for SC induction in CD",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-011",
+   "_source_ids": [
+    "SRC-025"
+   ]
+  },
+  {
+   "reg_id": "REG-012",
+   "brand_id": "OMV",
+   "agency": "FDA",
+   "indication": "UC",
+   "type": "approval",
+   "date": "2023-10-26",
+   "description": "UC approval (LUCENT)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-012",
+   "_source_ids": [
+    "SRC-FDA-API"
+   ]
+  },
+  {
+   "reg_id": "REG-013",
+   "brand_id": "OMV",
+   "agency": "FDA",
+   "indication": "CD",
+   "type": "approval",
+   "date": "2025-01-15",
+   "description": "CD approval (VIVID-1)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-013",
+   "_source_ids": [
+    "SRC-028"
+   ]
+  },
+  {
+   "reg_id": "REG-014",
+   "brand_id": "RIN",
+   "agency": "FDA",
+   "indication": "CD",
+   "type": "approval",
+   "date": "2023-05-18",
+   "description": "CD approval, TNF-IR adults",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-014",
+   "_source_ids": [
+    "SRC-045"
+   ]
+  },
+  {
+   "reg_id": "REG-015",
+   "brand_id": "RIN",
+   "agency": "FDA",
+   "indication": "UC",
+   "type": "approval",
+   "date": "2022-03-16",
+   "description": "UC approval, TNF-IR adults",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-015",
+   "_source_ids": [
+    "SRC-FDA-API"
+   ]
+  },
+  {
+   "reg_id": "REG-016",
+   "brand_id": "VEL",
+   "agency": "FDA",
+   "indication": "UC",
+   "type": "approval",
+   "date": "2023-10-12",
+   "description": "Etrasimod UC approval",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-016",
+   "_source_ids": [
+    "SRC-FDA-API"
+   ]
+  },
+  {
+   "reg_id": "REG-017",
+   "brand_id": "ZEP",
+   "agency": "FDA",
+   "indication": "UC",
+   "type": "approval",
+   "date": "2021-05-27",
+   "description": "Ozanimod UC approval",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-017",
+   "_source_ids": [
+    "SRC-FDA-API"
+   ]
+  },
+  {
+   "reg_id": "REG-018",
+   "brand_id": "OBE",
+   "agency": "FDA",
+   "indication": "UC",
+   "type": "submission (planned)",
+   "date": "2026-Q4",
+   "description": "NDA submission planned Q4 2026",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "reg_id": "public_verified",
+     "brand_id": "public_verified",
+     "agency": "public_verified",
+     "indication": "public_verified",
+     "type": "public_verified",
+     "date": "public_verified",
+     "description": "public_verified"
+    }
+   },
+   "_key": "REG-018",
+   "_source_ids": [
+    "SRC-023"
+   ]
+  }
+ ]
+}

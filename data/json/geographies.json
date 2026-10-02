@@ -1,0 +1,889 @@
+{
+ "table": "geographies",
+ "description": "Regions and priority countries. Tier, prevalence and biologic penetration are simulated.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "geo_id": "GLOBAL",
+   "name": "Global",
+   "level": "global",
+   "parent_geo_id": "",
+   "hta_body": "",
+   "payer_archetype": "",
+   "market_priority_tier": "",
+   "ibd_prevalence_per_100k": null,
+   "biologic_penetration_pct": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "GLOBAL",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "NA",
+   "name": "North America",
+   "level": "region",
+   "parent_geo_id": "GLOBAL",
+   "hta_body": "",
+   "payer_archetype": "",
+   "market_priority_tier": "",
+   "ibd_prevalence_per_100k": null,
+   "biologic_penetration_pct": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "NA",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "EMEA",
+   "name": "Europe, Middle East & Africa",
+   "level": "region",
+   "parent_geo_id": "GLOBAL",
+   "hta_body": "",
+   "payer_archetype": "",
+   "market_priority_tier": "",
+   "ibd_prevalence_per_100k": null,
+   "biologic_penetration_pct": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "EMEA",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "APAC",
+   "name": "Asia-Pacific",
+   "level": "region",
+   "parent_geo_id": "GLOBAL",
+   "hta_body": "",
+   "payer_archetype": "",
+   "market_priority_tier": "",
+   "ibd_prevalence_per_100k": null,
+   "biologic_penetration_pct": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "APAC",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "LATAM",
+   "name": "Latin America",
+   "level": "region",
+   "parent_geo_id": "GLOBAL",
+   "hta_body": "",
+   "payer_archetype": "",
+   "market_priority_tier": "",
+   "ibd_prevalence_per_100k": null,
+   "biologic_penetration_pct": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "LATAM",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "USA",
+   "name": "United States",
+   "level": "country",
+   "parent_geo_id": "NA",
+   "hta_body": "none (payer-driven)",
+   "payer_archetype": "free-pricing",
+   "market_priority_tier": "T1",
+   "ibd_prevalence_per_100k": 477,
+   "biologic_penetration_pct": 21.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "USA",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "CAN",
+   "name": "Canada",
+   "level": "country",
+   "parent_geo_id": "NA",
+   "hta_body": "CDA-AMC",
+   "payer_archetype": "HTA-driven",
+   "market_priority_tier": "T2",
+   "ibd_prevalence_per_100k": 290,
+   "biologic_penetration_pct": 24.6,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "CAN",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "GBR",
+   "name": "United Kingdom",
+   "level": "country",
+   "parent_geo_id": "EMEA",
+   "hta_body": "NICE",
+   "payer_archetype": "HTA-driven",
+   "market_priority_tier": "T1",
+   "ibd_prevalence_per_100k": 221,
+   "biologic_penetration_pct": 37.9,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "GBR",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "DEU",
+   "name": "Germany",
+   "level": "country",
+   "parent_geo_id": "EMEA",
+   "hta_body": "G-BA / IQWiG",
+   "payer_archetype": "HTA-driven",
+   "market_priority_tier": "T1",
+   "ibd_prevalence_per_100k": 429,
+   "biologic_penetration_pct": 20.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "DEU",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "FRA",
+   "name": "France",
+   "level": "country",
+   "parent_geo_id": "EMEA",
+   "hta_body": "HAS",
+   "payer_archetype": "HTA-driven",
+   "market_priority_tier": "T1",
+   "ibd_prevalence_per_100k": 366,
+   "biologic_penetration_pct": 18.9,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "FRA",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "ITA",
+   "name": "Italy",
+   "level": "country",
+   "parent_geo_id": "EMEA",
+   "hta_body": "AIFA",
+   "payer_archetype": "budget-driven",
+   "market_priority_tier": "T2",
+   "ibd_prevalence_per_100k": 197,
+   "biologic_penetration_pct": 23.9,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "ITA",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "ESP",
+   "name": "Spain",
+   "level": "country",
+   "parent_geo_id": "EMEA",
+   "hta_body": "AEMPS / CIPM",
+   "payer_archetype": "budget-driven",
+   "market_priority_tier": "T2",
+   "ibd_prevalence_per_100k": 408,
+   "biologic_penetration_pct": 34.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "ESP",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "NLD",
+   "name": "Netherlands",
+   "level": "country",
+   "parent_geo_id": "EMEA",
+   "hta_body": "ZIN",
+   "payer_archetype": "HTA-driven",
+   "market_priority_tier": "T3",
+   "ibd_prevalence_per_100k": 437,
+   "biologic_penetration_pct": 23.4,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "NLD",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "POL",
+   "name": "Poland",
+   "level": "country",
+   "parent_geo_id": "EMEA",
+   "hta_body": "AOTMiT",
+   "payer_archetype": "budget-driven",
+   "market_priority_tier": "T3",
+   "ibd_prevalence_per_100k": 429,
+   "biologic_penetration_pct": 29.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "POL",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "CHE",
+   "name": "Switzerland",
+   "level": "country",
+   "parent_geo_id": "EMEA",
+   "hta_body": "BAG/FOPH",
+   "payer_archetype": "HTA-driven",
+   "market_priority_tier": "T3",
+   "ibd_prevalence_per_100k": 379,
+   "biologic_penetration_pct": 33.9,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "CHE",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "SAU",
+   "name": "Saudi Arabia",
+   "level": "country",
+   "parent_geo_id": "EMEA",
+   "hta_body": "SFDA / NUPCO",
+   "payer_archetype": "budget-driven",
+   "market_priority_tier": "T3",
+   "ibd_prevalence_per_100k": 153,
+   "biologic_penetration_pct": 38.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "SAU",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "JPN",
+   "name": "Japan",
+   "level": "country",
+   "parent_geo_id": "APAC",
+   "hta_body": "Chuikyo",
+   "payer_archetype": "HTA-driven",
+   "market_priority_tier": "T1",
+   "ibd_prevalence_per_100k": 231,
+   "biologic_penetration_pct": 36.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "JPN",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "CHN",
+   "name": "China",
+   "level": "country",
+   "parent_geo_id": "APAC",
+   "hta_body": "NHSA (NRDL)",
+   "payer_archetype": "budget-driven",
+   "market_priority_tier": "T2",
+   "ibd_prevalence_per_100k": 324,
+   "biologic_penetration_pct": 25.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "CHN",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "KOR",
+   "name": "South Korea",
+   "level": "country",
+   "parent_geo_id": "APAC",
+   "hta_body": "HIRA",
+   "payer_archetype": "HTA-driven",
+   "market_priority_tier": "T2",
+   "ibd_prevalence_per_100k": 260,
+   "biologic_penetration_pct": 43.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "KOR",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "AUS",
+   "name": "Australia",
+   "level": "country",
+   "parent_geo_id": "APAC",
+   "hta_body": "PBAC",
+   "payer_archetype": "HTA-driven",
+   "market_priority_tier": "T2",
+   "ibd_prevalence_per_100k": 322,
+   "biologic_penetration_pct": 20.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "AUS",
+   "_source_ids": []
+  },
+  {
+   "geo_id": "BRA",
+   "name": "Brazil",
+   "level": "country",
+   "parent_geo_id": "LATAM",
+   "hta_body": "CONITEC",
+   "payer_archetype": "budget-driven",
+   "market_priority_tier": "T3",
+   "ibd_prevalence_per_100k": 344,
+   "biologic_penetration_pct": 20.6,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "market_priority_tier",
+     "ibd_prevalence_per_100k",
+     "biologic_penetration_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "geo_id",
+     "parent_geo_id",
+     "hta_body"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "payer_archetype"
+    ],
+    "field_origin": {
+     "geo_id": "public_unverified",
+     "name": "reference",
+     "level": "reference",
+     "parent_geo_id": "public_unverified",
+     "hta_body": "public_unverified",
+     "payer_archetype": "ai_inferred",
+     "market_priority_tier": "simulated",
+     "ibd_prevalence_per_100k": "simulated",
+     "biologic_penetration_pct": "simulated"
+    }
+   },
+   "_key": "BRA",
+   "_source_ids": []
+  }
+ ]
+}

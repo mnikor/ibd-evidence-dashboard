@@ -1,0 +1,267 @@
+{
+ "table": "evidence_domains",
+ "description": "Reference: the evidence types used to describe what a study will deliver, with the keyword rule that assigns registry outcomes to each.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "domain_code": "CLIN",
+   "name": "Clinical remission / response",
+   "rule": "clinical (remission|response)|disease clearance|symptomatic worsening|\\bcdai\\b|\\bpro-?2\\b|mayo score|modified mayo|partial mayo|symptomatic (remission|response)|stool frequency|rectal bleeding|abdominal pain|\\bpucai\\b|\\bpcdai\\b|harvey|\\bhbi\\b|disease activity",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "CLIN",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "ENDO",
+   "name": "Endoscopic",
+   "rule": "endoscop|ses-?cd|mucosal healing|mayo endoscopic|\\buceis\\b|\\bmes\\b",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "ENDO",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "HIST",
+   "name": "Histologic",
+   "rule": "histolog|geboes|nancy|robarts|\\brhi\\b|histo-?endoscopic|\\bhemi\\b",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "HIST",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "TRAN",
+   "name": "Transmural / bowel imaging",
+   "rule": "transmural|intestinal ultrasound|bowel ultrasound|\\bius\\b|magnetic resonance enterograph|\\bmre\\b|\\bmaria\\b|bowel wall|bowel damage|lemann",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "TRAN",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "FIST",
+   "name": "Fistula / perianal",
+   "rule": "fistul|\\bpdai\\b|magnifi|perianal",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "FIST",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "STER",
+   "name": "Steroid-free",
+   "rule": "(cortico)?steroid-?free|corticosteroid.{0,25}(free|sparing)",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "STER",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "BIOM",
+   "name": "Biomarkers (CRP, calprotectin)",
+   "rule": "c-reactive|\\bcrp\\b|calprotectin|\\bfcal\\b|biomarker|biochemical remission|lactoferrin",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "BIOM",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "PRO",
+   "name": "Patient-reported / quality of life",
+   "rule": "\\bibdq\\b|facit|wpai|eq-?5d|quality of life|quality-of-life|ibd-?di|disability index|patient-reported|patient reported|sf-36|fatigue|promis|\\bsibdq\\b|satisfaction|preference|urgency|incontinence|wexner",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "PRO",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "PERS",
+   "name": "Persistence / treatment patterns",
+   "rule": "persisten|discontinu|treatment pattern|switch|dose (escalation|intensification|optimi)|drug survival|retention|adherence",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "PERS",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "HCRU",
+   "name": "Healthcare use, surgery, cost",
+   "rule": "hospitali|surger|surgical|resection|colectomy|healthcare resource|health care resource|utili[sz]ation|\\bcosts?\\b|emergency",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "HCRU",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "SAFE",
+   "name": "Safety",
+   "rule": "adverse event|\\bsafety\\b|\\bteaes?\\b|infection|malignan|laboratory abnormal|abnormalit|suicid|\\baes?\\b|\\bsaes?\\b|malformation|spontaneous abortion|stillbirth|preterm|infant follow",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "SAFE",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "PK",
+   "name": "Drug levels / immunogenicity",
+   "rule": "pharmacokinetic|serum concentration|trough|antibod(y|ies) to|anti-drug|immunogenic|\\bauc\\b|\\bcmax\\b|(drug|serum|systemic|apparent) clearance|breast milk|infant dosage",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "PK",
+   "_source_ids": []
+  },
+  {
+   "domain_code": "COMP",
+   "name": "Comparison vs another drug",
+   "rule": "design: active-comparator arm (direct) or network meta-analysis (indirect)",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "domain_code": "reference",
+     "name": "reference",
+     "rule": "reference"
+    }
+   },
+   "_key": "COMP",
+   "_source_ids": []
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "table": "key_messages",
+ "description": "Scientific key messages. Statements reflect public data; MLR status is simulated.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "msg_id": "MSG-01",
+   "brand_id": "TRE",
+   "pillar": "efficacy",
+   "statement": "In GALAXI 2/3, guselkumab showed higher week-48 endoscopic remission than ustekinumab.",
+   "substantiating_output_ids": "OUT-P003",
+   "mlr_status": "in review",
+   "valid_geos": "GLOBAL",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "mlr_status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "msg_id": "public_verified",
+     "brand_id": "public_verified",
+     "pillar": "public_verified",
+     "statement": "public_verified",
+     "substantiating_output_ids": "public_verified",
+     "mlr_status": "simulated",
+     "valid_geos": "reference"
+    }
+   },
+   "_key": "MSG-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "msg_id": "MSG-02",
+   "brand_id": "TRE",
+   "pillar": "convenience",
+   "statement": "Guselkumab offers SC or IV induction in UC and CD (fully SC regimen in UC and CD).",
+   "substantiating_output_ids": "OUT-P004; OUT-P006",
+   "mlr_status": "approved",
+   "valid_geos": "GLOBAL",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "mlr_status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "msg_id": "public_verified",
+     "brand_id": "public_verified",
+     "pillar": "public_verified",
+     "statement": "public_verified",
+     "substantiating_output_ids": "public_verified",
+     "mlr_status": "simulated",
+     "valid_geos": "reference"
+    }
+   },
+   "_key": "MSG-02",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "msg_id": "MSG-03",
+   "brand_id": "TRE",
+   "pillar": "special populations",
+   "statement": "In FUZION CD, guselkumab achieved higher combined fistula remission than placebo at week 24.",
+   "substantiating_output_ids": "OUT-P008",
+   "mlr_status": "approved",
+   "valid_geos": "GLOBAL",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "mlr_status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "msg_id": "public_verified",
+     "brand_id": "public_verified",
+     "pillar": "public_verified",
+     "statement": "public_verified",
+     "substantiating_output_ids": "public_verified",
+     "mlr_status": "simulated",
+     "valid_geos": "reference"
+    }
+   },
+   "_key": "MSG-03",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "msg_id": "MSG-04",
+   "brand_id": "TRE",
+   "pillar": "deep healing",
+   "statement": "Guselkumab demonstrated endoscopic response with SC induction in CD (GRAVITI).",
+   "substantiating_output_ids": "OUT-P004",
+   "mlr_status": "approved",
+   "valid_geos": "GLOBAL",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "mlr_status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "msg_id": "public_verified",
+     "brand_id": "public_verified",
+     "pillar": "public_verified",
+     "statement": "public_verified",
+     "substantiating_output_ids": "public_verified",
+     "mlr_status": "simulated",
+     "valid_geos": "reference"
+    }
+   },
+   "_key": "MSG-04",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "msg_id": "MSG-05",
+   "brand_id": "ICO",
+   "pillar": "efficacy",
+   "statement": "In ANTHEM-UC, once-daily oral icotrokinra met its primary endpoint of clinical response at week 12.",
+   "substantiating_output_ids": "OUT-P011",
+   "mlr_status": "approved",
+   "valid_geos": "GLOBAL",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "mlr_status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "msg_id": "public_verified",
+     "brand_id": "public_verified",
+     "pillar": "public_verified",
+     "statement": "public_verified",
+     "substantiating_output_ids": "public_verified",
+     "mlr_status": "simulated",
+     "valid_geos": "reference"
+    }
+   },
+   "_key": "MSG-05",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "msg_id": "MSG-06",
+   "brand_id": "ICO",
+   "pillar": "durability",
+   "statement": "ANTHEM-UC responses were maintained or improved through week 28.",
+   "substantiating_output_ids": "OUT-P012",
+   "mlr_status": "in review",
+   "valid_geos": "GLOBAL",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "mlr_status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "msg_id": "public_verified",
+     "brand_id": "public_verified",
+     "pillar": "public_verified",
+     "statement": "public_verified",
+     "substantiating_output_ids": "public_verified",
+     "mlr_status": "simulated",
+     "valid_geos": "reference"
+    }
+   },
+   "_key": "MSG-06",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "msg_id": "MSG-07",
+   "brand_id": "JNJ4804",
+   "pillar": "efficacy",
+   "statement": "JNJ-4804 showed numerically higher week-48 remission than monotherapies in DUET-CD.",
+   "substantiating_output_ids": "OUT-P009",
+   "mlr_status": "approved",
+   "valid_geos": "GLOBAL",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "mlr_status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "msg_id": "public_verified",
+     "brand_id": "public_verified",
+     "pillar": "public_verified",
+     "statement": "public_verified",
+     "substantiating_output_ids": "public_verified",
+     "mlr_status": "simulated",
+     "valid_geos": "reference"
+    }
+   },
+   "_key": "MSG-07",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

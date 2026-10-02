@@ -1,0 +1,106 @@
+{
+ "table": "scenarios",
+ "description": "SIMULATED scenarios for war-gaming.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "scenario_id": "SCN-01",
+   "name": "Base case",
+   "type": "base",
+   "assumptions": {
+    "EV-101": "approved 2026-Q4",
+    "EV-107": "positive 2027-Q4",
+    "EV-103": "approved 2027-Q4"
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "scenario_id",
+     "name",
+     "type",
+     "assumptions"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "scenario_id": "simulated",
+     "name": "simulated",
+     "type": "simulated",
+     "assumptions": "simulated"
+    }
+   },
+   "_key": "SCN-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "scenario_id": "SCN-02",
+   "name": "Skyrizi SC induction delayed",
+   "type": "bull",
+   "assumptions": {
+    "EV-101": "CRL / delay 12m",
+    "EV-107": "positive"
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "scenario_id",
+     "name",
+     "type",
+     "assumptions"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "scenario_id": "simulated",
+     "name": "simulated",
+     "type": "simulated",
+     "assumptions": "simulated"
+    }
+   },
+   "_key": "SCN-02",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "scenario_id": "SCN-03",
+   "name": "Competitive squeeze",
+   "type": "bear",
+   "assumptions": {
+    "EV-101": "approved",
+    "EV-107": "superiority vs vedolizumab",
+    "EV-104": "strong maintenance",
+    "NCT07499232": "enrollment slips 6m"
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "scenario_id",
+     "name",
+     "type",
+     "assumptions"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "scenario_id": "simulated",
+     "name": "simulated",
+     "type": "simulated",
+     "assumptions": "simulated"
+    }
+   },
+   "_key": "SCN-03",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

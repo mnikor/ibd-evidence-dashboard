@@ -1,0 +1,200 @@
+{
+ "table": "watch_items",
+ "description": "Open questions the monthly/daily watchers check; each resolves when the named source publishes.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "watch_id": "W-001",
+   "brand_id": "SKY",
+   "question": "SKYRIZI SC induction in CD: dose, injections per dose and schedule",
+   "status_now": "not disclosed",
+   "resolves_when": "US label on Drugs@FDA / DailyMed at approval",
+   "owner_role": "CI lead",
+   "linked_ids": "A-CD-05; SKY-CD-IND-SC",
+   "state": "open",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "watch_id": "reference",
+     "brand_id": "reference",
+     "question": "reference",
+     "status_now": "reference",
+     "resolves_when": "reference",
+     "owner_role": "reference",
+     "linked_ids": "reference",
+     "state": "reference"
+    }
+   },
+   "_key": "W-001",
+   "_source_ids": [
+    "SRC-024"
+   ]
+  },
+  {
+   "watch_id": "W-002",
+   "brand_id": "SKY",
+   "question": "SKYRIZI SC induction in CD: FDA decision date",
+   "status_now": "AbbVie guidance: later in 2026",
+   "resolves_when": "FDA approval letter / AbbVie release",
+   "owner_role": "CI lead",
+   "linked_ids": "EV-101",
+   "state": "open",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "watch_id": "reference",
+     "brand_id": "reference",
+     "question": "reference",
+     "status_now": "reference",
+     "resolves_when": "reference",
+     "owner_role": "reference",
+     "linked_ids": "reference",
+     "state": "reference"
+    }
+   },
+   "_key": "W-002",
+   "_source_ids": [
+    "SRC-024"
+   ]
+  },
+  {
+   "watch_id": "W-003",
+   "brand_id": "SKY",
+   "question": "SKYRIZI SC induction in CD: EU decision",
+   "status_now": "EMA filing Sep 2026",
+   "resolves_when": "EMA CHMP opinion / EC decision",
+   "owner_role": "EU medical lead",
+   "linked_ids": "EV-102",
+   "state": "open",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "watch_id": "reference",
+     "brand_id": "reference",
+     "question": "reference",
+     "status_now": "reference",
+     "resolves_when": "reference",
+     "owner_role": "reference",
+     "linked_ids": "reference",
+     "state": "reference"
+    }
+   },
+   "_key": "W-003",
+   "_source_ids": [
+    "SRC-024"
+   ]
+  },
+  {
+   "watch_id": "W-004",
+   "brand_id": "SKY",
+   "question": "SKYRIZI SC induction in UC: any filing",
+   "status_now": "not filed",
+   "resolves_when": "AbbVie releases; ClinicalTrials.gov",
+   "owner_role": "CI lead",
+   "linked_ids": "A-UC-01",
+   "state": "open",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "watch_id": "reference",
+     "brand_id": "reference",
+     "question": "reference",
+     "status_now": "reference",
+     "resolves_when": "reference",
+     "owner_role": "reference",
+     "linked_ids": "reference",
+     "state": "reference"
+    }
+   },
+   "_key": "W-004",
+   "_source_ids": [
+    "SRC-024"
+   ]
+  },
+  {
+   "watch_id": "W-005",
+   "brand_id": "ENT",
+   "question": "ENTYVIO biosimilar AVT16: FDA decision and outcome of Takeda's patent suit",
+   "status_now": "BLA under review (decision expected Q1 2027); BPCIA suit filed Sep 2026",
+   "resolves_when": "FDA Purple Book; court docket; Alvotech/Teva releases",
+   "owner_role": "CI lead",
+   "linked_ids": "LOE-ENT-US",
+   "state": "open",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "watch_id": "reference",
+     "brand_id": "reference",
+     "question": "reference",
+     "status_now": "reference",
+     "resolves_when": "reference",
+     "owner_role": "reference",
+     "linked_ids": "reference",
+     "state": "reference"
+    }
+   },
+   "_key": "W-005",
+   "_source_ids": [
+    "SRC-LOE-AVT",
+    "SRC-LOE-TAKSUIT"
+   ]
+  },
+  {
+   "watch_id": "W-006",
+   "brand_id": "TRE",
+   "question": "TREMFYA planning LOE (US and EU) confirmed by J&J IP",
+   "status_now": "US: composition patent family 2031 (10-K); EU not disclosed",
+   "resolves_when": "J&J IP / brand plan",
+   "owner_role": "Data owner",
+   "linked_ids": "LOE-TRE-US; LOE-TRE-EU",
+   "state": "open",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "watch_id": "reference",
+     "brand_id": "reference",
+     "question": "reference",
+     "status_now": "reference",
+     "resolves_when": "reference",
+     "owner_role": "reference",
+     "linked_ids": "reference",
+     "state": "reference"
+    }
+   },
+   "_key": "W-006",
+   "_source_ids": [
+    "SRC-LOE-JNJ"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,823 @@
+{
+ "table": "llm_questions",
+ "description": "Fixed question bank asked to AI chat assistants every run (patient, HCP and accuracy-check questions).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "question_id": "P1",
+   "persona": "patient",
+   "question": "I was just diagnosed with ulcerative colitis and mesalamine isn't working. What are my options?",
+   "tests": "Which drugs appear first in UC",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P1",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P2",
+   "persona": "patient",
+   "question": "What is the best biologic for Crohn's disease?",
+   "tests": "Positioning in Crohn's",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P2",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P3",
+   "persona": "patient",
+   "question": "Which Crohn's medicines can I inject at home instead of going for infusions?",
+   "tests": "Recognition of SC induction",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P3",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P4",
+   "persona": "patient",
+   "question": "Are there pills instead of injections for moderate ulcerative colitis?",
+   "tests": "Oral options (JAK, S1P, pipeline)",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P4",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P5",
+   "persona": "patient",
+   "question": "Humira stopped working for my Crohn's. What should I try next?",
+   "tests": "Sequencing after anti-TNF",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P5",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P6",
+   "persona": "patient",
+   "question": "Which IBD biologics are safest? I'm worried about infections and cancer.",
+   "tests": "Safety framing",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P6",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P7",
+   "persona": "patient",
+   "question": "I want to get pregnant. Which IBD medicines are safe to stay on?",
+   "tests": "Pregnancy data",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P7",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P8",
+   "persona": "patient",
+   "question": "I have a fistula near my bottom from Crohn's. Which medicines help it heal?",
+   "tests": "Perianal evidence",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P8",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P9",
+   "persona": "patient",
+   "question": "How often do I need injections with the newer IBD drugs?",
+   "tests": "Dosing burden",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P9",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P10",
+   "persona": "patient",
+   "question": "My insurance switched me to a Stelara biosimilar. Is it as good?",
+   "tests": "Biosimilar framing",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P10",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P11",
+   "persona": "patient",
+   "question": "What's the difference between Skyrizi and Tremfya?",
+   "tests": "Direct comparison, fair balance (branded)",
+   "branded": true,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P11",
+   "_source_ids": []
+  },
+  {
+   "question_id": "P12",
+   "persona": "patient",
+   "question": "Which IBD medicine works fastest on urgency and other bad symptoms?",
+   "tests": "Speed of onset",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "P12",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H1",
+   "persona": "HCP",
+   "question": "First-line advanced therapy for a bio-naive patient with moderate-to-severe ulcerative colitis: which agent and why? Cite evidence.",
+   "tests": "UC positioning, evidence cited",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H1",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H2",
+   "persona": "HCP",
+   "question": "Crohn's disease after anti-TNF failure: how do you choose between IL-23 inhibitors, ustekinumab and upadacitinib?",
+   "tests": "Crohn's positioning",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H2",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H3",
+   "persona": "HCP",
+   "question": "Compare risankizumab, guselkumab and mirikizumab in Crohn's disease: efficacy, induction route, head-to-head data.",
+   "tests": "IL-23 class comparison",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H3",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H4",
+   "persona": "HCP",
+   "question": "Which advanced therapies have subcutaneous induction in IBD?",
+   "tests": "SC induction recognition",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H4",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H5",
+   "persona": "HCP",
+   "question": "What evidence supports IL-23 inhibitors in perianal fistulising Crohn's disease?",
+   "tests": "FUZION CD visibility",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H5",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H6",
+   "persona": "HCP",
+   "question": "Which head-to-head trials exist in IBD and what did they show?",
+   "tests": "GALAXI, SEQUENCE, VIVID-1 citations",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H6",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H7",
+   "persona": "HCP",
+   "question": "Which agents have the strongest endoscopic and histologic data in ulcerative colitis?",
+   "tests": "Evidence depth",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H7",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H8",
+   "persona": "HCP",
+   "question": "Which drugs have transmural-healing data (bowel ultrasound or MR enterography) in Crohn's disease?",
+   "tests": "Transmural evidence",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H8",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H9",
+   "persona": "HCP",
+   "question": "How do current ACG and AGA guidelines position JAK inhibitors vs IL-23 inhibitors in ulcerative colitis?",
+   "tests": "Guideline citation accuracy",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H9",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H10",
+   "persona": "HCP",
+   "question": "What is known about the safety of IL-23 inhibitors in pregnancy and lactation?",
+   "tests": "Safety data cited",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H10",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H11",
+   "persona": "HCP",
+   "question": "What are the liver monitoring requirements for IL-23 inhibitors in IBD?",
+   "tests": "Label accuracy",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H11",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H12",
+   "persona": "HCP",
+   "question": "What long-term (3+ years) durability data exist for biologics in ulcerative colitis?",
+   "tests": "Long-term extension citations",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H12",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H13",
+   "persona": "HCP",
+   "question": "What are the oral options for ulcerative colitis, including agents in development such as obefazimod and icotrokinra?",
+   "tests": "Pipeline positioning",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H13",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H14",
+   "persona": "HCP",
+   "question": "What do you use after IL-23 inhibitor failure in ulcerative colitis?",
+   "tests": "Sequencing (portfolio gap GAP-20)",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H14",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H15",
+   "persona": "HCP",
+   "question": "What is the evidence for combination advanced therapy in refractory IBD?",
+   "tests": "JNJ-4804 / DUET visibility",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H15",
+   "_source_ids": []
+  },
+  {
+   "question_id": "H16",
+   "persona": "HCP",
+   "question": "What is in late-stage development for ulcerative colitis and Crohn's disease?",
+   "tests": "Pipeline visibility (TL1A, icotrokinra, JNJ-4804)",
+   "branded": false,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "H16",
+   "_source_ids": []
+  },
+  {
+   "question_id": "A1",
+   "persona": "accuracy",
+   "question": "What are the approved induction regimens for TREMFYA in Crohn's disease?",
+   "tests": "US label: SC or IV induction",
+   "branded": true,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "A1",
+   "_source_ids": []
+  },
+  {
+   "question_id": "A2",
+   "persona": "accuracy",
+   "question": "Is SKYRIZI approved for subcutaneous induction in Crohn's disease?",
+   "tests": "Filing status on the run date",
+   "branded": true,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "A2",
+   "_source_ids": []
+  },
+  {
+   "question_id": "A3",
+   "persona": "accuracy",
+   "question": "What did the GALAXI 2 and 3 studies show?",
+   "tests": "Published results",
+   "branded": true,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "A3",
+   "_source_ids": []
+  },
+  {
+   "question_id": "A4",
+   "persona": "accuracy",
+   "question": "What is icotrokinra, and is it approved for ulcerative colitis?",
+   "tests": "Psoriasis approval Mar 2026; UC in Phase 3",
+   "branded": true,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "A4",
+   "_source_ids": []
+  },
+  {
+   "question_id": "A5",
+   "persona": "accuracy",
+   "question": "What did the SEQUENCE trial compare?",
+   "tests": "Published results",
+   "branded": true,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "A5",
+   "_source_ids": []
+  },
+  {
+   "question_id": "A6",
+   "persona": "accuracy",
+   "question": "What is the ASTRO study?",
+   "tests": "Published results",
+   "branded": true,
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "question_id": "reference",
+     "persona": "reference",
+     "question": "reference",
+     "tests": "reference",
+     "branded": "reference"
+    }
+   },
+   "_key": "A6",
+   "_source_ids": []
+  }
+ ]
+}

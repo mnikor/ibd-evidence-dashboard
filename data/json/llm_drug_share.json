@@ -1,0 +1,2857 @@
+{
+ "table": "llm_drug_share",
+ "description": "Derived: share of unbranded answers that name each drug, and name it first, per run and persona.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-TRE",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "TRE",
+   "drug_name": "TREMFYA",
+   "answers": 11,
+   "named": 4,
+   "named_pct": 36,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-TRE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-ICO",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "ICO",
+   "drug_name": "icotrokinra",
+   "answers": 11,
+   "named": 0,
+   "named_pct": 0,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-ICO",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-JNJ4804",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "JNJ4804",
+   "drug_name": "JNJ-4804",
+   "answers": 11,
+   "named": 0,
+   "named_pct": 0,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-JNJ4804",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-SKY",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "SKY",
+   "drug_name": "SKYRIZI",
+   "answers": 11,
+   "named": 5,
+   "named_pct": 45,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-SKY",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-RIN",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "RIN",
+   "drug_name": "RINVOQ",
+   "answers": 11,
+   "named": 6,
+   "named_pct": 55,
+   "named_first": 2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-RIN",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-OMV",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "OMV",
+   "drug_name": "OMVOH",
+   "answers": 11,
+   "named": 4,
+   "named_pct": 36,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-OMV",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-ENT",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "ENT",
+   "drug_name": "ENTYVIO",
+   "answers": 11,
+   "named": 8,
+   "named_pct": 73,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-ENT",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-STE",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "STE",
+   "drug_name": "STELARA",
+   "answers": 11,
+   "named": 9,
+   "named_pct": 82,
+   "named_first": 3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-STE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-IFX",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "IFX",
+   "drug_name": "infliximab",
+   "answers": 11,
+   "named": 8,
+   "named_pct": 73,
+   "named_first": 4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-IFX",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-ADA",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "ADA",
+   "drug_name": "adalimumab",
+   "answers": 11,
+   "named": 8,
+   "named_pct": 73,
+   "named_first": 2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-ADA",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-ZEP",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "ZEP",
+   "drug_name": "ZEPOSIA",
+   "answers": 11,
+   "named": 3,
+   "named_pct": 27,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-ZEP",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-VEL",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "VEL",
+   "drug_name": "VELSIPITY",
+   "answers": 11,
+   "named": 3,
+   "named_pct": 27,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-VEL",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-patient-TOF",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "TOF",
+   "drug_name": "tofacitinib",
+   "answers": 11,
+   "named": 5,
+   "named_pct": 45,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-patient-TOF",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-TRE",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "TRE",
+   "drug_name": "TREMFYA",
+   "answers": 16,
+   "named": 14,
+   "named_pct": 88,
+   "named_first": 3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-TRE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-ICO",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "ICO",
+   "drug_name": "icotrokinra",
+   "answers": 16,
+   "named": 1,
+   "named_pct": 6,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-ICO",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-JNJ4804",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "JNJ4804",
+   "drug_name": "JNJ-4804",
+   "answers": 16,
+   "named": 2,
+   "named_pct": 12,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-JNJ4804",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-SKY",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "SKY",
+   "drug_name": "SKYRIZI",
+   "answers": 16,
+   "named": 14,
+   "named_pct": 88,
+   "named_first": 2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-SKY",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-RIN",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "RIN",
+   "drug_name": "RINVOQ",
+   "answers": 16,
+   "named": 8,
+   "named_pct": 50,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-RIN",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-OMV",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "OMV",
+   "drug_name": "OMVOH",
+   "answers": 16,
+   "named": 11,
+   "named_pct": 69,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-OMV",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-ENT",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "ENT",
+   "drug_name": "ENTYVIO",
+   "answers": 16,
+   "named": 10,
+   "named_pct": 62,
+   "named_first": 2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-ENT",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-STE",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "STE",
+   "drug_name": "STELARA",
+   "answers": 16,
+   "named": 13,
+   "named_pct": 81,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-STE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-IFX",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "IFX",
+   "drug_name": "infliximab",
+   "answers": 16,
+   "named": 9,
+   "named_pct": 56,
+   "named_first": 3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-IFX",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-ADA",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "ADA",
+   "drug_name": "adalimumab",
+   "answers": 16,
+   "named": 7,
+   "named_pct": 44,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-ADA",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-ZEP",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "ZEP",
+   "drug_name": "ZEPOSIA",
+   "answers": 16,
+   "named": 3,
+   "named_pct": 19,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-ZEP",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-VEL",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "VEL",
+   "drug_name": "VELSIPITY",
+   "answers": 16,
+   "named": 5,
+   "named_pct": 31,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-VEL",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-OBE",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "OBE",
+   "drug_name": "obefazimod",
+   "answers": 16,
+   "named": 2,
+   "named_pct": 12,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-OBE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-TL1A",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "TL1A",
+   "drug_name": "anti-TL1A",
+   "answers": 16,
+   "named": 1,
+   "named_pct": 6,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-TL1A",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CHATGPT-HCP-TOF",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "TOF",
+   "drug_name": "tofacitinib",
+   "answers": 16,
+   "named": 4,
+   "named_pct": 25,
+   "named_first": 2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-HCP-TOF",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-TRE",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "TRE",
+   "drug_name": "TREMFYA",
+   "answers": 11,
+   "named": 7,
+   "named_pct": 64,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-TRE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-ICO",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "ICO",
+   "drug_name": "icotrokinra",
+   "answers": 11,
+   "named": 0,
+   "named_pct": 0,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-ICO",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-JNJ4804",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "JNJ4804",
+   "drug_name": "JNJ-4804",
+   "answers": 11,
+   "named": 0,
+   "named_pct": 0,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-JNJ4804",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-SKY",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "SKY",
+   "drug_name": "SKYRIZI",
+   "answers": 11,
+   "named": 8,
+   "named_pct": 73,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-SKY",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-RIN",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "RIN",
+   "drug_name": "RINVOQ",
+   "answers": 11,
+   "named": 7,
+   "named_pct": 64,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-RIN",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-OMV",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "OMV",
+   "drug_name": "OMVOH",
+   "answers": 11,
+   "named": 8,
+   "named_pct": 73,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-OMV",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-ENT",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "ENT",
+   "drug_name": "ENTYVIO",
+   "answers": 11,
+   "named": 10,
+   "named_pct": 91,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-ENT",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-STE",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "STE",
+   "drug_name": "STELARA",
+   "answers": 11,
+   "named": 11,
+   "named_pct": 100,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-STE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-IFX",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "IFX",
+   "drug_name": "infliximab",
+   "answers": 11,
+   "named": 10,
+   "named_pct": 91,
+   "named_first": 5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-IFX",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-ADA",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "ADA",
+   "drug_name": "adalimumab",
+   "answers": 11,
+   "named": 10,
+   "named_pct": 91,
+   "named_first": 3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-ADA",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-ZEP",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "ZEP",
+   "drug_name": "ZEPOSIA",
+   "answers": 11,
+   "named": 4,
+   "named_pct": 36,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-ZEP",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-VEL",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "VEL",
+   "drug_name": "VELSIPITY",
+   "answers": 11,
+   "named": 4,
+   "named_pct": 36,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-VEL",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-OBE",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "OBE",
+   "drug_name": "obefazimod",
+   "answers": 11,
+   "named": 1,
+   "named_pct": 9,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-OBE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-patient-TOF",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "patient",
+   "drug": "TOF",
+   "drug_name": "tofacitinib",
+   "answers": 11,
+   "named": 6,
+   "named_pct": 55,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-patient-TOF",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-TRE",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "TRE",
+   "drug_name": "TREMFYA",
+   "answers": 16,
+   "named": 14,
+   "named_pct": 88,
+   "named_first": 2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-TRE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-ICO",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "ICO",
+   "drug_name": "icotrokinra",
+   "answers": 16,
+   "named": 1,
+   "named_pct": 6,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-ICO",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-JNJ4804",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "JNJ4804",
+   "drug_name": "JNJ-4804",
+   "answers": 16,
+   "named": 2,
+   "named_pct": 12,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-JNJ4804",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-SKY",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "SKY",
+   "drug_name": "SKYRIZI",
+   "answers": 16,
+   "named": 14,
+   "named_pct": 88,
+   "named_first": 2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-SKY",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-RIN",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "RIN",
+   "drug_name": "RINVOQ",
+   "answers": 16,
+   "named": 9,
+   "named_pct": 56,
+   "named_first": 3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-RIN",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-OMV",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "OMV",
+   "drug_name": "OMVOH",
+   "answers": 16,
+   "named": 13,
+   "named_pct": 81,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-OMV",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-ENT",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "ENT",
+   "drug_name": "ENTYVIO",
+   "answers": 16,
+   "named": 9,
+   "named_pct": 56,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-ENT",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-STE",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "STE",
+   "drug_name": "STELARA",
+   "answers": 16,
+   "named": 11,
+   "named_pct": 69,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-STE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-IFX",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "IFX",
+   "drug_name": "infliximab",
+   "answers": 16,
+   "named": 8,
+   "named_pct": 50,
+   "named_first": 2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-IFX",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-ADA",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "ADA",
+   "drug_name": "adalimumab",
+   "answers": 16,
+   "named": 8,
+   "named_pct": 50,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-ADA",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-ZEP",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "ZEP",
+   "drug_name": "ZEPOSIA",
+   "answers": 16,
+   "named": 4,
+   "named_pct": 25,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-ZEP",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-VEL",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "VEL",
+   "drug_name": "VELSIPITY",
+   "answers": 16,
+   "named": 5,
+   "named_pct": 31,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-VEL",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-OBE",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "OBE",
+   "drug_name": "obefazimod",
+   "answers": 16,
+   "named": 3,
+   "named_pct": 19,
+   "named_first": 0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-OBE",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-TL1A",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "TL1A",
+   "drug_name": "anti-TL1A",
+   "answers": 16,
+   "named": 4,
+   "named_pct": 25,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-TL1A",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "share_id": "RUN-2026-09-29-CLAUDE-HCP-TOF",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "persona": "HCP",
+   "drug": "TOF",
+   "drug_name": "tofacitinib",
+   "answers": 16,
+   "named": 7,
+   "named_pct": 44,
+   "named_first": 1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "share_id",
+     "run_id",
+     "assistant",
+     "date",
+     "persona",
+     "drug",
+     "drug_name",
+     "answers",
+     "named",
+     "named_pct",
+     "named_first"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "share_id": "derived",
+     "run_id": "derived",
+     "assistant": "derived",
+     "date": "derived",
+     "persona": "derived",
+     "drug": "derived",
+     "drug_name": "derived",
+     "answers": "derived",
+     "named": "derived",
+     "named_pct": "derived",
+     "named_first": "derived"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-HCP-TOF",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  }
+ ]
+}

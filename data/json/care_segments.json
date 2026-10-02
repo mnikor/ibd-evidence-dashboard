@@ -1,0 +1,457 @@
+{
+ "table": "care_segments",
+ "description": "Care-continuum segments (the assumed 'TCC' axis). patient_share_pct is simulated.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "segment_id": "UC-1L",
+   "disease": "UC",
+   "severity": "moderate-severe",
+   "line_of_therapy": "1L advanced",
+   "prior_exposure": "bio-naive",
+   "journey_stage": "first advanced therapy",
+   "patient_share_pct": 25.9,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "UC-1L",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "UC-2L",
+   "disease": "UC",
+   "severity": "moderate-severe",
+   "line_of_therapy": "2L",
+   "prior_exposure": "TNF-IR",
+   "journey_stage": "switch",
+   "patient_share_pct": 19.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "UC-2L",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "UC-3L",
+   "disease": "UC",
+   "severity": "moderate-severe",
+   "line_of_therapy": "3L+",
+   "prior_exposure": "multi-class-IR",
+   "journey_stage": "switch",
+   "patient_share_pct": 24.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "UC-3L",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "UC-MAINT",
+   "disease": "UC",
+   "severity": "moderate-severe",
+   "line_of_therapy": "any",
+   "prior_exposure": "any",
+   "journey_stage": "long-term remission",
+   "patient_share_pct": 22.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "UC-MAINT",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "UC-PED",
+   "disease": "UC",
+   "severity": "moderate-severe",
+   "line_of_therapy": "any",
+   "prior_exposure": "any",
+   "journey_stage": "pediatric",
+   "patient_share_pct": 17.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "UC-PED",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "CD-1L",
+   "disease": "CD",
+   "severity": "moderate-severe",
+   "line_of_therapy": "1L advanced",
+   "prior_exposure": "bio-naive",
+   "journey_stage": "first advanced therapy",
+   "patient_share_pct": 29.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "CD-1L",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "CD-2L",
+   "disease": "CD",
+   "severity": "moderate-severe",
+   "line_of_therapy": "2L",
+   "prior_exposure": "TNF-IR",
+   "journey_stage": "switch",
+   "patient_share_pct": 13.2,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "CD-2L",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "CD-3L",
+   "disease": "CD",
+   "severity": "moderate-severe",
+   "line_of_therapy": "3L+",
+   "prior_exposure": "multi-class-IR",
+   "journey_stage": "switch",
+   "patient_share_pct": 17.9,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "CD-3L",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "CD-MAINT",
+   "disease": "CD",
+   "severity": "moderate-severe",
+   "line_of_therapy": "any",
+   "prior_exposure": "any",
+   "journey_stage": "long-term remission",
+   "patient_share_pct": 25.4,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "CD-MAINT",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "CD-PFCD",
+   "disease": "CD",
+   "severity": "any",
+   "line_of_therapy": "any",
+   "prior_exposure": "any",
+   "journey_stage": "perianal fistulizing",
+   "patient_share_pct": 19.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "CD-PFCD",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "CD-PED",
+   "disease": "CD",
+   "severity": "moderate-severe",
+   "line_of_therapy": "any",
+   "prior_exposure": "any",
+   "journey_stage": "pediatric",
+   "patient_share_pct": 26.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "CD-PED",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "CD-POSTOP",
+   "disease": "CD",
+   "severity": "any",
+   "line_of_therapy": "any",
+   "prior_exposure": "any",
+   "journey_stage": "post-surgical",
+   "patient_share_pct": 18.6,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "CD-POSTOP",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "IBD-POUCH",
+   "disease": "UC",
+   "severity": "any",
+   "line_of_therapy": "any",
+   "prior_exposure": "any",
+   "journey_stage": "pouchitis",
+   "patient_share_pct": 22.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "IBD-POUCH",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "IBD-PREG",
+   "disease": "UC+CD",
+   "severity": "any",
+   "line_of_therapy": "any",
+   "prior_exposure": "any",
+   "journey_stage": "pregnancy / lactation",
+   "patient_share_pct": 4.2,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "IBD-PREG",
+   "_source_ids": []
+  },
+  {
+   "segment_id": "IBD-EIM",
+   "disease": "UC+CD",
+   "severity": "any",
+   "line_of_therapy": "any",
+   "prior_exposure": "any",
+   "journey_stage": "extra-intestinal manifestations (SpA/PsO)",
+   "patient_share_pct": 9.2,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "patient_share_pct"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "segment_id": "reference",
+     "disease": "reference",
+     "severity": "reference",
+     "line_of_therapy": "reference",
+     "prior_exposure": "reference",
+     "journey_stage": "reference",
+     "patient_share_pct": "simulated"
+    }
+   },
+   "_key": "IBD-EIM",
+   "_source_ids": []
+  }
+ ]
+}

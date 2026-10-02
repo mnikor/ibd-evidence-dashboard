@@ -1,0 +1,929 @@
+{
+ "table": "venues",
+ "description": "Congresses and journals. Dates for ACG/UEGW 2026, ECCO/DDW 2027 verified; others simulated.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "venue_id": "C-ECCO25",
+   "name": "ECCO 2025",
+   "type": "congress",
+   "region": "EMEA",
+   "start_date": "2025-02-19",
+   "end_date": "2025-02-22",
+   "city": "Berlin",
+   "tier": 1,
+   "abstract_deadline": "2024-09-19",
+   "late_breaker_deadline": "2024-12-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-ECCO25",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "C-ECCO26",
+   "name": "ECCO 2026",
+   "type": "congress",
+   "region": "EMEA",
+   "start_date": "2026-02",
+   "end_date": "2026-02",
+   "city": "",
+   "tier": 1,
+   "abstract_deadline": "2025-09-15",
+   "late_breaker_deadline": "2025-12-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-ECCO26",
+   "_source_ids": [
+    "SRC-040"
+   ]
+  },
+  {
+   "venue_id": "C-DDW26",
+   "name": "DDW 2026",
+   "type": "congress",
+   "region": "North America",
+   "start_date": "2026-05",
+   "end_date": "2026-05",
+   "city": "Chicago",
+   "tier": 1,
+   "abstract_deadline": "2025-12-15",
+   "late_breaker_deadline": "2026-03-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_verified",
+     "name": "public_verified",
+     "type": "public_verified",
+     "region": "public_verified",
+     "start_date": "public_verified",
+     "end_date": "public_verified",
+     "city": "public_verified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-DDW26",
+   "_source_ids": [
+    "SRC-012"
+   ]
+  },
+  {
+   "venue_id": "C-ACG26",
+   "name": "ACG 2026",
+   "type": "congress",
+   "region": "North America",
+   "start_date": "2026-10-09",
+   "end_date": "2026-10-14",
+   "city": "Nashville",
+   "tier": 1,
+   "abstract_deadline": "2026-05-09",
+   "late_breaker_deadline": "2026-08-09",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_verified",
+     "name": "public_verified",
+     "type": "public_verified",
+     "region": "public_verified",
+     "start_date": "public_verified",
+     "end_date": "public_verified",
+     "city": "public_verified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-ACG26",
+   "_source_ids": [
+    "SRC-034"
+   ]
+  },
+  {
+   "venue_id": "C-UEGW26",
+   "name": "UEG Week 2026",
+   "type": "congress",
+   "region": "EMEA",
+   "start_date": "2026-10-17",
+   "end_date": "2026-10-20",
+   "city": "Barcelona",
+   "tier": 1,
+   "abstract_deadline": "2026-05-17",
+   "late_breaker_deadline": "2026-08-17",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_verified",
+     "name": "public_verified",
+     "type": "public_verified",
+     "region": "public_verified",
+     "start_date": "public_verified",
+     "end_date": "public_verified",
+     "city": "public_verified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-UEGW26",
+   "_source_ids": [
+    "SRC-033"
+   ]
+  },
+  {
+   "venue_id": "C-AIBD26",
+   "name": "Advances in IBD 2026",
+   "type": "congress",
+   "region": "North America",
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-12",
+   "city": "Orlando",
+   "tier": 2,
+   "abstract_deadline": "2026-07-10",
+   "late_breaker_deadline": "2026-10-10",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city",
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "simulated",
+     "name": "simulated",
+     "type": "simulated",
+     "region": "simulated",
+     "start_date": "simulated",
+     "end_date": "simulated",
+     "city": "simulated",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-AIBD26",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "venue_id": "C-ECCO27",
+   "name": "ECCO 2027",
+   "type": "congress",
+   "region": "EMEA",
+   "start_date": "2027-03-03",
+   "end_date": "2027-03-06",
+   "city": "Copenhagen",
+   "tier": 1,
+   "abstract_deadline": "2026-10-03",
+   "late_breaker_deadline": "2027-01-03",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_verified",
+     "name": "public_verified",
+     "type": "public_verified",
+     "region": "public_verified",
+     "start_date": "public_verified",
+     "end_date": "public_verified",
+     "city": "public_verified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-ECCO27",
+   "_source_ids": [
+    "SRC-035"
+   ]
+  },
+  {
+   "venue_id": "C-DDW27",
+   "name": "DDW 2027",
+   "type": "congress",
+   "region": "North America",
+   "start_date": "2027-05-15",
+   "end_date": "2027-05-18",
+   "city": "Washington DC",
+   "tier": 1,
+   "abstract_deadline": "2026-12-15",
+   "late_breaker_deadline": "2027-03-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_verified",
+     "name": "public_verified",
+     "type": "public_verified",
+     "region": "public_verified",
+     "start_date": "public_verified",
+     "end_date": "public_verified",
+     "city": "public_verified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-DDW27",
+   "_source_ids": [
+    "SRC-036"
+   ]
+  },
+  {
+   "venue_id": "C-JDDW27",
+   "name": "JDDW 2027",
+   "type": "congress",
+   "region": "APAC",
+   "start_date": "2027-10-28",
+   "end_date": "2027-10-31",
+   "city": "Japan",
+   "tier": 2,
+   "abstract_deadline": "2027-05-28",
+   "late_breaker_deadline": "2027-08-28",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city",
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "simulated",
+     "name": "simulated",
+     "type": "simulated",
+     "region": "simulated",
+     "start_date": "simulated",
+     "end_date": "simulated",
+     "city": "simulated",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-JDDW27",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "venue_id": "C-APDW27",
+   "name": "APDW 2027",
+   "type": "congress",
+   "region": "APAC",
+   "start_date": "2027-11-18",
+   "end_date": "2027-11-21",
+   "city": "Asia-Pacific",
+   "tier": 2,
+   "abstract_deadline": "2027-06-18",
+   "late_breaker_deadline": "2027-09-18",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city",
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "simulated",
+     "name": "simulated",
+     "type": "simulated",
+     "region": "simulated",
+     "start_date": "simulated",
+     "end_date": "simulated",
+     "city": "simulated",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-APDW27",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "venue_id": "C-ISPOR27",
+   "name": "ISPOR 2027",
+   "type": "congress",
+   "region": "North America",
+   "start_date": "2027-05-09",
+   "end_date": "2027-05-12",
+   "city": "USA",
+   "tier": 2,
+   "abstract_deadline": "2026-12-09",
+   "late_breaker_deadline": "2027-03-09",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city",
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "simulated",
+     "name": "simulated",
+     "type": "simulated",
+     "region": "simulated",
+     "start_date": "simulated",
+     "end_date": "simulated",
+     "city": "simulated",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-ISPOR27",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "venue_id": "J-LANCET",
+   "name": "The Lancet",
+   "type": "journal",
+   "region": "Global",
+   "start_date": "",
+   "end_date": "",
+   "city": "",
+   "tier": 1,
+   "abstract_deadline": null,
+   "late_breaker_deadline": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "J-LANCET",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "J-NEJM",
+   "name": "New England Journal of Medicine",
+   "type": "journal",
+   "region": "Global",
+   "start_date": "",
+   "end_date": "",
+   "city": "",
+   "tier": 1,
+   "abstract_deadline": null,
+   "late_breaker_deadline": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "J-NEJM",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "J-GASTRO",
+   "name": "Gastroenterology",
+   "type": "journal",
+   "region": "Global",
+   "start_date": "",
+   "end_date": "",
+   "city": "",
+   "tier": 1,
+   "abstract_deadline": null,
+   "late_breaker_deadline": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "J-GASTRO",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "J-LGH",
+   "name": "The Lancet Gastroenterology & Hepatology",
+   "type": "journal",
+   "region": "Global",
+   "start_date": "",
+   "end_date": "",
+   "city": "",
+   "tier": 1,
+   "abstract_deadline": null,
+   "late_breaker_deadline": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "J-LGH",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "J-JCC",
+   "name": "Journal of Crohn's and Colitis",
+   "type": "journal",
+   "region": "Global",
+   "start_date": "",
+   "end_date": "",
+   "city": "",
+   "tier": 1,
+   "abstract_deadline": null,
+   "late_breaker_deadline": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "J-JCC",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "J-AJG",
+   "name": "American Journal of Gastroenterology",
+   "type": "journal",
+   "region": "Global",
+   "start_date": "",
+   "end_date": "",
+   "city": "",
+   "tier": 1,
+   "abstract_deadline": null,
+   "late_breaker_deadline": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "J-AJG",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "J-CGH",
+   "name": "Clinical Gastroenterology and Hepatology",
+   "type": "journal",
+   "region": "Global",
+   "start_date": "",
+   "end_date": "",
+   "city": "",
+   "tier": 1,
+   "abstract_deadline": null,
+   "late_breaker_deadline": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "J-CGH",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "J-APT",
+   "name": "Alimentary Pharmacology & Therapeutics",
+   "type": "journal",
+   "region": "Global",
+   "start_date": "",
+   "end_date": "",
+   "city": "",
+   "tier": 2,
+   "abstract_deadline": null,
+   "late_breaker_deadline": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "J-APT",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "J-IBD",
+   "name": "Inflammatory Bowel Diseases",
+   "type": "journal",
+   "region": "Global",
+   "start_date": "",
+   "end_date": "",
+   "city": "",
+   "tier": 2,
+   "abstract_deadline": null,
+   "late_breaker_deadline": null,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "public_unverified",
+     "name": "public_unverified",
+     "type": "public_unverified",
+     "region": "public_unverified",
+     "start_date": "public_unverified",
+     "end_date": "public_unverified",
+     "city": "public_unverified",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "J-IBD",
+   "_source_ids": []
+  },
+  {
+   "venue_id": "C-UEGW27",
+   "name": "UEG Week 2027",
+   "type": "congress",
+   "region": "EMEA",
+   "start_date": "2027-10",
+   "end_date": "2027-10",
+   "city": "",
+   "tier": 1,
+   "abstract_deadline": "2027-05-15",
+   "late_breaker_deadline": "2027-08-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "venue_id",
+     "name",
+     "type",
+     "region",
+     "start_date",
+     "end_date",
+     "city",
+     "abstract_deadline",
+     "late_breaker_deadline"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue_id": "simulated",
+     "name": "simulated",
+     "type": "simulated",
+     "region": "simulated",
+     "start_date": "simulated",
+     "end_date": "simulated",
+     "city": "simulated",
+     "tier": "reference",
+     "abstract_deadline": "simulated",
+     "late_breaker_deadline": "simulated"
+    }
+   },
+   "_key": "C-UEGW27",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

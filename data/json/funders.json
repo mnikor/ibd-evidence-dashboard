@@ -1,0 +1,207 @@
+{
+ "table": "funders",
+ "description": "Funding entities (team-defined list; confirm names with J&J governance).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "funder_id": "F-GMAF",
+   "name": "Global MAF",
+   "level": "global",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-GMAF",
+   "_source_ids": []
+  },
+  {
+   "funder_id": "F-USMAF",
+   "name": "US MAF",
+   "level": "regional",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-USMAF",
+   "_source_ids": []
+  },
+  {
+   "funder_id": "F-EMEAMAF",
+   "name": "EMEA MAF",
+   "level": "regional",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-EMEAMAF",
+   "_source_ids": []
+  },
+  {
+   "funder_id": "F-APACMAF",
+   "name": "APAC MAF",
+   "level": "regional",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-APACMAF",
+   "_source_ids": []
+  },
+  {
+   "funder_id": "F-JPMAF",
+   "name": "Japan MAF",
+   "level": "regional",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-JPMAF",
+   "_source_ids": []
+  },
+  {
+   "funder_id": "F-LATAMMAF",
+   "name": "LATAM MAF",
+   "level": "regional",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-LATAMMAF",
+   "_source_ids": []
+  },
+  {
+   "funder_id": "F-RD",
+   "name": "Global R&D / Clinical Development",
+   "level": "global",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-RD",
+   "_source_ids": []
+  },
+  {
+   "funder_id": "F-HEOR",
+   "name": "Global HEOR / Market Access",
+   "level": "global",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-HEOR",
+   "_source_ids": []
+  },
+  {
+   "funder_id": "F-LOCAL",
+   "name": "Local operating company",
+   "level": "local",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-LOCAL",
+   "_source_ids": []
+  },
+  {
+   "funder_id": "F-EXT",
+   "name": "External co-funder / partner",
+   "level": "external",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "funder_id": "reference",
+     "name": "reference",
+     "level": "reference"
+    }
+   },
+   "_key": "F-EXT",
+   "_source_ids": []
+  }
+ ]
+}

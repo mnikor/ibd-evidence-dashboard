@@ -1,0 +1,4207 @@
+{
+ "table": "sov_analysis",
+ "description": "Analysis-type mix per asset across all publications (title mentions).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Case report",
+   "n": 10,
+   "share_pct": 4.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Other",
+   "n": 19,
+   "share_pct": 7.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Narrative review",
+   "n": 10,
+   "share_pct": 4.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "ITC / NMA / SLR",
+   "n": 7,
+   "share_pct": 2.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "RWE",
+   "n": 19,
+   "share_pct": 7.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 18,
+   "share_pct": 7.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Subgroup analysis",
+   "n": 16,
+   "share_pct": 6.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 81,
+   "share_pct": 33.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Long-term extension",
+   "n": 23,
+   "share_pct": 9.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Post-hoc analysis",
+   "n": 15,
+   "share_pct": 6.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "HEOR / economic",
+   "n": 9,
+   "share_pct": 3.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Commentary",
+   "n": 6,
+   "share_pct": 2.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#12",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Pooled analysis",
+   "n": 5,
+   "share_pct": 2.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#13",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "analysis_type": "Baseline characteristics",
+   "n": 2,
+   "share_pct": 0.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TRE#14",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "JNJ4804",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 2,
+   "share_pct": 100.0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "JNJ4804",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 8,
+   "share_pct": 88.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ICO",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "analysis_type": "Subgroup analysis",
+   "n": 1,
+   "share_pct": 11.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ICO#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "RWE",
+   "n": 474,
+   "share_pct": 47.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 97,
+   "share_pct": 9.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Commentary",
+   "n": 24,
+   "share_pct": 2.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Pooled analysis",
+   "n": 1,
+   "share_pct": 0.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "ITC / NMA / SLR",
+   "n": 44,
+   "share_pct": 4.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Other",
+   "n": 133,
+   "share_pct": 13.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Case report",
+   "n": 74,
+   "share_pct": 7.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "HEOR / economic",
+   "n": 25,
+   "share_pct": 2.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Narrative review",
+   "n": 24,
+   "share_pct": 2.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Trial in progress / design",
+   "n": 1,
+   "share_pct": 0.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Long-term extension",
+   "n": 17,
+   "share_pct": 1.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 55,
+   "share_pct": 5.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#12",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Post-hoc analysis",
+   "n": 16,
+   "share_pct": 1.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#13",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Subgroup analysis",
+   "n": 4,
+   "share_pct": 0.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#14",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Baseline characteristics",
+   "n": 2,
+   "share_pct": 0.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#15",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "analysis_type": "Interim analysis",
+   "n": 1,
+   "share_pct": 0.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "STE#16",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "HEOR / economic",
+   "n": 17,
+   "share_pct": 4.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Case report",
+   "n": 37,
+   "share_pct": 8.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Other",
+   "n": 68,
+   "share_pct": 16.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "RWE",
+   "n": 168,
+   "share_pct": 40.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "ITC / NMA / SLR",
+   "n": 19,
+   "share_pct": 4.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Post-hoc analysis",
+   "n": 27,
+   "share_pct": 6.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Commentary",
+   "n": 6,
+   "share_pct": 1.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 32,
+   "share_pct": 7.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Long-term extension",
+   "n": 18,
+   "share_pct": 4.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Interim analysis",
+   "n": 1,
+   "share_pct": 0.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Pooled analysis",
+   "n": 1,
+   "share_pct": 0.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 18,
+   "share_pct": 4.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#12",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Narrative review",
+   "n": 4,
+   "share_pct": 1.0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#13",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "analysis_type": "Subgroup analysis",
+   "n": 2,
+   "share_pct": 0.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "SKY#14",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "RWE",
+   "n": 66,
+   "share_pct": 18.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 128,
+   "share_pct": 35.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Case report",
+   "n": 12,
+   "share_pct": 3.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Other",
+   "n": 36,
+   "share_pct": 9.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "ITC / NMA / SLR",
+   "n": 18,
+   "share_pct": 4.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Long-term extension",
+   "n": 32,
+   "share_pct": 8.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Subgroup analysis",
+   "n": 10,
+   "share_pct": 2.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Commentary",
+   "n": 9,
+   "share_pct": 2.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Post-hoc analysis",
+   "n": 7,
+   "share_pct": 1.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Narrative review",
+   "n": 5,
+   "share_pct": 1.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 26,
+   "share_pct": 7.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "HEOR / economic",
+   "n": 11,
+   "share_pct": 3.0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#12",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Interim analysis",
+   "n": 2,
+   "share_pct": 0.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#13",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Baseline characteristics",
+   "n": 1,
+   "share_pct": 0.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#14",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "analysis_type": "Pooled analysis",
+   "n": 2,
+   "share_pct": 0.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OMV#15",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 25,
+   "share_pct": 3.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Case report",
+   "n": 120,
+   "share_pct": 16.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Subgroup analysis",
+   "n": 3,
+   "share_pct": 0.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "RWE",
+   "n": 315,
+   "share_pct": 43.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Trial in progress / design",
+   "n": 3,
+   "share_pct": 0.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "HEOR / economic",
+   "n": 19,
+   "share_pct": 2.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Commentary",
+   "n": 30,
+   "share_pct": 4.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "ITC / NMA / SLR",
+   "n": 24,
+   "share_pct": 3.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Long-term extension",
+   "n": 20,
+   "share_pct": 2.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Other",
+   "n": 113,
+   "share_pct": 15.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Post-hoc analysis",
+   "n": 17,
+   "share_pct": 2.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 11,
+   "share_pct": 1.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#12",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Narrative review",
+   "n": 16,
+   "share_pct": 2.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#13",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Pooled analysis",
+   "n": 6,
+   "share_pct": 0.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#14",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "analysis_type": "Interim analysis",
+   "n": 1,
+   "share_pct": 0.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "RIN#15",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "ITC / NMA / SLR",
+   "n": 66,
+   "share_pct": 7.0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Other",
+   "n": 124,
+   "share_pct": 13.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "RWE",
+   "n": 448,
+   "share_pct": 47.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 111,
+   "share_pct": 11.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "HEOR / economic",
+   "n": 20,
+   "share_pct": 2.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Case report",
+   "n": 68,
+   "share_pct": 7.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Commentary",
+   "n": 23,
+   "share_pct": 2.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Pooled analysis",
+   "n": 2,
+   "share_pct": 0.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Narrative review",
+   "n": 16,
+   "share_pct": 1.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 39,
+   "share_pct": 4.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Trial in progress / design",
+   "n": 5,
+   "share_pct": 0.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Long-term extension",
+   "n": 11,
+   "share_pct": 1.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#12",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Post-hoc analysis",
+   "n": 11,
+   "share_pct": 1.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#13",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Interim analysis",
+   "n": 3,
+   "share_pct": 0.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#14",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "analysis_type": "Subgroup analysis",
+   "n": 2,
+   "share_pct": 0.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ENT#15",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "HEOR / economic",
+   "n": 6,
+   "share_pct": 3.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Other",
+   "n": 26,
+   "share_pct": 16.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 10,
+   "share_pct": 6.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "ITC / NMA / SLR",
+   "n": 7,
+   "share_pct": 4.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Narrative review",
+   "n": 12,
+   "share_pct": 7.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "RWE",
+   "n": 13,
+   "share_pct": 8.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Post-hoc analysis",
+   "n": 16,
+   "share_pct": 10.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Case report",
+   "n": 3,
+   "share_pct": 1.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 37,
+   "share_pct": 23.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Subgroup analysis",
+   "n": 8,
+   "share_pct": 5.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Pooled analysis",
+   "n": 6,
+   "share_pct": 3.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Commentary",
+   "n": 1,
+   "share_pct": 0.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#12",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "analysis_type": "Long-term extension",
+   "n": 10,
+   "share_pct": 6.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "VEL#13",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Commentary",
+   "n": 2,
+   "share_pct": 1.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "RWE",
+   "n": 22,
+   "share_pct": 20.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Other",
+   "n": 23,
+   "share_pct": 21.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "ITC / NMA / SLR",
+   "n": 3,
+   "share_pct": 2.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Narrative review",
+   "n": 2,
+   "share_pct": 1.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "HEOR / economic",
+   "n": 4,
+   "share_pct": 3.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Post-hoc analysis",
+   "n": 5,
+   "share_pct": 4.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Subgroup analysis",
+   "n": 6,
+   "share_pct": 5.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 20,
+   "share_pct": 18.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Case report",
+   "n": 6,
+   "share_pct": 5.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Long-term extension",
+   "n": 10,
+   "share_pct": 9.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 4,
+   "share_pct": 3.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#12",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "analysis_type": "Interim analysis",
+   "n": 1,
+   "share_pct": 0.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "ZEP#13",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "Commentary",
+   "n": 1,
+   "share_pct": 1.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 26,
+   "share_pct": 40.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "Other",
+   "n": 6,
+   "share_pct": 9.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 6,
+   "share_pct": 9.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "RWE",
+   "n": 1,
+   "share_pct": 1.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "Interim analysis",
+   "n": 2,
+   "share_pct": 3.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "HEOR / economic",
+   "n": 2,
+   "share_pct": 3.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "Long-term extension",
+   "n": 3,
+   "share_pct": 4.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "Pooled analysis",
+   "n": 12,
+   "share_pct": 18.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "analysis_type": "Subgroup analysis",
+   "n": 5,
+   "share_pct": 7.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "OBE#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "analysis_type": "Narrative review",
+   "n": 1,
+   "share_pct": 2.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TUL",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "analysis_type": "Other",
+   "n": 3,
+   "share_pct": 7.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TUL#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 23,
+   "share_pct": 59.0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TUL#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "analysis_type": "Post-hoc analysis",
+   "n": 2,
+   "share_pct": 5.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TUL#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "analysis_type": "Mechanistic / biomarker / PK",
+   "n": 8,
+   "share_pct": 20.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TUL#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "analysis_type": "Long-term extension",
+   "n": 2,
+   "share_pct": 5.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "TUL#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "analysis_type": "Other",
+   "n": 1,
+   "share_pct": 9.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "DUV",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 6,
+   "share_pct": 54.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "DUV#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "analysis_type": "Subgroup analysis",
+   "n": 4,
+   "share_pct": 36.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "DUV#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "analysis_type": "Trial analysis (primary / secondary)",
+   "n": 10,
+   "share_pct": 83.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "AFI",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "analysis_type": "RWE",
+   "n": 1,
+   "share_pct": 8.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "AFI#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "analysis_type": "ITC / NMA / SLR",
+   "n": 1,
+   "share_pct": 8.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "analysis_type",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "analysis_type": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "AFI#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  }
+ ]
+}

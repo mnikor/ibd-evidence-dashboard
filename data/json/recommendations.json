@@ -1,0 +1,557 @@
+{
+ "table": "recommendations",
+ "description": "SIMULATED decision-engine recommendations.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "rec_id": "REC-001",
+   "engine": "E2",
+   "decision_level": "strategic",
+   "action_type": "publish",
+   "target_entity_ids": "GAP-02",
+   "statement": "Publish the existing guselkumab vs risankizumab UC NMA (UEGW 2025) in a peer-reviewed journal and extend it to vedolizumab before REVAMP reads out",
+   "cost_usd": 150000,
+   "deadline": "2026-12-31",
+   "funder_id": "F-HEOR",
+   "confidence": 0.8,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-001",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-002",
+   "engine": "T2",
+   "decision_level": "tactical",
+   "action_type": "publish",
+   "target_entity_ids": "NCT05347095",
+   "statement": "Prioritise FUZION CD primary manuscript submission (target Gastroenterology)",
+   "cost_usd": 60000,
+   "deadline": "2026-12-15",
+   "funder_id": "F-GMAF",
+   "confidence": 0.85,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-002",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-003",
+   "engine": "E3",
+   "decision_level": "strategic",
+   "action_type": "accelerate",
+   "target_entity_ids": "GAP-10",
+   "statement": "Ask whether GORGEOUS (German guselkumab RWE, N=500) can report an SC-induction cohort at an earlier data cut, and partner with the independent groups already publishing guselkumab RWE (DDW 2026 propensity-matched studies) rather than starting a new claims study",
+   "cost_usd": 300000,
+   "deadline": "2026-11-30",
+   "funder_id": "F-USMAF",
+   "confidence": 0.7,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-003",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-004",
+   "engine": "E4",
+   "decision_level": "strategic",
+   "action_type": "review business case",
+   "target_entity_ids": "NCT07499232",
+   "statement": "Review CHARGE's business case against the US LOE signal (its answer reaches guidelines around Aug 2031): value for EU HTA re-assessment, class positioning for icotrokinra, interim-analysis options; then decide EMEA MAF co-funding (AI-D01)",
+   "cost_usd": 0,
+   "deadline": "2026-11-30",
+   "funder_id": "F-EMEAMAF",
+   "confidence": 0.6,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-004",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-005",
+   "engine": "T1",
+   "decision_level": "tactical",
+   "action_type": "submit to venue",
+   "target_entity_ids": "NCT06408935",
+   "statement": "Target REASON primary as late-breaker at UEGW 2027; pre-plan encore at ACG 2027",
+   "cost_usd": 0,
+   "deadline": "2027-06-30",
+   "funder_id": "F-GMAF",
+   "confidence": 0.7,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-005",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-006",
+   "engine": "T3",
+   "decision_level": "tactical",
+   "action_type": "reactive material",
+   "target_entity_ids": "EV-001",
+   "statement": "Prepare TL1A scientific-exchange pack for MSLs ahead of ATLAS-UC full presentation at UEGW 2026",
+   "cost_usd": 40000,
+   "deadline": "2026-10-10",
+   "funder_id": "F-GMAF",
+   "confidence": 0.8,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-006",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-007",
+   "engine": "E1",
+   "decision_level": "strategic",
+   "action_type": "fund",
+   "target_entity_ids": "GAP-19",
+   "statement": "Fund oral vs SC preference DCE (SIM-DCE-01) to support TREMFYA-icotrokinra portfolio story",
+   "cost_usd": 500000,
+   "deadline": "2027-01-15",
+   "funder_id": "F-GMAF",
+   "confidence": 0.65,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-007",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-008",
+   "engine": "T6",
+   "decision_level": "tactical",
+   "action_type": "encore",
+   "target_entity_ids": "OUT-P008",
+   "statement": "Encore FUZION at APDW/JDDW 2027 for APAC markets",
+   "cost_usd": 20000,
+   "deadline": "2027-06-30",
+   "funder_id": "F-APACMAF",
+   "confidence": 0.6,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-008",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-009",
+   "engine": "E1",
+   "decision_level": "strategic",
+   "action_type": "decide",
+   "target_entity_ids": "LOE-TRE-US",
+   "statement": "Confirm TREMFYA planning LOE (US, EU) with J&J IP, then review the TREMFYA studies that land at or after it (AI-L01)",
+   "cost_usd": 0,
+   "deadline": "2026-12-15",
+   "funder_id": "F-GMAF",
+   "confidence": 0.75,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-009",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-010",
+   "engine": "E1",
+   "decision_level": "strategic",
+   "action_type": "plan",
+   "target_entity_ids": "GAP-20",
+   "statement": "Build a portfolio evidence plan for TREMFYA, icotrokinra and JNJ-4804 (sequencing and switching): IL-23-experienced subgroups in ICONIC and DUET ENCORE, a switching real-world cohort, ready for the 2029 launches (AI-PF01)",
+   "cost_usd": 400000,
+   "deadline": "2027-03-31",
+   "funder_id": "F-GMAF",
+   "confidence": 0.7,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-010",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "rec_id": "REC-011",
+   "engine": "E3",
+   "decision_level": "strategic",
+   "action_type": "add endpoints",
+   "target_entity_ids": "NCT07196722; NCT07577843",
+   "statement": "Add bowel-ultrasound and faecal calprotectin to the icotrokinra and JNJ-4804 long-term extensions, so evidence depth carries over from TREMFYA (AI-PF02)",
+   "cost_usd": 250000,
+   "deadline": "2027-06-30",
+   "funder_id": "F-GMAF",
+   "confidence": 0.6,
+   "status": "proposed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "rec_id",
+     "engine",
+     "decision_level",
+     "action_type",
+     "target_entity_ids",
+     "statement",
+     "cost_usd",
+     "deadline",
+     "funder_id",
+     "confidence",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "rec_id": "simulated",
+     "engine": "simulated",
+     "decision_level": "simulated",
+     "action_type": "simulated",
+     "target_entity_ids": "simulated",
+     "statement": "simulated",
+     "cost_usd": "simulated",
+     "deadline": "simulated",
+     "funder_id": "simulated",
+     "confidence": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "REC-011",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  }
+ ]
+}

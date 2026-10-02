@@ -1,0 +1,441 @@
+{
+ "built": "2026-09-19",
+ "tables": {
+  "sources": {
+   "rows": 83,
+   "cells": {
+    "public_verified": 567,
+    "simulated": 14
+   }
+  },
+  "moa": {
+   "rows": 10,
+   "cells": {
+    "public_unverified": 16,
+    "public_verified": 4
+   }
+  },
+  "indications": {
+   "rows": 7,
+   "cells": {
+    "reference": 7
+   }
+  },
+  "geographies": {
+   "rows": 21,
+   "cells": {
+    "reference": 42,
+    "public_unverified": 21,
+    "ai_inferred": 21,
+    "simulated": 63
+   }
+  },
+  "care_segments": {
+   "rows": 15,
+   "cells": {
+    "reference": 75,
+    "simulated": 15
+   }
+  },
+  "stakeholders": {
+   "rows": 9,
+   "cells": {
+    "reference": 18,
+    "simulated": 9
+   }
+  },
+  "funders": {
+   "rows": 10,
+   "cells": {
+    "reference": 20
+   }
+  },
+  "publication_ladder_template": {
+   "rows": 15,
+   "cells": {
+    "reference": 105
+   }
+  },
+  "brands": {
+   "rows": 15,
+   "cells": {
+    "public_verified": 105,
+    "simulated": 30
+   }
+  },
+  "strategic_imperatives": {
+   "rows": 13,
+   "cells": {
+    "simulated": 78,
+    "derived": 26
+   }
+  },
+  "key_questions": {
+   "rows": 14,
+   "cells": {
+    "simulated": 28
+   }
+  },
+  "studies": {
+   "rows": 51,
+   "cells": {
+    "public_verified": 661,
+    "derived": 843,
+    "simulated": 383
+   }
+  },
+  "study_design": {
+   "rows": 44,
+   "cells": {
+    "public_verified": 484,
+    "derived": 44
+   }
+  },
+  "study_country_sites": {
+   "rows": 1379,
+   "cells": {
+    "public_verified": 2758
+   }
+  },
+  "study_milestones": {
+   "rows": 198,
+   "cells": {
+    "public_verified": 636,
+    "simulated": 480,
+    "derived": 468
+   }
+  },
+  "study_enrollment": {
+   "rows": 294,
+   "cells": {
+    "simulated": 2058,
+    "public_verified": 294
+   }
+  },
+  "study_funding": {
+   "rows": 61,
+   "cells": {
+    "simulated": 549
+   }
+  },
+  "rwe_study_detail": {
+   "rows": 22,
+   "cells": {
+    "simulated": 136,
+    "public_verified": 40,
+    "derived": 22
+   }
+  },
+  "study_baseline": {
+   "rows": 7,
+   "cells": {
+    "simulated": 56
+   }
+  },
+  "study_results": {
+   "rows": 26,
+   "cells": {
+    "public_verified": 208,
+    "derived": 52
+   }
+  },
+  "study_safety": {
+   "rows": 7,
+   "cells": {
+    "simulated": 35
+   }
+  },
+  "evidence_domains": {
+   "rows": 13,
+   "cells": {
+    "reference": 26
+   }
+  },
+  "study_endpoints": {
+   "rows": 2218,
+   "cells": {
+    "public_verified": 13308,
+    "derived": 11090
+   }
+  },
+  "study_evidence_profile": {
+   "rows": 144,
+   "cells": {
+    "reference": 144,
+    "derived": 1275,
+    "simulated": 21
+   }
+  },
+  "evidence_gaps": {
+   "rows": 22,
+   "cells": {
+    "simulated": 258,
+    "public_verified": 6,
+    "derived": 330,
+    "reference": 22
+   }
+  },
+  "evidence_outputs": {
+   "rows": 40,
+   "cells": {
+    "public_verified": 117,
+    "derived": 147,
+    "simulated": 243
+   }
+  },
+  "venues": {
+   "rows": 21,
+   "cells": {
+    "public_unverified": 66,
+    "reference": 21,
+    "simulated": 72,
+    "public_verified": 30
+   }
+  },
+  "key_messages": {
+   "rows": 7,
+   "cells": {
+    "public_verified": 21,
+    "simulated": 7,
+    "reference": 7
+   }
+  },
+  "dissemination_tactics": {
+   "rows": 28,
+   "cells": {
+    "simulated": 280
+   }
+  },
+  "publications": {
+   "rows": 4455,
+   "cells": {
+    "public_verified": 40095,
+    "derived": 57915
+   }
+  },
+  "sov_congress": {
+   "rows": 171,
+   "cells": {
+    "derived": 1026
+   }
+  },
+  "sov_journal": {
+   "rows": 41,
+   "cells": {
+    "derived": 82
+   }
+  },
+  "industry_symposia": {
+   "rows": 18,
+   "cells": {
+    "public_verified": 36
+   }
+  },
+  "sov_analysis": {
+   "rows": 140,
+   "cells": {
+    "derived": 420
+   }
+  },
+  "competitor_studies": {
+   "rows": 93,
+   "cells": {
+    "public_verified": 1217,
+    "derived": 550,
+    "simulated": 93
+   }
+  },
+  "competitive_events": {
+   "rows": 24,
+   "cells": {
+    "public_verified": 52,
+    "ai_inferred": 24,
+    "simulated": 44
+   }
+  },
+  "competitor_gaps": {
+   "rows": 13,
+   "cells": {
+    "ai_inferred": 52,
+    "simulated": 35,
+    "public_verified": 4
+   }
+  },
+  "competitor_strategies": {
+   "rows": 6,
+   "cells": {
+    "ai_inferred": 42,
+    "simulated": 12,
+    "derived": 6
+   }
+  },
+  "publication_themes": {
+   "rows": 130,
+   "cells": {
+    "derived": 650
+   }
+  },
+  "competitive_impact": {
+   "rows": 6,
+   "cells": {
+    "simulated": 54,
+    "derived": 6
+   }
+  },
+  "guidelines": {
+   "rows": 8,
+   "cells": {
+    "public_verified": 32,
+    "simulated": 8
+   }
+  },
+  "guideline_positions": {
+   "rows": 100,
+   "cells": {
+    "public_verified": 500
+   }
+  },
+  "hta_decisions": {
+   "rows": 8,
+   "cells": {
+    "public_verified": 40
+   }
+  },
+  "regulatory_events": {
+   "rows": 18,
+   "cells": {
+    "public_verified": 90
+   }
+  },
+  "market_metrics": {
+   "rows": 83,
+   "cells": {
+    "public_verified": 25,
+    "simulated": 390
+   }
+  },
+  "field_insights": {
+   "rows": 40,
+   "cells": {
+    "simulated": 280
+   }
+  },
+  "signals": {
+   "rows": 32,
+   "cells": {
+    "public_verified": 48,
+    "simulated": 44,
+    "derived": 100
+   }
+  },
+  "ai_insights": {
+   "rows": 25,
+   "cells": {
+    "derived": 150,
+    "ai_inferred": 50
+   }
+  },
+  "regimens": {
+   "rows": 15,
+   "cells": {
+    "public_verified": 210
+   }
+  },
+  "regimen_burden": {
+   "rows": 9,
+   "cells": {
+    "derived": 108
+   }
+  },
+  "product_attributes": {
+   "rows": 31,
+   "cells": {
+    "public_verified": 248,
+    "derived": 155
+   }
+  },
+  "watch_items": {
+   "rows": 6,
+   "cells": {
+    "reference": 42
+   }
+  },
+  "evidence_depth_by_domain": {
+   "rows": 26,
+   "cells": {
+    "derived": 182
+   }
+  },
+  "loe": {
+   "rows": 30,
+   "cells": {
+    "public_verified": 216,
+    "public_unverified": 18,
+    "derived": 82,
+    "simulated": 104
+   }
+  },
+  "study_loe_window": {
+   "rows": 50,
+   "cells": {
+    "derived": 864,
+    "reference": 50,
+    "simulated": 36
+   }
+  },
+  "loe_start_by": {
+   "rows": 24,
+   "cells": {
+    "derived": 144,
+    "ai_inferred": 96,
+    "simulated": 72
+   }
+  },
+  "llm_questions": {
+   "rows": 34,
+   "cells": {
+    "reference": 136
+   }
+  },
+  "llm_runs": {
+   "rows": 2,
+   "cells": {
+    "public_verified": 8,
+    "derived": 14,
+    "ai_inferred": 4
+   }
+  },
+  "llm_answers": {
+   "rows": 68,
+   "cells": {
+    "public_verified": 544,
+    "derived": 340,
+    "ai_inferred": 136
+   }
+  },
+  "llm_drug_share": {
+   "rows": 57,
+   "cells": {
+    "derived": 570
+   }
+  },
+  "recommendations": {
+   "rows": 11,
+   "cells": {
+    "simulated": 110
+   }
+  },
+  "scenarios": {
+   "rows": 3,
+   "cells": {
+    "simulated": 9
+   }
+  },
+  "decision_log": {
+   "rows": 2,
+   "cells": {
+    "simulated": 12
+   }
+  }
+ }
+}

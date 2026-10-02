@@ -1,0 +1,239 @@
+{
+ "table": "moa",
+ "description": "Mechanisms of action.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "moa_id": "IL23P19",
+   "name": "IL-23 p19 inhibitor",
+   "pathway": "IL-23/Th17",
+   "_provenance": {
+    "data_origin": "public_unverified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [
+     "moa_id",
+     "name",
+     "pathway"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_unverified",
+     "name": "public_unverified",
+     "pathway": "public_unverified"
+    }
+   },
+   "_key": "IL23P19",
+   "_source_ids": []
+  },
+  {
+   "moa_id": "IL23R_ORAL",
+   "name": "Oral IL-23 receptor antagonist peptide",
+   "pathway": "IL-23/Th17",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_verified",
+     "name": "public_verified",
+     "pathway": "public_verified"
+    }
+   },
+   "_key": "IL23R_ORAL",
+   "_source_ids": []
+  },
+  {
+   "moa_id": "COMBO_IL23_TNF",
+   "name": "IL-23 + TNF antibody combination",
+   "pathway": "IL-23 + TNF",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_verified",
+     "name": "public_verified",
+     "pathway": "public_verified"
+    }
+   },
+   "_key": "COMBO_IL23_TNF",
+   "_source_ids": []
+  },
+  {
+   "moa_id": "IL12_23P40",
+   "name": "IL-12/23 p40 inhibitor",
+   "pathway": "IL-12/IL-23",
+   "_provenance": {
+    "data_origin": "public_unverified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [
+     "moa_id",
+     "name",
+     "pathway"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_unverified",
+     "name": "public_unverified",
+     "pathway": "public_unverified"
+    }
+   },
+   "_key": "IL12_23P40",
+   "_source_ids": []
+  },
+  {
+   "moa_id": "JAK1",
+   "name": "JAK1-selective inhibitor",
+   "pathway": "JAK-STAT",
+   "_provenance": {
+    "data_origin": "public_unverified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [
+     "moa_id",
+     "name",
+     "pathway"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_unverified",
+     "name": "public_unverified",
+     "pathway": "public_unverified"
+    }
+   },
+   "_key": "JAK1",
+   "_source_ids": []
+  },
+  {
+   "moa_id": "A4B7",
+   "name": "Anti-α4β7 integrin",
+   "pathway": "Gut-selective lymphocyte trafficking",
+   "_provenance": {
+    "data_origin": "public_unverified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [
+     "moa_id",
+     "name",
+     "pathway"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_unverified",
+     "name": "public_unverified",
+     "pathway": "public_unverified"
+    }
+   },
+   "_key": "A4B7",
+   "_source_ids": []
+  },
+  {
+   "moa_id": "A4B7_ORAL",
+   "name": "Oral α4β7 integrin inhibitor",
+   "pathway": "Gut-selective lymphocyte trafficking",
+   "_provenance": {
+    "data_origin": "public_unverified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [
+     "moa_id",
+     "name",
+     "pathway"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_unverified",
+     "name": "public_unverified",
+     "pathway": "public_unverified"
+    }
+   },
+   "_key": "A4B7_ORAL",
+   "_source_ids": []
+  },
+  {
+   "moa_id": "S1P",
+   "name": "S1P receptor modulator",
+   "pathway": "Lymphocyte egress",
+   "_provenance": {
+    "data_origin": "public_unverified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [
+     "moa_id",
+     "name",
+     "pathway"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_unverified",
+     "name": "public_unverified",
+     "pathway": "public_unverified"
+    }
+   },
+   "_key": "S1P",
+   "_source_ids": []
+  },
+  {
+   "moa_id": "MIR124",
+   "name": "miR-124 enhancer",
+   "pathway": "Anti-inflammatory miRNA",
+   "_provenance": {
+    "data_origin": "public_unverified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [
+     "moa_id",
+     "name",
+     "pathway"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_unverified",
+     "name": "public_unverified",
+     "pathway": "public_unverified"
+    }
+   },
+   "_key": "MIR124",
+   "_source_ids": []
+  },
+  {
+   "moa_id": "TL1A",
+   "name": "Anti-TL1A",
+   "pathway": "TL1A/DR3 (inflammation + fibrosis)",
+   "_provenance": {
+    "data_origin": "public_unverified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [
+     "moa_id",
+     "name",
+     "pathway"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "moa_id": "public_unverified",
+     "name": "public_unverified",
+     "pathway": "public_unverified"
+    }
+   },
+   "_key": "TL1A",
+   "_source_ids": []
+  }
+ ]
+}

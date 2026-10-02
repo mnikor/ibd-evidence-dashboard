@@ -1,0 +1,3888 @@
+{
+ "table": "study_design",
+ "description": "Arms, design and all registered outcomes (primary, secondary, other/exploratory) from the registry.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "study_id": "NCT05923073",
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "2 Years",
+   "max_age": "17 Years",
+   "arms": [
+    {
+     "label": "Open-label induction phase: Guselkumab Intravenously (IV)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab dose IV based on their body weight during the 12-week open-label induction phase."
+    },
+    {
+     "label": "Open-label induction phase: Guselkumab Subcutaneously (SC)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab dose SC based on their body weight during the 12-week open-label induction phase."
+    },
+    {
+     "label": "Double-blind maintenance phase: Guselkumab SC Dose Regimen 1",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "At the end of the induction phase, Week 12 responders will be randomized into the double-blind maintenance phase to receive guselkumab dose regimen 1 SC based on their body weight up to Week 48."
+    },
+    {
+     "label": "Double-blind Maintenance Phase: Guselkumab SC Dose Regimen 2",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "At the end of the induction phase, Week 12 responders will be randomized into the double-blind maintenance phase to receive guselkumab dose regimen 2 SC based on their body weight up to Week 48."
+    },
+    {
+     "label": "Open-label maintenance phase: Guselkumab SC",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Week 12 non-responders will not be randomized and will enter an open-label maintenance phase to receive guselkumab SC dosing regimen based on their body weight up to Week 48."
+    }
+   ],
+   "n_arms": 5,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants with Clinical Remission at Week 52",
+     "time_frame": "Week 52"
+    },
+    {
+     "measure": "Percentage of Participants Who Achieve Endoscopic Response at Week 52",
+     "time_frame": "Week 52"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants with Clinical Response at Week 12",
+    "Percentage of Participants with Clinical Response at Week 52",
+    "Percentage of Participants with Clinical Remission at Week 12",
+    "Percentage of Participants with Endoscopic Remission at Week 52",
+    "Percentage of Participants with Corticosteroid-free Remission at Week 52",
+    "Percentage of Participants with Sustained Clinical Remission at Weeks 12, 24, and 52",
+    "Percentage of Participants with Clinical remission by Patient-Reported Outcome (PRO-2)",
+    "Serum Concentration of Guselkumab During Induction Phase",
+    "Trough Plasma Concentration (Ctrough) of Guselkumab During Maintenance Phase",
+    "Change from Baseline in Body Weight at Weeks 12, 24, and 52",
+    "Change from Baseline in Body Weight Percentiles at Weeks 12, 24, and 52",
+    "Change from Baseline in Body Weight z-scores at Weeks 12, 24, and 52",
+    "Change from Baseline in Height at Weeks 12, 24, and 52",
+    "Change from Baseline in Height Percentiles at Weeks 12, 24, and 52",
+    "Change from Baseline in Height z-scores at Weeks 12, 24, and 52",
+    "Change from Baseline in Height Velocity at Weeks 12, 24, and 52",
+    "Percentage of Participants with Clinical Remission",
+    "Percentage of Participants Who Achieve Endoscopic Response",
+    "Number of Participants with Adverse Events (AEs) and Serious Adverse Events (SAEs)"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT05923073",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT05528510",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Group 1: Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Dose 1; Drug: Guselkumab Dose 2",
+     "description": "Participants will receive guselkumab (Dose 1) subcutaneous (SC) injection followed by guselkumab (Dose 2) SC injection."
+    },
+    {
+     "label": "Group 2: Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Dose 1; Drug: Guselkumab Dose 3",
+     "description": "Participants will receive guselkumab (Dose 1) SC injection followed by guselkumab (Dose 3) SC injection."
+    },
+    {
+     "label": "Group 3: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Other: Placebo",
+     "description": "Participants will receive matching placebo SC injection."
+    }
+   ],
+   "n_arms": 3,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants in Clinical Remission at Week 12",
+     "time_frame": "Week 12"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants in Symptomatic Remission at Week 12",
+    "Percentage of Participants With Endoscopic Improvement at Week 12",
+    "Percentage of Participants in Clinical Response at Week 12",
+    "Percentage of Participants With Histologic-endoscopic Mucosal Improvement at Week 12",
+    "Percentage of Participants in Clinical Remission at Week 24",
+    "Percentage of Participants in Symptomatic Remission at Week 24",
+    "Percentage of Participants With Endoscopic Improvement at Week 24",
+    "Percentage of Participants in Clinical Response at Week 24"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT05528510",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07487480",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "75 Years",
+   "arms": [],
+   "n_arms": 0,
+   "primary_outcomes": [
+    {
+     "measure": "Proportion of patients achieving clinical remission (CDAI <150 or HBI <4) at Week 52.",
+     "time_frame": "52weeks"
+    }
+   ],
+   "secondary_outcomes": [],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07487480",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT06260163",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "2 Years",
+   "max_age": "17 Years",
+   "arms": [
+    {
+     "label": "Open-label Induction Phase: Guselkumab Intravenously (IV)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Intravenous",
+     "description": "Participants will receive a guselkumab dose IV based on their body weight (BW) during the 12-week open-label induction phase."
+    },
+    {
+     "label": "Open-label Induction Phase: Guselkumab Subcutaneously (SC)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Subcutaneous",
+     "description": "Participants will receive a guselkumab dose SC based on their BW during the 12-week open-label induction phase."
+    },
+    {
+     "label": "Double-blind Maintenance Phase: Guselkumab Dose Regimen 1",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Subcutaneous",
+     "description": "At the end of the induction phase, Week 12 responders will be randomized into the double-blind maintenance phase to receive guselkumab dose regimen 1 SC based on their BW up to Week 56."
+    },
+    {
+     "label": "Double-blind Maintenance Phase: Guselkumab Dose Regimen 2",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Subcutaneous",
+     "description": "At the end of the induction phase, Week 12 responders will be randomized into the double-blind maintenance phase to receive guselkumab dose regimen 2 SC based on their BW up to Week 56."
+    },
+    {
+     "label": "Open-label Maintenance Phase: Guselkumab SC",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Subcutaneous",
+     "description": "Week 12 non-responders will not be randomized and will enter an open-label maintenance phase to receive guselkumab SC dosing regimen based on their body weight up to Week 56."
+    }
+   ],
+   "n_arms": 5,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants with Clinical Remission at Week 56",
+     "time_frame": "Week 56"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants with Clinical Response at Week 12",
+    "Percentage of Participants with Clinical Remission at Week 12",
+    "Percentage of Participants With Pediatric Ulcerative Colitis Activity Index (PUCAI) Remission at Week 12",
+    "Percentage of Participants with Symptomatic Remission at Week 12",
+    "United States: Percentage of Participants with Endoscopic Improvement at Week 12",
+    "European Union: Percentage of Participants with Endoscopic Healing at Week 12",
+    "Percentage of Participants with Clinical Response at Week 56",
+    "Percentage of Participants With PUCAI Remission at Week 56",
+    "Percentage of Participants with Symptomatic Remission at Week 56",
+    "Percentage of Participants with Symptomatic Remission at Week 56 Among Participants who had Symptomatic Remission at Week 12",
+    "United States: Percentage of Participants With Endoscopic Improvement at Week 56",
+    "European Union: Percentage of Participants With Endoscopic Healing at Week 56",
+    "Percentage of Participants Who Achieve Endoscopic Normalization at Week 56",
+    "Percentage of Participants Histo-endoscopic Mucosal Improvement at Week 56",
+    "Percentage of Participants with Corticosteroid-free Clinical Remission at Week 56",
+    "Serum Concentration of Guselkumab During Induction Phase",
+    "Serum Concentration of Guselkumab During Maintenance Phase",
+    "Number of Participants with Incidence of Anti-guselkumab Antibodies",
+    "Percentage of Participants with Adverse Events (AEs)",
+    "Percentage of Participants with Serious Adverse Events (SAEs)",
+    "Percentage of Participants with AEs Leading to Discontinuation of Study Intervention"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT06260163",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07487311",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "14 Years",
+   "max_age": "80 Years",
+   "arms": [],
+   "n_arms": 0,
+   "primary_outcomes": [
+    {
+     "measure": "12-week clinical response and 52-week endoscopic response",
+     "time_frame": "The composite endpoint achievement rate of 12-week clinical response (CDAI decrease ≥100) and 52-week endoscopic respons"
+    }
+   ],
+   "secondary_outcomes": [],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07487311",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT05242471",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "65 Years",
+   "arms": [
+    {
+     "label": "Group 1: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Participants will receive placebo subcutaneously (SC). All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that they a"
+    },
+    {
+     "label": "Group 2: Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: Guselkumab",
+     "description": "Participants will receive guselkumab dose regimen 1 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that they "
+    },
+    {
+     "label": "Group 3: Golimumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: Golimumab",
+     "description": "Participants will receive golimumab dose regimen 1 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that they a"
+    },
+    {
+     "label": "Group 4: JNJ-78934804 (High-dose)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: JNJ-78934804",
+     "description": "Participants will receive JNJ-78934804 dose regimen 1 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that the"
+    },
+    {
+     "label": "Group 5: JNJ-78934804 (Mid-dose)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: JNJ-78934804",
+     "description": "Participants will receive JNJ-78934804 dose regimen 2 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that the"
+    },
+    {
+     "label": "Group 6: JNJ-78934804 (Low-dose)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: JNJ-78934804",
+     "description": "Participants will receive JNJ-78934804 dose regimen 3 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that the"
+    }
+   ],
+   "n_arms": 6,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants with Clinical Remission at Week 48",
+     "time_frame": "Week 48"
+    },
+    {
+     "measure": "Percentage of Participants with Endoscopic Response at Week 48",
+     "time_frame": "Week 48"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants with Patient-reported Outcomes (PRO)-2 Remission at Week 48",
+    "Percentage of Participants with Endoscopic Remission at Week 48",
+    "Percentage of Participants with Corticosteroid-Free Clinical Remission at Week 48",
+    "Secondary Comparison: Percentage of Participants with Clinical Remission at Week 48",
+    "Secondary Comparison: Percentage of Participants with Endoscopic Response at Week 48",
+    "Percentage of Participants with Adverse Events (AEs)",
+    "Percentage of Participants with Serious Adverse Events (SAEs)",
+    "Clinical Laboratory Parameters Over Time",
+    "Vital Sign Parameters Over Time",
+    "Suicidal Ideation Assessment Using Columbia Suicide Severity Rating Scale (C-SSRS) Score",
+    "Serum Concentrations of Guselkumab Over Time",
+    "Serum Concentrations of Golimumab Over Time",
+    "Percentage of Participants with Antibodies to Guselkumab",
+    "Titers of Antibodies to Guselkumab",
+    "Percentage of Participants with Antibodies to Golimumab",
+    "Titers of Antibodies to Golimumab",
+    "Percentage of Participants with Neutralizing Antibodies to Guselkumab.",
+    "Percentage of Participants with Neutralizing Antibodies to Golimumab"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT05242471",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07242248",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Group 1: Moderate-to-Severe Ulcerative Colitis (UC) or Crohn's Disease (CD)",
+     "type": "",
+     "interventions": "",
+     "description": "Participants with confirmed diagnosis of moderate-to-severe UC or CD treated with guselkumab as per standard clinical practice will be enrolled. No drug will be provided as part of this study. Only data available from standard clinical prac"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Number of Participants Achieving Clinical Remission for Crohn's Disease (CD) as Measured by Harvey-Bradshaw Index (HBI)",
+     "time_frame": "Up to Week 96"
+    },
+    {
+     "measure": "Number of Participants Achieving Clinical Remission for Ulcerative Colitis (UC) as Measured by Partial Mayo Score (PMS)",
+     "time_frame": "Up to Week 96"
+    },
+    {
+     "measure": "Number of Participants Achieving Clinical Response for CD as Measured by HBI",
+     "time_frame": "Up to Week 96"
+    },
+    {
+     "measure": "Number of Participants Achieving Clinical Response for UC as Measured by PMS",
+     "time_frame": "Up to Week 96"
+    },
+    {
+     "measure": "Number of Participants Achieving Corticosteroid-free Remission for CD as Measured by HBI",
+     "time_frame": "Up to Week 96"
+    },
+    {
+     "measure": "Number of Participants Achieving Corticosteroid-free Remission for UC as Measured by PMS",
+     "time_frame": "Up to Week 96"
+    },
+    {
+     "measure": "Number of Participants Achieving Corticosteroid-free Clinical Response for CD as Measured by HBI",
+     "time_frame": "Up to Week 96"
+    },
+    {
+     "measure": "Number of Participants Achieving Corticosteroid-free Clinical Response for UC as Measured by PMS",
+     "time_frame": "Up to Week 96"
+    },
+    {
+     "measure": "Number of Participants Achieving Patient-Reported Outcome (PRO)-2 Corticosteroid-Free Remission for CD as Measured by HBI",
+     "time_frame": "Up to Week 96"
+    },
+    {
+     "measure": "Number of Participants Achieving PRO-2 Corticosteroid-Free Remission for UC as Measured by PMS",
+     "time_frame": "Up to Week 96"
+    }
+   ],
+   "secondary_outcomes": [
+    "Number of Participants with Early Responses to Guselkumab Measured Using PRO-2 Components for UC",
+    "Number of Participants with Early Responses to Guselkumab Measured Using PRO-2 Components for CD",
+    "Number of Participants with Early Responses to Guselkumab Measured Using Bowel Urgency",
+    "Time to Guselkumab Persistence",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Sex",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous IBD Medication Use, Smoking Status and History, History of UC and History of CD",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Height",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Weight",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Severity",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age at Diagnosis",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Duration",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Comorbid Diagnoses",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous IBD-Related Surgeries",
+    "Number of Participants with Adverse Events (AEs)",
+    "Change in C-reactive protein (CRP) Levels",
+    "Number of Participants with CRP Normalization",
+    "Change in Faecal Calprotectin (Fcal) Levels",
+    "Number of Participants with Fcal Normalization",
+    "Change in Albumin Levels",
+    "Change in Hemoglobin Levels",
+    "Change in Platelets Levels",
+    "Number of Participants Receiving Concomitant IBD Medications During Guselkumab Treatment",
+    "Health-related Quality of Life (HRQoL) as Measured by Short Inflammatory Bowel Disease Questionnaire (SIBDQ) Scale Score",
+    "HRQoL as Measured by Bowel Urgency",
+    "HRQoL as Measured by PRO-2 Components for Participants with CD",
+    "HRQoL as Measured by PRO-2 Components for Participants with UC",
+    "HRQoL as Measured by IBD-Control Questionnaire (ICHOM)",
+    "Fatigue Measured by Functional Assessment of Chronic Illness Therapy- Fatigue (FACIT-F) Scale",
+    "Number of Participants Achieving Endoscopic Response for Participants with CD as Measured by Simple Endoscopy Score-CD (SES-CD)",
+    "Number of Participants Achieving Endoscopic Remission for Participants with CD as Measured by SES-CD",
+    "Number of Participants Achieving Endoscopic Improvement for Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Endoscopic Normalization for Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Histologic Improvement",
+    "Number of Participants Achieving Histologic Remission",
+    "Number of Participants with CD Achieving Intestinal Ultrasound (IUS) Response",
+    "Number of Participants with CD Achieving IUS Remission",
+    "Change from Baseline in Satisfaction with Guselkumab Treatment Using Treatment Satisfaction Questionnaire for Medication (TSQM)",
+    "Change in Number of UC/CD Emergency Room Visits",
+    "Change in Number of UC/CD-Hospitalizations",
+    "Change in Number of UC/CD Surgeries"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07242248",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07528040",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Gulselkumab after surgery",
+     "type": "",
+     "interventions": "Drug: Guselkumab",
+     "description": "The target population is male or female participants (minimum age 18) with a diagnosis of CD who have had a qualifying surgery (eg, ileocolonic resection) at most 3months before enrolled. Participants will be excluded if they have a short s"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Endoscopic recurrence rate at Wk 24",
+     "time_frame": "From enrollment to Week 24"
+    }
+   ],
+   "secondary_outcomes": [
+    "Clinical remission without recurrence at Wk24/Wk48",
+    "Endoscopic recurrence at Wk48",
+    "Endoscopic remission at Wk24/48",
+    "Safety profile"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07528040",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07577856",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "JNJ-78934804",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: JNJ-78934804",
+     "description": "Participants will receive JNJ-78934804 induction dose at Weeks 0, 4, and 8 followed by JNJ-78934804 maintenance dose, once every 4 weeks (q4w) starting at Week 12. All participants who meet the rescue criteria will receive JNJ-78934804 indu"
+    },
+    {
+     "label": "Guselkumab",
+     "type": "ACTIVE_COMPARATOR",
+     "interventions": "Drug: JNJ-78934804; Drug: Guselkumab",
+     "description": "Participants with moderately to severely active UC will receive guselkumab induction dose at Weeks 0, 4, and 8 followed by guselkumab maintenance dose q4w starting at Week 12. All participants who meet the rescue criteria will receive JNJ-7"
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants in Clinical Remission at Week 48",
+     "time_frame": "At Week 48"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants with Endoscopic Improvement at Week 48",
+    "Percentage of Participants with Corticosteroid-free (90 day) Clinical Remission at Week 48",
+    "Percentage of Participants Achieving a Combination of Histologic Remission and Endoscopic Improvement at Week 48",
+    "Percentage of Participants with Fatigue Response (PROMIS Fatigue Short Form 7a) at Week 48",
+    "Percentage of Participants with Sustained Mayo SF Less Than or Equal to (<=) 1 and RB=0",
+    "Percentage of Participants in Abdominal Pain Remission at Week 48",
+    "Percentage of Participants with Inflammatory Bowel Disease Questionnaire (IBDQ) Response at Week 48",
+    "Percentage of Participants with PROMIS-29 Mental Component Summary (MCS) Response at Week 48",
+    "Percentage of Participants in Clinical Remission at Week 12",
+    "Percentage of Participants with Endoscopic Improvement at Week 12",
+    "Percentage of Participants with Mayo SF/RB Response at Week 2",
+    "Percentage of Participants with Adverse Events (AE) and Serious AEs (SAEs)"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07577856",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07602517",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "75 Years",
+   "arms": [
+    {
+     "label": "IBD Patients Initiating Guselkumab",
+     "type": "",
+     "interventions": "Drug: Guselkumab",
+     "description": "Individuals with confirmed clinical SpA diagnosis who are initiating guselkumab as standard care for CD or UC will take surveys every 3 months over a 1-year timeframe."
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Change in Bath Ankylosing Spondylitis Disease Activity Index (BASDAI) Score",
+     "time_frame": "Baseline, Month 6"
+    }
+   ],
+   "secondary_outcomes": [
+    "Change in Ankylosing Spondylitis Disease Activity Score - C-Reactive Protein (ASDAS-CRP)"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07602517",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07310095",
+   "allocation": "NA",
+   "masking": "NONE",
+   "intervention_model": "SINGLE_GROUP",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Guselkumab Treatment",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab (GUS)",
+     "description": "Participants will receive Guselkumab intravenously (IV) every 4 weeks during the induction phase, followed by subcutaneous (SC) administration of Guselkumab every 4 weeks from Week 12 through Week 44 as maintenance therapy."
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants Achieving Clinical Remission At Week 48",
+     "time_frame": "At Week 48"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants Achieving Clinical Response At Weeks 12, 24 and 48",
+    "Percentage of Participants Achieving Clinical Remission At Weeks 12 and 24",
+    "Percentage of Participants Achieving Endoscopic Response",
+    "Percentage of Participants Achieving Endoscopic Remission",
+    "Baseline Characteristics of Participants With Endoscopic Remission: Age",
+    "Baseline Characteristics of Participants With Endoscopic Remission: Sex",
+    "Baseline Characteristics of Participants With Endoscopic Remission: Height",
+    "Baseline Characteristics of Participants With Endoscopic Remission: Weight",
+    "Baseline Characteristics of Participants With Endoscopic Remission: History of Advanced Treatment, Concomitant Medications",
+    "Baseline Characteristics of Participants With Endoscopic Remission: Comorbidities",
+    "Baseline Characteristics of Participants With Endoscopic Remission: Surgeries and Procedures"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07310095",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07822529",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Guselkumab",
+     "type": "",
+     "interventions": "",
+     "description": "Participants with confirmed diagnosis of moderate to severe crohn's disease (CD) or ulcerative colitis (UC) will be enrolled according to the approved local prescribing label and treated with guselkumab according to the local clinical pract"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Persistence with Guselkumab Treatment",
+     "time_frame": "Up to Week 96"
+    }
+   ],
+   "secondary_outcomes": [
+    "Number of Participants with Early Responses to Guselkumab Measured Using Bowel Urgency",
+    "Number of Participants with Early Responses to Guselkumab Measured Using Simplified Patient-Reported Outcome (2-item) (PRO-2) Components in Participants with CD",
+    "Number of Participants with Early Responses to Guselkumab Measured Using Simplified Patient-Reported Outcome (2-item) (PRO-2) Components in Participants with UC",
+    "Number of Participants Achieving Clinical Response for CD as Measured by Harvey-Bradshaw Index (HBI) Score",
+    "Number of Participants Achieving Clinical Remission for CD as Measured by HBI Score",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Response for CD as Measured by HBI Score",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Remission for CD",
+    "Number of Participants Achieving Clinical Response for Ulcerative Colitis (UC) as Measured by Partial Mayo Score (PMS)",
+    "Number of Participants Achieving Clinical Remission for UC as Measured by PMS",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Response for UC as Measured by PMS",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Remission for UC",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for CD",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for UC",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Sex",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous Inflammatory Bowel Disease (IBD) Medication Usage",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Smoking Status and History",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Height",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Weight",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Severity At Index",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age at Diagnosis",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Duration",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Comorbid Diagnoses",
+    "Characteristics of Participants Receiving Guselkumab Treatment: History of UC/CD",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous IBD-Related Surgeries",
+    "Number of Participants with Adverse Events (AE)",
+    "Change in C-Reactive Protein (CRP) Levels",
+    "Change in Fecal Calprotectin (Fcal) Levels",
+    "Number of Participants Receiving Concomitant IBD Medications During Guselkumab Treatment",
+    "Health-related Quality of Life As Assessed by Short IBD Questionnaire (SIBDQ) Total Score",
+    "Health-related Quality of life of Participants Receiving Guselkumab Treatment as Assessed by Bowel Urgency",
+    "Health-related Quality of Life of Participants Receiving Guselkumab Treatment as Assessed by PRO-2 Components",
+    "Functional Assessment Of Chronic Illness (FACIT) Fatigue (FACIT-F) Scale Score",
+    "Number of CD Participants Achieving Endoscopic Response as Measured by Simple Endoscopy Score-CD (SES-CD)",
+    "Number of Participants Achieving Endoscopic Remission in Participants with CD",
+    "Number of Participants Achieving Endoscopic Improvement in Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Endoscopic Normalization in Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Histological Improvement in Participants with UC as Measured by Nancy Score",
+    "Number of Participants Achieving Histological Remission in Participants with UC as Measured by Nancy Score",
+    "Number of Participants Achieving Intestinal Utrasound (IUS) Response in Participants with CD as Measured by Bowel Wall Thickness (BWT)",
+    "Number of Participants Achieving IUS (Transmural) Remission in Participants with CD as Measured by BWT",
+    "Number of Participants Achieving Magnetic Resonance Enterography (MRE) Response in Participants with CD",
+    "Number of Participants Achieving MRE Remission in Participants with CD",
+    "Change from Baseline in Satisfaction with Guselkumab Treatment as per Treatment Satisfaction Questionnaire for Medication (TSQM) Total Score",
+    "Change from Baseline in Number of UC/CD Emergency Room Visits",
+    "Change from Baseline in Number of UC/CD Hospitalizations",
+    "Change from Baseline in Number of UC/CD Surgeries"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07822529",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07499232",
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab induction dose subcutaneously (SC) at Weeks 0, 4, and 8 followed by guselkumab maintenance dose SC once every 4 weeks (q4w) from Week 12 through Week 52."
+    },
+    {
+     "label": "Risankizumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Risankizumab",
+     "description": "Participants will receive risankizumab induction dose intravenously (IV) at Weeks 0, 4, and 8 followed by risankizumab maintenance dose SC once every 8 weeks (q8w) from Week 12 through Week 52."
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Number of Participants with Deep Remission at Week 52",
+     "time_frame": "At Week 52"
+    }
+   ],
+   "secondary_outcomes": [
+    "Composite Endpoint of Number of Participants with Clinical Remission and Endoscopic Response at Week 52",
+    "Number of Participants with Endoscopic Remission at Week 52",
+    "Number of Participants with Clinical Remission at Week 52",
+    "Number of Participants with Steroid-Free Clinical Remission at Week 52",
+    "Number of Participants with Abnormalities in Laboratory Parameters",
+    "Number of Participants With Change From Baseline in Laboratory Abnormalities",
+    "Number of Participants with Adverse Events (AEs), Serious AEs and AEs Leading to Discontinuation of Study Intervention"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07499232",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07616687",
+   "allocation": "NA",
+   "masking": "NONE",
+   "intervention_model": "SINGLE_GROUP",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Guselkumab Dose Optimization Strategy",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants with active Crohn disease receive guselkumab treatment as part of a treat-to-target strategy. During maintenance therapy, dose optimization may be performed according to clinical response criteria defined in the protocol."
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "- Steroid free clinical remission (SFCR) associated with fecal calprotectin < 250 ug/g at Week 48",
+     "time_frame": "Week 48 +/- 12Weeks for the patients who are intensified between Week 32 and Week 48"
+    },
+    {
+     "measure": "- Steroid free clinical remission (SFCR) associated with fecal calprotectin < 250 ug/g at Week 48",
+     "time_frame": "Week 48 (+/-12Weeks)"
+    }
+   ],
+   "secondary_outcomes": [
+    "- Morphological remission at Week 48 assessed using the same tool that was used for the patient's inclusion: endoscopy, MRI or IUS (major secondary endpoint),",
+    "SFCR associated with fecal calprotectin < 250 ug/g at Week 12, Week 24 and Week 48,",
+    "Clinical remission at Week 12, Week 24 and Week 48",
+    "Biomarker remission at Week 12, Week 24 and Week 48",
+    "Need for GUS dose intensification (Week 12, Week 24 and Week 48)",
+    "Serum levels of guselkumab (Week 12, Week 24 and Week 48)",
+    "Neutralizing antibodies to guselkumab (Week 12, Week 24 and Week 48)",
+    "Crohn's Disease-related hospitalization during study period (Week 12, Week 24 and Week 48)",
+    "-Change in the Short Inflammatory Bowel Disease Questionnaire(SIBD-Q) from baseline (Week 12, Week 24 and Week 48)",
+    "Guselkumab persistence"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07616687",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07545317",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "75 Years",
+   "arms": [
+    {
+     "label": "IL-23 Inhibitor Cohort",
+     "type": "",
+     "interventions": "Drug: IL-23 inhibitor",
+     "description": "Adults with active Crohn's disease who initiate treatment with an IL-23 inhibitor, including guselkumab or risankizumab, in routine clinical practice. This is the primary prospective cohort of the study and will be used to evaluate the effe"
+    },
+    {
+     "label": "TNF Inhibitor Comparative Cohort",
+     "type": "",
+     "interventions": "Drug: TNF inhibitors",
+     "description": "Bio-naive adults with active Crohn's disease who initiate treatment with a TNF inhibitor in routine clinical practice and are prospectively followed during the same study period. This is a concurrent prospective comparative cohort enrolled "
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Clinical Remission Rate",
+     "time_frame": "Week 12"
+    }
+   ],
+   "secondary_outcomes": [
+    "Clinical Response Rate",
+    "Endoscopic Remission Rate",
+    "Endoscopic Response Rate",
+    "Corticosteroid-Free Clinical Remission Rate",
+    "Corticosteroid-Free Endoscopic Remission Rate",
+    "Deep Remission Rate",
+    "Mucosal Healing Rate",
+    "Bowel Ultrasound Inflammatory Improvement Rate",
+    "C-Reactive Protein Normalization Rate",
+    "Fecal Calprotectin Normalization Rate",
+    "Trough Concentration of IL-23 Inhibitor",
+    "Adverse Events",
+    "Serious Adverse Events",
+    "Special Safety Events"
+   ],
+   "other_outcomes": [
+    "Integrated Multi-Omics Features Associated With Treatment Response"
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07545317",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07606339",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Moderate-to-Severe Ulcerative Colitis (UC) or Crohn's Disease (CD)",
+     "type": "",
+     "interventions": "",
+     "description": "Participants with confirmed diagnosis of moderate to severe crohn's disease (CD) or ulcerative colitis (UC) treated with guselkumab in routine clinical practice will be enrolled. No drug will be provided as a part of this study. Only data a"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Persistence with Guselkumab Treatment",
+     "time_frame": "Up to Week 96"
+    }
+   ],
+   "secondary_outcomes": [
+    "Number of Participants with Early Responses to Guselkumab Measured Using Bowel Urgency",
+    "Number of Participants with Early Responses to Guselkumab Measured Using Patient Reported Outcome (PRO-2) Components",
+    "Number of Participants Achieving Clinical Response for CD as Measured by Harvey-Bradshaw Index (HBI) Score",
+    "Number of Participants Achieving Clinical Response for Ulcerative Colitis (UC) as Measured by Partial Mayo Score (PMS)",
+    "Number of Participants Achieving Clinical Remission for CD as Measured by HBI Score",
+    "Number of Participants Achieving Clinical Remission for UC as Measured by PMS",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Response for CD",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Response for UC",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Remission for CD",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Remission for UC",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for CD",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for UC",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Sex",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Smoking Status and History",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Height",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Weight",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age at Diagnosis",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Duration",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Severity At Index",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Comorbid Diagnoses",
+    "Characteristics of Participants Receiving Guselkumab Treatment: History of UC/CD",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous Inflammatory Bowel Disease (IBD) Medication Usage",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous IBD-Related Surgeries",
+    "Number of Participants with Adverse Events (AE)",
+    "Number of Participants with Drug-Related AE",
+    "Number of Participants with Serious Adverse Events (SAE)",
+    "Number of Participants with Drug-Related SAEs",
+    "Number of Participants with C-Reactive Protein (CRP) Normalization",
+    "Change in CRP Levels",
+    "Number of Participants with Fecal Calprotectin (fCAL) Normalization",
+    "Change in fCAL Levels",
+    "Number of Participants Receiving Concomitant IBD Medications During Guselkumab Treatment",
+    "Change from Baseline in Health-Related Quality of life (HR-QoL) as Measured by Bowel Urgency",
+    "Change from Baseline in HR-QoL of Participants with CD Receiving Guselkumab Treatment as Measured by PRO-2 Components",
+    "Change from Baseline in HR-QoL of Participants with UC Receiving Guselkumab Treatment as Measured by PRO-2 Components",
+    "Changes from Baseline in HRQoL as Measured by Short Inflammatory Bowel Disease Questionnaire (SIBDQ)",
+    "Changes from Baseline in HRQoL as Measured by Functional Assessment of Chronic Illness Therapy- Fatigue (FACIT-F) Questionnaire",
+    "Change from Baseline in Satisfaction with Guselkumab Treatment as per Treatment Satisfaction Questionnaire for Medication (TSQM) Total Score",
+    "Number of Participants Achieving Endoscopic Response in Participants with CD as Measured by Simple Endoscopy Score-CD (SES-CD)",
+    "Number of Participants Achieving Endoscopic Remission in Participants with CD as Measured by SES-CD",
+    "Number of Participants Achieving Endoscopic Improvement in Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Endoscopic Normalization in Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Histological Improvement in Participants with UC",
+    "Number of Participants Achieving Histological Remission in Participants with UC",
+    "Number of Participants Achieving Intestinal Utrasound (IUS) Response in Participants with CD as Measured by Bowel Wall Thickness (BWT)",
+    "Number of Participants Achieving IUS (Transmural) Remission in Participants with CD as Measured by BWT",
+    "Change from Baseline in Number of UC/CD Emergency Room Visits",
+    "Change from Baseline in Number of UC/CD Hospitalizations",
+    "Change from Baseline in Number of UC/CD Surgeries"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07606339",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT05784129",
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Group 1: Guselkumab",
+     "type": "ACTIVE_COMPARATOR",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive Guselkumab Dose 1 subcutaneously (SC) followed by Dose 2 SC thereafter through Week 144. Participants with disease recurrence will receive guselkumab SC treatment."
+    },
+    {
+     "label": "Group 2: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Participants will receive matching placebo injections subcutaneously. Participants with disease recurrence will receive guselkumab SC treatment."
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants With Endoscopic Recurrence Prior to or at Week 48",
+     "time_frame": "Baseline (Day 1) up to Week 48"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants With Clinical Remission Without Disease Recurrence at Week 48",
+    "Time to Disease Recurrence",
+    "Percentage of Participants With No Abdominal Pain at Week 48",
+    "Time To Recurrence of Symptoms",
+    "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Treatment-Emergent Serious Adverse Events (TESAEs)",
+    "Serum Guselkumab Concentrations Over Time",
+    "Percentage of Participants With Steroid Free Clinical Remission at Week 48"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT05784129",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT04397263",
+   "allocation": "NA",
+   "masking": "NONE",
+   "intervention_model": "SINGLE_GROUP",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab by intravenous (IV) infusion, followed by guselkumab by subcutaneous (SC) injection. Participants who are eligible and willing to continue guselkumab may enter the Long-term extension (LTE) phase and con"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With Treatment-emergent Serious Adverse Events (TESAEs)",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With Treatment-emergent Adverse Events of Special Interest (TEAESI)",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With Treatment-emergent Abnormalities in Hematology Laboratory Parameters",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With Treatment-emergent Abnormalities in Chemistry Laboratory Parameters",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With TEAEs of Infections",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With TEAEs of Injection-site Reactions",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With TEAEs Temporally Associated With Infusion",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With TEAEs of Suicidal Ideation, Suicidal Behavior, or Self-Injurious Behavior Without Suicidal Intent",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With Clinically Significant Treatment-emergent Abnormalities in Vital Signs",
+     "time_frame": "From baseline (Week 0) up to Week 48"
+    },
+    {
+     "measure": "Number of Participants With Concomitant Medications for Crohn's Disease",
+     "time_frame": "From screening (Week -8) up to Week 48"
+    }
+   ],
+   "secondary_outcomes": [
+    "Number of Participants With Clinical Response Through Week 48",
+    "Number of Participants With Clinical Remission Through Week 48",
+    "Number of Participants With Patient-reported Outcome(s) (PRO)-2 Remission Through Week 48",
+    "Change From Baseline in Simple Endoscopic Score for Crohn's Disease (SES-CD) Score at Week 48",
+    "Serum Concentation of Guselkumab",
+    "Number of Participants With Anti-Guselkumab Antibodies Through Week 48",
+    "Number of Participants With Neutralizing-Guselkumab Antibodies Through Week 48",
+    "Change From Baseline in Inflammatory Pharmacodynamic (PD) Marker: C-reactive Protein (CRP) Concentration",
+    "Change From Baseline in Inflammatory PD Marker: Fecal Calprotectin (FC) Levels",
+    "Change From Baseline in Crohn's Disease Activity Index (CDAI) Score at Week 48 by Serum Guselkumab Concentration Quartiles at Week 48",
+    "Number of Participants in Clinical Response at Week 48 by Serum Guselkumab Concentration Quartiles at Week 48",
+    "Number of Participants in Clinical Remission at Week 48 by Serum Guselkumab Concentration Quartiles at Week 48",
+    "Number of Participants in Endoscopic Response at Week 48 by Serum Guselkumab Concentration Quartiles at Week 48",
+    "Number of Participants in Endoscopic Remission at Week 48 by Serum Guselkumab Concentration Quartiles at Week 48",
+    "Change From Baseline in the Average Daily Prednisone-equivalent (P.Eq) Oral Corticosteroid Dose (Excluding Budesonide) Through Week 48 Among Participants Receiving Oral Corticosteroids Other Than Bude",
+    "Number of Participants Not Receiving Concomitant Corticosteroids at Week 48 Among Participants Receiving Concomitant Corticosteroids at Baseline",
+    "Number of Participants Not Receiving Concomitant Corticosteroids for at Least 30 Days Prior to Week 48 Among Participants Receiving Concomitant Corticosteroids at Baseline",
+    "Number of Participants Not Receiving Concomitant Corticosteroids for at Least 90 Days Prior to Week 48 Among Participants Receiving Concomitant Corticosteroids at Baseline"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT04397263",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT06916390",
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "intervention with guselkumab",
+     "type": "ACTIVE_COMPARATOR",
+     "interventions": "Drug: Guselkumab",
+     "description": "All patients will receive guselkumab 400 mg intravenous at week 0, week 4, and week 8, followed by subcutaneous guselkumab 200 mg at week 12, week 16, week 20, week 24, week 28, week 32, week 36, week 40, week 44, and week 48.\n\nAll subjects"
+    },
+    {
+     "label": "intervention with guselkumab and diet",
+     "type": "ACTIVE_COMPARATOR",
+     "interventions": "Drug: Guselkumab; Other: Diet",
+     "description": "All patients will receive guselkumab 400 mg intravenous at week 0, week 4, and week 8, followed by subcutaneous guselkumab 200 mg at week 12, week 16, week 20, week 24, week 28, week 32, week 36, week 40, week 44, and week 48.\n\nAll subjects"
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "percentage of subjects achieving clinical remission after 16 weeks of treatment with guselkumab with/without diet",
+     "time_frame": "16 weeks"
+    }
+   ],
+   "secondary_outcomes": [
+    "percentage of subjects achieving clinical remission after 48 weeks",
+    "percentage of subjects achieving antibiotic free clinical remission by week 16 and 48",
+    "percentage of subjects achieving partial response after 16 and 48 weeks",
+    "Time to clinically relevant remission",
+    "Change in mPDAI endoscopic subscore at Week 16 and 48",
+    "Change in mPDAI histologic subscore at Week 16 and 48",
+    "Change in total mPDAI score at Week 16 and 48",
+    "percentage of subjects achieving a flare after initial response",
+    "Microbiota Metagenomic profiling at Week 8, 16, 24, 32, 40 and 48",
+    "Changes in IL-23p19 expression in the tissue at Week 16 and 48",
+    "Statistical association between IL-23p19 expression and response to therapy",
+    "Food record and food frequency questionnaire",
+    "adverse event assessment of interventions",
+    "questionnaire about diet tolerability"
+   ],
+   "other_outcomes": [
+    "Time to relapse of pouchitis symptoms and number of relapses",
+    "Change in CRP at Week 8, 16, 24, 32, 40 and 48",
+    "Change in faecal calprotectin at Week 8, 16, 24, 32 and 48",
+    "Evolution of guselkumab serum levels",
+    "Evolution of anti-guselkumab antibodies",
+    "Statistical correlation of guselkumab serum levels and anti-guselkumab antibodies with clinical, endoscopic and histological outcomes"
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT06916390",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07034664",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "RETROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "80 Years",
+   "arms": [],
+   "n_arms": 0,
+   "primary_outcomes": [
+    {
+     "measure": "Bowel wall thickness(BWT)",
+     "time_frame": "follow-up time of about 56weeks"
+    }
+   ],
+   "secondary_outcomes": [],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07034664",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT06408935",
+   "allocation": "NA",
+   "masking": "NONE",
+   "intervention_model": "SINGLE_GROUP",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab 200 milligram (mg) intravenously (IV) at week 0, 4 and 8. Afterwards, participants will be alternately assigned at study level to 2 dose cohorts, high dose (200 mg subcutaneous (SC) every 4 weeks (Q4W) s"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants Achieving a Magnetic Resonance Index of Activity (MaRIA) Less Than (<)11 in All Intestinal Segments at Week 48",
+     "time_frame": "At Week 48"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants Achieving a MaRIA <11 in All Intestinal Segments at Weeks 16 and 96.",
+    "Percentage of Participants Achieving a MaRIA <11 and a Reduction of >=5 Points From Baseline in All Segments at Weeks 16, 48, and 96",
+    "Percentage of Participants Achieving a MaRIA <11 in All Segments and Endoscopic Remission at Weeks 48 and 96",
+    "Percentage of Participants Achieving a MaRIA <11 in All Segments and Endoscopic Response at Weeks 48 and 96.",
+    "Percentage of Participants Achieving a MaRIA <11 in All Segments, Patient-Reported Outcome-2 (PRO-2) Remission, and No Worsening of Abdominal Pain (AP) or Stool Frequency (SF) From Baseline",
+    "Percentage of Participants Achieving a MaRIA <11 in All Segments and Biomarkers Remission",
+    "Percentage of Participants Achieving a MaRIA <11 in All Segments, PRO-2, and Endoscopic Remission",
+    "Percentage of Participants Achieving a MaRIA <7 in All Intestinal Segments at Weeks 16, 48 and 96",
+    "Percentage of Participants Achieving a MaRIA <7 in All Segments and Endoscopic Remission at Weeks 48 and 96",
+    "Absolute Value of Global Simple MaRIA Score Through Week 96",
+    "Change From Baseline in the Global Simple MaRIA Score Through Week 96",
+    "Percentage of Participants Achieving a MaRIA <7 in All Intestinal Segments and Not Receiving Corticosteroids at Weeks 16, 48, and 96",
+    "Percentage of Participants Achieving Transmural Segmental Response with Intestinal Ultrasound (IUS) at Weeks 4, 8, 16, 48, and 96",
+    "Percentage of Participants with Transmural Response (total) at Weeks 4, 8, 16, 48, and Week 96",
+    "Percentage of Participants Achieving Transmural Remission with IUS at Weeks 4, 8, 16, 48, and 96",
+    "Absolute Value of International Bowel Ultrasound Segmental Activity Score (IBUS-SAS) Through Week 96",
+    "Change from Baseline in International Bowel Ultrasound Segmental Activity Score (IBUS-SAS) Through Week 96",
+    "Percentage of Participants Achieving IBUS-SAS Response at Weeks 4, 8, 16, 48, and Week 96",
+    "Percentage of Participants Achieving BWT <=3 mm for Ileum and Colon Plus CDS 0, in all segments and Participants Not Receiving Corticosteroids at Weeks 4, 8, 16, 48, and 96",
+    "Absolute Value of BWT through Week 96",
+    "Change From Baseline in BWT Through Week 96",
+    "Absolute Value of Simple IUS Score For CD (SUS-CD) Score Through Week 96",
+    "Change From Baseline in the SUS-CD Score Through Week 96",
+    "Percentage of Participants Achieving Endoscopic Response at Weeks 48 and 96",
+    "Percentage of Participants Achieving Endoscopic Remission at Weeks 48 and 96",
+    "Absolute Value of SES-CD Total Score Through Week 96",
+    "Change From Baseline in the SES-CD Total Score Through Week 96",
+    "Percentage of Participants (Not Receiving Corticosteroids) Achieving Endoscopic Remission at Weeks 48 and 96",
+    "Percentage of Participants Achieving Endoscopic Healing of the Intestinal Mucosa at Weeks 48 and 96",
+    "Percentage of Participants Achieving Crohn's Disease Activity Index (CDAI) <150 at Weeks 4, 8, 16, 48 and 96",
+    "Percentage of Participants Achieving a Reduction in the CDAI Score of >=100 points or CDAI <150 From Baseline at Weeks 4, 8, 16, 48, and 96",
+    "Percentage of Participants (Not Receiving Corticosteroids) Achieving CDAI Score <150 at Weeks 4, 8, 16, 48 and 96",
+    "Absolute Value of CDAI Score Through Week 96",
+    "Change From Baseline in CDAI Score Through Week 96",
+    "Percentage of Participants Achieving PRO-2 Remission at Weeks 4, 8, 16, 48, and Week 96",
+    "Percentage of Participants Achieving Inflammatory Bowel Disease Questionnaire (IBDQ) Remission at Weeks 48 and 96",
+    "Percentage of Participants Achieving IBDQ Response at Weeks 48 and 96",
+    "Absolute Value of IBDQ Through Week 96",
+    "Change From Baseline in IBDQ Score Through Week 96",
+    "Change from Baseline in Urgency Numeric Rating Scale (UNRS) Through Week 96",
+    "Percentage of Participants Achieving C-reactive Protein (CRP) Normalization at Weeks 4, 8, 16, 48, and Week 96",
+    "Percentage of Participants Achieving >=50% Improvement of CRP Response From Baseline at Weeks 4, 8, 16, 48, and 96",
+    "Percentage of Participants Achieving fCal Normalization at Weeks 4, 8, 16, 48, and 96",
+    "Percentage of Participants Achieving >=50% Improvement of fCal Response From Baseline at Weeks 4, 8, 16, 48, and 96",
+    "Change From Baseline in CRP and fCal Levels Over Time",
+    "Values of CRP and fCal Levels Over Time",
+    "Number of Participants with Treatment-emergent Adverse Events (TEAEs) and Treatment-emergent Serious Adverse Events (TSAEs) Through Week 48"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT06408935",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07577843",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "JNJ-78934804",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: JNJ-78934804",
+     "description": "Participants will receive JNJ-78934804 induction dose, at Weeks 0, 4, and 8 followed by JNJ-78934804 maintenance dose, once every 4 weeks (q4w) starting at Week 12. All participants who meet the rescue criteria will receive JNJ-78934804 ind"
+    },
+    {
+     "label": "Guselkumab",
+     "type": "ACTIVE_COMPARATOR",
+     "interventions": "Drug: JNJ-78934804; Drug: Guselkumab",
+     "description": "Participants will receive guselkumab induction dose at Weeks 0, 4, and 8 followed by guselkumab maintenance dose q4w starting at Week 12. All participants who meet the rescue criteria will receive JNJ-78934804 induction dose at Weeks 16, 20"
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Co-Primary: Percentage of Participants with Clinical Remission at Week 48",
+     "time_frame": "At Week 48"
+    },
+    {
+     "measure": "Co-Primary: Percentage of Participants with Endoscopic Remission at Week 48",
+     "time_frame": "At Week 48"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants with Deep Remission at Week 48",
+    "Percentage of Participants with Corticosteroid-Free (90-Day) Clinical Remission at Week 48",
+    "Percentage of Participants with Corticosteroid-Free (90-day) PRO-2 Remission at Week 48",
+    "Percentage of Participants with Sustained Clinical Remission",
+    "Percentage of Participants with Histologic-Endoscopic Remission at Week 48",
+    "Percentage of Participants with Inflammatory Bowel Disease Questionnaire (IBDQ) Response at Week 48",
+    "Percentage of Participants with Patient-Reported Outcomes Measurement Information System 29 (PROMIS-29) Mental Component Summary Score (MCS) Response at Week 48",
+    "Percentage of Participants with Clinical Remission at Week 12",
+    "Percentage of Participants with Endoscopic Response at Week 12",
+    "Number of Participants with Adverse Events (AE) and Serious AEs (SAEs)"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07577843",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07532213",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Moderate-to-Severe Ulcerative Colitis (UC) or Crohn's Disease (CD)",
+     "type": "",
+     "interventions": "",
+     "description": "Participants with confirmed diagnosis of moderate-to-severe UC or CD treated with guselkumab as per standard clinical practice will be enrolled. No drug will be provided as part of this study. Only data available from standard clinical prac"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Time to Guselkumab Persistence",
+     "time_frame": "Up to Week 96"
+    }
+   ],
+   "secondary_outcomes": [
+    "Number of Participants with Early Responses to Guselkumab Measured Using Participant Reported Outcome (PRO-2) Components",
+    "Number of Participants with Early Responses to Guselkumab Measured Using Bowel Urgency",
+    "Number of Participants Achieving Clinical Response for CD as Measured by Harvey-Bradshaw Index (HBI)",
+    "Number of Participants Achieving Clinical Response for UC as Measured by Partial Mayo Score (PMS)",
+    "Number of Participants Achieving Clinical Remission for CD as Measured by HBI",
+    "Number of Participants Achieving Clinical Remission for UC as Measured by PMS",
+    "Number of Participants Achieving Corticosteroid-free Clinical Response for CD as Measured by HBI",
+    "Number of Participants Achieving Corticosteroid-free Clinical Response for UC as Measured by PMS",
+    "Number of Participants Achieving Corticosteroid-free Clinical Remission for CD as Measured by HBI",
+    "Number of Participants Achieving Corticosteroid-free Clinical Remission for UC as Measured by PMS",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for CD",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for UC",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Sex",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Smoking Status and History",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Height",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Weight",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age at Diagnosis",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Duration",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Severity",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Comorbid Diagnoses",
+    "Characteristics of Participants Receiving Guselkumab Treatment: History of UC/CD",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous Inflammatory Bowel Disease (IBD) Medication Use",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous IBD-Related Surgeries",
+    "Number of Participants with Adverse Events (AEs)",
+    "Number of Participants with Drug-Related Adverse Events",
+    "Number of Participants with Serious Adverse Events (SAE)",
+    "Number of Participants with Drug-Related Serious Adverse Events",
+    "Number of Participants with C-reactive protein (CRP) Normalization",
+    "Change in CRP Levels",
+    "Number of Participants with Fecal Calprotectin Normalization",
+    "Change in Fecal Calprotectin Levels",
+    "Change in Leukocytes Count",
+    "Change in Hemoglobin Levels",
+    "Change in Transferrin Saturation Levels",
+    "Change in Ferritin Levels",
+    "Number of Participants Receiving Concomitant IBD Medications During Guselkumab Treatment",
+    "Change from Baseline in Health-related Quality of Life (HRQoL) as Measured by PRO-2 Components for CD",
+    "Change from Baseline in HRQoL as Measured by PRO-2 Components for UC",
+    "Change from Baseline in HRQoL as Measured by Bowel Urgency",
+    "Changes from Baseline in HRQoL as Measured by Short Inflammatory Bowel Disease Questionnaire (SIBDQ)",
+    "Changes from Baseline in HRQoL as Measured by Functional Assessment of Chronic Illness Therapy- Fatigue (FACIT-F) Questionnnaire",
+    "Change from Baseline in HRQoL as Measured by Treatment Satisfaction Questionnaire for Medication (TSQM-9)",
+    "Change from Baseline in HRQol as Measured by Work Productivity and Activity Questionnaire (WPAI)",
+    "Change from Baseline in HRQoL as Measured by PROMIS Sleep Disturbance Short Form 8b (PROMIS 8b)",
+    "Change from Baseline in HRQoL as Measured by Short-CONFIDE Survey for IBD (s-CS-IBD)",
+    "Number of Participants Achieving Endoscopic Response in Participants with CD as Measured by Simple Endoscopy Score-CD (SES-CD)",
+    "Number of Participants Achieving Endoscopic Remission in Participants with CD as Measured by SES-CD",
+    "Number of Participants Achieving Endoscopic Improvement in Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Endoscopic Normalization in Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Histologic Improvement",
+    "Number of Participants Achieving Histologic Remission",
+    "Number of Participants with CD Achieving Intestinal Ultrasound (IUS) Response",
+    "Number of Participants with CD Achieving IUS Remission",
+    "Change from Baseline in Number of UC/CD Emergency Room Visits",
+    "Change from Baseline in Number of UC/CD-Hospitalizations",
+    "Change from Baseline in Number of UC/CD Surgeries"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07532213",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT03466411",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Phase 2 (GALAXI 1): Group 1 (Guselkumab)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Dose 1; Drug: Guselkumab Dose 2",
+     "description": "Participants will receive guselkumab (Dose 1) by intravenous (IV) infusion, followed by guselkumab (Dose 2) by subcutaneous (SC) injection. Participants who are eligible and willing to continue guselkumab may enter the Long-Term Extension ("
+    },
+    {
+     "label": "Phase 2 (GALAXI 1): Group 2 (Guselkumab)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Dose 2; Drug: Guselkumab Dose 3",
+     "description": "Participants will receive guselkumab (Dose 3) by intravenous (IV) infusion, followed by guselkumab (Dose 2) by subcutaneous (SC) injection. Participants who are eligible and willing to continue guselkumab may enter the LTE phase and continu"
+    },
+    {
+     "label": "Phase 2 (GALAXI 1): Group 3 (Guselkumab)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Dose 4; Drug: Guselkumab Dose 5",
+     "description": "Participants will receive guselkumab (Dose 4) by intravenous (IV) infusion, followed by guselkumab (Dose 5) by subcutaneous (SC) injection. Participants who are eligible and willing to continue guselkumab may enter the LTE phase and continu"
+    },
+    {
+     "label": "Phase 2 (GALAXI 1): Group 4 (Ustekinumab)",
+     "type": "ACTIVE_COMPARATOR",
+     "interventions": "Drug: Ustekinumab",
+     "description": "Participants will receive ustekinumab by intravenous (IV) infusion, followed by subcutaneous (SC) injection. Participants who are eligible and willing to continue ustekinumab may enter the LTE and continue to receive ustekinumab."
+    },
+    {
+     "label": "Phase 2 (GALAXI 1): Group 5 (Placebo/Ustekinumab)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Ustekinumab; Drug: Placebo",
+     "description": "Participants will receive placebo administered by intravenous (IV) infusion. At Week 12, non-responders will receive active treatment (Ustekinumab) administered by intravenous (IV) infusion followed by subcutaneous (SC) injection. Participa"
+    },
+    {
+     "label": "Phase 3 (GALAXI 2 and 3): Group 1 and Group 2 (Guselkumab)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab by intravenous (IV) infusion, followed by guselkumab by subcutaneous (SC) injection. Participants who are eligible and willing to continue guselkumab may enter the LTE phase and continue to receive gusel"
+    },
+    {
+     "label": "Phase 3 (GALAXI 2 and 3): Group 3 (Ustekinumab)",
+     "type": "ACTIVE_COMPARATOR",
+     "interventions": "Drug: Ustekinumab",
+     "description": "Participants will receive ustekinumab by intravenous (IV) infusion, followed by subcutaneous (SC) injection. Participants who are eligible and willing to continue ustekinumab may enter the LTE phase and continue to receive ustekinumab."
+    },
+    {
+     "label": "Phase 3 (GALAXI 2 and 3): Group 4 (Placebo/Ustekinumab)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Ustekinumab; Drug: Placebo",
+     "description": "Participants will receive placebo administered by intravenous (IV) infusion. At Week 12, non-responders will receive active treatment (ustekinumab) administered by intravenous (IV) infusion followed by subcutaneous (SC) injection. Participa"
+    }
+   ],
+   "n_arms": 8,
+   "primary_outcomes": [
+    {
+     "measure": "GALAXI 1: Change From Baseline in the Crohn's Disease Activity Index (CDAI) Score at Week 12",
+     "time_frame": "Baseline and Week 12"
+    },
+    {
+     "measure": "Global: GALAXI 2: Percentage of Participants With Both Clinical Response at Week 12 and Clinical Remission at Week 48",
+     "time_frame": "Weeks 48"
+    },
+    {
+     "measure": "Global: GALAXI 2: Percentage of Participants With Both Clinical Response (CR) at Week 12 and Endoscopic Response (ER) at Week 48",
+     "time_frame": "Weeks 48"
+    },
+    {
+     "measure": "Global: GALAXI 3: Percentage of Participants With Both Clinical Response at Week 12 and Clinical Remission at Week 48",
+     "time_frame": "Weeks 48"
+    },
+    {
+     "measure": "Global: GALAXI 3: Percentage of Participants With Both Clinical Response (CR) at Week 12 and Endoscopic Response (ER) at Week 48",
+     "time_frame": "Weeks 48"
+    },
+    {
+     "measure": "Regional: GALAXI 2: Percentage of Participants With Clinical Remission at Week 12",
+     "time_frame": "Week 12"
+    },
+    {
+     "measure": "Regional: GALAXI 2: Percentage of Participants With Endoscopic Response at Week 12",
+     "time_frame": "Week 12"
+    },
+    {
+     "measure": "Regional: GALAXI 3: Percentage of Participants With Clinical Remission at Week 12",
+     "time_frame": "Week 12"
+    },
+    {
+     "measure": "Regional: GALAXI 3: Percentage of Participants With Endoscopic Response at Week 12",
+     "time_frame": "Week 12"
+    }
+   ],
+   "secondary_outcomes": [
+    "GALAXI 1: Percentage of Participants With Clinical Remission at Week 12",
+    "GALAXI 1: Percentage of Participants With Clinical Response at Week 12",
+    "GALAXI 1: Percentage of Participants With Patient-Reported Outcome (PRO) 2 Remission at Week 12",
+    "GALAXI 1: Percentage of Participants With Clinical-Biomarker Response at Week 12",
+    "GALAXI 1: Percentage of Participants With Endoscopic Response at Week 12",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Clinical Response at Week 4",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Clinical Remission at Week 12",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Endoscopic Response at Week 12",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Fatigue Response at Week 12",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Both Clinical Remission and Endoscopic Response at Week 12",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Endoscopic Remission at Week 12",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Both Clinical Response at Week 12 and Corticosteroid-Free Clinical Remission at Week 48",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Both Clinical Response at Week 12 and Endoscopic Remission at Week 48",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Clinical Remission at Week 48",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Endoscopic Response at Week 48",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Both Clinical Remission and Endoscopic Response at Week 48",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Endoscopic Remission at Week 48",
+    "Global: GALAXI 2 and 3: Percentage of Participants With Deep Remission at Week 48",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With PRO-2 Remission at Week 12",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With Fatigue Response at Week 12",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With Endoscopic Remission at Week 12",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With Corticosteroid-free Clinical Remission at Week 48",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With Endoscopic Response at Week 48",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With Endoscopic Remission at Week 48",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With Clinical Remission at Week 48",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With Durable Clinical Remission at Week 48",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With PRO-2 Remission at Week 48",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With Both Clinical Remission at Week 48 and Endoscopic Response at Week 48",
+    "Regional: GALAXI 2 and 3: Percentage of Participants With Corticosteroid-free Remission at Week 48"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT03466411",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07726888",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Guselkumab treatment group",
+     "type": "",
+     "interventions": "Drug: Guselkumab",
+     "description": ""
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "48-week endoscopic remission",
+     "time_frame": "48 weeks"
+    },
+    {
+     "measure": "48-week histological remission",
+     "time_frame": "48 weeks"
+    }
+   ],
+   "secondary_outcomes": [
+    "12-week clinical remission",
+    "12-week biochemical remission",
+    "12-week intestinal ultrasound response",
+    "24-week and 48-week intestinal ultrasound response",
+    "24-week endoscopic response and remission",
+    "24-week and 48-week Corticosteroid-free remission rate",
+    "48-week drug persistence rate",
+    "Hospitalization and surgery rates at week 48",
+    "Impact of Prior Biologic Exposure on Efficacy",
+    "Inflammatory Bowel Disease Questionnaire (IBD-Q) scores at week 48",
+    "Exploratory Study (Comparing the Efficacy of GUS and VDZ)"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07726888",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07184138",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Adult IBD Patients Treated With IL-23i",
+     "type": "",
+     "interventions": "Drug: Interleukin-23 Inhibitors (IL-23i)",
+     "description": "Adult patients diagnosed with ulcerative colitis (UC) or Crohn's disease (CD) in China who are initiating treatment with an interleukin-23 inhibitor (IL-23i) in a real-world clinical practice setting. Patients will be observed prospectively"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "clinical remission rate",
+     "time_frame": "Week 52"
+    }
+   ],
+   "secondary_outcomes": [
+    "clinical response rate",
+    "endoscopic remission rate",
+    "endoscopic response rate",
+    "Incidence of adverse events (AEs) and serious adverse events (SAEs) through Week 52"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07184138",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07102368",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Group 1: Moderate-to-Severe Ulcerative Colitis (UC) or Crohn's Disease (CD)",
+     "type": "",
+     "interventions": "",
+     "description": "Participants with confirmed diagnosis of moderate-to-severe UC or CD treated with guselkumab as per standard clinical practice will be enrolled. Only data available from clinical routine will be collected in this study. During the observati"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants Achieving Clinical Remission for Crohn's Disease (CD) as Measured by Harvey-Bradshaw Index (HBI)",
+     "time_frame": "Week 48"
+    },
+    {
+     "measure": "Percentage of Participants Achieving Clinical Remission for Ulcerative Colitis (UC) as Measured by Partial Mayo Score (PMS)",
+     "time_frame": "Week 48"
+    }
+   ],
+   "secondary_outcomes": [
+    "Time to Guselkumab Discontinuation",
+    "Change in Stool Frequency Within the First 4 Weeks of Guselkumab Administration",
+    "Change in Rectal Bleeding Within First 4 Weeks of Guselkumab Administration",
+    "Change in Abdominal Pain Within the First 4 Weeks of Guselkumab Administration",
+    "Change in Bowel Urgency and Nocturnal Bowel Movement (NBM) Within the First 4 Weeks of Guselkumab Administration",
+    "Percentage of Participants Achieving Clinical Response for CD as Measured by HBI",
+    "Percentage of Participants Achieving Clinical Response for UC as Measured by PMS",
+    "Percentage of Participants Achieving Clinical Remission for CD as Measured by HBI",
+    "Percentage of Participants Achieving Clinical Remission for UC as Measured by PMS",
+    "Percentage of Participants Achieving Corticosteroid-free Clinical Response for CD as Measured by HBI",
+    "Percentage of Participants Achieving Corticosteroid-free Clinical Response for UC as Measured by PMS",
+    "Percentage of Participants Achieving Corticosteroid-free Clinical Remission for CD as Measured by HBI",
+    "Percentage of Participants Achieving Corticosteroid-free Clinical Remission for UC as Measured by PMS",
+    "Percentage of Participants with C-reactive Protein (CRP) Less Than or Equal to 5 milligram/litre (mg/L)",
+    "Change in CRP Levels",
+    "Percentage of Participants with Fecal Calprotectin (fCAL) Levels Less Than or Equal to 250 microgram/gram (mcg/g)",
+    "Change in fCAL Levels",
+    "Change in Hemoglobin Levels",
+    "Change in Transferrin Saturation",
+    "Change from Baseline in Health-related Quality of Life (HRQoL) as Measured by IBD Symptoms",
+    "Change from Baseline in General Quality of Life Measured by Short Health Scale (SHS) Score",
+    "Change from Baseline in IBD-Specific Quality of Life Measured by Short Inflammatory Bowel Disease Questionnaire (SIBDQ) Scale Score",
+    "Change from Baseline in Fatigue Measured by Functional Assessment of Chronic Illness Therapy- Fatigue (FACIT-F) Score",
+    "Change from Baseline in Treatment Satisfaction Measured by Treatment Satisfaction Questionnaire for Medication-9 (TSQM-9) Scores",
+    "Change from Baseline in Work Productivity and Activity Impairment Measured by Work Productivity and Activity Impairment (WPAI) Questionnaire",
+    "Change from Baseline in Sexuality Measured by Intimacy and Sexuality Questionnaire (ISQ)-IBD",
+    "Number of Participants with Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+    "Number of Participants with Special Situations"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07102368",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT06249555",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Vedolizumab",
+     "type": "",
+     "interventions": "Drug: Vedolizumab (VDZ)",
+     "description": "Group one will include participants who will be starting Vedolizumab as part of routine care.\n\nDose, frequency and duration are not mandated as part of the study and are determined by the health care provider."
+    },
+    {
+     "label": "IL-23 Antagonists",
+     "type": "",
+     "interventions": "Drug: Ustekinumab (UST); Drug: Risankizumab (RISA); Drug: Guselkumab (GUS); Drug: Mirikizumab (MIR)",
+     "description": "Group two will include participants who will be starting an IL-23 antagonist as part of routine care.\n\nDose, frequency and duration are not mandated as part of the study and are determined by the health care provider."
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "To assess time of onset of biologic therapy in pain interference",
+     "time_frame": "Baseline to Week 14"
+    }
+   ],
+   "secondary_outcomes": [
+    "To assess time of onset of biologic therapy in multiple QOL and functioning domains",
+    "To assess the efficacy of therapy in inducing a meaningful clinical improvement in pain interference through Week 52 through a reduction in PROMIS - Pain Interference - Short Form Scores.",
+    "To assess the efficacy of therapy in inducing a meaningful clinical improvement in fatigue through Week 52 through a reduction in PROMIS - Fatigue - Short Form Scores.",
+    "To assess the efficacy of therapy in inducing a meaningful clinical improvement in anxiety through Week 52 through a reduction in PROMIS - Emotional Distress - Anxiety - Short Form Scores.",
+    "To assess the efficacy of therapy in inducing a meaningful clinical improvement in depression through Week 52 through a reduction in PROMIS Emotional Distress - Depression - Short Form.",
+    "To assess the efficacy of therapy in inducing a meaningful clinical improvement in sleep disturbance through Week 52 through a reduction in PROMIS - Sleep Disturbance - Short Form.",
+    "To assess the efficacy of therapy in inducing a meaningful clinical improvement in physical function through Week 52 through a reduction in PROMIS - Physical Function - Short Form.",
+    "To assess the efficacy of therapy in inducing a meaningful clinical improvement in ability to participate in social roles and activities through Week 52 through a reduction in PROMIS - Ability to Part",
+    "To assess early change in patient-reported symptoms within the PRO-2 through Week 14.",
+    "To assess early change in patient-reported symptoms within the PROMIS - Pain Interference - Short Form through Week 14",
+    "To assess early change in patient-reported symptoms within the PROMIS - Fatigue - Short Form through Week 14",
+    "To assess early change in patient-reported symptoms within the PROMIS - Anxiety - Short Form through Week 14",
+    "To assess early change in patient-reported symptoms within the PROMIS - Depression - Short Form through Week 14",
+    "To assess early change in patient-reported symptoms within the PROMIS - Sleep Disturbance - Short Form through Week 14",
+    "To assess early change in patient-reported symptoms within the PROMIS - Physical Function - Short Form through Week 14",
+    "To assess early change in patient-reported symptoms within the PROMIS - Ability to Participate in Social Roles and Activities - Short Form through Week 14",
+    "To evaluate the association between the PRO-2 and each PROMIS domain",
+    "To assess the efficacy of therapy in resolving patient-reported symptoms by obtaining PRO-2 clinical remission, defined as a stool frequency score ≤ 3 and abdominal pain score ≤ 1 using unweighted sub",
+    "To assess the efficacy of therapy in resolving patient-reported symptoms by obtaining PRO-2 clinical response, defined as a decrease in the weighted PRO-2 of ≥ 50% from baseline through week 52.",
+    "To assess the efficacy of therapy in resolving fecal urgency defined by a change in UNRS scores from baseline through week 52.",
+    "To assess the efficacy of therapy in resolving patient-reported symptoms and improving health related QOL as shown by SIBDQ improvement, defined as ≥ 9-point increase in the SIBDQ from baseline throug",
+    "To assess the efficacy of therapy in resolving patient-reported symptoms and improving health related QOL as shown by obtaining SIBDQ remission, defined as an SIBDQ score ≥ 60 through week 52.",
+    "To assess the durability of symptom improvement",
+    "To assess the efficacy of therapy in resolving patient-reported symptoms by obtaining PRO-2 clinical response through week 52."
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT06249555",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT05197049",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Group 1: Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Dose 1; Drug: Guselkumab Dose 2",
+     "description": "Participants will receive guselkumab (Dose 1) injection subcutaneously followed by guselkumab (Dose 2) injection subcutaneously."
+    },
+    {
+     "label": "Group 2: Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Dose 1; Drug: Guselkumab Dose 3",
+     "description": "Participants will receive guselkumab (Dose 1) injection subcutaneously followed by guselkumab (Dose 3) injection subcutaneously."
+    },
+    {
+     "label": "Group 3: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Participants will receive placebo injection subcutaneously."
+    }
+   ],
+   "n_arms": 3,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants Who Achieved Clinical Remission at Week 12",
+     "time_frame": "At Week 12"
+    },
+    {
+     "measure": "Percentage of Participants Who Achieved Endoscopic Response at Week 12",
+     "time_frame": "At Week 12"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants Who Achieved Clinical Remission at Week 24",
+    "Percentage of Participants Who Achieved Patient-reported Outcome (PRO)-2 Remission at Week 12",
+    "Percentage of Participants Who Achieved Clinical Response at Week 12",
+    "Percentage of Participants With Treatment-Emergent Adverse Events (TEAEs) Through Week 48",
+    "Percentage of Participants With Treatment-Emergent Serious Adverse Events (TESAEs) Through Week 48",
+    "Percentage of Participants With Treatment-Emergent Adverse Events (TEAEs) Leading to Discontinuation of Study Drug Through Week 48"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT05197049",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT02103361",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "CASE_ONLY",
+   "time_perspective": "OTHER",
+   "min_age": "",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Stelara (ustekinumab) exposed",
+     "type": "",
+     "interventions": "Drug: Ustekinumab",
+     "description": "Stelara (ustekinumab)-exposed pregnant women (this group is now closed to recruitment)"
+    },
+    {
+     "label": "Tremfya (guselkumab) exposed",
+     "type": "",
+     "interventions": "Drug: Guselkumab",
+     "description": "Tremfya (guselkumab-exposed pregnant women"
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Major structural malformations",
+     "time_frame": "From 3 months prior to the first day of the last menstrual period and up to one year of age"
+    }
+   ],
+   "secondary_outcomes": [
+    "Minor Congenital Structural Malformations"
+   ],
+   "other_outcomes": [
+    "Spontaneous abortions",
+    "Infant follow-up, growth",
+    "Stillbirths",
+    "Infant follow-up, Immune system development",
+    "Preterm delivery"
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT02103361",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07541261",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Moderate-to-Severe Ulcerative Colitis (UC) or Crohn's Disease (CD): Guselkumab",
+     "type": "",
+     "interventions": "",
+     "description": "Participants with confirmed diagnosis of moderate-to-severe UC or CD treated with guselkumab as per standard clinical practice will be enrolled. No drug will be provided as part of this study. Only data available from clinical practice, thr"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Time to Guselkumab Discontinuation",
+     "time_frame": "Up to Week 96"
+    }
+   ],
+   "secondary_outcomes": [
+    "Number of Participants with Early Responses to Guselkumab Measured Using Participant Reported Outcome (PRO-2) Components for Crohn's Disease (CD)",
+    "Number of Participants with Early Responses to Guselkumab Measured Using Participant Reported Outcome (PRO-2) Components for Ulcerative Colitis (UC)",
+    "Number of Participants with Early Responses to Guselkumab Measured Using Bowel Urgency",
+    "Number of Participants Achieving Clinical Response for CD as Measured by Harvey-Bradshaw Index (HBI)",
+    "Number of Participants Achieving Clinical Response for UC as Measured by Partial Mayo Score (PMS)",
+    "Number of Participants Achieving Corticosteroid-free remission for UC",
+    "Number of Participants Achieving Corticosteroid-free remission for CD",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for UC",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for CD",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Sex",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous Inflammatory Bowel Disease (IBD) Medication Use",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Smoking Status and History",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Height",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Weight",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Severity",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age at Diagnosis",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Duration",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Comorbid Diagnoses",
+    "Characteristics of Participants Receiving Guselkumab Treatment: History of UC/CD",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous IBD-Related Surgeries",
+    "Number of Participants with Adverse Events (AEs)",
+    "Change in C-reactive protein (CRP) Levels",
+    "Change in Fecal Calprotectin (Fcal) Levels",
+    "Number of Participants Receiving Concomitant IBD Medications During Guselkumab Treatment",
+    "Health-related Quality of Life As Assessed by Short Inflammatory Bowel Disease Questionnaire (SIBDQ) Total Score",
+    "Health-related Quality of life of Participants Receiving Guselkumab Treatment as Assessed by Bowel Urgency",
+    "Health-related Quality of Life of Participants Receiving Guselkumab Treatment as Assessed by PRO-2 Components",
+    "Change from Baseline in Satisfaction with Guselkumab Treatment as per Treatment Satisfaction Questionnaire for Medication (TSQM) Total Score",
+    "Number of Participants Achieving Endoscopic Response in Participants with CD as Measured by Simple Endoscopy Score-CD (SES-CD)",
+    "Number of Participants Achieving Endoscopic Remission in Participants with CD",
+    "Number of Participants Achieving Endoscopic Improvement in Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Endoscopic Normalization in Participants with UC as Measured by Mayo Score",
+    "Change in Number of UC/CD Emergency Room Visits",
+    "Change in Number of UC/CD-Hospitalizations",
+    "Change in Number of UC/CD Surgeries"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07541261",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07302360",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Guselkumab: Moderate to Severe Ulcerative Colitis (UC)",
+     "type": "",
+     "interventions": "",
+     "description": "Participants with confirmed diagnosis of moderate-to-severe UC treated with guselkumab as per standard clinical practice will be enrolled. No drug will be provided as part of this study. Only data available from standard clinical practice a"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants Achieving Clinical Response at Week 12",
+     "time_frame": "At Week 12"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants Achieving Clinical Response at Week 24 and Week 48",
+    "Percentage of Participants Achieving Symptomatic Response at Week 2",
+    "Mean Change from Baseline in Stool Frequency Subscore (SFS) Over Week 2",
+    "Mean Change from Baseline in RBS Over Week 2",
+    "Percentage of Participants Achieving Clinical Remission at Week 12, Week 24 and Week 48",
+    "Percentage of Participants Achieving Symptomatic Remission at Week 2",
+    "Percentage of Participants Achieving Steroid-Free Remission at Week 12, 24 and 48",
+    "Percentage of Participants Achieving Sustained Remission at Week 24 and Week 48",
+    "Percentage of Participants with Endoscopic Improvement (Healing) at Week 24 and Week 48",
+    "Percentage of Participants Achieving Endoscopic Remission (Normalization) at Week 24 and Week 48",
+    "Percentage of Participants Discontinuing from Treatment",
+    "Percentage of Participants Switching from Treatment",
+    "Time to Treatment Discontinuation",
+    "Time to Treatment Switch",
+    "Percentage of Participants on Guselkumab Dosing Schedules of 200 Milligrams (mg) Once Every 4 Weeks (q4w) or 100 mg Once Every 8 Weeks (q8w)",
+    "Percentage of Participants Undergoing Dose Escalation/ De-Escalation",
+    "Percentage of Participants Achieving Inflammatory Bowel Disease Questionnaire (IBDQ) Remission",
+    "Change from Baseline in C-Reactive Protein (CRP) Levels",
+    "Change from Baseline of Fecal Calprotectin Levels",
+    "Percentage of Participants Achieving CRP Normalization",
+    "Percentage of Participants Achieving Fecal Calprotectin (FCP) Normalization"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07302360",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT04033445",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Induction Study 1: Guselkumab Dose 1",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab dose 1 intravenously (IV) in Induction Study 1. Subsequent study treatment will be determined by the participant's clinical response status at Week 12."
+    },
+    {
+     "label": "Induction Study 1: Guselkumab Dose 2",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab dose 2 IV in Induction Study 1. Subsequent study treatment will be determined by the participant's clinical response status at Week 12."
+    },
+    {
+     "label": "Induction Study 1: Placebo IV",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Participants will receive matching placebo IV in Induction Study 1. Subsequent study treatment will be determined by the participant's clinical response status at Week 12. Clinical nonresponders will be administered guselkumab IV."
+    },
+    {
+     "label": "Induction Study 2: Guselkumab IV",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab IV in Induction Study 2. Subsequent study treatment will be determined by the participant's clinical response status at Week 12."
+    },
+    {
+     "label": "Induction Study 2: Placebo IV",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Participants will receive matching placebo IV in Induction Study 2. Subsequent study treatment will be determined by the participant's clinical response status at Week 12. Clinical nonresponders will be administered guselkumab IV."
+    },
+    {
+     "label": "Maintenance Study: Maintenance Dose Regimen 1",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab maintenance dose regimen 1 subcutaneously (SC) every 4 weeks (q4w)."
+    },
+    {
+     "label": "Maintenance Study: Maintenance Dose Regimen 2",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants will receive guselkumab maintenance dose regimen 2 SC every 8 weeks (q8w)."
+    },
+    {
+     "label": "Maintenance Study: Placebo SC",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Participants will receive matching placebo SC q4w."
+    }
+   ],
+   "n_arms": 8,
+   "primary_outcomes": [
+    {
+     "measure": "Induction Study 1: Percentage of Participants With Clinical Response at Week I-12",
+     "time_frame": "At Week I-12"
+    },
+    {
+     "measure": "Induction Study 2: Percentage of Participants With Clinical Remission at Week I-12",
+     "time_frame": "At Week I-12"
+    },
+    {
+     "measure": "Maintenance Study: Percentage of Participants With Clinical Remission at Week M-44",
+     "time_frame": "At Week M-44"
+    }
+   ],
+   "secondary_outcomes": [
+    "Induction Study 1: Percentage of Participants With Clinical Remission at Week I-12",
+    "Induction Study 1: Percentage of Participants With Symptomatic Remission at Week I-12",
+    "Induction Study 1: Percentage of Participants With Endoscopic Healing at Week I-12",
+    "Induction Study 1: Percentage of Participants With Histologic-Endoscopic Mucosal Healing at Week I-12",
+    "Induction Study 1: Percentage of Participants With Endoscopic Normalization at Week I-12",
+    "Induction Study 2: Percentage of Participants With Symptomatic Remission at Week I-12",
+    "Induction Study 2: Percentage of Participants With Endoscopic Healing at Week I-12",
+    "Induction Study 2: Percentage of Participants With Clinical Response at Week I-12",
+    "Induction Study 2: Percentage of Participants With Symptomatic Remission at Week I-4",
+    "Induction Study 2: Percentage of Participants With Inflammatory Bowel Disease Questionnaire (IBDQ) Remission at Week I-12",
+    "Induction Study 2: Percentage of Participants With Histologic-Endoscopic Mucosal Healing at Week I-12",
+    "Induction Study 2: Percentage of Participants With Fatigue Response at Week I-12",
+    "Induction Study 2: Percentage of Participants With Symptomatic Remission at Week I-2",
+    "Induction Study 2: Percentage of Participants With Endoscopic Normalization at Week I-12",
+    "Maintenance Study: Percentage of Participants With Symptomatic Remission at Week M-44",
+    "Maintenance Study: Percentage of Participants With Endoscopic Healing at Week M-44",
+    "Maintenance Study: Percentage of Participants With Corticosteroid-free Clinical Remission at Week M-44",
+    "Maintenance Study: Percentage of Participants With Clinical Response at Week M-44",
+    "Maintenance Study: Percentage of Participants With Histologic-Endoscopic Mucosal Healing at Week M-44",
+    "Maintenance Study: Percentage of Participants With IBDQ Remission at Week M-44",
+    "Maintenance Study: Percentage of Participants With Fatigue Response at Week M-44",
+    "Maintenance Study: Percentage of Participants With Clinical Remission at Week 44 Among the Participants Who Had Achieved Clinical Remission at Maintenance Baseline",
+    "Maintenance Study: Percentage of Participants With Endoscopic Normalization at Week M-44"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT04033445",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07245394",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Early Switch Cohort (ESC)",
+     "type": "",
+     "interventions": "Biological: Guselkumab (Tremfya)",
+     "description": "Patients with CD or UC who had inadequate response to on-label maintenance ustekinumab (90 mg every 8 weeks) that requires a change in advanced therapy, as determined by the treating physician. Inadequate response could be either loss of re"
+    },
+    {
+     "label": "Exhausted Ustekinumab Cohort (EUC)",
+     "type": "",
+     "interventions": "Biological: Guselkumab (Tremfya)",
+     "description": "Patients with CD or UC who had inadequate response to off-label maintenance ustekinumab (90 mg every 6 or 4 weeks) that requires a change in advanced therapy, as determined by the treating physician. Inadequate response could be either loss"
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Rate of participants achieving deep remission in IBD patients treated with guselkumab after switching from ustekinumab",
+     "time_frame": "Week 52"
+    },
+    {
+     "measure": "Rate of participants achieving deep remission, stratified by cohorts",
+     "time_frame": "Week 52"
+    }
+   ],
+   "secondary_outcomes": [
+    "Rate of participants with absence of symptomatic worsening",
+    "Rate of participants achieving endoscopic remission",
+    "Rate of participants achieving endoscopic response",
+    "Rate of participants with absence of symptomatic worsening",
+    "Rate of participants achieving symptomatic remission among those not in remission at baseline",
+    "Rate of participants achieving steroid-free remission among corticosteroid users at baseline",
+    "Rate of participants discontinuing guselkumab therapy"
+   ],
+   "other_outcomes": [
+    "Rate of participants achieving early symptomatic response among those not in symptomatic remission at baseline",
+    "Rate of participants achieving biochemical remission",
+    "Rate of participants achieving biochemical remission",
+    "Change from baseline in quality of life",
+    "Change from baseline in work productivity",
+    "Change from baseline in mental health (anxiety)",
+    "Change from baseline in mental health (depression)",
+    "Change from baseline in fatigue"
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07245394",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07444060",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "80 Years",
+   "arms": [
+    {
+     "label": "GUS",
+     "type": "",
+     "interventions": "Drug: Guselkumab (GUS)",
+     "description": "Guselkumab standard usage and optimized usage for the treatment of patients with symptomatic stricturing Crohn's disease"
+    },
+    {
+     "label": "UST",
+     "type": "",
+     "interventions": "Drug: Ustekinumab (UST)",
+     "description": "Ustekinumab standard usage and optimized usage for the treatment of patients with symptomatic stricturing Crohn's disease"
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Continuation of ustekinumab",
+     "time_frame": "up to 52 weeks"
+    }
+   ],
+   "secondary_outcomes": [
+    "CT stricture improvement",
+    "General health improvement",
+    "Number of Participants with surgery"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07444060",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT03662542",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "65 Years",
+   "arms": [
+    {
+     "label": "Combination Therapy",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Dose 1; Drug: Guselkumab Dose 2; Drug: Golimumab Dose 1; Drug: Golimumab Dose 2; Drug: Placebo",
+     "description": "Participants will receive guselkumab Dose 1 as intravenous (IV) infusion and Dose 2 as subcutaneous (SC) injection; and golimumab Dose 1 and Dose 2 as SC injection and placebo to maintain the blind."
+    },
+    {
+     "label": "Monotherapy: Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab Dose 1; Drug: Guselkumab Dose 2; Drug: Placebo",
+     "description": "Participants will receive guselkumab Dose 1 as IV infusion, Dose 2 as SC injection and placebo to maintain the blind."
+    },
+    {
+     "label": "Monotherapy: Golimumab",
+     "type": "ACTIVE_COMPARATOR",
+     "interventions": "Drug: Golimumab Dose 1; Drug: Golimumab Dose 2; Drug: Placebo",
+     "description": "Participants will receive golimumab Dose 1 and Dose 2 as SC injection and placebo to maintain the blind."
+    }
+   ],
+   "n_arms": 3,
+   "primary_outcomes": [
+    {
+     "measure": "Combination Phase: Percentage of Participants Who Achieved Clinical Response at Week 12",
+     "time_frame": "Week 12"
+    }
+   ],
+   "secondary_outcomes": [
+    "Combination Phase: Percentage of Participants Who Achieved Clinical Remission at Week 12"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT03662542",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07746765",
+   "allocation": "",
+   "masking": "",
+   "intervention_model": "",
+   "observational_model": "COHORT",
+   "time_perspective": "PROSPECTIVE",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Moderate-to-Severe Ulcerative Colitis (UC) or Crohn's Disease (CD)",
+     "type": "",
+     "interventions": "",
+     "description": "Participants with confirmed diagnosis of moderate to severe crohn's disease (CD) or ulcerative colitis (UC) treated with guselkumab in accordance with routine clinical practice as per the approved prescribing label will be enrolled. No drug"
+    }
+   ],
+   "n_arms": 1,
+   "primary_outcomes": [
+    {
+     "measure": "Time to Guselkumab Discontinuation",
+     "time_frame": "Up to Week 96"
+    }
+   ],
+   "secondary_outcomes": [
+    "Number of Participants with Early Responses to Guselkumab Measured Using Bowel Urgency",
+    "Number of Participants with Early Responses to Guselkumab Measured Using Patient Reported Outcome (PRO-2) Components",
+    "Number of Participants Achieving Clinical Response for CD as Measured by Harvey-Bradshaw Index (HBI) Score",
+    "Number of Participants Achieving Clinical Response for Ulcerative Colitis (UC) as Measured by Partial Mayo Score (PMS)",
+    "Number of Participants Achieving Clinical Remission for CD as Measured by HBI Score",
+    "Number of Participants Achieving Clinical Remission for UC as Measured by PMS",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Remission for CD",
+    "Number of Participants Achieving Corticosteroid-Free Clinical Remission for UC",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for CD",
+    "Number of Participants Achieving Corticosteroid-Free PRO-2 Remission for UC",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Sex",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous Inflammatory Bowel Disease (IBD) Medication Usage",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Smoking Status and History",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Height",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Weight",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Severity At Index",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Age at Diagnosis",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Disease Duration",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Comorbid Diagnoses",
+    "Characteristics of Participants Receiving Guselkumab Treatment: History of UC/CD",
+    "Characteristics of Participants Receiving Guselkumab Treatment: Previous IBD-Related Surgeries",
+    "UC Phenotype According to the Montreal Classification: Extent of Disease",
+    "UC Phenotype According to Montreal Classification: Severity",
+    "CD Phenotype According to Montreal Classification: Age at Diagnosis",
+    "CD Phenotype According to Montreal Classification: Location",
+    "CD Phenotype According to Montreal Classification: Behavior",
+    "Number of Participants with Adverse Events (AE)",
+    "Number of Participants with C-Reactive Protein (CRP) Normalization",
+    "Change in CRP Levels",
+    "Number of Participants with Fecal Calprotectin (Fcal) Normalization",
+    "Change in Fcal Levels",
+    "Number of Participants Receiving Concomitant IBD Medications During Guselkumab Treatment",
+    "Health-Related Quality of life (HRQoL) as Measured by Short Inflammatory Bowel Disease Questionnaire (SIBDQ)",
+    "HR-QoL as Measured by Bowel Urgency",
+    "HR-QoL of Participants with CD Receiving Guselkumab Treatment as Measured by PRO-2 Components",
+    "HR-QoL of Participants with UC Receiving Guselkumab Treatment as Measured by PRO-2 Components",
+    "HRQoL as Measured by Functional Assessment of Chronic Illness Therapy- Fatigue (FACIT-F) Questionnaire",
+    "HRQoL as Measured by Inflammatory Bowel Disease Fatigue (IBD-F) Scale Score",
+    "Number of Participants Achieving Endoscopic Response in Participants with CD as Measured by Simple Endoscopy Score-CD (SES-CD) Total Score",
+    "Number of Participants Achieving Endoscopic Remission in Participants with CD as Measured by SES-CD Total Score",
+    "Number of Participants Achieving Endoscopic Improvement in Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Endoscopic Normalization in Participants with UC as Measured by Mayo Score",
+    "Number of Participants Achieving Histological Improvement in Participants with UC",
+    "Number of Participants Achieving Histological Remission in Participants with UC",
+    "Number of Participants Achieving IUS (Transmural) Response in Participants with CD as Measured by Bowel Wall Thickness (BWT)",
+    "Number of Participants Achieving IUS (Transmural) Remission in Participants with CD as Measured by BWT",
+    "Number of Participants Achieving IUS (Transmural) Response in Participants with UC as Measured by BWT",
+    "Number of Participants Achieving IUS (Transmural) Remission in Participants with UC as Measured by BWT",
+    "Change from Baseline in Satisfaction with Guselkumab Treatment as per Treatment Satisfaction Questionnaire for Medication (TSQM) Total Score"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07746765",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT05242484",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "65 Years",
+   "arms": [
+    {
+     "label": "Group 1: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Participants will receive placebo subcutaneously (SC). All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that they a"
+    },
+    {
+     "label": "Group 2: Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: Guselkumab",
+     "description": "Participants will receive guselkumab dose regimen 1 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that they "
+    },
+    {
+     "label": "Group 3: Golimumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: Golimumab",
+     "description": "Participants will receive golimumab dose regimen 1 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that they a"
+    },
+    {
+     "label": "Group 4: JNJ-78934804 (High-dose)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: JNJ-78934804",
+     "description": "Participants will receive JNJ-78934804 dose regimen 1 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that the"
+    },
+    {
+     "label": "Group 5: JNJ-78934804 (Mid-dose)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: JNJ-78934804",
+     "description": "Participants will receive JNJ-78934804 dose regimen 2 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that the"
+    },
+    {
+     "label": "Group 6: JNJ-78934804 (Low-dose)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Biological: JNJ-78934804",
+     "description": "Participants will receive JNJ-78934804 dose regimen 3 SC. All participants who meet inadequate response criteria will be escalated to an active treatment. Participants who are eligible and willing to continue the study intervention that the"
+    }
+   ],
+   "n_arms": 6,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants with Clinical Remission at Week 48",
+     "time_frame": "Week 48"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants with Endoscopic Improvement at Week 48",
+    "Percentage of Participants with Corticosteroid-free Clinical Remission at Week 48",
+    "Percentage of Participants with Symptomatic Remission at Week 48",
+    "Percentage of Participants with Combination of Histological Remission and Endoscopic Improvement at Week 48",
+    "Secondary Comparison: Percentage of Participants with Clinical Remission at Week 48",
+    "Percentage of Participants with Adverse Events (AEs)",
+    "Percentage of Participants with Serious Adverse Events (SAEs)",
+    "Laboratory Parameters Over Time",
+    "Vital Signs Parameters Over Time",
+    "Suicidal Ideation Assessment Using Columbia Suicide Severity Rating Scale (C-SSRS) Score",
+    "Serum Concentrations of Guselkumab Over Time",
+    "Serum Concentrations of Golimumab Over Time",
+    "Percentage of Participants with Antibodies to Guselkumab",
+    "Titers of Antibodies to Guselkumab",
+    "Percentage of Participants with Antibodies to Golimumab",
+    "Titers of Antibodies to Golimumab",
+    "Percentage of Participants with Neutralizing Antibodies to Guselkumab",
+    "Percentage of Participants with Neutralizing Antibodies to Golimumab"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT05242484",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT06663332",
+   "allocation": "NON_RANDOMIZED",
+   "masking": "NONE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "3 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Guselkumab (Every 8 weeks)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants treated with guselkumab in one of the three primary studies (CNTO1959PUC3001 \\[NCT06260163\\], CNTO1959PBCRD3007 \\[NCT05923073\\], CNTO1275JPA3001 \\[NCT05083182\\]) will be enrolled in this long-term extension (LTE) study, if in i"
+    },
+    {
+     "label": "Guselkumab (Every 4 weeks)",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab",
+     "description": "Participants treated with guselkumab in one of the three primary studies (CNTO1959PUC3001 \\[NCT06260163\\], CNTO1959PBCRD3007 \\[NCT05923073\\], CNTO1275JPA3001 \\[NCT05083182\\]) will be enrolled in this LTE study, if in the investigator's opin"
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Number of Participants with Treatment-Emergent Adverse Events as Assessment of Safety",
+     "time_frame": "Up to 6 years and 9 months"
+    }
+   ],
+   "secondary_outcomes": [],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT06663332",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07654751",
+   "allocation": "NON_RANDOMIZED",
+   "masking": "NONE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Breast Milk Collection: Guselkumab Once Every 4 Weeks (Q4W) Regimen",
+     "type": "EXPERIMENTAL",
+     "interventions": "Procedure: Breast Milk Sample Collection; Drug: Guselkumab",
+     "description": "Participants who have been on guselkumab maintenance therapy and received at least 2 maintenance doses of guselkumab Q4W for any of the approved indications: ulcerative colitis (UC) or Crohn's Disease (CD), will be enrolled. On Day 1 of the"
+    },
+    {
+     "label": "Breast Milk Collection: Guselkumab Once Every 8 Weeks (Q8W) Regimen",
+     "type": "EXPERIMENTAL",
+     "interventions": "Procedure: Breast Milk Sample Collection; Drug: Guselkumab",
+     "description": "Participants who have been on guselkumab maintenance therapy and received at least 2 maintenance doses of guselkumab Q8W regimen for any of the approved indications: psoriasis, psoriatic arthritis (pSA) or UC or CD, will be enrolled. On Day"
+    }
+   ],
+   "n_arms": 2,
+   "primary_outcomes": [
+    {
+     "measure": "Guselkumab Concentrations at Steady State in Breast Milk (Q4W Maintenance Regimen)",
+     "time_frame": "Up to Day 29"
+    },
+    {
+     "measure": "Guselkumab Concentrations at Steady State in Breast Milk (Q8W Maintenance Regimen)",
+     "time_frame": "Up to Day 57"
+    },
+    {
+     "measure": "Estimated Daily Infant Dosage of Guselkumab Q4W Maintenance Regimen",
+     "time_frame": "Up to Day 29"
+    },
+    {
+     "measure": "Estimated Daily Infant Dosage of Guselkumab Q8W Maintenance Regimen",
+     "time_frame": "Up to Day 57"
+    }
+   ],
+   "secondary_outcomes": [],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07654751",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07196748",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "12 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Double-blind (DB) Induction Study: Icotrokinra",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Icotrokinra",
+     "description": "Adult participants will be randomized to receive icotrokinra daily, orally starting at induction Week 0 (Week I-0). At Week I-12, all participants will be evaluated for clinical response and will enter the Maintenance study."
+    },
+    {
+     "label": "DB Induction Study: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Adult participants will be randomized to receive placebo daily, orally starting at Week I-0. At Week I-12, all participants will be evaluated for clinical response and will enter the Maintenance study."
+    },
+    {
+     "label": "DB Maintenance Study: Icotrokinra",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Icotrokinra",
+     "description": "Adult participants who are in clinical response to icotrokinra at the end of the Induction study will enter the Maintenance study and be randomized to receive icotrokinra daily, orally starting at maintenance Week 0 (Week M-0) through Week "
+    },
+    {
+     "label": "DB Maintenance Study: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Adult participants who are in clinical response to icotrokinra at the end of the Induction study will enter the Maintenance study and be randomized to receive placebo daily, orally starting at Week M-0 through Week M-40. Participants who ar"
+    },
+    {
+     "label": "Open-label (OL) Induction Phase: Icotrokinra",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Icotrokinra",
+     "description": "Adolescent participants will enter the Induction phase and receive icotrokinra daily, orally. At Week I-12 all participants will be evaluated for clinical response and will enter the Maintenance phase."
+    },
+    {
+     "label": "OL Maintenance Phase: Icotrokinra",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Icotrokinra",
+     "description": "Adolescent participants who are in clinical response to icotrokinra will enter the Maintenance phase at Week M-0 and continue to receive icotrokinra daily, orally up to Week M-40. Participants who are nonresponders to icotrokinra will also "
+    }
+   ],
+   "n_arms": 6,
+   "primary_outcomes": [
+    {
+     "measure": "Double-blind (DB) Induction Study: Percentage of Adult Participants in Clinical Remission at Week I-12",
+     "time_frame": "At Week I-12"
+    },
+    {
+     "measure": "DB Maintenance Study: Percentage of Adult Participants in Clinical Remission at Week M-40",
+     "time_frame": "At Week M-40"
+    },
+    {
+     "measure": "Open-Label (OL) Maintenance Phase: Percentage of Adolescent Participants in Clinical Remission at Week M-40",
+     "time_frame": "At Week M-40"
+    }
+   ],
+   "secondary_outcomes": [
+    "DB Induction Study: Percentage of Adult Participants in Clinical Response at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants with Endoscopic Improvement at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants in Symptomatic Remission at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants with Inflammatory Bowel Disease Questionnaire (IBDQ) Remission at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants with Histologic-Endoscopic Mucosal Improvement (HEMI) at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants with Fatigue Response at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants in Symptomatic Remission at Week I-4",
+    "DB Induction Study: Percentage of Adult Participants in Endoscopic Remission at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants with No Bowel Urgency at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants with No Abdominal Pain at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants with No Bowel Incontinence at Week I-12",
+    "DB Induction Study: Percentage of Adult Participants with Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+    "DB Maintenance Study: Percentage of Adult Participants with Endoscopic Improvement at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants in Symptomatic Remission at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants with 90-day Corticosteroid-free Clinical Remission at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants with HEMI at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants with IBDQ Remission at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants in Endoscopic Remission at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants in Clinical Remission at Week M-40 Among the Participants who had Achieved Clinical Remission at Maintenance Baseline",
+    "DB Maintenance Study: Percentage of Adult Participants in Histologic-Endoscopic Mucosal Remission at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants with Fatigue Response at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants with Disease Clearance at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants with No Bowel Urgency at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants with No Abdominal Pain at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants with No Bowel Incontinence at Week M-40",
+    "DB Maintenance Study: Percentage of Adult Participants with AEs and SAEs",
+    "OL Induction Phase: Percentage of Adolescent Participants in Clinical Response at Week I-12",
+    "OL Induction Phase: Percentage of Adolescent Participants in Clinical Remission at Week I-12",
+    "OL Induction Phase: Percentage of Adolescent Participants with HEMI at Week I-12",
+    "OL Induction Phase: Percentage of Adolescent Participants with Endoscopic Improvement at Week I-12",
+    "OL Induction Phase: Percentage of Adolescent Participants in Symptomatic Remission at Week I-12",
+    "OL Induction Phase: Percentage of Adolescent Participants in Endoscopic Remission at Week I-12",
+    "OL Induction Phase: Percentage of Adolescent Participants in Pediatric Ulcerative Colitis Activity Index (PUCAI) Remission at Week I-12",
+    "OL Induction Phase: Percentage of Adolescent Participants with AEs and SAEs",
+    "OL Maintenance Study: Percentage of Adolescent Participants with Endoscopic Improvement at Week M-40",
+    "OL Maintenance Phase: Percentage of Adolescent Participants in Symptomatic Remission at Week M-40",
+    "OL Maintenance Phase: Percentage of Adolescent Participants in 90-day Corticosteroid-free Clinical Remission at Week M-40",
+    "OL Maintenance Phase: Percentage of Adolescent Participants with HEMI at Week M-40",
+    "OL Maintenance Phase: Percentage of Adolescent Participants with Histologic-Endoscopic Mucosal Remission at Week M-40",
+    "OL Maintenance Phase: Percentage of Adolescent Participants with Endoscopic Remission at Week M-40",
+    "OL Maintenance Phase: Percentage of Adolescent Participants in Clinical Remission at Week M-40 Among the Participants who had Achieved Clinical Remission at Maintenance Baseline",
+    "OL Maintenance Phase: Percentage of Adolescent Participants in Clinical Response at Week M-40 Among the Participants who had Achieved Clinical Response at Maintenance Baseline",
+    "OL Maintenance Phase: Percentage of Adolescent Participants in PUCAI Remission at Week-40",
+    "OL Maintenance Phase: Percentage of Adolescent Participants with AEs and SAEs"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07196748",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT06049017",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Group 1: JNJ-77242113 Dose-1",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: JNJ-77242113",
+     "description": "Participants will receive JNJ-77242113 Dose-1 tablets orally from Week 0 through Week 28. Participants who complete the Week 28 assessments and have achieved clinical response at Week 28 and who, in the opinion of the investigator, will con"
+    },
+    {
+     "label": "Group 2: JNJ-77242113 Dose-2",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: JNJ-77242113",
+     "description": "Participants will receive JNJ-77242113 Dose-2 tablets orally from Week 0 through Week 28. Participants who complete the Week 28 assessments and have achieved clinical response at Week 28 and who, in the opinion of the investigator, will con"
+    },
+    {
+     "label": "Group 3: JNJ-77242113 Dose-3",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: JNJ-77242113",
+     "description": "Participants will receive JNJ-77242113 Dose-3 tablets orally from Week 0 through Week 28. Participants who complete the Week 28 assessments and have achieved clinical response at Week 28 and who, in the opinion of the investigator, will con"
+    },
+    {
+     "label": "Group 4: Placebo",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: JNJ-77242113; Drug: Placebo",
+     "description": "Participants will receive placebo tablets orally from Week 0 through Week 28. Placebo-treated participants who meet the criteria of inadequate response at Week 16, will receive JNJ-77242113 Dose-3 tablet orally through Week 28. Participants"
+    }
+   ],
+   "n_arms": 4,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants with Clinical Response at Week 12",
+     "time_frame": "Week 12"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants with Clinical Remission at Week 12",
+    "Percentage of Participants with Symptomatic Remission at Week 12",
+    "Percentage of Participants with Endoscopic Improvement at Week 12",
+    "Percentage of Participants with Histologic-endoscopic Mucosal Improvement at Week 12",
+    "Percentage of Participants with Adverse Events (AE) and Serious Adverse Evets (SAEs)"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT06049017",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07196722",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Induction Study 1: Icotrokinra Dose 1",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Icotrokinra",
+     "description": "Participants will receive Icotrokinra dose 1 in Induction Study 1 up to Week 12. Subsequent treatment will be determined by the participant's response status at Week 12."
+    },
+    {
+     "label": "Induction Study 1: Icotrokinra Dose 2",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Icotrokinra",
+     "description": "Participants will receive Icotrokinra dose 2 in Induction Study 1 up to Week 12. Subsequent treatment will be determined by the participant's response status at Week 12."
+    },
+    {
+     "label": "Induction Study 1: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Participants will receive matching placebo in Induction Study 1 up to Week 12. Subsequent treatment will be determined by the participant's response status at Week 12."
+    },
+    {
+     "label": "Induction Study 2: Icotrokinra",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Icotrokinra",
+     "description": "Participants will receive Icotrokinra at the dose regimen determined in Induction Study 1 up to Week 12. Subsequent study treatment will be determined by the participant's response status at Week 12."
+    },
+    {
+     "label": "Induction Study 2: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Placebo",
+     "description": "Participants will receive matching placebo for up to Week 12. Subsequent study treatment will be determined by the participant's response status at Week 12."
+    },
+    {
+     "label": "Maintenance Study: Icotrokinra Dose 1",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Icotrokinra",
+     "description": "Participants who were receiving icotrokinra in either induction studies 1 or 2 and were in response at Week 12 of the induction study will be randomized to receive icotrokinra maintenance dose 1. Participants receiving Icotrokinra Dose 1 an"
+    },
+    {
+     "label": "Maintenance Study: Icotrokinra Dose 2",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Icotrokinra",
+     "description": "Participants who were receiving icotrokinra in either induction studies 1 or 2 and were in response at Week 12 of the induction study will be randomized to receive icotrokinra maintenance dose 2. Participants who were non-responders at Week"
+    },
+    {
+     "label": "Maintenance Study: Placebo",
+     "type": "PLACEBO_COMPARATOR",
+     "interventions": "Drug: Icotrokinra; Drug: Placebo",
+     "description": "Participants who were receiving icotrokinra in either induction studies 1 or 2 and were in response at Week 12 will be randomized to receive placebo. Participants receiving placebo in induction studies 1 or 2 and in response at Week 12 of t"
+    }
+   ],
+   "n_arms": 8,
+   "primary_outcomes": [
+    {
+     "measure": "Induction Study 1: Number of Participants with Clinical Response at Week 12",
+     "time_frame": "At Week 12"
+    },
+    {
+     "measure": "Induction Study 2: Number of Participants with Clinical Remission at Week 12 (Co-Primary Endpoint)",
+     "time_frame": "At Week 12"
+    },
+    {
+     "measure": "Induction Study 2: Number of Participants with Endoscopic Response at Week 12 (Co-Primary Endpoint)",
+     "time_frame": "At Week 12"
+    },
+    {
+     "measure": "Maintenance Study: Number of Participants with Clinical Remission at Week 40 (Co-Primary Endpoint)",
+     "time_frame": "At Week 40"
+    },
+    {
+     "measure": "Maintenance Study: Number of Participants with Endoscopic Response at Week 40 (Co-Primary Endpoint)",
+     "time_frame": "At Week 40"
+    }
+   ],
+   "secondary_outcomes": [
+    "Induction Study 1: Number of Participants with Clinical Remission at Week 12",
+    "Induction Study 1: Number of Participants with Endoscopic Response at Week 12",
+    "Induction Study 1: Number of Participants with Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+    "Induction Study 2: Number of Participants with Patient Reported Outcomes (PRO)-2 Remission at Week 12",
+    "Induction Study 2: Number of Participants with Clinical Response at Week 12",
+    "Induction Study 2: Number of Participants Reporting Both Clinical Remission and Endoscopic Response at Week 12",
+    "Induction Study 2: Number of Participants with Clinical Response at Week 4",
+    "Induction Study 2: Number of Participants with Endoscopic Remission at Week 12",
+    "Induction Study 2: Number of Participants with Deep Remission at Week 12",
+    "Induction Study 2: Number of Participants with Inflammatory Bowel Disease Questionnaire (IBDQ) Remission at Week 12",
+    "Induction Study 2: Number of Participants with Fatigue Response at Week 12",
+    "Induction Study 2: Number of Participants with Clinical Remission at Week 4",
+    "Induction Study 2: Number of Participants Reporting Both Histologic Remission and Endoscopic Remission at Week 12",
+    "Induction Study 2: Number of Participants with AEs and SAEs",
+    "Maintenance Study: Number of Participants with PRO-2 remission at Week 40",
+    "Maintenance Study: Number of Participants with Endoscopic Remission at Week 40",
+    "Maintenance Study: Number of Participants with 90-Day Corticosteroid-Free Clinical Remission at Week 40",
+    "Maintenance Study: Number of Participants with Maintenance of Clinical Remission at Week 40",
+    "Maintenance Study: Number of Participants Reporting Both Clinical Remission and Endoscopic Response at Week 40",
+    "Maintenance Study: Number of Participants with Deep Remission at Week 40",
+    "Maintenance Study: Number of Participants Reporting Both Histologic Remission and Endoscopic Remission at Week 40",
+    "Maintenance Study: Number of Participants with IBDQ Remission at Week 40",
+    "Maintenance Study: Number of Participants with Fatigue Response at Week 40",
+    "Maintenance Study : Number of Participants with AEs and SAEs"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT07196722",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT05347095",
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "intervention_model": "PARALLEL",
+   "observational_model": "",
+   "time_perspective": "",
+   "min_age": "18 Years",
+   "max_age": "",
+   "arms": [
+    {
+     "label": "Group 1: Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab; Drug: Placebo",
+     "description": "Participants will receive guselkumab Dose 1 intravenous (IV) infusion followed by Dose 2 subcutaneously (SC). Participants will receive matching placebo to maintain the blind. Participants who are eligible and willing to continue guselkumab"
+    },
+    {
+     "label": "Group 2: Guselkumab",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab; Drug: Placebo",
+     "description": "Participants will receive guselkumab Dose 1 IV infusion followed by Dose 3 SC. Participants will receive matching placebo to maintain the blind. At Week 24, guselkumab Dose 3 SC non-responders will switch to receive guselkumab dose 2 SC. Pa"
+    },
+    {
+     "label": "Group 3: Placebo",
+     "type": "EXPERIMENTAL",
+     "interventions": "Drug: Guselkumab; Drug: Placebo",
+     "description": "Participants will receive placebo IV infusion followed by placebo SC. At Week 24, placebo non-responders will continue to receive guselkumab Dose 4 followed by guselkumab Dose 2 SC. Participants will receive matching placebo to maintain the"
+    }
+   ],
+   "n_arms": 3,
+   "primary_outcomes": [
+    {
+     "measure": "Percentage of Participants who Achieve Combined Fistula Remission at Week 24",
+     "time_frame": "Week 24"
+    }
+   ],
+   "secondary_outcomes": [
+    "Percentage of Participants who Achieve Combined Fistula Remission at Week 48",
+    "Percentage of Participants who Achieve Clinically Assessed Fistula Remission",
+    "Percentage of Participants who Achieve Radiological Fistula Remission Based on Radiological Findings Assessed by MRI",
+    "Percentage of Participants who Achieve Clinically Assessed Fistula Response at Week 24",
+    "Percentage of Participants who Achieve Clinically Assessed Fistula Response at Week 12",
+    "Change from Baseline in Crohn's Disease Activity Index (CDAI) by Visit Over Time Through Week 48",
+    "Percentage of Participants who Achieve Clinical Remission (CDAI less than [<] 150) by Visit Over Time Through Week 48 Among Participants with CDAI Greater than (>) 150 at Baseline",
+    "Percentage of Participants who Achieve a Clinical Response by Visit Over Time Through Week 48 Among Participants with CDAI >150 at Baseline",
+    "Percentage of Participants who Achieve Steroid-free Clinical Remission by Visit Over Time Through Week 48 Among Participants with CDAI >150 at Baseline",
+    "Percentage of Participants who Achieve Combined Clinical Response and Clinically Assessed Fistula Response Among Participants With CDAI >220 at Baseline",
+    "Percentage of Participants who Achieve Combined Clinical Remission and Clinically Assessed Fistula Remission Among Participants with CDAI >220 at Baseline",
+    "Percentage of Participants who Achieve Combined Clinical Response and Clinically Assessed Fistula Remission Among Participants with CDAI >220 at Baseline",
+    "Percentage of Participants who Achieve Combined Clinical Remission and Clinically Assessed Fistula Response among Participants with CDAI >220 at Baseline",
+    "Percentage of Participants who Achieve Combined Clinical Response and Clinically Assessed Fistula Response at Week 24 and Week 48",
+    "Percentage of Participants who Achieve Combined Clinical Response and Clinically Assessed Fistula Remission at Week 24 and Week 48",
+    "Percentage of Participants who Achieve Combined Clinical Remission and Clinically Assessed Fistula Response at Week 24 and Week 48",
+    "Percentage of Participants who Achieve Combined Clinical Remission and Clinically Assessed Fistula Remission at Week 24 and Week 48",
+    "Change from Baseline in Perianal Disease Activity Index (PDAI) Overall Score, Discharge Score, and Pain Score by Visit Over Time Through Week 48",
+    "Percentage of Participants who Achieve Clinically Assessed Fistula Response by Visit Over Time Through Week 48",
+    "Percentage of Participants who Achieve Clinically Assessed Fistula Remission by Visit over Time Through Week 48",
+    "Percentage of Participants who Achieve Clinically Assessed Fistula Remission at Week 48 Among the Participants who Achieve Clinical Fistula Remission at Week 24",
+    "Percentage of Participants who Achieve Clinically Assessed Fistula Remission at Week 48 Among Those who Achieve Fistula Remission or Response at Week 24",
+    "Time to Clinical Fistula Remission",
+    "Percentage of Participants who Achieve Radiological Fistula Predominantly Fibrotic Status for all Existent Fistulas Assessed by MRI at Week 24 and Week 48",
+    "Percentage of participants who Achieve Radiological Remission Based on Radiological Findings Assessed by MRI at Week 48",
+    "Percentage of Participants who Achieve Radiological Remission Assessed by MRI at Week 48 Among the Participants who Achieve Radiological Remission at Week 24",
+    "Percentage of Participants who Achieve Combined Clinically Assessed and Radiological Fistula Remission at Week 48 Among the Participants who Achieve Combined Clinical and Radiological Fistula Remissio",
+    "Percentage of Participants who Achieve Combined Clinically Assessed and Radiological Fistula Remission at Week 48 Among the Participants with Clinical Fistula Response at Week 24",
+    "Percentage of Participants with Proctitis at Week 48 Among Participants with MRI-confirmed Proctitis at Baseline",
+    "Change from Baseline in Magnetic Resonance Novel Index for Fistula imaging in Crohn's disease (MAGNIFI-CD) by Visit Over Time Through Week 48",
+    "Change from Baseline in Inflammatory Bowel Disease Questionnaire (IBDQ) by Visit Over Time Through Week 48",
+    "Change From Baseline in Functional Assessment of Chronic Illness Therapy-fatigue (FACIT-F) Score by Visit Over Time Through Week 48",
+    "Change From Baseline in Work Productivity and Activity Impairment Questionnaire: Crohn's Disease (WPAI:CD) by Visit Over Time Through Week 48",
+    "Change from Baseline in Quality-of-life as Assessed by European Quality-of-Life Five Dimension Five Level Scale (EQ5D-5L) Score by Visit Over Time Through Week 48",
+    "Change from Baseline in the Jorge-Wexner Score by Visit Over Time Through Week 48",
+    "Change from Baseline in the Inflammatory Bowel Disease-Disability Index (IBD-DI) by Visit Over Time Through Week 48",
+    "Number of Participants with Treatment-emergent Adverse Events (TEAEs)",
+    "Number of Participants with Treatment-emergent Serious Adverse Events (TESAEs)"
+   ],
+   "other_outcomes": [],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "n_arms"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "public_verified",
+     "allocation": "public_verified",
+     "masking": "public_verified",
+     "intervention_model": "public_verified",
+     "observational_model": "public_verified",
+     "time_perspective": "public_verified",
+     "min_age": "public_verified",
+     "max_age": "public_verified",
+     "arms": "public_verified",
+     "n_arms": "derived",
+     "primary_outcomes": "public_verified",
+     "secondary_outcomes": "public_verified",
+     "other_outcomes": "public_verified"
+    }
+   },
+   "_key": "NCT05347095",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  }
+ ]
+}

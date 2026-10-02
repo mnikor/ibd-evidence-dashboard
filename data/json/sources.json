@@ -1,0 +1,2515 @@
+{
+ "table": "sources",
+ "description": "Every source referenced by source_ids across the dataset.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "source_id": "SRC-FDA-API",
+   "type": "regulator database",
+   "title": "Drugs@FDA via the openFDA API: application sponsor, generic name and approval dates of original and efficacy supplements",
+   "publisher": "U.S. FDA",
+   "publish_date": "2026-09-30",
+   "url": "https://api.fda.gov/drug/drugsfda.json",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-FDA-API",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-VEGA-LGH",
+   "type": "journal",
+   "title": "Feagan BG et al. Guselkumab plus golimumab combination vs monotherapy in UC (VEGA). Lancet Gastroenterol Hepatol 2023 (PMID 36738762)",
+   "publisher": "Lancet Gastroenterol Hepatol",
+   "publish_date": "2023-04",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36738762/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-VEGA-LGH",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-ACG-CD-2025",
+   "type": "guideline",
+   "title": "Lichtenstein GR et al. ACG Clinical Guideline: Management of Crohn's Disease in Adults. Am J Gastroenterol 2025 (PMID 40701562)",
+   "publisher": "Am J Gastroenterol",
+   "publish_date": "2025-06",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40701562/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-ACG-CD-2025",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-NICE-TA1094",
+   "type": "HTA",
+   "title": "NICE TA1094: Guselkumab for treating moderately to severely active ulcerative colitis (28 Aug 2025)",
+   "publisher": "NICE",
+   "publish_date": "2025-08-28",
+   "url": "https://www.nice.org.uk/guidance/ta1094",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-NICE-TA1094",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-NICE-TA1095",
+   "type": "HTA",
+   "title": "NICE TA1095: Guselkumab for previously treated moderately to severely active Crohn's disease (28 Aug 2025)",
+   "publisher": "NICE",
+   "publish_date": "2025-08-28",
+   "url": "https://www.nice.org.uk/guidance/ta1095",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-NICE-TA1095",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-GBA-UC",
+   "type": "HTA",
+   "title": "G-BA benefit assessment: guselkumab, ulcerative colitis (decision 20 Nov 2025)",
+   "publisher": "G-BA",
+   "publish_date": "2025-11-20",
+   "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1230/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-GBA-UC",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-GBA-CD",
+   "type": "HTA",
+   "title": "G-BA benefit assessment: guselkumab, Crohn's disease (decision 20 Nov 2025)",
+   "publisher": "G-BA",
+   "publish_date": "2025-11-20",
+   "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1231/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-GBA-CD",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-AMT-GBA",
+   "type": "news",
+   "title": "G-BA-Beschluss: Guselkumab (summary of both decisions)",
+   "publisher": "Arzneimitteltherapie",
+   "publish_date": "2026",
+   "url": "https://www.arzneimitteltherapie.de/online-only/2026/g-ba-beschluss-guselkumab.html",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-AMT-GBA",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-HAS-UC",
+   "type": "HTA",
+   "title": "HAS Transparency Committee: TREMFYA (guselkumab), ulcerative colitis",
+   "publisher": "HAS",
+   "publish_date": "2025-07-16",
+   "url": "https://www.has-sante.fr/jcms/p_4126732/fr/tremfya-guselkumab-rectocolite-hemorragique-rch",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-HAS-UC",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-VIDAL-TRE",
+   "type": "news",
+   "title": "TREMFYA: prise en charge étendue dans les MICI (HAS opinions for UC and Crohn's disease)",
+   "publisher": "VIDAL",
+   "publish_date": "2026-09",
+   "url": "https://www.vidal.fr/actualites/38304-tremfya-prise-en-charge-etendue-dans-les-mici.html",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-VIDAL-TRE",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-CDA-UC",
+   "type": "HTA",
+   "title": "CDA-AMC reimbursement recommendation: guselkumab (Tremfya), ulcerative colitis (PMID 41468487)",
+   "publisher": "Canada's Drug Agency",
+   "publish_date": "2025-11",
+   "url": "https://www.cda-amc.ca/sites/default/files/DRR/2025/SR0874_Tremfya_UC.pdf",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-CDA-UC",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-CDA-CD",
+   "type": "HTA",
+   "title": "CDA-AMC reimbursement recommendation: guselkumab (Tremfya), Crohn's disease (PMID 41401272)",
+   "publisher": "Canada's Drug Agency",
+   "publish_date": "2025-09",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41401272/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-CDA-CD",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-ECCO-UC-2026",
+   "type": "guideline",
+   "title": "Gisbert JP et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. J Crohns Colitis 2026 (PMID 42413123)",
+   "publisher": "J Crohns Colitis",
+   "publish_date": "2026-07-07",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42413123/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-ECCO-UC-2026",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-ECCO-CD-2024",
+   "type": "guideline",
+   "title": "Gordon H et al. ECCO Guidelines on Therapeutics in Crohn's Disease: Medical Treatment. J Crohns Colitis 2024 (PMID 38877997)",
+   "publisher": "J Crohns Colitis",
+   "publish_date": "2024-10-15",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38877997/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-ECCO-CD-2024",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-AGA-UC-2024",
+   "type": "guideline",
+   "title": "AGA Living Clinical Practice Guideline on Pharmacological Management of Moderate-to-Severe Ulcerative Colitis. Gastroenterology 2024 (PMID 39572132)",
+   "publisher": "Gastroenterology",
+   "publish_date": "2024-12",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39572132/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-AGA-UC-2024",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-BSG-2025",
+   "type": "guideline",
+   "title": "Moran GW et al. British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025. Gut 2025 (PMID 40550582)",
+   "publisher": "Gut",
+   "publish_date": "2025-06-23",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40550582/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-BSG-2025",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-CTGOV",
+   "type": "registry",
+   "title": "ClinicalTrials.gov API v2 extract (see data/raw/ctgov)",
+   "publisher": "NLM",
+   "publish_date": "2026-09-19",
+   "url": "https://clinicaltrials.gov/api/v2/studies",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-CTGOV",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-001",
+   "type": "press release",
+   "title": "TREMFYA receives U.S. FDA approval for adults with moderately to severely active UC",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2024-09",
+   "url": "https://www.jnj.com/media-center/press-releases/tremfya-guselkumab-receives-u-s-fda-approval-for-adults-with-moderately-to-severely-active-ulcerative-colitis-strengthening-johnson-johnsons-leadership-in-inflammatory-bowel-disease",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-001",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-002",
+   "type": "press release",
+   "title": "U.S. FDA approves TREMFYA for adults with moderately to severely active Crohn's disease (SC and IV induction)",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2025-03",
+   "url": "https://www.jnj.com/media-center/press-releases/u-s-fda-approves-tremfya-guselkumab-the-first-and-only-il-23-inhibitor-offering-both-subcutaneous-and-intravenous-induction-options-for-adult-patients-with-moderately-to-severely-active-crohns-disease",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-002",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-003",
+   "type": "news",
+   "title": "FDA approves Tremfya for subcutaneous induction in adults with UC",
+   "publisher": "Healio",
+   "publish_date": "2025-09-22",
+   "url": "https://www.healio.com/news/gastroenterology/20250922/fda-approves-tremfya-for-subcutaneous-induction-in-adults-with-ulcerative-colitis",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-003",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-004",
+   "type": "press release",
+   "title": "TREMFYA receives European Commission approval for adults with moderately to severely active UC",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2025-04-25",
+   "url": "https://www.globenewswire.com/news-release/2025/04/25/3068097/0/en/TREMFYA-guselkumab-receives-European-Commission-approval-for-adults-with-moderately-to-severely-active-ulcerative-colitis-strengthening-Johnson-Johnson-s-leadership-in-inflammatory.html",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-004",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-005",
+   "type": "press release",
+   "title": "European Commission approves TREMFYA for Crohn's disease (SC and IV induction)",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2025-05",
+   "url": "https://www.biospace.com/press-releases/european-commission-approves-tremfya-guselkumab-the-first-dual-acting-il-23-inhibitor-offering-both-subcutaneous-and-intravenous-induction-options-for-adult-patients-with-moderately-to-severely-active-crohns-disease",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-005",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-006",
+   "type": "press release",
+   "title": "TREMFYA receives EC approval for SC induction through maintenance in UC",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2025-10-24",
+   "url": "https://www.globenewswire.com/news-release/2025/10/24/3172775/0/en/TREMFYA-guselkumab-receives-European-Commission-approval-for-subcutaneous-induction-through-to-maintenance-in-adults-with-ulcerative-colitis-now-the-first-IL-23-inhibitor-with-a-fu.html",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-006",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-007",
+   "type": "HTA",
+   "title": "NICE recommends guselkumab for ulcerative colitis and Crohn's disease",
+   "publisher": "Pharmaceutical Journal",
+   "publish_date": "2025",
+   "url": "https://pharmaceutical-journal.com/article/news/nice-recommends-guselkumab-for-ulcerative-colitis-and-crohns-disease",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-007",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-008",
+   "type": "press release",
+   "title": "Icotrokinra meets primary endpoint of clinical response in UC study (ANTHEM-UC)",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2025",
+   "url": "https://www.jnj.com/media-center/press-releases/icotrokinra-meets-primary-endpoint-of-clinical-response-in-ulcerative-colitis-study-and-shows-potential-to-transform-the-treatment-paradigm-for-patients",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-008",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-009",
+   "type": "press release",
+   "title": "Icotrokinra maintains therapeutic benefit and favorable safety through 28 weeks in UC",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2025",
+   "url": "https://www.jnj.com/media-center/press-releases/icotrokinra-maintains-standout-combination-of-therapeutic-benefit-and-a-favorable-safety-profile-in-once-daily-pill-through-28-weeks-in-ulcerative-colitis",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-009",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-010",
+   "type": "press release",
+   "title": "FDA approval of ICOTYDE (icotrokinra) for plaque psoriasis",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2026-03-18",
+   "url": "https://www.jnj.com/media-center/press-releases/fda-approval-of-icotyde-icotrokinra-ushers-in-new-era-for-first-line-systemic-treatment-of-plaque-psoriasis-with-a-targeted-oral-peptide",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-010",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-011",
+   "type": "news",
+   "title": "Guselkumab exhibits 'good efficacy' in perianal fistulizing Crohn's disease (FUZION, DDW 2026)",
+   "publisher": "Healio",
+   "publish_date": "2026-05-14",
+   "url": "https://www.healio.com/news/gastroenterology/20260514/guselkumab-exhibits-good-efficacy-in-perianal-fistulizing-crohns-disease",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-011",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-012",
+   "type": "press release",
+   "title": "JNJ-4804 co-antibody therapy shows potential to raise the bar in refractory IBD (DUET-UC/CD)",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2026-05-05",
+   "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-investigational-co-antibody-therapy-jnj-4804-shows-potential-to-raise-the-bar-for-clinical-efficacy-in-treating-refractory-inflammatory-bowel-disease",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-012",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-013",
+   "type": "news",
+   "title": "JNJ-4804 Phase 2b data show higher week-48 remission in refractory UC, CD",
+   "publisher": "HCPLive",
+   "publish_date": "2026-05",
+   "url": "https://www.hcplive.com/view/jnj-4804-phase-2b-data-show-higher-week-48-remission-in-refractory-uc-crohn-disease",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-013",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-014",
+   "type": "journal",
+   "title": "GRAVITI: guselkumab SC induction and maintenance in Crohn's disease",
+   "publisher": "Gastroenterology",
+   "publish_date": "2025",
+   "url": "https://www.gastrojournal.org/article/S0016-5085(25)00522-0/fulltext",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-014",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-015",
+   "type": "journal",
+   "title": "ASTRO: SC guselkumab induction in UC (Lancet Gastroenterol Hepatol)",
+   "publisher": "The Lancet Gastroenterology & Hepatology",
+   "publish_date": "2025",
+   "url": "https://www.thelancet.com/journals/langas/article/PIIS2468-1253(25)00322-X/abstract",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-015",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-016",
+   "type": "news",
+   "title": "Guselkumab bests placebo in clinical remission for UC (ASTRO week 12)",
+   "publisher": "HCPLive",
+   "publish_date": "2025",
+   "url": "https://www.hcplive.com/view/guselkumab-placebo-clinical-remission-ulcerative-colitis",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-016",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-017",
+   "type": "journal",
+   "title": "GALAXI-2 and GALAXI-3 48-week results (Lancet)",
+   "publisher": "The Lancet",
+   "publish_date": "2025",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40684778/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-017",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-018",
+   "type": "news",
+   "title": "GALAXI 2 & 3: guselkumab superior to ustekinumab for Crohn's disease",
+   "publisher": "HCPLive",
+   "publish_date": "2024",
+   "url": "https://www.hcplive.com/view/galaxi-guselkumab-superior-ustekinumab-crohns-disease",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-018",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-019",
+   "type": "journal",
+   "title": "QUASAR phase 3 induction and maintenance (Lancet)",
+   "publisher": "The Lancet",
+   "publish_date": "2025",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39706209/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-019",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-020",
+   "type": "journal",
+   "title": "QUASAR phase 2b induction study (Gastroenterology)",
+   "publisher": "Gastroenterology",
+   "publish_date": "2023",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37659673/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-020",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-021",
+   "type": "press release",
+   "title": "Tulisokibart met primary and key secondary endpoints in Phase 3 ATLAS-UC induction-only study",
+   "publisher": "Merck",
+   "publish_date": "2026-06-22",
+   "url": "https://www.merck.com/news/mercks-tulisokibart-met-primary-and-key-secondary-endpoints-in-the-phase-3-atlas-uc-induction-only-study-in-patients-with-moderately-to-severely-active-ulcerative-colitis-uc/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-021",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-022",
+   "type": "press release",
+   "title": "Abivax announces Phase 3 ABTECT maintenance trial results (obefazimod)",
+   "publisher": "Abivax",
+   "publish_date": "2026-06-01",
+   "url": "https://www.globenewswire.com/news-release/2026/06/01/3304711/0/en/abivax-announces-landmark-phase-3-abtect-maintenance-trial-results-evaluating-obefazimod-in-moderately-to-severely-active-ulcerative-colitis.html",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-022",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-023",
+   "type": "press release",
+   "title": "Abivax ABTECT Maintenance Part 2 results; NDA on track for Q4 2026",
+   "publisher": "Abivax",
+   "publish_date": "2026",
+   "url": "https://ir.abivax.com/news-releases/news-release-details/abivax-reports-positive-abtect-maintenance-part-2-results/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-023",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-024",
+   "type": "press release",
+   "title": "AbbVie submits FDA application for SKYRIZI SC induction in Crohn's disease (AFFIRM)",
+   "publisher": "AbbVie",
+   "publish_date": "2026-04-27",
+   "url": "https://news.abbvie.com/2026-04-27-AbbVie-Submits-Regulatory-Application-to-FDA-for-SKYRIZI-R-risankizumab-rzaa-Subcutaneous-Induction-for-Adults-with-Moderately-to-Severely-Active-Crohns-Disease",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-024",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-025",
+   "type": "press release",
+   "title": "AbbVie submits EMA application for SKYRIZI SC induction in Crohn's disease",
+   "publisher": "AbbVie",
+   "publish_date": "2026-09",
+   "url": "https://www.prnewswire.com/news-releases/abbvie-submits-regulatory-application-to-ema-for-skyrizi-risankizumab-subcutaneous-induction-for-adults-with-moderately-to-severely-active-crohns-disease-302861059.html",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-025",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-026",
+   "type": "journal",
+   "title": "Risankizumab versus ustekinumab for moderate-to-severe Crohn's disease (SEQUENCE, NEJM)",
+   "publisher": "NEJM",
+   "publish_date": "2024",
+   "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2314585",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-026",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-027",
+   "type": "news",
+   "title": "AbbVie hits record Skyrizi sales, holds its own in IBD despite J&J competition",
+   "publisher": "Fierce Pharma",
+   "publish_date": "2026",
+   "url": "https://www.fiercepharma.com/pharma/abbvie-hitting-record-sales-high-skyrizi-gains-holds-its-own-growing-ibd-arena-despite-jj",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-027",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-028",
+   "type": "press release",
+   "title": "FDA approves Omvoh (mirikizumab) for Crohn's disease",
+   "publisher": "Eli Lilly",
+   "publish_date": "2025-01-15",
+   "url": "https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-omvohr-mirikizumab-mrkz-crohns-disease",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-028",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-029",
+   "type": "press release",
+   "title": "U.S. FDA approves SKYRIZI for ulcerative colitis",
+   "publisher": "AbbVie",
+   "publish_date": "2024-06-18",
+   "url": "https://news.abbvie.com/2024-06-18-U-S-FDA-Approves-SKYRIZI-R-risankizumab-rzaa-for-Ulcerative-Colitis,-Expanding-AbbVies-Portfolio-Across-Inflammatory-Bowel-Disease",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-029",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-030",
+   "type": "news",
+   "title": "J&J Q2 2026 earnings: Tremfya growth, Stelara decline",
+   "publisher": "Yahoo Finance / Zacks",
+   "publish_date": "2026-07",
+   "url": "https://finance.yahoo.com/healthcare/articles/j-j-q2-earnings-beat-145000775.html",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-030",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-031",
+   "type": "earnings call",
+   "title": "J&J Q2 2026 earnings call transcript (IL-23 UC induction share, CD NBRx)",
+   "publisher": "Investing.com",
+   "publish_date": "2026-07",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-johnson--johnson-tops-q2-2026-estimates-and-lifts-outlook-93CH-4793625",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-031",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-032",
+   "type": "news",
+   "title": "Teva and Sanofi's TL1A mAb shows durability in UC and CD; Phase 3 timelines",
+   "publisher": "Clinical Trials Arena",
+   "publish_date": "2026",
+   "url": "https://www.clinicaltrialsarena.com/news/teva-and-sanofis-tl1a-mab-shows-durability-in-uc-and-cd/",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-032",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-033",
+   "type": "congress",
+   "title": "UEG Week 2026, Barcelona, 17-20 October 2026",
+   "publisher": "UEG",
+   "publish_date": "2026",
+   "url": "https://ueg.eu/week",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-033",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-034",
+   "type": "congress",
+   "title": "ACG 2026 Annual Scientific Meeting, Nashville, 9-14 October 2026",
+   "publisher": "ACG",
+   "publish_date": "2026",
+   "url": "https://acgmeetings.gi.org/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-034",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-035",
+   "type": "congress",
+   "title": "ECCO'27, Copenhagen, 3-6 March 2027",
+   "publisher": "ECCO",
+   "publish_date": "2026",
+   "url": "https://ecco-ibd.eu/ecco27/our-congress/overview",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-035",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-036",
+   "type": "congress",
+   "title": "DDW 2027, Washington DC, 15-18 May 2027",
+   "publisher": "DDW",
+   "publish_date": "2026",
+   "url": "https://news.ddw.org/news/save-the-date-for-ddw-2027/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-036",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-037",
+   "type": "guideline",
+   "title": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults (2025)",
+   "publisher": "Am J Gastroenterol",
+   "publish_date": "2025-06",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40701556/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-037",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-038",
+   "type": "guideline",
+   "title": "AGA Living Clinical Practice Guideline: pharmacologic management of moderate-to-severe Crohn's disease",
+   "publisher": "Gastroenterology",
+   "publish_date": "2025-11-20",
+   "url": "https://www.gastrojournal.org/article/S0016-5085(25)06091-3/fulltext",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-038",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-039",
+   "type": "guideline",
+   "title": "Updated 2025 ACG clinical guideline for the management of Crohn's disease (summary)",
+   "publisher": "ACG",
+   "publish_date": "2025",
+   "url": "https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-039",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-040",
+   "type": "congress abstract",
+   "title": "ASTRO week 48 results by week-12 response status (ECCO 2026, DOP105)",
+   "publisher": "J Crohns Colitis suppl.",
+   "publish_date": "2026",
+   "url": "https://academic.oup.com/ecco-jcc/article/20/Supplement_1/jjaf231.142/8432650",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-040",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-041",
+   "type": "congress abstract",
+   "title": "ASTRO week 12 results (ECCO 2025, OP10)",
+   "publisher": "J Crohns Colitis suppl.",
+   "publish_date": "2025",
+   "url": "https://academic.oup.com/ecco-jcc/article/19/Supplement_1/i19/7966978",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-041",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-042",
+   "type": "news",
+   "title": "AbbVie outlines Skyrizi defense against new J&J psoriasis rival Icotyde",
+   "publisher": "Fierce Pharma",
+   "publish_date": "2026",
+   "url": "https://www.fiercepharma.com/pharma/abbvie-outlines-immunology-superstar-skyrizis-defense-against-new-jj-competition-icotyde",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-042",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-043",
+   "type": "news",
+   "title": "J&J pushes dual-antibody IBD therapy into Phase 3 despite mid-stage misses",
+   "publisher": "BioSpace",
+   "publish_date": "2026",
+   "url": "https://www.biospace.com/drug-development/j-j-pushes-dual-antibody-ibd-therapy-into-phase-3-despite-mid-stage-fails",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-043",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-044",
+   "type": "news",
+   "title": "ANTHEM-UC: icotrokinra shows promise for UC (week 12 rates)",
+   "publisher": "HCPLive",
+   "publish_date": "2025",
+   "url": "https://www.hcplive.com/view/anthem-uc-icotrokinra-jnj-2113-shows-promise-ulcerative-colitis",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-044",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-045",
+   "type": "news",
+   "title": "FDA approves upadacitinib for Crohn's disease",
+   "publisher": "ACCP",
+   "publish_date": "2023-05",
+   "url": "https://www.accp.com/stunet/newsletter.aspx?art=176",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-045",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-PUBMED",
+   "type": "database",
+   "title": "PubMed E-utilities search: drug terms AND IBD terms, publication date 2023-09-19..2026-09-19",
+   "publisher": "NLM",
+   "publish_date": "2026-09-19",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-PUBMED",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-CROSSREF",
+   "type": "database",
+   "title": "Crossref REST API: congress abstract supplements (ECCO/JCC, DDW/Gastroenterology, ACG/AJG, CCC/IBD) 2023-09-19..2026-09-19",
+   "publisher": "Crossref",
+   "publish_date": "2026-09-19",
+   "url": "https://api.crossref.org/",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-CROSSREF",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-ACGPROG",
+   "type": "congress programme",
+   "title": "ACG Annual Scientific Meeting 2023-2025: official oral abstract listings (eventscribe 'Oral Abstracts'); IBD orals copied to data/raw/programs/acg_orals.tsv",
+   "publisher": "American College of Gastroenterology",
+   "publish_date": "2026-09-22",
+   "url": "https://acg2025.eventscribe.net/SearchByBucket.asp?f=CustomPresfield32&pfp=BrowsebyOrals",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-ACGPROG",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LBL-TRE",
+   "type": "label",
+   "title": "TREMFYA (guselkumab) US Prescribing Information, revised 05/2026 (text kept in data/raw/labels)",
+   "publisher": "Janssen Biotech / FDA",
+   "publish_date": "2026-05",
+   "url": "https://www.jnjlabels.com/package-insert/product-monograph/prescribing-information/TREMFYA-pi.pdf",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LBL-TRE",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LBL-SKY",
+   "type": "label",
+   "title": "SKYRIZI (risankizumab-rzaa) US Prescribing Information, revised 6/2026 (text kept in data/raw/labels)",
+   "publisher": "AbbVie / FDA",
+   "publish_date": "2026-06",
+   "url": "https://www.rxabbvie.com/pdf/skyrizi_pi.pdf",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LBL-SKY",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-AFFIRM-TL",
+   "type": "press release",
+   "title": "AbbVie announces positive topline results from Phase 3 AFFIRM (SKYRIZI SC induction in CD)",
+   "publisher": "AbbVie",
+   "publish_date": "2026-03-02",
+   "url": "https://news.abbvie.com/2026-03-02-AbbVie-Announces-Positive-Topline-Results-from-Phase-3-AFFIRM-Study-Evaluating-SKYRIZI-R-Risankizumab-Subcutaneous-Induction-in-Patients-with-Crohns-Disease",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-AFFIRM-TL",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-UEG",
+   "type": "congress library",
+   "title": "UEG Week 2023-2025 posters and presentations (UEG Gutflix library, collected via browser; titles only)",
+   "publisher": "UEG",
+   "publish_date": "2026-09-19",
+   "url": "https://gutflix.eu/browse/poster",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-UEG",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-MANUAL",
+   "type": "manual edit",
+   "title": "Value corrected/updated by the team in the Data Editor (see row note and data/overrides/overrides.json)",
+   "publisher": "Team",
+   "publish_date": "2026-09-19",
+   "url": "",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-MANUAL",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-SIM",
+   "type": "simulated",
+   "title": "Simulated by prototype generator (scripts/build_dataset.py, seed 42)",
+   "publisher": "Prototype",
+   "publish_date": "2026-09-19",
+   "url": "",
+   "reliability_grade": "D",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "source_id",
+     "type",
+     "title",
+     "publisher",
+     "publish_date",
+     "url",
+     "reliability_grade",
+     "retrieved_at"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "simulated",
+     "type": "simulated",
+     "title": "simulated",
+     "publisher": "simulated",
+     "publish_date": "simulated",
+     "url": "simulated",
+     "reliability_grade": "simulated",
+     "retrieved_at": "simulated"
+    }
+   },
+   "_key": "SRC-SIM",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-AI",
+   "type": "simulated",
+   "title": "AI-inferred hypothesis generated for the prototype; not a fact",
+   "publisher": "Prototype",
+   "publish_date": "2026-09-19",
+   "url": "",
+   "reliability_grade": "D",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "source_id",
+     "type",
+     "title",
+     "publisher",
+     "publish_date",
+     "url",
+     "reliability_grade",
+     "retrieved_at"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "simulated",
+     "type": "simulated",
+     "title": "simulated",
+     "publisher": "simulated",
+     "publish_date": "simulated",
+     "url": "simulated",
+     "reliability_grade": "simulated",
+     "retrieved_at": "simulated"
+    }
+   },
+   "_key": "SRC-AI",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LOE-JNJ",
+   "type": "annual report",
+   "title": "Johnson & Johnson Form 10-K FY2025: TREMFYA composition patent family projected to expire in the US in 2031; STELARA biosimilar competition",
+   "publisher": "Johnson & Johnson / SEC",
+   "publish_date": "2026-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LOE-JNJ",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LOE-ABBV",
+   "type": "annual report",
+   "title": "AbbVie Form 10-K FY2025: US composition of matter patents for risankizumab and upadacitinib expire 2033; no generic Rinvoq tablets expected before April 2037 (settlements, assuming pediatric exclusivity)",
+   "publisher": "AbbVie / SEC",
+   "publish_date": "2026-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LOE-ABBV",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LOE-LLY",
+   "type": "annual report",
+   "title": "Eli Lilly Form 10-K FY2025: Omvoh compound patent US 2037, major European countries 2038; biologics data protection US 2035, Europe 2033",
+   "publisher": "Eli Lilly / SEC",
+   "publish_date": "2026-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LOE-LLY",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LOE-BMS",
+   "type": "annual report",
+   "title": "Bristol Myers Squibb Form 10-K FY2025: Zeposia estimated minimum market exclusivity US 2033, EU 2034; generic patent litigation settled",
+   "publisher": "Bristol Myers Squibb / SEC",
+   "publish_date": "2026-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000004/bmy-20251231.htm",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LOE-BMS",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LOE-TAK",
+   "type": "annual report",
+   "title": "Takeda Form 20-F FY2025: Entyvio faces loss of regulatory exclusivity in the latter half of this decade; certain US/EU patents expire 2032; biosimilar timing uncertain",
+   "publisher": "Takeda / SEC",
+   "publish_date": "2026-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1395064/000139506426000177/tak-20260331.htm",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LOE-TAK",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LOE-AVT",
+   "type": "press release",
+   "title": "Alvotech: FDA accepts BLA for AVT16, proposed interchangeable biosimilar to Entyvio (decision expected Q1 2027)",
+   "publisher": "Alvotech",
+   "publish_date": "2026",
+   "url": "https://www.alvotech.com/newsroom/alvotech-announces-fda-acceptance-of-biologics-license-application-for-avt16-a-proposed-interchangeable-biosimilar-to-entyvio",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LOE-AVT",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LOE-TAKSUIT",
+   "type": "news",
+   "title": "Takeda files BPCIA action against Alvotech over AVT16 (vedolizumab), 1 Sep 2026",
+   "publisher": "Pearce IP",
+   "publish_date": "2026-09-01",
+   "url": "https://www.pearceip.law/2026/09/01/takeda-files-second-vedolizumab-biosimilar-bpcia-action-with-alvotech-in-the-firing-line/",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LOE-TAKSUIT",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-ICO-NDA",
+   "type": "press release",
+   "title": "J&J submits New Drug Application for icotrokinra in plaque psoriasis (21 Jul 2025)",
+   "publisher": "Johnson & Johnson",
+   "publish_date": "2025-07-21",
+   "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-seeks-first-icotrokinra-u-s-fda-approval-aiming-to-revolutionize-treatment-paradigm-for-adults-and-adolescents-with-plaque-psoriasis",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-ICO-NDA",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-STE-BIOSIM",
+   "type": "news",
+   "title": "Stelara biosimilars entered the US market on 1 January 2025",
+   "publisher": "Fierce Pharma",
+   "publish_date": "2025",
+   "url": "https://www.fiercepharma.com/pharma/jj-stands-sales-growth-ambitions-and-points-potential-tremfya-boon-stelara-biosimilars-take",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-STE-BIOSIM",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-LLM",
+   "type": "observation",
+   "title": "AI assistant answers to the fixed IBD question bank (ChatGPT logged out; Claude incognito), captured and scored by the prototype; see data/raw/llm",
+   "publisher": "Prototype (observed)",
+   "publish_date": "2026-09-29",
+   "url": "",
+   "reliability_grade": "B",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-LLM",
+   "_source_ids": []
+  },
+  {
+   "source_id": "SRC-EXCL-RULES",
+   "type": "reference",
+   "title": "Exclusivity rules: US biologics 12 years from first licensure (BPCIA, +6 months paediatric); US new chemical entity 5 years; EU 8 years data + 2 years market protection (+1 for a significant new indication)",
+   "publisher": "FDA / EMA",
+   "publish_date": "2026",
+   "url": "https://www.fda.gov/drugs/development-approval-process-drugs/frequently-asked-questions-patents-and-exclusivity",
+   "reliability_grade": "A",
+   "retrieved_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "source_id": "public_verified",
+     "type": "public_verified",
+     "title": "public_verified",
+     "publisher": "public_verified",
+     "publish_date": "public_verified",
+     "url": "public_verified",
+     "reliability_grade": "public_verified",
+     "retrieved_at": "public_verified"
+    }
+   },
+   "_key": "SRC-EXCL-RULES",
+   "_source_ids": []
+  }
+ ]
+}

@@ -1,0 +1,838 @@
+{
+ "table": "brands",
+ "description": "J&J and competitor assets. Commercial-strength and evidence-profile scores are simulated (AI-estimated).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "brand_id": "TRE",
+   "brand_name": "TREMFYA",
+   "inn": "guselkumab",
+   "company": "Johnson & Johnson",
+   "is_jnj": true,
+   "moa_id": "IL23P19",
+   "modality": "mAb",
+   "routes": "IV induction; SC induction; SC maintenance",
+   "lifecycle_stage": "launch/growth (IBD)",
+   "commercial_strength_1to5": 5,
+   "evidence_profile": {
+    "efficacy": 4,
+    "endoscopic_histologic_depth": 4,
+    "transmural": 3,
+    "h2h_evidence": 3,
+    "durability": 3,
+    "onset_speed": 4,
+    "safety_database": 4,
+    "convenience": 5,
+    "special_populations": 4,
+    "rwe_volume": 2,
+    "guideline_standing": 4,
+    "hta_acceptance": 4
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "TRE",
+   "_source_ids": [
+    "SRC-002",
+    "SRC-003",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "brand_name": "Icotrokinra",
+   "inn": "icotrokinra",
+   "company": "Johnson & Johnson",
+   "is_jnj": true,
+   "moa_id": "IL23R_ORAL",
+   "modality": "oral peptide",
+   "routes": "oral once daily",
+   "lifecycle_stage": "Ph3 (UC), Ph2b/3 (CD); approved psoriasis",
+   "commercial_strength_1to5": 5,
+   "evidence_profile": {
+    "efficacy": 3,
+    "endoscopic_histologic_depth": 3,
+    "transmural": 1,
+    "h2h_evidence": 1,
+    "durability": 1,
+    "onset_speed": 3,
+    "safety_database": 2,
+    "convenience": 5,
+    "special_populations": 1,
+    "rwe_volume": 1,
+    "guideline_standing": 1,
+    "hta_acceptance": 1
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "ICO",
+   "_source_ids": [
+    "SRC-010",
+    "SRC-009",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "JNJ4804",
+   "brand_name": "JNJ-4804",
+   "inn": "guselkumab + golimumab",
+   "company": "Johnson & Johnson",
+   "is_jnj": true,
+   "moa_id": "COMBO_IL23_TNF",
+   "modality": "mAb co-formulation",
+   "routes": "SC",
+   "lifecycle_stage": "Ph3 (DUET ENCORE)",
+   "commercial_strength_1to5": 4,
+   "evidence_profile": {
+    "efficacy": 4,
+    "endoscopic_histologic_depth": 4,
+    "transmural": 1,
+    "h2h_evidence": 2,
+    "durability": 1,
+    "onset_speed": 3,
+    "safety_database": 1,
+    "convenience": 3,
+    "special_populations": 2,
+    "rwe_volume": 1,
+    "guideline_standing": 1,
+    "hta_acceptance": 1
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "JNJ4804",
+   "_source_ids": [
+    "SRC-012",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "brand_name": "STELARA",
+   "inn": "ustekinumab",
+   "company": "Johnson & Johnson",
+   "is_jnj": true,
+   "moa_id": "IL12_23P40",
+   "modality": "mAb",
+   "routes": "IV induction; SC maintenance",
+   "lifecycle_stage": "LOE / biosimilar erosion",
+   "commercial_strength_1to5": 3,
+   "evidence_profile": {
+    "efficacy": 3,
+    "endoscopic_histologic_depth": 3,
+    "transmural": 2,
+    "h2h_evidence": 2,
+    "durability": 5,
+    "onset_speed": 3,
+    "safety_database": 5,
+    "convenience": 3,
+    "special_populations": 3,
+    "rwe_volume": 5,
+    "guideline_standing": 4,
+    "hta_acceptance": 5
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "STE",
+   "_source_ids": [
+    "SRC-030",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "brand_name": "SKYRIZI",
+   "inn": "risankizumab",
+   "company": "AbbVie",
+   "is_jnj": false,
+   "moa_id": "IL23P19",
+   "modality": "mAb",
+   "routes": "IV induction (SC induction filed in CD); SC maintenance (on-body injector)",
+   "lifecycle_stage": "growth",
+   "commercial_strength_1to5": 5,
+   "evidence_profile": {
+    "efficacy": 4,
+    "endoscopic_histologic_depth": 4,
+    "transmural": 3,
+    "h2h_evidence": 4,
+    "durability": 4,
+    "onset_speed": 4,
+    "safety_database": 4,
+    "convenience": 3,
+    "special_populations": 3,
+    "rwe_volume": 4,
+    "guideline_standing": 4,
+    "hta_acceptance": 4
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "SKY",
+   "_source_ids": [
+    "SRC-029",
+    "SRC-024",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "brand_name": "OMVOH",
+   "inn": "mirikizumab",
+   "company": "Eli Lilly",
+   "is_jnj": false,
+   "moa_id": "IL23P19",
+   "modality": "mAb",
+   "routes": "IV induction; SC maintenance",
+   "lifecycle_stage": "growth",
+   "commercial_strength_1to5": 4,
+   "evidence_profile": {
+    "efficacy": 4,
+    "endoscopic_histologic_depth": 3,
+    "transmural": 2,
+    "h2h_evidence": 3,
+    "durability": 4,
+    "onset_speed": 3,
+    "safety_database": 3,
+    "convenience": 3,
+    "special_populations": 2,
+    "rwe_volume": 2,
+    "guideline_standing": 4,
+    "hta_acceptance": 3
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "OMV",
+   "_source_ids": [
+    "SRC-028",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "brand_name": "RINVOQ",
+   "inn": "upadacitinib",
+   "company": "AbbVie",
+   "is_jnj": false,
+   "moa_id": "JAK1",
+   "modality": "small molecule",
+   "routes": "oral",
+   "lifecycle_stage": "growth",
+   "commercial_strength_1to5": 5,
+   "evidence_profile": {
+    "efficacy": 5,
+    "endoscopic_histologic_depth": 4,
+    "transmural": 2,
+    "h2h_evidence": 1,
+    "durability": 4,
+    "onset_speed": 5,
+    "safety_database": 4,
+    "convenience": 5,
+    "special_populations": 2,
+    "rwe_volume": 4,
+    "guideline_standing": 4,
+    "hta_acceptance": 3
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "RIN",
+   "_source_ids": [
+    "SRC-045",
+    "SRC-FDA-API",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "brand_name": "ENTYVIO",
+   "inn": "vedolizumab",
+   "company": "Takeda",
+   "is_jnj": false,
+   "moa_id": "A4B7",
+   "modality": "mAb",
+   "routes": "IV; SC maintenance",
+   "lifecycle_stage": "mature",
+   "commercial_strength_1to5": 4,
+   "evidence_profile": {
+    "efficacy": 3,
+    "endoscopic_histologic_depth": 3,
+    "transmural": 2,
+    "h2h_evidence": 2,
+    "durability": 5,
+    "onset_speed": 2,
+    "safety_database": 5,
+    "convenience": 3,
+    "special_populations": 3,
+    "rwe_volume": 5,
+    "guideline_standing": 4,
+    "hta_acceptance": 4
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "ENT",
+   "_source_ids": [
+    "SRC-FDA-API",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "brand_name": "VELSIPITY",
+   "inn": "etrasimod",
+   "company": "Pfizer",
+   "is_jnj": false,
+   "moa_id": "S1P",
+   "modality": "small molecule",
+   "routes": "oral",
+   "lifecycle_stage": "launch",
+   "commercial_strength_1to5": 3,
+   "evidence_profile": {
+    "efficacy": 3,
+    "endoscopic_histologic_depth": 2,
+    "transmural": 1,
+    "h2h_evidence": 1,
+    "durability": 3,
+    "onset_speed": 3,
+    "safety_database": 3,
+    "convenience": 5,
+    "special_populations": 1,
+    "rwe_volume": 2,
+    "guideline_standing": 3,
+    "hta_acceptance": 3
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "VEL",
+   "_source_ids": [
+    "SRC-FDA-API",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "brand_name": "ZEPOSIA",
+   "inn": "ozanimod",
+   "company": "Bristol Myers Squibb",
+   "is_jnj": false,
+   "moa_id": "S1P",
+   "modality": "small molecule",
+   "routes": "oral",
+   "lifecycle_stage": "mature (UC); CD program terminated per registry",
+   "commercial_strength_1to5": 3,
+   "evidence_profile": {
+    "efficacy": 3,
+    "endoscopic_histologic_depth": 2,
+    "transmural": 1,
+    "h2h_evidence": 1,
+    "durability": 3,
+    "onset_speed": 3,
+    "safety_database": 3,
+    "convenience": 5,
+    "special_populations": 1,
+    "rwe_volume": 3,
+    "guideline_standing": 3,
+    "hta_acceptance": 3
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "ZEP",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-FDA-API",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "brand_name": "obefazimod",
+   "inn": "obefazimod",
+   "company": "Abivax",
+   "is_jnj": false,
+   "moa_id": "MIR124",
+   "modality": "small molecule",
+   "routes": "oral",
+   "lifecycle_stage": "pre-filing (NDA planned Q4 2026)",
+   "commercial_strength_1to5": 2,
+   "evidence_profile": {
+    "efficacy": 3,
+    "endoscopic_histologic_depth": 3,
+    "transmural": 1,
+    "h2h_evidence": 1,
+    "durability": 2,
+    "onset_speed": 2,
+    "safety_database": 2,
+    "convenience": 5,
+    "special_populations": 1,
+    "rwe_volume": 1,
+    "guideline_standing": 1,
+    "hta_acceptance": 1
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "OBE",
+   "_source_ids": [
+    "SRC-023",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "brand_name": "tulisokibart",
+   "inn": "tulisokibart (MK-7240)",
+   "company": "Merck & Co.",
+   "is_jnj": false,
+   "moa_id": "TL1A",
+   "modality": "mAb",
+   "routes": "IV / SC",
+   "lifecycle_stage": "Ph3 (ATLAS-UC Study 2 positive Jun 2026; ARES-CD ongoing)",
+   "commercial_strength_1to5": 4,
+   "evidence_profile": {
+    "efficacy": 3,
+    "endoscopic_histologic_depth": 3,
+    "transmural": 2,
+    "h2h_evidence": 1,
+    "durability": 1,
+    "onset_speed": 3,
+    "safety_database": 2,
+    "convenience": 3,
+    "special_populations": 1,
+    "rwe_volume": 1,
+    "guideline_standing": 1,
+    "hta_acceptance": 1
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "TUL",
+   "_source_ids": [
+    "SRC-021",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "brand_name": "duvakitug",
+   "inn": "duvakitug",
+   "company": "Sanofi / Teva",
+   "is_jnj": false,
+   "moa_id": "TL1A",
+   "modality": "mAb",
+   "routes": "SC",
+   "lifecycle_stage": "Ph3 (SUNSCAPE UC, STARSCAPE CD)",
+   "commercial_strength_1to5": 4,
+   "evidence_profile": {
+    "efficacy": 3,
+    "endoscopic_histologic_depth": 3,
+    "transmural": 2,
+    "h2h_evidence": 1,
+    "durability": 1,
+    "onset_speed": 3,
+    "safety_database": 1,
+    "convenience": 3,
+    "special_populations": 1,
+    "rwe_volume": 1,
+    "guideline_standing": 1,
+    "hta_acceptance": 1
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "DUV",
+   "_source_ids": [
+    "SRC-032",
+    "SRC-CTGOV",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "brand_name": "afimkibart",
+   "inn": "afimkibart (RO7790121)",
+   "company": "Roche",
+   "is_jnj": false,
+   "moa_id": "TL1A",
+   "modality": "mAb",
+   "routes": "IV / SC",
+   "lifecycle_stage": "Ph3 (AMETRINE)",
+   "commercial_strength_1to5": 4,
+   "evidence_profile": {
+    "efficacy": 3,
+    "endoscopic_histologic_depth": 3,
+    "transmural": 2,
+    "h2h_evidence": 1,
+    "durability": 1,
+    "onset_speed": 3,
+    "safety_database": 1,
+    "convenience": 3,
+    "special_populations": 1,
+    "rwe_volume": 1,
+    "guideline_standing": 1,
+    "hta_acceptance": 1
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "AFI",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-AI"
+   ]
+  },
+  {
+   "brand_id": "MOR",
+   "brand_name": "MORF-057",
+   "inn": "MORF-057",
+   "company": "Eli Lilly",
+   "is_jnj": false,
+   "moa_id": "A4B7_ORAL",
+   "modality": "small molecule",
+   "routes": "oral",
+   "lifecycle_stage": "Ph2b/3 (EMERALD-3, GARNET)",
+   "commercial_strength_1to5": 4,
+   "evidence_profile": {
+    "efficacy": 2,
+    "endoscopic_histologic_depth": 2,
+    "transmural": 1,
+    "h2h_evidence": 1,
+    "durability": 1,
+    "onset_speed": 2,
+    "safety_database": 1,
+    "convenience": 5,
+    "special_populations": 1,
+    "rwe_volume": 1,
+    "guideline_standing": 1,
+    "hta_acceptance": 1
+   },
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "commercial_strength_1to5",
+     "evidence_profile"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "public_verified",
+     "brand_name": "public_verified",
+     "inn": "public_verified",
+     "company": "public_verified",
+     "is_jnj": "public_verified",
+     "moa_id": "public_verified",
+     "modality": "public_verified",
+     "routes": "public_verified",
+     "lifecycle_stage": "public_verified",
+     "commercial_strength_1to5": "simulated",
+     "evidence_profile": "simulated"
+    }
+   },
+   "_key": "MOR",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-AI"
+   ]
+  }
+ ]
+}

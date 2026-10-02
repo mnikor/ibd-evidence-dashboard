@@ -1,0 +1,1125 @@
+{
+ "table": "study_results",
+ "description": "Published efficacy results (public). Cross-trial comparisons are not head-to-head.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "result_id": "RES-001",
+   "study_id": "NCT04033445",
+   "endpoint": "Clinical response (Ph2b induction)",
+   "timepoint_wk": 12,
+   "arm": "GUS 200 mg IV",
+   "comparator_arm": "Placebo",
+   "rate_pct": 61.4,
+   "comparator_rate_pct": 27.6,
+   "delta_pct": 33.8,
+   "population_set": "ITT (Ph2b)",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-001",
+   "_source_ids": [
+    "SRC-020"
+   ]
+  },
+  {
+   "result_id": "RES-002",
+   "study_id": "NCT04033445",
+   "endpoint": "Clinical response (Ph2b induction)",
+   "timepoint_wk": 12,
+   "arm": "GUS 400 mg IV",
+   "comparator_arm": "Placebo",
+   "rate_pct": 60.7,
+   "comparator_rate_pct": 27.6,
+   "delta_pct": 33.1,
+   "population_set": "ITT (Ph2b)",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-002",
+   "_source_ids": [
+    "SRC-020"
+   ]
+  },
+  {
+   "result_id": "RES-003",
+   "study_id": "NCT04033445",
+   "endpoint": "Clinical remission (Ph3 induction)",
+   "timepoint_wk": 12,
+   "arm": "GUS 200 mg IV",
+   "comparator_arm": "Placebo",
+   "rate_pct": 22.6,
+   "comparator_rate_pct": 7.9,
+   "delta_pct": 14.7,
+   "population_set": "ITT (Ph3 induction)",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-003",
+   "_source_ids": [
+    "SRC-019"
+   ]
+  },
+  {
+   "result_id": "RES-004",
+   "study_id": "NCT04033445",
+   "endpoint": "Clinical remission (maintenance)",
+   "timepoint_wk": 44,
+   "arm": "GUS 100 mg SC q8w",
+   "comparator_arm": "Placebo",
+   "rate_pct": 45.2,
+   "comparator_rate_pct": 18.9,
+   "delta_pct": 26.3,
+   "population_set": "Induction responders",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-004",
+   "_source_ids": [
+    "SRC-019"
+   ]
+  },
+  {
+   "result_id": "RES-005",
+   "study_id": "NCT04033445",
+   "endpoint": "Clinical remission (maintenance)",
+   "timepoint_wk": 44,
+   "arm": "GUS 200 mg SC q4w",
+   "comparator_arm": "Placebo",
+   "rate_pct": 50.0,
+   "comparator_rate_pct": 18.9,
+   "delta_pct": 31.1,
+   "population_set": "Induction responders",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-005",
+   "_source_ids": [
+    "SRC-019"
+   ]
+  },
+  {
+   "result_id": "RES-006",
+   "study_id": "NCT03466411",
+   "endpoint": "Clinical remission + endoscopic response (composite)",
+   "timepoint_wk": 48,
+   "arm": "GUS 200 mg SC q4w",
+   "comparator_arm": "Ustekinumab",
+   "rate_pct": 47.3,
+   "comparator_rate_pct": 33.7,
+   "delta_pct": 13.6,
+   "population_set": "GALAXI 2+3 pooled",
+   "is_primary": false,
+   "caveat": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-006",
+   "_source_ids": [
+    "SRC-018"
+   ]
+  },
+  {
+   "result_id": "RES-007",
+   "study_id": "NCT03466411",
+   "endpoint": "Clinical remission + endoscopic response (composite)",
+   "timepoint_wk": 48,
+   "arm": "GUS 100 mg SC q8w",
+   "comparator_arm": "Ustekinumab",
+   "rate_pct": 41.6,
+   "comparator_rate_pct": 33.7,
+   "delta_pct": 7.9,
+   "population_set": "GALAXI 2+3 pooled",
+   "is_primary": false,
+   "caveat": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-007",
+   "_source_ids": [
+    "SRC-018"
+   ]
+  },
+  {
+   "result_id": "RES-008",
+   "study_id": "NCT03466411",
+   "endpoint": "Endoscopic remission",
+   "timepoint_wk": 48,
+   "arm": "GUS 200 mg SC q4w",
+   "comparator_arm": "Ustekinumab",
+   "rate_pct": 37.2,
+   "comparator_rate_pct": 24.7,
+   "delta_pct": 12.5,
+   "population_set": "GALAXI 2+3 pooled",
+   "is_primary": false,
+   "caveat": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-008",
+   "_source_ids": [
+    "SRC-018"
+   ]
+  },
+  {
+   "result_id": "RES-009",
+   "study_id": "NCT03466411",
+   "endpoint": "Endoscopic remission",
+   "timepoint_wk": 48,
+   "arm": "GUS 100 mg SC q8w",
+   "comparator_arm": "Ustekinumab",
+   "rate_pct": 33.2,
+   "comparator_rate_pct": 24.7,
+   "delta_pct": 8.5,
+   "population_set": "GALAXI 2+3 pooled",
+   "is_primary": false,
+   "caveat": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-009",
+   "_source_ids": [
+    "SRC-018"
+   ]
+  },
+  {
+   "result_id": "RES-010",
+   "study_id": "NCT05197049",
+   "endpoint": "Clinical remission",
+   "timepoint_wk": 12,
+   "arm": "GUS 400 mg SC induction",
+   "comparator_arm": "Placebo",
+   "rate_pct": 56.1,
+   "comparator_rate_pct": 21.4,
+   "delta_pct": 34.7,
+   "population_set": "ITT",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-010",
+   "_source_ids": [
+    "SRC-014"
+   ]
+  },
+  {
+   "result_id": "RES-011",
+   "study_id": "NCT05197049",
+   "endpoint": "Endoscopic response",
+   "timepoint_wk": 12,
+   "arm": "GUS 400 mg SC induction",
+   "comparator_arm": "Placebo",
+   "rate_pct": 41.3,
+   "comparator_rate_pct": 21.4,
+   "delta_pct": 19.9,
+   "population_set": "ITT",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-011",
+   "_source_ids": [
+    "SRC-014"
+   ]
+  },
+  {
+   "result_id": "RES-012",
+   "study_id": "NCT05528510",
+   "endpoint": "Clinical remission",
+   "timepoint_wk": 12,
+   "arm": "GUS 400 mg SC induction",
+   "comparator_arm": "Placebo",
+   "rate_pct": 27.6,
+   "comparator_rate_pct": 6.5,
+   "delta_pct": 21.1,
+   "population_set": "ITT",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-012",
+   "_source_ids": [
+    "SRC-016"
+   ]
+  },
+  {
+   "result_id": "RES-013",
+   "study_id": "NCT05347095",
+   "endpoint": "Combined fistula remission",
+   "timepoint_wk": 24,
+   "arm": "GUS 100 mg SC q8w",
+   "comparator_arm": "Placebo",
+   "rate_pct": 28.3,
+   "comparator_rate_pct": 10.3,
+   "delta_pct": 18.0,
+   "population_set": "ITT",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-013",
+   "_source_ids": [
+    "SRC-011"
+   ]
+  },
+  {
+   "result_id": "RES-014",
+   "study_id": "NCT05347095",
+   "endpoint": "Combined fistula remission",
+   "timepoint_wk": 24,
+   "arm": "GUS 200 mg SC q4w",
+   "comparator_arm": "Placebo",
+   "rate_pct": 27.0,
+   "comparator_rate_pct": 10.3,
+   "delta_pct": 16.7,
+   "population_set": "ITT",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-014",
+   "_source_ids": [
+    "SRC-011"
+   ]
+  },
+  {
+   "result_id": "RES-015",
+   "study_id": "NCT05347095",
+   "endpoint": "Clinical fistula response",
+   "timepoint_wk": 24,
+   "arm": "GUS 100 mg SC q8w",
+   "comparator_arm": "Placebo",
+   "rate_pct": 32.7,
+   "comparator_rate_pct": 13.8,
+   "delta_pct": 18.9,
+   "population_set": "ITT",
+   "is_primary": false,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-015",
+   "_source_ids": [
+    "SRC-011"
+   ]
+  },
+  {
+   "result_id": "RES-016",
+   "study_id": "NCT05347095",
+   "endpoint": "Clinical fistula response",
+   "timepoint_wk": 24,
+   "arm": "GUS 200 mg SC q4w",
+   "comparator_arm": "Placebo",
+   "rate_pct": 35.7,
+   "comparator_rate_pct": 13.8,
+   "delta_pct": 21.9,
+   "population_set": "ITT",
+   "is_primary": false,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-016",
+   "_source_ids": [
+    "SRC-011"
+   ]
+  },
+  {
+   "result_id": "RES-017",
+   "study_id": "NCT06049017",
+   "endpoint": "Clinical response",
+   "timepoint_wk": 12,
+   "arm": "Icotrokinra highest dose",
+   "comparator_arm": "Placebo",
+   "rate_pct": 63.5,
+   "comparator_rate_pct": 27.0,
+   "delta_pct": 36.5,
+   "population_set": "ITT",
+   "is_primary": true,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-017",
+   "_source_ids": [
+    "SRC-044"
+   ]
+  },
+  {
+   "result_id": "RES-018",
+   "study_id": "NCT06049017",
+   "endpoint": "Clinical remission",
+   "timepoint_wk": 12,
+   "arm": "Icotrokinra highest dose",
+   "comparator_arm": "Placebo",
+   "rate_pct": 30.2,
+   "comparator_rate_pct": 11.1,
+   "delta_pct": 19.1,
+   "population_set": "ITT",
+   "is_primary": false,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-018",
+   "_source_ids": [
+    "SRC-044"
+   ]
+  },
+  {
+   "result_id": "RES-019",
+   "study_id": "NCT06049017",
+   "endpoint": "Clinical remission",
+   "timepoint_wk": 28,
+   "arm": "Icotrokinra highest dose",
+   "comparator_arm": "",
+   "rate_pct": 31.7,
+   "comparator_rate_pct": null,
+   "delta_pct": null,
+   "population_set": "ITT",
+   "is_primary": false,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-019",
+   "_source_ids": [
+    "SRC-009"
+   ]
+  },
+  {
+   "result_id": "RES-020",
+   "study_id": "NCT06049017",
+   "endpoint": "Endoscopic improvement",
+   "timepoint_wk": 28,
+   "arm": "Icotrokinra highest dose",
+   "comparator_arm": "",
+   "rate_pct": 38.1,
+   "comparator_rate_pct": null,
+   "delta_pct": null,
+   "population_set": "ITT",
+   "is_primary": false,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-020",
+   "_source_ids": [
+    "SRC-009"
+   ]
+  },
+  {
+   "result_id": "RES-021",
+   "study_id": "NCT05242471",
+   "endpoint": "Clinical remission",
+   "timepoint_wk": 48,
+   "arm": "JNJ-4804 (GUS+GOL)",
+   "comparator_arm": "Guselkumab mono",
+   "rate_pct": 50.8,
+   "comparator_rate_pct": 42.5,
+   "delta_pct": 8.3,
+   "population_set": "ITT",
+   "is_primary": false,
+   "caveat": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-021",
+   "_source_ids": [
+    "SRC-013"
+   ]
+  },
+  {
+   "result_id": "RES-022",
+   "study_id": "NCT05242471",
+   "endpoint": "Endoscopic response",
+   "timepoint_wk": 48,
+   "arm": "JNJ-4804 (GUS+GOL)",
+   "comparator_arm": "Guselkumab mono",
+   "rate_pct": 38.1,
+   "comparator_rate_pct": 33.9,
+   "delta_pct": 4.2,
+   "population_set": "ITT",
+   "is_primary": false,
+   "caveat": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-022",
+   "_source_ids": [
+    "SRC-013"
+   ]
+  },
+  {
+   "result_id": "RES-023",
+   "study_id": "NCT05242484",
+   "endpoint": "Clinical remission",
+   "timepoint_wk": 48,
+   "arm": "JNJ-4804 (GUS+GOL)",
+   "comparator_arm": "",
+   "rate_pct": 41.0,
+   "comparator_rate_pct": null,
+   "delta_pct": null,
+   "population_set": "ITT",
+   "is_primary": false,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-023",
+   "_source_ids": [
+    "SRC-012"
+   ]
+  },
+  {
+   "result_id": "RES-024",
+   "study_id": "NCT04524611",
+   "endpoint": "Clinical remission (CDAI)",
+   "timepoint_wk": 24,
+   "arm": "Risankizumab",
+   "comparator_arm": "Ustekinumab",
+   "rate_pct": 58.6,
+   "comparator_rate_pct": 39.5,
+   "delta_pct": 19.1,
+   "population_set": "TNF-IR",
+   "is_primary": true,
+   "caveat": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-024",
+   "_source_ids": [
+    "SRC-026"
+   ]
+  },
+  {
+   "result_id": "RES-025",
+   "study_id": "NCT04524611",
+   "endpoint": "Endoscopic remission",
+   "timepoint_wk": 48,
+   "arm": "Risankizumab",
+   "comparator_arm": "Ustekinumab",
+   "rate_pct": 31.8,
+   "comparator_rate_pct": 16.2,
+   "delta_pct": 15.6,
+   "population_set": "TNF-IR",
+   "is_primary": true,
+   "caveat": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-025",
+   "_source_ids": [
+    "SRC-026"
+   ]
+  },
+  {
+   "result_id": "RES-026",
+   "study_id": "NCT05535946",
+   "endpoint": "Clinical remission (Part 2, induction non-responders)",
+   "timepoint_wk": 44,
+   "arm": "Obefazimod 50 mg",
+   "comparator_arm": "",
+   "rate_pct": 37.2,
+   "comparator_rate_pct": null,
+   "delta_pct": null,
+   "population_set": "Induction non-responders",
+   "is_primary": false,
+   "caveat": "cross-trial comparison, not head-to-head",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "delta_pct",
+     "caveat"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "result_id": "public_verified",
+     "study_id": "public_verified",
+     "endpoint": "public_verified",
+     "timepoint_wk": "public_verified",
+     "arm": "public_verified",
+     "comparator_arm": "public_verified",
+     "rate_pct": "public_verified",
+     "comparator_rate_pct": "public_verified",
+     "delta_pct": "derived",
+     "population_set": "public_verified",
+     "is_primary": "public_verified",
+     "caveat": "derived"
+    }
+   },
+   "_key": "RES-026",
+   "_source_ids": [
+    "SRC-023"
+   ]
+  }
+ ]
+}

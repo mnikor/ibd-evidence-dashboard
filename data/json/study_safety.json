@@ -1,0 +1,259 @@
+{
+ "table": "study_safety",
+ "description": "SIMULATED safety summaries (placeholders; replace from publications/CSRs).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "study_id": "NCT04033445",
+   "pct_any_ae": 61.6,
+   "pct_sae": 5.4,
+   "pct_ae_discontinuation": 4.2,
+   "serious_infections_per_100py": 0.88,
+   "malignancy_per_100py": 0.14,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "pct_any_ae",
+     "pct_sae",
+     "pct_ae_discontinuation",
+     "serious_infections_per_100py",
+     "malignancy_per_100py"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "pct_any_ae": "simulated",
+     "pct_sae": "simulated",
+     "pct_ae_discontinuation": "simulated",
+     "serious_infections_per_100py": "simulated",
+     "malignancy_per_100py": "simulated"
+    }
+   },
+   "_key": "NCT04033445",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published safety data"
+  },
+  {
+   "study_id": "NCT03466411",
+   "pct_any_ae": 46.4,
+   "pct_sae": 6.1,
+   "pct_ae_discontinuation": 3.7,
+   "serious_infections_per_100py": 1.9,
+   "malignancy_per_100py": 0.32,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "pct_any_ae",
+     "pct_sae",
+     "pct_ae_discontinuation",
+     "serious_infections_per_100py",
+     "malignancy_per_100py"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "pct_any_ae": "simulated",
+     "pct_sae": "simulated",
+     "pct_ae_discontinuation": "simulated",
+     "serious_infections_per_100py": "simulated",
+     "malignancy_per_100py": "simulated"
+    }
+   },
+   "_key": "NCT03466411",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published safety data"
+  },
+  {
+   "study_id": "NCT05197049",
+   "pct_any_ae": 65.0,
+   "pct_sae": 7.3,
+   "pct_ae_discontinuation": 2.6,
+   "serious_infections_per_100py": 0.83,
+   "malignancy_per_100py": 0.3,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "pct_any_ae",
+     "pct_sae",
+     "pct_ae_discontinuation",
+     "serious_infections_per_100py",
+     "malignancy_per_100py"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "pct_any_ae": "simulated",
+     "pct_sae": "simulated",
+     "pct_ae_discontinuation": "simulated",
+     "serious_infections_per_100py": "simulated",
+     "malignancy_per_100py": "simulated"
+    }
+   },
+   "_key": "NCT05197049",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published safety data"
+  },
+  {
+   "study_id": "NCT05528510",
+   "pct_any_ae": 62.6,
+   "pct_sae": 5.5,
+   "pct_ae_discontinuation": 3.2,
+   "serious_infections_per_100py": 1.84,
+   "malignancy_per_100py": 0.33,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "pct_any_ae",
+     "pct_sae",
+     "pct_ae_discontinuation",
+     "serious_infections_per_100py",
+     "malignancy_per_100py"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "pct_any_ae": "simulated",
+     "pct_sae": "simulated",
+     "pct_ae_discontinuation": "simulated",
+     "serious_infections_per_100py": "simulated",
+     "malignancy_per_100py": "simulated"
+    }
+   },
+   "_key": "NCT05528510",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published safety data"
+  },
+  {
+   "study_id": "NCT05347095",
+   "pct_any_ae": 53.5,
+   "pct_sae": 7.7,
+   "pct_ae_discontinuation": 2.4,
+   "serious_infections_per_100py": 0.81,
+   "malignancy_per_100py": 0.46,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "pct_any_ae",
+     "pct_sae",
+     "pct_ae_discontinuation",
+     "serious_infections_per_100py",
+     "malignancy_per_100py"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "pct_any_ae": "simulated",
+     "pct_sae": "simulated",
+     "pct_ae_discontinuation": "simulated",
+     "serious_infections_per_100py": "simulated",
+     "malignancy_per_100py": "simulated"
+    }
+   },
+   "_key": "NCT05347095",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published safety data"
+  },
+  {
+   "study_id": "NCT06049017",
+   "pct_any_ae": 54.4,
+   "pct_sae": 8.6,
+   "pct_ae_discontinuation": 4.5,
+   "serious_infections_per_100py": 2.96,
+   "malignancy_per_100py": 0.22,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "pct_any_ae",
+     "pct_sae",
+     "pct_ae_discontinuation",
+     "serious_infections_per_100py",
+     "malignancy_per_100py"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "pct_any_ae": "simulated",
+     "pct_sae": "simulated",
+     "pct_ae_discontinuation": "simulated",
+     "serious_infections_per_100py": "simulated",
+     "malignancy_per_100py": "simulated"
+    }
+   },
+   "_key": "NCT06049017",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published safety data"
+  },
+  {
+   "study_id": "NCT07196748",
+   "pct_any_ae": 64.8,
+   "pct_sae": 6.9,
+   "pct_ae_discontinuation": 2.0,
+   "serious_infections_per_100py": 2.92,
+   "malignancy_per_100py": 0.16,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "pct_any_ae",
+     "pct_sae",
+     "pct_ae_discontinuation",
+     "serious_infections_per_100py",
+     "malignancy_per_100py"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "pct_any_ae": "simulated",
+     "pct_sae": "simulated",
+     "pct_ae_discontinuation": "simulated",
+     "serious_infections_per_100py": "simulated",
+     "malignancy_per_100py": "simulated"
+    }
+   },
+   "_key": "NCT07196748",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published safety data"
+  }
+ ]
+}

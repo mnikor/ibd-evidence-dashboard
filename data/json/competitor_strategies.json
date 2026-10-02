@@ -1,0 +1,600 @@
+{
+ "table": "competitor_strategies",
+ "description": "SIMULATED AI-inferred competitor strategies. Hypotheses, not facts; evidence chain cites public sources.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "strategy_id": "STR-SKY",
+   "brand_id": "SKY",
+   "inferred_strategy_statement": "Defend IL-23 leadership in 1L IBD with H2H data (SEQUENCE vs ustekinumab, REVAMP vs vedolizumab) and close the SC-induction convenience gap (AFFIRM).",
+   "strategic_pillars": "H2H superiority; convenience; breadth of label",
+   "target_segments": "UC-1L; CD-1L; CD-2L",
+   "evidence_chain": [
+    {
+     "source_id": "SRC-026",
+     "observation": "SEQUENCE: superior endoscopic remission vs ustekinumab",
+     "inference": "Uses H2H to claim efficacy leadership"
+    },
+    {
+     "source_id": "SRC-CTGOV",
+     "observation": "REVAMP (NCT06880744): RZB vs vedolizumab in targeted-therapy-naive UC",
+     "inference": "Extending H2H strategy into 1L UC"
+    },
+    {
+     "source_id": "SRC-024",
+     "observation": "SC induction filed in CD",
+     "inference": "Neutralising Tremfya's fully-SC differentiator"
+    },
+    {
+     "source_id": "SRC-027",
+     "observation": "75% in-play capture among IL-23s in front-line IBD",
+     "inference": "Commercial scale reinforces 1L focus"
+    }
+   ],
+   "confidence": 0.8,
+   "alternative_hypotheses": "Focus on psoriasis-to-IBD portfolio bundling; pricing/contracting as main lever",
+   "leading_indicators_to_watch": "REVAMP readout (~2027); FDA decision on SC induction; contracting announcements",
+   "human_validated": false,
+   "last_reassessed": "2026-09-19",
+   "publication_signals": [
+    {
+     "observation": "15 of 415 SKYRIZI titles (4%) are about transmural / intestinal ultrasound vs 1% across tracked IBD assets",
+     "inference": "Deliberate emphasis on transmural / intestinal ultrasound in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "78 of 415 SKYRIZI titles (19%) are about head-to-head / comparative vs 11% across tracked IBD assets",
+     "inference": "Deliberate emphasis on head-to-head / comparative in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "17 of 415 SKYRIZI titles (4%) are about fatigue & patient-reported outcomes vs 3% across tracked IBD assets",
+     "inference": "Deliberate emphasis on fatigue & patient-reported outcomes in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "SEQUENCE named in 35 SKYRIZI titles (17 post-hoc / subgroup / LTE)",
+     "inference": "SEQUENCE is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "COMMAND named in 23 SKYRIZI titles (15 post-hoc / subgroup / LTE)",
+     "inference": "COMMAND is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "415 IBD items in 3 years (271 congress, 144 journal)",
+     "inference": "Share-of-voice context",
+     "source_id": "SRC-PUBMED"
+    }
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "strategy_id",
+     "brand_id",
+     "human_validated",
+     "last_reassessed"
+    ],
+    "derived_fields": [
+     "publication_signals"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "inferred_strategy_statement",
+     "strategic_pillars",
+     "target_segments",
+     "evidence_chain",
+     "confidence",
+     "alternative_hypotheses",
+     "leading_indicators_to_watch"
+    ],
+    "field_origin": {
+     "strategy_id": "simulated",
+     "brand_id": "simulated",
+     "inferred_strategy_statement": "ai_inferred",
+     "strategic_pillars": "ai_inferred",
+     "target_segments": "ai_inferred",
+     "evidence_chain": "ai_inferred",
+     "confidence": "ai_inferred",
+     "alternative_hypotheses": "ai_inferred",
+     "leading_indicators_to_watch": "ai_inferred",
+     "human_validated": "simulated",
+     "last_reassessed": "simulated",
+     "publication_signals": "derived"
+    }
+   },
+   "_key": "STR-SKY",
+   "_source_ids": [
+    "SRC-026",
+    "SRC-CTGOV",
+    "SRC-024",
+    "SRC-027",
+    "SRC-AI",
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "strategy_id": "STR-OMV",
+   "brand_id": "OMV",
+   "inferred_strategy_statement": "Differentiate on durable 2-year CD data and simplified maintenance; build combination platform (mirikizumab + tirzepatide, + MORF-057, + eltrekibart).",
+   "strategic_pillars": "durability; combination; convenience",
+   "target_segments": "CD-2L; UC-3L",
+   "evidence_chain": [
+    {
+     "source_id": "SRC-028",
+     "observation": "CD approval with 2-year Ph3 data",
+     "inference": "Durability messaging"
+    },
+    {
+     "source_id": "SRC-CTGOV",
+     "observation": "COMMIT-UC/CD (+tirzepatide), TOPAZ-UC (+MORF-057), eltrekibart combo trials",
+     "inference": "Combination/obesity-IBD platform play"
+    }
+   ],
+   "confidence": 0.7,
+   "alternative_hypotheses": "Combinations may be exploratory hedges rather than core strategy",
+   "leading_indicators_to_watch": "COMMIT and TOPAZ readouts 2027-2028",
+   "human_validated": false,
+   "last_reassessed": "2026-09-19",
+   "publication_signals": [
+    {
+     "observation": "30 of 357 OMVOH titles (8%) are about bowel urgency vs 1% across tracked IBD assets",
+     "inference": "Deliberate emphasis on bowel urgency in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "31 of 357 OMVOH titles (9%) are about fatigue & patient-reported outcomes vs 3% across tracked IBD assets",
+     "inference": "Deliberate emphasis on fatigue & patient-reported outcomes in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "34 of 357 OMVOH titles (10%) are about histologic / deep healing vs 4% across tracked IBD assets",
+     "inference": "Deliberate emphasis on histologic / deep healing in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "LUCENT named in 60 OMVOH titles (20 post-hoc / subgroup / LTE)",
+     "inference": "LUCENT is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "VIVID named in 53 OMVOH titles (16 post-hoc / subgroup / LTE)",
+     "inference": "VIVID is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "357 IBD items in 3 years (232 congress, 125 journal)",
+     "inference": "Share-of-voice context",
+     "source_id": "SRC-PUBMED"
+    }
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "strategy_id",
+     "brand_id",
+     "human_validated",
+     "last_reassessed"
+    ],
+    "derived_fields": [
+     "publication_signals"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "inferred_strategy_statement",
+     "strategic_pillars",
+     "target_segments",
+     "evidence_chain",
+     "confidence",
+     "alternative_hypotheses",
+     "leading_indicators_to_watch"
+    ],
+    "field_origin": {
+     "strategy_id": "simulated",
+     "brand_id": "simulated",
+     "inferred_strategy_statement": "ai_inferred",
+     "strategic_pillars": "ai_inferred",
+     "target_segments": "ai_inferred",
+     "evidence_chain": "ai_inferred",
+     "confidence": "ai_inferred",
+     "alternative_hypotheses": "ai_inferred",
+     "leading_indicators_to_watch": "ai_inferred",
+     "human_validated": "simulated",
+     "last_reassessed": "simulated",
+     "publication_signals": "derived"
+    }
+   },
+   "_key": "STR-OMV",
+   "_source_ids": [
+    "SRC-028",
+    "SRC-CTGOV",
+    "SRC-AI",
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "strategy_id": "STR-RIN",
+   "brand_id": "RIN",
+   "inferred_strategy_statement": "Own 'speed and depth' in refractory patients as oral efficacy benchmark; test dual-targeted therapy with vedolizumab (VICTRIVA, Takeda-sponsored).",
+   "strategic_pillars": "onset speed; efficacy in refractory; oral",
+   "target_segments": "UC-2L; UC-3L; CD-2L; CD-3L",
+   "evidence_chain": [
+    {
+     "source_id": "SRC-045",
+     "observation": "Approved in TNF-IR CD",
+     "inference": "Positioned after TNF"
+    },
+    {
+     "source_id": "SRC-CTGOV",
+     "observation": "VICTRIVA vedolizumab + upadacitinib Ph3b",
+     "inference": "Combination in refractory CD"
+    }
+   ],
+   "confidence": 0.7,
+   "alternative_hypotheses": "May push earlier lines if label/guideline allows",
+   "leading_indicators_to_watch": "Guideline repositioning; VICTRIVA readout 2027",
+   "human_validated": false,
+   "last_reassessed": "2026-09-19",
+   "publication_signals": [
+    {
+     "observation": "209 of 711 RINVOQ titles (29%) are about real-world effectiveness vs 22% across tracked IBD assets",
+     "inference": "Deliberate emphasis on real-world effectiveness in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "38 of 711 RINVOQ titles (5%) are about pediatric vs 4% across tracked IBD assets",
+     "inference": "Deliberate emphasis on pediatric in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "U-ENDURE named in 20 RINVOQ titles (12 post-hoc / subgroup / LTE)",
+     "inference": "U-ENDURE is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "U-ACTIVATE named in 17 RINVOQ titles (9 post-hoc / subgroup / LTE)",
+     "inference": "U-ACTIVATE is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "711 IBD items in 3 years (353 congress, 358 journal)",
+     "inference": "Share-of-voice context",
+     "source_id": "SRC-PUBMED"
+    }
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "strategy_id",
+     "brand_id",
+     "human_validated",
+     "last_reassessed"
+    ],
+    "derived_fields": [
+     "publication_signals"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "inferred_strategy_statement",
+     "strategic_pillars",
+     "target_segments",
+     "evidence_chain",
+     "confidence",
+     "alternative_hypotheses",
+     "leading_indicators_to_watch"
+    ],
+    "field_origin": {
+     "strategy_id": "simulated",
+     "brand_id": "simulated",
+     "inferred_strategy_statement": "ai_inferred",
+     "strategic_pillars": "ai_inferred",
+     "target_segments": "ai_inferred",
+     "evidence_chain": "ai_inferred",
+     "confidence": "ai_inferred",
+     "alternative_hypotheses": "ai_inferred",
+     "leading_indicators_to_watch": "ai_inferred",
+     "human_validated": "simulated",
+     "last_reassessed": "simulated",
+     "publication_signals": "derived"
+    }
+   },
+   "_key": "STR-RIN",
+   "_source_ids": [
+    "SRC-045",
+    "SRC-CTGOV",
+    "SRC-AI",
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "strategy_id": "STR-TUL",
+   "brand_id": "TUL",
+   "inferred_strategy_statement": "Establish TL1A as next-generation class with anti-fibrotic narrative, first to Ph3 success; move fast to filing in UC and CD.",
+   "strategic_pillars": "new MoA; breadth of label; fibrosis narrative",
+   "target_segments": "UC-1L; UC-2L; CD-1L; CD-2L",
+   "evidence_chain": [
+    {
+     "source_id": "SRC-021",
+     "observation": "ATLAS-UC positive (first anti-TL1A Ph3)",
+     "inference": "First-mover in class"
+    },
+    {
+     "source_id": "SRC-CTGOV",
+     "observation": "CD Ph3 (NCT06430801) PCD 2028; LTE to 2037",
+     "inference": "Long-term commitment to both indications"
+    }
+   ],
+   "confidence": 0.75,
+   "alternative_hypotheses": "May target biomarker-selected population (diagnostic)",
+   "leading_indicators_to_watch": "Maintenance data; filing announcement; companion diagnostic news",
+   "human_validated": false,
+   "last_reassessed": "2026-09-19",
+   "publication_signals": [
+    {
+     "observation": "7 of 39 tulisokibart titles (18%) are about fatigue & patient-reported outcomes vs 3% across tracked IBD assets",
+     "inference": "Deliberate emphasis on fatigue & patient-reported outcomes in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "6 of 39 tulisokibart titles (15%) are about histologic / deep healing vs 4% across tracked IBD assets",
+     "inference": "Deliberate emphasis on histologic / deep healing in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "12 of 39 tulisokibart titles (31%) are about long-term durability vs 8% across tracked IBD assets",
+     "inference": "Deliberate emphasis on long-term durability in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "ARTEMIS named in 20 tulisokibart titles (1 post-hoc / subgroup / LTE)",
+     "inference": "ARTEMIS is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "APOLLO named in 11 tulisokibart titles (3 post-hoc / subgroup / LTE)",
+     "inference": "APOLLO is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "39 IBD items in 3 years (34 congress, 5 journal)",
+     "inference": "Share-of-voice context",
+     "source_id": "SRC-PUBMED"
+    }
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "strategy_id",
+     "brand_id",
+     "human_validated",
+     "last_reassessed"
+    ],
+    "derived_fields": [
+     "publication_signals"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "inferred_strategy_statement",
+     "strategic_pillars",
+     "target_segments",
+     "evidence_chain",
+     "confidence",
+     "alternative_hypotheses",
+     "leading_indicators_to_watch"
+    ],
+    "field_origin": {
+     "strategy_id": "simulated",
+     "brand_id": "simulated",
+     "inferred_strategy_statement": "ai_inferred",
+     "strategic_pillars": "ai_inferred",
+     "target_segments": "ai_inferred",
+     "evidence_chain": "ai_inferred",
+     "confidence": "ai_inferred",
+     "alternative_hypotheses": "ai_inferred",
+     "leading_indicators_to_watch": "ai_inferred",
+     "human_validated": "simulated",
+     "last_reassessed": "simulated",
+     "publication_signals": "derived"
+    }
+   },
+   "_key": "STR-TUL",
+   "_source_ids": [
+    "SRC-021",
+    "SRC-CTGOV",
+    "SRC-AI",
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "strategy_id": "STR-OBE",
+   "brand_id": "OBE",
+   "inferred_strategy_statement": "Enter UC as first oral with novel MoA and durable maintenance, targeting advanced-therapy-naive and refractory patients; potential partnering/M&A target.",
+   "strategic_pillars": "oral; durability; new MoA",
+   "target_segments": "UC-1L; UC-2L; UC-3L",
+   "evidence_chain": [
+    {
+     "source_id": "SRC-022",
+     "observation": "ABTECT maintenance positive",
+     "inference": "Durability claim"
+    },
+    {
+     "source_id": "SRC-023",
+     "observation": "NDA Q4 2026; CD topline mid-2027",
+     "inference": "Near-term launch 2027-28"
+    }
+   ],
+   "confidence": 0.7,
+   "alternative_hypotheses": "Could be acquired by a large pharma, changing commercial muscle",
+   "leading_indicators_to_watch": "NDA acceptance; partnering news",
+   "human_validated": false,
+   "last_reassessed": "2026-09-19",
+   "publication_signals": [
+    {
+     "observation": "7 of 63 obefazimod titles (11%) are about fatigue & patient-reported outcomes vs 3% across tracked IBD assets",
+     "inference": "Deliberate emphasis on fatigue & patient-reported outcomes in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "6 of 63 obefazimod titles (10%) are about histologic / deep healing vs 4% across tracked IBD assets",
+     "inference": "Deliberate emphasis on histologic / deep healing in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "23 of 63 obefazimod titles (37%) are about safety vs 19% across tracked IBD assets",
+     "inference": "Deliberate emphasis on safety in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "ABTECT named in 32 obefazimod titles (16 post-hoc / subgroup / LTE)",
+     "inference": "ABTECT is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "63 IBD items in 3 years (59 congress, 4 journal)",
+     "inference": "Share-of-voice context",
+     "source_id": "SRC-PUBMED"
+    }
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "strategy_id",
+     "brand_id",
+     "human_validated",
+     "last_reassessed"
+    ],
+    "derived_fields": [
+     "publication_signals"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "inferred_strategy_statement",
+     "strategic_pillars",
+     "target_segments",
+     "evidence_chain",
+     "confidence",
+     "alternative_hypotheses",
+     "leading_indicators_to_watch"
+    ],
+    "field_origin": {
+     "strategy_id": "simulated",
+     "brand_id": "simulated",
+     "inferred_strategy_statement": "ai_inferred",
+     "strategic_pillars": "ai_inferred",
+     "target_segments": "ai_inferred",
+     "evidence_chain": "ai_inferred",
+     "confidence": "ai_inferred",
+     "alternative_hypotheses": "ai_inferred",
+     "leading_indicators_to_watch": "ai_inferred",
+     "human_validated": "simulated",
+     "last_reassessed": "simulated",
+     "publication_signals": "derived"
+    }
+   },
+   "_key": "STR-OBE",
+   "_source_ids": [
+    "SRC-022",
+    "SRC-023",
+    "SRC-AI",
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "strategy_id": "STR-DUV",
+   "brand_id": "DUV",
+   "inferred_strategy_statement": "Fast-follow TL1A with large parallel Ph3 programme in UC and CD; Teva external financing to accelerate.",
+   "strategic_pillars": "new MoA; speed",
+   "target_segments": "UC-1L; CD-1L",
+   "evidence_chain": [
+    {
+     "source_id": "SRC-032",
+     "observation": "SUNSCAPE/STARSCAPE Ph3 started and accelerated",
+     "inference": "Fast-follower"
+    }
+   ],
+   "confidence": 0.6,
+   "alternative_hypotheses": "",
+   "leading_indicators_to_watch": "Enrollment speed; interim data",
+   "human_validated": false,
+   "last_reassessed": "2026-09-19",
+   "publication_signals": [
+    {
+     "observation": "6 of 11 duvakitug titles (55%) are about safety vs 19% across tracked IBD assets",
+     "inference": "Deliberate emphasis on safety in scientific messaging",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "RELIEVE named in 10 duvakitug titles (4 post-hoc / subgroup / LTE)",
+     "inference": "RELIEVE is being mined as a sustained evidence stream",
+     "source_id": "SRC-CROSSREF"
+    },
+    {
+     "observation": "11 IBD items in 3 years (8 congress, 3 journal)",
+     "inference": "Share-of-voice context",
+     "source_id": "SRC-PUBMED"
+    }
+   ],
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "strategy_id",
+     "brand_id",
+     "human_validated",
+     "last_reassessed"
+    ],
+    "derived_fields": [
+     "publication_signals"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "inferred_strategy_statement",
+     "strategic_pillars",
+     "target_segments",
+     "evidence_chain",
+     "confidence",
+     "alternative_hypotheses",
+     "leading_indicators_to_watch"
+    ],
+    "field_origin": {
+     "strategy_id": "simulated",
+     "brand_id": "simulated",
+     "inferred_strategy_statement": "ai_inferred",
+     "strategic_pillars": "ai_inferred",
+     "target_segments": "ai_inferred",
+     "evidence_chain": "ai_inferred",
+     "confidence": "ai_inferred",
+     "alternative_hypotheses": "ai_inferred",
+     "leading_indicators_to_watch": "ai_inferred",
+     "human_validated": "simulated",
+     "last_reassessed": "simulated",
+     "publication_signals": "derived"
+    }
+   },
+   "_key": "STR-DUV",
+   "_source_ids": [
+    "SRC-032",
+    "SRC-AI",
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  }
+ ]
+}

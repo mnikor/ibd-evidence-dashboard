@@ -1,0 +1,223 @@
+{
+ "table": "stakeholders",
+ "description": "Stakeholder archetypes (no named individuals). Weights are simulated.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "stakeholder_id": "STK-GI-ACAD",
+   "type": "Gastroenterologist (academic IBD centre)",
+   "evidence_preferences": "RCT; H2H; endoscopy; histology; transmural",
+   "influence_weight": 4,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "influence_weight"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "stakeholder_id": "reference",
+     "type": "reference",
+     "evidence_preferences": "reference",
+     "influence_weight": "simulated"
+    }
+   },
+   "_key": "STK-GI-ACAD",
+   "_source_ids": []
+  },
+  {
+   "stakeholder_id": "STK-GI-COMM",
+   "type": "Gastroenterologist (community)",
+   "evidence_preferences": "RCT; convenience; safety; RWE",
+   "influence_weight": 2,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "influence_weight"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "stakeholder_id": "reference",
+     "type": "reference",
+     "evidence_preferences": "reference",
+     "influence_weight": "simulated"
+    }
+   },
+   "_key": "STK-GI-COMM",
+   "_source_ids": []
+  },
+  {
+   "stakeholder_id": "STK-NURSE",
+   "type": "IBD nurse specialist",
+   "evidence_preferences": "convenience; PROs; administration",
+   "influence_weight": 3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "influence_weight"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "stakeholder_id": "reference",
+     "type": "reference",
+     "evidence_preferences": "reference",
+     "influence_weight": "simulated"
+    }
+   },
+   "_key": "STK-NURSE",
+   "_source_ids": []
+  },
+  {
+   "stakeholder_id": "STK-SURG",
+   "type": "Colorectal surgeon",
+   "evidence_preferences": "fistula outcomes; post-op recurrence",
+   "influence_weight": 2,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "influence_weight"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "stakeholder_id": "reference",
+     "type": "reference",
+     "evidence_preferences": "reference",
+     "influence_weight": "simulated"
+    }
+   },
+   "_key": "STK-SURG",
+   "_source_ids": []
+  },
+  {
+   "stakeholder_id": "STK-PAYER",
+   "type": "Payer / HTA body",
+   "evidence_preferences": "H2H; ITC/NMA; cost-effectiveness; RWE persistence",
+   "influence_weight": 5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "influence_weight"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "stakeholder_id": "reference",
+     "type": "reference",
+     "evidence_preferences": "reference",
+     "influence_weight": "simulated"
+    }
+   },
+   "_key": "STK-PAYER",
+   "_source_ids": []
+  },
+  {
+   "stakeholder_id": "STK-GUIDE",
+   "type": "Guideline committee",
+   "evidence_preferences": "RCT; H2H; NMA; long-term safety",
+   "influence_weight": 4,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "influence_weight"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "stakeholder_id": "reference",
+     "type": "reference",
+     "evidence_preferences": "reference",
+     "influence_weight": "simulated"
+    }
+   },
+   "_key": "STK-GUIDE",
+   "_source_ids": []
+  },
+  {
+   "stakeholder_id": "STK-REG",
+   "type": "Regulator",
+   "evidence_preferences": "RCT; pediatric; safety",
+   "influence_weight": 5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "influence_weight"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "stakeholder_id": "reference",
+     "type": "reference",
+     "evidence_preferences": "reference",
+     "influence_weight": "simulated"
+    }
+   },
+   "_key": "STK-REG",
+   "_source_ids": []
+  },
+  {
+   "stakeholder_id": "STK-PAT",
+   "type": "Patient / advocacy organisation",
+   "evidence_preferences": "PROs; oral route; fatigue; QoL",
+   "influence_weight": 4,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "influence_weight"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "stakeholder_id": "reference",
+     "type": "reference",
+     "evidence_preferences": "reference",
+     "influence_weight": "simulated"
+    }
+   },
+   "_key": "STK-PAT",
+   "_source_ids": []
+  },
+  {
+   "stakeholder_id": "STK-PEDGI",
+   "type": "Pediatric gastroenterologist",
+   "evidence_preferences": "pediatric RCT; growth; PK",
+   "influence_weight": 3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "influence_weight"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "stakeholder_id": "reference",
+     "type": "reference",
+     "evidence_preferences": "reference",
+     "influence_weight": "simulated"
+    }
+   },
+   "_key": "STK-PEDGI",
+   "_source_ids": []
+  }
+ ]
+}

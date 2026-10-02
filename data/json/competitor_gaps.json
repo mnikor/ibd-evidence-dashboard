@@ -1,0 +1,588 @@
+{
+ "table": "competitor_gaps",
+ "description": "SIMULATED (AI-inferred) competitor evidence gaps; rationale cites public facts.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "cgap_id": "CG-01",
+   "brand_id": "SKY",
+   "gap_type": "dosing & convenience",
+   "description": "No approved SC induction yet (filed Apr-2026 FDA / Sep-2026 EMA)",
+   "severity_1to5": 4,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "ASTRO; GRAVITI (fully SC)",
+   "exploitation_window": "until approval, expected late 2026 (US)",
+   "competitor_closing_study_id": "NCT06063967",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "public_verified"
+    }
+   },
+   "_key": "CG-01",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-02",
+   "brand_id": "SKY",
+   "gap_type": "population",
+   "description": "No RCT in perianal fistulizing CD",
+   "severity_1to5": 3,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "FUZION CD",
+   "exploitation_window": "open",
+   "competitor_closing_study_id": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window",
+     "competitor_closing_study_id"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "simulated"
+    }
+   },
+   "_key": "CG-02",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-03",
+   "brand_id": "SKY",
+   "gap_type": "comparative",
+   "description": "No H2H vs guselkumab (CHARGE will answer; J&J-controlled)",
+   "severity_1to5": 5,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "CHARGE (J&J)",
+   "exploitation_window": "until ~2029",
+   "competitor_closing_study_id": "NCT07499232",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "public_verified"
+    }
+   },
+   "_key": "CG-03",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-04",
+   "brand_id": "OMV",
+   "gap_type": "dosing & convenience",
+   "description": "IV-only induction",
+   "severity_1to5": 3,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "SC induction label",
+   "exploitation_window": "open",
+   "competitor_closing_study_id": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window",
+     "competitor_closing_study_id"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "simulated"
+    }
+   },
+   "_key": "CG-04",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-05",
+   "brand_id": "OMV",
+   "gap_type": "comparative",
+   "description": "VIVID-1 did not show superiority vs ustekinumab on key endpoints (verify)",
+   "severity_1to5": 3,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "GALAXI vs ustekinumab",
+   "exploitation_window": "open",
+   "competitor_closing_study_id": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window",
+     "competitor_closing_study_id"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "simulated"
+    }
+   },
+   "_key": "CG-05",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-06",
+   "brand_id": "RIN",
+   "gap_type": "safety",
+   "description": "JAK class boxed warning limits 1L positioning; restricted to TNF-IR",
+   "severity_1to5": 4,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "IL-23 class safety profile",
+   "exploitation_window": "structural",
+   "competitor_closing_study_id": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window",
+     "competitor_closing_study_id"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "simulated"
+    }
+   },
+   "_key": "CG-06",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-07",
+   "brand_id": "TUL",
+   "gap_type": "durability",
+   "description": "ATLAS-UC was induction-only; maintenance and long-term data pending",
+   "severity_1to5": 4,
+   "jnj_can_exploit": false,
+   "jnj_evidence_refs": "",
+   "exploitation_window": "until maintenance readout",
+   "competitor_closing_study_id": "NCT06052059",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "public_verified"
+    }
+   },
+   "_key": "CG-07",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-08",
+   "brand_id": "TUL",
+   "gap_type": "safety",
+   "description": "New MoA: limited long-term safety database",
+   "severity_1to5": 3,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "multi-year IL-23 safety",
+   "exploitation_window": "3-5y",
+   "competitor_closing_study_id": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window",
+     "competitor_closing_study_id"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "simulated"
+    }
+   },
+   "_key": "CG-08",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-09",
+   "brand_id": "OBE",
+   "gap_type": "population",
+   "description": "No CD efficacy yet (ENHANCE-CD topline mid-2027)",
+   "severity_1to5": 3,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "GALAXI; GRAVITI",
+   "exploitation_window": "until mid-2027",
+   "competitor_closing_study_id": "NCT06456593",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "public_verified"
+    }
+   },
+   "_key": "CG-09",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-10",
+   "brand_id": "OBE",
+   "gap_type": "comparative",
+   "description": "No active-comparator data vs biologics",
+   "severity_1to5": 3,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "",
+   "exploitation_window": "open",
+   "competitor_closing_study_id": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window",
+     "competitor_closing_study_id"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "simulated"
+    }
+   },
+   "_key": "CG-10",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-11",
+   "brand_id": "ENT",
+   "gap_type": "efficacy",
+   "description": "Slower onset perceived vs IL-23 / JAK",
+   "severity_1to5": 2,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "early response data",
+   "exploitation_window": "structural",
+   "competitor_closing_study_id": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window",
+     "competitor_closing_study_id"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "simulated"
+    }
+   },
+   "_key": "CG-11",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-12",
+   "brand_id": "DUV",
+   "gap_type": "evidence volume",
+   "description": "Ph3 readouts not before 2028",
+   "severity_1to5": 2,
+   "jnj_can_exploit": false,
+   "jnj_evidence_refs": "",
+   "exploitation_window": "until 2028",
+   "competitor_closing_study_id": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window",
+     "competitor_closing_study_id"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "simulated"
+    }
+   },
+   "_key": "CG-12",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  },
+  {
+   "cgap_id": "CG-13",
+   "brand_id": "VEL",
+   "gap_type": "efficacy",
+   "description": "Oral S1P efficacy ceiling lower in refractory patients",
+   "severity_1to5": 2,
+   "jnj_can_exploit": true,
+   "jnj_evidence_refs": "icotrokinra ANTHEM-UC",
+   "exploitation_window": "structural",
+   "competitor_closing_study_id": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "cgap_id",
+     "brand_id",
+     "jnj_evidence_refs",
+     "exploitation_window",
+     "competitor_closing_study_id"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "gap_type",
+     "description",
+     "severity_1to5",
+     "jnj_can_exploit"
+    ],
+    "field_origin": {
+     "cgap_id": "simulated",
+     "brand_id": "simulated",
+     "gap_type": "ai_inferred",
+     "description": "ai_inferred",
+     "severity_1to5": "ai_inferred",
+     "jnj_can_exploit": "ai_inferred",
+     "jnj_evidence_refs": "simulated",
+     "exploitation_window": "simulated",
+     "competitor_closing_study_id": "simulated"
+    }
+   },
+   "_key": "CG-13",
+   "_source_ids": [
+    "SRC-AI"
+   ]
+  }
+ ]
+}

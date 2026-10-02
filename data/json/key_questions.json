@@ -1,0 +1,413 @@
+{
+ "table": "key_questions",
+ "description": "SIMULATED key questions per imperative.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "kq_id": "KQ-01",
+   "imperative_id": "SI-TRE-01",
+   "question": "Is guselkumab at least as effective as risankizumab in CD?",
+   "decision_it_informs": "guideline; formulary",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-02",
+   "imperative_id": "SI-TRE-01",
+   "question": "How does guselkumab compare with other advanced therapies in bio-naive UC?",
+   "decision_it_informs": "guideline; prescribing",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-02",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-03",
+   "imperative_id": "SI-TRE-02",
+   "question": "Does guselkumab achieve transmural healing and disease modification in CD?",
+   "decision_it_informs": "guideline; prescribing",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-03",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-04",
+   "imperative_id": "SI-TRE-03",
+   "question": "Does a fully SC regimen improve real-world persistence and patient experience?",
+   "decision_it_informs": "prescribing; access",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-04",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-05",
+   "imperative_id": "SI-TRE-04",
+   "question": "Are efficacy and safety maintained beyond 3 years?",
+   "decision_it_informs": "guideline; prescribing",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-05",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-06",
+   "imperative_id": "SI-TRE-05",
+   "question": "Is guselkumab cost-effective vs biosimilar ustekinumab and IL-23 peers?",
+   "decision_it_informs": "HTA; formulary",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-06",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-07",
+   "imperative_id": "SI-TRE-06",
+   "question": "Is guselkumab effective in perianal fistulizing CD and pediatric IBD?",
+   "decision_it_informs": "label; guideline",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-07",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-08",
+   "imperative_id": "SI-TRE-07",
+   "question": "Does JNJ-4804 outperform monotherapy in multi-class refractory IBD?",
+   "decision_it_informs": "label",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-08",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-09",
+   "imperative_id": "SI-ICO-01",
+   "question": "Does icotrokinra deliver Ph3 efficacy comparable to injectable IL-23s in UC?",
+   "decision_it_informs": "label",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-09",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-10",
+   "imperative_id": "SI-ICO-02",
+   "question": "Where does icotrokinra sit vs JAK, S1P and obefazimod (efficacy/safety)?",
+   "decision_it_informs": "guideline; formulary",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-10",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-11",
+   "imperative_id": "SI-ICO-03",
+   "question": "Is icotrokinra effective in CD?",
+   "decision_it_informs": "label",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-11",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-12",
+   "imperative_id": "SI-ICO-04",
+   "question": "Which patients prefer oral vs SC IL-23 and how should they be sequenced?",
+   "decision_it_informs": "prescribing",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-12",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-13",
+   "imperative_id": "SI-ICO-06",
+   "question": "What is the payer value of an oral IL-23R antagonist?",
+   "decision_it_informs": "HTA; formulary",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-13",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "kq_id": "KQ-14",
+   "imperative_id": "SI-ICO-05",
+   "question": "Does the psoriasis (ICONIC) safety experience translate to IBD patients on long-term therapy?",
+   "decision_it_informs": "label; guideline",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "kq_id",
+     "imperative_id",
+     "question",
+     "decision_it_informs"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "kq_id": "simulated",
+     "imperative_id": "simulated",
+     "question": "simulated",
+     "decision_it_informs": "simulated"
+    }
+   },
+   "_key": "KQ-14",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1407 @@
+{
+ "table": "dissemination_tactics",
+ "description": "SIMULATED dissemination tactics.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "tactic_id": "TAC-001",
+   "output_id": "OUT-P001",
+   "channel": "MSL scientific exchange",
+   "audience_ids": "STK-SURG; STK-PAT",
+   "geo_ids": "EMEA",
+   "planned_date": "2025",
+   "wave": "readout",
+   "reach_target": 1759,
+   "reach_actual": 1551,
+   "owner_function": "Field Medical",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-001",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-002",
+   "output_id": "OUT-S009",
+   "channel": "webinar",
+   "audience_ids": "STK-PAT; STK-GI-ACAD",
+   "geo_ids": "GLOBAL",
+   "planned_date": "2026-10-12",
+   "wave": "pre-readout",
+   "reach_target": 1708,
+   "reach_actual": null,
+   "owner_function": "Field Medical",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-002",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-003",
+   "output_id": "OUT-S019",
+   "channel": "patient-org briefing",
+   "audience_ids": "STK-GUIDE; STK-GI-ACAD",
+   "geo_ids": "EMEA",
+   "planned_date": "2027-03-04",
+   "wave": "sustain",
+   "reach_target": 227,
+   "reach_actual": null,
+   "owner_function": "Medical Education",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-003",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-004",
+   "output_id": "OUT-P006",
+   "channel": "HTA submission",
+   "audience_ids": "STK-SURG; STK-PAT",
+   "geo_ids": "USA",
+   "planned_date": "2025",
+   "wave": "pre-readout",
+   "reach_target": 483,
+   "reach_actual": 338,
+   "owner_function": "Field Medical",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-004",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-005",
+   "output_id": "OUT-P002",
+   "channel": "congress presentation",
+   "audience_ids": "STK-SURG; STK-GI-ACAD",
+   "geo_ids": "GLOBAL",
+   "planned_date": "2023",
+   "wave": "sustain",
+   "reach_target": 1408,
+   "reach_actual": 1161,
+   "owner_function": "Medical Education",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-005",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-006",
+   "output_id": "OUT-S003",
+   "channel": "patient-org briefing",
+   "audience_ids": "STK-GUIDE; STK-PAT",
+   "geo_ids": "EMEA",
+   "planned_date": "2027-03-04",
+   "wave": "post-readout amplification",
+   "reach_target": 1767,
+   "reach_actual": null,
+   "owner_function": "Medical Education",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-006",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-007",
+   "output_id": "OUT-P006",
+   "channel": "webinar",
+   "audience_ids": "STK-GUIDE; STK-PAT",
+   "geo_ids": "EMEA",
+   "planned_date": "2025",
+   "wave": "pre-readout",
+   "reach_target": 1646,
+   "reach_actual": 1889,
+   "owner_function": "Medical Education",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-007",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-008",
+   "output_id": "OUT-S002",
+   "channel": "payer dossier",
+   "audience_ids": "STK-PAYER; STK-NURSE",
+   "geo_ids": "USA",
+   "planned_date": "2026-10-18",
+   "wave": "pre-readout",
+   "reach_target": 1120,
+   "reach_actual": null,
+   "owner_function": "Field Medical",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-008",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-009",
+   "output_id": "OUT-S022",
+   "channel": "MSL scientific exchange",
+   "audience_ids": "STK-PAYER; STK-NURSE",
+   "geo_ids": "DEU; FRA; GBR",
+   "planned_date": "2027-05-10",
+   "wave": "sustain",
+   "reach_target": 382,
+   "reach_actual": null,
+   "owner_function": "HEOR",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-009",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-010",
+   "output_id": "OUT-S004",
+   "channel": "payer dossier",
+   "audience_ids": "STK-GI-COMM; STK-PAYER",
+   "geo_ids": "APAC",
+   "planned_date": "2027-04",
+   "wave": "readout",
+   "reach_target": 1317,
+   "reach_actual": null,
+   "owner_function": "Medical Education",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-010",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-011",
+   "output_id": "OUT-S012",
+   "channel": "webinar",
+   "audience_ids": "STK-GUIDE; STK-NURSE",
+   "geo_ids": "GLOBAL",
+   "planned_date": "2027-10",
+   "wave": "readout",
+   "reach_target": 1550,
+   "reach_actual": null,
+   "owner_function": "HEOR",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-011",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-012",
+   "output_id": "OUT-S005",
+   "channel": "congress presentation",
+   "audience_ids": "STK-SURG; STK-PAT",
+   "geo_ids": "USA",
+   "planned_date": "2027-05",
+   "wave": "pre-readout",
+   "reach_target": 2398,
+   "reach_actual": null,
+   "owner_function": "Field Medical",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-012",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-013",
+   "output_id": "OUT-S002",
+   "channel": "webinar",
+   "audience_ids": "STK-GI-COMM; STK-PAT",
+   "geo_ids": "EMEA",
+   "planned_date": "2026-10-18",
+   "wave": "sustain",
+   "reach_target": 1523,
+   "reach_actual": null,
+   "owner_function": "Medical Education",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-013",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-014",
+   "output_id": "OUT-P007",
+   "channel": "congress presentation",
+   "audience_ids": "STK-SURG; STK-PAYER",
+   "geo_ids": "USA",
+   "planned_date": "2026-02",
+   "wave": "sustain",
+   "reach_target": 1345,
+   "reach_actual": 1398,
+   "owner_function": "Publications",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-014",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-015",
+   "output_id": "OUT-S006",
+   "channel": "medical website",
+   "audience_ids": "STK-GI-COMM; STK-SURG",
+   "geo_ids": "EMEA",
+   "planned_date": "2027-03-05",
+   "wave": "sustain",
+   "reach_target": 1781,
+   "reach_actual": null,
+   "owner_function": "Field Medical",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-015",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-016",
+   "output_id": "OUT-P011",
+   "channel": "med-ed (CME)",
+   "audience_ids": "STK-SURG; STK-NURSE",
+   "geo_ids": "GLOBAL",
+   "planned_date": "2025",
+   "wave": "readout",
+   "reach_target": 2053,
+   "reach_actual": 1809,
+   "owner_function": "Publications",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-016",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-017",
+   "output_id": "OUT-P010",
+   "channel": "advisory board",
+   "audience_ids": "STK-SURG; STK-GUIDE",
+   "geo_ids": "GLOBAL",
+   "planned_date": "2026-05",
+   "wave": "readout",
+   "reach_target": 1707,
+   "reach_actual": 1834,
+   "owner_function": "Publications",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-017",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-018",
+   "output_id": "OUT-S004",
+   "channel": "patient-org briefing",
+   "audience_ids": "STK-PAYER; STK-NURSE",
+   "geo_ids": "GLOBAL",
+   "planned_date": "2027-04",
+   "wave": "pre-readout",
+   "reach_target": 586,
+   "reach_actual": null,
+   "owner_function": "Field Medical",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-018",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-019",
+   "output_id": "OUT-P007",
+   "channel": "advisory board",
+   "audience_ids": "STK-GI-ACAD; STK-GUIDE",
+   "geo_ids": "DEU; FRA; GBR",
+   "planned_date": "2026-02",
+   "wave": "sustain",
+   "reach_target": 2011,
+   "reach_actual": 2311,
+   "owner_function": "Medical Education",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-019",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-020",
+   "output_id": "OUT-P005",
+   "channel": "payer dossier",
+   "audience_ids": "STK-PAT; STK-PAYER",
+   "geo_ids": "USA",
+   "planned_date": "2025-02",
+   "wave": "post-readout amplification",
+   "reach_target": 1317,
+   "reach_actual": 826,
+   "owner_function": "Publications",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-020",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-021",
+   "output_id": "OUT-S007",
+   "channel": "payer dossier",
+   "audience_ids": "STK-GI-ACAD; STK-GI-COMM",
+   "geo_ids": "DEU; FRA; GBR",
+   "planned_date": "2026-12",
+   "wave": "post-readout amplification",
+   "reach_target": 555,
+   "reach_actual": null,
+   "owner_function": "HEOR",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-021",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-022",
+   "output_id": "OUT-S017",
+   "channel": "medical website",
+   "audience_ids": "STK-PAYER; STK-GUIDE",
+   "geo_ids": "EMEA",
+   "planned_date": "2027-03-05",
+   "wave": "pre-readout",
+   "reach_target": 2292,
+   "reach_actual": null,
+   "owner_function": "Publications",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-022",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-023",
+   "output_id": "OUT-S019",
+   "channel": "webinar",
+   "audience_ids": "STK-NURSE; STK-GI-ACAD",
+   "geo_ids": "GLOBAL",
+   "planned_date": "2027-03-04",
+   "wave": "post-readout amplification",
+   "reach_target": 1751,
+   "reach_actual": null,
+   "owner_function": "HEOR",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-023",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-024",
+   "output_id": "OUT-S016",
+   "channel": "advisory board",
+   "audience_ids": "STK-GI-ACAD; STK-PAT",
+   "geo_ids": "GLOBAL",
+   "planned_date": "2026-10-19",
+   "wave": "sustain",
+   "reach_target": 1565,
+   "reach_actual": null,
+   "owner_function": "Publications",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-024",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-025",
+   "output_id": "OUT-S013",
+   "channel": "med-ed (CME)",
+   "audience_ids": "STK-GI-ACAD; STK-PAYER",
+   "geo_ids": "USA",
+   "planned_date": "2027-03-05",
+   "wave": "post-readout amplification",
+   "reach_target": 857,
+   "reach_actual": null,
+   "owner_function": "Publications",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-025",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-026",
+   "output_id": "OUT-P004",
+   "channel": "medical website",
+   "audience_ids": "STK-GI-COMM; STK-GUIDE",
+   "geo_ids": "EMEA",
+   "planned_date": "2025",
+   "wave": "readout",
+   "reach_target": 1077,
+   "reach_actual": 1182,
+   "owner_function": "Medical Education",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-026",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-027",
+   "output_id": "OUT-S025",
+   "channel": "advisory board",
+   "audience_ids": "STK-NURSE; STK-GI-COMM",
+   "geo_ids": "DEU; FRA; GBR",
+   "planned_date": "2027-03-05",
+   "wave": "readout",
+   "reach_target": 1034,
+   "reach_actual": null,
+   "owner_function": "Field Medical",
+   "status": "planned",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-027",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "tactic_id": "TAC-028",
+   "output_id": "OUT-P010",
+   "channel": "MSL scientific exchange",
+   "audience_ids": "STK-NURSE; STK-GI-COMM",
+   "geo_ids": "USA",
+   "planned_date": "2026-05",
+   "wave": "readout",
+   "reach_target": 2292,
+   "reach_actual": 1556,
+   "owner_function": "Field Medical",
+   "status": "completed",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "tactic_id",
+     "output_id",
+     "channel",
+     "audience_ids",
+     "geo_ids",
+     "planned_date",
+     "wave",
+     "reach_target",
+     "reach_actual",
+     "owner_function",
+     "status"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "tactic_id": "simulated",
+     "output_id": "simulated",
+     "channel": "simulated",
+     "audience_ids": "simulated",
+     "geo_ids": "simulated",
+     "planned_date": "simulated",
+     "wave": "simulated",
+     "reach_target": "simulated",
+     "reach_actual": "simulated",
+     "owner_function": "simulated",
+     "status": "simulated"
+    }
+   },
+   "_key": "TAC-028",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

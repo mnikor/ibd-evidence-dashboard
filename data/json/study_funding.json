@@ -1,0 +1,3382 @@
+{
+ "table": "study_funding",
+ "description": "SIMULATED funding split per study x funder. Replace with finance data.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "study_id": "NCT05923073",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 24192000,
+   "spent_to_date_usd": 15443731,
+   "forecast_at_completion_usd": 24192000,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2024": 4838400,
+    "2025": 4838400,
+    "2026": 4838400,
+    "2027": 4838400,
+    "2028": 4838400
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT05923073",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT05528510",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 60668000,
+   "spent_to_date_usd": 31628479,
+   "forecast_at_completion_usd": 66734800,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2022": 8666857,
+    "2023": 8666857,
+    "2024": 8666857,
+    "2025": 8666857,
+    "2026": 8666857,
+    "2027": 8666857,
+    "2028": 8666857
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT05528510",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT06260163",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 28593000,
+   "spent_to_date_usd": 10542803,
+   "forecast_at_completion_usd": 28593000,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2024": 7148250,
+    "2025": 7148250,
+    "2026": 7148250,
+    "2027": 7148250
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT06260163",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT05242471",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 113424000,
+   "spent_to_date_usd": 35774730,
+   "forecast_at_completion_usd": 113424000,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2022": 14178000,
+    "2023": 14178000,
+    "2024": 14178000,
+    "2025": 14178000,
+    "2026": 14178000,
+    "2027": 14178000,
+    "2028": 14178000,
+    "2029": 14178000
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT05242471",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07242248",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 2863700,
+   "spent_to_date_usd": 2419299,
+   "forecast_at_completion_usd": 3006885,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; APAC",
+   "fiscal_year_split": {
+    "2025": 572740,
+    "2026": 572740,
+    "2027": 572740,
+    "2028": 572740,
+    "2029": 572740
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07242248",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07242248",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 1227300,
+   "spent_to_date_usd": 1036842,
+   "forecast_at_completion_usd": 1534125,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2025": 245460,
+    "2026": 245460,
+    "2027": 245460,
+    "2028": 245460,
+    "2029": 245460
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07242248#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07577856",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 82872000,
+   "spent_to_date_usd": 66160279,
+   "forecast_at_completion_usd": 82872000,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 16574400,
+    "2027": 16574400,
+    "2028": 16574400,
+    "2029": 16574400,
+    "2030": 16574400
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07577856",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07310095",
+   "funder_id": "F-GMAF",
+   "funding_role": "lead funder",
+   "share_pct": 60,
+   "committed_usd": 4600800,
+   "spent_to_date_usd": 3727457,
+   "forecast_at_completion_usd": 5060880,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2025": 1533600,
+    "2026": 1533600,
+    "2027": 1533600
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07310095",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07310095",
+   "funder_id": "F-USMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 1533600,
+   "spent_to_date_usd": 1242486,
+   "forecast_at_completion_usd": 1533600,
+   "approval_status": "approved",
+   "governance_body": "US Evidence Committee",
+   "benefiting_geo_ids": "USA",
+   "fiscal_year_split": {
+    "2025": 511200,
+    "2026": 511200,
+    "2027": 511200
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07310095#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07310095",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 1533600,
+   "spent_to_date_usd": 1242486,
+   "forecast_at_completion_usd": 1533600,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; APAC",
+   "fiscal_year_split": {
+    "2025": 511200,
+    "2026": 511200,
+    "2027": 511200
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07310095#3",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07822529",
+   "funder_id": "F-USMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 3133900,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 3133900,
+   "approval_status": "approved",
+   "governance_body": "US Evidence Committee",
+   "benefiting_geo_ids": "USA; USA",
+   "fiscal_year_split": {
+    "2026": 626780,
+    "2027": 626780,
+    "2028": 626780,
+    "2029": 626780,
+    "2030": 626780
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07822529",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07822529",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 1343100,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 1343100,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 268620,
+    "2027": 268620,
+    "2028": 268620,
+    "2029": 268620,
+    "2030": 268620
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07822529#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07499232",
+   "funder_id": "F-GMAF",
+   "funding_role": "lead funder",
+   "share_pct": 60,
+   "committed_usd": 45301800,
+   "spent_to_date_usd": 16459200,
+   "forecast_at_completion_usd": 45301800,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 9060360,
+    "2027": 9060360,
+    "2028": 9060360,
+    "2029": 9060360,
+    "2030": 9060360
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07499232",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07499232",
+   "funder_id": "F-USMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 15100600,
+   "spent_to_date_usd": 5486400,
+   "forecast_at_completion_usd": 18875750,
+   "approval_status": "approved",
+   "governance_body": "US Evidence Committee",
+   "benefiting_geo_ids": "USA; APAC",
+   "fiscal_year_split": {
+    "2026": 3020120,
+    "2027": 3020120,
+    "2028": 3020120,
+    "2029": 3020120,
+    "2030": 3020120
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07499232#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07499232",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 15100600,
+   "spent_to_date_usd": 5486400,
+   "forecast_at_completion_usd": 18875750,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; EMEA",
+   "fiscal_year_split": {
+    "2026": 3020120,
+    "2027": 3020120,
+    "2028": 3020120,
+    "2029": 3020120,
+    "2030": 3020120
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07499232#3",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07606339",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 2422000,
+   "spent_to_date_usd": 1792951,
+   "forecast_at_completion_usd": 3027500,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; USA",
+   "fiscal_year_split": {
+    "2026": 605500,
+    "2027": 605500,
+    "2028": 605500,
+    "2029": 605500
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07606339",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07606339",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 1038000,
+   "spent_to_date_usd": 768408,
+   "forecast_at_completion_usd": 1141800,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 259500,
+    "2027": 259500,
+    "2028": 259500,
+    "2029": 259500
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07606339#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT05784129",
+   "funder_id": "F-GMAF",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 2520000,
+   "spent_to_date_usd": 1569717,
+   "forecast_at_completion_usd": 2646000,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2023": 2520000
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT05784129",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT04397263",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 10543000,
+   "spent_to_date_usd": 10543000,
+   "forecast_at_completion_usd": 11597300,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2020": 1757167,
+    "2021": 1757167,
+    "2022": 1757167,
+    "2023": 1757167,
+    "2024": 1757167,
+    "2025": 1757167
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT04397263",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT06408935",
+   "funder_id": "F-GMAF",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 20539000,
+   "spent_to_date_usd": 16399131,
+   "forecast_at_completion_usd": 20539000,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2024": 4107800,
+    "2025": 4107800,
+    "2026": 4107800,
+    "2027": 4107800,
+    "2028": 4107800
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT06408935",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07577843",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 62102000,
+   "spent_to_date_usd": 46594247,
+   "forecast_at_completion_usd": 68312200,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 12420400,
+    "2027": 12420400,
+    "2028": 12420400,
+    "2029": 12420400,
+    "2030": 12420400
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07577843",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07532213",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 2972200,
+   "spent_to_date_usd": 1567519,
+   "forecast_at_completion_usd": 2972200,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; APAC",
+   "fiscal_year_split": {
+    "2026": 743050,
+    "2027": 743050,
+    "2028": 743050,
+    "2029": 743050
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07532213",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07532213",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 1273800,
+   "spent_to_date_usd": 671794,
+   "forecast_at_completion_usd": 1273800,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 318450,
+    "2027": 318450,
+    "2028": 318450,
+    "2029": 318450
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07532213#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT03466411",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 173211000,
+   "spent_to_date_usd": 134879304,
+   "forecast_at_completion_usd": 173211000,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2018": 15746455,
+    "2019": 15746455,
+    "2020": 15746455,
+    "2021": 15746455,
+    "2022": 15746455,
+    "2023": 15746455,
+    "2024": 15746455,
+    "2025": 15746455,
+    "2026": 15746455,
+    "2027": 15746455,
+    "2028": 15746455
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT03466411",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07102368",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 1930600,
+   "spent_to_date_usd": 1269742,
+   "forecast_at_completion_usd": 1930600,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA",
+   "fiscal_year_split": {
+    "2025": 386120,
+    "2026": 386120,
+    "2027": 386120,
+    "2028": 386120,
+    "2029": 386120
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07102368",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07102368",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 827400,
+   "spent_to_date_usd": 544175,
+   "forecast_at_completion_usd": 910140,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2025": 165480,
+    "2026": 165480,
+    "2027": 165480,
+    "2028": 165480,
+    "2029": 165480
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07102368#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT05197049",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 60752000,
+   "spent_to_date_usd": 44473186,
+   "forecast_at_completion_usd": 63789600,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2022": 8678857,
+    "2023": 8678857,
+    "2024": 8678857,
+    "2025": 8678857,
+    "2026": 8678857,
+    "2027": 8678857,
+    "2028": 8678857
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT05197049",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07541261",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 2798600,
+   "spent_to_date_usd": 1243122,
+   "forecast_at_completion_usd": 2938530,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; APAC",
+   "fiscal_year_split": {
+    "2026": 699650,
+    "2027": 699650,
+    "2028": 699650,
+    "2029": 699650
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07541261",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07541261",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 1199400,
+   "spent_to_date_usd": 532767,
+   "forecast_at_completion_usd": 1259370,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 299850,
+    "2027": 299850,
+    "2028": 299850,
+    "2029": 299850
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07541261#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07302360",
+   "funder_id": "F-APACMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 3547600,
+   "spent_to_date_usd": 1262350,
+   "forecast_at_completion_usd": 3547600,
+   "approval_status": "approved",
+   "governance_body": "APAC Evidence Committee",
+   "benefiting_geo_ids": "APAC",
+   "fiscal_year_split": {
+    "2025": 886900,
+    "2026": 886900,
+    "2027": 886900,
+    "2028": 886900
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07302360",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07302360",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 1520400,
+   "spent_to_date_usd": 541007,
+   "forecast_at_completion_usd": 1596420,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2025": 380100,
+    "2026": 380100,
+    "2027": 380100,
+    "2028": 380100
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07302360#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT04033445",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 164429000,
+   "spent_to_date_usd": 106703462,
+   "forecast_at_completion_usd": 172650450,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2019": 18269889,
+    "2020": 18269889,
+    "2021": 18269889,
+    "2022": 18269889,
+    "2023": 18269889,
+    "2024": 18269889,
+    "2025": 18269889,
+    "2026": 18269889,
+    "2027": 18269889
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT04033445",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT03662542",
+   "funder_id": "F-GMAF",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 31882000,
+   "spent_to_date_usd": 31882000,
+   "forecast_at_completion_usd": 39852500,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2018": 7970500,
+    "2019": 7970500,
+    "2020": 7970500,
+    "2021": 7970500
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT03662542",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07746765",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 2783900,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 2783900,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; APAC",
+   "fiscal_year_split": {
+    "2026": 695975,
+    "2027": 695975,
+    "2028": 695975,
+    "2029": 695975
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07746765",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07746765",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 1193100,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 1193100,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 298275,
+    "2027": 298275,
+    "2028": 298275,
+    "2029": 298275
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07746765#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT05242484",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 71237000,
+   "spent_to_date_usd": 52200379,
+   "forecast_at_completion_usd": 71237000,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2022": 8904625,
+    "2023": 8904625,
+    "2024": 8904625,
+    "2025": 8904625,
+    "2026": 8904625,
+    "2027": 8904625,
+    "2028": 8904625,
+    "2029": 8904625
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT05242484",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT06663332",
+   "funder_id": "F-GMAF",
+   "funding_role": "lead funder",
+   "share_pct": 60,
+   "committed_usd": 7611600,
+   "spent_to_date_usd": 5764369,
+   "forecast_at_completion_usd": 7611600,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2024": 845733,
+    "2025": 845733,
+    "2026": 845733,
+    "2027": 845733,
+    "2028": 845733,
+    "2029": 845733,
+    "2030": 845733,
+    "2031": 845733,
+    "2032": 845733
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT06663332",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT06663332",
+   "funder_id": "F-USMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 2537200,
+   "spent_to_date_usd": 1921456,
+   "forecast_at_completion_usd": 2537200,
+   "approval_status": "approved",
+   "governance_body": "US Evidence Committee",
+   "benefiting_geo_ids": "USA; EMEA",
+   "fiscal_year_split": {
+    "2024": 281911,
+    "2025": 281911,
+    "2026": 281911,
+    "2027": 281911,
+    "2028": 281911,
+    "2029": 281911,
+    "2030": 281911,
+    "2031": 281911,
+    "2032": 281911
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT06663332#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT06663332",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 2537200,
+   "spent_to_date_usd": 1921456,
+   "forecast_at_completion_usd": 3171500,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; APAC",
+   "fiscal_year_split": {
+    "2024": 281911,
+    "2025": 281911,
+    "2026": 281911,
+    "2027": 281911,
+    "2028": 281911,
+    "2029": 281911,
+    "2030": 281911,
+    "2031": 281911,
+    "2032": 281911
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT06663332#3",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07654751",
+   "funder_id": "F-GMAF",
+   "funding_role": "lead funder",
+   "share_pct": 60,
+   "committed_usd": 2844600,
+   "spent_to_date_usd": 2150872,
+   "forecast_at_completion_usd": 3129060,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 1422300,
+    "2027": 1422300
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07654751",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07654751",
+   "funder_id": "F-USMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 948200,
+   "spent_to_date_usd": 716957,
+   "forecast_at_completion_usd": 948200,
+   "approval_status": "approved",
+   "governance_body": "US Evidence Committee",
+   "benefiting_geo_ids": "USA",
+   "fiscal_year_split": {
+    "2026": 474100,
+    "2027": 474100
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07654751#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07654751",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 948200,
+   "spent_to_date_usd": 716957,
+   "forecast_at_completion_usd": 948200,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; USA",
+   "fiscal_year_split": {
+    "2026": 474100,
+    "2027": 474100
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07654751#3",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07196748",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 111776000,
+   "spent_to_date_usd": 34481669,
+   "forecast_at_completion_usd": 122953600,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2025": 13972000,
+    "2026": 13972000,
+    "2027": 13972000,
+    "2028": 13972000,
+    "2029": 13972000,
+    "2030": 13972000,
+    "2031": 13972000,
+    "2032": 13972000
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07196748",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT06049017",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 29296000,
+   "spent_to_date_usd": 29296000,
+   "forecast_at_completion_usd": 29296000,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2023": 7324000,
+    "2024": 7324000,
+    "2025": 7324000,
+    "2026": 7324000
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT06049017",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT07196722",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 161166000,
+   "spent_to_date_usd": 60560976,
+   "forecast_at_completion_usd": 169224300,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2025": 20145750,
+    "2026": 20145750,
+    "2027": 20145750,
+    "2028": 20145750,
+    "2029": 20145750,
+    "2030": 20145750,
+    "2031": 20145750,
+    "2032": 20145750
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT07196722",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "NCT05347095",
+   "funder_id": "F-RD",
+   "funding_role": "lead funder",
+   "share_pct": 100,
+   "committed_usd": 35502000,
+   "spent_to_date_usd": 16707369,
+   "forecast_at_completion_usd": 37277100,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2022": 5917000,
+    "2023": 5917000,
+    "2024": 5917000,
+    "2025": 5917000,
+    "2026": 5917000,
+    "2027": 5917000
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "NCT05347095",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-RWE-01",
+   "funder_id": "F-USMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 324800,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 324800,
+   "approval_status": "approved",
+   "governance_body": "US Evidence Committee",
+   "benefiting_geo_ids": "USA",
+   "fiscal_year_split": {
+    "2026": 162400,
+    "2027": 162400
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-RWE-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-RWE-01",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 139200,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 139200,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 69600,
+    "2027": 69600
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-RWE-01#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-HEOR-01",
+   "funder_id": "F-HEOR",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 337400,
+   "spent_to_date_usd": 197931,
+   "forecast_at_completion_usd": 337400,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 168700,
+    "2027": 168700
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-HEOR-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-HEOR-01",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 144600,
+   "spent_to_date_usd": 84828,
+   "forecast_at_completion_usd": 151830,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; APAC",
+   "fiscal_year_split": {
+    "2026": 72300,
+    "2027": 72300
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-HEOR-01#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-ITC-01",
+   "funder_id": "F-HEOR",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 80500,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 100625,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2027": 40250,
+    "2028": 40250
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-ITC-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-ITC-01",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 34500,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 43125,
+   "approval_status": "approved",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA",
+   "fiscal_year_split": {
+    "2027": 17250,
+    "2028": 17250
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-ITC-01#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-ITC-02",
+   "funder_id": "F-HEOR",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 91000,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 100100,
+   "approval_status": "in governance",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2027": 91000
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-ITC-02",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-ITC-02",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 39000,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 39000,
+   "approval_status": "in governance",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA",
+   "fiscal_year_split": {
+    "2027": 39000
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-ITC-02#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-DCE-01",
+   "funder_id": "F-USMAF",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 557900,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 557900,
+   "approval_status": "approved",
+   "governance_body": "US Evidence Committee",
+   "benefiting_geo_ids": "USA; APAC",
+   "fiscal_year_split": {
+    "2026": 278950,
+    "2027": 278950
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-DCE-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-DCE-01",
+   "funder_id": "F-GMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 239100,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 263010,
+   "approval_status": "approved",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2026": 119550,
+    "2027": 119550
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-DCE-01#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-MECH-01",
+   "funder_id": "F-GMAF",
+   "funding_role": "lead funder",
+   "share_pct": 60,
+   "committed_usd": 6637200,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 7300920,
+   "approval_status": "in governance",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2027": 3318600,
+    "2028": 3318600
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-MECH-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-MECH-01",
+   "funder_id": "F-USMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 2212400,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 2323020,
+   "approval_status": "in governance",
+   "governance_body": "US Evidence Committee",
+   "benefiting_geo_ids": "USA; APAC",
+   "fiscal_year_split": {
+    "2027": 1106200,
+    "2028": 1106200
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-MECH-01#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-MECH-01",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "co-funder",
+   "share_pct": 20,
+   "committed_usd": 2212400,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 2323020,
+   "approval_status": "in governance",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA; USA",
+   "fiscal_year_split": {
+    "2027": 1106200,
+    "2028": 1106200
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-MECH-01#3",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-HEOR-02",
+   "funder_id": "F-HEOR",
+   "funding_role": "lead funder",
+   "share_pct": 70,
+   "committed_usd": 160300,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 168315,
+   "approval_status": "in governance",
+   "governance_body": "Global Evidence Council",
+   "benefiting_geo_ids": "GLOBAL",
+   "fiscal_year_split": {
+    "2027": 160300
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-HEOR-02",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-HEOR-02",
+   "funder_id": "F-EMEAMAF",
+   "funding_role": "co-funder",
+   "share_pct": 30,
+   "committed_usd": 68700,
+   "spent_to_date_usd": 0,
+   "forecast_at_completion_usd": 68700,
+   "approval_status": "in governance",
+   "governance_body": "EMEA Evidence Committee",
+   "benefiting_geo_ids": "EMEA",
+   "fiscal_year_split": {
+    "2027": 68700
+   },
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "funder_id",
+     "funding_role",
+     "share_pct",
+     "committed_usd",
+     "spent_to_date_usd",
+     "forecast_at_completion_usd",
+     "approval_status",
+     "governance_body",
+     "benefiting_geo_ids",
+     "fiscal_year_split"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "funder_id": "simulated",
+     "funding_role": "simulated",
+     "share_pct": "simulated",
+     "committed_usd": "simulated",
+     "spent_to_date_usd": "simulated",
+     "forecast_at_completion_usd": "simulated",
+     "approval_status": "simulated",
+     "governance_body": "simulated",
+     "benefiting_geo_ids": "simulated",
+     "fiscal_year_split": "simulated"
+    }
+   },
+   "_key": "SIM-HEOR-02#2",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

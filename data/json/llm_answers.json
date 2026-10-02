@@ -1,0 +1,3883 @@
+{
+ "table": "llm_answers",
+ "description": "One row per question per run: drugs named in order, studies cited, web search, and the analyst finding.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P1",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P1",
+   "persona": "patient",
+   "drugs_in_order": "IFX; ADA; ENT; STE; RIN; TOF; ZEP; VEL",
+   "first_drug": "IFX",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "ACG",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "IL-23 inhibitors mentioned only as a class ('several IL-23 inhibitors'); no IL-23 named.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P1",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P2",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P2",
+   "persona": "patient",
+   "drugs_in_order": "IFX; ADA; STE; SKY; TRE; OMV; ENT",
+   "first_drug": "IFX",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "AGA; ECCO",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Risankizumab singled out as 'one of the leading biologic options'; guselkumab listed only.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P2",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P3",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P3",
+   "persona": "patient",
+   "drugs_in_order": "ADA; STE; ENT; SKY; IFX",
+   "first_drug": "ADA",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "Crohn's & Colitis UK",
+   "web_search": true,
+   "issue_type": "omission",
+   "finding": "OMISSION: guselkumab / TREMFYA (the IL-23 with an approved SC induction option in CD) not mentioned.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P3",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P4",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P4",
+   "persona": "patient",
+   "drugs_in_order": "RIN; TOF; ZEP; VEL",
+   "first_drug": "RIN",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "Crohn's & Colitis Foundation",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "Correct for approved drugs; icotrokinra not mentioned (not approved in UC).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P4",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P5",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P5",
+   "persona": "patient",
+   "drugs_in_order": "ADA; STE; SKY; TRE; RIN; OMV; IFX",
+   "first_drug": "ADA",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "AGA",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P5",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P6",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P6",
+   "persona": "patient",
+   "drugs_in_order": "STE; ENT; IFX; ADA; RIN; TOF",
+   "first_drug": "STE",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "PubMed (2026 observational studies)",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "IL-23p19 inhibitors not mentioned; ustekinumab and vedolizumab presented as most reassuring.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P6",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P7",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P7",
+   "persona": "patient",
+   "drugs_in_order": "IFX; ADA; ENT; STE; SKY; TRE; OMV; TOF; RIN; ZEP; VEL",
+   "first_drug": "IFX",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "ECCO",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "IL-23s 'supported for continuation by the latest international consensus' (not verified here).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P7",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P8",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P8",
+   "persona": "patient",
+   "drugs_in_order": "IFX; ADA; STE; ENT",
+   "first_drug": "IFX",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "ECCO",
+   "web_search": true,
+   "issue_type": "omission",
+   "finding": "OMISSION: guselkumab / FUZION CD not mentioned, although ChatGPT describes FUZION to HCPs (H5).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P8",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P9",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P9",
+   "persona": "patient",
+   "drugs_in_order": "STE; SKY; TRE; OMV; ENT; ADA",
+   "first_drug": "STE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "EMA; Crohn's & Colitis UK",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Intervals consistent with labels.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P9",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P10",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P10",
+   "persona": "patient",
+   "drugs_in_order": "STE",
+   "first_drug": "STE",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "EMA",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P10",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P11",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P11",
+   "persona": "patient",
+   "drugs_in_order": "SKY; TRE",
+   "first_drug": "SKY",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "EMA",
+   "web_search": true,
+   "issue_type": "omission",
+   "finding": "OMISSION (vague on IBD): 'both now have options involving IV induction and/or subcutaneous treatment'; does not say only TREMFYA has an SC induction option. Psoriasis intervals correct (12 vs 8 weeks).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P11",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-P12",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "P12",
+   "persona": "patient",
+   "drugs_in_order": "RIN; TOF; IFX; ENT",
+   "first_drug": "RIN",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "ACG; Crohn's & Colitis Foundation",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "IL-23 inhibitors not named.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-P12",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H1",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H1",
+   "persona": "HCP",
+   "drugs_in_order": "IFX; ENT; ADA; OMV; SKY; ZEP; TRE; VEL; RIN",
+   "first_drug": "IFX",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "ACT-1/2; VARSITY; AGA",
+   "jnj_trials_cited": "",
+   "sources": "AGA; NEJM; PMC",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Default = infliximab; guselkumab listed among AGA higher-efficacy options; QUASAR/ASTRO not cited.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H1",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H2",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H2",
+   "persona": "HCP",
+   "drugs_in_order": "STE; RIN; SKY; TRE; OMV",
+   "first_drug": "STE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "SEQUENCE; ACG; AGA",
+   "jnj_trials_cited": "",
+   "sources": "ACG; PubMed; EMA",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Risankizumab favoured via SEQUENCE and ACG 2025; GALAXI 2/3 (guselkumab vs ustekinumab) not cited.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H2",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H3",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H3",
+   "persona": "HCP",
+   "drugs_in_order": "SKY; TRE; OMV; STE",
+   "first_drug": "SKY",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "ADVANCE/MOTIVATE; GALAXI 2/3; GRAVITI; VIVID-1; SEQUENCE; CHARGE (CNTO1959CRD3009)",
+   "jnj_trials_cited": "GALAXI; GRAVITI; CHARGE",
+   "sources": "EMA; EU CT register; PubMed; ECCO",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Accurate and favourable: guselkumab's SC induction described as unique; GRAVITI 56.1% vs 21.4% matches; CHARGE recruiting.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H3",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H4",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H4",
+   "persona": "HCP",
+   "drugs_in_order": "ADA; TRE; IFX; ENT; STE; SKY; OMV",
+   "first_drug": "ADA",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "ECCO; EMA",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "Correct: guselkumab the only IL-23 with an SC induction option (EU framing).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H4",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H5",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H5",
+   "persona": "HCP",
+   "drugs_in_order": "TRE; SKY; STE; OMV; IFX",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "FUZION CD; ADVANCE/MOTIVATE/FORTIFY post-hoc",
+   "jnj_trials_cited": "FUZION",
+   "sources": "Gut (abstract); J&J IR; PubMed",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Guselkumab ranked strongest (FUZION CD); notes it is conference data, full paper awaited. Numbers not verified here.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H5",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H6",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H6",
+   "persona": "HCP",
+   "drugs_in_order": "ENT; ADA; IFX; STE; TRE; SKY; RIN",
+   "first_drug": "ENT",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "VARSITY; GARDENIA; HIBISCUS; SEAVUE; GALAXI-1; SEQUENCE",
+   "jnj_trials_cited": "GALAXI",
+   "sources": "NEJM; PubMed",
+   "web_search": true,
+   "issue_type": "omission",
+   "finding": "OMISSION: GALAXI 2/3 (Phase 3, guselkumab superior to ustekinumab on endoscopic endpoints; see A3) left out; only Phase 2 GALAXI-1 described. SEQUENCE presented as the key newer trial.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H6",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H7",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H7",
+   "persona": "HCP",
+   "drugs_in_order": "RIN; TRE; SKY; OMV; VEL; IFX; ENT; STE; ADA",
+   "first_drug": "RIN",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "NMAs; ECCO 2026",
+   "jnj_trials_cited": "",
+   "sources": "PubMed; ECCO",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Guselkumab ranked second after upadacitinib; 'most impressive histology signal among biologics'.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H7",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H8",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H8",
+   "persona": "HCP",
+   "drugs_in_order": "IFX; ADA; STE; ENT; SKY; RIN",
+   "first_drug": "IFX",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "STARDUST; TAILORIX; VERSIFY",
+   "jnj_trials_cited": "",
+   "sources": "PubMed",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Guselkumab absent: consistent with the dashboard finding that J&J transmural studies have not reported yet.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H8",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H9",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H9",
+   "persona": "HCP",
+   "drugs_in_order": "TOF; RIN; TRE; OMV; SKY; ENT; STE",
+   "first_drug": "TOF",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "ACG 2025; AGA living guideline",
+   "jnj_trials_cited": "",
+   "sources": "ACG; Gastro",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Guselkumab correctly in AGA higher-efficacy group for naive patients.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H9",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H10",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H10",
+   "persona": "HCP",
+   "drugs_in_order": "TRE; SKY; OMV",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "MotherToBaby; EMA; LactMed",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Guselkumab described as having the most informative pregnancy data (>200 exposed pregnancies; not verified here).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H10",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H11",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H11",
+   "persona": "HCP",
+   "drugs_in_order": "SKY; OMV; TRE; STE",
+   "first_drug": "SKY",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "DailyMed; ECCO",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "Correct against US labels: TREMFYA at least 16 weeks, SKYRIZI at least 12 weeks.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H11",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H12",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H12",
+   "persona": "HCP",
+   "drugs_in_order": "IFX; ADA; ENT; STE",
+   "first_drug": "IFX",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "PubMed",
+   "web_search": true,
+   "issue_type": "omission",
+   "finding": "OMISSION: no guselkumab / QUASAR long-term extension data; no IL-23 mentioned.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H12",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H13",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H13",
+   "persona": "HCP",
+   "drugs_in_order": "TOF; RIN; ZEP; VEL; OBE; ICO; TRE; OMV; SKY; ENT; STE",
+   "first_drug": "TOF",
+   "tremfya_named": true,
+   "jnj_named": "TRE; ICO",
+   "studies_cited": "ANTHEM-UC",
+   "jnj_trials_cited": "ANTHEM",
+   "sources": "OUP; EMA; Gut",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Icotrokinra correctly described (oral IL-23R peptide, Phase 3 in UC).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H13",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H14",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H14",
+   "persona": "HCP",
+   "drugs_in_order": "TRE; OMV; SKY; RIN; TOF; IFX; ENT; STE; ZEP; VEL",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "Gastro; ECCO",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Recommends switching mechanism (JAK first); no data on sequencing between J&J IL-23 agents.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H14",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H15",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H15",
+   "persona": "HCP",
+   "drugs_in_order": "ENT; ADA; JNJ4804; TRE; STE; TOF; IFX",
+   "first_drug": "ENT",
+   "tremfya_named": true,
+   "jnj_named": "TRE; JNJ4804",
+   "studies_cited": "VEGA",
+   "jnj_trials_cited": "VEGA",
+   "sources": "PubMed; Gut; ECCO",
+   "web_search": true,
+   "issue_type": "omission",
+   "finding": "OMISSION: DUET-UC/CD (2026) and DUET ENCORE Phase 3 not mentioned; VEGA described.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H15",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-H16",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "H16",
+   "persona": "HCP",
+   "drugs_in_order": "TL1A; OBE; TRE; JNJ4804; VEL; SKY",
+   "first_drug": "TL1A",
+   "tremfya_named": true,
+   "jnj_named": "TRE; JNJ4804",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "J&J IR",
+   "web_search": true,
+   "issue_type": "inaccurate",
+   "finding": "INACCURATE: JNJ-4804 'Phase 2b positive; moving toward Phase 3' - DUET missed its primary endpoints and DUET ENCORE Phase 3 started May 2026. Icotrokinra not listed.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-H16",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-A1",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "A1",
+   "persona": "accuracy",
+   "drugs_in_order": "TRE",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "FDA label",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT (IV 200 mg or SC 400 mg at weeks 0, 4, 8).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-A1",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-A2",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "A2",
+   "persona": "accuracy",
+   "drugs_in_order": "SKY",
+   "first_drug": "SKY",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "EMA; FDA label",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT (not approved); does not mention the pending filing.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-A2",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-A3",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "A3",
+   "persona": "accuracy",
+   "drugs_in_order": "TRE; STE; SKY",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "GALAXI 2/3",
+   "jnj_trials_cited": "GALAXI",
+   "sources": "PubMed; J&J",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT, incl. superiority vs ustekinumab on endoscopic endpoints.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-A3",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-A4",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "A4",
+   "persona": "accuracy",
+   "drugs_in_order": "ICO; STE; TRE; OMV; SKY",
+   "first_drug": "ICO",
+   "tremfya_named": true,
+   "jnj_named": "TRE; ICO",
+   "studies_cited": "ANTHEM-UC; ICONIC-UC",
+   "jnj_trials_cited": "ANTHEM; ICONIC",
+   "sources": "J&J; FDA",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT (approved in psoriasis Mar 2026; UC in Phase 3).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-A4",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-A5",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "A5",
+   "persona": "accuracy",
+   "drugs_in_order": "",
+   "first_drug": "",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "DOI",
+   "web_search": true,
+   "issue_type": "inaccurate",
+   "finding": "WRONG: answered about obesity drugs (semaglutide vs tirzepatide) and claimed the trial is really SURMOUNT-5. SEQUENCE compared risankizumab with ustekinumab in Crohn's; ChatGPT gets this right when Crohn's is in the question (H2, H6).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-A5",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CHATGPT-A6",
+   "run_id": "RUN-2026-09-29-CHATGPT",
+   "assistant": "ChatGPT",
+   "date": "2026-09-29",
+   "question_id": "A6",
+   "persona": "accuracy",
+   "drugs_in_order": "TRE",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "ASTRO",
+   "jnj_trials_cited": "ASTRO",
+   "sources": "PubMed",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT identification and design; no efficacy results given.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CHATGPT-A6",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P1",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P1",
+   "persona": "patient",
+   "drugs_in_order": "IFX; ADA; ENT; STE; OMV; TRE; SKY; TOF; RIN; ZEP; VEL",
+   "first_drug": "IFX",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "IL-23s named, late in the list.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P1",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P2",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P2",
+   "persona": "patient",
+   "drugs_in_order": "IFX; SKY; STE; ADA; ENT; TRE; OMV",
+   "first_drug": "IFX",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "SONIC (named)",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "Risankizumab singled out: 'strongest head-to-head data among newer agents'. Guselkumab listed only.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P2",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P3",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P3",
+   "persona": "patient",
+   "drugs_in_order": "ADA; IFX; ENT; STE; SKY; OMV; TRE",
+   "first_drug": "ADA",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "TREMFYA included (last): 'induction can now be given either IV or subcutaneously in some regions ... check whether approved'. Hedged; no web search.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P3",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P4",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P4",
+   "persona": "patient",
+   "drugs_in_order": "TOF; RIN; ZEP; VEL; OBE; ENT; IFX; STE",
+   "first_drug": "TOF",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P4",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P5",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P5",
+   "persona": "patient",
+   "drugs_in_order": "ADA; IFX; STE; SKY; OMV; ENT; RIN",
+   "first_drug": "ADA",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "Guselkumab not named.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P5",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P6",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P6",
+   "persona": "patient",
+   "drugs_in_order": "ENT; STE; SKY; TRE; OMV; IFX; ADA; TOF; RIN",
+   "first_drug": "ENT",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "IL-23s included among safer options.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P6",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P7",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P7",
+   "persona": "patient",
+   "drugs_in_order": "IFX; ADA; ENT; STE; TOF; RIN; ZEP; VEL; SKY; TRE; OMV",
+   "first_drug": "IFX",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P7",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P8",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P8",
+   "persona": "patient",
+   "drugs_in_order": "IFX; ADA; ENT; STE",
+   "first_drug": "IFX",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "omission",
+   "finding": "OMISSION: no guselkumab / FUZION CD (same as ChatGPT).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P8",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P9",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P9",
+   "persona": "patient",
+   "drugs_in_order": "ADA; STE; SKY; TRE; OMV; ENT; RIN; TOF; ZEP; VEL",
+   "first_drug": "ADA",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P9",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P10",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P10",
+   "persona": "patient",
+   "drugs_in_order": "STE; ADA; IFX",
+   "first_drug": "STE",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P10",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P11",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P11",
+   "persona": "patient",
+   "drugs_in_order": "SKY; TRE",
+   "first_drug": "SKY",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "misleading",
+   "finding": "MISLEADING: 'Both are given by injection under the skin, and Tremfya also has an intravenous induction option for bowel disease' - both have IV induction; TREMFYA's distinguishing option is SC induction. Says its information may be outdated; no web search.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P11",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-P12",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "P12",
+   "persona": "patient",
+   "drugs_in_order": "IFX; TOF; RIN; ENT; STE; ADA; SKY; OMV; TRE",
+   "first_drug": "IFX",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "IL-23s described as taking several weeks.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-P12",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H1",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H1",
+   "persona": "HCP",
+   "drugs_in_order": "IFX; RIN; SKY; TRE; ENT; TOF; STE; ZEP; VEL; ADA",
+   "first_drug": "IFX",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "QUASAR; VARSITY; U-ACHIEVE; AGA; ECCO",
+   "jnj_trials_cited": "QUASAR",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "QUASAR cited (not cited by ChatGPT).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H1",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H2",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H2",
+   "persona": "HCP",
+   "drugs_in_order": "RIN; SKY; TRE; STE; OMV; ADA; ENT",
+   "first_drug": "RIN",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "GALAXI; SEQUENCE; ACG; AGA",
+   "jnj_trials_cited": "GALAXI",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Balanced: 'IL-23p19 inhibitor (risankizumab or guselkumab) is the default for most patients'.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H2",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H3",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H3",
+   "persona": "HCP",
+   "drugs_in_order": "SKY; TRE; OMV; STE",
+   "first_drug": "SKY",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "ADVANCE/MOTIVATE/FORTIFY; SEQUENCE; GALAXI; GRAVITI; VIVID-1; ASTRO",
+   "jnj_trials_cited": "GALAXI; GRAVITI; ASTRO",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Guselkumab 'the only one with a fully subcutaneous induction option' (correct). Calls GALAXI's ustekinumab arm 'a reference arm rather than a powered comparison'.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H3",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H4",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H4",
+   "persona": "HCP",
+   "drugs_in_order": "ADA; TRE; ENT; IFX; STE; SKY; OMV; RIN; TOF; ZEP; VEL; TL1A",
+   "first_drug": "ADA",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "ASTRO; GRAVITI",
+   "jnj_trials_cited": "GRAVITI; ASTRO",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "correct",
+   "finding": "Correct on guselkumab SC induction (US 2025); unsure of EU status (EU approved 2025). No web search.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H4",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H5",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H5",
+   "persona": "HCP",
+   "drugs_in_order": "TRE; IFX; ADA; STE; SKY; OMV",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "FUZION CD",
+   "jnj_trials_cited": "FUZION",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Guselkumab: 'the only randomized evidence so far' (FUZION). Figures not verified here.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H5",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H6",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H6",
+   "persona": "HCP",
+   "drugs_in_order": "ENT; ADA; IFX; STE; SKY; TRE; OMV",
+   "first_drug": "ENT",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "VARSITY; SEAVUE; SEQUENCE; GALAXI; VIVID-1",
+   "jnj_trials_cited": "GALAXI",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "misleading",
+   "finding": "UNDERSTATES: GALAXI and VIVID-1 ustekinumab arms 'not powered as formal head-to-head comparisons, so results are exploratory' - yet its own A3 answer reports guselkumab better than ustekinumab on endoscopic outcomes. No web search.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H6",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H7",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H7",
+   "persona": "HCP",
+   "drugs_in_order": "RIN; IFX; TRE; ENT; TOF; VEL; SKY; OMV",
+   "first_drug": "RIN",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "QUASAR; VIVID; U-ACHIEVE; NMAs",
+   "jnj_trials_cited": "QUASAR",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Guselkumab 'ranked first overall for histo-endoscopic improvement' in one NMA.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H7",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H8",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H8",
+   "persona": "HCP",
+   "drugs_in_order": "STE; IFX; ADA; ENT; SKY; TRE; OMV; RIN",
+   "first_drug": "STE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "IL-23s: 'real-world IUS series ... appearing'. No web search.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H8",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H9",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H9",
+   "persona": "HCP",
+   "drugs_in_order": "RIN; TOF; SKY; TRE; OMV",
+   "first_drug": "RIN",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "ACG; AGA",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H9",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H10",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H10",
+   "persona": "HCP",
+   "drugs_in_order": "TRE; SKY; OMV; STE",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H10",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H11",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H11",
+   "persona": "HCP",
+   "drugs_in_order": "SKY; OMV; TRE",
+   "first_drug": "SKY",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H11",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H12",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H12",
+   "persona": "HCP",
+   "drugs_in_order": "IFX; ADA; ENT; STE; OMV; TRE; SKY",
+   "first_drug": "IFX",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "VARSITY; LUCENT-3",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "Guselkumab mentioned: extension data exist but 'least mature' (ChatGPT omitted IL-23s entirely). No web search.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H12",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H13",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H13",
+   "persona": "HCP",
+   "drugs_in_order": "TOF; RIN; ZEP; VEL; OBE; ICO; TL1A",
+   "first_drug": "TOF",
+   "tremfya_named": false,
+   "jnj_named": "ICO",
+   "studies_cited": "ANTHEM-UC; ICONIC",
+   "jnj_trials_cited": "ANTHEM; ICONIC",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Icotrokinra correct; notes a competitive-landscape website wrongly lists it as approved for UC.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H13",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H14",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H14",
+   "persona": "HCP",
+   "drugs_in_order": "OMV; TRE; SKY; RIN; TOF; IFX; ADA; ENT; ZEP; VEL; STE; JNJ4804; TL1A; OBE",
+   "first_drug": "OMV",
+   "tremfya_named": true,
+   "jnj_named": "TRE; JNJ4804",
+   "studies_cited": "VEGA; ACG; AGA; ECCO",
+   "jnj_trials_cited": "VEGA",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "",
+   "finding": "",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H14",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H15",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H15",
+   "persona": "HCP",
+   "drugs_in_order": "JNJ4804; TRE; RIN; ENT; STE; TOF",
+   "first_drug": "JNJ4804",
+   "tremfya_named": true,
+   "jnj_named": "TRE; JNJ4804",
+   "studies_cited": "VEGA; DUET-UC/CD",
+   "jnj_trials_cited": "VEGA; DUET",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "",
+   "finding": "Covers VEGA and DUET (DDW 2026) - ChatGPT did not mention DUET.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H15",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-H16",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "H16",
+   "persona": "HCP",
+   "drugs_in_order": "TL1A; OBE; SKY; OMV",
+   "first_drug": "TL1A",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "omission",
+   "finding": "OMISSION: no icotrokinra, JNJ-4804 or guselkumab studies in late-stage development.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-H16",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-A1",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "A1",
+   "persona": "accuracy",
+   "drugs_in_order": "TRE",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "GALAXI; GRAVITI",
+   "jnj_trials_cited": "GALAXI; GRAVITI",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT (IV 200 mg or SC 400 mg at weeks 0, 4, 8; EU and US).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-A1",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-A2",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "A2",
+   "persona": "accuracy",
+   "drugs_in_order": "SKY",
+   "first_drug": "SKY",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "AFFIRM",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT (not approved; FDA filing Apr 2026). Gives the EMA filing date as 27 Aug 2026; the dataset's source dates it Sep 2026 - check.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-A2",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-A3",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "A3",
+   "persona": "accuracy",
+   "drugs_in_order": "TRE; STE",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "GALAXI 2/3",
+   "jnj_trials_cited": "GALAXI",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT: better than ustekinumab on endoscopic outcomes, not on clinical remission.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-A3",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-A4",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "A4",
+   "persona": "accuracy",
+   "drugs_in_order": "ICO",
+   "first_drug": "ICO",
+   "tremfya_named": false,
+   "jnj_named": "ICO",
+   "studies_cited": "ICONIC-UC",
+   "jnj_trials_cited": "ICONIC",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT (psoriasis approval 18 Mar 2026; UC investigational).",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-A4",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-A5",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "A5",
+   "persona": "accuracy",
+   "drugs_in_order": "SKY; STE",
+   "first_drug": "SKY",
+   "tremfya_named": false,
+   "jnj_named": "",
+   "studies_cited": "SEQUENCE",
+   "jnj_trials_cited": "",
+   "sources": "",
+   "web_search": false,
+   "issue_type": "correct",
+   "finding": "CORRECT (ChatGPT got this wrong); figures given from memory with a caveat.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-A5",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  },
+  {
+   "answer_id": "RUN-2026-09-29-CLAUDE-A6",
+   "run_id": "RUN-2026-09-29-CLAUDE",
+   "assistant": "Claude",
+   "date": "2026-09-29",
+   "question_id": "A6",
+   "persona": "accuracy",
+   "drugs_in_order": "TRE",
+   "first_drug": "TRE",
+   "tremfya_named": true,
+   "jnj_named": "TRE",
+   "studies_cited": "ASTRO",
+   "jnj_trials_cited": "ASTRO",
+   "sources": "",
+   "web_search": true,
+   "issue_type": "correct",
+   "finding": "CORRECT identification among several ASTRO studies; no results.",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "drugs_in_order",
+     "first_drug",
+     "tremfya_named",
+     "jnj_named",
+     "jnj_trials_cited"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "issue_type",
+     "finding"
+    ],
+    "field_origin": {
+     "answer_id": "public_verified",
+     "run_id": "public_verified",
+     "assistant": "public_verified",
+     "date": "public_verified",
+     "question_id": "public_verified",
+     "persona": "public_verified",
+     "drugs_in_order": "derived",
+     "first_drug": "derived",
+     "tremfya_named": "derived",
+     "jnj_named": "derived",
+     "studies_cited": "public_verified",
+     "jnj_trials_cited": "derived",
+     "sources": "public_verified",
+     "web_search": "public_verified",
+     "issue_type": "ai_inferred",
+     "finding": "ai_inferred"
+    }
+   },
+   "_key": "RUN-2026-09-29-CLAUDE-A6",
+   "_source_ids": [
+    "SRC-LLM"
+   ]
+  }
+ ]
+}

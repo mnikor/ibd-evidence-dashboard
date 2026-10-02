@@ -1,0 +1,1237 @@
+{
+ "table": "sov_journal",
+ "description": "Share of voice in journals per year (title mentions; letters excluded).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "year": "2026",
+   "brand_id": "TUL",
+   "n": 1,
+   "share_pct": 0.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "DUV",
+   "n": 3,
+   "share_pct": 0.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "ENT",
+   "n": 132,
+   "share_pct": 23.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "OMV",
+   "n": 44,
+   "share_pct": 7.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "SKY",
+   "n": 63,
+   "share_pct": 11.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "STE",
+   "n": 141,
+   "share_pct": 25.0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "RIN",
+   "n": 128,
+   "share_pct": 22.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "VEL",
+   "n": 17,
+   "share_pct": 3.0,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "OBE",
+   "n": 2,
+   "share_pct": 0.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "TRE",
+   "n": 24,
+   "share_pct": 4.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2026",
+   "brand_id": "ZEP",
+   "n": 9,
+   "share_pct": 1.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2026#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "AFI",
+   "n": 2,
+   "share_pct": 0.4,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "ENT",
+   "n": 140,
+   "share_pct": 26.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "OMV",
+   "n": 38,
+   "share_pct": 7.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "STE",
+   "n": 137,
+   "share_pct": 25.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "RIN",
+   "n": 108,
+   "share_pct": 20.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "SKY",
+   "n": 43,
+   "share_pct": 8.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "ZEP",
+   "n": 10,
+   "share_pct": 1.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "OBE",
+   "n": 1,
+   "share_pct": 0.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "TRE",
+   "n": 21,
+   "share_pct": 3.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "TUL",
+   "n": 3,
+   "share_pct": 0.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2025",
+   "brand_id": "VEL",
+   "n": 29,
+   "share_pct": 5.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2025#11",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "ENT",
+   "n": 141,
+   "share_pct": 27.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "STE",
+   "n": 167,
+   "share_pct": 32.7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "SKY",
+   "n": 31,
+   "share_pct": 6.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "OMV",
+   "n": 33,
+   "share_pct": 6.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "RIN",
+   "n": 90,
+   "share_pct": 17.6,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "ZEP",
+   "n": 13,
+   "share_pct": 2.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "ICO",
+   "n": 1,
+   "share_pct": 0.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "VEL",
+   "n": 17,
+   "share_pct": 3.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "TRE",
+   "n": 16,
+   "share_pct": 3.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2024",
+   "brand_id": "TUL",
+   "n": 1,
+   "share_pct": 0.2,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2024#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2023",
+   "brand_id": "ENT",
+   "n": 34,
+   "share_pct": 32.1,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2023",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2023",
+   "brand_id": "STE",
+   "n": 38,
+   "share_pct": 35.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2023#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2023",
+   "brand_id": "VEL",
+   "n": 4,
+   "share_pct": 3.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2023#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2023",
+   "brand_id": "OBE",
+   "n": 1,
+   "share_pct": 0.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2023#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2023",
+   "brand_id": "OMV",
+   "n": 9,
+   "share_pct": 8.5,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2023#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2023",
+   "brand_id": "RIN",
+   "n": 12,
+   "share_pct": 11.3,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2023#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2023",
+   "brand_id": "SKY",
+   "n": 4,
+   "share_pct": 3.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2023#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2023",
+   "brand_id": "TRE",
+   "n": 3,
+   "share_pct": 2.8,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2023#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "year": "2023",
+   "brand_id": "ZEP",
+   "n": 1,
+   "share_pct": 0.9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "year",
+     "brand_id",
+     "n",
+     "share_pct"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "share_pct": "derived"
+    }
+   },
+   "_key": "2023#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF"
+   ]
+  }
+ ]
+}

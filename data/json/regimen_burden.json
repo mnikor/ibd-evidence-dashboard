@@ -1,0 +1,945 @@
+{
+ "table": "regimen_burden",
+ "description": "Year-1 treatment burden per path, derived from label regimens. Unknown = filed regimen not yet disclosed.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "path_id": "P-CD-TRE-SC-100",
+   "brand_id": "TRE",
+   "indication": "CD",
+   "path": "SC induction → 100 mg every 8 weeks",
+   "status": "label",
+   "injections_min": 11,
+   "infusions": 0,
+   "infusion_hours_min": 0,
+   "dosing_days": 8,
+   "has_undisclosed": false,
+   "lft_window_weeks": 16,
+   "note": "",
+   "events": [
+    {
+     "w": 0,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 4,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 8,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 16,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 24,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 32,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 40,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 48,
+     "t": "sc",
+     "n": 1
+    }
+   ],
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "path_id",
+     "brand_id",
+     "indication",
+     "path",
+     "status",
+     "injections_min",
+     "infusions",
+     "infusion_hours_min",
+     "dosing_days",
+     "has_undisclosed",
+     "lft_window_weeks",
+     "note",
+     "events"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "path_id": "derived",
+     "brand_id": "derived",
+     "indication": "derived",
+     "path": "derived",
+     "status": "derived",
+     "injections_min": "derived",
+     "infusions": "derived",
+     "infusion_hours_min": "derived",
+     "dosing_days": "derived",
+     "has_undisclosed": "derived",
+     "lft_window_weeks": "derived",
+     "note": "derived",
+     "events": "derived"
+    }
+   },
+   "_key": "P-CD-TRE-SC-100",
+   "_source_ids": [
+    "SRC-LBL-TRE"
+   ]
+  },
+  {
+   "path_id": "P-CD-TRE-SC-200",
+   "brand_id": "TRE",
+   "indication": "CD",
+   "path": "SC induction → 200 mg every 4 weeks",
+   "status": "label",
+   "injections_min": 16,
+   "infusions": 0,
+   "infusion_hours_min": 0,
+   "dosing_days": 13,
+   "has_undisclosed": false,
+   "lft_window_weeks": 16,
+   "note": "",
+   "events": [
+    {
+     "w": 0,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 4,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 8,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 12,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 16,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 20,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 24,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 28,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 32,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 36,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 40,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 44,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 48,
+     "t": "sc",
+     "n": 1
+    }
+   ],
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "path_id",
+     "brand_id",
+     "indication",
+     "path",
+     "status",
+     "injections_min",
+     "infusions",
+     "infusion_hours_min",
+     "dosing_days",
+     "has_undisclosed",
+     "lft_window_weeks",
+     "note",
+     "events"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "path_id": "derived",
+     "brand_id": "derived",
+     "indication": "derived",
+     "path": "derived",
+     "status": "derived",
+     "injections_min": "derived",
+     "infusions": "derived",
+     "infusion_hours_min": "derived",
+     "dosing_days": "derived",
+     "has_undisclosed": "derived",
+     "lft_window_weeks": "derived",
+     "note": "derived",
+     "events": "derived"
+    }
+   },
+   "_key": "P-CD-TRE-SC-200",
+   "_source_ids": [
+    "SRC-LBL-TRE"
+   ]
+  },
+  {
+   "path_id": "P-CD-TRE-IV-100",
+   "brand_id": "TRE",
+   "indication": "CD",
+   "path": "IV induction → 100 mg every 8 weeks",
+   "status": "label",
+   "injections_min": 5,
+   "infusions": 3,
+   "infusion_hours_min": 3.0,
+   "dosing_days": 8,
+   "has_undisclosed": false,
+   "lft_window_weeks": 16,
+   "note": "",
+   "events": [
+    {
+     "w": 0,
+     "t": "iv",
+     "n": 1,
+     "h": 1.0
+    },
+    {
+     "w": 4,
+     "t": "iv",
+     "n": 1,
+     "h": 1.0
+    },
+    {
+     "w": 8,
+     "t": "iv",
+     "n": 1,
+     "h": 1.0
+    },
+    {
+     "w": 16,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 24,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 32,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 40,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 48,
+     "t": "sc",
+     "n": 1
+    }
+   ],
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "path_id",
+     "brand_id",
+     "indication",
+     "path",
+     "status",
+     "injections_min",
+     "infusions",
+     "infusion_hours_min",
+     "dosing_days",
+     "has_undisclosed",
+     "lft_window_weeks",
+     "note",
+     "events"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "path_id": "derived",
+     "brand_id": "derived",
+     "indication": "derived",
+     "path": "derived",
+     "status": "derived",
+     "injections_min": "derived",
+     "infusions": "derived",
+     "infusion_hours_min": "derived",
+     "dosing_days": "derived",
+     "has_undisclosed": "derived",
+     "lft_window_weeks": "derived",
+     "note": "derived",
+     "events": "derived"
+    }
+   },
+   "_key": "P-CD-TRE-IV-100",
+   "_source_ids": [
+    "SRC-LBL-TRE"
+   ]
+  },
+  {
+   "path_id": "P-CD-SKY-IV-Q8",
+   "brand_id": "SKY",
+   "indication": "CD",
+   "path": "IV induction → 180 or 360 mg every 8 weeks",
+   "status": "label",
+   "injections_min": 5,
+   "infusions": 3,
+   "infusion_hours_min": 3.0,
+   "dosing_days": 8,
+   "has_undisclosed": false,
+   "lft_window_weeks": 12,
+   "note": "",
+   "events": [
+    {
+     "w": 0,
+     "t": "iv",
+     "n": 1,
+     "h": 1.0
+    },
+    {
+     "w": 4,
+     "t": "iv",
+     "n": 1,
+     "h": 1.0
+    },
+    {
+     "w": 8,
+     "t": "iv",
+     "n": 1,
+     "h": 1.0
+    },
+    {
+     "w": 12,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 20,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 28,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 36,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 44,
+     "t": "sc",
+     "n": 1
+    }
+   ],
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "path_id",
+     "brand_id",
+     "indication",
+     "path",
+     "status",
+     "injections_min",
+     "infusions",
+     "infusion_hours_min",
+     "dosing_days",
+     "has_undisclosed",
+     "lft_window_weeks",
+     "note",
+     "events"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "path_id": "derived",
+     "brand_id": "derived",
+     "indication": "derived",
+     "path": "derived",
+     "status": "derived",
+     "injections_min": "derived",
+     "infusions": "derived",
+     "infusion_hours_min": "derived",
+     "dosing_days": "derived",
+     "has_undisclosed": "derived",
+     "lft_window_weeks": "derived",
+     "note": "derived",
+     "events": "derived"
+    }
+   },
+   "_key": "P-CD-SKY-IV-Q8",
+   "_source_ids": [
+    "SRC-LBL-SKY"
+   ]
+  },
+  {
+   "path_id": "P-UC-TRE-SC-100",
+   "brand_id": "TRE",
+   "indication": "UC",
+   "path": "SC induction → 100 mg every 8 weeks",
+   "status": "label",
+   "injections_min": 11,
+   "infusions": 0,
+   "infusion_hours_min": 0,
+   "dosing_days": 8,
+   "has_undisclosed": false,
+   "lft_window_weeks": 16,
+   "note": "",
+   "events": [
+    {
+     "w": 0,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 4,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 8,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 16,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 24,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 32,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 40,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 48,
+     "t": "sc",
+     "n": 1
+    }
+   ],
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "path_id",
+     "brand_id",
+     "indication",
+     "path",
+     "status",
+     "injections_min",
+     "infusions",
+     "infusion_hours_min",
+     "dosing_days",
+     "has_undisclosed",
+     "lft_window_weeks",
+     "note",
+     "events"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "path_id": "derived",
+     "brand_id": "derived",
+     "indication": "derived",
+     "path": "derived",
+     "status": "derived",
+     "injections_min": "derived",
+     "infusions": "derived",
+     "infusion_hours_min": "derived",
+     "dosing_days": "derived",
+     "has_undisclosed": "derived",
+     "lft_window_weeks": "derived",
+     "note": "derived",
+     "events": "derived"
+    }
+   },
+   "_key": "P-UC-TRE-SC-100",
+   "_source_ids": [
+    "SRC-LBL-TRE"
+   ]
+  },
+  {
+   "path_id": "P-UC-TRE-SC-200",
+   "brand_id": "TRE",
+   "indication": "UC",
+   "path": "SC induction → 200 mg every 4 weeks",
+   "status": "label",
+   "injections_min": 16,
+   "infusions": 0,
+   "infusion_hours_min": 0,
+   "dosing_days": 13,
+   "has_undisclosed": false,
+   "lft_window_weeks": 16,
+   "note": "",
+   "events": [
+    {
+     "w": 0,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 4,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 8,
+     "t": "sc",
+     "n": 2,
+     "h": null
+    },
+    {
+     "w": 12,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 16,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 20,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 24,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 28,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 32,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 36,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 40,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 44,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 48,
+     "t": "sc",
+     "n": 1
+    }
+   ],
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "path_id",
+     "brand_id",
+     "indication",
+     "path",
+     "status",
+     "injections_min",
+     "infusions",
+     "infusion_hours_min",
+     "dosing_days",
+     "has_undisclosed",
+     "lft_window_weeks",
+     "note",
+     "events"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "path_id": "derived",
+     "brand_id": "derived",
+     "indication": "derived",
+     "path": "derived",
+     "status": "derived",
+     "injections_min": "derived",
+     "infusions": "derived",
+     "infusion_hours_min": "derived",
+     "dosing_days": "derived",
+     "has_undisclosed": "derived",
+     "lft_window_weeks": "derived",
+     "note": "derived",
+     "events": "derived"
+    }
+   },
+   "_key": "P-UC-TRE-SC-200",
+   "_source_ids": [
+    "SRC-LBL-TRE"
+   ]
+  },
+  {
+   "path_id": "P-UC-TRE-IV-100",
+   "brand_id": "TRE",
+   "indication": "UC",
+   "path": "IV induction → 100 mg every 8 weeks",
+   "status": "label",
+   "injections_min": 5,
+   "infusions": 3,
+   "infusion_hours_min": 3.0,
+   "dosing_days": 8,
+   "has_undisclosed": false,
+   "lft_window_weeks": 16,
+   "note": "",
+   "events": [
+    {
+     "w": 0,
+     "t": "iv",
+     "n": 1,
+     "h": 1.0
+    },
+    {
+     "w": 4,
+     "t": "iv",
+     "n": 1,
+     "h": 1.0
+    },
+    {
+     "w": 8,
+     "t": "iv",
+     "n": 1,
+     "h": 1.0
+    },
+    {
+     "w": 16,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 24,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 32,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 40,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 48,
+     "t": "sc",
+     "n": 1
+    }
+   ],
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "path_id",
+     "brand_id",
+     "indication",
+     "path",
+     "status",
+     "injections_min",
+     "infusions",
+     "infusion_hours_min",
+     "dosing_days",
+     "has_undisclosed",
+     "lft_window_weeks",
+     "note",
+     "events"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "path_id": "derived",
+     "brand_id": "derived",
+     "indication": "derived",
+     "path": "derived",
+     "status": "derived",
+     "injections_min": "derived",
+     "infusions": "derived",
+     "infusion_hours_min": "derived",
+     "dosing_days": "derived",
+     "has_undisclosed": "derived",
+     "lft_window_weeks": "derived",
+     "note": "derived",
+     "events": "derived"
+    }
+   },
+   "_key": "P-UC-TRE-IV-100",
+   "_source_ids": [
+    "SRC-LBL-TRE"
+   ]
+  },
+  {
+   "path_id": "P-UC-SKY-IV-Q8",
+   "brand_id": "SKY",
+   "indication": "UC",
+   "path": "IV induction → 180 or 360 mg every 8 weeks",
+   "status": "label",
+   "injections_min": 5,
+   "infusions": 3,
+   "infusion_hours_min": 6.0,
+   "dosing_days": 8,
+   "has_undisclosed": false,
+   "lft_window_weeks": 12,
+   "note": "",
+   "events": [
+    {
+     "w": 0,
+     "t": "iv",
+     "n": 1,
+     "h": 2.0
+    },
+    {
+     "w": 4,
+     "t": "iv",
+     "n": 1,
+     "h": 2.0
+    },
+    {
+     "w": 8,
+     "t": "iv",
+     "n": 1,
+     "h": 2.0
+    },
+    {
+     "w": 12,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 20,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 28,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 36,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 44,
+     "t": "sc",
+     "n": 1
+    }
+   ],
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "path_id",
+     "brand_id",
+     "indication",
+     "path",
+     "status",
+     "injections_min",
+     "infusions",
+     "infusion_hours_min",
+     "dosing_days",
+     "has_undisclosed",
+     "lft_window_weeks",
+     "note",
+     "events"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "path_id": "derived",
+     "brand_id": "derived",
+     "indication": "derived",
+     "path": "derived",
+     "status": "derived",
+     "injections_min": "derived",
+     "infusions": "derived",
+     "infusion_hours_min": "derived",
+     "dosing_days": "derived",
+     "has_undisclosed": "derived",
+     "lft_window_weeks": "derived",
+     "note": "derived",
+     "events": "derived"
+    }
+   },
+   "_key": "P-UC-SKY-IV-Q8",
+   "_source_ids": [
+    "SRC-LBL-SKY"
+   ]
+  },
+  {
+   "path_id": "P-CD-SKY-SC-Q8",
+   "brand_id": "SKY",
+   "indication": "CD",
+   "path": "SC induction (filed) → 180 or 360 mg every 8 weeks",
+   "status": "filed",
+   "injections_min": 5,
+   "infusions": 0,
+   "infusion_hours_min": 0,
+   "dosing_days": 5,
+   "has_undisclosed": true,
+   "lft_window_weeks": 12,
+   "note": "induction not disclosed; counts cover maintenance only",
+   "events": [
+    {
+     "w": 0,
+     "w1": 12,
+     "t": "unknown"
+    },
+    {
+     "w": 12,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 20,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 28,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 36,
+     "t": "sc",
+     "n": 1
+    },
+    {
+     "w": 44,
+     "t": "sc",
+     "n": 1
+    }
+   ],
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "path_id",
+     "brand_id",
+     "indication",
+     "path",
+     "status",
+     "injections_min",
+     "infusions",
+     "infusion_hours_min",
+     "dosing_days",
+     "has_undisclosed",
+     "lft_window_weeks",
+     "note",
+     "events"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "path_id": "derived",
+     "brand_id": "derived",
+     "indication": "derived",
+     "path": "derived",
+     "status": "derived",
+     "injections_min": "derived",
+     "infusions": "derived",
+     "infusion_hours_min": "derived",
+     "dosing_days": "derived",
+     "has_undisclosed": "derived",
+     "lft_window_weeks": "derived",
+     "note": "derived",
+     "events": "derived"
+    }
+   },
+   "_key": "P-CD-SKY-SC-Q8",
+   "_source_ids": [
+    "SRC-LBL-SKY",
+    "SRC-024"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2820 @@
+{
+ "table": "guideline_positions",
+ "description": "How each main guideline positions TREMFYA and competitors, read from the full texts (paraphrased).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "position_id": "GP-001",
+   "guideline_id": "GL-ACG-UC-2025",
+   "brand_id": "TRE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "IL-23 class recommendation for induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-001",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "position_id": "GP-002",
+   "guideline_id": "GL-ACG-UC-2025",
+   "brand_id": "SKY",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "IL-23 class recommendation for induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-002",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "position_id": "GP-003",
+   "guideline_id": "GL-ACG-UC-2025",
+   "brand_id": "OMV",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "IL-23 class recommendation for induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-003",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "position_id": "GP-004",
+   "guideline_id": "GL-ACG-UC-2025",
+   "brand_id": "RIN",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction (strong, high) and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-004",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "position_id": "GP-005",
+   "guideline_id": "GL-ACG-UC-2025",
+   "brand_id": "ENT",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-005",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "position_id": "GP-006",
+   "guideline_id": "GL-ACG-UC-2025",
+   "brand_id": "STE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Maintenance after response to its own induction (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-006",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "position_id": "GP-007",
+   "guideline_id": "GL-ACG-UC-2025",
+   "brand_id": "ZEP",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Maintenance after response to its own induction (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-007",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "position_id": "GP-008",
+   "guideline_id": "GL-ACG-UC-2025",
+   "brand_id": "VEL",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Maintenance after response to its own induction (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-008",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "position_id": "GP-009",
+   "guideline_id": "GL-ACG-UC-2025",
+   "brand_id": "ENT",
+   "setting": "vs",
+   "position": "recommended",
+   "note": "Preferred over adalimumab (strong, moderate; VARSITY)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-009",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "position_id": "GP-010",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "TRE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "IV induction then SC maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-010",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-011",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "TRE",
+   "setting": "route",
+   "position": "recommended",
+   "note": "Fully subcutaneous induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-011",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-012",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "SKY",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-012",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-013",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "OMV",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-013",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-014",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "STE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-014",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-015",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "ENT",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "IV induction and maintenance; SC maintenance option (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-015",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-016",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "RIN",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "After anti-TNF exposure (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-016",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-017",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "SKY",
+   "setting": "vs",
+   "position": "suggested",
+   "note": "Preferred over ustekinumab after anti-TNF (conditional, low; SEQUENCE)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-017",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-018",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "STE",
+   "setting": "perianal",
+   "position": "suggested",
+   "note": "Induction in perianal fistulizing disease (conditional, very low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-018",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-019",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "RIN",
+   "setting": "perianal",
+   "position": "suggested",
+   "note": "Induction in perianal fistulizing disease (conditional, very low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-019",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-020",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "ENT",
+   "setting": "perianal",
+   "position": "suggested",
+   "note": "Induction in perianal fistulizing disease (conditional, very low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-020",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-021",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "ZEP",
+   "setting": "overall",
+   "position": "n/a",
+   "note": "Not approved in Crohn's disease",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-021",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-022",
+   "guideline_id": "GL-ACG-CD-2025",
+   "brand_id": "VEL",
+   "setting": "overall",
+   "position": "n/a",
+   "note": "Not approved in Crohn's disease",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-022",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "position_id": "GP-023",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "TRE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-023",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-024",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "SKY",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-024",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-025",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "STE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-025",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-026",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "RIN",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-026",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-027",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "ENT",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-027",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-028",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "ZEP",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-028",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-029",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "VEL",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-029",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-030",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "OMV",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Over no treatment (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-030",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-031",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "TRE",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-031",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-032",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "SKY",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-032",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-033",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "RIN",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-033",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-034",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "ENT",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-034",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-035",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "ZEP",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-035",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-036",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "VEL",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-036",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-037",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "STE",
+   "setting": "naive",
+   "position": "intermediate",
+   "note": "Intermediate-efficacy group if new to advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-037",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-038",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "OMV",
+   "setting": "naive",
+   "position": "intermediate",
+   "note": "Intermediate-efficacy group if new to advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-038",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-039",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "RIN",
+   "setting": "prior",
+   "position": "higher",
+   "note": "Higher-efficacy group after advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-039",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-040",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "STE",
+   "setting": "prior",
+   "position": "higher",
+   "note": "Higher-efficacy group after advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-040",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-041",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "TRE",
+   "setting": "prior",
+   "position": "intermediate",
+   "note": "Intermediate-efficacy group after advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-041",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-042",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "SKY",
+   "setting": "prior",
+   "position": "intermediate",
+   "note": "Intermediate-efficacy group after advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-042",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-043",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "OMV",
+   "setting": "prior",
+   "position": "intermediate",
+   "note": "Intermediate-efficacy group after advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-043",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-044",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "ENT",
+   "setting": "prior",
+   "position": "lower",
+   "note": "Lower-efficacy group after advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-044",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-045",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "ZEP",
+   "setting": "prior",
+   "position": "lower",
+   "note": "Lower-efficacy group after advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-045",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-046",
+   "guideline_id": "GL-AGA-UC-2024",
+   "brand_id": "VEL",
+   "setting": "prior",
+   "position": "lower",
+   "note": "Lower-efficacy group after advanced therapy (conditional, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-046",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "position_id": "GP-047",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "TRE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-047",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-048",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "SKY",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-048",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-049",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "OMV",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-049",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-050",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "STE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-050",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-051",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "RIN",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Over no treatment (strong, moderate to high)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-051",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-052",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "ENT",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Over no treatment (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-052",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-053",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "TRE",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-053",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-054",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "SKY",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-054",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-055",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "OMV",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-055",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-056",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "STE",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-056",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-057",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "ENT",
+   "setting": "naive",
+   "position": "higher",
+   "note": "Higher-efficacy group if new to advanced therapy (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-057",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-058",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "RIN",
+   "setting": "naive",
+   "position": "lower",
+   "note": "Lower-efficacy group if new to advanced therapy (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-058",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-059",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "TRE",
+   "setting": "prior",
+   "position": "higher",
+   "note": "Higher-efficacy group after advanced therapy (conditional, low to moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-059",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-060",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "SKY",
+   "setting": "prior",
+   "position": "higher",
+   "note": "Higher-efficacy group after advanced therapy (conditional, low to moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-060",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-061",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "RIN",
+   "setting": "prior",
+   "position": "higher",
+   "note": "Higher-efficacy group after advanced therapy (conditional, low to moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-061",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-062",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "STE",
+   "setting": "prior",
+   "position": "intermediate",
+   "note": "Intermediate-efficacy group after advanced therapy (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-062",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-063",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "OMV",
+   "setting": "prior",
+   "position": "intermediate",
+   "note": "Intermediate-efficacy group after advanced therapy (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-063",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-064",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "ENT",
+   "setting": "prior",
+   "position": "lower",
+   "note": "Lower-efficacy group after advanced therapy (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-064",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-065",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "ZEP",
+   "setting": "overall",
+   "position": "n/a",
+   "note": "Not approved in Crohn's disease",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-065",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-066",
+   "guideline_id": "GL-AGA-CD-2025",
+   "brand_id": "VEL",
+   "setting": "overall",
+   "position": "n/a",
+   "note": "Not approved in Crohn's disease",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-066",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "position_id": "GP-067",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "TRE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong; moderate certainty for both)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-067",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-068",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "SKY",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction (strong, moderate) and maintenance (strong, low certainty)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-068",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-069",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "OMV",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-069",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-070",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "STE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-070",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-071",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "RIN",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-071",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-072",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "ZEP",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-072",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-073",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "ENT",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction (strong, low) and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-073",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-074",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "VEL",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-074",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-075",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "TRE",
+   "setting": "route",
+   "position": "recommended",
+   "note": "Text states SC guselkumab is also effective for induction (ASTRO)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-075",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-076",
+   "guideline_id": "GL-ECCO-UC-2026",
+   "brand_id": "ENT",
+   "setting": "vs",
+   "position": "suggested",
+   "note": "Suggested over adalimumab (weak, low)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-076",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "position_id": "GP-077",
+   "guideline_id": "GL-ECCO-CD-2024",
+   "brand_id": "TRE",
+   "setting": "overall",
+   "position": "not covered",
+   "note": "No recommendation; mentioned only as phase 2 GALAXI-1 and the DUET combination trial",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-077",
+   "_source_ids": [
+    "SRC-ECCO-CD-2024"
+   ]
+  },
+  {
+   "position_id": "GP-078",
+   "guideline_id": "GL-ECCO-CD-2024",
+   "brand_id": "SKY",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, high / moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-078",
+   "_source_ids": [
+    "SRC-ECCO-CD-2024"
+   ]
+  },
+  {
+   "position_id": "GP-079",
+   "guideline_id": "GL-ECCO-CD-2024",
+   "brand_id": "RIN",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, high / moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-079",
+   "_source_ids": [
+    "SRC-ECCO-CD-2024"
+   ]
+  },
+  {
+   "position_id": "GP-080",
+   "guideline_id": "GL-ECCO-CD-2024",
+   "brand_id": "STE",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-080",
+   "_source_ids": [
+    "SRC-ECCO-CD-2024"
+   ]
+  },
+  {
+   "position_id": "GP-081",
+   "guideline_id": "GL-ECCO-CD-2024",
+   "brand_id": "ENT",
+   "setting": "overall",
+   "position": "recommended",
+   "note": "Induction and maintenance (strong, moderate)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-081",
+   "_source_ids": [
+    "SRC-ECCO-CD-2024"
+   ]
+  },
+  {
+   "position_id": "GP-082",
+   "guideline_id": "GL-ECCO-CD-2024",
+   "brand_id": "OMV",
+   "setting": "overall",
+   "position": "not covered",
+   "note": "Not named in a recommendation",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-082",
+   "_source_ids": [
+    "SRC-ECCO-CD-2024"
+   ]
+  },
+  {
+   "position_id": "GP-083",
+   "guideline_id": "GL-ECCO-CD-2024",
+   "brand_id": "ZEP",
+   "setting": "overall",
+   "position": "n/a",
+   "note": "Not approved in Crohn's disease",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-083",
+   "_source_ids": [
+    "SRC-ECCO-CD-2024"
+   ]
+  },
+  {
+   "position_id": "GP-084",
+   "guideline_id": "GL-ECCO-CD-2024",
+   "brand_id": "VEL",
+   "setting": "overall",
+   "position": "n/a",
+   "note": "Not approved in Crohn's disease",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-084",
+   "_source_ids": [
+    "SRC-ECCO-CD-2024"
+   ]
+  },
+  {
+   "position_id": "GP-085",
+   "guideline_id": "GL-BSG-UC-2025",
+   "brand_id": "TRE",
+   "setting": "overall",
+   "position": "not covered",
+   "note": "Guselkumab not mentioned anywhere in the guideline",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-085",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-086",
+   "guideline_id": "GL-BSG-UC-2025",
+   "brand_id": "SKY",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-086",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-087",
+   "guideline_id": "GL-BSG-UC-2025",
+   "brand_id": "OMV",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-087",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-088",
+   "guideline_id": "GL-BSG-UC-2025",
+   "brand_id": "STE",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-088",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-089",
+   "guideline_id": "GL-BSG-UC-2025",
+   "brand_id": "ENT",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-089",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-090",
+   "guideline_id": "GL-BSG-UC-2025",
+   "brand_id": "ZEP",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-090",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-091",
+   "guideline_id": "GL-BSG-UC-2025",
+   "brand_id": "VEL",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-091",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-092",
+   "guideline_id": "GL-BSG-UC-2025",
+   "brand_id": "RIN",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance; worded 'recommended' but conditional strength",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-092",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-093",
+   "guideline_id": "GL-BSG-CD-2025",
+   "brand_id": "TRE",
+   "setting": "overall",
+   "position": "not covered",
+   "note": "Not named in a Crohn's recommendation",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-093",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-094",
+   "guideline_id": "GL-BSG-CD-2025",
+   "brand_id": "OMV",
+   "setting": "overall",
+   "position": "not covered",
+   "note": "Not named in a Crohn's recommendation",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-094",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-095",
+   "guideline_id": "GL-BSG-CD-2025",
+   "brand_id": "SKY",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-095",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-096",
+   "guideline_id": "GL-BSG-CD-2025",
+   "brand_id": "STE",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-096",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-097",
+   "guideline_id": "GL-BSG-CD-2025",
+   "brand_id": "RIN",
+   "setting": "overall",
+   "position": "suggested",
+   "note": "Induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-097",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-098",
+   "guideline_id": "GL-BSG-CD-2025",
+   "brand_id": "ENT",
+   "setting": "overall",
+   "position": "not suggested",
+   "note": "Not suggested for induction and maintenance (conditional)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-098",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-099",
+   "guideline_id": "GL-BSG-CD-2025",
+   "brand_id": "ZEP",
+   "setting": "overall",
+   "position": "n/a",
+   "note": "Not approved in Crohn's disease",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-099",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "position_id": "GP-100",
+   "guideline_id": "GL-BSG-CD-2025",
+   "brand_id": "VEL",
+   "setting": "overall",
+   "position": "n/a",
+   "note": "Not approved in Crohn's disease",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "position_id": "public_verified",
+     "guideline_id": "public_verified",
+     "brand_id": "public_verified",
+     "setting": "public_verified",
+     "position": "public_verified",
+     "note": "public_verified"
+    }
+   },
+   "_key": "GP-100",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  }
+ ]
+}

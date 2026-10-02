@@ -1,0 +1,1818 @@
+{
+ "table": "loe",
+ "description": "Loss of exclusivity per product and market: first approval, regulatory floor, public patent/settlement signal and the planning date the dashboard calculates with. Placeholders are simulated; J&J dates need IP confirmation.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "loe_id": "LOE-TRE-US",
+   "brand_id": "TRE",
+   "market": "US",
+   "product_type": "biologic (BLA)",
+   "first_approval": "2017-07",
+   "approval_status": "actual",
+   "regulatory_floor": "2029-07",
+   "floor_basis": "12-year biologic exclusivity from first licensure (psoriasis, Jul 2017)",
+   "public_protection": "2031-07",
+   "protection_basis": "composition patent family projected to expire in 2031 (other patent families may extend protection)",
+   "planning_loe": "2031-07",
+   "planning_basis": "mid-year of the disclosed composition-patent year (month not disclosed); J&J IP to confirm",
+   "planning_kind": "public signal",
+   "range_low": "2031-01",
+   "range_high": "2033-12",
+   "status": "exclusive",
+   "years_to_loe": 4.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "range_low",
+     "range_high"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-TRE-US",
+   "_source_ids": [
+    "SRC-LOE-JNJ",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-TRE-EU",
+   "brand_id": "TRE",
+   "market": "EU",
+   "product_type": "biologic",
+   "first_approval": "2017-11",
+   "approval_status": "actual",
+   "regulatory_floor": "2027-11",
+   "floor_basis": "8+2 years EU data and market protection (+1 year possible)",
+   "public_protection": null,
+   "protection_basis": "not disclosed (EU patents / SPCs)",
+   "planning_loe": "2032-01",
+   "planning_basis": "placeholder: SPC-extended patents usually outlast EU market protection; J&J IP to set",
+   "planning_kind": "placeholder",
+   "range_low": "2029-01",
+   "range_high": "2034-12",
+   "status": "exclusive",
+   "years_to_loe": 5.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-TRE-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-ICO-US",
+   "brand_id": "ICO",
+   "market": "US",
+   "product_type": "oral peptide (NDA)",
+   "first_approval": "2026-03",
+   "approval_status": "actual",
+   "regulatory_floor": "2031-03",
+   "floor_basis": "5-year new chemical entity exclusivity (approved in psoriasis Mar 2026)",
+   "public_protection": null,
+   "protection_basis": "not disclosed",
+   "planning_loe": "2040-01",
+   "planning_basis": "placeholder: patent life of a 2026 launch; J&J IP to set",
+   "planning_kind": "placeholder",
+   "range_low": "2036-01",
+   "range_high": "2042-12",
+   "status": "exclusive",
+   "years_to_loe": 13.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_verified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-ICO-US",
+   "_source_ids": [
+    "SRC-010",
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-ICO-EU",
+   "brand_id": "ICO",
+   "market": "EU",
+   "product_type": "oral peptide",
+   "first_approval": null,
+   "approval_status": "not approved",
+   "regulatory_floor": null,
+   "floor_basis": "8+2 years from EU approval (not yet approved)",
+   "public_protection": null,
+   "protection_basis": "not disclosed",
+   "planning_loe": "2041-01",
+   "planning_basis": "placeholder; J&J IP to set",
+   "planning_kind": "placeholder",
+   "range_low": "2037-01",
+   "range_high": "2043-12",
+   "status": "not yet approved",
+   "years_to_loe": 14.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_verified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-ICO-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-JNJ4804-US",
+   "brand_id": "JNJ4804",
+   "market": "US",
+   "product_type": "combination (guselkumab + golimumab)",
+   "first_approval": "2029-06",
+   "approval_status": "expected (simulated)",
+   "regulatory_floor": null,
+   "floor_basis": "unclear: a co-formulation of two licensed antibodies may not earn a new 12-year exclusivity",
+   "public_protection": null,
+   "protection_basis": "not disclosed (co-formulation and use patents)",
+   "planning_loe": "2040-01",
+   "planning_basis": "placeholder (expected approval simulated); J&J IP to set",
+   "planning_kind": "placeholder",
+   "range_low": "2034-01",
+   "range_high": "2044-12",
+   "status": "not yet approved",
+   "years_to_loe": 13.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "first_approval",
+     "approval_status",
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "simulated",
+     "approval_status": "simulated",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-JNJ4804-US",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-JNJ4804-EU",
+   "brand_id": "JNJ4804",
+   "market": "EU",
+   "product_type": "combination (guselkumab + golimumab)",
+   "first_approval": null,
+   "approval_status": "not approved",
+   "regulatory_floor": null,
+   "floor_basis": "unclear (combination of authorised antibodies)",
+   "public_protection": null,
+   "protection_basis": "not disclosed",
+   "planning_loe": "2041-01",
+   "planning_basis": "placeholder; J&J IP to set",
+   "planning_kind": "placeholder",
+   "range_low": "2035-01",
+   "range_high": "2044-12",
+   "status": "not yet approved",
+   "years_to_loe": 14.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_verified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-JNJ4804-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-STE-US",
+   "brand_id": "STE",
+   "market": "US",
+   "product_type": "biologic (BLA)",
+   "first_approval": "2009-09",
+   "approval_status": "actual",
+   "regulatory_floor": "2021-09",
+   "floor_basis": "12-year biologic exclusivity (ended)",
+   "public_protection": "2025-01",
+   "protection_basis": "biosimilars launched 1 Jan 2025",
+   "planning_loe": "2025-01",
+   "planning_basis": "LOE passed: biosimilars on market",
+   "planning_kind": "LOE passed",
+   "range_low": "2025-01",
+   "range_high": "2025-01",
+   "status": "generic/biosimilar on market",
+   "years_to_loe": -1.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "public_verified",
+     "range_high": "public_verified",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-STE-US",
+   "_source_ids": [
+    "SRC-STE-BIOSIM",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-STE-EU",
+   "brand_id": "STE",
+   "market": "EU",
+   "product_type": "biologic",
+   "first_approval": "2009-01",
+   "approval_status": "actual",
+   "regulatory_floor": "2019-01",
+   "floor_basis": "10-year EU market protection (ended)",
+   "public_protection": "2024-07",
+   "protection_basis": "biosimilars launched mid-2024 (public knowledge, not re-checked)",
+   "planning_loe": "2024-07",
+   "planning_basis": "LOE passed: biosimilars on market",
+   "planning_kind": "LOE passed",
+   "range_low": "2024-07",
+   "range_high": "2024-07",
+   "status": "generic/biosimilar on market",
+   "years_to_loe": -2.2,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval",
+     "public_protection"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_unverified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "public_verified",
+     "range_high": "public_verified",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-STE-EU",
+   "_source_ids": [
+    "SRC-LOE-JNJ",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-SKY-US",
+   "brand_id": "SKY",
+   "market": "US",
+   "product_type": "biologic (BLA)",
+   "first_approval": "2019-04",
+   "approval_status": "actual",
+   "regulatory_floor": "2031-04",
+   "floor_basis": "12-year biologic exclusivity (psoriasis, Apr 2019)",
+   "public_protection": "2033-07",
+   "protection_basis": "US composition of matter patent expires 2033",
+   "planning_loe": "2033-07",
+   "planning_basis": "mid-year of the disclosed patent year",
+   "planning_kind": "public signal",
+   "range_low": "2033-01",
+   "range_high": "2035-12",
+   "status": "exclusive",
+   "years_to_loe": 6.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "range_low",
+     "range_high"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-SKY-US",
+   "_source_ids": [
+    "SRC-LOE-ABBV",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-SKY-EU",
+   "brand_id": "SKY",
+   "market": "EU",
+   "product_type": "biologic",
+   "first_approval": "2019-04",
+   "approval_status": "actual",
+   "regulatory_floor": "2029-04",
+   "floor_basis": "8+2 years (+1 possible)",
+   "public_protection": null,
+   "protection_basis": "not disclosed",
+   "planning_loe": "2033-07",
+   "planning_basis": "placeholder: assumed in line with the US patent",
+   "planning_kind": "placeholder",
+   "range_low": "2030-01",
+   "range_high": "2035-12",
+   "status": "exclusive",
+   "years_to_loe": 6.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-SKY-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-OMV-US",
+   "brand_id": "OMV",
+   "market": "US",
+   "product_type": "biologic (BLA)",
+   "first_approval": "2023-10",
+   "approval_status": "actual",
+   "regulatory_floor": "2035-10",
+   "floor_basis": "biologics data protection 2035 (Lilly)",
+   "public_protection": "2037-07",
+   "protection_basis": "compound patent 2037",
+   "planning_loe": "2037-07",
+   "planning_basis": "mid-year of the disclosed patent year",
+   "planning_kind": "public signal",
+   "range_low": "2037-01",
+   "range_high": "2038-12",
+   "status": "exclusive",
+   "years_to_loe": 10.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "range_low",
+     "range_high"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-OMV-US",
+   "_source_ids": [
+    "SRC-LOE-LLY",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-OMV-EU",
+   "brand_id": "OMV",
+   "market": "EU",
+   "product_type": "biologic",
+   "first_approval": "2023-05",
+   "approval_status": "actual",
+   "regulatory_floor": "2033-05",
+   "floor_basis": "data protection 2033 (Lilly)",
+   "public_protection": "2038-07",
+   "protection_basis": "compound patent 2038 (major European countries)",
+   "planning_loe": "2038-07",
+   "planning_basis": "mid-year of the disclosed patent year",
+   "planning_kind": "public signal",
+   "range_low": "2038-01",
+   "range_high": "2039-12",
+   "status": "exclusive",
+   "years_to_loe": 11.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "range_low",
+     "range_high"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-OMV-EU",
+   "_source_ids": [
+    "SRC-LOE-LLY",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-RIN-US",
+   "brand_id": "RIN",
+   "market": "US",
+   "product_type": "small molecule (NDA)",
+   "first_approval": "2019-08",
+   "approval_status": "actual",
+   "regulatory_floor": "2024-08",
+   "floor_basis": "5-year new chemical entity exclusivity (ended)",
+   "public_protection": "2037-04",
+   "protection_basis": "no generic entry before Apr 2037 under settlements (assuming paediatric exclusivity); composition patent 2033",
+   "planning_loe": "2037-04",
+   "planning_basis": "settlement date",
+   "planning_kind": "public signal",
+   "range_low": "2037-04",
+   "range_high": "2037-10",
+   "status": "exclusive",
+   "years_to_loe": 10.6,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "range_low",
+     "range_high"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-RIN-US",
+   "_source_ids": [
+    "SRC-LOE-ABBV",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-RIN-EU",
+   "brand_id": "RIN",
+   "market": "EU",
+   "product_type": "small molecule",
+   "first_approval": "2019-12",
+   "approval_status": "actual",
+   "regulatory_floor": "2029-12",
+   "floor_basis": "8+2 years",
+   "public_protection": null,
+   "protection_basis": "not disclosed",
+   "planning_loe": "2034-01",
+   "planning_basis": "placeholder: composition patent plus SPC assumed",
+   "planning_kind": "placeholder",
+   "range_low": "2030-01",
+   "range_high": "2037-12",
+   "status": "exclusive",
+   "years_to_loe": 7.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-RIN-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-ENT-US",
+   "brand_id": "ENT",
+   "market": "US",
+   "product_type": "biologic (BLA)",
+   "first_approval": "2014-05",
+   "approval_status": "actual",
+   "regulatory_floor": "2026-05",
+   "floor_basis": "12-year biologic exclusivity (ended May 2026)",
+   "public_protection": "2032-05",
+   "protection_basis": "formulation, dosing and manufacturing patents expire 2032; AVT16 biosimilar BLA under review (decision Q1 2027); Takeda sued Sep 2026",
+   "planning_loe": "2032-05",
+   "planning_basis": "patent expiry; earlier entry possible if the litigation fails",
+   "planning_kind": "public signal",
+   "range_low": "2027-04",
+   "range_high": "2032-05",
+   "status": "biosimilar filed; exclusivity at risk",
+   "years_to_loe": 5.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "range_low",
+     "range_high"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-ENT-US",
+   "_source_ids": [
+    "SRC-LOE-TAK",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-ENT-EU",
+   "brand_id": "ENT",
+   "market": "EU",
+   "product_type": "biologic",
+   "first_approval": "2014-05",
+   "approval_status": "actual",
+   "regulatory_floor": "2024-05",
+   "floor_basis": "10-year EU market protection (ended)",
+   "public_protection": "2032-05",
+   "protection_basis": "certain patents expire 2032; biosimilar timing uncertain",
+   "planning_loe": "2032-05",
+   "planning_basis": "patent expiry; earlier entry possible",
+   "planning_kind": "public signal",
+   "range_low": "2027-01",
+   "range_high": "2032-05",
+   "status": "biosimilar filed; exclusivity at risk",
+   "years_to_loe": 5.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "range_low",
+     "range_high"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-ENT-EU",
+   "_source_ids": [
+    "SRC-LOE-TAK",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-VEL-US",
+   "brand_id": "VEL",
+   "market": "US",
+   "product_type": "small molecule (NDA)",
+   "first_approval": "2023-10",
+   "approval_status": "actual",
+   "regulatory_floor": "2028-10",
+   "floor_basis": "5-year new chemical entity exclusivity",
+   "public_protection": null,
+   "protection_basis": "not verified (Orange Book not checked)",
+   "planning_loe": "2034-01",
+   "planning_basis": "placeholder: patents assumed to outlast NCE exclusivity",
+   "planning_kind": "placeholder",
+   "range_low": "2028-10",
+   "range_high": "2037-12",
+   "status": "exclusive",
+   "years_to_loe": 7.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-VEL-US",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-VEL-EU",
+   "brand_id": "VEL",
+   "market": "EU",
+   "product_type": "small molecule",
+   "first_approval": "2024-02",
+   "approval_status": "actual",
+   "regulatory_floor": "2034-02",
+   "floor_basis": "8+2 years",
+   "public_protection": null,
+   "protection_basis": "not disclosed",
+   "planning_loe": "2034-02",
+   "planning_basis": "regulatory floor used (patents not checked)",
+   "planning_kind": "placeholder",
+   "range_low": "2034-02",
+   "range_high": "2037-12",
+   "status": "exclusive",
+   "years_to_loe": 7.4,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-VEL-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-ZEP-US",
+   "brand_id": "ZEP",
+   "market": "US",
+   "product_type": "small molecule (NDA)",
+   "first_approval": "2020-03",
+   "approval_status": "actual",
+   "regulatory_floor": "2025-03",
+   "floor_basis": "5-year new chemical entity exclusivity (ended)",
+   "public_protection": "2033-07",
+   "protection_basis": "estimated minimum market exclusivity 2033; generic litigation settled",
+   "planning_loe": "2033-07",
+   "planning_basis": "mid-year of the disclosed year",
+   "planning_kind": "public signal",
+   "range_low": "2033-01",
+   "range_high": "2033-12",
+   "status": "exclusive",
+   "years_to_loe": 6.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "range_low",
+     "range_high"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-ZEP-US",
+   "_source_ids": [
+    "SRC-LOE-BMS",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-ZEP-EU",
+   "brand_id": "ZEP",
+   "market": "EU",
+   "product_type": "small molecule",
+   "first_approval": "2020-05",
+   "approval_status": "actual",
+   "regulatory_floor": "2030-05",
+   "floor_basis": "8+2 years",
+   "public_protection": "2034-07",
+   "protection_basis": "estimated minimum market exclusivity 2034",
+   "planning_loe": "2034-07",
+   "planning_basis": "mid-year of the disclosed year",
+   "planning_kind": "public signal",
+   "range_low": "2034-01",
+   "range_high": "2034-12",
+   "status": "exclusive",
+   "years_to_loe": 7.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "range_low",
+     "range_high"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "planning_loe",
+     "status",
+     "years_to_loe"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "derived",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "derived"
+    }
+   },
+   "_key": "LOE-ZEP-EU",
+   "_source_ids": [
+    "SRC-LOE-BMS",
+    "SRC-EXCL-RULES"
+   ]
+  },
+  {
+   "loe_id": "LOE-OBE-US",
+   "brand_id": "OBE",
+   "market": "US",
+   "product_type": "small molecule (NDA)",
+   "first_approval": "2027-10",
+   "approval_status": "expected (derived)",
+   "regulatory_floor": "2032-10",
+   "floor_basis": "5-year NCE exclusivity from expected approval (NDA planned Q4 2026 + standard review)",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2037-01",
+   "planning_basis": "placeholder",
+   "planning_kind": "placeholder",
+   "range_low": "2032-10",
+   "range_high": "2040-12",
+   "status": "not yet approved",
+   "years_to_loe": 10.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [
+     "first_approval"
+    ],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_unverified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-OBE-US",
+   "_source_ids": [
+    "SRC-023",
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-OBE-EU",
+   "brand_id": "OBE",
+   "market": "EU",
+   "product_type": "small molecule",
+   "first_approval": null,
+   "approval_status": "not approved",
+   "regulatory_floor": null,
+   "floor_basis": "8+2 years from EU approval (not filed)",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2038-01",
+   "planning_basis": "placeholder",
+   "planning_kind": "placeholder",
+   "range_low": "2034-01",
+   "range_high": "2040-12",
+   "status": "not yet approved",
+   "years_to_loe": 11.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_verified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-OBE-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-TUL-US",
+   "brand_id": "TUL",
+   "market": "US",
+   "product_type": "biologic (investigational)",
+   "first_approval": "2028-06",
+   "approval_status": "expected (simulated)",
+   "regulatory_floor": "2040-06",
+   "floor_basis": "12 years from expected approval (simulated)",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2040-06",
+   "planning_basis": "placeholder: regulatory floor from simulated approval",
+   "planning_kind": "placeholder",
+   "range_low": "2039-01",
+   "range_high": "2043-12",
+   "status": "not yet approved",
+   "years_to_loe": 13.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "first_approval",
+     "approval_status",
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "simulated",
+     "approval_status": "simulated",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-TUL-US",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-TUL-EU",
+   "brand_id": "TUL",
+   "market": "EU",
+   "product_type": "biologic (investigational)",
+   "first_approval": null,
+   "approval_status": "not approved",
+   "regulatory_floor": null,
+   "floor_basis": "8+2 years from EU approval",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2039-01",
+   "planning_basis": "placeholder",
+   "planning_kind": "placeholder",
+   "range_low": "2038-01",
+   "range_high": "2043-12",
+   "status": "not yet approved",
+   "years_to_loe": 12.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_verified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-TUL-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-DUV-US",
+   "brand_id": "DUV",
+   "market": "US",
+   "product_type": "biologic (investigational)",
+   "first_approval": "2029-06",
+   "approval_status": "expected (simulated)",
+   "regulatory_floor": "2041-06",
+   "floor_basis": "12 years from expected approval (simulated)",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2041-06",
+   "planning_basis": "placeholder: regulatory floor from simulated approval",
+   "planning_kind": "placeholder",
+   "range_low": "2040-01",
+   "range_high": "2044-12",
+   "status": "not yet approved",
+   "years_to_loe": 14.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "first_approval",
+     "approval_status",
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "simulated",
+     "approval_status": "simulated",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-DUV-US",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-DUV-EU",
+   "brand_id": "DUV",
+   "market": "EU",
+   "product_type": "biologic (investigational)",
+   "first_approval": null,
+   "approval_status": "not approved",
+   "regulatory_floor": null,
+   "floor_basis": "8+2 years from EU approval",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2040-01",
+   "planning_basis": "placeholder",
+   "planning_kind": "placeholder",
+   "range_low": "2039-01",
+   "range_high": "2044-12",
+   "status": "not yet approved",
+   "years_to_loe": 13.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_verified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-DUV-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-AFI-US",
+   "brand_id": "AFI",
+   "market": "US",
+   "product_type": "biologic (investigational)",
+   "first_approval": "2029-06",
+   "approval_status": "expected (simulated)",
+   "regulatory_floor": "2041-06",
+   "floor_basis": "12 years from expected approval (simulated)",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2041-06",
+   "planning_basis": "placeholder: regulatory floor from simulated approval",
+   "planning_kind": "placeholder",
+   "range_low": "2040-01",
+   "range_high": "2044-12",
+   "status": "not yet approved",
+   "years_to_loe": 14.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "first_approval",
+     "approval_status",
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "simulated",
+     "approval_status": "simulated",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-AFI-US",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-AFI-EU",
+   "brand_id": "AFI",
+   "market": "EU",
+   "product_type": "biologic (investigational)",
+   "first_approval": null,
+   "approval_status": "not approved",
+   "regulatory_floor": null,
+   "floor_basis": "8+2 years from EU approval",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2040-01",
+   "planning_basis": "placeholder",
+   "planning_kind": "placeholder",
+   "range_low": "2039-01",
+   "range_high": "2044-12",
+   "status": "not yet approved",
+   "years_to_loe": 13.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_verified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-AFI-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-MOR-US",
+   "brand_id": "MOR",
+   "market": "US",
+   "product_type": "small molecule (investigational)",
+   "first_approval": "2030-06",
+   "approval_status": "expected (simulated)",
+   "regulatory_floor": "2035-06",
+   "floor_basis": "5-year NCE exclusivity from expected approval (simulated)",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2040-01",
+   "planning_basis": "placeholder",
+   "planning_kind": "placeholder",
+   "range_low": "2035-06",
+   "range_high": "2044-12",
+   "status": "not yet approved",
+   "years_to_loe": 13.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "first_approval",
+     "approval_status",
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "simulated",
+     "approval_status": "simulated",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-MOR-US",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "loe_id": "LOE-MOR-EU",
+   "brand_id": "MOR",
+   "market": "EU",
+   "product_type": "small molecule (investigational)",
+   "first_approval": null,
+   "approval_status": "not approved",
+   "regulatory_floor": null,
+   "floor_basis": "8+2 years from EU approval",
+   "public_protection": null,
+   "protection_basis": "not verified",
+   "planning_loe": "2041-01",
+   "planning_basis": "placeholder",
+   "planning_kind": "placeholder",
+   "range_low": "2036-01",
+   "range_high": "2044-12",
+   "status": "not yet approved",
+   "years_to_loe": 14.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "range_low",
+     "range_high",
+     "years_to_loe"
+    ],
+    "derived_fields": [
+     "regulatory_floor",
+     "status"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "loe_id": "public_verified",
+     "brand_id": "public_verified",
+     "market": "public_verified",
+     "product_type": "public_verified",
+     "first_approval": "public_verified",
+     "approval_status": "public_verified",
+     "regulatory_floor": "derived",
+     "floor_basis": "public_verified",
+     "public_protection": "public_verified",
+     "protection_basis": "public_verified",
+     "planning_loe": "simulated",
+     "planning_basis": "public_verified",
+     "planning_kind": "public_verified",
+     "range_low": "simulated",
+     "range_high": "simulated",
+     "status": "derived",
+     "years_to_loe": "simulated"
+    }
+   },
+   "_key": "LOE-MOR-EU",
+   "_source_ids": [
+    "SRC-EXCL-RULES",
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

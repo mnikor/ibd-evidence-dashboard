@@ -1,0 +1,4817 @@
+{
+ "table": "publication_themes",
+ "description": "Share of each asset's publication titles (3 years) per theme vs all tracked IBD assets (lift). Derived from real titles.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "brand_id": "TRE",
+   "theme": "bowel urgency",
+   "n": 4,
+   "share_pct": 1.7,
+   "lift_vs_all": 1.49,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 7,
+   "share_pct": 3.0,
+   "lift_vs_all": 1.04,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "theme": "histologic / deep healing",
+   "n": 26,
+   "share_pct": 11.0,
+   "lift_vs_all": 2.92,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "theme": "real-world effectiveness",
+   "n": 11,
+   "share_pct": 4.6,
+   "lift_vs_all": 0.21,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "theme": "head-to-head / comparative",
+   "n": 19,
+   "share_pct": 8.0,
+   "lift_vs_all": 0.71,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "theme": "long-term durability",
+   "n": 30,
+   "share_pct": 12.7,
+   "lift_vs_all": 1.51,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "theme": "IV-to-SC switching",
+   "n": 55,
+   "share_pct": 23.2,
+   "lift_vs_all": 5.03,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "theme": "pediatric",
+   "n": 1,
+   "share_pct": 0.4,
+   "lift_vs_all": 0.1,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TRE",
+   "theme": "safety",
+   "n": 54,
+   "share_pct": 22.8,
+   "lift_vs_all": 1.17,
+   "n_asset_pubs": 237,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TRE#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "bowel urgency",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "histologic / deep healing",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "real-world effectiveness",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "head-to-head / comparative",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "long-term durability",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "IV-to-SC switching",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "pediatric",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ICO",
+   "theme": "safety",
+   "n": 2,
+   "share_pct": 22.2,
+   "lift_vs_all": 1.14,
+   "n_asset_pubs": 9,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ICO#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "bowel urgency",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 17,
+   "share_pct": 4.1,
+   "lift_vs_all": 1.44,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "histologic / deep healing",
+   "n": 5,
+   "share_pct": 1.2,
+   "lift_vs_all": 0.32,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 15,
+   "share_pct": 3.6,
+   "lift_vs_all": 3.06,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "real-world effectiveness",
+   "n": 117,
+   "share_pct": 28.2,
+   "lift_vs_all": 1.28,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "head-to-head / comparative",
+   "n": 78,
+   "share_pct": 18.8,
+   "lift_vs_all": 1.66,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "long-term durability",
+   "n": 41,
+   "share_pct": 9.9,
+   "lift_vs_all": 1.18,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "IV-to-SC switching",
+   "n": 7,
+   "share_pct": 1.7,
+   "lift_vs_all": 0.37,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "pediatric",
+   "n": 9,
+   "share_pct": 2.2,
+   "lift_vs_all": 0.53,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "SKY",
+   "theme": "safety",
+   "n": 82,
+   "share_pct": 19.8,
+   "lift_vs_all": 1.01,
+   "n_asset_pubs": 415,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "SKY#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "bowel urgency",
+   "n": 30,
+   "share_pct": 8.4,
+   "lift_vs_all": 7.4,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 31,
+   "share_pct": 8.7,
+   "lift_vs_all": 3.05,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "histologic / deep healing",
+   "n": 34,
+   "share_pct": 9.5,
+   "lift_vs_all": 2.54,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "real-world effectiveness",
+   "n": 57,
+   "share_pct": 16.0,
+   "lift_vs_all": 0.73,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "head-to-head / comparative",
+   "n": 26,
+   "share_pct": 7.3,
+   "lift_vs_all": 0.65,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "long-term durability",
+   "n": 61,
+   "share_pct": 17.1,
+   "lift_vs_all": 2.04,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "IV-to-SC switching",
+   "n": 7,
+   "share_pct": 2.0,
+   "lift_vs_all": 0.43,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "pediatric",
+   "n": 10,
+   "share_pct": 2.8,
+   "lift_vs_all": 0.68,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OMV",
+   "theme": "safety",
+   "n": 82,
+   "share_pct": 23.0,
+   "lift_vs_all": 1.18,
+   "n_asset_pubs": 357,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OMV#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "bowel urgency",
+   "n": 3,
+   "share_pct": 0.4,
+   "lift_vs_all": 0.37,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 12,
+   "share_pct": 1.7,
+   "lift_vs_all": 0.59,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "histologic / deep healing",
+   "n": 10,
+   "share_pct": 1.4,
+   "lift_vs_all": 0.37,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 9,
+   "share_pct": 1.3,
+   "lift_vs_all": 1.07,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "real-world effectiveness",
+   "n": 209,
+   "share_pct": 29.4,
+   "lift_vs_all": 1.34,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "head-to-head / comparative",
+   "n": 74,
+   "share_pct": 10.4,
+   "lift_vs_all": 0.92,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "long-term durability",
+   "n": 50,
+   "share_pct": 7.0,
+   "lift_vs_all": 0.84,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "IV-to-SC switching",
+   "n": 1,
+   "share_pct": 0.1,
+   "lift_vs_all": 0.03,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "pediatric",
+   "n": 38,
+   "share_pct": 5.3,
+   "lift_vs_all": 1.3,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "RIN",
+   "theme": "safety",
+   "n": 164,
+   "share_pct": 23.1,
+   "lift_vs_all": 1.18,
+   "n_asset_pubs": 711,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "RIN#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "bowel urgency",
+   "n": 4,
+   "share_pct": 0.4,
+   "lift_vs_all": 0.38,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 13,
+   "share_pct": 1.4,
+   "lift_vs_all": 0.5,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "histologic / deep healing",
+   "n": 29,
+   "share_pct": 3.2,
+   "lift_vs_all": 0.84,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 6,
+   "share_pct": 0.7,
+   "lift_vs_all": 0.55,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "real-world effectiveness",
+   "n": 274,
+   "share_pct": 29.9,
+   "lift_vs_all": 1.36,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "head-to-head / comparative",
+   "n": 199,
+   "share_pct": 21.7,
+   "lift_vs_all": 1.93,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "long-term durability",
+   "n": 53,
+   "share_pct": 5.8,
+   "lift_vs_all": 0.69,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "IV-to-SC switching",
+   "n": 90,
+   "share_pct": 9.8,
+   "lift_vs_all": 2.13,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "pediatric",
+   "n": 33,
+   "share_pct": 3.6,
+   "lift_vs_all": 0.87,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ENT",
+   "theme": "safety",
+   "n": 151,
+   "share_pct": 16.5,
+   "lift_vs_all": 0.85,
+   "n_asset_pubs": 915,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ENT#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "bowel urgency",
+   "n": 2,
+   "share_pct": 1.3,
+   "lift_vs_all": 1.17,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 7,
+   "share_pct": 4.7,
+   "lift_vs_all": 1.64,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "histologic / deep healing",
+   "n": 3,
+   "share_pct": 2.0,
+   "lift_vs_all": 0.53,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "real-world effectiveness",
+   "n": 12,
+   "share_pct": 8.0,
+   "lift_vs_all": 0.36,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "head-to-head / comparative",
+   "n": 10,
+   "share_pct": 6.7,
+   "lift_vs_all": 0.59,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "long-term durability",
+   "n": 10,
+   "share_pct": 6.7,
+   "lift_vs_all": 0.8,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "IV-to-SC switching",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "pediatric",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "VEL",
+   "theme": "safety",
+   "n": 56,
+   "share_pct": 37.3,
+   "lift_vs_all": 1.92,
+   "n_asset_pubs": 150,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "VEL#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "bowel urgency",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 1,
+   "share_pct": 0.9,
+   "lift_vs_all": 0.33,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "histologic / deep healing",
+   "n": 6,
+   "share_pct": 5.6,
+   "lift_vs_all": 1.49,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "real-world effectiveness",
+   "n": 15,
+   "share_pct": 14.0,
+   "lift_vs_all": 0.64,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "head-to-head / comparative",
+   "n": 10,
+   "share_pct": 9.3,
+   "lift_vs_all": 0.83,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "long-term durability",
+   "n": 20,
+   "share_pct": 18.7,
+   "lift_vs_all": 2.23,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "IV-to-SC switching",
+   "n": 2,
+   "share_pct": 1.9,
+   "lift_vs_all": 0.41,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "pediatric",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "ZEP",
+   "theme": "safety",
+   "n": 29,
+   "share_pct": 27.1,
+   "lift_vs_all": 1.39,
+   "n_asset_pubs": 107,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "ZEP#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "bowel urgency",
+   "n": 1,
+   "share_pct": 1.6,
+   "lift_vs_all": 1.4,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 7,
+   "share_pct": 11.1,
+   "lift_vs_all": 3.9,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "histologic / deep healing",
+   "n": 6,
+   "share_pct": 9.5,
+   "lift_vs_all": 2.54,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "real-world effectiveness",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "head-to-head / comparative",
+   "n": 2,
+   "share_pct": 3.2,
+   "lift_vs_all": 0.28,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "long-term durability",
+   "n": 5,
+   "share_pct": 7.9,
+   "lift_vs_all": 0.95,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "IV-to-SC switching",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "pediatric",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "OBE",
+   "theme": "safety",
+   "n": 23,
+   "share_pct": 36.5,
+   "lift_vs_all": 1.87,
+   "n_asset_pubs": 63,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "OBE#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "bowel urgency",
+   "n": 1,
+   "share_pct": 2.6,
+   "lift_vs_all": 2.26,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 7,
+   "share_pct": 17.9,
+   "lift_vs_all": 6.3,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "histologic / deep healing",
+   "n": 6,
+   "share_pct": 15.4,
+   "lift_vs_all": 4.1,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "real-world effectiveness",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "head-to-head / comparative",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "long-term durability",
+   "n": 12,
+   "share_pct": 30.8,
+   "lift_vs_all": 3.68,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "IV-to-SC switching",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "pediatric",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "TUL",
+   "theme": "safety",
+   "n": 19,
+   "share_pct": 48.7,
+   "lift_vs_all": 2.5,
+   "n_asset_pubs": 39,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "TUL#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "bowel urgency",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 2,
+   "share_pct": 18.2,
+   "lift_vs_all": 6.38,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "histologic / deep healing",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "real-world effectiveness",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "head-to-head / comparative",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "long-term durability",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "IV-to-SC switching",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "pediatric",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "DUV",
+   "theme": "safety",
+   "n": 6,
+   "share_pct": 54.5,
+   "lift_vs_all": 2.8,
+   "n_asset_pubs": 11,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "DUV#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "bowel urgency",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 1,
+   "share_pct": 8.3,
+   "lift_vs_all": 2.92,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "histologic / deep healing",
+   "n": 2,
+   "share_pct": 16.7,
+   "lift_vs_all": 4.44,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "real-world effectiveness",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "head-to-head / comparative",
+   "n": 1,
+   "share_pct": 8.3,
+   "lift_vs_all": 0.74,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "long-term durability",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "IV-to-SC switching",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "pediatric",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "AFI",
+   "theme": "safety",
+   "n": 1,
+   "share_pct": 8.3,
+   "lift_vs_all": 0.43,
+   "n_asset_pubs": 12,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "AFI#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "bowel urgency",
+   "n": 0,
+   "share_pct": 0.0,
+   "lift_vs_all": 0.0,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "fatigue & patient-reported outcomes",
+   "n": 11,
+   "share_pct": 1.2,
+   "lift_vs_all": 0.4,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE#2",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "histologic / deep healing",
+   "n": 19,
+   "share_pct": 2.0,
+   "lift_vs_all": 0.53,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE#3",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "transmural / intestinal ultrasound",
+   "n": 13,
+   "share_pct": 1.4,
+   "lift_vs_all": 1.15,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE#4",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "real-world effectiveness",
+   "n": 287,
+   "share_pct": 30.1,
+   "lift_vs_all": 1.37,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE#5",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "head-to-head / comparative",
+   "n": 203,
+   "share_pct": 21.3,
+   "lift_vs_all": 1.88,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE#6",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "long-term durability",
+   "n": 75,
+   "share_pct": 7.9,
+   "lift_vs_all": 0.94,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE#7",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "IV-to-SC switching",
+   "n": 37,
+   "share_pct": 3.9,
+   "lift_vs_all": 0.84,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE#8",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "pediatric",
+   "n": 64,
+   "share_pct": 6.7,
+   "lift_vs_all": 1.62,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE#9",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "brand_id": "STE",
+   "theme": "safety",
+   "n": 158,
+   "share_pct": 16.5,
+   "lift_vs_all": 0.85,
+   "n_asset_pubs": 955,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "brand_id",
+     "theme",
+     "n",
+     "share_pct",
+     "lift_vs_all",
+     "n_asset_pubs"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "brand_id": "derived",
+     "theme": "derived",
+     "n": "derived",
+     "share_pct": "derived",
+     "lift_vs_all": "derived",
+     "n_asset_pubs": "derived"
+    }
+   },
+   "_key": "STE#10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  }
+ ]
+}

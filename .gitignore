@@ -1,0 +1,18 @@
+# local Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# large media and built outputs (rebuild with the scripts; share via other channels)
+video/
+video2/
+dist/
+*.zip
+*.mp4
+*.wav
+
+# deck build dependencies and rendered images
+deck/node_modules/
+deck/png/
+deck/png_arial/

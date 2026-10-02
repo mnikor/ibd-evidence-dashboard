@@ -1,0 +1,1507 @@
+{
+ "table": "loe_start_by",
+ "description": "Derived: the last month a new study of each type can start and still give at least 2 years of use by guidelines and payers before the planning LOE.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "start_by_id": "SB-TRE-US-Phase3RCT",
+   "brand_id": "TRE",
+   "market": "US",
+   "archetype": "Phase 3 RCT",
+   "typical_duration_months": 35,
+   "duration_basis": "median of 15 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2031-07-15",
+   "last_useful_start": "2023-11-15",
+   "months_left": -34,
+   "years_if_started_now": -0.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis",
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "derived",
+     "last_useful_start": "derived",
+     "months_left": "derived",
+     "years_if_started_now": "derived"
+    }
+   },
+   "_key": "SB-TRE-US-Phase3RCT",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-US-Phase4/ex",
+   "brand_id": "TRE",
+   "market": "US",
+   "archetype": "Phase 4 / extension",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 5 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2031-07-15",
+   "last_useful_start": "2024-09-15",
+   "months_left": -24,
+   "years_if_started_now": 0.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis",
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "derived",
+     "last_useful_start": "derived",
+     "months_left": "derived",
+     "years_if_started_now": "derived"
+    }
+   },
+   "_key": "SB-TRE-US-Phase4/ex",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-US-Phase2",
+   "brand_id": "TRE",
+   "market": "US",
+   "archetype": "Phase 2",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 5 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2031-07-15",
+   "last_useful_start": "2024-09-15",
+   "months_left": -24,
+   "years_if_started_now": 0.0,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis",
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "derived",
+     "last_useful_start": "derived",
+     "months_left": "derived",
+     "years_if_started_now": "derived"
+    }
+   },
+   "_key": "SB-TRE-US-Phase2",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-US-Prospective",
+   "brand_id": "TRE",
+   "market": "US",
+   "archetype": "Prospective RWE",
+   "typical_duration_months": 33,
+   "duration_basis": "median of 20 J&J studies",
+   "readout_lag_months": 2,
+   "paper_lag_months": 9,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2031-07-15",
+   "last_useful_start": "2024-05-15",
+   "months_left": -28,
+   "years_if_started_now": -0.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis",
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "derived",
+     "last_useful_start": "derived",
+     "months_left": "derived",
+     "years_if_started_now": "derived"
+    }
+   },
+   "_key": "SB-TRE-US-Prospective",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-US-Retrospectiv",
+   "brand_id": "TRE",
+   "market": "US",
+   "archetype": "Retrospective RWE",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 2 J&J studies",
+   "readout_lag_months": 2,
+   "paper_lag_months": 6,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2031-07-15",
+   "last_useful_start": "2025-04-15",
+   "months_left": -17,
+   "years_if_started_now": 0.6,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis",
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "derived",
+     "last_useful_start": "derived",
+     "months_left": "derived",
+     "years_if_started_now": "derived"
+    }
+   },
+   "_key": "SB-TRE-US-Retrospectiv",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-US-Evidencesyn",
+   "brand_id": "TRE",
+   "market": "US",
+   "archetype": "Evidence synthesis / HEOR",
+   "typical_duration_months": 6,
+   "duration_basis": "median of 4 J&J studies",
+   "readout_lag_months": 0,
+   "paper_lag_months": 6,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2031-07-15",
+   "last_useful_start": "2027-01-15",
+   "months_left": 4,
+   "years_if_started_now": 2.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis",
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "derived",
+     "last_useful_start": "derived",
+     "months_left": "derived",
+     "years_if_started_now": "derived"
+    }
+   },
+   "_key": "SB-TRE-US-Evidencesyn",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-EU-Phase3RCT",
+   "brand_id": "TRE",
+   "market": "EU",
+   "archetype": "Phase 3 RCT",
+   "typical_duration_months": 35,
+   "duration_basis": "median of 15 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2032-01-15",
+   "last_useful_start": "2024-05-15",
+   "months_left": -28,
+   "years_if_started_now": -0.3,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-TRE-EU-Phase3RCT",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-EU-Phase4/ex",
+   "brand_id": "TRE",
+   "market": "EU",
+   "archetype": "Phase 4 / extension",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 5 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2032-01-15",
+   "last_useful_start": "2025-03-15",
+   "months_left": -18,
+   "years_if_started_now": 0.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-TRE-EU-Phase4/ex",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-EU-Phase2",
+   "brand_id": "TRE",
+   "market": "EU",
+   "archetype": "Phase 2",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 5 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2032-01-15",
+   "last_useful_start": "2025-03-15",
+   "months_left": -18,
+   "years_if_started_now": 0.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-TRE-EU-Phase2",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-EU-Prospective",
+   "brand_id": "TRE",
+   "market": "EU",
+   "archetype": "Prospective RWE",
+   "typical_duration_months": 33,
+   "duration_basis": "median of 20 J&J studies",
+   "readout_lag_months": 2,
+   "paper_lag_months": 9,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2032-01-15",
+   "last_useful_start": "2024-11-15",
+   "months_left": -22,
+   "years_if_started_now": 0.2,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-TRE-EU-Prospective",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-EU-Retrospectiv",
+   "brand_id": "TRE",
+   "market": "EU",
+   "archetype": "Retrospective RWE",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 2 J&J studies",
+   "readout_lag_months": 2,
+   "paper_lag_months": 6,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2032-01-15",
+   "last_useful_start": "2025-10-15",
+   "months_left": -11,
+   "years_if_started_now": 1.1,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-TRE-EU-Retrospectiv",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-TRE-EU-Evidencesyn",
+   "brand_id": "TRE",
+   "market": "EU",
+   "archetype": "Evidence synthesis / HEOR",
+   "typical_duration_months": 6,
+   "duration_basis": "median of 4 J&J studies",
+   "readout_lag_months": 0,
+   "paper_lag_months": 6,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2032-01-15",
+   "last_useful_start": "2027-07-15",
+   "months_left": 10,
+   "years_if_started_now": 2.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-TRE-EU-Evidencesyn",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-ICO-US-Phase3RCT",
+   "brand_id": "ICO",
+   "market": "US",
+   "archetype": "Phase 3 RCT",
+   "typical_duration_months": 35,
+   "duration_basis": "median of 15 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2032-05-15",
+   "months_left": 68,
+   "years_if_started_now": 7.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-ICO-US-Phase3RCT",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-ICO-US-Phase4/ex",
+   "brand_id": "ICO",
+   "market": "US",
+   "archetype": "Phase 4 / extension",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 5 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2033-03-15",
+   "months_left": 78,
+   "years_if_started_now": 8.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-ICO-US-Phase4/ex",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-ICO-US-Phase2",
+   "brand_id": "ICO",
+   "market": "US",
+   "archetype": "Phase 2",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 5 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2033-03-15",
+   "months_left": 78,
+   "years_if_started_now": 8.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-ICO-US-Phase2",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-ICO-US-Prospective",
+   "brand_id": "ICO",
+   "market": "US",
+   "archetype": "Prospective RWE",
+   "typical_duration_months": 33,
+   "duration_basis": "median of 20 J&J studies",
+   "readout_lag_months": 2,
+   "paper_lag_months": 9,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2032-11-15",
+   "months_left": 74,
+   "years_if_started_now": 8.2,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-ICO-US-Prospective",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-ICO-US-Retrospectiv",
+   "brand_id": "ICO",
+   "market": "US",
+   "archetype": "Retrospective RWE",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 2 J&J studies",
+   "readout_lag_months": 2,
+   "paper_lag_months": 6,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2033-10-15",
+   "months_left": 85,
+   "years_if_started_now": 9.1,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-ICO-US-Retrospectiv",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-ICO-US-Evidencesyn",
+   "brand_id": "ICO",
+   "market": "US",
+   "archetype": "Evidence synthesis / HEOR",
+   "typical_duration_months": 6,
+   "duration_basis": "median of 4 J&J studies",
+   "readout_lag_months": 0,
+   "paper_lag_months": 6,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2035-07-15",
+   "months_left": 106,
+   "years_if_started_now": 10.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-ICO-US-Evidencesyn",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-JNJ4804-US-Phase3RCT",
+   "brand_id": "JNJ4804",
+   "market": "US",
+   "archetype": "Phase 3 RCT",
+   "typical_duration_months": 35,
+   "duration_basis": "median of 15 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2032-05-15",
+   "months_left": 68,
+   "years_if_started_now": 7.7,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-JNJ4804-US-Phase3RCT",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-JNJ4804-US-Phase4/ex",
+   "brand_id": "JNJ4804",
+   "market": "US",
+   "archetype": "Phase 4 / extension",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 5 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2033-03-15",
+   "months_left": 78,
+   "years_if_started_now": 8.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-JNJ4804-US-Phase4/ex",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-JNJ4804-US-Phase2",
+   "brand_id": "JNJ4804",
+   "market": "US",
+   "archetype": "Phase 2",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 5 J&J studies",
+   "readout_lag_months": 3,
+   "paper_lag_months": 12,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2033-03-15",
+   "months_left": 78,
+   "years_if_started_now": 8.5,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-JNJ4804-US-Phase2",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-JNJ4804-US-Prospective",
+   "brand_id": "JNJ4804",
+   "market": "US",
+   "archetype": "Prospective RWE",
+   "typical_duration_months": 33,
+   "duration_basis": "median of 20 J&J studies",
+   "readout_lag_months": 2,
+   "paper_lag_months": 9,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2032-11-15",
+   "months_left": 74,
+   "years_if_started_now": 8.2,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-JNJ4804-US-Prospective",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-JNJ4804-US-Retrospectiv",
+   "brand_id": "JNJ4804",
+   "market": "US",
+   "archetype": "Retrospective RWE",
+   "typical_duration_months": 25,
+   "duration_basis": "median of 2 J&J studies",
+   "readout_lag_months": 2,
+   "paper_lag_months": 6,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2033-10-15",
+   "months_left": 85,
+   "years_if_started_now": 9.1,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-JNJ4804-US-Retrospectiv",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  },
+  {
+   "start_by_id": "SB-JNJ4804-US-Evidencesyn",
+   "brand_id": "JNJ4804",
+   "market": "US",
+   "archetype": "Evidence synthesis / HEOR",
+   "typical_duration_months": 6,
+   "duration_basis": "median of 4 J&J studies",
+   "readout_lag_months": 0,
+   "paper_lag_months": 6,
+   "uptake_lag_months": 18,
+   "min_years_before_loe": 2,
+   "planning_loe": "2040-01-15",
+   "last_useful_start": "2035-07-15",
+   "months_left": 106,
+   "years_if_started_now": 10.8,
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "planning_loe",
+     "last_useful_start",
+     "months_left",
+     "years_if_started_now"
+    ],
+    "derived_fields": [
+     "start_by_id",
+     "brand_id",
+     "market",
+     "archetype",
+     "typical_duration_months",
+     "duration_basis"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "readout_lag_months",
+     "paper_lag_months",
+     "uptake_lag_months",
+     "min_years_before_loe"
+    ],
+    "field_origin": {
+     "start_by_id": "derived",
+     "brand_id": "derived",
+     "market": "derived",
+     "archetype": "derived",
+     "typical_duration_months": "derived",
+     "duration_basis": "derived",
+     "readout_lag_months": "ai_inferred",
+     "paper_lag_months": "ai_inferred",
+     "uptake_lag_months": "ai_inferred",
+     "min_years_before_loe": "ai_inferred",
+     "planning_loe": "simulated",
+     "last_useful_start": "simulated",
+     "months_left": "simulated",
+     "years_if_started_now": "simulated"
+    }
+   },
+   "_key": "SB-JNJ4804-US-Evidencesyn",
+   "_source_ids": [
+    "SRC-CTGOV",
+    "SRC-LOE-JNJ",
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

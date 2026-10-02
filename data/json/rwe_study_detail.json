@@ -1,0 +1,1043 @@
+{
+ "table": "rwe_study_detail",
+ "description": "RWE study details. Registry N/dates public; data source, method and outcomes largely simulated.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "study_id": "NCT07487480",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 60,
+   "follow_up_months": 36,
+   "comparator_cohorts": "none (single-arm)",
+   "analytic_method": "PSM",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07487480",
+   "first_data_cut": "2026-02-10",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07487480",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07487311",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 80,
+   "follow_up_months": 36,
+   "comparator_cohorts": "risankizumab",
+   "analytic_method": "IPTW",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07487311",
+   "first_data_cut": "2027-01-07",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07487311",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07242248",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 220,
+   "follow_up_months": 36,
+   "comparator_cohorts": "none (single-arm)",
+   "analytic_method": "PSM",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07242248",
+   "first_data_cut": "2026-11-17",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07242248",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07528040",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 88,
+   "follow_up_months": 12,
+   "comparator_cohorts": "risankizumab",
+   "analytic_method": "descriptive",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07528040",
+   "first_data_cut": "2027-04-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07528040",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07602517",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 75,
+   "follow_up_months": 12,
+   "comparator_cohorts": "none (single-arm)",
+   "analytic_method": "target-trial emulation",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07602517",
+   "first_data_cut": "2027-05-20",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07602517",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07822529",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 400,
+   "follow_up_months": 24,
+   "comparator_cohorts": "vedolizumab",
+   "analytic_method": "IPTW",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07822529",
+   "first_data_cut": "2027-09-18",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07822529",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07545317",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 665,
+   "follow_up_months": 12,
+   "comparator_cohorts": "risankizumab",
+   "analytic_method": "IPTW",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07545317",
+   "first_data_cut": "2027-04-16",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07545317",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07606339",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 35,
+   "follow_up_months": 36,
+   "comparator_cohorts": "ustekinumab / biosimilar",
+   "analytic_method": "target-trial emulation",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07606339",
+   "first_data_cut": "2027-06-10",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07606339",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07034664",
+   "data_source_type": "claims",
+   "data_source_names": "national IBD registry",
+   "n_expected": 50,
+   "follow_up_months": 12,
+   "comparator_cohorts": "ustekinumab / biosimilar",
+   "analytic_method": "PSM",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07034664",
+   "first_data_cut": "2026-06-16",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07034664",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07532213",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 50,
+   "follow_up_months": 24,
+   "comparator_cohorts": "none (single-arm)",
+   "analytic_method": "PSM",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07532213",
+   "first_data_cut": "2027-04-13",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07532213",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07726888",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 97,
+   "follow_up_months": 36,
+   "comparator_cohorts": "risankizumab",
+   "analytic_method": "IPTW",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07726888",
+   "first_data_cut": "2027-07-28",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07726888",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07184138",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 178,
+   "follow_up_months": 12,
+   "comparator_cohorts": "none (single-arm)",
+   "analytic_method": "descriptive",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07184138",
+   "first_data_cut": "2026-10-01",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07184138",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07102368",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 500,
+   "follow_up_months": 12,
+   "comparator_cohorts": "ustekinumab / biosimilar",
+   "analytic_method": "IPTW",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07102368",
+   "first_data_cut": "2026-08-18",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07102368",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT06249555",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 300,
+   "follow_up_months": 24,
+   "comparator_cohorts": "none (single-arm)",
+   "analytic_method": "target-trial emulation",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT06249555",
+   "first_data_cut": "2025-03-20",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT06249555",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT02103361",
+   "data_source_type": "linked claims-EHR",
+   "data_source_names": "IQVIA PharMetrics",
+   "n_expected": 200,
+   "follow_up_months": 36,
+   "comparator_cohorts": "vedolizumab",
+   "analytic_method": "IPTW",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT02103361",
+   "first_data_cut": "2014-11-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT02103361",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07541261",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 100,
+   "follow_up_months": 36,
+   "comparator_cohorts": "vedolizumab",
+   "analytic_method": "target-trial emulation",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07541261",
+   "first_data_cut": "2027-05-12",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07541261",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07302360",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 200,
+   "follow_up_months": 12,
+   "comparator_cohorts": "none (single-arm)",
+   "analytic_method": "target-trial emulation",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07302360",
+   "first_data_cut": "2026-12-11",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07302360",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07245394",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 200,
+   "follow_up_months": 36,
+   "comparator_cohorts": "ustekinumab / biosimilar",
+   "analytic_method": "IPTW",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07245394",
+   "first_data_cut": "2027-01-28",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07245394",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07444060",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 100,
+   "follow_up_months": 12,
+   "comparator_cohorts": "none (single-arm)",
+   "analytic_method": "PSM",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07444060",
+   "first_data_cut": "2027-03-01",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07444060",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "NCT07746765",
+   "data_source_type": "prospective cohort",
+   "data_source_names": "site-collected eCRF",
+   "n_expected": 35,
+   "follow_up_months": 36,
+   "comparator_cohorts": "none (single-arm)",
+   "analytic_method": "IPTW",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "NCT07746765",
+   "first_data_cut": "2027-09-28",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "public_verified",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "public_verified",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "NCT07746765",
+   "_source_ids": [
+    "SRC-SIM",
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "study_id": "SIM-RWE-01",
+   "data_source_type": "linked claims-EHR",
+   "data_source_names": "Optum Clinformatics",
+   "n_expected": 12000,
+   "follow_up_months": 12,
+   "comparator_cohorts": "vedolizumab",
+   "analytic_method": "target-trial emulation",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "EU PAS (to be registered)",
+   "first_data_cut": "2027-11-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "n_expected",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes",
+     "protocol_registration"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "simulated",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "simulated",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "SIM-RWE-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "study_id": "SIM-DCE-01",
+   "data_source_type": "EHR",
+   "data_source_names": "Optum Clinformatics",
+   "n_expected": 800,
+   "follow_up_months": 36,
+   "comparator_cohorts": "vedolizumab",
+   "analytic_method": "target-trial emulation",
+   "outcomes": "persistence; steroid-free remission; dose escalation; HCRU",
+   "protocol_registration": "EU PAS (to be registered)",
+   "first_data_cut": "2027-12-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "study_id",
+     "data_source_type",
+     "data_source_names",
+     "n_expected",
+     "follow_up_months",
+     "comparator_cohorts",
+     "analytic_method",
+     "outcomes",
+     "protocol_registration"
+    ],
+    "derived_fields": [
+     "first_data_cut"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "data_source_type": "simulated",
+     "data_source_names": "simulated",
+     "n_expected": "simulated",
+     "follow_up_months": "simulated",
+     "comparator_cohorts": "simulated",
+     "analytic_method": "simulated",
+     "outcomes": "simulated",
+     "protocol_registration": "simulated",
+     "first_data_cut": "derived"
+    }
+   },
+   "_key": "SIM-DCE-01",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

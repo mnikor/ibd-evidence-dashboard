@@ -1,0 +1,248 @@
+{
+ "table": "guidelines",
+ "description": "Clinical guidelines (public).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "guideline_id": "GL-ACG-UC-2025",
+   "body": "ACG",
+   "indication": "UC",
+   "version_date": "2025-06",
+   "summary": "Guselkumab, mirikizumab and risankizumab recommended together as one IL-23 class for induction and maintenance (strong, moderate); vedolizumab preferred over adalimumab",
+   "next_update_expected": "2027-06-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "next_update_expected"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "guideline_id": "public_verified",
+     "body": "public_verified",
+     "indication": "public_verified",
+     "version_date": "public_verified",
+     "summary": "public_verified",
+     "next_update_expected": "simulated"
+    }
+   },
+   "_key": "GL-ACG-UC-2025",
+   "_source_ids": [
+    "SRC-037"
+   ]
+  },
+  {
+   "guideline_id": "GL-AGA-CD-2025",
+   "body": "AGA (living)",
+   "indication": "CD",
+   "version_date": "2025-11-20",
+   "summary": "Recommends infliximab, adalimumab, ustekinumab, risankizumab, mirikizumab, guselkumab, upadacitinib over no treatment; emphasises early high-efficacy therapy over step-up",
+   "next_update_expected": "2027-11-20",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "next_update_expected"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "guideline_id": "public_verified",
+     "body": "public_verified",
+     "indication": "public_verified",
+     "version_date": "public_verified",
+     "summary": "public_verified",
+     "next_update_expected": "simulated"
+    }
+   },
+   "_key": "GL-AGA-CD-2025",
+   "_source_ids": [
+    "SRC-038"
+   ]
+  },
+  {
+   "guideline_id": "GL-ACG-CD-2025",
+   "body": "ACG",
+   "indication": "CD",
+   "version_date": "2025-06",
+   "summary": "Guselkumab recommended with IV or with SC induction (two strong recommendations); risankizumab also preferred over ustekinumab after anti-TNF (conditional); no IL-23p19 drug suggested for perianal fistulas",
+   "next_update_expected": "2027-06-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "next_update_expected"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "guideline_id": "public_verified",
+     "body": "public_verified",
+     "indication": "public_verified",
+     "version_date": "public_verified",
+     "summary": "public_verified",
+     "next_update_expected": "simulated"
+    }
+   },
+   "_key": "GL-ACG-CD-2025",
+   "_source_ids": [
+    "SRC-ACG-CD-2025",
+    "SRC-039"
+   ]
+  },
+  {
+   "guideline_id": "GL-AGA-UC-2024",
+   "body": "AGA (living)",
+   "indication": "UC",
+   "version_date": "2024-12",
+   "summary": "Recommends guselkumab and risankizumab over no treatment; for patients new to advanced therapy lists guselkumab among higher-efficacy options; after prior advanced therapy lists it as intermediate efficacy",
+   "next_update_expected": "2026-12-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "next_update_expected"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "guideline_id": "public_verified",
+     "body": "public_verified",
+     "indication": "public_verified",
+     "version_date": "public_verified",
+     "summary": "public_verified",
+     "next_update_expected": "simulated"
+    }
+   },
+   "_key": "GL-AGA-UC-2024",
+   "_source_ids": [
+    "SRC-AGA-UC-2024"
+   ]
+  },
+  {
+   "guideline_id": "GL-ECCO-UC-2026",
+   "body": "ECCO",
+   "indication": "UC",
+   "version_date": "2026-07",
+   "summary": "Guselkumab recommended for induction and maintenance (strong, moderate certainty for both); SC guselkumab induction noted as effective; no drug preferred first-line except vedolizumab over adalimumab",
+   "next_update_expected": "2028-07-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "next_update_expected"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "guideline_id": "public_verified",
+     "body": "public_verified",
+     "indication": "public_verified",
+     "version_date": "public_verified",
+     "summary": "public_verified",
+     "next_update_expected": "simulated"
+    }
+   },
+   "_key": "GL-ECCO-UC-2026",
+   "_source_ids": [
+    "SRC-ECCO-UC-2026"
+   ]
+  },
+  {
+   "guideline_id": "GL-ECCO-CD-2024",
+   "body": "ECCO",
+   "indication": "CD",
+   "version_date": "2024-10",
+   "summary": "No guselkumab recommendation (only phase 2 GALAXI-1 and the DUET trial mentioned); risankizumab and upadacitinib recommended (strong, high certainty); mirikizumab not covered",
+   "next_update_expected": "2026-10-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "next_update_expected"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "guideline_id": "public_verified",
+     "body": "public_verified",
+     "indication": "public_verified",
+     "version_date": "public_verified",
+     "summary": "public_verified",
+     "next_update_expected": "simulated"
+    }
+   },
+   "_key": "GL-ECCO-CD-2024",
+   "_source_ids": [
+    "SRC-ECCO-CD-2024"
+   ]
+  },
+  {
+   "guideline_id": "GL-BSG-UC-2025",
+   "body": "BSG",
+   "indication": "UC",
+   "version_date": "2025-06",
+   "summary": "Guselkumab not mentioned; risankizumab, mirikizumab and ustekinumab suggested; upadacitinib recommended; adalimumab not suggested",
+   "next_update_expected": "2027-06-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "next_update_expected"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "guideline_id": "public_verified",
+     "body": "public_verified",
+     "indication": "public_verified",
+     "version_date": "public_verified",
+     "summary": "public_verified",
+     "next_update_expected": "simulated"
+    }
+   },
+   "_key": "GL-BSG-UC-2025",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  },
+  {
+   "guideline_id": "GL-BSG-CD-2025",
+   "body": "BSG",
+   "indication": "CD",
+   "version_date": "2025-06",
+   "summary": "Guselkumab and mirikizumab not mentioned; risankizumab, ustekinumab and upadacitinib suggested; vedolizumab not suggested",
+   "next_update_expected": "2027-06-15",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [
+     "next_update_expected"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "guideline_id": "public_verified",
+     "body": "public_verified",
+     "indication": "public_verified",
+     "version_date": "public_verified",
+     "summary": "public_verified",
+     "next_update_expected": "simulated"
+    }
+   },
+   "_key": "GL-BSG-CD-2025",
+   "_source_ids": [
+    "SRC-BSG-2025"
+   ]
+  }
+ ]
+}

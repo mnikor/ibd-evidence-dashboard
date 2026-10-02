@@ -1,0 +1,403 @@
+{
+ "table": "industry_symposia",
+ "description": "Industry-sponsored symposia at UEG Week 2023-2025 (UEG Gutflix listing).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "venue": "UEGW 2024",
+   "company": "AbbVie",
+   "title": "Timely action in CD: Why waiting is not an option (AbbVie) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2024",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "company": "Johnson & Johnson",
+   "title": "Blazing the trail - From IL-12/23 to IL-23 and beyond (Janssen) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2023",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "company": "AbbVie",
+   "title": "JAK inhibitors in IBD: Overtaking inflammation from the start (AbbVie) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2025",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "company": "AbbVie",
+   "title": "Charting the course in IBD: Achieving early and sustained control with IL-23 inhibitors (AbbVie) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2025#2",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "company": "Takeda",
+   "title": "Achieving control in Crohn's disease: today and tomorrow (Takeda) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2023#2",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "company": "Pfizer",
+   "title": "It takes two to tango in UC: let’s get in sync with our patients (Pfizer Inc.) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2023#3",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "company": "AbbVie",
+   "title": "Timely action in UC: Achieving mucosal healing to optimize patient outcomes (AbbVie) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2024#2",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "company": "AbbVie",
+   "title": "Revolutionizing the treatment landscape in Crohn’s disease: How IL-23 and JAK inhibitors are changing the rhythm (AbbVie) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2023#4",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "company": "Takeda",
+   "title": "Gathering intelligence to improve long-term outcomes in ulcerative colitis: new evidence (Takeda) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2023#5",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "company": "Pfizer",
+   "title": "The real-world experience: Navigating the ocean of JAKi evidence to help improve outcomes for patients with UC (Pfizer Inc.) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2023#6",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "company": "Johnson & Johnson",
+   "title": "Navigating the IL-23 universe: breaking frontiers in Crohn’s disease (Johnson and Johnson) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2025#3",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "company": "Johnson & Johnson",
+   "title": "Navigating the IL-23 universe: breaking frontiers in ulcerative colitis (Johnson and Johnson) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2025#4",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "company": "Johnson & Johnson",
+   "title": "Future horizons: a glimpse into IL-23’s next chapter (Johnson and Johnson) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2024#3",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "company": "Abivax",
+   "title": "From Evolution to Revolution: New Mechanisms of Action in Ulcerative Colitis (Abivax) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2025#5",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "company": "Celltrion",
+   "title": "When & for Whom: Intravenous vs Subcutaneous Therapies in IBD Maintenance (Celltrion) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2025#6",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "company": "Eli Lilly",
+   "title": "Paving the way to comprehensive management in CD: Long-term remission with mirikizumab (Eli Lilly and Company) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2025#7",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "company": "Eli Lilly",
+   "title": "Driving the evolution of treatment goals in UC management: Long-term remission with mirikizumab (Eli Lilly and Company) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2025#8",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "company": "Eli Lilly",
+   "title": "Early & Sustained Control in UC: from trials to clinical practice with mirikizumab (Eli Lilly and Company) (Complete Session)",
+   "_provenance": {
+    "data_origin": "public_verified",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "public_verified",
+     "company": "public_verified",
+     "title": "public_verified"
+    }
+   },
+   "_key": "UEGW 2024#4",
+   "_source_ids": [
+    "SRC-UEG"
+   ]
+  }
+ ]
+}

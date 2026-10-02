@@ -1,0 +1,1073 @@
+{
+ "table": "evidence_depth_by_domain",
+ "description": "Derived: how many running or recent (primary completion 2024+) studies register each evidence type, J&J vs competitors, by indication.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "depth_id": "UC-CLIN",
+   "indication": "UC",
+   "domain_code": "CLIN",
+   "domain": "Clinical remission / response",
+   "jnj_studies": 22,
+   "competitor_studies": 43,
+   "jnj_study_ids": "NCT05528510; NCT07487480; NCT06260163; NCT07487311; NCT07242248; NCT07577856; NCT07602517; NCT07822529; NCT07606339; NCT07532213; NCT07726888; NCT07184138; NCT07102368; NCT07541261; NCT07302360; NCT07245394; NCT07746765; NCT05242484; NCT07196748; NCT06049017; SIM-ITC-01; SIM-ITC-02",
+   "competitor_study_ids": "NCT06880744; NCT03398135; NCT07071519; NCT07697456; NCT04844606; NCT06937086; NCT05767021; NCT07186101; NCT06598943; NCT05784246; NCT03519945; NCT05782907; NCT06581328; NCT04779307; NCT03196427; NCT03221036; NCT04738942; NCT06095128; NCT04804540; NCT02620046; NCT05287126; NCT07470879; NCT03950232; NCT04607837; NCT02531126; NCT05076175; NCT03915769; NCT05507203; NCT05507216; NCT05535946; NCT05177835; NCT06052059; NCT06651281; NCT07185009; NCT05668013; NCT05499130; NCT07184996; NCT06589986; NCT06588855; NCT07158242; NCT05611671; NCT07415044; NCT06226883",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-CLIN",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-ENDO",
+   "indication": "UC",
+   "domain_code": "ENDO",
+   "domain": "Endoscopic",
+   "jnj_studies": 19,
+   "competitor_studies": 39,
+   "jnj_study_ids": "NCT05528510; NCT06260163; NCT07487311; NCT07242248; NCT07577856; NCT07822529; NCT07606339; NCT07532213; NCT07726888; NCT07184138; NCT07541261; NCT07302360; NCT07245394; NCT07746765; NCT05242484; NCT07196748; NCT06049017; SIM-ITC-01; SIM-ITC-02",
+   "competitor_study_ids": "NCT06880744; NCT03398135; NCT07071519; NCT07697456; NCT04844606; NCT06937086; NCT07186101; NCT06598943; NCT05784246; NCT03519945; NCT05782907; NCT06581328; NCT04779307; NCT03196427; NCT03221036; NCT04738942; NCT06095128; NCT04804540; NCT05287126; NCT07470879; NCT03950232; NCT04607837; NCT02531126; NCT05076175; NCT03915769; NCT05507203; NCT05507216; NCT05535946; NCT05177835; NCT06052059; NCT06651281; NCT07185009; NCT05668013; NCT05499130; NCT07184996; NCT06589986; NCT06588855; NCT07158242; NCT06226883",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-ENDO",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-HIST",
+   "indication": "UC",
+   "domain_code": "HIST",
+   "domain": "Histologic",
+   "jnj_studies": 12,
+   "competitor_studies": 19,
+   "jnj_study_ids": "NCT05528510; NCT06260163; NCT07242248; NCT07577856; NCT07822529; NCT07606339; NCT07532213; NCT07726888; NCT07746765; NCT05242484; NCT07196748; NCT06049017",
+   "competitor_study_ids": "NCT03398135; NCT04844606; NCT06937086; NCT06598943; NCT05784246; NCT03519945; NCT06095128; NCT03950232; NCT04607837; NCT02531126; NCT05507203; NCT05507216; NCT05535946; NCT06052059; NCT07185009; NCT07184996; NCT06589986; NCT06588855; NCT07158242",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-HIST",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-TRAN",
+   "indication": "UC",
+   "domain_code": "TRAN",
+   "domain": "Transmural / bowel imaging",
+   "jnj_studies": 6,
+   "competitor_studies": 0,
+   "jnj_study_ids": "NCT07242248; NCT07822529; NCT07606339; NCT07532213; NCT07726888; NCT07746765",
+   "competitor_study_ids": "",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-TRAN",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-FIST",
+   "indication": "UC",
+   "domain_code": "FIST",
+   "domain": "Fistula / perianal",
+   "jnj_studies": 0,
+   "competitor_studies": 0,
+   "jnj_study_ids": "",
+   "competitor_study_ids": "",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-FIST",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-STER",
+   "indication": "UC",
+   "domain_code": "STER",
+   "domain": "Steroid-free",
+   "jnj_studies": 14,
+   "competitor_studies": 15,
+   "jnj_study_ids": "NCT06260163; NCT07242248; NCT07577856; NCT07822529; NCT07606339; NCT07532213; NCT07726888; NCT07102368; NCT07541261; NCT07302360; NCT07245394; NCT07746765; NCT05242484; NCT07196748",
+   "competitor_study_ids": "NCT07071519; NCT04844606; NCT03519945; NCT05782907; NCT04779307; NCT04738942; NCT06095128; NCT04607837; NCT02531126; NCT05076175; NCT05535946; NCT06052059; NCT07185009; NCT05668013; NCT06589986",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-STER",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-BIOM",
+   "indication": "UC",
+   "domain_code": "BIOM",
+   "domain": "Biomarkers (CRP, calprotectin)",
+   "jnj_studies": 11,
+   "competitor_studies": 5,
+   "jnj_study_ids": "NCT07242248; NCT07602517; NCT07822529; NCT07606339; NCT07532213; NCT07726888; NCT07102368; NCT07541261; NCT07302360; NCT07245394; NCT07746765",
+   "competitor_study_ids": "NCT04844606; NCT06581328; NCT06095128; NCT06589986; NCT06588855",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-BIOM",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-PRO",
+   "indication": "UC",
+   "domain_code": "PRO",
+   "domain": "Patient-reported / quality of life",
+   "jnj_studies": 13,
+   "competitor_studies": 15,
+   "jnj_study_ids": "NCT05528510; NCT07242248; NCT07577856; NCT07822529; NCT07606339; NCT07532213; NCT07102368; NCT07541261; NCT07302360; NCT07245394; NCT07746765; NCT07196748; SIM-DCE-01",
+   "competitor_study_ids": "NCT03398135; NCT06937086; NCT05767021; NCT06598943; NCT03519945; NCT06581328; NCT06095128; NCT04804540; NCT03915769; NCT06052059; NCT07185009; NCT05499130; NCT07184996; NCT06589986; NCT06588855",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-PRO",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-PERS",
+   "indication": "UC",
+   "domain_code": "PERS",
+   "domain": "Persistence / treatment patterns",
+   "jnj_studies": 12,
+   "competitor_studies": 8,
+   "jnj_study_ids": "NCT06260163; NCT07242248; NCT07822529; NCT07606339; NCT07532213; NCT07726888; NCT07102368; NCT07541261; NCT07302360; NCT07245394; NCT07746765; SIM-RWE-01",
+   "competitor_study_ids": "NCT03221036; NCT04804540; NCT07470879; NCT05076175; NCT06052059; NCT06651281; NCT07185009; NCT07184996",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-PERS",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-HCRU",
+   "indication": "UC",
+   "domain_code": "HCRU",
+   "domain": "Healthcare use, surgery, cost",
+   "jnj_studies": 11,
+   "competitor_studies": 6,
+   "jnj_study_ids": "NCT07242248; NCT07822529; NCT07606339; NCT07532213; NCT07726888; NCT07541261; NCT07444060; NCT07746765; SIM-RWE-01; SIM-HEOR-01; SIM-HEOR-02",
+   "competitor_study_ids": "NCT03398135; NCT04844606; NCT05784246; NCT03519945; NCT07185009; NCT07184996",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-HCRU",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-SAFE",
+   "indication": "UC",
+   "domain_code": "SAFE",
+   "domain": "Safety",
+   "jnj_studies": 15,
+   "competitor_studies": 32,
+   "jnj_study_ids": "NCT05528510; NCT06260163; NCT07242248; NCT07577856; NCT07822529; NCT07606339; NCT07532213; NCT07184138; NCT07102368; NCT07541261; NCT07746765; NCT05242484; NCT06663332; NCT07196748; NCT06049017",
+   "competitor_study_ids": "NCT06346288; NCT03398135; NCT07071519; NCT07697456; NCT07612267; NCT03006068; NCT06581328; NCT04779307; NCT03196427; NCT06095128; NCT04804540; NCT06405087; NCT02620046; NCT05442567; NCT05287126; NCT07470879; NCT03950232; NCT04607837; NCT02531126; NCT05076175; NCT03915769; NCT05535946; NCT05177835; NCT06052059; NCT06651281; NCT07185009; NCT05668013; NCT05499130; NCT07184996; NCT06589986; NCT06588855; NCT07158242",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-SAFE",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-PK",
+   "indication": "UC",
+   "domain_code": "PK",
+   "domain": "Drug levels / immunogenicity",
+   "jnj_studies": 3,
+   "competitor_studies": 13,
+   "jnj_study_ids": "NCT06260163; NCT05242484; NCT07654751",
+   "competitor_study_ids": "NCT07071519; NCT06598943; NCT05784246; NCT07612267; NCT04779307; NCT06100289; NCT05287126; NCT07185009; NCT05668013; NCT05499130; NCT07184996; NCT07158242; NCT07415044",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-PK",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "UC-COMP",
+   "indication": "UC",
+   "domain_code": "COMP",
+   "domain": "Comparison vs another drug",
+   "jnj_studies": 4,
+   "competitor_studies": 1,
+   "jnj_study_ids": "NCT07444060; SIM-HEOR-01; SIM-ITC-01; SIM-ITC-02",
+   "competitor_study_ids": "NCT06880744",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "UC-COMP",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-CLIN",
+   "indication": "CD",
+   "domain_code": "CLIN",
+   "domain": "Clinical remission / response",
+   "jnj_studies": 25,
+   "competitor_studies": 33,
+   "jnj_study_ids": "NCT05923073; NCT07487480; NCT07487311; NCT05242471; NCT07242248; NCT07528040; NCT07602517; NCT07310095; NCT07822529; NCT07499232; NCT07616687; NCT07545317; NCT07606339; NCT04397263; NCT06408935; NCT07577843; NCT07532213; NCT07184138; NCT07102368; NCT06249555; NCT07541261; NCT07245394; NCT07746765; NCT07196722; NCT05347095",
+   "competitor_study_ids": "NCT05995353; NCT06548542; NCT04524611; NCT03105102; NCT07697456; NCT06063967; NCT04844606; NCT06937099; NCT05509777; NCT07483099; NCT04232553; NCT06332534; NCT02782663; NCT03345823; NCT06045754; NCT06581328; NCT03196427; NCT04779320; NCT04738942; NCT04804540; NCT05837897; NCT02620046; NCT06227910; NCT06456593; NCT06430801; NCT06651281; NCT07184931; NCT05668013; NCT05499130; NCT07184944; NCT05910528; NCT05611671; NCT06226883",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-CLIN",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-ENDO",
+   "indication": "CD",
+   "domain_code": "ENDO",
+   "domain": "Endoscopic",
+   "jnj_studies": 21,
+   "competitor_studies": 31,
+   "jnj_study_ids": "NCT05923073; NCT07487311; NCT05242471; NCT07242248; NCT07528040; NCT07310095; NCT07822529; NCT07499232; NCT07616687; NCT07545317; NCT07606339; NCT04397263; NCT06408935; NCT07577843; NCT07532213; NCT07184138; NCT07541261; NCT07245394; NCT07746765; NCT07196722; SIM-MECH-01",
+   "competitor_study_ids": "NCT05995353; NCT06548542; NCT04524611; NCT03105102; NCT07697456; NCT06063967; NCT04844606; NCT06937099; NCT05509777; NCT07483099; NCT04232553; NCT06332534; NCT02782663; NCT03345823; NCT06045754; NCT06581328; NCT03196427; NCT04779320; NCT04738942; NCT04804540; NCT05837897; NCT06227910; NCT06456593; NCT06430801; NCT06651281; NCT07184931; NCT05668013; NCT05499130; NCT07184944; NCT05910528; NCT06226883",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-ENDO",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-HIST",
+   "indication": "CD",
+   "domain_code": "HIST",
+   "domain": "Histologic",
+   "jnj_studies": 8,
+   "competitor_studies": 1,
+   "jnj_study_ids": "NCT07242248; NCT07822529; NCT07606339; NCT07577843; NCT07532213; NCT07746765; NCT07196722; SIM-MECH-01",
+   "competitor_study_ids": "NCT04844606",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-HIST",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-TRAN",
+   "indication": "CD",
+   "domain_code": "TRAN",
+   "domain": "Transmural / bowel imaging",
+   "jnj_studies": 9,
+   "competitor_studies": 0,
+   "jnj_study_ids": "NCT07242248; NCT07822529; NCT07616687; NCT07545317; NCT07606339; NCT07034664; NCT06408935; NCT07532213; NCT07746765",
+   "competitor_study_ids": "",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-TRAN",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-FIST",
+   "indication": "CD",
+   "domain_code": "FIST",
+   "domain": "Fistula / perianal",
+   "jnj_studies": 1,
+   "competitor_studies": 0,
+   "jnj_study_ids": "NCT05347095",
+   "competitor_study_ids": "",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-FIST",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-STER",
+   "indication": "CD",
+   "domain_code": "STER",
+   "domain": "Steroid-free",
+   "jnj_studies": 15,
+   "competitor_studies": 13,
+   "jnj_study_ids": "NCT05923073; NCT05242471; NCT07242248; NCT07822529; NCT07499232; NCT07545317; NCT07606339; NCT07577843; NCT07532213; NCT07102368; NCT07541261; NCT07245394; NCT07746765; NCT07196722; NCT05347095",
+   "competitor_study_ids": "NCT05995353; NCT04524611; NCT04844606; NCT06937099; NCT06332534; NCT02782663; NCT04779320; NCT04738942; NCT06227910; NCT06430801; NCT07184931; NCT05668013; NCT07184944",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-STER",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-BIOM",
+   "indication": "CD",
+   "domain_code": "BIOM",
+   "domain": "Biomarkers (CRP, calprotectin)",
+   "jnj_studies": 14,
+   "competitor_studies": 6,
+   "jnj_study_ids": "NCT07242248; NCT07602517; NCT07822529; NCT07616687; NCT07545317; NCT07606339; NCT04397263; NCT06408935; NCT07532213; NCT07102368; NCT07541261; NCT07245394; NCT07746765; SIM-MECH-01",
+   "competitor_study_ids": "NCT04844606; NCT05509777; NCT07483099; NCT04232553; NCT02782663; NCT06581328",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-BIOM",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-PRO",
+   "indication": "CD",
+   "domain_code": "PRO",
+   "domain": "Patient-reported / quality of life",
+   "jnj_studies": 17,
+   "competitor_studies": 15,
+   "jnj_study_ids": "NCT05923073; NCT05242471; NCT07242248; NCT07822529; NCT07606339; NCT04397263; NCT06408935; NCT07577843; NCT07532213; NCT07102368; NCT06249555; NCT07541261; NCT07245394; NCT07746765; NCT07196722; NCT05347095; SIM-DCE-01",
+   "competitor_study_ids": "NCT03105102; NCT06063967; NCT06937099; NCT04232553; NCT02782663; NCT03345823; NCT06045754; NCT06581328; NCT04804540; NCT06227910; NCT06430801; NCT07184931; NCT05499130; NCT07184944; NCT05910528",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-PRO",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-PERS",
+   "indication": "CD",
+   "domain_code": "PERS",
+   "domain": "Persistence / treatment patterns",
+   "jnj_studies": 11,
+   "competitor_studies": 10,
+   "jnj_study_ids": "NCT07242248; NCT07822529; NCT07499232; NCT07616687; NCT07606339; NCT07532213; NCT07102368; NCT07541261; NCT07245394; NCT07746765; SIM-RWE-01",
+   "competitor_study_ids": "NCT03105102; NCT03345823; NCT06045754; NCT04804540; NCT05837897; NCT06430801; NCT06651281; NCT07184931; NCT07184944; NCT05910528",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-PERS",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-HCRU",
+   "indication": "CD",
+   "domain_code": "HCRU",
+   "domain": "Healthcare use, surgery, cost",
+   "jnj_studies": 11,
+   "competitor_studies": 6,
+   "jnj_study_ids": "NCT07242248; NCT07310095; NCT07822529; NCT07616687; NCT07606339; NCT07532213; NCT07541261; NCT07444060; NCT07746765; SIM-RWE-01; SIM-HEOR-01",
+   "competitor_study_ids": "NCT03105102; NCT04844606; NCT05509777; NCT03345823; NCT07184931; NCT07184944",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-HCRU",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-SAFE",
+   "indication": "CD",
+   "domain_code": "SAFE",
+   "domain": "Safety",
+   "jnj_studies": 20,
+   "competitor_studies": 25,
+   "jnj_study_ids": "NCT05923073; NCT05242471; NCT07242248; NCT07528040; NCT07822529; NCT07499232; NCT07545317; NCT07606339; NCT04397263; NCT06408935; NCT07577843; NCT07532213; NCT07184138; NCT07102368; NCT02103361; NCT07541261; NCT07746765; NCT06663332; NCT07196722; NCT05347095",
+   "competitor_study_ids": "NCT06346288; NCT06548542; NCT04524611; NCT03105102; NCT07697456; NCT06063967; NCT07612267; NCT06332534; NCT03345823; NCT06581328; NCT03196427; NCT04779320; NCT04804540; NCT06405087; NCT05837897; NCT02620046; NCT05442567; NCT06456593; NCT06430801; NCT06651281; NCT07184931; NCT05668013; NCT05499130; NCT07184944; NCT05910528",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-SAFE",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-PK",
+   "indication": "CD",
+   "domain_code": "PK",
+   "domain": "Drug levels / immunogenicity",
+   "jnj_studies": 5,
+   "competitor_studies": 10,
+   "jnj_study_ids": "NCT05923073; NCT05242471; NCT07616687; NCT07545317; NCT07654751",
+   "competitor_study_ids": "NCT05995353; NCT05509777; NCT07612267; NCT04779320; NCT06100289; NCT07184931; NCT05668013; NCT05499130; NCT07184944; NCT05910528",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-PK",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  },
+  {
+   "depth_id": "CD-COMP",
+   "indication": "CD",
+   "domain_code": "COMP",
+   "domain": "Comparison vs another drug",
+   "jnj_studies": 5,
+   "competitor_studies": 1,
+   "jnj_study_ids": "NCT07499232; NCT06249555; NCT02103361; NCT07444060; SIM-HEOR-01",
+   "competitor_study_ids": "NCT04524611",
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "depth_id",
+     "indication",
+     "domain_code",
+     "domain",
+     "jnj_studies",
+     "competitor_studies",
+     "jnj_study_ids",
+     "competitor_study_ids"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "depth_id": "derived",
+     "indication": "derived",
+     "domain_code": "derived",
+     "domain": "derived",
+     "jnj_studies": "derived",
+     "competitor_studies": "derived",
+     "jnj_study_ids": "derived",
+     "competitor_study_ids": "derived"
+    }
+   },
+   "_key": "CD-COMP",
+   "_source_ids": [
+    "SRC-CTGOV"
+   ]
+  }
+ ]
+}

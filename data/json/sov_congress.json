@@ -1,0 +1,7018 @@
+{
+ "table": "sov_congress",
+ "description": "Share of voice per congress edition: abstracts naming each asset in the title / all tracked-asset mentions at that congress.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "AFI",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 1.0,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "ENT",
+   "n": 58,
+   "n_orals": 7,
+   "share_pct": 19.8,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "RIN",
+   "n": 60,
+   "n_orals": 6,
+   "share_pct": 20.5,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "STE",
+   "n": 60,
+   "n_orals": 4,
+   "share_pct": 20.5,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "ICO",
+   "n": 1,
+   "n_orals": 1,
+   "share_pct": 0.3,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "OBE",
+   "n": 22,
+   "n_orals": 6,
+   "share_pct": 7.5,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "OMV",
+   "n": 25,
+   "n_orals": 7,
+   "share_pct": 8.5,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "SKY",
+   "n": 30,
+   "n_orals": 6,
+   "share_pct": 10.2,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "TRE",
+   "n": 19,
+   "n_orals": 4,
+   "share_pct": 6.5,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "TUL",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 0.3,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "VEL",
+   "n": 13,
+   "n_orals": 2,
+   "share_pct": 4.4,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#11",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2026",
+   "series": "ECCO",
+   "year": "2026",
+   "brand_id": "ZEP",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 0.3,
+   "venue_total_mentions": 293,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2026#12",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "AFI",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 0.6,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "ENT",
+   "n": 36,
+   "n_orals": 2,
+   "share_pct": 20.3,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "STE",
+   "n": 35,
+   "n_orals": 7,
+   "share_pct": 19.8,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "SKY",
+   "n": 22,
+   "n_orals": 3,
+   "share_pct": 12.4,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "ICO",
+   "n": 2,
+   "n_orals": 2,
+   "share_pct": 1.1,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "JNJ4804",
+   "n": 2,
+   "n_orals": 2,
+   "share_pct": 1.1,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "OBE",
+   "n": 7,
+   "n_orals": 1,
+   "share_pct": 4.0,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "OMV",
+   "n": 16,
+   "n_orals": 2,
+   "share_pct": 9.0,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "RIN",
+   "n": 29,
+   "n_orals": 4,
+   "share_pct": 16.4,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "TRE",
+   "n": 17,
+   "n_orals": 3,
+   "share_pct": 9.6,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "ZEP",
+   "n": 2,
+   "n_orals": 1,
+   "share_pct": 1.1,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#11",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "TUL",
+   "n": 3,
+   "n_orals": 2,
+   "share_pct": 1.7,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#12",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2026",
+   "series": "DDW",
+   "year": "2026",
+   "brand_id": "VEL",
+   "n": 5,
+   "n_orals": 1,
+   "share_pct": 2.8,
+   "venue_total_mentions": 177,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2026#13",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "AFI",
+   "n": 2,
+   "n_orals": 1,
+   "share_pct": 1.5,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "ENT",
+   "n": 24,
+   "n_orals": 1,
+   "share_pct": 18.0,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "RIN",
+   "n": 21,
+   "n_orals": 1,
+   "share_pct": 15.8,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "ZEP",
+   "n": 13,
+   "n_orals": 0,
+   "share_pct": 9.8,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "STE",
+   "n": 21,
+   "n_orals": 1,
+   "share_pct": 15.8,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "OBE",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 2.3,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "OMV",
+   "n": 18,
+   "n_orals": 1,
+   "share_pct": 13.5,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "SKY",
+   "n": 15,
+   "n_orals": 0,
+   "share_pct": 11.3,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "TRE",
+   "n": 9,
+   "n_orals": 2,
+   "share_pct": 6.8,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "TUL",
+   "n": 2,
+   "n_orals": 0,
+   "share_pct": 1.5,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2024",
+   "series": "ACG",
+   "year": "2024",
+   "brand_id": "VEL",
+   "n": 5,
+   "n_orals": 0,
+   "share_pct": 3.8,
+   "venue_total_mentions": 133,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2024#11",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "AFI",
+   "n": 2,
+   "n_orals": 2,
+   "share_pct": 0.8,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "DUV",
+   "n": 2,
+   "n_orals": 2,
+   "share_pct": 0.8,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "ENT",
+   "n": 68,
+   "n_orals": 12,
+   "share_pct": 27.8,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "RIN",
+   "n": 42,
+   "n_orals": 5,
+   "share_pct": 17.1,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "STE",
+   "n": 47,
+   "n_orals": 5,
+   "share_pct": 19.2,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "SKY",
+   "n": 29,
+   "n_orals": 5,
+   "share_pct": 11.8,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "OBE",
+   "n": 6,
+   "n_orals": 1,
+   "share_pct": 2.4,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "VEL",
+   "n": 8,
+   "n_orals": 2,
+   "share_pct": 3.3,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "OMV",
+   "n": 18,
+   "n_orals": 5,
+   "share_pct": 7.3,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "TRE",
+   "n": 18,
+   "n_orals": 4,
+   "share_pct": 7.3,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "TUL",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 1.2,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#11",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2025",
+   "series": "ECCO",
+   "year": "2025",
+   "brand_id": "ZEP",
+   "n": 2,
+   "n_orals": 0,
+   "share_pct": 0.8,
+   "venue_total_mentions": 245,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2025#12",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "AFI",
+   "n": 2,
+   "n_orals": 1,
+   "share_pct": 1.4,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "DUV",
+   "n": 2,
+   "n_orals": 2,
+   "share_pct": 1.4,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "ENT",
+   "n": 29,
+   "n_orals": 5,
+   "share_pct": 19.9,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "SKY",
+   "n": 25,
+   "n_orals": 2,
+   "share_pct": 17.1,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "STE",
+   "n": 22,
+   "n_orals": 5,
+   "share_pct": 15.1,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "RIN",
+   "n": 21,
+   "n_orals": 4,
+   "share_pct": 14.4,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "OBE",
+   "n": 4,
+   "n_orals": 1,
+   "share_pct": 2.7,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "VEL",
+   "n": 5,
+   "n_orals": 2,
+   "share_pct": 3.4,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "OMV",
+   "n": 16,
+   "n_orals": 0,
+   "share_pct": 11.0,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "TRE",
+   "n": 13,
+   "n_orals": 2,
+   "share_pct": 8.9,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "TUL",
+   "n": 6,
+   "n_orals": 1,
+   "share_pct": 4.1,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#11",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2025",
+   "series": "DDW",
+   "year": "2025",
+   "brand_id": "ZEP",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 0.7,
+   "venue_total_mentions": 146,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2025#12",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "DUV",
+   "n": 2,
+   "n_orals": 1,
+   "share_pct": 1.1,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "ENT",
+   "n": 36,
+   "n_orals": 1,
+   "share_pct": 19.4,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "RIN",
+   "n": 29,
+   "n_orals": 2,
+   "share_pct": 15.6,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "SKY",
+   "n": 32,
+   "n_orals": 3,
+   "share_pct": 17.2,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "STE",
+   "n": 35,
+   "n_orals": 2,
+   "share_pct": 18.8,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "ICO",
+   "n": 1,
+   "n_orals": 1,
+   "share_pct": 0.5,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "OBE",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 0.5,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "OMV",
+   "n": 17,
+   "n_orals": 0,
+   "share_pct": 9.1,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "VEL",
+   "n": 5,
+   "n_orals": 0,
+   "share_pct": 2.7,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "TRE",
+   "n": 24,
+   "n_orals": 3,
+   "share_pct": 12.9,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "ZEP",
+   "n": 2,
+   "n_orals": 0,
+   "share_pct": 1.1,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#11",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2025",
+   "series": "ACG",
+   "year": "2025",
+   "brand_id": "TUL",
+   "n": 2,
+   "n_orals": 1,
+   "share_pct": 1.1,
+   "venue_total_mentions": 186,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2025#12",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "ENT",
+   "n": 28,
+   "n_orals": 1,
+   "share_pct": 21.9,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "STE",
+   "n": 25,
+   "n_orals": 3,
+   "share_pct": 19.5,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "SKY",
+   "n": 7,
+   "n_orals": 1,
+   "share_pct": 5.5,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "OBE",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 2.3,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "OMV",
+   "n": 12,
+   "n_orals": 0,
+   "share_pct": 9.4,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "RIN",
+   "n": 21,
+   "n_orals": 1,
+   "share_pct": 16.4,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "ZEP",
+   "n": 13,
+   "n_orals": 0,
+   "share_pct": 10.2,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "TRE",
+   "n": 10,
+   "n_orals": 2,
+   "share_pct": 7.8,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "TUL",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 2.3,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ACG 2023",
+   "series": "ACG",
+   "year": "2023",
+   "brand_id": "VEL",
+   "n": 6,
+   "n_orals": 1,
+   "share_pct": 4.7,
+   "venue_total_mentions": 128,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ACG 2023#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2023",
+   "series": "Other congress",
+   "year": "2023",
+   "brand_id": "ENT",
+   "n": 2,
+   "n_orals": 0,
+   "share_pct": 28.6,
+   "venue_total_mentions": 7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2023",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2023",
+   "series": "Other congress",
+   "year": "2023",
+   "brand_id": "STE",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 14.3,
+   "venue_total_mentions": 7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2023#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2023",
+   "series": "Other congress",
+   "year": "2023",
+   "brand_id": "RIN",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 42.9,
+   "venue_total_mentions": 7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2023#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2023",
+   "series": "Other congress",
+   "year": "2023",
+   "brand_id": "SKY",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 14.3,
+   "venue_total_mentions": 7,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2023#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "ENT",
+   "n": 64,
+   "n_orals": 5,
+   "share_pct": 27.4,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "STE",
+   "n": 85,
+   "n_orals": 8,
+   "share_pct": 36.3,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "SKY",
+   "n": 18,
+   "n_orals": 7,
+   "share_pct": 7.7,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "ICO",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 0.4,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "OBE",
+   "n": 4,
+   "n_orals": 2,
+   "share_pct": 1.7,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "OMV",
+   "n": 12,
+   "n_orals": 4,
+   "share_pct": 5.1,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "RIN",
+   "n": 24,
+   "n_orals": 2,
+   "share_pct": 10.3,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "TRE",
+   "n": 7,
+   "n_orals": 4,
+   "share_pct": 3.0,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "VEL",
+   "n": 8,
+   "n_orals": 0,
+   "share_pct": 3.4,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "ECCO 2024",
+   "series": "ECCO",
+   "year": "2024",
+   "brand_id": "ZEP",
+   "n": 11,
+   "n_orals": 2,
+   "share_pct": 4.7,
+   "venue_total_mentions": 234,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "ECCO 2024#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2024",
+   "series": "Other congress",
+   "year": "2024",
+   "brand_id": "ENT",
+   "n": 6,
+   "n_orals": 0,
+   "share_pct": 8.5,
+   "venue_total_mentions": 71,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2024",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2024",
+   "series": "Other congress",
+   "year": "2024",
+   "brand_id": "STE",
+   "n": 24,
+   "n_orals": 0,
+   "share_pct": 33.8,
+   "venue_total_mentions": 71,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2024#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2024",
+   "series": "Other congress",
+   "year": "2024",
+   "brand_id": "OBE",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 1.4,
+   "venue_total_mentions": 71,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2024#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2024",
+   "series": "Other congress",
+   "year": "2024",
+   "brand_id": "OMV",
+   "n": 13,
+   "n_orals": 0,
+   "share_pct": 18.3,
+   "venue_total_mentions": 71,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2024#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2024",
+   "series": "Other congress",
+   "year": "2024",
+   "brand_id": "RIN",
+   "n": 12,
+   "n_orals": 0,
+   "share_pct": 16.9,
+   "venue_total_mentions": 71,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2024#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2024",
+   "series": "Other congress",
+   "year": "2024",
+   "brand_id": "SKY",
+   "n": 6,
+   "n_orals": 0,
+   "share_pct": 8.5,
+   "venue_total_mentions": 71,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2024#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2024",
+   "series": "Other congress",
+   "year": "2024",
+   "brand_id": "TRE",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 4.2,
+   "venue_total_mentions": 71,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2024#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2024",
+   "series": "Other congress",
+   "year": "2024",
+   "brand_id": "VEL",
+   "n": 4,
+   "n_orals": 0,
+   "share_pct": 5.6,
+   "venue_total_mentions": 71,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2024#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2024",
+   "series": "Other congress",
+   "year": "2024",
+   "brand_id": "ZEP",
+   "n": 2,
+   "n_orals": 0,
+   "share_pct": 2.8,
+   "venue_total_mentions": 71,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2024#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "ENT",
+   "n": 21,
+   "n_orals": 2,
+   "share_pct": 19.1,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "SKY",
+   "n": 17,
+   "n_orals": 3,
+   "share_pct": 15.5,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "STE",
+   "n": 28,
+   "n_orals": 2,
+   "share_pct": 25.5,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "OBE",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 0.9,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "OMV",
+   "n": 10,
+   "n_orals": 1,
+   "share_pct": 9.1,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "RIN",
+   "n": 15,
+   "n_orals": 1,
+   "share_pct": 13.6,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "TRE",
+   "n": 6,
+   "n_orals": 1,
+   "share_pct": 5.5,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "TUL",
+   "n": 2,
+   "n_orals": 0,
+   "share_pct": 1.8,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "VEL",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 2.7,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "DDW 2024",
+   "series": "DDW",
+   "year": "2024",
+   "brand_id": "ZEP",
+   "n": 7,
+   "n_orals": 0,
+   "share_pct": 6.4,
+   "venue_total_mentions": 110,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "DDW 2024#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2025",
+   "series": "Other congress",
+   "year": "2025",
+   "brand_id": "ENT",
+   "n": 15,
+   "n_orals": 0,
+   "share_pct": 16.0,
+   "venue_total_mentions": 94,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2025",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2025",
+   "series": "Other congress",
+   "year": "2025",
+   "brand_id": "STE",
+   "n": 15,
+   "n_orals": 0,
+   "share_pct": 16.0,
+   "venue_total_mentions": 94,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2025#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2025",
+   "series": "Other congress",
+   "year": "2025",
+   "brand_id": "SKY",
+   "n": 20,
+   "n_orals": 0,
+   "share_pct": 21.3,
+   "venue_total_mentions": 94,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2025#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2025",
+   "series": "Other congress",
+   "year": "2025",
+   "brand_id": "OMV",
+   "n": 17,
+   "n_orals": 0,
+   "share_pct": 18.1,
+   "venue_total_mentions": 94,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2025#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2025",
+   "series": "Other congress",
+   "year": "2025",
+   "brand_id": "RIN",
+   "n": 11,
+   "n_orals": 0,
+   "share_pct": 11.7,
+   "venue_total_mentions": 94,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2025#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2025",
+   "series": "Other congress",
+   "year": "2025",
+   "brand_id": "TRE",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 3.2,
+   "venue_total_mentions": 94,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2025#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2025",
+   "series": "Other congress",
+   "year": "2025",
+   "brand_id": "TUL",
+   "n": 6,
+   "n_orals": 0,
+   "share_pct": 6.4,
+   "venue_total_mentions": 94,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2025#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2025",
+   "series": "Other congress",
+   "year": "2025",
+   "brand_id": "VEL",
+   "n": 6,
+   "n_orals": 0,
+   "share_pct": 6.4,
+   "venue_total_mentions": 94,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2025#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2025",
+   "series": "Other congress",
+   "year": "2025",
+   "brand_id": "ZEP",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 1.1,
+   "venue_total_mentions": 94,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2025#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Crohn's & Colitis Congress 2026",
+   "series": "Crohn's & Colitis Congress",
+   "year": "2026",
+   "brand_id": "ENT",
+   "n": 4,
+   "n_orals": 0,
+   "share_pct": 25.0,
+   "venue_total_mentions": 16,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Crohn's & Colitis Congress 2026",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Crohn's & Colitis Congress 2026",
+   "series": "Crohn's & Colitis Congress",
+   "year": "2026",
+   "brand_id": "STE",
+   "n": 2,
+   "n_orals": 0,
+   "share_pct": 12.5,
+   "venue_total_mentions": 16,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Crohn's & Colitis Congress 2026#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Crohn's & Colitis Congress 2026",
+   "series": "Crohn's & Colitis Congress",
+   "year": "2026",
+   "brand_id": "OMV",
+   "n": 4,
+   "n_orals": 0,
+   "share_pct": 25.0,
+   "venue_total_mentions": 16,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Crohn's & Colitis Congress 2026#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Crohn's & Colitis Congress 2026",
+   "series": "Crohn's & Colitis Congress",
+   "year": "2026",
+   "brand_id": "SKY",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 6.2,
+   "venue_total_mentions": 16,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Crohn's & Colitis Congress 2026#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Crohn's & Colitis Congress 2026",
+   "series": "Crohn's & Colitis Congress",
+   "year": "2026",
+   "brand_id": "RIN",
+   "n": 4,
+   "n_orals": 0,
+   "share_pct": 25.0,
+   "venue_total_mentions": 16,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Crohn's & Colitis Congress 2026#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Crohn's & Colitis Congress 2026",
+   "series": "Crohn's & Colitis Congress",
+   "year": "2026",
+   "brand_id": "TRE",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 6.2,
+   "venue_total_mentions": 16,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Crohn's & Colitis Congress 2026#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "ENT",
+   "n": 7,
+   "n_orals": 0,
+   "share_pct": 8.3,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "STE",
+   "n": 11,
+   "n_orals": 0,
+   "share_pct": 13.1,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "ICO",
+   "n": 2,
+   "n_orals": 0,
+   "share_pct": 2.4,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "OBE",
+   "n": 2,
+   "n_orals": 0,
+   "share_pct": 2.4,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "OMV",
+   "n": 10,
+   "n_orals": 0,
+   "share_pct": 11.9,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "RIN",
+   "n": 16,
+   "n_orals": 0,
+   "share_pct": 19.0,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "SKY",
+   "n": 17,
+   "n_orals": 0,
+   "share_pct": 20.2,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "TRE",
+   "n": 11,
+   "n_orals": 0,
+   "share_pct": 13.1,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "TUL",
+   "n": 3,
+   "n_orals": 0,
+   "share_pct": 3.6,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "Other congress 2026",
+   "series": "Other congress",
+   "year": "2026",
+   "brand_id": "VEL",
+   "n": 5,
+   "n_orals": 0,
+   "share_pct": 6.0,
+   "venue_total_mentions": 84,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "Other congress 2026#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "SKY",
+   "n": 14,
+   "n_orals": 2,
+   "share_pct": 12.2,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "TRE",
+   "n": 14,
+   "n_orals": 4,
+   "share_pct": 12.2,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "STE",
+   "n": 19,
+   "n_orals": 3,
+   "share_pct": 16.5,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "ICO",
+   "n": 1,
+   "n_orals": 1,
+   "share_pct": 0.9,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "OMV",
+   "n": 15,
+   "n_orals": 0,
+   "share_pct": 13.0,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "RIN",
+   "n": 17,
+   "n_orals": 0,
+   "share_pct": 14.8,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "ENT",
+   "n": 26,
+   "n_orals": 2,
+   "share_pct": 22.6,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "DUV",
+   "n": 2,
+   "n_orals": 1,
+   "share_pct": 1.7,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "TUL",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 0.9,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "ZEP",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 0.9,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "VEL",
+   "n": 4,
+   "n_orals": 1,
+   "share_pct": 3.5,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#11",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2025",
+   "series": "UEGW",
+   "year": "2025",
+   "brand_id": "OBE",
+   "n": 1,
+   "n_orals": 1,
+   "share_pct": 0.9,
+   "venue_total_mentions": 115,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2025#12",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "TRE",
+   "n": 8,
+   "n_orals": 4,
+   "share_pct": 7.8,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "STE",
+   "n": 23,
+   "n_orals": 4,
+   "share_pct": 22.3,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "SKY",
+   "n": 11,
+   "n_orals": 3,
+   "share_pct": 10.7,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "ENT",
+   "n": 21,
+   "n_orals": 2,
+   "share_pct": 20.4,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "OMV",
+   "n": 18,
+   "n_orals": 5,
+   "share_pct": 17.5,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "RIN",
+   "n": 10,
+   "n_orals": 3,
+   "share_pct": 9.7,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "ZEP",
+   "n": 6,
+   "n_orals": 1,
+   "share_pct": 5.8,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "OBE",
+   "n": 1,
+   "n_orals": 0,
+   "share_pct": 1.0,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "VEL",
+   "n": 3,
+   "n_orals": 1,
+   "share_pct": 2.9,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2024",
+   "series": "UEGW",
+   "year": "2024",
+   "brand_id": "TUL",
+   "n": 2,
+   "n_orals": 2,
+   "share_pct": 1.9,
+   "venue_total_mentions": 103,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2024#10",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "series": "UEGW",
+   "year": "2023",
+   "brand_id": "TRE",
+   "n": 7,
+   "n_orals": 5,
+   "share_pct": 5.5,
+   "venue_total_mentions": 127,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2023",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "series": "UEGW",
+   "year": "2023",
+   "brand_id": "SKY",
+   "n": 6,
+   "n_orals": 5,
+   "share_pct": 4.7,
+   "venue_total_mentions": 127,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2023#2",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "series": "UEGW",
+   "year": "2023",
+   "brand_id": "STE",
+   "n": 31,
+   "n_orals": 5,
+   "share_pct": 24.4,
+   "venue_total_mentions": 127,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2023#3",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "series": "UEGW",
+   "year": "2023",
+   "brand_id": "OMV",
+   "n": 11,
+   "n_orals": 4,
+   "share_pct": 8.7,
+   "venue_total_mentions": 127,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2023#4",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "series": "UEGW",
+   "year": "2023",
+   "brand_id": "RIN",
+   "n": 18,
+   "n_orals": 6,
+   "share_pct": 14.2,
+   "venue_total_mentions": 127,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2023#5",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "series": "UEGW",
+   "year": "2023",
+   "brand_id": "ENT",
+   "n": 33,
+   "n_orals": 4,
+   "share_pct": 26.0,
+   "venue_total_mentions": 127,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2023#6",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "series": "UEGW",
+   "year": "2023",
+   "brand_id": "OBE",
+   "n": 3,
+   "n_orals": 1,
+   "share_pct": 2.4,
+   "venue_total_mentions": 127,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2023#7",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "series": "UEGW",
+   "year": "2023",
+   "brand_id": "VEL",
+   "n": 7,
+   "n_orals": 0,
+   "share_pct": 5.5,
+   "venue_total_mentions": 127,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2023#8",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  },
+  {
+   "venue": "UEGW 2023",
+   "series": "UEGW",
+   "year": "2023",
+   "brand_id": "ZEP",
+   "n": 11,
+   "n_orals": 4,
+   "share_pct": 8.7,
+   "venue_total_mentions": 127,
+   "_provenance": {
+    "data_origin": "derived",
+    "simulated_fields": [],
+    "derived_fields": [
+     "venue",
+     "series",
+     "year",
+     "brand_id",
+     "n",
+     "n_orals",
+     "share_pct",
+     "venue_total_mentions"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "venue": "derived",
+     "series": "derived",
+     "year": "derived",
+     "brand_id": "derived",
+     "n": "derived",
+     "n_orals": "derived",
+     "share_pct": "derived",
+     "venue_total_mentions": "derived"
+    }
+   },
+   "_key": "UEGW 2023#9",
+   "_source_ids": [
+    "SRC-CROSSREF"
+   ]
+  }
+ ]
+}

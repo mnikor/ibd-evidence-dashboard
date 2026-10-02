@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Evidence Impact Metrics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script id="lucide-lib" src="https://unpkg.com/lucide@0.299.0/dist/umd/lucide.min.js"></script>
+<style>
+  :root {
+    --red: #EB1700; --red-dk: #B51200; --red-dkr: #8C0D00; --red-md: #F4A89C; --red-lt: #FDEBE8;
+    --ink: #1C1C1C; --ink2: #464646; --ink3: #767676; --line: #E3E1DE; --bg2: #F5F4F2; --grey: #A9A9A9; --grey-dk: #6B6B6B;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #2a2a2a; font-family: Figtree, "Helvetica Neue", Arial, sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .slide { position: relative; width: 1600px; height: 900px; background: #fff; overflow: hidden; }
+  .ic { width: 1em; height: 1em; stroke-width: 1.8; vertical-align: -0.14em; }
+  /* chrome shared by content slides */
+  .eyebrow { font-size: 17px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: var(--red); }
+  .title { font-size: 46px; font-weight: 800; line-height: 1.08; letter-spacing: -.015em; max-width: 1180px; text-wrap: balance; }
+  .lede { font-size: 22px; color: var(--ink2); line-height: 1.4; max-width: 1150px; margin-top: 12px; }
+  .head { position: absolute; left: 88px; top: 70px; right: 88px; }
+  .foot { position: absolute; left: 88px; right: 88px; bottom: 30px; display: flex; justify-content: space-between; font-size: 14px; color: var(--ink3); }
+  .foot b { color: var(--red); }
+  .body { position: absolute; left: 88px; right: 88px; top: 250px; bottom: 80px; }
+  .note { font-size: 14px; color: var(--ink3); }
+  .tag { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; }
+  .tag.lead { background: var(--red-lt); color: var(--red-dk); } .tag.lag { background: #ECECEC; color: var(--ink2); } .tag.ill { background: #FFF4E0; color: #8A5A00; }
+  /* five-question navigation strip */
+  .nav5 { position: absolute; right: 88px; top: 40px; display: flex; gap: 6px; }
+  .nav5 span { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; color: var(--ink3); background: var(--bg2); border-radius: 999px; padding: 6px 11px; }
+  .nav5 span.on { color: #fff; background: var(--red); }
+  /* viewer */
+  body.view { height: 100vh; overflow: hidden; display: grid; place-items: center; }
+  body.view .slide { position: absolute; left: 50%; top: 50%; transform-origin: 50% 50%; display: none; box-shadow: 0 30px 80px rgba(0,0,0,.45); }
+  body.view .slide.cur { display: block; }
+  .hint { position: fixed; right: 18px; bottom: 14px; color: #bbb; font: 13px Figtree, sans-serif; }
+  @media print { @page { size: 1600px 900px; margin: 0; } html, body { background: #fff; } .slide { page-break-after: always; break-after: page; } .hint { display: none; } }
+  body.print .slide { margin: 0; }
+
+  /* S1 title */
+  .s1 .left { position: absolute; left: 96px; top: 150px; width: 760px; }
+  .s1 h1 { font-size: 78px; font-weight: 900; line-height: 1.02; letter-spacing: -.03em; margin-top: 22px; }
+  .s1 h1 em { font-style: normal; color: var(--red); }
+  .s1 .sub { font-size: 26px; color: var(--ink2); line-height: 1.4; margin-top: 26px; max-width: 700px; }
+  .s1 .meta { position: absolute; left: 96px; bottom: 70px; display: flex; gap: 28px; font-size: 18px; color: var(--ink3); }
+  .s1 .meta b { color: var(--ink); font-weight: 700; }
+  .s1 .panel { position: absolute; right: 0; top: 0; bottom: 0; width: 600px; background: linear-gradient(160deg, var(--red) 0%, var(--red-dk) 70%, var(--red-dkr) 100%); }
+  .s1 .step { position: absolute; left: 90px; display: flex; align-items: center; gap: 22px; color: #fff; }
+  .s1 .step .dot { width: 78px; height: 78px; border-radius: 22px; background: rgba(255,255,255,.14); border: 2px solid rgba(255,255,255,.4); display: grid; place-items: center; font-size: 38px; }
+  .s1 .step b { font-size: 28px; font-weight: 800; display: block; } .s1 .step small { font-size: 17px; opacity: .85; }
+  .s1 .rail { position: absolute; left: 128px; top: 214px; width: 3px; height: 450px; background: rgba(255,255,255,.35); }
+
+  /* S2 five questions */
+  .band { display: flex; align-items: center; gap: 16px; background: var(--bg2); border-radius: 16px; padding: 16px 24px; font-size: 19px; }
+  .band .bi { font-size: 30px; color: var(--ink2); } .band b { font-size: 19px; letter-spacing: .08em; text-transform: uppercase; }
+  .chev { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 16px; }
+  .chev .c { position: relative; color: #fff; padding: 26px 50px 26px 44px; min-height: 330px; clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 50%, calc(100% - 30px) 100%, 0 100%, 30px 50%); }
+  .chev .c:first-child { clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 50%, calc(100% - 30px) 100%, 0 100%); padding-left: 30px; }
+  .chev .n { font-size: 16px; font-weight: 800; letter-spacing: .14em; opacity: .85; }
+  .chev .ci { font-size: 44px; margin: 10px 0 8px; display: block; }
+  .chev h3 { font-size: 30px; font-weight: 900; letter-spacing: -.01em; }
+  .chev p { font-size: 19px; line-height: 1.35; margin-top: 8px; opacity: .95; min-height: 52px; }
+  .chev ul { list-style: none; margin-top: 14px; display: grid; gap: 7px; font-size: 16.5px; }
+  .chev li { display: flex; gap: 8px; align-items: baseline; } .chev li::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #fff; flex: none; transform: translateY(-2px); }
+  .leadlag { display: flex; align-items: center; gap: 14px; margin-top: 14px; font-size: 15px; font-weight: 700; color: var(--ink2); }
+  .leadlag .bar { flex: 1; height: 8px; border-radius: 4px; background: linear-gradient(90deg, var(--red-md), var(--red-dkr)); position: relative; }
+  .leadlag .bar::after { content: ""; position: absolute; right: -8px; top: -5px; border-left: 12px solid var(--red-dkr); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
+  .found { display: grid; grid-template-columns: auto 1fr 1fr; gap: 22px; align-items: center; margin-top: 16px; border: 2px solid var(--line); border-radius: 16px; padding: 14px 24px; }
+  .found .fl { font-size: 15px; font-weight: 800; letter-spacing: .14em; color: var(--ink3); }
+  .found div.fi { display: flex; gap: 12px; align-items: center; font-size: 18px; } .found .fi i { font-size: 28px; color: var(--red); }
+
+  /* generic cards */
+  .grid { display: grid; gap: 22px; }
+  .card { border: 2px solid var(--line); border-radius: 18px; padding: 24px 26px; background: #fff; }
+  .card h4 { font-size: 24px; font-weight: 800; } .card p { font-size: 18px; color: var(--ink2); line-height: 1.4; }
+  .ico { width: 56px; height: 56px; border-radius: 16px; display: grid; place-items: center; font-size: 30px; background: var(--red-lt); color: var(--red); flex: none; }
+  .ico.g { background: #EFEFEF; color: var(--ink2); }
+  .row { display: flex; gap: 16px; align-items: flex-start; }
+  .num { width: 44px; height: 44px; border-radius: 50%; background: var(--red); color: #fff; font-size: 22px; font-weight: 800; display: grid; place-items: center; flex: none; }
+  .decision { margin-top: auto; display: flex; gap: 10px; align-items: flex-start; background: var(--red-lt); border-radius: 12px; padding: 12px 14px; font-size: 17px; color: var(--red-dkr); font-weight: 600; }
+  .decision i { font-size: 22px; flex: none; margin-top: 1px; }
+  .qb { color: #fff; border-radius: 10px; padding: 8px 14px; font-size: 16px; font-weight: 800; letter-spacing: .04em; text-align: center; }
+  .mcol h5 { font-size: 19px; font-weight: 800; color: #fff; border-radius: 12px 12px 0 0; padding: 10px 12px; display: flex; align-items: center; gap: 8px; }
+  .mcol ul { list-style: none; border: 2px solid var(--line); border-top: 0; border-radius: 0 0 12px 12px; padding: 10px 12px; display: grid; align-content: start; gap: 6px; font-size: 15px; line-height: 1.2; color: var(--ink2); flex: 1; }
+  .mcol li.h { color: var(--ink); font-weight: 800; }
+  .xband { display: grid; grid-template-columns: auto 1fr; gap: 5px 16px; align-items: baseline; font-size: 14px; color: var(--ink2); line-height: 1.35; }
+  .xband b.k { font-size: 15px; font-weight: 800; color: var(--ink); white-space: nowrap; }
+  .xband .h { color: var(--ink); font-weight: 800; }
+  .big { font-size: 64px; font-weight: 900; letter-spacing: -.03em; line-height: 1; color: var(--red); }
+</style>
+</head>
+<body class="view">
+
+<!-- 1 TITLE -->
+<section class="slide s1">
+  <div class="left">
+    <div class="eyebrow">Proposal · IBD pilot</div>
+    <h1>Measuring what our evidence <em>achieves</em></h1>
+    <div class="sub">A metrics framework for evidence generation and dissemination: from strategic insight to impact we can prove.</div>
+  </div>
+  <div class="meta"><span><b>Medical Affairs</b> · for discussion</span><span>September 2026</span></div>
+  <div class="panel">
+    <div class="rail"></div>
+    <div class="step" style="top:170px"><div class="dot"><i data-lucide="target" class="ic"></i></div><div><b>Right evidence</b><small>matters most</small></div></div>
+    <div class="step" style="top:300px"><div class="dot"><i data-lucide="clock" class="ic"></i></div><div><b>On time</b><small>before decisions are made</small></div></div>
+    <div class="step" style="top:430px"><div class="dot"><i data-lucide="megaphone" class="ic"></i></div><div><b>Heard</b><small>published, presented, trusted</small></div></div>
+    <div class="step" style="top:560px"><div class="dot"><i data-lucide="badge-check" class="ic"></i></div><div><b>Changes practice</b><small>guidelines, HTA, patients</small></div></div>
+  </div>
+</section>
+
+<!-- 2 FOUR QUESTIONS + LENS -->
+<section class="slide">
+  <div class="head" style="top:56px"><div class="eyebrow">The framework</div><div class="title">Four questions, one competitor lens</div>
+    <div class="lede" style="font-size:20px">Every evidence activity answers four questions, all checked against competitors. Leading indicators help us steer; lagging indicators prove the result.</div></div>
+  <div class="body" style="top:232px;bottom:62px">
+    <div class="band"><i data-lucide="radar" class="ic bi"></i><b>Ahead of competitors?</b><span style="color:var(--ink2)">Differentiation held vs key competitors · competitor moves seen early</span></div>
+    <div class="chev">
+      <div class="c" style="background:#F04A2F"><div class="n">1</div><i data-lucide="target" class="ic ci"></i><h3>Right evidence</h3><p>Are we generating the evidence that matters most?</p>
+        <ul><li>Imperatives with evidence ready in time</li><li>Business &amp; scientific value per activity</li></ul></div>
+      <div class="c" style="background:var(--red)"><div class="n">2</div><i data-lucide="clock" class="ic ci"></i><h3>On time</h3><p>Will it land before the decisions it must inform?</p>
+        <ul><li>Readouts before decision points</li><li>Decision-calendar coverage</li></ul></div>
+      <div class="c" style="background:var(--red-dk)"><div class="n">3</div><i data-lucide="megaphone" class="ic ci"></i><h3>Heard</h3><p>Is it published, presented and trusted?</p>
+        <ul><li>Months from topline to paper</li><li>Oral rate &amp; non-sponsor voice</li></ul></div>
+      <div class="c" style="background:var(--red-dkr)"><div class="n">4</div><i data-lucide="badge-check" class="ic ci"></i><h3>Changes practice</h3><p>Did it move guidelines, HTA and practice?</p>
+        <ul><li>Guideline &amp; HTA citations</li><li>Value-weighted realised impact</li></ul></div>
+    </div>
+    <div class="leadlag"><span style="color:var(--red)">LEADING · steer monthly</span><div class="bar"></div><span style="color:var(--red-dkr)">LAGGING · proves impact in 1–3 years</span></div>
+    <div class="found"><span class="fl">FOUNDATION</span>
+      <div class="fi"><i data-lucide="coins" class="ic"></i><span><b>Well invested</b> · spend on high-value gaps · value per $</span></div>
+      <div class="fi"><i data-lucide="shield-check" class="ic"></i><span><b>Trusted</b> · verified data share · recommendation hit rate</span></div></div>
+  </div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>2</span></div>
+</section>
+
+<!-- 3 EXEC SUMMARY -->
+<section class="slide">
+  <div class="head"><div class="eyebrow">In one page</div><div class="title">One impact framework for every evidence activity. Four decisions needed today</div></div>
+  <div class="body" style="display:grid;grid-template-columns:1fr 1fr;gap:40px">
+    <div class="grid" style="align-content:start;gap:18px">
+      <div style="font-size:17px;font-weight:800;letter-spacing:.12em;color:var(--ink3)">WHAT WE PROPOSE</div>
+      <div class="row"><div class="ico"><i data-lucide="list-checks" class="ic"></i></div><div><h4 style="font-size:23px;font-weight:800">Four questions, one lens, twelve headline metrics</h4><p style="font-size:18px;color:var(--ink2);margin-top:4px">From "right evidence" to "changes practice", steered monthly, proven over years.</p></div></div>
+      <div class="row"><div class="ico"><i data-lucide="scale" class="ic"></i></div><div><h4 style="font-size:23px;font-weight:800">Two scores for every activity</h4><p style="font-size:18px;color:var(--ink2);margin-top:4px">Business relevance and scientific value, side by side, so money follows value without compromising the science.</p></div></div>
+      <div class="row"><div class="ico"><i data-lucide="calendar-clock" class="ic"></i></div><div><h4 style="font-size:23px;font-weight:800">Monthly refresh, IBD first</h4><p style="font-size:18px;color:var(--ink2);margin-top:4px">Built on the running prototype; public data already live, internal data connected next.</p></div></div>
+    </div>
+    <div class="grid" style="align-content:start;gap:14px">
+      <div style="font-size:17px;font-weight:800;letter-spacing:.12em;color:var(--red)">WHAT WE ASK</div>
+      <div class="card row" style="padding:18px 22px"><div class="num">1</div><div><h4 style="font-size:21px">Endorse the framework</h4><p style="font-size:17px">Four questions, the competitor lens and two scores</p></div></div>
+      <div class="card row" style="padding:18px 22px"><div class="num">2</div><div><h4 style="font-size:21px">Name owners</h4><p style="font-size:17px">Value at stake and decision calendar for each imperative</p></div></div>
+      <div class="card row" style="padding:18px 22px"><div class="num">3</div><div><h4 style="font-size:21px">Grant data access</h4><p style="font-size:17px">Study operations, finance and MSL insights (read-only)</p></div></div>
+      <div class="card row" style="padding:18px 22px"><div class="num">4</div><div><h4 style="font-size:21px">Confirm the IBD pilot</h4><p style="font-size:17px">Review after two monthly cycles</p></div></div>
+    </div>
+  </div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>3</span></div>
+</section>
+
+<!-- 4 PROBLEM -->
+<section class="slide">
+  <div class="head"><div class="eyebrow">Why change</div><div class="title">We track what we do, not what it changes</div></div>
+  <div class="body" style="display:grid;grid-template-columns:1fr 90px 1fr;align-items:start;bottom:auto">
+    <div class="card" style="background:var(--bg2);border-color:var(--bg2)">
+      <div style="font-size:17px;font-weight:800;letter-spacing:.12em;color:var(--ink3);margin-bottom:18px">WHAT WE COUNT TODAY</div>
+      <div class="grid" style="gap:20px">
+        <div class="row" style="align-items:center"><div class="ico g"><i data-lucide="flask-conical" class="ic"></i></div><p style="font-size:22px;color:var(--ink)">Studies started and completed</p></div>
+        <div class="row" style="align-items:center"><div class="ico g"><i data-lucide="file-text" class="ic"></i></div><p style="font-size:22px;color:var(--ink)">Abstracts and publications</p></div>
+        <div class="row" style="align-items:center"><div class="ico g"><i data-lucide="coins" class="ic"></i></div><p style="font-size:22px;color:var(--ink)">Budget committed and spent</p></div>
+        <div class="row" style="align-items:center"><div class="ico g"><i data-lucide="users" class="ic"></i></div><p style="font-size:22px;color:var(--ink)">Congress presence and activity</p></div>
+      </div></div>
+    <div style="display:grid;place-items:center;color:var(--red);font-size:54px"><i data-lucide="arrow-right" class="ic"></i></div>
+    <div class="card" style="border-color:var(--red)">
+      <div style="font-size:17px;font-weight:800;letter-spacing:.12em;color:var(--red);margin-bottom:18px">WHAT WE ARE ASKED</div>
+      <div class="grid" style="gap:20px">
+        <div class="row" style="align-items:center"><div class="ico"><i data-lucide="book-open" class="ic"></i></div><p style="font-size:22px;color:var(--ink)">Did guidelines change because of our evidence?</p></div>
+        <div class="row" style="align-items:center"><div class="ico"><i data-lucide="landmark" class="ic"></i></div><p style="font-size:22px;color:var(--ink)">Did payers and HTA bodies accept it?</p></div>
+        <div class="row" style="align-items:center"><div class="ico"><i data-lucide="scale" class="ic"></i></div><p style="font-size:22px;color:var(--ink)">Was it worth the money, and was it on time?</p></div>
+        <div class="row" style="align-items:center"><div class="ico"><i data-lucide="radar" class="ic"></i></div><p style="font-size:22px;color:var(--ink)">Are we still ahead of competitors?</p></div>
+      </div></div>
+  </div>
+  <div style="position:absolute;left:88px;right:88px;bottom:96px;display:flex;align-items:center;gap:18px;background:var(--red-lt);border-radius:16px;padding:20px 26px">
+    <i data-lucide="alert-triangle" class="ic" style="font-size:32px;color:var(--red);flex:none"></i>
+    <div style="font-size:22px;color:var(--ink)"><b>The gap:</b> without the right-hand side, funding has no value lens and we can't show impact.</div></div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>4</span></div>
+</section>
+
+<!-- 5 PROOF -->
+<section class="slide">
+  <div class="head"><div class="eyebrow">Proof it works</div><div class="title">Public data alone already surfaces decisions we weren't making</div></div>
+  <div class="body" style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;bottom:120px">
+    <div class="card" style="display:flex;flex-direction:column;gap:12px">
+      <div class="row" style="align-items:center"><div class="ico"><i data-lucide="megaphone" class="ic"></i></div><h4>Many orals, almost all from trials</h4></div>
+      <div style="font-size:15px;color:var(--ink3);font-weight:700">FULL ORALS · ECCO, DDW, UEG WEEK, ACG · 3 YEARS</div>
+      <div id="orals" style="display:grid;gap:7px"></div>
+      <p style="font-size:16px"><b style="color:var(--ink)">29 of 30</b> TREMFYA orals are trial analyses. The one real-world oral is an upadacitinib comparison that included guselkumab.</p>
+      <div class="decision"><i data-lucide="arrow-right-circle" class="ic"></i>Decide where trials can't answer (e.g. vs upadacitinib, sequencing) and real-world data is needed</div>
+    </div>
+    <div class="card" style="display:flex;flex-direction:column;gap:12px">
+      <div class="row" style="align-items:center"><div class="ico"><i data-lucide="file-clock" class="ic"></i></div><h4>Presented, not yet citable</h4></div>
+      <div style="font-size:15px;color:var(--ink3);font-weight:700">CONGRESS DATA WITHOUT A PEER-REVIEWED PAPER</div>
+      <div style="display:flex;align-items:baseline;gap:12px"><span class="big">4</span><span style="font-size:19px;color:var(--ink2)">J&amp;J trials</span></div>
+      <div style="display:grid;gap:6px;font-size:17px">
+        <div style="display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:5px"><b>ANTHEM-UC</b><span style="color:var(--ink3)">7 abstracts since Oct 2025</span></div>
+        <div style="display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:5px"><b>FUZION CD</b><span style="color:var(--ink3)">2 abstracts since May 2026</span></div>
+        <div style="display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:5px"><b>DUET-CD</b><span style="color:var(--ink3)">1 abstract since May 2026</span></div>
+        <div style="display:flex;justify-content:space-between"><b>DUET-UC</b><span style="color:var(--ink3)">1 abstract since May 2026</span></div></div>
+      <div class="decision"><i data-lucide="arrow-right-circle" class="ic"></i>Prioritise these four manuscripts, starting with FUZION CD</div>
+    </div>
+    <div class="card" style="display:flex;flex-direction:column;gap:12px">
+      <div class="row" style="align-items:center"><div class="ico"><i data-lucide="radar" class="ic"></i></div><h4>Differentiation shifting</h4></div>
+      <div style="font-size:15px;color:var(--ink3);font-weight:700">TREMFYA LABEL ADVANTAGES VS SKYRIZI</div>
+      <div style="display:grid;grid-template-columns:auto 1fr;gap:10px 14px;align-items:center;font-size:17px">
+        <b>Crohn's</b><div style="display:flex;align-items:center;gap:10px"><span class="big" style="font-size:44px">2</span><i data-lucide="arrow-right" class="ic" style="font-size:26px;color:var(--ink3)"></i><span class="big" style="font-size:44px;color:var(--ink)">0</span><span style="color:var(--ink3);font-size:15px">if SKYRIZI SC induction is approved</span></div>
+        <b>UC</b><div style="display:flex;align-items:center;gap:10px"><span class="big" style="font-size:44px">3</span><i data-lucide="arrow-right" class="ic" style="font-size:26px;color:var(--ink3)"></i><span class="big" style="font-size:44px">3</span><span style="color:var(--ink3);font-size:15px">not filed in UC</span></div></div>
+      <p style="font-size:17px">FDA decision expected late 2026 (AbbVie guidance). Liver monitoring is parity on both labels.</p>
+      <div class="decision"><i data-lucide="arrow-right-circle" class="ic"></i>Lead with UC fully-SC data; build patient-experience and device-preference evidence</div>
+    </div>
+  </div>
+  <div class="foot"><span>Sources: ClinicalTrials.gov; ECCO, DDW, UEG Week and ACG programmes; PubMed/Crossref; US labels (TREMFYA 05/2026, SKYRIZI 06/2026). Data as of Sep 2026.</span><span>5</span></div>
+</section>
+
+<!-- 6 IMPACT CHAIN -->
+<section class="slide">
+  <div class="nav5"><span class="on">Right evidence</span><span class="on">On time</span><span class="on">Heard</span><span class="on">Changes practice</span></div>
+  <div class="head"><div class="eyebrow">How impact happens</div><div class="title">Impact is a chain, and we can steer it early</div></div>
+  <div class="body" style="top:222px">
+    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:18px">
+      <div class="qb" style="grid-column:1;background:#F04A2F">1 · Right evidence</div><div class="qb" style="grid-column:2;background:var(--red)">2 · On time</div>
+      <div class="qb" style="grid-column:3 / span 2;background:var(--red-dk)">3 · Heard</div><div class="qb" style="grid-column:5 / span 2;background:var(--red-dkr)">4 · Changes practice</div></div>
+    <div id="chain" style="display:grid;grid-template-columns:repeat(6,1fr);gap:0;position:relative"></div>
+    <div class="leadlag" style="margin-top:22px;font-size:16px"><span style="color:var(--red)">LEADING · steer monthly</span><div class="bar"></div><span style="color:var(--red-dkr)">LAGGING · prove over 1–3 years</span></div>
+    <div style="margin-top:28px;font-size:17px;font-weight:800;letter-spacing:.12em;color:var(--ink3)">EARLY SIGNALS WE EXPECT TO PREDICT IMPACT (TO BE TESTED)</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:12px">
+      <div class="card" style="padding:16px 18px"><p style="font-size:17px"><b style="color:var(--ink)">Paper within 12 months</b> → cited by guidelines and HTA</p></div>
+      <div class="card" style="padding:16px 18px"><p style="font-size:17px"><b style="color:var(--ink)">Readout before cut-off</b> → included in the next update</p></div>
+      <div class="card" style="padding:16px 18px"><p style="font-size:17px"><b style="color:var(--ink)">Full oral at a major congress</b> → wider uptake</p></div>
+      <div class="card" style="padding:16px 18px"><p style="font-size:17px"><b style="color:var(--ink)">Fewer HCP questions</b> → practice is changing</p></div>
+    </div>
+    <div style="margin-top:22px;font-size:17px;color:var(--ink3)"><i data-lucide="arrow-right-circle" class="ic" style="color:var(--red)"></i> Next: the metrics we track at each step</div>
+  </div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>6</span></div>
+</section>
+
+<!-- 7 METRICS BY STEP -->
+<section class="slide">
+  <div class="nav5"><span class="on">Right evidence</span><span class="on">On time</span><span class="on">Heard</span><span class="on">Changes practice</span></div>
+  <div class="head"><div class="eyebrow">What we measure at each step</div><div class="title">All 66 metrics, placed on the impact chain</div></div>
+  <div class="body" style="top:186px;bottom:84px;display:flex;flex-direction:column;gap:10px">
+    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:10px">
+      <div class="qb" style="grid-column:1;background:#F04A2F">1 · Right evidence</div><div class="qb" style="grid-column:2;background:var(--red)">2 · On time</div>
+      <div class="qb" style="grid-column:3 / span 2;background:var(--red-dk)">3 · Heard</div><div class="qb" style="grid-column:5 / span 2;background:var(--red-dkr)">4 · Changes practice</div></div>
+    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:10px;flex:1"><div class="mcol" style="display:flex;flex-direction:column"><h5 style="background:#F04A2F"><i data-lucide="compass" class="ic"></i>Strategy <span style="margin-left:auto;font-weight:600;opacity:.85;font-size:14px">10</span></h5><ul><li class="h"><span style="color:var(--red)">★</span> Evidence ready in time per imperative</li><li class="h"><span style="color:var(--red)">★</span> Business relevance per $</li><li class="">Value at stake per imperative</li><li class="">Imperatives and key questions defined</li><li class="">Gap criticality</li><li class="">Planned gap coverage</li><li class="">Orphan gaps<sup>1</sup></li><li class="">Business relevance score</li><li class="">Scientific &amp; medical value score</li><li class="">Scenario robustness</li></ul></div><div class="mcol" style="display:flex;flex-direction:column"><h5 style="background:#EB1700"><i data-lucide="clock" class="ic"></i>Execution <span style="margin-left:auto;font-weight:600;opacity:.85;font-size:14px">9</span></h5><ul><li class="h"><span style="color:var(--red)">★</span> Readouts before decision points</li><li class="h"><span style="color:var(--red)">★</span> Decision-calendar coverage</li><li class="">Decision calendar (guideline, HTA, competitor dates)</li><li class="">Timeliness per activity</li><li class="">Expected close vs need-by date</li><li class="">Enrolment vs plan</li><li class="">Milestone slippage</li><li class="">Readouts vs competitor readouts</li><li class="">Impact card before readout</li></ul></div><div class="mcol" style="display:flex;flex-direction:column"><h5 style="background:#B51200"><i data-lucide="file-check" class="ic"></i>Delivery <span style="margin-left:auto;font-weight:600;opacity:.85;font-size:14px">5</span></h5><ul><li class="h"><span style="color:var(--red)">★</span> Months from topline to paper</li><li class="">Primary endpoint met / key results</li><li class="">Evidence debt (results without a paper)</li><li class="">Evidence ladder progress</li><li class="">Gap closure from published evidence</li></ul></div><div class="mcol" style="display:flex;flex-direction:column"><h5 style="background:#B51200"><i data-lucide="megaphone" class="ic"></i>Reach <span style="margin-left:auto;font-weight:600;opacity:.85;font-size:14px">10</span></h5><ul><li class="h"><span style="color:var(--red)">★</span> Full-oral selections and oral rate</li><li class="h"><span style="color:var(--red)">★</span> Non-sponsor publications and orals</li><li class="">Share of voice by congress and topic</li><li class="">Analysis-type mix vs competitors</li><li class="">Congress-to-journal ratio</li><li class="">MSL use; HCP questions and objections</li><li class="">Use in medical education programmes</li><li class="">Social media attention (e.g. Altmetric)</li><li class="">Found and cited correctly by AI assistants</li><li class="">Industry symposia presence</li></ul></div><div class="mcol" style="display:flex;flex-direction:column"><h5 style="background:#8C0D00"><i data-lucide="book-open" class="ic"></i>Uptake <span style="margin-left:auto;font-weight:600;opacity:.85;font-size:14px">7</span></h5><ul><li class="h"><span style="color:var(--red)">★</span> Guideline citations and recommendation strength</li><li class="h"><span style="color:var(--red)">★</span> HTA and payer decisions citing the study</li><li class="">Label change enabled</li><li class="">Key question answered</li><li class="">Shift in HCP beliefs</li><li class="">Follow-on studies by others</li><li class="">Paper citations</li></ul></div><div class="mcol" style="display:flex;flex-direction:column"><h5 style="background:#8C0D00"><i data-lucide="heart-pulse" class="ic"></i>Outcome <span style="margin-left:auto;font-weight:600;opacity:.85;font-size:14px">5</span></h5><ul><li class="h"><span style="color:var(--red)">★</span> Value-weighted realised impact</li><li class="">Imperative moves to “on track”</li><li class="">Brand guideline position over time</li><li class="">Real-world outcomes match the trial</li><li class="">Practice change in the target segment</li></ul></div></div>
+    <div style="background:var(--bg2);border-radius:14px;padding:12px 18px"><div style="font-size:13px;font-weight:800;letter-spacing:.12em;color:var(--ink3);margin-bottom:6px">ACROSS ALL STEPS</div><div class="xband"><b class="k"><i data-lucide="radar" class="ic" style="color:var(--red);font-size:18px;vertical-align:-3px"></i> Ahead of competitors · 8</b><div><span class="h"><span style="color:var(--red)">★</span> Differentiation held vs key competitor</span> · <span class="">Competitor readout and approval calendar</span> · <span class="">Threat index and time to impact</span> · <span class="">Year-1 treatment burden</span> · <span class="">Competitor evidence gaps</span> · <span class="">White space by care segment</span> · <span class="">Inferred competitor strategy</span> · <span class="">Site footprint by country</span></div><b class="k"><i data-lucide="coins" class="ic" style="color:var(--red);font-size:18px;vertical-align:-3px"></i> Well invested · 6</b><div><span class="h"><span style="color:var(--red)">★</span> Spend on high-value gaps</span> · <span class="">Business relevance by market</span> · <span class="">Portfolio quadrant mix</span> · <span class="">Cost per realised impact</span> · <span class="">Committed, spent and overrun</span> · <span class="">Regional funding vs evidence use</span></div><b class="k"><i data-lucide="shield-check" class="ic" style="color:var(--red);font-size:18px;vertical-align:-3px"></i> Trusted and acted on · 6</b><div><span class="h"><span style="color:var(--red)">★</span> Verified data share</span> · <span class="h"><span style="color:var(--red)">★</span> Recommendation hit rate</span> · <span class="">Recommendation priority</span> · <span class="">Event-to-response time</span> · <span class="">Insight changes month over month</span> · <span class="">Verification queue age</span></div></div></div>
+  </div>
+  <div class="foot" style="bottom:16px;line-height:1.5;font-size:13px"><span><b style="color:var(--red)">★</b> = feeds one of the twelve headline metrics (slide 11) · definitions, effort and importance in the appendix<br><sup>1</sup> Orphan gap: no running or planned study addresses it (0% planned coverage). Example: sequencing TREMFYA and icotrokinra; it stays open until a study is commissioned.</span><span>7</span></div>
+</section>
+
+<!-- 8 EVIDENCE LADDER -->
+<section class="slide">
+  <div class="nav5"><span>Right evidence</span><span>On time</span><span class="on">Heard</span><span>Changes practice</span></div>
+  <div class="head"><div class="eyebrow">The evidence ladder</div><div class="title">Every study climbs a ladder to citable evidence</div>
+    <div class="lede" style="font-size:19px">Outputs in order, from first patient to long-term results. The dashboard shows each study's current rung.</div></div>
+  <div class="body" style="top:236px;bottom:66px;display:flex;flex-direction:column;gap:14px">
+    <div style="display:grid;grid-template-columns:repeat(9,1fr);gap:8px;align-items:end;border-bottom:3px solid var(--ink3)"><div style="display:flex;flex-direction:column;justify-content:flex-end;gap:6px">
+      <div><div style="font-size:17px;font-weight:800;color:var(--ink)">TiP</div><div style="font-size:14px;color:var(--ink2);line-height:1.3;margin-top:2px">Trial-in-progress poster: design and rationale</div><div style="font-size:13px;color:var(--ink3);line-height:1.3;margin-top:3px">~9 mo after first patient</div></div>
+      <div style="font-size:18px;font-weight:900;color:var(--ink)">0</div>
+      <div style="height:8px;border-radius:8px 8px 0 0;background:var(--red-lt)"></div></div><div style="display:flex;flex-direction:column;justify-content:flex-end;gap:6px">
+      <div><div style="font-size:17px;font-weight:800;color:var(--ink)">Baseline</div><div style="font-size:14px;color:var(--ink2);line-height:1.3;margin-top:2px">Who was enrolled; no outcomes</div><div style="font-size:13px;color:var(--ink3);line-height:1.3;margin-top:3px">~5 mo after last patient in</div></div>
+      <div style="font-size:18px;font-weight:900;color:var(--ink)">0</div>
+      <div style="height:8px;border-radius:8px 8px 0 0;background:var(--red-lt)"></div></div><div style="display:flex;flex-direction:column;justify-content:flex-end;gap:6px">
+      <div><div style="font-size:17px;font-weight:800;color:var(--ink)">Interim <span style="font-weight:600;font-size:13px;color:var(--ink3)">(optional)</span></div><div style="font-size:14px;color:var(--ink2);line-height:1.3;margin-top:2px">Early results before readout</div><div style="font-size:13px;color:var(--ink3);line-height:1.3;margin-top:3px">open-label, single-arm, extension, or pre-specified and public</div></div>
+      <div style="font-size:18px;font-weight:900;color:var(--ink)">0.3–0.5</div>
+      <div style="height:115px;border-radius:8px 8px 0 0;background:#fff;border:2px dashed var(--red-md);border-bottom:0"></div></div><div style="display:flex;flex-direction:column;justify-content:flex-end;gap:6px">
+      <div><div style="font-size:17px;font-weight:800;color:var(--ink)">Topline</div><div style="font-size:14px;color:var(--ink2);line-height:1.3;margin-top:2px">Press release of the primary result</div><div style="font-size:13px;color:var(--ink3);line-height:1.3;margin-top:3px">at readout</div></div>
+      <div style="font-size:18px;font-weight:900;color:var(--ink)">0.3</div>
+      <div style="height:69px;border-radius:8px 8px 0 0;background:var(--red-md)"></div></div><div style="display:flex;flex-direction:column;justify-content:flex-end;gap:6px">
+      <div><div style="font-size:17px;font-weight:800;color:var(--ink)">Primary congress</div><div style="font-size:14px;color:var(--ink2);line-height:1.3;margin-top:2px">Primary results as oral or poster</div><div style="font-size:13px;color:var(--ink3);line-height:1.3;margin-top:3px">~4 mo after topline</div></div>
+      <div style="font-size:18px;font-weight:900;color:var(--ink)">0.6</div>
+      <div style="height:138px;border-radius:8px 8px 0 0;background:var(--red-md)"></div></div><div style="display:flex;flex-direction:column;justify-content:flex-end;gap:6px">
+      <div><div style="font-size:17px;font-weight:800;color:var(--ink)">Primary paper</div><div style="font-size:14px;color:var(--ink2);line-height:1.3;margin-top:2px">Peer-reviewed primary manuscript</div><div style="font-size:13px;color:var(--ink3);line-height:1.3;margin-top:3px">~12 mo after topline</div></div>
+      <div style="font-size:18px;font-weight:900;color:var(--red)">1.0</div>
+      <div style="height:230px;border-radius:8px 8px 0 0;background:var(--red)"></div></div><div style="display:flex;flex-direction:column;justify-content:flex-end;gap:6px">
+      <div><div style="font-size:17px;font-weight:800;color:var(--ink)">Secondary</div><div style="font-size:14px;color:var(--ink2);line-height:1.3;margin-top:2px">Secondary and subgroup analyses</div><div style="font-size:13px;color:var(--ink3);line-height:1.3;margin-top:3px">6–15 mo after first congress</div></div>
+      <div style="font-size:18px;font-weight:900;color:var(--ink)">0.4–0.7</div>
+      <div style="height:161px;border-radius:8px 8px 0 0;background:var(--red-dkr)"></div></div><div style="display:flex;flex-direction:column;justify-content:flex-end;gap:6px">
+      <div><div style="font-size:17px;font-weight:800;color:var(--ink)">Post-hoc</div><div style="font-size:14px;color:var(--ink2);line-height:1.3;margin-top:2px">Post-hoc analyses</div><div style="font-size:13px;color:var(--ink3);line-height:1.3;margin-top:3px">~9 mo after first congress</div></div>
+      <div style="font-size:18px;font-weight:900;color:var(--ink)">0.2–0.4</div>
+      <div style="height:92px;border-radius:8px 8px 0 0;background:var(--red-dkr)"></div></div><div style="display:flex;flex-direction:column;justify-content:flex-end;gap:6px">
+      <div><div style="font-size:17px;font-weight:800;color:var(--ink)">LTE</div><div style="font-size:14px;color:var(--ink2);line-height:1.3;margin-top:2px">Long-term extension results</div><div style="font-size:13px;color:var(--ink3);line-height:1.3;margin-top:3px">~12 mo after each data cut</div></div>
+      <div style="font-size:18px;font-weight:900;color:var(--ink)">0.2</div>
+      <div style="height:46px;border-radius:8px 8px 0 0;background:var(--red-dkr)"></div></div></div>
+    <div style="font-size:13px;color:var(--ink3);margin-top:-6px">Bar height = how much an output of that rung counts toward closing an evidence gap (peer-reviewed primary paper = 1.0; ranges show the higher value).</div>
+    <div style="display:grid;grid-template-columns:1fr 1.25fr 1fr;gap:16px">
+      <div class="card" style="padding:14px 18px"><div class="row" style="align-items:center;gap:10px"><i data-lucide="activity" class="ic" style="font-size:22px;color:var(--red)"></i><h4 style="font-size:18px">Real-world studies: shorter ladder</h4></div>
+        <p style="font-size:15px;margin-top:6px">Trial-in-progress poster → first data-cut poster (~3 mo after the cut) → primary paper (~12 mo after the cut) → later data cuts</p></div>
+      <div class="card" style="padding:14px 18px"><div class="row" style="align-items:center;gap:10px"><i data-lucide="file-clock" class="ic" style="font-size:22px;color:var(--red)"></i><h4 style="font-size:18px">Example: FUZION CD</h4></div>
+        <p style="font-size:15px;margin-top:6px">Reached <b style="color:var(--ink)">Primary congress</b> (DDW 2026). <b style="color:var(--ink)">Primary paper</b> is the next rung; the prototype recommends submission by Dec 2026 (REC-002). Until then its results count 0.6, not 1.0, toward closing the perianal-disease gap.</p></div>
+      <div class="card" style="padding:14px 18px"><div class="row" style="align-items:center;gap:10px"><i data-lucide="list-checks" class="ic" style="font-size:22px;color:var(--red)"></i><h4 style="font-size:18px">How we use it</h4></div>
+        <p style="font-size:15px;margin-top:6px">Evidence ladder progress · evidence debt (results without a paper) · months from topline to paper</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Timings and weights are the prototype's reference configuration; replace with J&amp;J publication planning standards.</span><span>8</span></div>
+</section>
+
+<!-- 9 TWO SCORES -->
+<section class="slide">
+  <div class="nav5"><span class="on">Right evidence</span><span>On time</span><span>Heard</span><span>Changes practice</span></div>
+  <div class="head"><div class="eyebrow">Prioritising activities</div><div class="title">Every activity gets two scores: business relevance and scientific value</div></div>
+  <div class="body" style="top:235px;display:grid;grid-template-columns:900px 1fr;gap:44px">
+    <div id="quad" style="position:relative"></div>
+    <div class="grid" style="align-content:start;gap:16px">
+      <div class="row"><div class="ico"><i data-lucide="briefcase" class="ic"></i></div><div><h4 style="font-size:21px;font-weight:800">Business relevance</h4><p style="font-size:17px;color:var(--ink2)">How much value the activity creates or protects: access, guideline position, lifecycle, differentiation, timing.</p></div></div>
+      <div class="row"><div class="ico"><i data-lucide="microscope" class="ic"></i></div><div><h4 style="font-size:21px;font-weight:800">Scientific &amp; medical value</h4><p style="font-size:17px;color:var(--ink2)">Unmet need, patient benefit, evidence quality, obligations.</p></div></div>
+      <div class="card" style="background:var(--bg2);border-color:var(--bg2);padding:18px 20px"><p style="font-size:17px"><b style="color:var(--ink)">Outside the ranking:</b> safety, regulatory and paediatric obligations always go ahead.</p></div>
+      <span class="tag ill" style="justify-self:start"><i data-lucide="info" class="ic"></i>Placement illustrative</span>
+    </div>
+  </div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>9</span></div>
+</section>
+
+<!-- 8 HOW BUSINESS RELEVANCE IS CALCULATED -->
+<section class="slide">
+  <div class="nav5"><span class="on">Right evidence</span><span>On time</span><span>Heard</span><span>Changes practice</span></div>
+  <div class="head"><div class="eyebrow">Transparent by design</div><div class="title">Business relevance is calculated, not opinion</div></div>
+  <div class="body" style="top:250px">
+    <div id="formula" style="display:flex;align-items:stretch;gap:10px"></div>
+    <div style="margin-top:34px;font-size:17px;font-weight:800;letter-spacing:.12em;color:var(--ink3)">IT ROLLS DOWN TO EVERY ACTIVITY</div>
+    <div style="display:flex;align-items:center;gap:14px;margin-top:14px;font-size:19px">
+      <div class="card row" style="align-items:center;padding:14px 18px"><i data-lucide="flask-conical" class="ic" style="font-size:26px;color:var(--red)"></i><span><b>Study</b> · calculated directly</span></div>
+      <i data-lucide="chevron-right" class="ic" style="font-size:28px;color:var(--ink3)"></i>
+      <div class="card row" style="align-items:center;padding:14px 18px"><i data-lucide="file-text" class="ic" style="font-size:26px;color:var(--red)"></i><span><b>Paper / congress output</b> · paper 1.0 · oral 0.6 · poster 0.3</span></div>
+      <i data-lucide="chevron-right" class="ic" style="font-size:28px;color:var(--ink3)"></i>
+      <div class="card row" style="align-items:center;padding:14px 18px"><i data-lucide="send" class="ic" style="font-size:26px;color:var(--red)"></i><span><b>Tactic</b> · × stakeholder reach</span></div>
+      <i data-lucide="chevron-right" class="ic" style="font-size:28px;color:var(--ink3)"></i>
+      <div class="card row" style="align-items:center;padding:14px 18px"><i data-lucide="sparkles" class="ic" style="font-size:26px;color:var(--red)"></i><span><b>Next best action</b> · ranked</span></div>
+    </div>
+  </div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>10</span></div>
+</section>
+
+<!-- 9 TWELVE HEADLINE METRICS -->
+<section class="slide">
+  <div class="head"><div class="eyebrow">What leadership sees</div><div class="title">Twelve headline metrics tell us if we're on track</div>
+    <div class="lede" style="font-size:19px">About 50 more steer the teams day to day; the full catalogue is in the appendix.</div></div>
+  <div class="body" style="top:245px"><div id="kpis" style="display:grid;grid-template-columns:repeat(6,1fr);gap:14px;align-items:start"></div></div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>11</span></div>
+</section>
+
+<!-- 10 PRIORITISATION -->
+<section class="slide">
+  <div class="head"><div class="eyebrow">Where to start</div><div class="title">We start where value is high and effort is low</div>
+    <div class="lede" style="font-size:19px">Value = importance for evidence decisions × business relevance</div></div>
+  <div class="body" style="top:240px;display:grid;grid-template-columns:1000px 1fr;gap:40px">
+    <div id="matrix" style="position:relative"></div>
+    <div class="grid" style="align-content:start;gap:14px">
+      <div class="card" style="border-color:var(--red);padding:18px 20px"><div class="row" style="align-items:center;gap:12px"><i data-lucide="layers" class="ic" style="font-size:28px;color:var(--red)"></i><h4 style="font-size:21px">Foundation first</h4></div>
+        <p style="font-size:16.5px;margin-top:8px">Value at stake · decision calendar · imperatives &amp; gap criticality · scientific-value rubric. Everything else depends on these.</p></div>
+      <div class="card" style="padding:18px 20px"><div class="row" style="align-items:center;gap:12px"><i data-lucide="zap" class="ic" style="font-size:28px;color:var(--red)"></i><h4 style="font-size:21px">Start now</h4></div>
+        <p style="font-size:16.5px;margin-top:8px">Mostly public data. Useful for steering from month one.</p></div>
+      <div class="card" style="padding:18px 20px"><div class="row" style="align-items:center;gap:12px"><i data-lucide="rocket" class="ic" style="font-size:28px;color:var(--red)"></i><h4 style="font-size:21px">Invest</h4></div>
+        <p style="font-size:16.5px;margin-top:8px">Needs internal data and curation; where impact is proven.</p></div>
+    </div>
+  </div>
+  <div class="foot" style="bottom:18px"><span><sup>1</sup> Orphan gap: no running or planned study addresses it (0% planned coverage). Example: sequencing TREMFYA and icotrokinra; it stays open until a study is commissioned.</span><span>12</span></div>
+</section>
+
+<!-- 11 STUDY EXAMPLE -->
+<section class="slide">
+  <div class="nav5"><span>Right evidence</span><span class="on">On time</span><span class="on">Heard</span><span class="on">Changes practice</span></div>
+  <div class="head"><div class="eyebrow">One study, end to end</div><div class="title">SC induction (ASTRO + GRAVITI): strong delivery, uptake not yet measured</div></div>
+  <div class="body" style="top:250px">
+    <div id="lanes"></div>
+    <div class="card" style="margin-top:22px;border-color:var(--red);display:flex;gap:18px;align-items:center;padding:18px 24px">
+      <i data-lucide="lightbulb" class="ic" style="font-size:34px;color:var(--red);flex:none"></i>
+      <p style="font-size:19px;color:var(--ink)">With SKYRIZI SC induction expected in Crohn's in late 2026, showing that SC induction is <b>used and valued in practice</b> becomes TREMFYA's differentiation. The lagging lane is where that proof lives.</p></div>
+    <div style="margin-top:26px;font-size:17px;font-weight:800;letter-spacing:.12em;color:var(--ink3)">HOW WE WOULD FILL THE LAGGING LANE</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:12px">
+      <div class="card row" style="padding:16px 18px;align-items:center"><div class="ico g" style="width:46px;height:46px;font-size:24px"><i data-lucide="book-open" class="ic"></i></div><p style="font-size:16.5px;color:var(--ink)">Guideline documents: ACG, AGA, ECCO, BSG</p></div>
+      <div class="card row" style="padding:16px 18px;align-items:center"><div class="ico g" style="width:46px;height:46px;font-size:24px"><i data-lucide="landmark" class="ic"></i></div><p style="font-size:16.5px;color:var(--ink)">HTA registers: NICE, G-BA, HAS, AIFA</p></div>
+      <div class="card row" style="padding:16px 18px;align-items:center"><div class="ico g" style="width:46px;height:46px;font-size:24px"><i data-lucide="activity" class="ic"></i></div><p style="font-size:16.5px;color:var(--ink)">Real-world studies already running (e.g. GORGEOUS)</p></div>
+      <div class="card row" style="padding:16px 18px;align-items:center"><div class="ico g" style="width:46px;height:46px;font-size:24px"><i data-lucide="message-square" class="ic"></i></div><p style="font-size:16.5px;color:var(--ink)">MSL insights: HCP questions on SC induction</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Sources: ClinicalTrials.gov; ACG 2024 and 2025 oral programmes; US labels; publications. Data as of Sep 2026.</span><span>13</span></div>
+</section>
+
+<!-- 12 GOVERNANCE -->
+<section class="slide">
+  <div class="head"><div class="eyebrow">Governance</div><div class="title">Medical Affairs owns the science; business relevance only sets priorities</div></div>
+  <div class="body" style="top:250px;display:grid;grid-template-columns:1.25fr 1fr;gap:34px;align-items:start">
+    <div id="owners" style="display:grid;grid-template-columns:1fr 1fr;gap:14px;align-content:start"></div>
+    <div class="card" style="background:var(--bg2);border-color:var(--bg2);display:grid;gap:16px;align-content:start">
+      <div class="row" style="align-items:center"><div class="ico"><i data-lucide="shield-check" class="ic"></i></div><h4>Guardrails</h4></div>
+      <div class="row"><i data-lucide="check" class="ic" style="font-size:24px;color:var(--red);margin-top:2px"></i><p style="font-size:18px">Both scores are always shown side by side</p></div>
+      <div class="row"><i data-lucide="check" class="ic" style="font-size:24px;color:var(--red);margin-top:2px"></i><p style="font-size:18px">Study design, interpretation and scientific exchange stay with Medical Affairs</p></div>
+      <div class="row"><i data-lucide="check" class="ic" style="font-size:24px;color:var(--red);margin-top:2px"></i><p style="font-size:18px">Value at stake set by named owners, never estimated by AI</p></div>
+      <div class="row"><i data-lucide="check" class="ic" style="font-size:24px;color:var(--red);margin-top:2px"></i><p style="font-size:18px">Commercial data is context, never a target for scientific work</p></div>
+      <div class="row"><i data-lucide="check" class="ic" style="font-size:24px;color:var(--red);margin-top:2px"></i><p style="font-size:18px">Safety, regulatory and paediatric obligations sit outside the ranking</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>14</span></div>
+</section>
+
+<!-- 13 ROADMAP + ASKS -->
+<section class="slide">
+  <div class="head"><div class="eyebrow">Next steps</div><div class="title">Foundation in 3 months, full impact view in 12</div></div>
+  <div class="body" style="top:230px">
+    <div id="roadmap" style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px"></div>
+    <div style="margin-top:26px;display:grid;grid-template-columns:auto repeat(4,1fr);gap:12px;align-items:stretch">
+      <div style="display:grid;place-items:center;background:var(--red);color:#fff;border-radius:14px;padding:0 20px;font-weight:900;font-size:18px;letter-spacing:.1em">THE ASK</div>
+      <div class="card row" style="padding:14px 16px;align-items:center"><div class="num" style="width:36px;height:36px;font-size:18px">1</div><p style="font-size:16.5px;color:var(--ink)">Endorse the framework</p></div>
+      <div class="card row" style="padding:14px 16px;align-items:center"><div class="num" style="width:36px;height:36px;font-size:18px">2</div><p style="font-size:16.5px;color:var(--ink)">Name owners: value at stake &amp; decision calendar</p></div>
+      <div class="card row" style="padding:14px 16px;align-items:center"><div class="num" style="width:36px;height:36px;font-size:18px">3</div><p style="font-size:16.5px;color:var(--ink)">Read access: study operations, finance, MSL insights</p></div>
+      <div class="card row" style="padding:14px 16px;align-items:center"><div class="num" style="width:36px;height:36px;font-size:18px">4</div><p style="font-size:16.5px;color:var(--ink)">Confirm the IBD pilot; review after two cycles</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>15</span></div>
+</section>
+
+<!-- 14 APPENDIX -->
+<section class="slide">
+  <div class="head"><div class="eyebrow">Appendix</div><div class="title">The full catalogue: 66 metrics in 10 areas</div>
+    <div class="lede" style="font-size:19px">Each metric has a level, a leading/lagging type, effort to measure, importance, business link and the decision it enables.</div></div>
+  <div class="body" style="top:250px"><div id="catalog" style="display:grid;grid-template-columns:repeat(5,1fr);gap:14px"></div></div>
+  <div class="foot"><span>Evidence impact metrics · proposal for discussion</span><span>16</span></div>
+</section>
+
+<div class="hint">← → to navigate · F for full screen</div>
+<script id="build">
+const I = (n, s = "") => `<i data-lucide="${n}" class="ic" style="${s}"></i>`;
+// ---- S5 oral bars (public data: congress programmes, 3 years)
+const OR = [["TREMFYA", 30, 1, true], ["ENTYVIO", 26, 7], ["RINVOQ", 25, 12], ["SKYRIZI", 25, 8], ["OMVOH", 18, 2]];
+document.getElementById("orals").innerHTML = OR.map(([n, v, rwe, me]) => `
+  <div style="display:grid;grid-template-columns:96px 1fr 34px;gap:10px;align-items:center;font-size:15px">
+    <b style="text-align:right;color:${me ? "var(--ink)" : "var(--ink3)"}">${n}</b>
+    <div style="display:flex;gap:2px;height:18px"><div style="width:${(v - rwe) / 30 * 100}%;background:${me ? "var(--red)" : "var(--grey)"};border-radius:4px 0 0 4px"></div><div style="width:${rwe / 30 * 100}%;background:${me ? "var(--red-md)" : "#D8D8D8"};border-radius:0 4px 4px 0"></div></div>
+    <b style="font-variant-numeric:tabular-nums">${v}</b></div>`).join("") + `<div style="display:flex;gap:16px;font-size:13px;color:var(--ink3);margin-top:2px"><span><span style="display:inline-block;width:12px;height:10px;background:var(--grey);border-radius:2px"></span> trial programme</span><span><span style="display:inline-block;width:12px;height:10px;background:#D8D8D8;border-radius:2px"></span> real-world</span></div>`;
+// ---- S6 chain
+const CH = [["compass", "Strategy", "Right questions and gaps", "planning", "Right evidence"], ["clock", "Execution", "Enrolment, milestones, timing", "months", "On time"],
+  ["file-check", "Delivery", "Results and papers", "0–18 mo", "Heard"], ["megaphone", "Reach", "Orals, voice, MSL use", "0–12 mo", "Heard"],
+  ["book-open", "Uptake", "Guidelines, HTA, label", "1–3 yrs", "Changes practice"], ["heart-pulse", "Outcome", "Practice and patients", "1–4 yrs", "Changes practice"]];
+const shade = ["#F4A89C", "#F04A2F", "#EB1700", "#D01400", "#B51200", "#8C0D00"];
+document.getElementById("chain").innerHTML = CH.map(([ic, h, s, t, q], i) => `
+  <div style="display:flex;flex-direction:column;align-items:center;text-align:center;position:relative">
+    ${i < 5 ? `<div style="position:absolute;top:54px;left:calc(50% + 58px);right:calc(-50% + 58px);height:3px;background:var(--line)"></div>` : ""}
+    <div style="width:110px;height:110px;border-radius:50%;background:${shade[i]};color:#fff;display:grid;place-items:center;font-size:48px">${I(ic)}</div>
+    <div style="font-size:25px;font-weight:800;margin-top:14px">${h}</div>
+    <div style="font-size:17px;color:var(--ink2);margin-top:4px;max-width:210px">${s}</div>
+    <div style="font-size:14px;color:var(--ink3);margin-top:6px;font-weight:700">${t}</div>
+    </div>`).join("");
+// ---- S7 quadrant
+(() => {
+  const W = 900, H = 540, el = document.getElementById("quad");
+  const q = (x, y, w, h, bg, title, sub, col) => `<div style="position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px;background:${bg};border-radius:14px;padding:18px 20px">
+    <div style="font-size:21px;font-weight:800;color:${col}">${title}</div><div style="font-size:15.5px;color:var(--ink2);margin-top:4px;max-width:360px">${sub}</div></div>`;
+  const mx = 70, gw = (W - mx) / 2 - 6, gh = (H - 40) / 2 - 6;
+  let h = q(mx, 0, gw, gh, "#F3F3F3", "Fund through other routes", "Patient need, obligations, investigator-initiated studies", "var(--ink)")
+    + q(mx + gw + 12, 0, gw, gh, "var(--red-lt)", "Core portfolio", "Protect and fund", "var(--red-dk)")
+    + q(mx, gh + 12, gw, gh, "#F7F7F7", "Stop", "Low value on both", "var(--ink3)")
+    + q(mx + gw + 12, gh + 12, gw, gh, "#FFF1E6", "Red flag", "Commercially driven, weak science: review in medical governance", "#9A4A00");
+  h += `<div style="position:absolute;left:0;top:0;height:${H - 40}px;width:40px;display:flex;align-items:center;justify-content:center"><div style="transform:rotate(-90deg);white-space:nowrap;font-size:16px;font-weight:800;color:var(--ink2);letter-spacing:.06em">SCIENTIFIC &amp; MEDICAL VALUE ↑</div></div>
+        <div style="position:absolute;left:${mx}px;right:0;bottom:0;text-align:center;font-size:16px;font-weight:800;color:var(--ink2);letter-spacing:.06em">BUSINESS RELEVANCE →</div>`;
+  const dot = (x, y, label, side) => `<div style="position:absolute;left:${x}px;top:${y}px;transform:translate(-50%,-50%);display:flex;align-items:center;gap:8px;flex-direction:${side === "l" ? "row-reverse" : "row"}">
+    <div style="width:18px;height:18px;border-radius:50%;background:var(--red);border:3px solid #fff;box-shadow:0 0 0 2px var(--red)"></div><div style="font-size:16px;font-weight:700;background:#fff;border-radius:8px;padding:3px 8px;white-space:nowrap">${label}</div></div>`;
+  h += dot(760, 110, "CHARGE head-to-head", "l") + dot(690, 205, "GORGEOUS SC cohort", "l") + dot(230, 120, "Pouchitis · paediatric", "r") + dot(250, 390, "Extra post-hoc poster", "r");
+  el.innerHTML = h; el.style.height = H + "px";
+})();
+// ---- S8 formula
+const FX = [["target", "Gaps served × fit", "Which gaps it addresses, and how fully", "Evidence team"], ["gem", "Value at stake", "Revenue, access or guideline position at risk or up for grabs", "Brand + Finance"],
+  ["calendar-clock", "Timeliness", "Lands before the decision it must inform", "Decision calendar"], ["percent", "Probability of delivering", "Success × execution risk", "Study plan"],
+  ["radar", "Differentiation", "Creates or protects a difference vs competitors", "Competitor profile"]];
+document.getElementById("formula").innerHTML = FX.map(([ic, h, s, o], i) => `
+  <div class="card" style="flex:1;padding:20px 18px;display:flex;flex-direction:column;gap:8px">
+    <div class="ico">${I(ic)}</div><div style="font-size:20px;font-weight:800;margin-top:4px">${h}</div><div style="font-size:15.5px;color:var(--ink2);line-height:1.35">${s}</div>
+    <div style="margin-top:auto;font-size:13px;font-weight:700;color:var(--ink3);letter-spacing:.06em">OWNER · ${o.toUpperCase()}</div></div>
+  ${i < FX.length - 1 ? `<div style="display:grid;place-items:center;font-size:30px;font-weight:800;color:var(--ink3)">${i === 3 ? "±" : "×"}</div>` : ""}`).join("") +
+  `<div style="display:grid;place-items:center;font-size:30px;font-weight:800;color:var(--ink3)">=</div>
+   <div style="flex:1.05;background:var(--red);color:#fff;border-radius:18px;padding:20px 18px;display:flex;flex-direction:column;gap:8px">
+     <div style="font-size:30px">${I("briefcase")}</div><div style="font-size:22px;font-weight:900">Business relevance</div><div style="font-size:15.5px;opacity:.92">Score 0–100 for every study, output and action</div></div>`;
+// ---- S9 KPIs grouped by question
+const KP = [["target", "Right evidence", [["Imperatives with evidence ready in time", "lead", "Share of strategic imperatives on track"], ["Business relevance per $", "lead", "Value created or protected per dollar spent"]]],
+  ["clock", "On time", [["Readouts before their decision points", "lead", "Landing before guideline, HTA and competitor dates"], ["Decision-calendar coverage", "lead", "Key decision points with evidence planned in time"]]],
+  ["megaphone", "Heard", [["Months from topline to paper", "lead", "Speed to evidence guidelines can cite"], ["Oral rate & non-sponsor voice", "lead", "Abstracts chosen as full orals; publications not sponsored by J&J"]]],
+  ["badge-check", "Changes practice", [["Guideline & HTA citations", "lag", "Our studies cited in guideline updates and HTA decisions"], ["Value-weighted realised impact", "lag", "Impact targets achieved × value at stake"]]],
+  ["radar", "Ahead of competitors", [["Differentiation held vs key competitor", "lead", "Label advantages kept today and after competitor filings"]]],
+  ["shield-check", "Foundation", [["Spend on high-value gaps", "lead", "Share of budget on the most valuable gaps"], ["Verified data share", "lead", "Decision-grade data checked against sources"], ["Recommendation hit rate", "lag", "Accepted actions that delivered their effect"]]]];
+document.getElementById("kpis").innerHTML = KP.map(([ic, h, ms], i) => `
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="background:${i < 4 ? ["#F04A2F", "#EB1700", "#B51200", "#8C0D00"][i] : i === 4 ? "#5A5A5A" : "#8A8A8A"};color:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:10px;min-height:72px">
+      <span style="font-size:28px">${I(ic)}</span><b style="font-size:19px;line-height:1.1">${h}</b></div>
+    ${ms.map(([m, t, d]) => `<div class="card" style="padding:16px;display:flex;flex-direction:column;gap:8px;min-height:${ms.length === 3 ? 150 : 222}px"><div style="font-size:19px;font-weight:800;line-height:1.25">${m}</div>
+      <div style="font-size:15.5px;color:var(--ink2);line-height:1.35">${d}</div>
+      <span class="tag ${t}" style="margin-top:auto;align-self:flex-start">${t === "lead" ? I("zap") + "Leading" : I("hourglass") + "Lagging"}</span></div>`).join("")}
+  </div>`).join("");
+// ---- S10 matrix (effort vs value)
+(() => {
+  const W = 1000, H = 540, el = document.getElementById("matrix"), L = 60, B = 40;
+  const X = e => L + (e - 0.6) / 2.8 * (W - L - 10), Y = v => (H - B) - (v - 0.5) / 9 * (H - B - 10);
+  let h = `<div style="position:absolute;left:${L}px;top:0;width:${X(2) - L}px;height:${Y(5.5)}px;background:var(--red-lt);border-radius:14px 0 0 0"></div>
+    <div style="position:absolute;left:${X(2)}px;top:0;right:0;height:${Y(5.5)}px;background:#FDF4F2;border-radius:0 14px 0 0"></div>
+    <div style="position:absolute;left:${L}px;top:${Y(5.5)}px;width:${X(2) - L}px;bottom:${B}px;background:#F6F6F6"></div>
+    <div style="position:absolute;left:${X(2)}px;top:${Y(5.5)}px;right:0;bottom:${B}px;background:#FAFAFA"></div>`;
+  const lab = (x, y, t, c) => `<div style="position:absolute;left:${x}px;top:${y}px;font-size:15px;font-weight:900;letter-spacing:.12em;color:${c}">${t}</div>`;
+  h += lab(L + 14, 12, "START NOW", "var(--red-dk)") + lab(X(2) + 14, 12, "INVEST", "var(--red-dk)") + lab(L + 14, Y(5.5) + 12, "FILL-INS", "var(--ink3)") + lab(X(2) + 14, Y(5.5) + 12, "LATER", "var(--ink3)");
+  h += `<div style="position:absolute;left:${L}px;right:0;bottom:0;display:flex;justify-content:space-between;font-size:15px;font-weight:700;color:var(--ink2);padding:0 10px"><span>Low effort</span><span>EFFORT TO MEASURE →</span><span>High effort</span></div>
+    <div style="position:absolute;left:0;top:0;bottom:${B}px;width:40px;display:flex;align-items:center;justify-content:center"><div style="transform:rotate(-90deg);white-space:nowrap;font-size:15px;font-weight:700;color:var(--ink2)">VALUE →</div></div>`;
+  // effort 1..3, value 1..9, label side
+  const P = [["Orphan gaps¹", 1.15, 9.0, "r"], ["Readouts vs cut-offs", 1.45, 8.4, "r"], ["Profile vs competitor", 0.95, 7.8, "r"], ["Competitor calendar", 1.45, 7.2, "r"], ["Evidence debt", 0.95, 6.6, "r"],
+    ["Guideline & HTA citations", 2.25, 9.0, "r"], ["Value-weighted impact", 2.6, 8.3, "r"], ["Value at stake & gap criticality", 2.15, 7.6, "r"], ["Spend on high-value gaps", 2.4, 6.9, "r"], ["Enrolment vs plan", 2.1, 6.2, "r"], ["MSL insight trends", 2.8, 5.95, "r"],
+    ["Share of voice", 1.3, 4.4, "r"], ["Citations", 1.05, 2.4, "r"], ["Symposia", 1.15, 1.2, "r"], ["Competitor strategy", 2.3, 2.6, "r"], ["Practice-change data", 2.9, 4.3, "l"]];
+  h += P.map(([t, e, v, s]) => `<div style="position:absolute;left:${X(e)}px;top:${Y(v)}px;transform:translate(${s === "l" ? "calc(-100% + 9px)" : "-9px"},-50%);display:flex;align-items:center;gap:7px;flex-direction:${s === "l" ? "row-reverse" : "row"}">
+    <div style="width:16px;height:16px;border-radius:50%;background:${v >= 5.5 ? "var(--red)" : "var(--grey)"};border:3px solid #fff;box-shadow:0 0 0 1.5px ${v >= 5.5 ? "var(--red)" : "var(--grey)"}"></div>
+    <div style="font-size:15px;font-weight:700;color:${v >= 5.5 ? "var(--ink)" : "var(--ink2)"};white-space:nowrap">${t}</div></div>`).join("");
+  el.innerHTML = h; el.style.height = H + "px";
+})();
+// ---- S11 lanes
+const LN = [["STEER · LEADING", "lead", [["check-circle-2", "Readouts on time", "Primary endpoints met", "ok"], ["check-circle-2", "Peer-reviewed papers", "Both trials published", "ok"], ["check-circle-2", "Full congress orals", "GRAVITI · ACG 2024 · ASTRO · ACG 2025", "ok"], ["check-circle-2", "Label", "SC induction: CD Mar 2025 · UC Sep 2025", "ok"]]],
+  ["PROVE · LAGGING", "lag", [["help-circle", "Guideline citation", "Not yet measured", "q"], ["help-circle", "HTA decisions", "Not yet measured by market", "q"], ["help-circle", "Used in practice", "Share starting on SC induction", "q"], ["help-circle", "Real-world value", "Persistence, patient experience", "q"]]]];
+document.getElementById("lanes").innerHTML = LN.map(([h, t, items]) => `
+  <div style="display:grid;grid-template-columns:200px repeat(4,1fr);gap:14px;align-items:stretch;margin-bottom:14px">
+    <div style="display:grid;place-items:center;border-radius:14px;font-weight:900;font-size:16px;letter-spacing:.1em;background:${t === "lead" ? "var(--red)" : "#5A5A5A"};color:#fff;text-align:center;padding:10px">${h}</div>
+    ${items.map(([ic, a, b, s]) => `<div class="card" style="padding:16px 18px;display:flex;gap:12px;align-items:flex-start;${s === "q" ? "border-style:dashed;" : ""}">
+      <span style="font-size:30px;color:${s === "ok" ? "#1E8E4F" : "var(--ink3)"}">${I(ic)}</span><div><div style="font-size:19px;font-weight:800">${a}</div><div style="font-size:15.5px;color:var(--ink2);margin-top:3px">${b}</div></div></div>`).join("")}
+  </div>`).join("");
+// ---- S12 owners
+const OW = [["users", "Brand & medical leads", "Imperatives, key questions, impact targets"], ["gem", "Brand + Finance", "Value at stake per imperative"], ["microscope", "Medical governance", "Scientific value, study design, interpretation"],
+  ["flask-conical", "Study & evidence teams", "Impact cards, study data, timelines"], ["message-square", "MSL / field medical", "Insights and HCP questions"], ["radar", "Competitive intelligence", "Competitor calendar and profiles"],
+  ["coins", "Finance", "Spend and co-funding"], ["database", "Data owner", "Verification queue and data quality"]];
+document.getElementById("owners").innerHTML = OW.map(([ic, a, b]) => `<div class="card row" style="padding:16px 18px;align-items:center"><div class="ico" style="width:48px;height:48px;font-size:25px">${I(ic)}</div><div><div style="font-size:18.5px;font-weight:800">${a}</div><div style="font-size:15.5px;color:var(--ink2);margin-top:2px">${b}</div></div></div>`).join("");
+// ---- S13 roadmap
+const RM = [["layers", "0–3 months", "Foundation & quick wins", ["Value at stake and decision calendar per imperative", "Scientific-value rubric", "Impact cards for upcoming readouts", "Quick-win metrics live: evidence debt, readouts vs cut-offs, profile vs competitor, orals"]],
+  ["plug", "3–6 months", "Connect internal data", ["Study operations, finance, MSL insights", "Two scores live for every activity", "Monthly refresh with verification queue"]],
+  ["trending-up", "6–12 months", "Prove impact & scale", ["Guideline and HTA citation layer", "Value-weighted impact and recommendation hit rate", "Second therapeutic area"]]];
+document.getElementById("roadmap").innerHTML = RM.map(([ic, when, h, items], i) => `
+  <div class="card" style="padding:22px 24px;${i === 0 ? "border-color:var(--red);" : ""}">
+    <div class="row" style="align-items:center"><div class="ico" style="${i ? "" : "background:var(--red);color:#fff"}">${I(ic)}</div><div><div style="font-size:15px;font-weight:800;letter-spacing:.1em;color:var(--red)">${when.toUpperCase()}</div><div style="font-size:23px;font-weight:800">${h}</div></div></div>
+    <ul style="list-style:none;margin-top:14px;display:grid;gap:8px">${items.map(x => `<li style="display:flex;gap:10px;font-size:17px;color:var(--ink2)"><span style="color:var(--red);font-size:18px">${I("check")}</span>${x}</li>`).join("")}</ul></div>`).join("");
+// ---- S14 catalogue
+const CT = [["gem", "Portfolio value", 10], ["compass", "Strategic readiness", 7], ["clock", "Study execution", 5], ["file-check", "Evidence delivery", 5], ["megaphone", "Dissemination & reach", 10],
+  ["radar", "Competitive position", 8], ["book-open", "Uptake & influence", 7], ["heart-pulse", "Outcome", 4], ["coins", "Investment & efficiency", 4], ["sparkles", "Action & platform", 6]];
+document.getElementById("catalog").innerHTML = CT.map(([ic, a, n]) => `<div class="card" style="padding:20px;display:flex;flex-direction:column;gap:12px"><div class="ico">${I(ic)}</div>
+  <div style="font-size:20px;font-weight:800">${a}</div><div style="display:flex;align-items:baseline;gap:8px"><span class="big" style="font-size:44px">${n}</span><span style="font-size:16px;color:var(--ink3)">metrics</span></div></div>`).join("");
+
+window.lucide && lucide.createIcons();
+</script>
+<script id="viewer">
+const slides = [...document.querySelectorAll(".slide")];
+let cur = 0;
+function fit() { if (!document.body.classList.contains("view")) { slides.forEach(el => el.style.transform = ""); return; }  /* print/PDF: no centring */
+  const s = Math.min(innerWidth / 1600, innerHeight / 900) * .96; slides.forEach(el => el.style.transform = `translate(-50%,-50%) scale(${s})`); }
+function show(i) { cur = Math.max(0, Math.min(slides.length - 1, i)); slides.forEach((el, j) => el.classList.toggle("cur", j === cur)); try { history.replaceState(null, "", "#" + (cur + 1)); } catch (e) {} }
+if (document.body.classList.contains("view")) {
+  addEventListener("resize", fit); fit(); show((parseInt(location.hash.slice(1)) || 1) - 1);
+  addEventListener("keydown", e => { if (["ArrowRight", "PageDown", " "].includes(e.key)) show(cur + 1); if (["ArrowLeft", "PageUp"].includes(e.key)) show(cur - 1); if (e.key === "f" || e.key === "F") document.documentElement.requestFullscreen?.().catch(() => {}); });
+  addEventListener("click", e => show(cur + (e.clientX > innerWidth / 3 ? 1 : -1)));
+}
+</script>
+</body>
+</html>

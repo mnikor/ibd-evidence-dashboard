@@ -1,0 +1,322 @@
+{
+ "table": "study_baseline",
+ "description": "SIMULATED baseline characteristics for key trials (placeholders; replace from publications).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "study_id": "NCT04033445",
+   "mean_age": 43.8,
+   "pct_female": 43.6,
+   "mean_disease_duration_yrs": 8.0,
+   "pct_bio_naive": 46.4,
+   "pct_prior_tnf_failure": 32.1,
+   "pct_prior_jak_failure": 1.3,
+   "pct_multi_class_failure": 16.2,
+   "pct_concomitant_steroids": 37.4,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "mean_age",
+     "pct_female",
+     "mean_disease_duration_yrs",
+     "pct_bio_naive",
+     "pct_prior_tnf_failure",
+     "pct_prior_jak_failure",
+     "pct_multi_class_failure",
+     "pct_concomitant_steroids"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "mean_age": "simulated",
+     "pct_female": "simulated",
+     "mean_disease_duration_yrs": "simulated",
+     "pct_bio_naive": "simulated",
+     "pct_prior_tnf_failure": "simulated",
+     "pct_prior_jak_failure": "simulated",
+     "pct_multi_class_failure": "simulated",
+     "pct_concomitant_steroids": "simulated"
+    }
+   },
+   "_key": "NCT04033445",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published baseline tables"
+  },
+  {
+   "study_id": "NCT03466411",
+   "mean_age": 38.0,
+   "pct_female": 39.4,
+   "mean_disease_duration_yrs": 9.9,
+   "pct_bio_naive": 57.3,
+   "pct_prior_tnf_failure": 46.5,
+   "pct_prior_jak_failure": 0.0,
+   "pct_multi_class_failure": 23.0,
+   "pct_concomitant_steroids": 36.9,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "mean_age",
+     "pct_female",
+     "mean_disease_duration_yrs",
+     "pct_bio_naive",
+     "pct_prior_tnf_failure",
+     "pct_prior_jak_failure",
+     "pct_multi_class_failure",
+     "pct_concomitant_steroids"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "mean_age": "simulated",
+     "pct_female": "simulated",
+     "mean_disease_duration_yrs": "simulated",
+     "pct_bio_naive": "simulated",
+     "pct_prior_tnf_failure": "simulated",
+     "pct_prior_jak_failure": "simulated",
+     "pct_multi_class_failure": "simulated",
+     "pct_concomitant_steroids": "simulated"
+    }
+   },
+   "_key": "NCT03466411",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published baseline tables"
+  },
+  {
+   "study_id": "NCT05197049",
+   "mean_age": 36.4,
+   "pct_female": 41.2,
+   "mean_disease_duration_yrs": 6.7,
+   "pct_bio_naive": 45.8,
+   "pct_prior_tnf_failure": 47.6,
+   "pct_prior_jak_failure": 3.9,
+   "pct_multi_class_failure": 10.4,
+   "pct_concomitant_steroids": 39.5,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "mean_age",
+     "pct_female",
+     "mean_disease_duration_yrs",
+     "pct_bio_naive",
+     "pct_prior_tnf_failure",
+     "pct_prior_jak_failure",
+     "pct_multi_class_failure",
+     "pct_concomitant_steroids"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "mean_age": "simulated",
+     "pct_female": "simulated",
+     "mean_disease_duration_yrs": "simulated",
+     "pct_bio_naive": "simulated",
+     "pct_prior_tnf_failure": "simulated",
+     "pct_prior_jak_failure": "simulated",
+     "pct_multi_class_failure": "simulated",
+     "pct_concomitant_steroids": "simulated"
+    }
+   },
+   "_key": "NCT05197049",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published baseline tables"
+  },
+  {
+   "study_id": "NCT05528510",
+   "mean_age": 37.8,
+   "pct_female": 48.1,
+   "mean_disease_duration_yrs": 6.6,
+   "pct_bio_naive": 58.9,
+   "pct_prior_tnf_failure": 43.0,
+   "pct_prior_jak_failure": 1.2,
+   "pct_multi_class_failure": 24.0,
+   "pct_concomitant_steroids": 34.4,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "mean_age",
+     "pct_female",
+     "mean_disease_duration_yrs",
+     "pct_bio_naive",
+     "pct_prior_tnf_failure",
+     "pct_prior_jak_failure",
+     "pct_multi_class_failure",
+     "pct_concomitant_steroids"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "mean_age": "simulated",
+     "pct_female": "simulated",
+     "mean_disease_duration_yrs": "simulated",
+     "pct_bio_naive": "simulated",
+     "pct_prior_tnf_failure": "simulated",
+     "pct_prior_jak_failure": "simulated",
+     "pct_multi_class_failure": "simulated",
+     "pct_concomitant_steroids": "simulated"
+    }
+   },
+   "_key": "NCT05528510",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published baseline tables"
+  },
+  {
+   "study_id": "NCT05347095",
+   "mean_age": 37.2,
+   "pct_female": 40.3,
+   "mean_disease_duration_yrs": 9.0,
+   "pct_bio_naive": 54.9,
+   "pct_prior_tnf_failure": 32.7,
+   "pct_prior_jak_failure": 0.6,
+   "pct_multi_class_failure": 21.6,
+   "pct_concomitant_steroids": 42.8,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "mean_age",
+     "pct_female",
+     "mean_disease_duration_yrs",
+     "pct_bio_naive",
+     "pct_prior_tnf_failure",
+     "pct_prior_jak_failure",
+     "pct_multi_class_failure",
+     "pct_concomitant_steroids"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "mean_age": "simulated",
+     "pct_female": "simulated",
+     "mean_disease_duration_yrs": "simulated",
+     "pct_bio_naive": "simulated",
+     "pct_prior_tnf_failure": "simulated",
+     "pct_prior_jak_failure": "simulated",
+     "pct_multi_class_failure": "simulated",
+     "pct_concomitant_steroids": "simulated"
+    }
+   },
+   "_key": "NCT05347095",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published baseline tables"
+  },
+  {
+   "study_id": "NCT06049017",
+   "mean_age": 42.7,
+   "pct_female": 45.0,
+   "mean_disease_duration_yrs": 9.3,
+   "pct_bio_naive": 57.3,
+   "pct_prior_tnf_failure": 38.9,
+   "pct_prior_jak_failure": 3.9,
+   "pct_multi_class_failure": 15.0,
+   "pct_concomitant_steroids": 41.4,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "mean_age",
+     "pct_female",
+     "mean_disease_duration_yrs",
+     "pct_bio_naive",
+     "pct_prior_tnf_failure",
+     "pct_prior_jak_failure",
+     "pct_multi_class_failure",
+     "pct_concomitant_steroids"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "mean_age": "simulated",
+     "pct_female": "simulated",
+     "mean_disease_duration_yrs": "simulated",
+     "pct_bio_naive": "simulated",
+     "pct_prior_tnf_failure": "simulated",
+     "pct_prior_jak_failure": "simulated",
+     "pct_multi_class_failure": "simulated",
+     "pct_concomitant_steroids": "simulated"
+    }
+   },
+   "_key": "NCT06049017",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published baseline tables"
+  },
+  {
+   "study_id": "NCT07196748",
+   "mean_age": 39.1,
+   "pct_female": 48.3,
+   "mean_disease_duration_yrs": 8.1,
+   "pct_bio_naive": 46.4,
+   "pct_prior_tnf_failure": 39.5,
+   "pct_prior_jak_failure": 7.3,
+   "pct_multi_class_failure": 15.7,
+   "pct_concomitant_steroids": 44.8,
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "study_id",
+     "mean_age",
+     "pct_female",
+     "mean_disease_duration_yrs",
+     "pct_bio_naive",
+     "pct_prior_tnf_failure",
+     "pct_prior_jak_failure",
+     "pct_multi_class_failure",
+     "pct_concomitant_steroids"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "study_id": "simulated",
+     "mean_age": "simulated",
+     "pct_female": "simulated",
+     "mean_disease_duration_yrs": "simulated",
+     "pct_bio_naive": "simulated",
+     "pct_prior_tnf_failure": "simulated",
+     "pct_prior_jak_failure": "simulated",
+     "pct_multi_class_failure": "simulated",
+     "pct_concomitant_steroids": "simulated"
+    }
+   },
+   "_key": "NCT07196748",
+   "_source_ids": [
+    "SRC-SIM"
+   ],
+   "_note": "PLACEHOLDER: replace with published baseline tables"
+  }
+ ]
+}

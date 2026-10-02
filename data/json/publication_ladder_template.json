@@ -1,0 +1,457 @@
+{
+ "table": "publication_ladder_template",
+ "description": "Expected dissemination sequence per study type (reference configuration for the prototype; replace with J&J publication planning standards).",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "template_id": "Interventional-registrational",
+   "step": 1,
+   "analysis_type": "Trial in progress",
+   "publication_type": "Poster",
+   "trigger_milestone": "FPI",
+   "target_offset_months": 9,
+   "mandatory": true,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 2,
+   "analysis_type": "Baseline characteristics",
+   "publication_type": "Poster",
+   "trigger_milestone": "LPI",
+   "target_offset_months": 5,
+   "mandatory": false,
+   "note": "Describes who was enrolled; no outcome data, so it does not unblind the trial.",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#2",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 3,
+   "analysis_type": "Interim analysis",
+   "publication_type": "Poster or oral",
+   "trigger_milestone": "IA",
+   "target_offset_months": 3,
+   "mandatory": false,
+   "note": "Optional. Fits open-label, single-arm and extension studies, or a pre-specified interim analysis that is made public (e.g. stopping early). Blinded randomised trials usually do not publish interim efficacy before the primary readout.",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#3",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 4,
+   "analysis_type": "Primary analysis",
+   "publication_type": "Press release (topline)",
+   "trigger_milestone": "TLR",
+   "target_offset_months": 0,
+   "mandatory": true,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#4",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 5,
+   "analysis_type": "Primary analysis",
+   "publication_type": "Late-breaking oral",
+   "trigger_milestone": "TLR",
+   "target_offset_months": 4,
+   "mandatory": true,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#5",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 6,
+   "analysis_type": "Primary analysis",
+   "publication_type": "Primary manuscript",
+   "trigger_milestone": "TLR",
+   "target_offset_months": 12,
+   "mandatory": true,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#6",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 7,
+   "analysis_type": "Secondary analysis",
+   "publication_type": "Oral presentation",
+   "trigger_milestone": "ABS1",
+   "target_offset_months": 6,
+   "mandatory": true,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#7",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 8,
+   "analysis_type": "Secondary analysis",
+   "publication_type": "Secondary manuscript",
+   "trigger_milestone": "ABS1",
+   "target_offset_months": 15,
+   "mandatory": false,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#8",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 9,
+   "analysis_type": "Primary analysis",
+   "publication_type": "Encore (regional)",
+   "trigger_milestone": "ABS1",
+   "target_offset_months": 6,
+   "mandatory": false,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#9",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 10,
+   "analysis_type": "Post-hoc analysis",
+   "publication_type": "Poster",
+   "trigger_milestone": "ABS1",
+   "target_offset_months": 9,
+   "mandatory": false,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#10",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Interventional-registrational",
+   "step": 11,
+   "analysis_type": "Long-term extension",
+   "publication_type": "Oral presentation",
+   "trigger_milestone": "LTE-cut",
+   "target_offset_months": 12,
+   "mandatory": false,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Interventional-registrational#11",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Non-interventional (RWE)",
+   "step": 1,
+   "analysis_type": "Trial in progress",
+   "publication_type": "Poster",
+   "trigger_milestone": "FPI",
+   "target_offset_months": 6,
+   "mandatory": false,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Non-interventional (RWE)",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Non-interventional (RWE)",
+   "step": 2,
+   "analysis_type": "RWE data cut",
+   "publication_type": "Poster",
+   "trigger_milestone": "DATACUT1",
+   "target_offset_months": 3,
+   "mandatory": true,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Non-interventional (RWE)#2",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Non-interventional (RWE)",
+   "step": 3,
+   "analysis_type": "RWE data cut",
+   "publication_type": "Primary manuscript",
+   "trigger_milestone": "DATACUT1",
+   "target_offset_months": 12,
+   "mandatory": true,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Non-interventional (RWE)#3",
+   "_source_ids": []
+  },
+  {
+   "template_id": "Non-interventional (RWE)",
+   "step": 4,
+   "analysis_type": "RWE data cut",
+   "publication_type": "Oral presentation",
+   "trigger_milestone": "DATACUT2",
+   "target_offset_months": 3,
+   "mandatory": false,
+   "note": "",
+   "_provenance": {
+    "data_origin": "reference",
+    "simulated_fields": [],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "template_id": "reference",
+     "step": "reference",
+     "analysis_type": "reference",
+     "publication_type": "reference",
+     "trigger_milestone": "reference",
+     "target_offset_months": "reference",
+     "mandatory": "reference",
+     "note": "reference"
+    }
+   },
+   "_key": "Non-interventional (RWE)#4",
+   "_source_ids": []
+  }
+ ]
+}

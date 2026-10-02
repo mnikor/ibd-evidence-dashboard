@@ -1,0 +1,1767 @@
+{
+ "table": "field_insights",
+ "description": "SIMULATED de-identified, aggregated MSL insights.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "insight_id": "FI-001",
+   "date": "2026-05-28",
+   "geo_id": "JPN",
+   "stakeholder_type": "STK-SURG",
+   "theme": "access",
+   "summary": "Payers push biosimilar ustekinumab first in 2L",
+   "mapped_gap_id": "GAP-08",
+   "frequency_count": 20,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-001",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-002",
+   "date": "2026-07-11",
+   "geo_id": "GBR",
+   "stakeholder_type": "STK-NURSE",
+   "theme": "efficacy question",
+   "summary": "Interest in oral IL-23 for patients refusing injections",
+   "mapped_gap_id": "GAP-19",
+   "frequency_count": 4,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-002",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-003",
+   "date": "2026-08-21",
+   "geo_id": "ITA",
+   "stakeholder_type": "STK-NURSE",
+   "theme": "efficacy question",
+   "summary": "Interest in oral IL-23 for patients refusing injections",
+   "mapped_gap_id": "GAP-19",
+   "frequency_count": 16,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-003",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-004",
+   "date": "2026-09-07",
+   "geo_id": "GBR",
+   "stakeholder_type": "STK-SURG",
+   "theme": "access",
+   "summary": "Payers push biosimilar ustekinumab first in 2L",
+   "mapped_gap_id": "GAP-08",
+   "frequency_count": 20,
+   "sentiment": "positive",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-004",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-005",
+   "date": "2026-07-28",
+   "geo_id": "ITA",
+   "stakeholder_type": "STK-GI-COMM",
+   "theme": "competitor claim heard",
+   "summary": "HCPs cite SEQUENCE when asked about IL-23 choice in CD",
+   "mapped_gap_id": "GAP-01",
+   "frequency_count": 25,
+   "sentiment": "positive",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-005",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-006",
+   "date": "2026-07-06",
+   "geo_id": "ESP",
+   "stakeholder_type": "STK-GI-ACAD",
+   "theme": "access",
+   "summary": "Payers push biosimilar ustekinumab first in 2L",
+   "mapped_gap_id": "GAP-08",
+   "frequency_count": 1,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-006",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-007",
+   "date": "2026-08-05",
+   "geo_id": "FRA",
+   "stakeholder_type": "STK-SURG",
+   "theme": "efficacy question",
+   "summary": "Interest in oral IL-23 for patients refusing injections",
+   "mapped_gap_id": "GAP-19",
+   "frequency_count": 18,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-007",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-008",
+   "date": "2026-05-13",
+   "geo_id": "ESP",
+   "stakeholder_type": "STK-GI-ACAD",
+   "theme": "efficacy question",
+   "summary": "Questions on transmural healing and IUS monitoring",
+   "mapped_gap_id": "GAP-03",
+   "frequency_count": 13,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-008",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-009",
+   "date": "2026-05-30",
+   "geo_id": "USA",
+   "stakeholder_type": "STK-SURG",
+   "theme": "competitor claim heard",
+   "summary": "HCPs cite SEQUENCE when asked about IL-23 choice in CD",
+   "mapped_gap_id": "GAP-01",
+   "frequency_count": 3,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-009",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-010",
+   "date": "2026-04-25",
+   "geo_id": "JPN",
+   "stakeholder_type": "STK-SURG",
+   "theme": "efficacy question",
+   "summary": "Interest in oral IL-23 for patients refusing injections",
+   "mapped_gap_id": "GAP-19",
+   "frequency_count": 10,
+   "sentiment": "positive",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-010",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-011",
+   "date": "2026-09-13",
+   "geo_id": "ESP",
+   "stakeholder_type": "STK-GI-COMM",
+   "theme": "efficacy question",
+   "summary": "Interest in oral IL-23 for patients refusing injections",
+   "mapped_gap_id": "GAP-19",
+   "frequency_count": 20,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-011",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-012",
+   "date": "2026-08-27",
+   "geo_id": "JPN",
+   "stakeholder_type": "STK-GI-ACAD",
+   "theme": "competitor claim heard",
+   "summary": "Awareness of Skyrizi SC induction filing; questions on remaining Tremfya differentiation",
+   "mapped_gap_id": "GAP-10",
+   "frequency_count": 8,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-012",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-013",
+   "date": "2026-05-07",
+   "geo_id": "DEU",
+   "stakeholder_type": "STK-SURG",
+   "theme": "efficacy question",
+   "summary": "Interest in oral IL-23 for patients refusing injections",
+   "mapped_gap_id": "GAP-19",
+   "frequency_count": 10,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-013",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-014",
+   "date": "2026-07-24",
+   "geo_id": "ESP",
+   "stakeholder_type": "STK-GI-COMM",
+   "theme": "competitor claim heard",
+   "summary": "Awareness of Skyrizi SC induction filing; questions on remaining Tremfya differentiation",
+   "mapped_gap_id": "GAP-10",
+   "frequency_count": 3,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-014",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-015",
+   "date": "2026-05-06",
+   "geo_id": "GBR",
+   "stakeholder_type": "STK-PAYER",
+   "theme": "data request",
+   "summary": "Requests for H2H or NMA data in bio-naive UC",
+   "mapped_gap_id": "GAP-02",
+   "frequency_count": 12,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-015",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-016",
+   "date": "2026-07-20",
+   "geo_id": "DEU",
+   "stakeholder_type": "STK-GI-COMM",
+   "theme": "unmet need",
+   "summary": "Surgeons ask for fistula healing data beyond 24 weeks",
+   "mapped_gap_id": "GAP-04",
+   "frequency_count": 9,
+   "sentiment": "positive",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-016",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-017",
+   "date": "2026-04-17",
+   "geo_id": "FRA",
+   "stakeholder_type": "STK-GI-ACAD",
+   "theme": "unmet need",
+   "summary": "Surgeons ask for fistula healing data beyond 24 weeks",
+   "mapped_gap_id": "GAP-04",
+   "frequency_count": 6,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-017",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-018",
+   "date": "2026-05-23",
+   "geo_id": "CAN",
+   "stakeholder_type": "STK-NURSE",
+   "theme": "data request",
+   "summary": "Requests for icotrokinra vs JAK safety comparison",
+   "mapped_gap_id": "GAP-18",
+   "frequency_count": 21,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-018",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-019",
+   "date": "2026-04-11",
+   "geo_id": "ESP",
+   "stakeholder_type": "STK-GI-COMM",
+   "theme": "competitor claim heard",
+   "summary": "Awareness of Skyrizi SC induction filing; questions on remaining Tremfya differentiation",
+   "mapped_gap_id": "GAP-10",
+   "frequency_count": 15,
+   "sentiment": "positive",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-019",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-020",
+   "date": "2026-05-28",
+   "geo_id": "ITA",
+   "stakeholder_type": "STK-PAYER",
+   "theme": "data request",
+   "summary": "Requests for icotrokinra vs JAK safety comparison",
+   "mapped_gap_id": "GAP-18",
+   "frequency_count": 19,
+   "sentiment": "positive",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-020",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-021",
+   "date": "2026-05-12",
+   "geo_id": "DEU",
+   "stakeholder_type": "STK-PAYER",
+   "theme": "competitor claim heard",
+   "summary": "Awareness of Skyrizi SC induction filing; questions on remaining Tremfya differentiation",
+   "mapped_gap_id": "GAP-10",
+   "frequency_count": 15,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-021",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-022",
+   "date": "2026-09-04",
+   "geo_id": "ESP",
+   "stakeholder_type": "STK-PAYER",
+   "theme": "competitor claim heard",
+   "summary": "HCPs cite SEQUENCE when asked about IL-23 choice in CD",
+   "mapped_gap_id": "GAP-01",
+   "frequency_count": 3,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-022",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-023",
+   "date": "2026-04-14",
+   "geo_id": "JPN",
+   "stakeholder_type": "STK-SURG",
+   "theme": "data request",
+   "summary": "Requests for H2H or NMA data in bio-naive UC",
+   "mapped_gap_id": "GAP-02",
+   "frequency_count": 19,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-023",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-024",
+   "date": "2026-05-26",
+   "geo_id": "GBR",
+   "stakeholder_type": "STK-PAYER",
+   "theme": "competitor claim heard",
+   "summary": "HCPs cite SEQUENCE when asked about IL-23 choice in CD",
+   "mapped_gap_id": "GAP-01",
+   "frequency_count": 20,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-024",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-025",
+   "date": "2026-08-11",
+   "geo_id": "USA",
+   "stakeholder_type": "STK-SURG",
+   "theme": "competitor claim heard",
+   "summary": "TL1A 'anti-fibrotic' narrative raised by academic KOLs",
+   "mapped_gap_id": "GAP-03",
+   "frequency_count": 4,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-025",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-026",
+   "date": "2026-05-12",
+   "geo_id": "FRA",
+   "stakeholder_type": "STK-GI-ACAD",
+   "theme": "data request",
+   "summary": "Requests for H2H or NMA data in bio-naive UC",
+   "mapped_gap_id": "GAP-02",
+   "frequency_count": 8,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-026",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-027",
+   "date": "2026-05-29",
+   "geo_id": "FRA",
+   "stakeholder_type": "STK-PAYER",
+   "theme": "data request",
+   "summary": "Requests for icotrokinra vs JAK safety comparison",
+   "mapped_gap_id": "GAP-18",
+   "frequency_count": 12,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-027",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-028",
+   "date": "2026-06-06",
+   "geo_id": "ESP",
+   "stakeholder_type": "STK-NURSE",
+   "theme": "efficacy question",
+   "summary": "Interest in oral IL-23 for patients refusing injections",
+   "mapped_gap_id": "GAP-19",
+   "frequency_count": 2,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-028",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-029",
+   "date": "2026-09-02",
+   "geo_id": "ESP",
+   "stakeholder_type": "STK-GI-ACAD",
+   "theme": "competitor claim heard",
+   "summary": "Awareness of Skyrizi SC induction filing; questions on remaining Tremfya differentiation",
+   "mapped_gap_id": "GAP-10",
+   "frequency_count": 18,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-029",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-030",
+   "date": "2026-07-08",
+   "geo_id": "ITA",
+   "stakeholder_type": "STK-NURSE",
+   "theme": "efficacy question",
+   "summary": "Interest in oral IL-23 for patients refusing injections",
+   "mapped_gap_id": "GAP-19",
+   "frequency_count": 5,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-030",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-031",
+   "date": "2026-04-22",
+   "geo_id": "FRA",
+   "stakeholder_type": "STK-PAYER",
+   "theme": "data request",
+   "summary": "Requests for H2H or NMA data in bio-naive UC",
+   "mapped_gap_id": "GAP-02",
+   "frequency_count": 10,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-031",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-032",
+   "date": "2026-08-16",
+   "geo_id": "DEU",
+   "stakeholder_type": "STK-PAYER",
+   "theme": "efficacy question",
+   "summary": "Interest in oral IL-23 for patients refusing injections",
+   "mapped_gap_id": "GAP-19",
+   "frequency_count": 18,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-032",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-033",
+   "date": "2026-08-17",
+   "geo_id": "DEU",
+   "stakeholder_type": "STK-SURG",
+   "theme": "competitor claim heard",
+   "summary": "Awareness of Skyrizi SC induction filing; questions on remaining Tremfya differentiation",
+   "mapped_gap_id": "GAP-10",
+   "frequency_count": 17,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-033",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-034",
+   "date": "2026-06-18",
+   "geo_id": "ITA",
+   "stakeholder_type": "STK-GI-COMM",
+   "theme": "competitor claim heard",
+   "summary": "HCPs cite SEQUENCE when asked about IL-23 choice in CD",
+   "mapped_gap_id": "GAP-01",
+   "frequency_count": 7,
+   "sentiment": "neutral",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-034",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-035",
+   "date": "2026-07-31",
+   "geo_id": "GBR",
+   "stakeholder_type": "STK-GI-COMM",
+   "theme": "data request",
+   "summary": "Requests for icotrokinra vs JAK safety comparison",
+   "mapped_gap_id": "GAP-18",
+   "frequency_count": 5,
+   "sentiment": "positive",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-035",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-036",
+   "date": "2026-08-24",
+   "geo_id": "USA",
+   "stakeholder_type": "STK-PAYER",
+   "theme": "access",
+   "summary": "Payers push biosimilar ustekinumab first in 2L",
+   "mapped_gap_id": "GAP-08",
+   "frequency_count": 25,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-036",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-037",
+   "date": "2026-04-19",
+   "geo_id": "JPN",
+   "stakeholder_type": "STK-GI-COMM",
+   "theme": "unmet need",
+   "summary": "Surgeons ask for fistula healing data beyond 24 weeks",
+   "mapped_gap_id": "GAP-04",
+   "frequency_count": 6,
+   "sentiment": "positive",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-037",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-038",
+   "date": "2026-05-29",
+   "geo_id": "USA",
+   "stakeholder_type": "STK-SURG",
+   "theme": "unmet need",
+   "summary": "Surgeons ask for fistula healing data beyond 24 weeks",
+   "mapped_gap_id": "GAP-04",
+   "frequency_count": 12,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-038",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-039",
+   "date": "2026-05-28",
+   "geo_id": "ITA",
+   "stakeholder_type": "STK-SURG",
+   "theme": "efficacy question",
+   "summary": "Questions on transmural healing and IUS monitoring",
+   "mapped_gap_id": "GAP-03",
+   "frequency_count": 8,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-039",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "insight_id": "FI-040",
+   "date": "2026-07-01",
+   "geo_id": "CAN",
+   "stakeholder_type": "STK-GI-COMM",
+   "theme": "efficacy question",
+   "summary": "Questions on transmural healing and IUS monitoring",
+   "mapped_gap_id": "GAP-03",
+   "frequency_count": 12,
+   "sentiment": "negative",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "insight_id",
+     "date",
+     "geo_id",
+     "stakeholder_type",
+     "theme",
+     "summary",
+     "mapped_gap_id",
+     "frequency_count",
+     "sentiment"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "insight_id": "simulated",
+     "date": "simulated",
+     "geo_id": "simulated",
+     "stakeholder_type": "simulated",
+     "theme": "simulated",
+     "summary": "simulated",
+     "mapped_gap_id": "simulated",
+     "frequency_count": "simulated",
+     "sentiment": "simulated"
+    }
+   },
+   "_key": "FI-040",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

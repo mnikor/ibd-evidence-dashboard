@@ -1,0 +1,83 @@
+{
+ "table": "decision_log",
+ "description": "SIMULATED decision log examples.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "decision_id": "DEC-001",
+   "date": "2026-04-10",
+   "forum": "Global Evidence Council",
+   "question": "Proceed with H2H vs risankizumab in CD?",
+   "decision": "Approved CHARGE (Ph3b, N=530)",
+   "rationale": "Close GAP-01 before guideline updates; SEQUENCE sets precedent",
+   "decided_by": "Global Medical Affairs head (role)",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "decision_id",
+     "date",
+     "forum",
+     "question",
+     "decision",
+     "rationale",
+     "decided_by"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "decision_id": "simulated",
+     "date": "simulated",
+     "forum": "simulated",
+     "question": "simulated",
+     "decision": "simulated",
+     "rationale": "simulated",
+     "decided_by": "simulated"
+    }
+   },
+   "_key": "DEC-001",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  },
+  {
+   "decision_id": "DEC-002",
+   "date": "2026-05-12",
+   "forum": "IBD Portfolio Committee",
+   "question": "Advance JNJ-4804 despite Ph2b primary misses?",
+   "decision": "Advance to Ph3 DUET ENCORE",
+   "rationale": "Numerical benefit in refractory subgroups; differentiated combination",
+   "decided_by": "Portfolio committee (role)",
+   "_provenance": {
+    "data_origin": "simulated",
+    "simulated_fields": [
+     "decision_id",
+     "date",
+     "forum",
+     "question",
+     "decision",
+     "rationale",
+     "decided_by"
+    ],
+    "derived_fields": [],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [],
+    "field_origin": {
+     "decision_id": "simulated",
+     "date": "simulated",
+     "forum": "simulated",
+     "question": "simulated",
+     "decision": "simulated",
+     "rationale": "simulated",
+     "decided_by": "simulated"
+    }
+   },
+   "_key": "DEC-002",
+   "_source_ids": [
+    "SRC-SIM"
+   ]
+  }
+ ]
+}

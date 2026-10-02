@@ -1,0 +1,1182 @@
+{
+ "table": "ai_insights",
+ "description": "AI insights generated from the dataset (publications, registry, labels, LOE, endpoints). Each cites entities in this dataset; review before use.",
+ "built": "2026-09-19",
+ "rows": [
+  {
+   "insight_id": "AI-P01",
+   "insight_type": "summary",
+   "scope_entity_ids": "GLOBAL",
+   "headline": "TREMFYA's share of congress abstracts rose at all four major congresses; #5 by volume over 3 years",
+   "body": "Share of voice: ECCO 3% → 7% (2024–2026); DDW 6% → 10% (2024–2026); UEGW 6% → 12% (2023–2025); ACG 8% → 13% (2023–2025). Over 3 years TREMFYA has 170 congress abstracts vs ENT 478, RIN 353, SKY 271, OMV 232.",
+   "cited_entity_ids": "SRC-CROSSREF; SRC-UEG",
+   "confidence": 0.9,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P01",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-P02",
+   "insight_type": "so-what",
+   "scope_entity_ids": "SI-TRE-05",
+   "headline": "Publication mix: TREMFYA 8% real-world vs Skyrizi 40%",
+   "body": "8% of TREMFYA publications are real-world evidence vs 40% for Skyrizi and 44% for Rinvoq (analysis type assigned from titles). TREMFYA's US IBD approvals are recent (UC Sep 2024, CD Mar 2025). J&J real-world studies are running (GAP-07, GAP-10); whether more are needed depends on which questions trials cannot answer.",
+   "cited_entity_ids": "GAP-07; GAP-10",
+   "confidence": 0.85,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P02",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-P03",
+   "insight_type": "opportunity",
+   "scope_entity_ids": "SI-TRE-01",
+   "headline": "Comparative UC evidence already exists; publish it before REVAMP",
+   "body": "1 J&J-named comparative analysis is on record (e.g. 'Guselkumab versus risankizumab as maintenance treatment for moderately to severely active …'), but not as peer-reviewed papers. REVAMP (risankizumab vs vedolizumab) has primary completion Aug 2027. Suggested action: publish it and extend it to vedolizumab before REVAMP reports. A network meta-analysis is also the fastest evidence type: started now it still gives about 2.3 years of use before TREMFYA's US LOE signal (AI-L02).",
+   "cited_entity_ids": "GAP-02; NCT06880744; PUB-d56de08495",
+   "confidence": 0.8,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P03",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-P04",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "GAP-03",
+   "headline": "GAP-03: competitors published 20 items in 12 months, J&J none",
+   "body": "Competitors published 20 items on this topic in the last 12 months; J&J has none. Suggested action: an interim or baseline output from the closing study, or a post-hoc analysis of existing trial data. J&J's pipeline here is the deepest (10 TREMFYA studies register transmural endpoints, AI-E01), but none has reported yet: REASON reads out around Sep 2027 (REC-005). Suggested action: share design and baseline bowel-ultrasound data now.",
+   "cited_entity_ids": "GAP-03",
+   "confidence": 0.75,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P04",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-P05",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "GAP-11",
+   "headline": "GAP-11: competitors published 10 items in 12 months, J&J none",
+   "body": "Competitors published 10 items on this topic in the last 12 months; J&J has none. Suggested action: an interim or baseline output from the closing study, or a post-hoc analysis of existing trial data. GUARDIAN, the J&J pouchitis study, reads out around Aug 2028 and gives +0.4 years of use before TREMFYA's US LOE signal. What it means: most of its value falls outside TREMFYA's exclusivity window; record the reason to continue (e.g. patient need) as an exception, or support it as investigator-led.",
+   "cited_entity_ids": "GAP-11",
+   "confidence": 0.75,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P05",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-P06",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "GLOBAL",
+   "headline": "4 J&J trials presented at congresses but without a peer-reviewed trial paper",
+   "body": "Congress-only: ANTHEM-UC (7 abstracts since 2025-10), FUZION CD (2 abstracts since 2026-05), DUET-CD (1 abstract since 2026-05), DUET-UC (1 abstract since 2026-05). None has a peer-reviewed primary paper yet. Order by LOE: FUZION CD first (+2.7 years of use if published by May 2027); ANTHEM-UC and DUET papers have long runways but frame ICONIC and DUET ENCORE, so publish them before those Phase 3 readouts in 2028.",
+   "cited_entity_ids": "NCT05242471; NCT05242484; NCT06049017; NCT05347095",
+   "confidence": 0.85,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P06",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-P07",
+   "insight_type": "change-since-last",
+   "scope_entity_ids": "GLOBAL",
+   "headline": "11 gaps are partly closed by evidence already public",
+   "body": "Published evidence now counts toward: GAP-06 (100%: 2 journal / 21 congress), GAP-13 (100%: 3 journal / 3 congress), GAP-14 (99%: 1 journal / 10 congress), GAP-07 (80%: 4 journal / 15 congress), GAP-15 (60%: 1 journal / 4 congress), GAP-08 (50%: 1 journal / 9 congress). Recommendations for these gaps shift from 'generate' to 'publish / consolidate'.",
+   "cited_entity_ids": "GAP-01; GAP-02; GAP-06; GAP-07; GAP-08; GAP-09; GAP-10; GAP-13",
+   "confidence": 0.8,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P07",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-D01",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "SI-TRE-03",
+   "headline": "If SKYRIZI SC induction is approved in Crohn's, TREMFYA's label advantages in CD fall from 2 to 0; UC keeps 3",
+   "body": "What changes in CD: SC induction available and fully subcutaneous regimen possible (no infusion) become parity. Unknown until the label: injections per SC induction dose (TREMFYA itself gives each 400 mg SC induction dose as two 200 mg injections). SKYRIZI's label is lighter on minimum liver-monitoring window (12 vs 16 weeks). In UC nothing changes: TREMFYA remains the only IL-23 with a fully subcutaneous option, and its IV induction infusion is shorter (1 vs 2 hours minimum). Efficacy stays cross-trial (GRAVITI vs AFFIRM topline) until CHARGE reads out (primary completion Nov 2028). What it means: in CD the story moves from 'only fully SC IL-23' to UC breadth, established SC use and evidence depth. Actions: label-based scientific exchange on SC induction options; lead with UC fully-SC data; generate patient-experience and device-preference evidence (GAP-10); watch the SKYRIZI label (W-001). Timing: CHARGE's answer reaches guidelines around Aug 2031, about when TREMFYA's US LOE signal falls (AI-L01), so it will mostly serve class and portfolio positioning; review its business case (REC-004).",
+   "cited_entity_ids": "EV-101; GAP-10; SI-TRE-03",
+   "confidence": 0.8,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-D01",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-E01",
+   "insight_type": "opportunity",
+   "scope_entity_ids": "SI-TRE-01",
+   "headline": "J&J's coming IBD evidence goes deeper than competitors': transmural imaging in 9 J&J Crohn's studies vs 0, histology in 8 vs 1",
+   "body": "Counting running or recent studies (primary completion 2024+) that register each evidence type: UC transmural / bowel imaging 6 J&J vs 0 competitor; UC biomarkers 11 J&J vs 5 competitor; CD transmural / bowel imaging 9 J&J vs 0 competitor; CD histologic 8 J&J vs 1 competitor; CD biomarkers 14 J&J vs 6 competitor. Competitors register more safety and drug-level endpoints because their programmes are larger registrational trials, and they have a randomised head-to-head in each indication (REVAMP in UC, SEQUENCE in CD) where J&J has CHARGE in CD and only indirect or real-world comparisons in UC. What it means: depth (transmural, histologic, biomarker) is where TREMFYA's coming evidence differs most from competitors'; plan papers and congress slots so these data are seen, starting with REASON (transmural) and the RWE studies that register bowel ultrasound. Portfolio caveat: all 10 J&J studies with transmural endpoints are TREMFYA studies, and most report close to its US LOE signal; icotrokinra and JNJ-4804 register no transmural or biomarker endpoints (AI-PF02).",
+   "cited_entity_ids": "GAP-03; GAP-14",
+   "confidence": 0.7,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-E01",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-E02",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "SI-TRE-02",
+   "headline": "What our studies will not answer: no J&J study registers icotrokinra IBD safety beyond one year; UC head-to-head rests on an indirect comparison only; transmural healing rests on REASON alone",
+   "body": "GAP-22 (long-term icotrokinra safety in IBD): ICONIC-UC registers safety to week 52 only, and no other J&J study covers it. GAP-02 (UC head-to-head): the only J&J evidence planned is a network meta-analysis, while AbbVie's REVAMP (risankizumab vs vedolizumab, UC) is a direct comparison with primary completion Aug 2027. GAP-03 (transmural healing in CD): only REASON registers it among the closing studies; GALAXI does not, so its fit was reduced to zero. FUZION CD registers fistula (clinical and MRI), clinical, steroid-free, quality-of-life and safety endpoints, but no endoscopic, histologic or biomarker endpoint: it answers perianal disease (GAP-04) and will not add to the luminal endoscopic story. Gap fits reduced because the registered endpoints cannot answer the gap: GALAXI → GAP-03 (20% → 0%, missing transmural / bowel imaging); TRILOGY → GAP-05 (30% → 0%, missing clinical remission / response, drug levels / immunogenicity); SIM-RWE-01 → GAP-07 (60% → 40%, missing clinical remission / response). Caveat: 'not registered' means not promised; exploratory endpoints are often unregistered, so confirm with study teams before acting.",
+   "cited_entity_ids": "GAP-22; GAP-02; GAP-03; NCT05347095",
+   "confidence": 0.7,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-E02",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-L01",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "SI-TRE-01",
+   "headline": "20 of 39 TREMFYA studies reach guidelines and payers within a year of, or after, the US LOE signal (mid-2031); 20 have no exception on record",
+   "body": "Using the composition patent family J&J discloses (US, 2031; mid-year assumed) as the planning date, and readout, paper and an 18-month guideline/HTA lag: Less than a year of use, or none: TRILOGY (-3.2 y), NCT02103361 (-1.3 y), GO-ON (-0.9 y), GusTaCon (-0.5 y), OPTIM (-0.4 y), G-FORCE (-0.3 y), LUNAR (-0.2 y), GUSTO-UK (-0.1 y), CHARGE (-0.1 y), SIM-MECH-01 (+0.0 y), NCT07487480 (+0.1 y), POST-CD (+0.1 y), NCT07726888 (+0.1 y), GORGEOUS (+0.1 y), EAGLE (+0.1 y), NCT07444060 (+0.1 y), GUARDIAN (+0.4 y), NCT07184138 (+0.4 y), GENIUS (+0.6 y), GLOBE-SpA (+0.7 y). Tight (1-3 years left): MACARONI-23, QUASAR Jr, NCT07487311, NCT07310095, NCT07545317, NCT04397263, NCT07034664, REASON, VOICE, SHIFT-IBD, NCT07654751, FUZION CD, SIM-RWE-01, SIM-HEOR-01, SIM-ITC-02. Simulated spend on the studies without an exception: $131M. Paediatric studies are exceptions: US paediatric exclusivity can add 6 months to regulatory exclusivity. What it means: the date is a public floor, not J&J's confirmed LOE; other patent families may extend it. Confirm the planning date with J&J IP (W-006), then for each late study record the reason (obligation, patient need, value carried over to icotrokinra or JNJ-4804), accelerate the paper, or narrow the scope. Portfolio view: icotrokinra (6 studies) and JNJ-4804 (5) all give 8+ years of use on placeholder LOE dates (AI-PF01).",
+   "cited_entity_ids": "NCT07487480; NCT07242248; NCT07528040; NCT07602517; NCT07822529; NCT07499232; NCT07616687; NCT07606339; NCT06916390; NCT07532213; NCT07726888; NCT07184138; NCT07102368; NCT02103361; NCT07541261; NCT07302360; NCT07444060; NCT07746765; NCT06663332; SIM-MECH-01",
+   "confidence": 0.7,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-L01",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-L02",
+   "insight_type": "decision",
+   "scope_entity_ids": "SI-TRE-01",
+   "headline": "A new TREMFYA study started today gives little time before the US LOE signal: evidence synthesis +2.3 y, retrospective RWE +0.6 y, Phase 3 RCT -0.8 y",
+   "body": "Years of guideline and payer use before a mid-2031 LOE if started this month: evidence synthesis +2.3 y, retrospective RWE +0.6 y, prospective RWE -0.3 y, Phase 3 RCT -0.8 y (a Phase 3 RCT runs 35 months, median of 15 J&J studies; then 3 months to topline, 12 to the paper, 18 to guideline/HTA use). To keep 2 years, a Phase 3 RCT had to start by Nov 2023. HTA dossiers can use data before the paper, so payer value can come earlier than guideline value. What it means: new long TREMFYA trials should answer questions that also matter for icotrokinra and JNJ-4804, or be justified by patient need; brand questions with a TREMFYA-only payoff move to fast RWE and evidence synthesis, planned now.",
+   "cited_entity_ids": "GAP-07; GAP-08",
+   "confidence": 0.7,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-L02",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-L03",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "SI-TRE-05",
+   "headline": "ENTYVIO biosimilars: first FDA decision expected Q1 2027; entry date depends on Takeda's patent suit (patents to 2032)",
+   "body": "US biologic exclusivity for vedolizumab ended in May 2026. Alvotech/Teva's AVT16 (proposed interchangeable, IV) is under FDA review, and Takeda sued in September 2026 over six patents. What it could mean (not verified): a cheaper vedolizumab could be placed ahead of IL-23s by payers; the dataset has no payer policy data to confirm this. Suggested action: extend the cost-effectiveness work (GAP-08) to biosimilar vedolizumab prices, and track the case (W-005).",
+   "cited_entity_ids": "GAP-08; W-005",
+   "confidence": 0.65,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-L03",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-001",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "SI-TRE-03",
+   "headline": "Fully-SC differentiation in Crohn's at risk from late 2026",
+   "body": "AbbVie filed SKYRIZI SC induction in CD (FDA Apr 2026, EMA Sep 2026); the FDA decision is expected late 2026 (AbbVie guidance). If approved, TREMFYA's CD label advantages fall from 2 to 0 (AI-D01); UC is unchanged. GAP-10 (real-world use of the SC regimen) now has 5 closing studies, but the largest real-world source, GORGEOUS, reads out Mar 2029 and gives +0.1 years of guideline/HTA use before TREMFYA's US LOE signal. What it means: an earlier SC-induction data cut (REC-003) and the preference study (SIM-DCE-01) are the options that report before 2029.",
+   "cited_entity_ids": "EV-101; GAP-10; NCT07102368; REC-003",
+   "confidence": 0.8,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-001",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-002",
+   "insight_type": "opportunity",
+   "scope_entity_ids": "SI-TRE-06",
+   "headline": "FUZION CD: publish in 2027 to keep about 3 years of use before LOE",
+   "body": "FUZION CD is the only IL-23 randomised trial in perianal fistulising CD among the tracked industry trials (presented at DDW 2026). A paper by May 2027 gives +2.7 years of guideline/HTA use before TREMFYA's US LOE signal; each quarter of delay costs a quarter of that. It answers perianal disease only: no endoscopic, histologic or biomarker endpoint is registered (AI-E02). Submission target Dec 2026 (REC-002).",
+   "cited_entity_ids": "NCT05347095; GAP-04; REC-002",
+   "confidence": 0.85,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-002",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-004",
+   "insight_type": "so-what",
+   "scope_entity_ids": "SI-ICO-02",
+   "headline": "Oral market gets crowded before icotrokinra's IBD launch",
+   "body": "Obefazimod's NDA (planned Q4 2026) and tulisokibart's positive ATLAS-UC mean at least one new oral and one new mechanism may launch before icotrokinra. ICONIC-UC topline is expected around Apr 2028 (primary completion Jan 2028) and ICONIC-CD around Dec 2028; with filing and review, IBD launches come around 2029 (estimate), about two years before TREMFYA's US LOE signal. What it means: evidence that takes years to pay back has more time to do so for icotrokinra than for TREMFYA (AI-PF01).",
+   "cited_entity_ids": "EV-002; EV-001; NCT07196748; NCT07196722",
+   "confidence": 0.75,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-004",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-005",
+   "insight_type": "summary",
+   "scope_entity_ids": "SI-TRE-07",
+   "headline": "JNJ-4804 moved to Phase 3 despite Phase 2b primary misses; its protection needs checking against guselkumab's LOE",
+   "body": "DUET-UC/CD missed their primary endpoints but showed numerically higher week-48 remission, especially in multi-class refractory subgroups; DUET ENCORE Phase 3 started May 2026 (topline around Sep 2028–Nov 2028). Question for J&J IP: JNJ-4804 combines guselkumab and golimumab, so when guselkumab biosimilars can enter (US signal mid-2031) its protection rests on co-formulation and use patents, not on either antibody. Its planning LOE in the dashboard is a placeholder.",
+   "cited_entity_ids": "NCT05242471; NCT05242484; NCT07577856; NCT07577843; LOE-JNJ4804-US",
+   "confidence": 0.75,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-005",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-006",
+   "insight_type": "change-since-last",
+   "scope_entity_ids": "GLOBAL",
+   "headline": "Five material competitor and market events since June 2026; the newest is ENTYVIO biosimilar litigation",
+   "body": "Tulisokibart ATLAS-UC positive (Jun); ABTECT maintenance positive, NDA planned Q4 2026 (Jun); STELARA Q2 sales down 55.7% on biosimilar erosion (Jul); SKYRIZI SC induction filed with the EMA (Sep); Takeda sued Alvotech over the ENTYVIO biosimilar AVT16, with an FDA decision expected Q1 2027 (Sep; AI-L03).",
+   "cited_entity_ids": "EV-001; EV-002; EV-012; EV-102; W-005",
+   "confidence": 0.85,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-006",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-PF01",
+   "insight_type": "decision",
+   "scope_entity_ids": "SI-ICO-06",
+   "headline": "J&J portfolio: icotrokinra and JNJ-4804 arrive about two years before TREMFYA's US LOE signal, and no study positions the three against each other (GAP-20)",
+   "body": "Timelines (registry, derived): ICONIC-UC topline around Apr 2028, DUET ENCORE around Sep 2028–Nov 2028, ICONIC-CD around Dec 2028; TREMFYA's US LOE signal mid-2031. All three act on the IL-23 pathway and are developed for the same UC and CD patients. GAP-20 (sequencing TREMFYA and icotrokinra) has no study (0% coverage); GAP-19 (oral vs injectable preference) rests on one planned choice study. Simulated evidence spend: TREMFYA $723M across 39 studies ($131M on 20 studies with under a year of use before LOE), icotrokinra $303M (6), JNJ-4804 $362M (5). What it means: sequencing and switching (who starts on oral icotrokinra rather than TREMFYA, what works after an IL-23, where JNJ-4804 fits in refractory disease) are open questions with no study. Suggested action: build the portfolio evidence plan now so it is ready by the 2029 launches: IL-23-experienced subgroups in ICONIC and DUET ENCORE, a switching and sequencing real-world cohort, and new TREMFYA studies whose questions carry over to the successors (REC-010).",
+   "cited_entity_ids": "GAP-20; GAP-19; NCT07196748; NCT07196722; NCT07577856; NCT07577843; REC-010",
+   "confidence": 0.7,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-PF01",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-PF02",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "SI-ICO-02",
+   "headline": "Evidence depth does not transfer: icotrokinra and JNJ-4804 register no transmural or biomarker endpoints",
+   "body": "All 10 J&J studies with transmural (bowel-ultrasound or MR) endpoints are TREMFYA studies. The registered icotrokinra trials cover clinical remission / response, endoscopic, histologic, steroid-free, patient-reported / quality of life, safety; JNJ-4804's cover clinical remission / response, endoscopic, histologic, steroid-free, patient-reported / quality of life, safety, drug levels / immunogenicity. What it means: unless the successors add these endpoints, the portfolio's transmural evidence (AI-E01) stays with the product that loses exclusivity first. Suggested action: bowel-ultrasound and faecal calprotectin substudies in the ICONIC and DUET ENCORE long-term extensions, or post-launch real-world studies with bowel ultrasound (REC-011). Not registered means not promised; confirm with the study teams.",
+   "cited_entity_ids": "NCT07196748; NCT07196722; NCT07577856; NCT07577843; GAP-03; REC-011",
+   "confidence": 0.7,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-PF02",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-LLM01",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "SI-TRE-03",
+   "headline": "AI assistants rarely surface TREMFYA's differentiators to patients: named in 36% of ChatGPT's and 64% of Claude's unbranded patient answers, never first",
+   "body": "Latest runs (ChatGPT 2026-09-29, Claude 2026-09-29; one run each): TREMFYA is named in 88% of ChatGPT's, 88% of Claude's HCP answers, where both describe its SC induction and FUZION CD correctly. In the patient question about perianal fistula, neither names guselkumab. ChatGPT leaves TREMFYA out of the home-injection question; Claude includes it last and hedged. What it means: patient-facing answers lean on patient-organisation pages and older knowledge (Claude searched the web for only one patient question). Suggested action: make accurate public information easy to find (peer-reviewed FUZION CD paper, plain-language summaries of GRAVITI, ASTRO and FUZION). Monitoring only: no attempt to steer AI answers.",
+   "cited_entity_ids": "GAP-04; GAP-10; SRC-LLM",
+   "confidence": 0.6,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-LLM01",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-LLM02",
+   "insight_type": "so-what",
+   "scope_entity_ids": "SI-TRE-01",
+   "headline": "In AI answers the IBD 'head-to-head' story belongs to SEQUENCE; GALAXI's comparison with ustekinumab is dropped or called exploratory; icotrokinra is missing from pipeline answers",
+   "body": "Asked which head-to-head trials exist, ChatGPT lists only the Phase 2 GALAXI-1 and Claude calls the GALAXI ustekinumab arms exploratory, while both, asked about GALAXI directly, report better endoscopic outcomes than ustekinumab. SEQUENCE (risankizumab vs ustekinumab) is cited in 5 ChatGPT answers. Neither assistant lists icotrokinra in late-stage development; ChatGPT describes JNJ-4804 as 'Phase 2b positive'. What it means: how a comparison is published and labelled shapes how assistants rank it. Suggested action: make sure the GALAXI 2/3 ustekinumab comparison and CHARGE are clearly described in peer-reviewed and public trial records.",
+   "cited_entity_ids": "GAP-01; GAP-02; SRC-LLM",
+   "confidence": 0.6,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-LLM02",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-P08",
+   "insight_type": "opportunity",
+   "scope_entity_ids": "SI-TRE-01",
+   "headline": "TREMFYA has the highest oral selection rate among IL-23, JAK and integrin brands (20%) and the most full orals (30)",
+   "body": "Across ECCO, DDW, UEG Week and ACG (3 years), 20% of TREMFYA abstracts were selected as full orals vs Skyrizi 11%, Rinvoq 8%, Entyvio 6%, Omvoh 10%. TREMFYA had fewer abstracts (152 vs Skyrizi 226, Rinvoq 307, Entyvio 444, Omvoh 188) but a higher share became orals. ACG orals from the official programme; ECCO digital orals excluded.",
+   "cited_entity_ids": "SI-TRE-01",
+   "confidence": 0.85,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P08",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-P09",
+   "insight_type": "so-what",
+   "scope_entity_ids": "SI-TRE-05",
+   "headline": "TREMFYA's orals come almost entirely from trials: 1 real-world oral vs 12 Rinvoq, 8 Skyrizi, 7 Entyvio",
+   "body": "29 of 30 TREMFYA full orals present trial-programme analyses (primary, extension, subgroup, post-hoc) or economic models; randomised trial data is the higher level of evidence, and this share is a strength. The one real-world oral is not a guselkumab study: it is an upadacitinib comparison that includes guselkumab as a comparator ('Real World Outcomes Of Upadacitinib Compared With Ustekinumab, Risankizumab, Mir…'). Of the competitors' real-world orals, 6 (Rinvoq), 5 (Skyrizi) and 2 (Entyvio) compare drugs in routine practice, by their titles. Who ran and funded them is not known for 22 of 27, so this dataset cannot say whether they are independent. Question to decide (not a conclusion): are there questions trials will not answer for guselkumab, such as comparisons with upadacitinib or sequencing, where real-world data would be needed (GAP-07, GAP-20)? Real-world analysis type is assigned from titles, so counts are approximate.",
+   "cited_entity_ids": "GAP-07; GAP-20",
+   "confidence": 0.75,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P09",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  },
+  {
+   "insight_id": "AI-P10",
+   "insight_type": "risk alert",
+   "scope_entity_ids": "SI-ICO-02",
+   "headline": "Anti-TL1A agents hold 15 full orals vs 5 for icotrokinra",
+   "body": "83% of icotrokinra abstracts and 35% of anti-TL1A abstracts became orals. The TL1A class (tulisokibart, duvakitug, afimkibart) has 3x icotrokinra's full orals from 43 abstracts vs 6; icotrokinra's selection rate is higher. Suggested action: plan ICONIC-UC/CD design, baseline and oral-vs-injectable preference data for oral slots in 2026-27 (GAP-18, GAP-19).",
+   "cited_entity_ids": "GAP-18; GAP-19",
+   "confidence": 0.75,
+   "review_status": "auto (data-driven)",
+   "generated_at": "2026-09-19",
+   "_provenance": {
+    "data_origin": "mixed",
+    "simulated_fields": [],
+    "derived_fields": [
+     "insight_id",
+     "insight_type",
+     "scope_entity_ids",
+     "cited_entity_ids",
+     "confidence",
+     "review_status",
+     "generated_at"
+    ],
+    "unverified_fields": [],
+    "manual_fields": [],
+    "ai_inferred_fields": [
+     "headline",
+     "body"
+    ],
+    "field_origin": {
+     "insight_id": "derived",
+     "insight_type": "derived",
+     "scope_entity_ids": "derived",
+     "headline": "ai_inferred",
+     "body": "ai_inferred",
+     "cited_entity_ids": "derived",
+     "confidence": "derived",
+     "review_status": "derived",
+     "generated_at": "derived"
+    }
+   },
+   "_key": "AI-P10",
+   "_source_ids": [
+    "SRC-PUBMED",
+    "SRC-CROSSREF",
+    "SRC-UEG"
+   ]
+  }
+ ]
+}
