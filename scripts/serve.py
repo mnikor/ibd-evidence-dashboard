@@ -14,9 +14,17 @@ API
   POST /api/overrides            {"ops": [...]} append operations (set | add | delete)
   POST /api/overrides/revert     {"id": "..."} mark an operation as reverted
   POST /api/rebuild              re-run build_dataset.py + build_dashboard_data.py
+  GET  /api/chat/status          {"enabled": true|false, "model": ...} for the dashboard assistant
+  POST /api/chat                 forwards {system, messages, tools} to Claude (Anthropic Messages API)
+
+The assistant uses Claude only when the environment variable ANTHROPIC_API_KEY is set (optionally ANTHROPIC_MODEL);
+without it the dashboard answers from built-in rules. The key stays on the server and is never sent to the browser.
 """
 import datetime as dt
 import json
+import urllib.error
+import urllib.request
+import os
 import pathlib
 import subprocess
 import sys
@@ -80,6 +88,8 @@ class Handler(SimpleHTTPRequestHandler):
             return self._json(200, "window.IBD_OVR=" + json.dumps(active, ensure_ascii=False) + ";", "application/javascript")
         if self.path.split("?")[0] == "/api/overrides":
             return self._json(200, load_log())
+        if self.path.split("?")[0] == "/api/chat/status":
+            return self._json(200, {"enabled": bool(os.environ.get("ANTHROPIC_API_KEY")), "model": CHAT_MODEL})
         if self.path.split("?")[0] == "/download/dataset.xlsx":
             f = ROOT / "data" / "IBD_Evidence_Dataset.xlsx"
             data = f.read_bytes()
@@ -135,7 +145,35 @@ class Handler(SimpleHTTPRequestHandler):
                 if r.returncode:
                     return self._json(500, {"ok": False, "log": "\n".join(out)})
             return self._json(200, {"ok": True, "log": "\n".join(out)})
+        if path == "/api/chat":
+            if not os.environ.get("ANTHROPIC_API_KEY"):
+                return self._json(503, {"error": "The assistant has no API key on this server (set ANTHROPIC_API_KEY)."})
+            code, out = chat(body)
+            return self._json(code, out)
         return self._json(404, {"error": "unknown endpoint"})
+
+
+CHAT_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
+CHAT_URL = "https://api.anthropic.com/v1/messages"
+
+
+def chat(body):
+    """Forward one assistant turn to Claude. Tools are executed in the browser, on the dashboard's own data."""
+    payload = {"model": CHAT_MODEL, "max_tokens": min(int(body.get("max_tokens") or 1500), 4000),
+               "system": str(body.get("system") or "")[:20000], "messages": body.get("messages") or [], "tools": body.get("tools") or []}
+    req = urllib.request.Request(CHAT_URL, data=json.dumps(payload).encode(), method="POST", headers={
+        "content-type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": os.environ["ANTHROPIC_API_KEY"]})
+    try:
+        with urllib.request.urlopen(req, timeout=90) as r:
+            return 200, json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        try:
+            detail = json.loads(e.read()).get("error", {}).get("message", "")
+        except Exception:
+            detail = ""
+        return e.code, {"error": f"Claude API returned {e.code}. {detail}".strip()}
+    except Exception as e:
+        return 502, {"error": f"Could not reach the Claude API: {type(e).__name__}"}
 
 
 def local_ip():

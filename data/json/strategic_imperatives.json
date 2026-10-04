@@ -11,6 +11,7 @@
    "theme": "differentiation",
    "time_horizon": "1-3y",
    "priority_rank": 1,
+   "desired_impact": "Recommended as a first-line advanced therapy in ECCO, ACG and AGA guidelines, supported by a head-to-head result against SKYRIZI",
    "required_by_date": "2029-03-19",
    "evidence_readiness_index": 76,
    "status_rag": "green",
@@ -24,6 +25,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -41,6 +43,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -59,6 +62,7 @@
    "theme": "differentiation",
    "time_horizon": "1-3y",
    "priority_rank": 2,
+   "desired_impact": "Endoscopic, histologic and transmural outcomes cited in guidelines and used by HCPs as treatment targets",
    "required_by_date": "2029-03-19",
    "evidence_readiness_index": 73,
    "status_rag": "green",
@@ -72,6 +76,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -89,6 +94,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -107,6 +113,7 @@
    "theme": "convenience",
    "time_horizon": "0-12m",
    "priority_rank": 3,
+   "desired_impact": "Fully subcutaneous induction recognised in guidelines and HTA decisions, and still chosen after SC-induction competitors launch",
    "required_by_date": "2027-09-19",
    "evidence_readiness_index": 92,
    "status_rag": "green",
@@ -120,6 +127,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -137,6 +145,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -155,6 +164,7 @@
    "theme": "durability",
    "time_horizon": "1-3y",
    "priority_rank": 4,
+   "desired_impact": "Long-term (3-5 year) efficacy and safety published and cited by guidelines and payers",
    "required_by_date": "2029-03-19",
    "evidence_readiness_index": 99,
    "status_rag": "green",
@@ -168,6 +178,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -185,6 +196,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -203,6 +215,7 @@
    "theme": "access",
    "time_horizon": "0-12m",
    "priority_rank": 5,
+   "desired_impact": "Reimbursement in priority markets against IL-23 peers and ustekinumab biosimilars",
    "required_by_date": "2027-09-19",
    "evidence_readiness_index": 82,
    "status_rag": "green",
@@ -216,6 +229,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -233,6 +247,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -251,6 +266,7 @@
    "theme": "expand population",
    "time_horizon": "1-3y",
    "priority_rank": 6,
+   "desired_impact": "Label or guideline support for perianal fistulizing disease, children, pouchitis and pregnancy",
    "required_by_date": "2029-03-19",
    "evidence_readiness_index": 70,
    "status_rag": "green",
@@ -264,6 +280,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -281,6 +298,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -299,6 +317,7 @@
    "theme": "lifecycle",
    "time_horizon": "3-5y",
    "priority_rank": 7,
+   "desired_impact": "Phase 3 evidence that JNJ-4804 helps patients who failed several drug classes",
    "required_by_date": "2031-03-19",
    "evidence_readiness_index": 87,
    "status_rag": "green",
@@ -312,6 +331,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -329,6 +349,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -347,6 +368,7 @@
    "theme": "differentiation",
    "time_horizon": "1-3y",
    "priority_rank": 1,
+   "desired_impact": "Phase 3 UC results accepted by regulators, guidelines and HCPs as comparable to injectable biologics",
    "required_by_date": "2029-03-19",
    "evidence_readiness_index": 86,
    "status_rag": "green",
@@ -360,6 +382,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -377,6 +400,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -395,6 +419,7 @@
    "theme": "differentiation",
    "time_horizon": "3-5y",
    "priority_rank": 2,
+   "desired_impact": "Placed by HCPs and guidelines as a first advanced therapy option ahead of other oral drugs",
    "required_by_date": "2031-03-19",
    "evidence_readiness_index": 54,
    "status_rag": "amber",
@@ -408,6 +433,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -425,6 +451,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -443,6 +470,7 @@
    "theme": "expand population",
    "time_horizon": "3-5y",
    "priority_rank": 3,
+   "desired_impact": "Positive Phase 2b/3 Crohn's disease results ready for filing",
    "required_by_date": "2031-03-19",
    "evidence_readiness_index": 50,
    "status_rag": "amber",
@@ -456,6 +484,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -473,6 +502,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -491,6 +521,7 @@
    "theme": "lifecycle",
    "time_horizon": "1-3y",
    "priority_rank": 4,
+   "desired_impact": "An evidence-based story on who starts on icotrokinra and who on TREMFYA, used by field teams",
    "required_by_date": "2029-03-19",
    "evidence_readiness_index": 35,
    "status_rag": "red",
@@ -504,6 +535,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -521,6 +553,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -539,6 +572,7 @@
    "theme": "safety",
    "time_horizon": "0-12m",
    "priority_rank": 5,
+   "desired_impact": "Psoriasis safety data accepted as supportive by IBD experts and regulators",
    "required_by_date": "2027-09-19",
    "evidence_readiness_index": 26,
    "status_rag": "red",
@@ -552,6 +586,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -569,6 +604,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"
@@ -587,6 +623,7 @@
    "theme": "launch readiness",
    "time_horizon": "3-5y",
    "priority_rank": 6,
+   "desired_impact": "A payer value dossier ready at launch, with cost-effectiveness against oral and biosimilar options",
    "required_by_date": "2031-03-19",
    "evidence_readiness_index": 54,
    "status_rag": "amber",
@@ -600,6 +637,7 @@
      "theme",
      "time_horizon",
      "priority_rank",
+     "desired_impact",
      "required_by_date"
     ],
     "derived_fields": [
@@ -617,6 +655,7 @@
      "theme": "simulated",
      "time_horizon": "simulated",
      "priority_rank": "simulated",
+     "desired_impact": "simulated",
      "required_by_date": "simulated",
      "evidence_readiness_index": "derived",
      "status_rag": "derived"

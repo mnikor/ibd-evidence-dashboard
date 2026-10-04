@@ -381,9 +381,25 @@ IMPERATIVES = [
     ("SI-ICO-05", "ICO", "UC", "Leverage psoriasis ICONIC safety/efficacy to build IBD confidence", "safety", "0-12m", 5),
     ("SI-ICO-06", "ICO", "UC", "Launch readiness: payer value story for an oral peptide vs generic/biosimilar options", "launch readiness", "3-5y", 6),
 ]
+# What success looks like for each imperative (simulated targets, written as outcomes, not claims)
+DESIRED_IMPACT = {
+    "SI-TRE-01": "Recommended as a first-line advanced therapy in ECCO, ACG and AGA guidelines, supported by a head-to-head result against SKYRIZI",
+    "SI-TRE-02": "Endoscopic, histologic and transmural outcomes cited in guidelines and used by HCPs as treatment targets",
+    "SI-TRE-03": "Fully subcutaneous induction recognised in guidelines and HTA decisions, and still chosen after SC-induction competitors launch",
+    "SI-TRE-04": "Long-term (3-5 year) efficacy and safety published and cited by guidelines and payers",
+    "SI-TRE-05": "Reimbursement in priority markets against IL-23 peers and ustekinumab biosimilars",
+    "SI-TRE-06": "Label or guideline support for perianal fistulizing disease, children, pouchitis and pregnancy",
+    "SI-TRE-07": "Phase 3 evidence that JNJ-4804 helps patients who failed several drug classes",
+    "SI-ICO-01": "Phase 3 UC results accepted by regulators, guidelines and HCPs as comparable to injectable biologics",
+    "SI-ICO-02": "Placed by HCPs and guidelines as a first advanced therapy option ahead of other oral drugs",
+    "SI-ICO-03": "Positive Phase 2b/3 Crohn's disease results ready for filing",
+    "SI-ICO-04": "An evidence-based story on who starts on icotrokinra and who on TREMFYA, used by field teams",
+    "SI-ICO-05": "Psoriasis safety data accepted as supportive by IBD experts and regulators",
+    "SI-ICO-06": "A payer value dossier ready at launch, with cost-effectiveness against oral and biosimilar options",
+}
 for iid, bid, ind, title, theme, hor, prio in IMPERATIVES:
     t_si.add(SI, {"imperative_id": iid, "brand_id": bid, "indication_scope": ind, "title": title, "theme": theme,
-                  "time_horizon": hor, "priority_rank": prio,
+                  "time_horizon": hor, "priority_rank": prio, "desired_impact": DESIRED_IMPACT[iid],
                   "required_by_date": iso(add_months(TODAY, {"0-12m": 12, "1-3y": 30, "3-5y": 54}[hor]))}, src=["SRC-SIM"])
 
 t_kq = table("key_questions", "SIMULATED key questions per imperative.", ["kq_id", "imperative_id"])

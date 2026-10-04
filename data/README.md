@@ -307,3 +307,50 @@ Access & Guidelines → **What the guidelines say** shows how each main guidelin
   - page summaries: `SX_SUMMARY`
   - cards shown before the fold: `SX_KEEP`
   - sections and tab names: `SECTIONS` and `TAB_LABEL`
+
+## My decisions, guides, tour and assistant (Oct 2026)
+
+Both versions now open on **My decisions**.
+- **Top decisions:** the top 5, which can expand to 15. These come from the existing action engine, ranked by impact × urgency × confidence. Each has a deadline, owner, reason, expected effect and basis, plus buttons:
+  - **Show me** opens the page with the evidence, highlights the card and opens the item.
+  - **Accept** and **Snooze** are remembered in the browser.
+- **Coming up:** a 90-day or 6-month timeline. It includes decision dates, congress abstract deadlines, J&J and competitor readouts, competitor regulatory events, guideline evidence cut-offs (estimated) and last useful study starts before LOE.
+- **What changed:** signals, new journal papers, guidelines, HTA and regulatory events since the user last marked changes as seen (otherwise the last 30 days). The same list sits behind the bell in the top bar.
+- **Guided tasks:** "Prepare the evidence plan review", "A competitor just read out" and "Plan for the next congress".
+  - Each step opens a page and highlights a card.
+  - The last step is a summary built from the pages' "In short" points, plus linked decisions, with **Copy summary**.
+
+Also new:
+- **Role selector** ("I'm a …") in the top bar re-ranks and filters decisions for:
+  - MAF leadership
+  - Brand medical lead
+  - Evidence generation lead
+  - Publications lead
+  - HEOR and market access
+  - Field medical lead
+- **Page banner:** each page shows "N of your decisions use this page".
+- **Help (?):** a 6-step tour (shown automatically on the first visit) and a glossary.
+- **Ask (assistant):** a panel on the right.
+  - **No API key:** answers come from built-in rules over the same data (top studies, recent competitor releases, deadlines, changes, guidelines, HTA, LOE, publications, footprint, scenarios, search by name).
+  - **With Claude:** set `ANTHROPIC_API_KEY` (and optionally `ANTHROPIC_MODEL`, default `claude-sonnet-5`) where `scripts/serve.py` runs. The server relays the conversation to the Anthropic Messages API; tools run in the browser on the dashboard data: decisions, deadlines, changes, page summaries, search, table queries and "show me". The key stays on the server.
+  - Before connecting it inside J&J, check which AI service is approved for this data.
+- **Standalone file:** has no server, so it always uses the built-in answers.
+- **Where to change things:** `ROLES`, `GUIDES`, `TOUR`, `GLOSSARY`, `DL_TYPE` and `askBuiltIn` in `dashboard/index.html`.
+
+## Evidence chain (Oct 2026)
+
+Evidence plan → **Evidence chain** (both versions) traces strategic imperative → evidence gap → evidence activity → expected impact.
+- **Portfolio overview:** one row per imperative, showing status, gaps, gaps with no study, studies, how many studies deliver impact in time, the need-by date and the latest expected impact. Click a row to show its chain.
+- **Chain:** four linked columns.
+  - Each imperative shows its readiness, need-by date and **desired impact**. Desired impact is a new simulated field, `strategic_imperatives.desired_impact`, editable in the Data Editor.
+  - Gaps show coverage (planned vs published) and a status: no study, under 60% covered, covered, or closed by published evidence.
+  - Studies show their fit to the gap. Planned SIM- studies are dashed.
+  - Expected impact is when results reach guidelines and payers (readout → paper → +18 months, the Lifecycle & LOE model), marked before or after the need-by date, with the LOE position.
+  - Clicking a box highlights its whole path and explains it in plain words, with links to open the gap or study.
+- **Status rules:**
+  - Off track: a gap has no study, or a study with 50% or more fit delivers after the need-by date.
+  - At risk: a gap is under 60% covered, or any study is late.
+  - Studies on gaps already closed by published evidence count as support, not as late.
+- **Also:**
+  - J&J studies not linked to any gap are listed at the bottom.
+  - The "Prepare the evidence plan review" guide now includes the chain as step 2.

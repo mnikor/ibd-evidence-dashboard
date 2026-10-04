@@ -16,3 +16,6 @@ dist/
 deck/node_modules/
 deck/png/
 deck/png_arial/
+
+# local tool settings
+.claude/

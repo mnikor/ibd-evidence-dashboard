@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-<script src="data.js?v=1790758291"></script>
+<script src="data.js?v=1791049065"></script>
 <script src="api/overrides.js"></script>
 <style>
 :root {
@@ -166,6 +166,93 @@ html, body { overflow-x: clip; }
 .tbl.tight th.num { width: 96px; font-size: calc(10px * var(--fs)); line-height: 1.2; }
 .bar-mini { height: 6px; background: var(--line); border-radius: 3px; position: relative; overflow: hidden; min-width: 70px; }
 .bar-mini > span { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; }
+/* evidence chain */
+.ch-ov tr.on td { background: var(--accent-soft); }
+.ch-sel { font-size: calc(13px * var(--fs)); background: var(--surface-2); border-radius: 10px; padding: 10px 12px; margin-bottom: 12px; line-height: 1.5; }
+.ch-cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 48px; margin-bottom: 6px; }
+.ch-cols span { font-size: calc(11px * var(--fs)); text-transform: uppercase; letter-spacing: .07em; color: var(--text-3); font-weight: 600; }
+.ch-wrap { position: relative; overflow-x: auto; }
+.ch-lines { position: absolute; left: 0; top: 0; pointer-events: none; overflow: visible; }
+.ch-grid { position: relative; display: grid; grid-template-columns: repeat(4, minmax(170px, 1fr)); gap: 10px 48px; min-width: 820px; }
+.chn { border: 1px solid var(--line-strong); border-radius: 10px; padding: 9px 11px; background: var(--surface); cursor: pointer; align-self: start; transition: opacity .15s, box-shadow .15s; position: relative; }
+.chn:hover { box-shadow: 0 0 0 2px var(--line-strong); }
+.chn.sel { box-shadow: 0 0 0 2px var(--accent); }
+.chn.dim { opacity: .28; }
+.chn-t { font-weight: 600; font-size: calc(12.5px * var(--fs)); line-height: 1.35; }
+.chn-m { font-size: calc(11.5px * var(--fs)); color: var(--text-2); margin-top: 4px; display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.chn-s { font-size: calc(11px * var(--fs)); color: var(--text-3); margin-top: 3px; }
+.chn-d { font-size: calc(11.5px * var(--fs)); color: var(--text-2); margin-top: 8px; display: grid; gap: 2px; border-top: 1px solid var(--line); padding-top: 6px; }
+.ch-si { align-self: stretch; background: var(--surface-2); }
+.ch-gap.st-orphan, .ch-act.st-orphan, .ch-imp.st-late { border-color: var(--critical); }
+.ch-gap.st-risk { border-color: var(--serious); }
+.ch-imp.st-ontime, .ch-imp.st-delivered { border-color: color-mix(in srgb, var(--good) 60%, var(--line)); }
+.ch-act.st-orphan { border-style: dashed; }
+.chn.is-simbox { border-style: dashed; }
+.ch-bar { height: 6px; background: var(--line); border-radius: 3px; position: relative; overflow: hidden; margin-top: 6px; }
+.ch-bar span { position: absolute; inset: 0 auto 0 0; background: color-mix(in srgb, var(--text-2) 35%, transparent); }
+.ch-bar i { position: absolute; inset: 0 auto 0 0; background: var(--text-2); }
+.ch-unl { display: flex; flex-wrap: wrap; gap: 6px; }
+.ch-kv { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1px 8px; font-size: calc(11px * var(--fs)); color: var(--text-3); margin-top: 5px; }
+.ch-kv b { color: var(--text-2); font-variant-numeric: tabular-nums; text-align: right; }
+@media (max-width: 760px) { .ch-cols { display: none; } }
+/* decision hub, guides, tour, assistant */
+.muted { color: var(--text-3); } .small { font-size: calc(12px * var(--fs)); }
+.eyebrow { font-size: calc(11px * var(--fs)); text-transform: uppercase; letter-spacing: .07em; color: var(--text-3); font-weight: 600; }
+@keyframes flashring { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 55%, transparent); } 100% { box-shadow: 0 0 0 14px transparent; } }
+.flash { outline: 2px solid var(--accent); outline-offset: 3px; animation: flashring 1.2s ease-out 2; }
+@media (prefers-reduced-motion: reduce) { .flash { animation: none; } }
+.dec-list { display: grid; gap: 10px; }
+.dec { display: grid; grid-template-columns: 30px minmax(0, 1fr) auto; gap: 12px; align-items: start; border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; background: var(--surface); }
+.dec.done { opacity: .7; }
+.dec-n { width: 26px; height: 26px; border-radius: 8px; background: var(--text); color: var(--surface); display: grid; place-items: center; font-weight: 700; font-size: calc(12px * var(--fs)); }
+.dec-t { font-weight: 650; font-size: calc(14px * var(--fs)); line-height: 1.35; }
+.dec-m { font-size: calc(12px * var(--fs)); color: var(--text-2); margin-top: 4px; }
+.dec-m .due-hot { color: var(--critical); font-weight: 600; }
+.dec-w { font-size: calc(12.5px * var(--fs)); color: var(--text-2); margin-top: 4px; line-height: 1.45; }
+.dec-btns { display: flex; flex-direction: column; gap: 6px; }
+.dec-banner { font-size: calc(13px * var(--fs)); background: var(--accent-soft); border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent); border-radius: 10px; padding: 9px 12px; margin-bottom: 14px; }
+.dec-banner a, .chg a, .dl-ul a { color: var(--text); text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 2px; }
+.chg { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: calc(12.5px * var(--fs)); }
+.chg li { display: block; line-height: 1.45; } .chg-d { display: block; color: var(--text-3); font-size: calc(11.5px * var(--fs)); }
+.chg .chip { margin-right: 4px; vertical-align: 1px; }
+.dl-cols { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.dl-ul { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 6px; font-size: calc(12.5px * var(--fs)); }
+.dl-ul li { display: grid; grid-template-columns: 10px 22px minmax(0, 1fr); gap: 6px; align-items: baseline; } .dl-d { font-variant-numeric: tabular-nums; color: var(--text-3); text-align: right; }
+.dl-ul li > .muted { grid-column: 3; }
+.guide-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.gtile { border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: grid; gap: 8px; align-content: start; background: var(--surface-2); }
+.gtile-t { font-weight: 650; font-size: calc(14px * var(--fs)); }
+.gtile ol { margin: 0; padding-left: 18px; font-size: calc(12.5px * var(--fs)); color: var(--text-2); display: grid; gap: 3px; }
+.gtile .btn { justify-self: start; }
+.guide-bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; border: 1px solid var(--accent); background: var(--accent-soft); border-radius: 12px; padding: 10px 14px; margin-bottom: 14px; }
+.gb-q { font-weight: 650; font-size: calc(14px * var(--fs)); } .gb-b { display: flex; gap: 6px; flex-wrap: wrap; }
+.gs-q { font-size: calc(14px * var(--fs)); margin: 16px 0 6px; } .gs-ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; font-size: calc(13px * var(--fs)); }
+.role-sel { display: inline-flex; align-items: center; gap: 6px; font-size: calc(12.5px * var(--fs)); color: var(--text-2); }
+.role-sel select { font: inherit; font-size: calc(12.5px * var(--fs)); padding: 5px 8px; border-radius: 8px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--text); }
+.tb-btn { position: relative; min-width: 32px; height: 30px; }
+.bell-n { position: absolute; top: -6px; right: -6px; min-width: 17px; height: 17px; border-radius: 9px; background: var(--accent); color: #fff; font-size: 10.5px; font-weight: 700; display: grid; place-items: center; padding: 0 4px; }
+.bell-pop { width: 340px; } .bell-pop .row a { font-size: calc(12.5px * var(--fs)); }
+.ask-btn { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; padding: 6px 12px; }
+.ask-btn svg { width: 15px; height: 15px; fill: var(--accent); }
+.ask { position: fixed; top: 0; right: 0; bottom: 0; width: min(420px, 100vw); background: var(--surface); border-left: 1px solid var(--line); z-index: 55; transform: translateX(100%); transition: transform .2s ease; display: flex; flex-direction: column; box-shadow: -8px 0 30px rgba(0,0,0,.08); }
+body.ask-open .ask { transform: none; }
+@media (min-width: 1280px) { body.ask-open .main { margin-right: 420px; } }
+.ask-h { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; padding: 14px 16px; border-bottom: 1px solid var(--line); }
+.ask-mode { font-size: calc(11.5px * var(--fs)); color: var(--text-3); margin-top: 2px; }
+.ask-msgs { flex: 1; overflow-y: auto; padding: 14px 16px; display: grid; gap: 10px; align-content: start; }
+.am { font-size: calc(13px * var(--fs)); line-height: 1.5; border-radius: 12px; padding: 10px 12px; }
+.am-me { background: var(--text); color: var(--surface); justify-self: end; max-width: 85%; }
+.am-bot { background: var(--surface-2); border: 1px solid var(--line); }
+.am ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 4px; } .am p { margin: 0 0 6px; }
+.am-prov { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 8px; }
+.ask-sugg { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 16px 10px; }
+.ask-sugg .chip { cursor: pointer; white-space: normal; text-align: left; }
+.ask-f { display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 12px 16px; border-top: 1px solid var(--line); }
+.ask-f textarea { font: inherit; font-size: calc(13px * var(--fs)); border: 1px solid var(--line-strong); border-radius: 10px; padding: 8px 10px; resize: none; background: var(--surface); color: var(--text); }
+.tour { position: fixed; z-index: 80; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 12px; box-shadow: var(--shadow); padding: 14px; display: grid; gap: 6px; font-size: calc(13px * var(--fs)); }
+.tour p { margin: 0; color: var(--text-2); } .tour-b { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; }
+.tour-hl { outline: 2px solid var(--accent) !important; outline-offset: 3px; border-radius: 9px; position: relative; z-index: 21; }
+@media (max-width: 760px) { .dec { grid-template-columns: 26px minmax(0, 1fr); } .dec-btns { grid-column: 2; flex-direction: row; flex-wrap: wrap; } }
 /* simplified version */
 body.clean .provs, body.clean .pv-bar, body.clean .ibtn, body.clean .prov-legend, body.clean .tester-only { display: none !important; }
 body.simple .chip { white-space: normal; max-width: 100%; text-align: left; }
@@ -385,7 +472,7 @@ const PENDING_REBUILD = applyOverrides(window.IBD_OVR || []);
 const TODAY = new Date(2026, 8, 19);
 const JNJ = ["TRE", "ICO", "JNJ4804"];
 const BRAND_LABEL = { TRE: "TREMFYA", ICO: "Icotrokinra", JNJ4804: "JNJ-4804" };
-const state = { view: "command", brand: "ALL", ind: "ALL", prov: false };
+const state = { view: "hub", brand: "ALL", ind: "ALL", prov: false };
 let decisions = {};
 try { decisions = JSON.parse(localStorage.getItem("ibd-decisions") || "{}"); } catch (e) { decisions = {}; }
 const saveDecisions = () => { try { localStorage.setItem("ibd-decisions", JSON.stringify(decisions)); } catch (e) {} };
@@ -816,6 +903,11 @@ const METHODS = {
     src: "ClinicalTrials.gov locations.",
     calc: "Site = one registry location per study, so a hospital running two studies counts twice. J&J = studies of J&J products (incl. investigator-led); competitors = active Phase 3 studies.",
     lim: "Registry locations may be incomplete or out of date; no patient numbers by country and no investigator names.", prov: "Public data, derived" },
+  chain: { t: "Evidence chain", what: "How each strategic imperative connects to its evidence gaps, the studies that close them, and when their impact arrives compared with when the imperative needs it.",
+    src: "Imperatives, key questions, gaps and desired impact: simulated brand plan. Studies, dates and status: ClinicalTrials.gov and J&J sources. Study-to-gap fit: analyst mapping (simulated).",
+    calc: "Gaps belong to an imperative through their key question. A study counts for a gap when its fit is above 0. Expected impact = when results reach guidelines and payers: readout + time to paper + 18 months for the guideline/HTA cycle (the Lifecycle & LOE model). A study is late when that date is after the imperative's need-by date; a published paper counts as delivered. Status: off track if a gap has no study or a well-fitting study (fit 50% or more) is late; at risk if a gap is under 60% covered or any study is late.",
+    lim: "Fit scores and the imperative list are simulated placeholders for the real brand plan. Impact timing uses reference lags, not study-specific publication plans.",
+    prov: "Derived from public study dates and simulated plan inputs" },
   glpos: { t: "What the guidelines say", what: "How each main US, European and UK guideline positions TREMFYA and its competitors: strength of recommendation, efficacy tier by line of therapy, head-to-head preferences, perianal disease and route of induction.",
     src: "Full texts of ACG UC and CD 2025 (Am J Gastroenterol), AGA living UC 2024 and CD 2025 (Gastroenterology, PMC), ECCO UC 2026 and CD 2024 (J Crohns Colitis), BSG 2025 (Gut). Read on 30 Sep 2026.",
     calc: "Each recommendation that names a drug was recorded and paraphrased. Strong = 'we recommend' (strong); Conditional = 'we suggest' or conditional/weak strength; Not covered = the drug is not named in any recommendation of that guideline. AGA efficacy tiers are shown for patients new to advanced therapy and after it.",
@@ -938,6 +1030,9 @@ const CARD_PV = {
   "Scenario levers": ["fs", "Levers name real studies and events; probabilities and effects simulated."],
   "What this scenario means": ["cs", "Rule-written from the scenario results."], "Imperative readiness: expected": ["cs", "Recalculated from simulated inputs."],
   "Gaps that move": ["cs", "Recalculated from simulated inputs."], "Robustness across presets": ["cs", "Recalculated from simulated inputs."],
+  "Portfolio overview": ["fcs", "Imperatives, gaps and fit scores are a simulated brand plan; study dates from the registry; timing calculated."],
+  "Evidence chain": ["fcs", "Imperatives, gaps, desired impact and fit scores are a simulated brand plan; studies and dates from the registry; impact timing calculated (readout + paper + guideline/HTA lag)."],
+  "Studies not linked": ["fs", "J&J studies from the registry; the gap mapping they lack is part of the simulated plan."],
   "What the guidelines say": ["fa", "Positions read from the full guideline texts and paraphrased; facts are computed from them. The 'What it could mean' box is AI-written."],
   "Guideline readiness": ["fcs", "Guideline versions and summaries from the published guidelines (PubMed); next-update dates simulated (version + 2 years); readiness calculated from simulated gaps."],
   "HTA status": ["f", "Published decisions from NICE, G-BA, HAS and CDA-AMC, checked on 30 Sep 2026."],
@@ -3237,7 +3332,7 @@ function buildNav() {
   nav.querySelectorAll(".nav-btn, .side-foot").forEach(n => n.remove());
   if (SIMPLE) sxBuildNav(nav); else VIEWS.forEach(([id, label, icon]) => {
     const b = document.createElement("button");
-    b.className = "nav-btn" + (state.view === id ? " active" : "");
+    b.className = "nav-btn" + (state.view === id ? " active" : ""); b.dataset.nav = id;
     b.innerHTML = `<svg viewBox="0 0 24 24">${icon}</svg><span class="lbl">${label}</span>${id === "command" && acts ? `<span class="nav-count">${acts}</span>` : ""}`;
     b.onclick = () => { if (state.view !== id) history.pushState(null, "", "#" + id); state.view = id; render(); window.scrollTo(0, 0); };
     nav.appendChild(b);
@@ -3262,6 +3357,7 @@ function render() {
   el.innerHTML = "";
   RENDER[state.view](el);
   sxAfterRender(el);
+  hubAfterRender(el);
   try { localStorage.setItem("ibd-view", state.view); } catch (e) {}
 }
 document.addEventListener("click", e => {
@@ -3316,15 +3412,16 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") document.get
 const ALT_URL = window.IBD_ALT_URL || (SIMPLE ? "index.html" : "simple.html");
 const iconOf = id => (VIEWS.find(v => v[0] === id) || [])[2] || "";
 const SECTIONS = [
-  ["overview", "Overview", ["command"]],
-  ["plan", "Evidence plan", ["strategy", "scenarios"]],
+  ["hub", "My decisions", ["hub", "command"]],
+  ["plan", "Evidence plan", ["strategy", "chain", "scenarios"]],
   ["studies", "Studies", ["studies", "lifecycle", "world"]],
   ["market", "Competition & guidelines", ["competition", "access"]],
   ["comms", "Communication", ["publications", "dissemination", "assistants", "field"]],
+  ["guides", "Guides", ["guides"]],
   ["admin", "Admin", ["investment", "editor", "data"]],
 ];
-const SECTION_ICON = { overview: "command", plan: "strategy", studies: "studies", market: "competition", comms: "dissemination", admin: "data" };
-const TAB_LABEL = { command: "Overview", strategy: "Evidence gaps", scenarios: "Scenarios", studies: "Timeline & endpoints", lifecycle: "Lifecycle & LOE",
+const SECTION_ICON = { hub: "hub", guides: "guides", plan: "strategy", studies: "studies", market: "competition", comms: "dissemination", admin: "data" };
+const TAB_LABEL = { chain: "Evidence chain", hub: "My decisions", guides: "Guides", command: "Briefing", strategy: "Evidence gaps", scenarios: "Scenarios", studies: "Timeline & endpoints", lifecycle: "Lifecycle & LOE",
   world: "Geographic footprint", competition: "Competitors", access: "Guidelines & HTA", publications: "Publications & share of voice",
   dissemination: "Congresses & publication plan", assistants: "AI assistants", field: "Field insights", investment: "Investment", editor: "Data editor", data: "Sources & provenance" };
 const sectionOf = v => SECTIONS.find(s => s[2].includes(v)) || SECTIONS[0];
@@ -3376,6 +3473,10 @@ function sxNames(root) {
 // short answer on top of each page
 const aiH = id => { const x = (D.ai_insights || []).find(i => i.insight_id === id); return x ? esc(x.headline) + "." : ""; };
 const SX_SUMMARY = {
+  chain: () => { const rows = siF().map(si => ({ si, v: chainVerdict(si, chainOf(si)) }));
+    const off = rows.filter(r => r.v.lvl === "bad"), orphan = d3.sum(rows, r => r.v.orphan), late = d3.sum(rows, r => r.v.late.length);
+    return { q: "Do our studies close the gaps behind each imperative, in time?", k: "fcs", pts: [`${off.length} of ${rows.length} imperatives are off track${off.length ? `: ${off.slice(0, 3).map(r => `<b>${esc(shortTxt(r.si.title, 50))}</b>`).join("; ")}` : ""}.`,
+      `${orphan} evidence gap${orphan === 1 ? " has" : "s have"} no study; ${late} study-to-gap link${late === 1 ? " delivers" : "s deliver"} impact after the need-by date.`, "Imperatives, gaps and desired impact are a simulated brand plan."] }; },
   strategy: () => { const gaps = gapsF(), crit = gaps.filter(g => g.gap_criticality_score >= 4 && g.status !== "closed"), low = crit.filter(g => g.planned_coverage_pct < 60).sort((a, b) => b.gap_criticality_score - a.gap_criticality_score), sis = siF();
     return { q: "Which evidence gaps matter most, and will our studies close them?", k: "cs", pts: [`${crit.length} of ${gaps.length} gaps are critical; ${low.length} of those are less than 60% covered by planned studies.`,
       low[0] ? `Most critical under-covered gap: ${cite(low[0].gap_id)}` : "", `${sis.filter(s => s.status_rag === "red").length} of ${sis.length} strategic imperatives are off track. The gaps and imperatives are a simulated brand plan.`] }; },
@@ -3470,7 +3571,7 @@ function sxTabs(el) {
 }
 function sxAfterRender(el) {
   if (!SIMPLE) return;
-  document.getElementById("view-title").textContent = state.view === "command" ? "Overview" : sectionOf(state.view)[1];
+  document.getElementById("view-title").textContent = sectionOf(state.view)[1];
   if (state.view === "command") sxCommand(el);
   sxFold(el);
   sxTabs(el);
@@ -3480,8 +3581,8 @@ function sxBuildNav(nav) {
   const acts = buildActions().filter(a => !decisions[a.id]).length;
   for (const [id, label, views] of SECTIONS) {
     const b = document.createElement("button");
-    b.className = "nav-btn" + (views.includes(state.view) ? " active" : "");
-    b.innerHTML = `<svg viewBox="0 0 24 24">${iconOf(SECTION_ICON[id])}</svg><span class="lbl">${label}</span>${id === "overview" && acts ? `<span class="nav-count">${Math.min(acts, 5)}</span>` : ""}`;
+    b.className = "nav-btn" + (views.includes(state.view) ? " active" : ""); b.dataset.nav = id;
+    b.innerHTML = `<svg viewBox="0 0 24 24">${iconOf(SECTION_ICON[id])}</svg><span class="lbl">${label}</span>${id === "hub" && acts ? `<span class="nav-count">${Math.min(acts, 5)}</span>` : ""}`;
     b.onclick = () => { const v = views[0]; if (state.view !== v) history.pushState(null, "", "#" + v); state.view = v; render(); window.scrollTo(0, 0); };
     nav.appendChild(b);
   }
@@ -3508,6 +3609,692 @@ if (SIMPLE) {
   new MutationObserver(() => { if (!sxT) sxT = setTimeout(() => { sxT = 0; sxNames(document.getElementById("content")); }, 60); })
     .observe(document.getElementById("content"), { childList: true, subtree: true });
 }
+
+// ================================================================== EVIDENCE CHAIN
+// Strategic imperative → evidence gap → evidence activity (study) → expected impact, compared with the imperative's desired
+// impact and need-by date. A portfolio overview picks the imperative; the chain below traces it; clicking a box highlights
+// its path. Timing of impact = readout → paper → guideline/HTA use (study_loe_window), the same model as Lifecycle & LOE.
+VIEWS.splice(VIEWS.findIndex(v => v[0] === "strategy") + 1, 0, ["chain", "Evidence chain", '<circle cx="5" cy="6" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 7l3 3.5M14 13.5l3 3"/>']);
+const chainState = { si: null, sel: null };
+const CH_WIN = () => Object.fromEntries((D.study_loe_window || []).map(w => [w.study_id, w]));
+function chainOf(si) {
+  const kq = Object.fromEntries(D.key_questions.map(k => [k.kq_id, k])), win = CH_WIN();
+  const need = pd(si.required_by_date);
+  const gaps = gapsF().filter(g => kq[g.kq_id]?.imperative_id === si.imperative_id).sort((a, b) => b.gap_criticality_score - a.gap_criticality_score);
+  return gaps.map(g => {
+    const acts = D.studies.filter(s => (s.gap_fit || {})[g.gap_id] > 0 && indOk(s.indication)).sort((a, b) => (b.gap_fit[g.gap_id] || 0) - (a.gap_fit[g.gap_id] || 0)).map(s => {
+      const w = win[s.study_id] || {}, use = pd(w.uptake_date), paper = pd(w.paper_date), rd = pd(w.readout_date);
+      const published = !!s.peer_reviewed_paper;
+      const late = !published && use && need ? Math.round(monthsFrom(use, need)) : 0;
+      const status = published ? "delivered" : !use ? "unknown" : late > 0 ? "late" : "ontime";
+      return { s, fit: s.gap_fit[g.gap_id], w, use, paper, rd, published, late, status, sim: /^SIM-/.test(s.study_id) };
+    });
+    const closed = g.realised_closure_pct >= 90;  // already answered by published evidence: further studies add support, not a deadline
+    if (closed) acts.forEach(a => { if (a.status === "late" || a.status === "unknown") { a.status = "extra"; a.late = 0; } });
+    const status = closed ? "closed" : !acts.length ? "orphan" : g.planned_coverage_pct < 60 ? "risk" : "ok";
+    return { g, acts, status };
+  });
+}
+function chainVerdict(si, chain) {
+  const need = pd(si.required_by_date), acts = chain.flatMap(c => c.acts);
+  const orphan = chain.filter(c => c.status === "orphan").length, risk = chain.filter(c => c.status === "risk").length;
+  const late = acts.filter(a => a.status === "late"), ontime = acts.filter(a => a.status === "ontime" || a.status === "delivered");
+  const lastUse = d3.max(acts.filter(a => (a.status === "late" || a.status === "ontime") && a.use), a => a.use);
+  const lvl = orphan || late.some(a => a.fit >= 0.5) ? "bad" : risk || late.length ? "warn" : "good";
+  return { need, orphan, risk, late, ontime, lastUse, lvl, nGaps: chain.length, nActs: new Set(acts.map(a => a.s.study_id)).size };
+}
+const CH_LVL = { good: ["On track", "st-green", "✓"], warn: ["At risk", "st-amber", "!"], bad: ["Off track", "st-red", "✕"] };
+const chBadge = l => `<span class="status ${CH_LVL[l][1]}"><i>${CH_LVL[l][2]}</i>${CH_LVL[l][0]}</span>`;
+RENDER.chain = el => {
+  const sis = siF().slice().sort((a, b) => a.brand_id.localeCompare(b.brand_id) || a.priority_rank - b.priority_rank);
+  const rows = sis.map(si => { const ch = chainOf(si); return { si, ch, v: chainVerdict(si, ch) }; });
+  if (!chainState.si || !rows.some(r => r.si.imperative_id === chainState.si)) {
+    const order = { bad: 0, warn: 1, good: 2 };
+    chainState.si = rows.slice().sort((a, b) => order[a.v.lvl] - order[b.v.lvl] || a.si.priority_rank - b.si.priority_rank)[0]?.si.imperative_id || null;
+  }
+  const linked = new Set(D.evidence_gaps.flatMap(g => D.studies.filter(s => (s.gap_fit || {})[g.gap_id] > 0).map(s => s.study_id)));
+  const unlinked = studiesF().filter(s => !linked.has(s.study_id));
+  el.innerHTML = header(`<b>How to read this:</b> each strategic imperative needs evidence gaps closed; studies close them; the impact arrives when results reach guidelines and payers (readout → paper → guideline/HTA use). Pick an imperative in the overview, then click any box in the chain to trace its path. <b>Red</b> means no study, or impact after the imperative's need-by date.`) + `
+  <div class="grid g-12">
+    <div class="card s-12"><div class="card-h"><h2>Portfolio overview</h2>${ib("chain")}<span class="sub">one row per strategic imperative · click a row to trace its chain</span></div>
+      <div class="scroll-x"><table class="tbl ch-ov"><thead><tr><th>Strategic imperative</th><th>Status</th><th class="num">Evidence gaps</th><th class="num" title="Gaps with no study planned">Gaps without a study</th><th class="num">Studies</th><th class="num" title="Studies whose results reach guidelines and payers before the evidence is needed">Studies in time</th><th>Evidence needed by</th><th title="When the last of these studies reaches guidelines and payers">Last study usable</th></tr></thead><tbody>
+      ${rows.map(({ si, v }) => `<tr class="click ${si.imperative_id === chainState.si ? "on" : ""}" data-chsi="${si.imperative_id}">
+        <td style="white-space:normal;min-width:260px">${bdot(si.brand_id)} <b>${esc(si.title)}</b></td><td class="nw">${chBadge(v.lvl)}</td>
+        <td class="num">${v.nGaps}</td><td class="num">${v.orphan ? `<b style="color:var(--critical)">${v.orphan}</b>` : "—"}</td><td class="num">${v.nActs}</td>
+        <td class="num">${v.ontime.length}/${v.ontime.length + v.late.length}</td><td class="nw">${fmtM(v.need)}</td>
+        <td class="nw" style="${v.lastUse && v.lastUse > v.need ? "color:var(--critical)" : ""}">${v.lastUse ? fmtM(v.lastUse) : "—"}</td></tr>`).join("")}</tbody></table></div></div>
+    <div class="card s-12"><div class="card-h"><h2>Evidence chain</h2>${ib("chain")}<span class="sub">imperative → evidence gaps → studies → when the evidence can be used · click a box to trace it</span>
+      <span class="right legend"><span><span class="dot" style="background:var(--critical)"></span>no study, or impact too late</span><span><span class="dot" style="background:var(--serious)"></span>planned studies answer less than 60% of the gap</span><span><span class="dot" style="background:var(--good)"></span>in time or already published</span></span></div>
+      <div id="ch-sel" class="ch-sel"></div>
+      <div class="ch-cols"><span>Strategic imperative</span><span>Evidence gap</span><span>Evidence activity</span><span>Expected impact</span></div>
+      <div id="chain-wrap" class="ch-wrap"></div></div>
+    <div class="card s-12"><div class="card-h"><h2>Studies not linked to any evidence gap</h2><span class="sub">${unlinked.length} J&J studies in this filter · they may still matter, but no imperative explains why they run</span></div>
+      <div class="ch-unl">${unlinked.map(s => `<span class="chip link" data-open="${s.study_id}">${bdot(firstBrand(s.brand_ids))} ${esc(shortName(s))}</span>`).join(" ") || `<span class="muted">None.</span>`}</div></div>
+  </div>`;
+  el.querySelectorAll("[data-chsi]").forEach(tr => tr.onclick = () => { chainState.si = tr.dataset.chsi; chainState.sel = null; render(); setTimeout(() => document.getElementById("chain-wrap")?.scrollIntoView({ behavior: "smooth", block: "start" }), 50); });
+  drawChain(rows.find(r => r.si.imperative_id === chainState.si));
+};
+function drawChain(row) {
+  const wrap = document.getElementById("chain-wrap"); if (!wrap) return;
+  if (!row) { wrap.innerHTML = `<div class="empty">No strategic imperative for this filter.</div>`; return; }
+  const { si, ch, v } = row;
+  let r = 1, html = "";
+  const total = ch.reduce((n, c) => n + Math.max(1, c.acts.length), 0) || 1;
+  html += `<div class="chn ch-si" data-k="si" style="grid-column:1;grid-row:1 / span ${total}">
+    <div class="chn-t">${bdot(si.brand_id)} ${esc(si.title)}</div>
+    <div class="chn-m">${chBadge(v.lvl)}</div>
+    <div class="chn-s" title="Evidence readiness: how well and how soon this imperative's gaps will be closed, 0-100">Evidence readiness <b class="is-der">${si.evidence_readiness_index ?? "—"}</b>/100 · evidence needed by <b>${fmtM(v.need)}</b></div>
+    <div class="chn-d"><span class="eyebrow">Desired impact</span><span class="is-sim">${esc(si.desired_impact || "—")}</span></div></div>`;
+  for (const c of ch) {
+    const n = Math.max(1, c.acts.length), gk = `gap:${c.g.gap_id}`;
+    const gst = { orphan: ["No study planned", "var(--critical)"], risk: ["Planned studies answer less than 60%", "var(--serious)"], ok: ["Planned studies answer most of it", "var(--good)"], closed: ["Already answered by published papers", "var(--good)"] }[c.status];
+    html += `<div class="chn ch-gap st-${c.status}" data-k="${gk}" data-p="si" style="grid-column:2;grid-row:${r} / span ${n}">
+      <div class="chn-t">${esc(c.g.title)}</div>
+      <div class="chn-m"><span class="dot" style="background:${gst[1]}"></span>${gst[0]}</div>
+      <div class="chn-s">Importance ${c.g.gap_criticality_score.toFixed(1)} out of 5</div>
+      <div class="ch-bar" title="Light bar: share of the gap the planned studies would answer if they succeed. Dark bar: share already answered by published papers."><span style="width:${c.g.planned_coverage_pct}%"></span><i style="width:${c.g.realised_closure_pct}%"></i></div>
+      <div class="ch-kv" title="How much of this evidence gap is answered"><span>Answered if planned studies succeed</span><b>${c.g.planned_coverage_pct}%</b><span>Answered by published papers today</span><b>${c.g.realised_closure_pct}%</b></div></div>`;
+    if (!c.acts.length) {
+      html += `<div class="chn ch-act st-orphan" data-k="none:${c.g.gap_id}" data-p="${gk}" style="grid-column:3;grid-row:${r}"><div class="chn-t">No study planned</div><div class="chn-s">Consider a study, real-world evidence or evidence synthesis</div></div>
+        <div class="chn ch-imp st-late" data-k="noimp:${c.g.gap_id}" data-p="none:${c.g.gap_id}" style="grid-column:4;grid-row:${r}"><div class="chn-t">Gap stays open</div><div class="chn-s">Nothing will close it before ${fmtM(v.need)}</div></div>`;
+      r++; continue;
+    }
+    for (const a of c.acts) {
+      const ak = `act:${c.g.gap_id}:${a.s.study_id}`;
+      const verdict = a.status === "delivered" ? ["Published", "var(--good)"] : a.status === "extra" ? ["Adds support; gap already closed", "var(--text-3)"] : a.status === "late" ? [`${a.late} months after it is needed`, "var(--critical)"] : a.status === "ontime" ? ["In time", "var(--good)"] : ["No date yet", "var(--text-3)"];
+      const loe = { "after LOE": " · after the US LOE signal", "at LOE": " · around the US LOE signal", "tight": " · 1-3 years of use before LOE" }[a.w.window] || "";
+      html += `<div class="chn ch-act ${a.sim ? "is-simbox" : ""}" data-k="${ak}" data-p="${gk}" data-study="${a.s.study_id}" style="grid-column:3;grid-row:${r}">
+        <div class="chn-t">${bdot(firstBrand(a.s.brand_ids))} ${esc(shortName(a.s))}${a.sim ? ` <span class="chip sim">planned · simulated</span>` : ""}</div>
+        <div class="chn-s">${esc(a.s.study_type || a.s.phase_registry || "")} · ${esc(a.s.status)}</div>
+        <div class="chn-s" title="How well this study's design answers this gap if its results are positive (100% = answers it fully)">Answers this gap ${a.fit >= 0.7 ? "well" : a.fit >= 0.4 ? "partly" : "a little"} (${Math.round(a.fit * 100)}%)</div></div>
+        <div class="chn ch-imp st-${a.status}" data-k="imp:${c.g.gap_id}:${a.s.study_id}" data-p="${ak}" data-study="${a.s.study_id}" style="grid-column:4;grid-row:${r}">
+        <div class="chn-t">${a.published ? "Peer-reviewed paper published" : a.use ? `Usable by guidelines and payers ~${fmtM(a.use)}` : "Timing not known"}</div>
+        <div class="chn-m"><span class="dot" style="background:${verdict[1]}"></span>${verdict[0]}${loe}</div>
+        ${!a.published && a.rd ? `<div class="chn-s" title="Results, then a peer-reviewed paper, then about 18 months until guidelines and HTA bodies use it">Results ${fmtM(a.rd)} → paper ~${fmtM(a.paper)} → guidelines ~${fmtM(a.use)}</div>` : ""}</div>`;
+      r++;
+    }
+  }
+  wrap.innerHTML = `<svg class="ch-lines" aria-hidden="true"></svg><div class="ch-grid" style="grid-template-rows:repeat(${total}, auto)">${html}</div>`;
+  wrap.querySelectorAll(".chn").forEach(n => n.onclick = () => { chainState.sel = chainState.sel === n.dataset.k ? null : n.dataset.k; applyChainSel(row); });
+  applyChainSel(row);
+  requestAnimationFrame(() => chainLines());
+}
+function chainRelated(k) {
+  const wrap = document.getElementById("chain-wrap"), all = [...wrap.querySelectorAll(".chn")];
+  if (!k || k === "si") return new Set(all.map(n => n.dataset.k));
+  const byK = Object.fromEntries(all.map(n => [n.dataset.k, n])), keep = new Set();
+  const up = key => { while (key && byK[key]) { keep.add(key); key = byK[key].dataset.p; } };
+  const down = key => { keep.add(key); all.filter(n => n.dataset.p === key).forEach(n => down(n.dataset.k)); };
+  const node = byK[k]; if (!node) return new Set(all.map(n => n.dataset.k));
+  if (node.dataset.study) all.filter(n => n.dataset.study === node.dataset.study).forEach(n => { up(n.dataset.k); down(n.dataset.k); });
+  else { up(k); down(k); }
+  return keep;
+}
+function applyChainSel(row) {
+  const wrap = document.getElementById("chain-wrap"); if (!wrap) return;
+  const keep = chainRelated(chainState.sel);
+  wrap.querySelectorAll(".chn").forEach(n => { n.classList.toggle("dim", !keep.has(n.dataset.k)); n.classList.toggle("sel", n.dataset.k === chainState.sel); });
+  chainLines(keep);
+  // plain-language read-out of the selection
+  const { si, ch, v } = row, box = document.getElementById("ch-sel");
+  const k = chainState.sel, node = k && wrap.querySelector(`.chn[data-k="${CSS.escape(k)}"]`);
+  let txt;
+  if (!node || k === "si") {
+    txt = `<b>${esc(si.title)}</b> needs its evidence by <b>${fmtM(v.need)}</b>. ${v.nGaps} evidence gap${v.nGaps === 1 ? "" : "s"}, ${v.nActs} stud${v.nActs === 1 ? "y" : "ies"}. `
+      + (v.orphan ? `<b style="color:var(--critical)">${v.orphan} gap${v.orphan > 1 ? "s have" : " has"} no study.</b> ` : "")
+      + (v.late.length ? `${v.late.length} stud${v.late.length > 1 ? "ies deliver" : "y delivers"} impact after the need-by date (latest ~${fmtM(v.lastUse)}). ` : "All dated studies deliver in time. ")
+      + `<span class="muted">Click a gap or study to trace it.</span>`;
+  } else if (node.dataset.study) {
+    const s = IX.study[node.dataset.study], gs = ch.filter(c => c.acts.some(a => a.s.study_id === s.study_id));
+    const a = gs[0].acts.find(x => x.s.study_id === s.study_id);
+    txt = `<b>${esc(shortName(s))}</b> addresses ${gs.map(c => `“${esc(c.g.title)}”`).join(" and ")}. `
+      + (a.published ? "Its peer-reviewed paper is out. " : a.use ? `Results reach guidelines and payers ~<b>${fmtM(a.use)}</b> (readout ${fmtM(a.rd)}, paper ~${fmtM(a.paper)}), ${a.late > 0 ? `<b style="color:var(--critical)">${a.late} months after</b>` : "before"} the need-by date of ${fmtM(v.need)}. ` : "No readout date yet. ")
+      + `<span class="chip link" data-open="${s.study_id}">Open study</span>`;
+  } else {
+    const gid = k.split(":")[1], c = ch.find(x => x.g.gap_id === gid);
+    txt = c ? `<b>${esc(c.g.title)}</b>: importance ${c.g.gap_criticality_score.toFixed(1)} out of 5. If the planned studies succeed they would answer ${c.g.planned_coverage_pct}% of it; published papers answer ${c.g.realised_closure_pct}% today. `
+      + (c.acts.length ? `${c.acts.length} stud${c.acts.length > 1 ? "ies" : "y"}: ${c.acts.map(a => esc(shortName(a.s))).join(", ")}. ` : `<b style="color:var(--critical)">No study closes it.</b> `)
+      + `<span class="chip link" data-open="${gid}">Open gap</span>` : "";
+  }
+  box.innerHTML = txt;
+}
+function chainLines(keep) {
+  const wrap = document.getElementById("chain-wrap"); if (!wrap) return;
+  const svg = wrap.querySelector(".ch-lines"); if (!svg) return;
+  keep = keep || chainRelated(chainState.sel);
+  const base = wrap.getBoundingClientRect(), W = wrap.scrollWidth, H = wrap.scrollHeight;
+  svg.setAttribute("width", W); svg.setAttribute("height", H); svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const byK = Object.fromEntries([...wrap.querySelectorAll(".chn")].map(n => [n.dataset.k, n]));
+  let s = "";
+  for (const n of Object.values(byK)) {
+    const p = byK[n.dataset.p]; if (!p) continue;
+    const a = p.getBoundingClientRect(), b = n.getBoundingClientRect();
+    const x1 = a.right - base.left, y1 = a.top - base.top + Math.min(a.height / 2, 28), x2 = b.left - base.left, y2 = b.top - base.top + Math.min(b.height / 2, 28), mx = (x1 + x2) / 2;
+    const bad = n.matches(".st-orphan, .st-late"), risk = n.matches(".st-risk");
+    const on = keep.has(n.dataset.k) && keep.has(n.dataset.p) && chainState.sel;
+    s += `<path d="M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}" fill="none" stroke="${bad ? "var(--critical)" : risk ? "var(--serious)" : "var(--line-strong)"}" stroke-width="${on ? 3 : 1.5}" opacity="${keep.has(n.dataset.k) ? 1 : 0.2}"/>`;
+  }
+  svg.innerHTML = s;
+}
+addEventListener("resize", () => { if (state.view === "chain") requestAnimationFrame(() => chainLines()); });
+
+// ================================================================== DECISION HUB · ROLE · WHAT CHANGED · GUIDES · TOUR · ASSISTANT
+// Helps a user get from "a lot of insight" to "what do I do, by when": a home page with the top decisions, the deadlines that
+// force them and what changed; a role filter; step-by-step guides; a first-visit tour; and an assistant that answers from this
+// data (Claude when the server has an API key, built-in rules otherwise). Same code in the full and the simplified version.
+VIEWS.unshift(["hub", "My decisions", '<path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/>']);
+VIEWS.splice(VIEWS.findIndex(v => v[0] === "editor"), 0, ["guides", "Guides", '<path d="M4 19.5V5a2 2 0 0 1 2-2h12v16H6.5A2.5 2.5 0 0 0 4 21.5"/><path d="M8 7h6M8 11h6"/>']);
+
+// ---- role
+const ROLES = [["all", "Everyone"], ["vp", "MAF leadership"], ["brand", "Brand medical lead"], ["evgen", "Evidence generation lead"],
+  ["pubs", "Publications lead"], ["heor", "HEOR and market access"], ["field", "Field medical lead"]];
+let ROLE = "all";
+try { ROLE = localStorage.getItem("ibd-role") || "all"; } catch (e) {}
+const roleName = () => (ROLES.find(r => r[0] === ROLE) || ROLES[0])[1];
+function roleMatch(a) {
+  const k = String(a.kind).toLowerCase(), g = IX.gap[a.cites[0]];
+  switch (ROLE) {
+    case "brand": return /close gap|respond|pre-empt|decide|review business case|plan/.test(k);
+    case "evgen": return /close gap|enrollment|fund|accelerate|add endpoints|encore|decide|plan/.test(k);
+    case "pubs": return /publish|submit|pre-empt|encore/.test(k);
+    case "heor": return (!!g && /heor|comparative|rwe|sequencing/i.test(g.gap_type)) || /review business case/.test(k);
+    case "field": return /pre-empt|respond|reactive/.test(k);
+    default: return true;
+  }
+}
+function decisionList() {
+  const acts = buildActions().filter(a => decisions[a.id] !== "snoozed").filter(roleMatch);
+  if (ROLE === "vp") acts.sort((a, b) => (b.level === "Strategic") - (a.level === "Strategic") || b.score - a.score);
+  return acts;
+}
+// where the evidence for a decision lives
+function showMeFor(a) {
+  const c = a.cites[0], k = String(a.kind);
+  if (/pre-empt/i.test(k)) return { view: "competition", card: "Competitor pipeline", open: c };
+  if (/respond/i.test(k)) return { view: "competition", card: "Threats to J&J", open: c };
+  if (/^publish/i.test(k)) return { view: "dissemination", card: "Evidence debt", open: c };
+  if (/submit/i.test(k)) return { view: "dissemination", card: "Upcoming congresses" };
+  if (/enrollment/i.test(k)) return { view: "studies", card: "Evidence timeline", open: c };
+  if (IX.gap[c]) return { view: "strategy", card: "Gap map", open: c };
+  if (IX.study[c]) return { view: "studies", card: "Evidence timeline", open: c };
+  return { view: "strategy", card: "Gap map" };
+}
+function flashCard(title) {
+  const t = String(title).toLowerCase();
+  const el = [...document.querySelectorAll("#content .card, #content .section-title")].find(c =>
+    ((c.matches(".section-title") ? c.textContent : c.querySelector("h2, .lbl")?.textContent) || "").trim().toLowerCase().startsWith(t));
+  if (!el) return false;
+  const det = el.closest("details"); if (det && !det.open) det.open = true;
+  el.scrollIntoView({ behavior: "smooth", block: "center" });
+  el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+  return true;
+}
+const openable = id => !!(id && (IX.gap[id] || IX.study[id] || IX.cst[id] || IX.ev[id] || IX.si[id] || IX.out[id]));
+function goShow(sm) {
+  if (!sm || !RENDER[sm.view]) return;
+  if (state.view !== sm.view) { history.pushState(null, "", "#" + sm.view); state.view = sm.view; render(); window.scrollTo(0, 0); }
+  setTimeout(() => { if (sm.card) flashCard(sm.card); if (openable(sm.open)) setTimeout(() => openEntity(sm.open), 900); }, 250);
+}
+const MON = "janfebmaraprmayjunjulaugsepoctnovdec";
+function parseDue(s) {
+  s = String(s || "").replace(/ /g, " ");
+  const m = s.match(/(\d{1,2})?\s*(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{4})/i);
+  if (!m) return /now|30 days/i.test(s) ? TODAY : null;
+  return new Date(+m[3], MON.indexOf(m[2].toLowerCase().slice(0, 3)) / 3, +(m[1] || 15));
+}
+const daysFrom = d => Math.round((d - TODAY) / 864e5);
+const isoDay = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;  // local date, no time-zone shift
+const brandNm = b => BRAND_LABEL[b] || (IX.brand[b]?.brand_name || b || "").split(" (")[0];
+
+// ---- deadlines that force decisions
+const DL_TYPE = { decision: ["Your decision", "var(--accent)"], congress: ["Abstract deadline", "var(--c1)"], jnj: ["J&J readout", "var(--c3)"],
+  comp: ["Competitor", "var(--c4)"], guideline: ["Guideline cut-off", "var(--c7)"], loe: ["Last useful start", "var(--serious)"] };
+function deadlines(days) {
+  const end = new Date(TODAY.getTime() + days * 864e5), inW = d => d && d >= TODAY && d <= end, out = [];
+  for (const a of decisionList().slice(0, 12)) { const d = parseDue(a.due); if (inW(d) && d > TODAY && !/submit/i.test(a.kind)) out.push({ d, type: "decision", label: shortTxt(a.title, 80), sm: showMeFor(a), id: a.id }); }
+  for (const v of D.venues) { const d = pd(v.abstract_deadline); if (inW(d)) out.push({ d, type: "congress", label: `${v.name} abstract deadline`, sm: { view: "dissemination", card: "Upcoming congresses" }, est: (v._sim || []).includes("abstract_deadline") }); }
+  for (const s of studiesF()) { const m = nextMilestone(s.study_id, ["TLR", "PCD"]); const d = m && pd(m.forecast_date); if (inW(d)) out.push({ d, type: "jnj", label: `${shortName(s)}: ${m.code === "TLR" ? "topline expected" : "primary completion"}`, sm: { view: "studies", card: "Evidence timeline", open: s.study_id } }); }
+  for (const c of compF()) { const d = pd(c.expected_readout); if (inW(d) && /Ph3/.test(c.phase_registry || "")) out.push({ d, type: "comp", label: `${c.acronym || c.study_id} readout (${brandNm(c.brand_id)})`, sm: { view: "competition", card: "Competitor pipeline", open: c.study_id } }); }
+  for (const e of D.competitive_events) { const d = pd(e.date); if (inW(d) && !/readout/.test(e.type)) out.push({ d, type: "comp", label: `${brandNm(e.brand_id)}: ${shortTxt(e.description, 70)}`, sm: { view: "competition", card: "Threats to J&J", open: e.event_id } }); }
+  for (const g of D.guidelines.filter(g => indOk(g.indication))) { const u = pd(g.next_update_expected); const d = u && addMonths(u, -6); if (inW(d)) out.push({ d, type: "guideline", label: `${g.body.replace(" (living)", "")} ${g.indication} guideline: evidence cut-off`, sm: { view: "access", card: "Guideline readiness" }, est: true }); }
+  for (const r of (D.loe_start_by || []).filter(r => brandOk(r.brand_id) && r.market === "US")) { const d = pd(r.last_useful_start); if (inW(d)) out.push({ d, type: "loe", label: `Last useful start, ${r.archetype.toLowerCase()} (${brandNm(r.brand_id)})`, sm: { view: "lifecycle", card: "Last useful start" } }); }
+  return out.sort((a, b) => a.d - b.d);
+}
+
+// ---- what changed since the last visit (dates in the data; "seen" is remembered in this browser)
+function seenDate() { try { const s = localStorage.getItem("ibd-seen"); return s ? pd(s) : null; } catch (e) { return null; } }
+function changeList() {
+  const since = seenDate() || new Date(TODAY.getTime() - 30 * 864e5), inW = d => d && d > since && d <= TODAY, out = [], jnj = ["TRE", "ICO", "JNJ4804", "STE"];
+  for (const s of D.signals) { const d = pd(s.detected_at); if (inW(d) && s.signal_type !== "upcoming readout (registry)" && (!jnj.includes(s.brand_id) || brandOk(s.brand_id)))
+    out.push({ d, type: s.signal_type, text: s.headline, brand: s.brand_id, sm: { view: "competition", card: "Threats to J&J" } }); }
+  const pubs = (D.publications || []).filter(p => p.kind === "journal" && inW(pd(p.date)));
+  if (pubs.length) { const j = pubs.filter(p => /TRE|ICO|JNJ/i.test(p.brands_title || p.brand_id || "")).length;
+    out.push({ d: d3.max(pubs, p => pd(p.date)), type: "publications", text: `${pubs.length} new journal paper${pubs.length > 1 ? "s" : ""} on IBD drugs in scope${j ? ` (${j} on J&J assets)` : ""}`, sm: { view: "publications", card: "Publication explorer" } }); }
+  for (const g of D.guidelines) { const d = pd(g.version_date); if (inW(d)) out.push({ d, type: "guideline", text: `New ${g.body.replace(" (living)", "")} ${g.indication} guideline`, sm: { view: "access", card: "What the guidelines say" } }); }
+  for (const h of D.hta_decisions) { const d = pd(h.decision_date); if (inW(d)) out.push({ d, type: "HTA", text: `${h.body}: TREMFYA ${h.indication} ${h.decision}`, sm: { view: "access", card: "HTA status" } }); }
+  for (const r of D.regulatory_events) { const d = pd(r.date); if (inW(d)) out.push({ d, type: "regulatory", text: `${brandNm(r.brand_id)}: ${r.agency} ${r.indication} ${r.type}`, sm: { view: "access", card: "Regulatory timeline" } }); }
+  return out.sort((a, b) => b.d - a.d);
+}
+const changesHtml = (ch, n) => ch.length ? `<ul class="chg">${ch.slice(0, n).map((c, i) => `<li><span class="chg-d">${fmtD(c.d)}</span><span class="chip">${esc(c.type)}</span> <a href="#" data-chg="${i}">${esc(c.text)}</a></li>`).join("")}</ul>${ch.length > n ? `<div class="muted small">+ ${ch.length - n} more</div>` : ""}`
+  : `<div class="empty">Nothing new since you last marked changes as seen. New items appear when the data is refreshed.</div>`;
+function markSeen() { try { localStorage.setItem("ibd-seen", isoDay(TODAY)); } catch (e) {} updateBell(); if (state.view === "hub") render(); }
+
+// ---- guided tasks
+const GUIDES = [
+  { id: "iep", title: "Prepare the evidence plan review", who: "Evidence generation and brand medical leads", time: "10 min", steps: [
+    { view: "strategy", card: "Gap map", q: "Which gaps are critical and still poorly covered?", tip: "Bubbles in the top-left are critical and under-covered." },
+    { view: "chain", card: "Evidence chain", q: "Do the studies behind each imperative deliver in time?", tip: "Pick an imperative in the overview; red boxes have no study or arrive after the need-by date." },
+    { view: "studies", card: "Evidence timeline", q: "Which studies close them, and when do they read out?", tip: "Bars run from first patient in to primary completion; stars mark approvals." },
+    { view: "lifecycle", card: "When each J&J study can be used", q: "Will those results be usable before loss of exclusivity?", tip: "Dots to the right of the red line arrive after the US LOE signal." },
+    { view: "scenarios", card: "Scenario levers", q: "What changes if a key study slips or a competitor wins?", tip: "Pick a preset, then read the scenario read-out." }] },
+  { id: "comp", title: "A competitor just read out", who: "Brand medical, field medical and MAF leadership", time: "8 min", steps: [
+    { view: "competition", card: "Threats to J&J", q: "What happened, and how big is the threat?", tip: "Threats are ranked by a 0-100 index; open one for the response options." },
+    { view: "access", card: "What the guidelines say", q: "Where does TREMFYA stand in the guidelines today?", tip: "Not covered means the guideline names no recommendation for the drug." },
+    { view: "strategy", card: "Gap map", q: "Which of our evidence gaps does it hit?", tip: "Open a gap to see which studies close it and when." },
+    { view: "field", card: "What the field is telling us", q: "What are MSLs already hearing about it?", tip: "Field insights are simulated placeholders for CRM data." }] },
+  { id: "congress", title: "Plan for the next congress", who: "Publications and medical leads", time: "8 min", steps: [
+    { view: "dissemination", card: "Upcoming congresses", q: "Which deadlines are next, and what is planned for each?", tip: "Red dates are close." },
+    { view: "dissemination", card: "Evidence debt", q: "Which results are public but still have no paper?", tip: "Congress-only data counts less for guidelines and HTA bodies." },
+    { view: "publications", card: "Share of voice by congress", q: "How visible are we at each congress against competitors?", tip: "Bars show the share of abstracts naming each asset." },
+    { view: SIMPLE ? "assistants" : "dissemination", card: "Drugs named in unbranded answers", q: "How do AI assistants present us to patients and HCPs?", tip: "Share of unbranded answers naming each drug." }] },
+];
+let GUIDE = null;  // { id, step }
+const guideOf = () => GUIDE && GUIDES.find(g => g.id === GUIDE.id);
+function startGuide(id) { GUIDE = { id, step: 0 }; goStep(); }
+function goStep() {
+  const g = guideOf(); if (!g) return;
+  const st = g.steps[GUIDE.step];
+  state.view = st ? st.view : "guides";
+  history.pushState(null, "", "#" + state.view); render(); window.scrollTo(0, 0);
+  if (st) setTimeout(() => flashCard(st.card), 300);
+}
+const guideTile = g => `<div class="gtile"><div class="gtile-t">${esc(g.title)}</div><div class="muted small">${esc(g.who)} · ${g.steps.length + 1} steps · about ${g.time}</div>
+  <ol>${g.steps.map(s => `<li>${esc(s.q)}</li>`).join("")}<li>Summary to take into the meeting</li></ol><button class="btn primary" data-guide="${g.id}">Start</button></div>`;
+function guideBar(el) {
+  const g = guideOf(); if (!g) return;
+  const n = g.steps.length, st = g.steps[GUIDE.step];
+  el.insertAdjacentHTML("afterbegin", `<div class="guide-bar"><div class="gb-l"><span class="eyebrow">Guide · ${esc(g.title)}</span>
+    <div class="gb-q">Step ${GUIDE.step + 1} of ${n + 1}: ${st ? esc(st.q) : "summary"}</div>${st && st.tip ? `<div class="muted small">${esc(st.tip)}</div>` : ""}</div>
+    <div class="gb-b">${GUIDE.step > 0 ? `<button class="btn" data-gstep="-1">Back</button>` : ""}${st ? `<button class="btn primary" data-gstep="1">${GUIDE.step === n - 1 ? "See summary" : "Next"}</button>` : ""}<button class="btn" data-gstep="0">Exit guide</button></div></div>`);
+}
+const stripHtml = h => { const d = document.createElement("div"); d.innerHTML = h; return d.textContent.replace(/\s+/g, " ").trim(); };
+function guideSummaryParts(g) {
+  return g.steps.map(s => { let pts = []; try { pts = (SX_SUMMARY[s.view] ? SX_SUMMARY[s.view]().pts : []).filter(Boolean); } catch (e) {} return { s, pts }; });
+}
+RENDER.guides = el => {
+  const g = guideOf();
+  if (g && GUIDE.step >= g.steps.length) {
+    const parts = guideSummaryParts(g), views = new Set(g.steps.map(s => s.view));
+    const decs = decisionList().filter(a => views.has(showMeFor(a).view)).slice(0, 3);
+    el.innerHTML = header() + `<div class="grid g-12"><div class="card s-12"><div class="card-h"><h2>Summary: ${esc(g.title)}</h2><span class="sub">computed from the pages in this guide · ${fmtD(TODAY)} data</span>
+      <span class="right" style="display:flex;gap:6px"><button class="btn" id="g-copy">Copy summary</button><button class="btn" data-guide="${g.id}">Start again</button></span></div>
+      ${parts.map(p => `<h3 class="gs-q">${esc(p.s.q)}</h3>${p.pts.length ? `<ul class="gs-ul">${p.pts.map(x => `<li>${x}</li>`).join("")}</ul>` : `<div class="muted small">See the page for details.</div>`}`).join("")}
+      <h3 class="gs-q">Decisions linked to this guide</h3><div class="dec-list">${decs.map(decRow).join("") || `<div class="empty">No open decisions on these pages.</div>`}</div>
+      <div class="muted small" id="g-copied" style="margin-top:8px"></div></div></div>`;
+    document.getElementById("g-copy").onclick = () => {
+      const txt = `${g.title} (data as of ${fmtD(TODAY)})\n\n` + parts.map(p => `${p.s.q}\n${p.pts.map(x => "- " + stripHtml(x)).join("\n")}`).join("\n\n")
+        + `\n\nDecisions\n` + decs.map(a => `- ${a.title} (decide by ${a.due}; ${a.owner})`).join("\n");
+      const done = ok => { document.getElementById("g-copied").textContent = ok ? "Copied. Paste it into your meeting notes or slides." : "Select the text above and copy it."; };
+      try { navigator.clipboard.writeText(txt).then(() => done(true), () => done(false)); } catch (e) { done(false); }
+    };
+    return;
+  }
+  el.innerHTML = header(`<b>Guided tasks.</b> Step-by-step walk-throughs for jobs people come to this dashboard for. Each step opens the right page and highlights the card to look at; the last step is a summary you can copy into meeting notes.`)
+    + `<div class="grid g-12"><div class="card s-12"><div class="guide-tiles">${GUIDES.map(guideTile).join("")}</div></div></div>`;
+};
+
+// ---- the home page
+const hubState = { all: false, days: 90 };
+function decRow(a, i) {
+  const st = decisions[a.id], due = parseDue(a.due), days = due ? daysFrom(due) : null;
+  return `<div class="dec ${st === "accepted" ? "done" : ""}">
+    <div class="dec-n">${i + 1}</div>
+    <div class="dec-b"><div class="dec-t">${esc(a.title)}</div>
+      <div class="dec-m"><span class="${days != null && days <= 30 ? "due-hot" : ""}">Decide by ${esc(a.due)}${days != null && days > 0 ? ` · in ${days} days` : ""}</span> · ${esc(a.owner)} · ${bdot(a.brand)}${esc(brandNm(a.brand))} · ${esc(a.kind)}${st === "accepted" ? ` · <b>accepted</b>` : ""}</div>
+      <div class="dec-w"><b>Why:</b> ${esc(a.why[0] || "")}</div>
+      <div class="dec-w"><b>If done:</b> ${esc(a.effect)} <span class="muted">· based on ${esc(a.basis)}</span></div></div>
+    <div class="dec-btns"><button class="btn primary" data-show="${a.id}">Show me</button><button class="btn ${st === "accepted" ? "" : "accept"}" data-accept="${a.id}">${st === "accepted" ? "Undo" : "Accept"}</button><button class="btn" data-snooze="${a.id}">Snooze</button></div>
+  </div>`;
+}
+RENDER.hub = el => {
+  const list = decisionList(), shown = list.slice(0, hubState.all ? 15 : 5), ch = changeList();
+  el.innerHTML = header(`<b>Start here.</b> The decisions that matter most right now for <b>${esc(roleName())}</b>, ranked by impact, urgency and confidence, with the deadlines that force them. <b>Show me</b> opens the page with the evidence. Change your role in the top bar.`) + `
+  <div class="grid g-12">
+    <div class="card s-8"><div class="card-h"><h2>Your top decisions</h2>${ib("actions")}<span class="sub">${list.length} open · role: ${esc(roleName())}</span></div>
+      <div class="dec-list">${shown.map(decRow).join("") || `<div class="empty">No open decisions for this role and filter. Try "Everyone" in the role menu.</div>`}</div>
+      ${list.length > 5 ? `<button class="btn" id="dec-more" style="margin-top:10px">${hubState.all ? "Show the top 5 only" : `Show ${Math.min(15, list.length)} decisions`}</button>` : ""}</div>
+    <div class="card s-4"><div class="card-h"><h2>What changed</h2><span class="sub">${seenDate() ? `since ${fmtD(seenDate())}` : "last 30 days"}</span></div>
+      ${changesHtml(ch, 8)}${ch.length ? `<button class="btn" data-seen="1" style="margin-top:10px">Mark all as seen</button>` : ""}</div>
+    <div class="card s-12"><div class="card-h"><h2>Coming up</h2><span class="sub">deadlines that force decisions</span>
+      <span class="right seg" id="dl-days"><button data-v="90" class="${hubState.days === 90 ? "on" : ""}">90 days</button><button data-v="180" class="${hubState.days === 180 ? "on" : ""}">6 months</button></span></div>
+      <div id="dl-strip"></div><div id="dl-list"></div></div>
+    <div class="card s-12"><div class="card-h"><h2>Guided tasks</h2><span class="sub">step-by-step walk-throughs for common jobs</span></div><div class="guide-tiles">${GUIDES.map(guideTile).join("")}</div></div>
+  </div>`;
+  el._changes = ch;
+  const more = document.getElementById("dec-more"); if (more) more.onclick = () => { hubState.all = !hubState.all; render(); };
+  el.querySelectorAll("#dl-days button").forEach(b => b.onclick = () => { hubState.days = +b.dataset.v; render(); });
+  drawDeadlines(deadlines(hubState.days), hubState.days);
+};
+function drawDeadlines(dls, days) {
+  const host = document.getElementById("dl-strip"); if (!host) return;
+  const W = host.clientWidth || 900, H = 64, m = { l: 12, r: 12 };
+  const x = d3.scaleTime().domain([TODAY, new Date(TODAY.getTime() + days * 864e5)]).range([m.l, W - m.r]);
+  const svg = d3.select(host).append("svg").attr("width", W).attr("height", H);
+  svg.append("line").attr("x1", m.l).attr("x2", W - m.r).attr("y1", 30).attr("y2", 30).attr("stroke", "var(--line-strong)");
+  x.ticks(days > 120 ? 6 : 3).forEach(t => { svg.append("line").attr("x1", x(t)).attr("x2", x(t)).attr("y1", 26).attr("y2", 34).attr("stroke", "var(--line-strong)");
+    svg.append("text").attr("x", x(t)).attr("y", 52).attr("text-anchor", "middle").style("font-size", "calc(11px * var(--fs-chart))").text(fmtM(t)); });
+  const lane = {};  // stack dots on the same day
+  dls.forEach(d => { const k = Math.round(x(d.d) / 10); lane[k] = (lane[k] || 0) + 1; const y = 30 - (lane[k] - 1) * 9;
+    svg.append("circle").attr("cx", x(d.d)).attr("cy", y).attr("r", 5).attr("fill", DL_TYPE[d.type][1]).attr("stroke", "var(--surface)").attr("stroke-width", 1.5).style("cursor", "pointer")
+      .on("mousemove", e => showTip(e, `<b>${fmtD(d.d)}</b> · ${DL_TYPE[d.type][0]}<br>${esc(d.label)}${d.est ? "<br><i>estimated date</i>" : ""}`)).on("mouseleave", hideTip).on("click", () => goShow(d.sm)); });
+  const byMonth = d3.groups(dls, d => fmtM(d.d));
+  document.getElementById("dl-list").innerHTML = dls.length ? `<div class="legend" style="margin:4px 0 10px">${Object.entries(DL_TYPE).map(([k, [l, c]]) => `<span><span class="dot" style="background:${c}"></span>${l}</span>`).join("")}</div>
+    <div class="dl-cols">${byMonth.map(([mo, items]) => `<div><div class="eyebrow">${mo}</div><ul class="dl-ul">${items.map(d => `<li><span class="dot" style="background:${DL_TYPE[d.type][1]}"></span><span class="dl-d">${d.d.getDate()}</span> <a href="#" data-dl="${dls.indexOf(d)}">${esc(d.label)}</a>${d.est ? ` <span class="muted small">(estimated)</span>` : ""}</li>`).join("")}</ul></div>`).join("")}</div>`
+    : `<div class="empty">No deadlines in this window.</div>`;
+  document.getElementById("dl-list")._dls = dls;
+}
+// "N of your decisions use this page"
+function pageBanner(el) {
+  if (["hub", "guides", "editor", "data"].includes(state.view)) return;
+  const ds = decisionList().filter(a => showMeFor(a).view === state.view); if (!ds.length) return;
+  const grid = el.querySelector(":scope > .grid"); if (!grid) return;
+  grid.insertAdjacentHTML("beforebegin", `<div class="dec-banner"><b>${ds.length} of your decisions use this page:</b> ${ds.slice(0, 2).map(a => `<a href="#" data-show="${a.id}">${esc(shortTxt(a.title, 70))}</a>`).join(" · ")}${ds.length > 2 ? ` · and ${ds.length - 2} more` : ""} · <a href="#" data-goto="hub">See all decisions</a></div>`);
+}
+function hubAfterRender(el) {
+  pageBanner(el);
+  guideBar(el);
+  updateBell();
+}
+
+// ---- top bar: role, what changed, ask, help
+{
+  const top = document.querySelector("header.top");
+  document.getElementById("f-brand").insertAdjacentHTML("beforebegin", `<label class="role-sel" title="Rank decisions for your job"><span>I'm a</span><select id="f-role">${ROLES.map(([v, l]) => `<option value="${v}" ${v === ROLE ? "selected" : ""}>${l}</option>`).join("")}</select></label>`);
+  document.getElementById("viewbtn").parentElement.insertAdjacentHTML("beforebegin", `
+    <div style="position:relative"><button class="icon-btn tb-btn" id="bell-btn" aria-label="What changed" title="What changed since your last visit"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="bell-n" id="bell-n"></span></button>
+      <div class="viewmenu bell-pop" id="bell-pop"></div></div>
+    <button class="btn ask-btn" id="ask-btn" title="Ask a question about this data"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.4L19 10l-5.2 1.6L12 17l-1.8-5.4L5 10l5.2-1.6z"/></svg>Ask</button>
+    <div style="position:relative"><button class="icon-btn tb-btn" id="help-btn" aria-label="Help" title="Tour and glossary" style="font-weight:700">?</button>
+      <div class="viewmenu" id="help-pop"><div class="row"><button class="btn" id="tour-go">Take the 1-minute tour</button></div><div class="row"><button class="btn" id="gloss-go">Open the glossary</button></div></div></div>`);
+  document.getElementById("f-role").onchange = e => { ROLE = e.target.value; try { localStorage.setItem("ibd-role", ROLE); } catch (er) {} hubState.all = false; render(); };
+  const bell = document.getElementById("bell-btn"), pop = document.getElementById("bell-pop");
+  bell.onclick = e => { e.stopPropagation(); document.getElementById("help-pop").classList.remove("open");
+    const ch = changeList(); pop._ch = ch;
+    pop.innerHTML = `<div class="row" style="margin-bottom:6px"><b>What changed</b><span class="muted small">${seenDate() ? `since ${fmtD(seenDate())}` : "last 30 days"}</span></div>${changesHtml(ch, 8).replace(/data-chg=/g, "data-bchg=")}
+      <div class="row" style="margin:10px 0 0">${ch.length ? `<button class="btn" data-seen="1">Mark all as seen</button>` : ""}<a href="#" data-goto="hub">Open my decisions</a></div>`;
+    pop.classList.toggle("open"); };
+  pop.onclick = e => e.stopPropagation();
+  document.getElementById("help-btn").onclick = e => { e.stopPropagation(); pop.classList.remove("open"); document.getElementById("help-pop").classList.toggle("open"); };
+  document.getElementById("help-pop").onclick = e => e.stopPropagation();
+  document.getElementById("tour-go").onclick = () => { document.getElementById("help-pop").classList.remove("open"); startTour(); };
+  document.getElementById("gloss-go").onclick = () => { document.getElementById("help-pop").classList.remove("open"); openGlossary(); };
+  document.addEventListener("click", () => { pop.classList.remove("open"); document.getElementById("help-pop").classList.remove("open"); });
+}
+function updateBell() { const n = changeList().length, b = document.getElementById("bell-n"); if (b) { b.textContent = n ? (n > 9 ? "9+" : n) : ""; b.style.display = n ? "" : "none"; } }
+
+// shared clicks: Show me, guides, deadlines, changes, seen
+document.addEventListener("click", e => {
+  const t = e.target;
+  const sh = t.closest("[data-show]");
+  if (sh) { e.preventDefault(); e.stopPropagation(); const a = buildActions().find(x => x.id === sh.dataset.show); if (a) goShow(showMeFor(a)); return; }
+  const gd = t.closest("[data-guide]"); if (gd) { e.preventDefault(); startGuide(gd.dataset.guide); return; }
+  const gs = t.closest("[data-gstep]");
+  if (gs) { const k = +gs.dataset.gstep; if (k === 0) { GUIDE = null; render(); } else { GUIDE.step = Math.max(0, GUIDE.step + k); goStep(); } return; }
+  const dl = t.closest("[data-dl]"); if (dl) { e.preventDefault(); const list = document.getElementById("dl-list")._dls || []; goShow(list[+dl.dataset.dl]?.sm); return; }
+  const ch = t.closest("[data-chg]"); if (ch) { e.preventDefault(); goShow(document.getElementById("content")._changes?.[+ch.dataset.chg]?.sm); return; }
+  const bc = t.closest("[data-bchg]"); if (bc) { e.preventDefault(); document.getElementById("bell-pop").classList.remove("open"); goShow(document.getElementById("bell-pop")._ch?.[+bc.dataset.bchg]?.sm); return; }
+  const sn = t.closest("[data-seen]"); if (sn) { e.preventDefault(); markSeen(); document.getElementById("bell-pop").classList.remove("open"); return; }
+  const ask = t.closest("[data-ask]"); if (ask) { e.preventDefault(); askOpen(true); askSend(ask.dataset.ask); return; }
+  const sm = t.closest("[data-sm]"); if (sm) { e.preventDefault(); try { goShow(JSON.parse(sm.dataset.sm)); } catch (er) {} return; }
+}, true);
+
+// ---- glossary
+const GLOSSARY = [
+  ["Evidence gap", "A question the brand needs evidence to answer (for example head-to-head data vs a competitor). In this prototype the gap list is a simulated brand plan."],
+  ["Planned coverage", "How much of a gap the studies in the plan will answer if they succeed (0-100%)."],
+  ["Realised closure", "How much of a gap is already answered by published evidence. A peer-reviewed paper counts fully; congress abstracts count less."],
+  ["Criticality", "How much a gap matters, from 1 to 5: stakeholders, strategic fit, uncertainty, guideline and HTA relevance, urgency."],
+  ["Evidence readiness", "For each strategic imperative, a 0-100 score of how well and how soon its gaps will be closed."],
+  ["Loss of exclusivity (LOE)", "When patents and regulatory protection end and biosimilars or generics can launch."],
+  ["Years of use before LOE", "Time between when a study's result reaches guidelines and payers and the LOE date."],
+  ["Last useful start", "The last month a new study can start and still give at least two years of use before LOE."],
+  ["Evidence debt", "Results already public (topline or congress) that still have no peer-reviewed paper."],
+  ["Share of voice", "Share of congress abstracts or journal papers that name each drug."],
+  ["Head-to-head", "A trial comparing two active drugs directly, rather than each against placebo."],
+  ["HTA", "Health technology assessment: bodies such as NICE, G-BA, HAS and CDA-AMC that judge value for reimbursement."],
+  ["Topline / primary completion", "Topline is the first public headline result; primary completion is when the last patient reaches the primary endpoint."],
+  ["Fact / Calculated / AI-inferred / Simulated", "Labels on every card (Tester view in the simplified version) showing where each number comes from."],
+];
+function openGlossary() { openDrawer("Glossary", "terms used in this dashboard", `<dl class="kv">${GLOSSARY.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>`); }
+
+// ---- first-visit tour
+const TOUR = [
+  ['[data-nav="hub"]', "Start with your decisions", "The decisions that matter most right now, each with an owner, a deadline and the evidence behind it."],
+  ["#f-role", "Pick your role", "Decisions are ranked for your job. Change it any time."],
+  ["#bell-btn", "What changed", "New competitor news, guideline updates and HTA decisions since your last visit."],
+  ["#ask-btn", "Ask a question", "Ask in plain words. The assistant answers from this data and takes you to the right page."],
+  ['[data-nav="guides"]', "Guided tasks", "Step-by-step walk-throughs, such as preparing an evidence plan review."],
+  ["#f-version", "Full or simplified", "Two layouts of the same data. Switch at any time."],
+];
+let tourI = -1;
+function startTour() { tourI = 0; if (state.view !== "hub") { state.view = "hub"; render(); window.scrollTo(0, 0); } setTimeout(tourStep, 200); }
+function endTour() { tourI = -1; document.getElementById("tour")?.remove(); document.querySelectorAll(".tour-hl").forEach(x => x.classList.remove("tour-hl")); try { localStorage.setItem("ibd-toured", "1"); } catch (e) {} }
+function tourStep() {
+  document.querySelectorAll(".tour-hl").forEach(x => x.classList.remove("tour-hl"));
+  if (tourI < 0 || tourI >= TOUR.length) return endTour();
+  const [sel, t, body] = TOUR[tourI], tgt = document.querySelector(sel);
+  if (!tgt || !tgt.offsetParent) { tourI++; return tourStep(); }
+  tgt.classList.add("tour-hl");
+  let box = document.getElementById("tour");
+  if (!box) { box = document.createElement("div"); box.id = "tour"; box.className = "tour"; document.body.appendChild(box); }
+  box.innerHTML = `<div class="eyebrow">${tourI + 1} of ${TOUR.length}</div><b>${esc(t)}</b><p>${esc(body)}</p><div class="tour-b"><button class="btn" id="tour-skip">Skip tour</button><button class="btn primary" id="tour-next">${tourI === TOUR.length - 1 ? "Done" : "Next"}</button></div>`;
+  const r = tgt.getBoundingClientRect(), w = Math.min(300, innerWidth - 24);
+  box.style.width = w + "px";
+  if (tgt.closest(".side") && innerWidth > 760) {  // menu items: beside the menu, not over it
+    box.style.left = (r.right + 14) + "px";
+    box.style.top = Math.max(12, Math.min(innerHeight - box.offsetHeight - 12, r.top - 8)) + "px";
+  } else {
+    box.style.left = Math.max(12, Math.min(innerWidth - w - 12, r.left)) + "px";
+    const below = r.bottom + 10; box.style.top = (below + box.offsetHeight < innerHeight ? below : Math.max(12, r.top - box.offsetHeight - 10)) + "px";
+  }
+  document.getElementById("tour-skip").onclick = endTour;
+  document.getElementById("tour-next").onclick = () => { tourI++; tourStep(); };
+}
+addEventListener("keydown", e => { if (e.key === "Escape" && tourI >= 0) endTour(); });
+
+// ---- assistant panel
+document.body.insertAdjacentHTML("beforeend", `<aside class="ask" id="ask" aria-label="Ask the dashboard">
+  <div class="ask-h"><div><b>Ask the dashboard</b><div class="ask-mode" id="ask-mode">Checking…</div></div><button class="icon-btn" id="ask-x" aria-label="Close">×</button></div>
+  <div class="ask-msgs" id="ask-msgs"></div>
+  <div class="ask-sugg" id="ask-sugg"></div>
+  <form class="ask-f" id="ask-f"><textarea id="ask-in" rows="2" placeholder="What are the top 3 studies we need to do?"></textarea><button class="btn primary" type="submit">Ask</button></form>
+</aside>`);
+const ASK = { ai: null, model: "", turns: [], busy: false };
+const ASK_SUGG = ["What are the top 3 studies we need to do?", "What are the recent competitive data releases?", "What deadlines are coming up?",
+  "What changed since my last visit?", "How do guidelines position TREMFYA?", "When does TREMFYA lose exclusivity?"];
+function askOpen(open) {
+  document.body.classList.toggle("ask-open", open);
+  if (open) { askStatus(); if (!document.getElementById("ask-msgs").children.length) askWelcome(); setTimeout(() => document.getElementById("ask-in").focus(), 150); }
+  setTimeout(() => { if (innerWidth >= 1280) { const y = scrollY; render(); scrollTo(0, y); } }, 220);  // charts redraw at the new width
+}
+function askWelcome() {
+  askMsg("bot", `Ask about decisions, studies, competitors, guidelines, deadlines or publications. I answer from this dashboard's data (as of ${fmtD(TODAY)}) and can take you to the page with the evidence.`);
+  document.getElementById("ask-sugg").innerHTML = ASK_SUGG.map(q => `<button class="chip" data-ask="${esc(q)}">${esc(q)}</button>`).join("");
+}
+async function askStatus() {
+  if (ASK.ai !== null) return;
+  try { const r = await fetch("api/chat/status", { cache: "no-store" }); if (!r.ok) throw 0; const j = await r.json(); ASK.ai = !!j.enabled; ASK.model = j.model || ""; }
+  catch (e) { ASK.ai = false; }
+  document.getElementById("ask-mode").textContent = ASK.ai ? `Claude (${ASK.model}) · answers from this data` : "Built-in answers (no AI connected)";
+}
+function askMsg(who, html) {
+  const box = document.getElementById("ask-msgs");
+  box.insertAdjacentHTML("beforeend", `<div class="am am-${who}">${html}</div>`);
+  box.scrollTop = box.scrollHeight;
+  return box.lastElementChild;
+}
+const smBtn = (sm, label = "Show me") => sm && RENDER[sm.view] ? `<button class="btn primary am-sm" data-sm='${esc(JSON.stringify(sm))}'>${esc(label)}</button>` : "";
+const provNote = k => `<div class="am-prov">${[...k].map(c => pvPill(PV_CODE[c])).join("")}</div>`;
+async function askSend(q) {
+  q = String(q || "").trim(); if (!q || ASK.busy) return;
+  document.getElementById("ask-sugg").innerHTML = "";
+  askMsg("me", esc(q)); ASK.busy = true;
+  const wait = askMsg("bot", `<span class="muted">Looking through the data…</span>`);
+  await askStatus();
+  let out = null;
+  if (ASK.ai) {
+    try { out = await askAI(q); } catch (e) { out = null; wait.insertAdjacentHTML("beforebegin", `<div class="am am-bot muted small">Claude could not answer (${esc(e.message || e)}). Showing a built-in answer instead.</div>`); }
+  }
+  if (!out) out = askBuiltIn(q);
+  wait.innerHTML = out.html + (out.sm ? `<div style="margin-top:8px">${smBtn(out.sm)}</div>` : "");
+  ASK.busy = false;
+  document.getElementById("ask-msgs").scrollTop = 1e9;
+}
+document.getElementById("ask-btn").onclick = () => askOpen(!document.body.classList.contains("ask-open"));
+document.getElementById("ask-x").onclick = () => askOpen(false);
+document.getElementById("ask-f").onsubmit = e => { e.preventDefault(); const i = document.getElementById("ask-in"); const q = i.value; i.value = ""; askSend(q); };
+document.getElementById("ask-in").onkeydown = e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); document.getElementById("ask-f").requestSubmit(); } };
+
+// built-in answers: fixed rules over the same data, no AI
+function askBuiltIn(q) {
+  const s = q.toLowerCase();
+  const li = arr => `<ul>${arr.map(x => `<li>${x}</li>`).join("")}</ul>`;
+  if (/stud(y|ies)|trial/.test(s) && /top|which|what|need|should|start|fund|do\b/.test(s) && !/compet|rival/.test(s)) {
+    const crit = g => g.gap_criticality_score >= 4 ? 1 : 0;  // critical gaps first, then the largest uncovered share
+    const gaps = gapsF().filter(g => g.status !== "closed").sort((a, b) => crit(b) - crit(a) || b.gap_criticality_score * (100 - b.planned_coverage_pct) - a.gap_criticality_score * (100 - a.planned_coverage_pct)).slice(0, 3);
+    const rct = (D.loe_start_by || []).find(r => r.brand_id === "TRE" && r.market === "US" && /rct/i.test(r.archetype));
+    return { html: `<b>The three studies that would close the biggest uncovered gaps:</b>` + li(gaps.map(g => { const [what, owner, time, cost] = routeFor(g);
+      return `<b>${esc(g.title)}</b>: criticality ${g.gap_criticality_score.toFixed(1)}/5, ${g.planned_coverage_pct}% covered by planned studies. Suggested: ${esc(what)} (${esc(owner)}, ${esc(time)}, ${esc(cost)}).`; }))
+      + (rct ? (pd(rct.last_useful_start) < TODAY
+        ? `<div class="small">For TREMFYA, the last useful start for a new Phase 3 trial was <b>${fmtM(pd(rct.last_useful_start))}</b>: a trial started now would give less than two years of use before the US LOE signal. Faster designs (real-world evidence, evidence synthesis) still fit.</div>`
+        : `<div class="small">For TREMFYA, a new Phase 3 trial must start by <b>${fmtM(pd(rct.last_useful_start))}</b> to give two years of use before the US LOE signal.</div>`) : "")
+      + `<div class="small muted">Critical gaps (4 or more out of 5) first, then by criticality × share not yet covered. The gaps and costs are a simulated brand plan.</div>` + provNote("cs"), sm: { view: "strategy", card: "Gap map" } };
+  }
+  if (/compet|rival/.test(s) && /recent|latest|new|release|readout|data|news/.test(s)) {
+    const since = new Date(TODAY.getTime() - 120 * 864e5);
+    const ev = D.competitive_events.filter(e => { const d = pd(e.date); return d && d >= since && d <= TODAY && !["TRE", "ICO", "JNJ4804", "STE"].includes(e.brand_id); }).sort((a, b) => pd(b.date) - pd(a.date));
+    const regs = D.regulatory_events.filter(r => { const d = pd(r.date); return d && d >= since && d <= TODAY && !["TRE", "ICO", "JNJ4804", "STE"].includes(r.brand_id); });
+    const items = [...ev.map(e => `<b>${fmtAny(e.date)}</b> · ${esc(brandNm(e.brand_id))}: ${esc(e.description)} ${srcLinks(e)}`), ...regs.map(r => `<b>${fmtAny(r.date)}</b> · ${esc(brandNm(r.brand_id))}: ${esc(r.agency)} ${esc(r.indication)} ${esc(r.type)}`)];
+    const pubs = (D.publications || []).filter(p => p.kind === "journal" && pd(p.date) >= since && !/TRE|ICO|JNJ/i.test(p.brands_title || "")).length;
+    return { html: `<b>Competitor releases in the last 4 months (to ${fmtD(TODAY)}):</b>` + (items.length ? li(items) : `<div>No competitor events dated in this window.</div>`)
+      + (pubs ? `<div class="small">Also ${pubs} new journal papers on competitor drugs.</div>` : "") + provNote("f"), sm: { view: "competition", card: "Threats to J&J" } };
+  }
+  if (/deadline|due|coming up|next \d*\s*(day|week|month)|calendar|upcoming/.test(s)) {
+    const dl = deadlines(90);
+    return { html: `<b>Next 90 days:</b>` + (dl.length ? li(dl.slice(0, 10).map(d => `<b>${fmtD(d.d)}</b> · ${DL_TYPE[d.type][0]}: ${esc(d.label)}${d.est ? " (estimated)" : ""}`)) : "<div>No deadlines in the next 90 days.</div>"),
+      sm: { view: "hub", card: "Coming up" } };
+  }
+  if (/changed|what'?s new|since (my|the) last|news/.test(s)) {
+    const ch = changeList();
+    return { html: `<b>What changed ${seenDate() ? `since ${fmtD(seenDate())}` : "in the last 30 days"}:</b>` + (ch.length ? li(ch.slice(0, 8).map(c => `<b>${fmtD(c.d)}</b> · ${esc(c.text)}`)) : "<div>Nothing new.</div>"), sm: { view: "hub", card: "What changed" } };
+  }
+  if (/decision|should (i|we)|priorit|action|to do|what now/.test(s)) {
+    const ds = decisionList().slice(0, 5);
+    return { html: `<b>Top decisions for ${esc(roleName())}:</b>` + li(ds.map(a => `<b>${esc(a.title)}</b> · decide by ${esc(a.due)} · ${esc(a.owner)}`)) + `<div class="small muted">Ranked by impact × urgency × confidence.</div>`, sm: { view: "hub", card: "Your top decisions" } };
+  }
+  const sumAns = (view, card, title) => { let p; try { p = SX_SUMMARY[view](); } catch (e) { return null; } return { html: `<b>${esc(title || p.q)}</b>` + li(p.pts.filter(Boolean)) + provNote(p.k), sm: { view, card } }; };
+  if (/guideline|ecco|acg|aga|bsg/.test(s)) return sumAns("access", "What the guidelines say", "Guidelines and HTA");
+  if (/\bhta\b|nice|g-ba|gba|\bhas\b|cda|payer|reimburs/.test(s)) {
+    return { html: `<b>HTA decisions for TREMFYA:</b>` + li(D.hta_decisions.map(h => `<b>${esc(h.body)}</b> ${esc(h.indication)}: ${esc(h.decision)} (${fmtAny(h.decision_date)})`)) + provNote("f"), sm: { view: "access", card: "HTA status" } };
+  }
+  if (/\bloe\b|exclusiv|patent|biosimilar/.test(s)) return sumAns("lifecycle", "Exclusivity horizon", "Loss of exclusivity");
+  if (/chatgpt|claude|ai assistant|llm/.test(s)) return sumAns(SIMPLE ? "assistants" : "dissemination", "Drugs named in unbranded answers");
+  if (/share of voice|congress|publication|abstract|journal|oral/.test(s)) return sumAns("publications", "Share of voice by congress");
+  if (/footprint|countr|site|geograph|where.*trial/.test(s)) return sumAns("world", "Footprint by asset");
+  if (/scenario|what if|fail|slip/.test(s)) return sumAns("scenarios", "Scenario levers");
+  if (/field|msl/.test(s)) return sumAns("field", "What the field is telling us");
+  if (/gap/.test(s)) return sumAns("strategy", "Gap map");
+  if (/budget|cost|invest|fund/.test(s)) return sumAns("investment", "Committed by funder");
+  const hit = askSearch(q)[0];
+  if (hit) return { html: `<b>${esc(hit.label)}</b><div class="small">${esc(hit.kind)}${hit.detail ? ` · ${esc(hit.detail)}` : ""}</div>`, sm: hit.sm };
+  return { html: `I can answer questions about decisions, studies, competitors, guidelines and HTA, loss of exclusivity, deadlines, publications and AI assistants. Try one of these:`
+    + `<div class="ask-sugg" style="padding:6px 0 0">${ASK_SUGG.slice(0, 4).map(x => `<button class="chip" data-ask="${esc(x)}">${esc(x)}</button>`).join("")}</div>` };
+}
+function askSearch(text) {
+  const t = String(text || "").toLowerCase().replace(/[?.!]/g, " ").split(/\s+/).filter(w => w.length > 2 && !/^(the|what|which|when|where|does|about|show|tell|with|for|and|our)$/.test(w));
+  if (!t.length) return [];
+  const score = str => { const s = String(str || "").toLowerCase(); return t.reduce((n, w) => n + (s.includes(w) ? 1 : 0), 0); };
+  const out = [];
+  for (const s of D.studies) out.push({ n: score(`${s.acronym} ${s.title} ${s.study_id}`) * (s.acronym && t.includes(String(s.acronym).toLowerCase()) ? 3 : 1), kind: "J&J study", label: `${s.acronym || s.study_id}: ${s.title}`, detail: `${s.status}, primary completion ${s.primary_completion_date || "—"}`, sm: { view: "studies", card: "Evidence timeline", open: s.study_id }, id: s.study_id });
+  for (const c of D.competitor_studies) out.push({ n: score(`${c.acronym} ${c.title} ${c.study_id} ${brandNm(c.brand_id)}`), kind: `Competitor trial (${brandNm(c.brand_id)})`, label: `${c.acronym || c.study_id}: ${c.title}`, detail: `${c.status}, readout ${c.expected_readout || "—"}`, sm: { view: "competition", card: "Competitor pipeline", open: c.study_id }, id: c.study_id });
+  for (const g of D.evidence_gaps) out.push({ n: score(`${g.title} ${g.gap_id}`), kind: "Evidence gap (simulated plan)", label: g.title, detail: `criticality ${g.gap_criticality_score.toFixed(1)}/5, ${g.planned_coverage_pct}% covered`, sm: { view: "strategy", card: "Gap map", open: g.gap_id }, id: g.gap_id });
+  for (const b of D.brands) out.push({ n: score(`${b.brand_name} ${b.inn} ${b.company}`) * 2, kind: `Brand (${b.company})`, label: `${b.brand_name} (${b.inn})`, detail: b.lifecycle_stage, sm: { view: "competition", card: "Profile vs competitor" }, id: b.brand_id });
+  return out.filter(o => o.n > 0).sort((a, b) => b.n - a.n).slice(0, 5);
+}
+
+// Claude mode: tools run here in the browser, on the dashboard's data; the server only relays the conversation
+const ASK_TABLES = Object.keys(D).filter(k => Array.isArray(D[k]) && D[k].length && typeof D[k][0] === "object" && !Array.isArray(D[k][0]));
+const askTools = () => [
+  { name: "get_decisions", description: "Top open decisions for the user's role, ranked by impact x urgency x confidence, with owner, deadline, reason, expected effect and basis. Use for priorities, 'what should we do', top studies to run.", input_schema: { type: "object", properties: { limit: { type: "integer" } } } },
+  { name: "get_deadlines", description: "Upcoming deadlines: decision due dates, congress abstract deadlines, J&J and competitor readouts, competitor regulatory events, guideline evidence cut-offs (estimated) and the last useful start for a new study before loss of exclusivity.", input_schema: { type: "object", properties: { days: { type: "integer", description: "look-ahead window in days, default 90" } } } },
+  { name: "get_changes", description: "What changed recently: signals, new journal papers, guideline versions, HTA decisions and regulatory events.", input_schema: { type: "object", properties: {} } },
+  { name: "get_page_summary", description: "The short computed summary shown at the top of a dashboard page.", input_schema: { type: "object", properties: { page: { type: "string", enum: Object.keys(SX_SUMMARY) } }, required: ["page"] } },
+  { name: "search", description: "Find J&J studies, competitor trials, evidence gaps and brands by name or keyword.", input_schema: { type: "object", properties: { text: { type: "string" } }, required: ["text"] } },
+  { name: "query_table", description: "Read rows from a dashboard table. Each row has _origin (public_verified, public_unverified, derived, simulated, ai_inferred, mixed, reference) plus lists of simulated and AI-inferred fields.", input_schema: { type: "object", properties: { table: { type: "string", enum: ASK_TABLES }, contains: { type: "string", description: "keep rows whose text contains this, case-insensitive" }, limit: { type: "integer" } }, required: ["table"] } },
+  { name: "show_me", description: "Move the dashboard to a page, highlight a card and optionally open an item, so the user sees the evidence. Use once, after you have the answer.", input_schema: { type: "object", properties: { page: { type: "string", enum: VIEWS.map(v => v[0]) }, card: { type: "string", description: "start of a card title to highlight" }, item_id: { type: "string", description: "gap, study, event or imperative id to open" } }, required: ["page"] } },
+];
+function compactRow(r) {
+  const o = {};
+  for (const [k, v] of Object.entries(r)) { if (k.startsWith("_")) continue; o[k] = typeof v === "string" && v.length > 300 ? v.slice(0, 300) + "…" : v; }
+  o._origin = r._o; if ((r._sim || []).length) o._simulated_fields = r._sim; if ((r._ai || []).length) o._ai_inferred_fields = r._ai;
+  return o;
+}
+let askLastShow = null;
+function runTool(name, inp) {
+  inp = inp || {};
+  if (name === "get_decisions") return decisionList().slice(0, Math.min(inp.limit || 5, 15)).map(a => ({ title: a.title, decide_by: a.due, owner: a.owner, kind: a.kind, brand: brandNm(a.brand), why: a.why.slice(0, 3), if_done: a.effect, basis: a.basis, score: a.score, page: showMeFor(a).view }));
+  if (name === "get_deadlines") return deadlines(Math.min(inp.days || 90, 400)).map(d => ({ date: isoDay(d.d), type: DL_TYPE[d.type][0], what: d.label, estimated: !!d.est, page: d.sm?.view }));
+  if (name === "get_changes") return changeList().map(c => ({ date: isoDay(c.d), type: c.type, what: c.text }));
+  if (name === "get_page_summary") { try { const p = SX_SUMMARY[inp.page](); return { question: p.q, points: p.pts.filter(Boolean).map(stripHtml), provenance: [...p.k].map(c => PV_KIND[PV_CODE[c]].label) }; } catch (e) { return { error: "no summary for this page" }; } }
+  if (name === "search") return askSearch(inp.text).map(h => ({ id: h.id, kind: h.kind, name: h.label, detail: h.detail, page: h.sm.view }));
+  if (name === "query_table") {
+    const rows = D[inp.table]; if (!Array.isArray(rows)) return { error: "unknown table" };
+    const c = String(inp.contains || "").toLowerCase();
+    const hit = c ? rows.filter(r => JSON.stringify(r).toLowerCase().includes(c)) : rows;
+    return { total_matching: hit.length, rows: hit.slice(0, Math.min(inp.limit || 15, 40)).map(compactRow) };
+  }
+  if (name === "show_me") { askLastShow = { view: inp.page, card: inp.card, open: inp.item_id }; goShow(askLastShow); return { done: true }; }
+  return { error: "unknown tool" };
+}
+const askSystem = () => `You are the assistant inside the IBD Evidence Intelligence dashboard, a prototype for J&J medical affairs (TREMFYA, icotrokinra, JNJ-4804 in ulcerative colitis and Crohn's disease, against competitors). Data as of ${fmtD(TODAY)}. Current filters: brand ${state.brand}, disease ${state.ind}. The user's role: ${roleName()}. The user is on the page "${state.view}".
+Rules:
+- Answer only from the dashboard data, using the tools. If the data doesn't contain the answer, say so plainly.
+- Be short: one-sentence answer first, then at most 5 bullets. Plain words; when you name an internal id (GAP-01, NCT number) also give its name.
+- Say when figures are simulated or AI-inferred (rows carry _origin and simulated/AI-inferred field lists). The brand plan (imperatives, gaps, budgets), field insights and market shares are simulated.
+- No promotional or efficacy claims beyond what the data states. Never invent studies, dates or numbers.
+- When a page shows the evidence, call show_me once at the end.`;
+function mdLite(t) {
+  const lines = esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").split(/\n/);
+  let html = "", inList = false;
+  for (const l of lines) {
+    const m = l.match(/^\s*[-*•]\s+(.*)/);
+    if (m) { if (!inList) { html += "<ul>"; inList = true; } html += `<li>${m[1]}</li>`; }
+    else { if (inList) { html += "</ul>"; inList = false; } if (l.trim()) html += `<p>${l}</p>`; }
+  }
+  return html + (inList ? "</ul>" : "");
+}
+async function askAI(q) {
+  askLastShow = null;
+  const msgs = [...ASK.turns.slice(-6), { role: "user", content: q }];
+  for (let i = 0; i < 6; i++) {
+    const r = await fetch("api/chat", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ system: askSystem(), messages: msgs, tools: askTools(), max_tokens: 1500 }) });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.error || `server returned ${r.status}`);
+    msgs.push({ role: "assistant", content: j.content });
+    const uses = (j.content || []).filter(c => c.type === "tool_use");
+    if (!uses.length || j.stop_reason !== "tool_use") {
+      const text = (j.content || []).filter(c => c.type === "text").map(c => c.text).join("\n").trim();
+      ASK.turns.push({ role: "user", content: q }, { role: "assistant", content: text || "(no answer)" });
+      return { html: mdLite(text || "I couldn't find an answer in the data."), sm: null };
+    }
+    msgs.push({ role: "user", content: uses.map(u => { let res; try { res = runTool(u.name, u.input); } catch (e) { res = { error: String(e.message || e) }; }
+      return { type: "tool_result", tool_use_id: u.id, content: JSON.stringify(res).slice(0, 12000) }; }) });
+  }
+  throw new Error("too many steps");
+}
+
+// first visit: short tour (once per browser)
+setTimeout(() => { let seen = "1"; try { seen = localStorage.getItem("ibd-toured"); } catch (e) {} if (!seen) startTour(); }, 1200);
 
 try { const t = localStorage.getItem("ibd-theme"); if (t) document.documentElement.dataset.theme = t; const v = localStorage.getItem("ibd-view"); if (v && RENDER[v]) state.view = v; } catch (e) {}
 const hashView = location.hash.slice(1);
