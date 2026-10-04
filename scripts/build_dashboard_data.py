@@ -48,10 +48,10 @@ def main():
     for t in TABLES:
         f = SRC / f"{t}.json"
         data[t] = [slim(r) for r in json.loads(f.read_text())["rows"]] if f.exists() else []
-        if t in ("publications", "sov_congress", "sov_journal", "sov_analysis"):  # provenance is uniform: keep origin only
+        if t in ("publications", "sov_congress", "sov_journal", "sov_analysis"):  # retain field provenance, including manual and simulated edits
             keep = {"pub_id", "doi", "pmid", "title", "abstract_code", "kind", "series", "venue", "journal", "year", "date", "presentation_type",
                     "analysis_type", "brands_title", "industry_affiliation", "affiliation_known", "url", "venue", "brand_id", "n", "n_orals",
-                    "share_pct", "analysis_type", "_o", "_key", "_man", "company", "linked_study_ids", "linked_gap_ids"}
+                    "share_pct", "analysis_type", "_o", "_key", "_man", "_sim", "_der", "_unv", "_ai", "_src", "company", "linked_study_ids", "linked_gap_ids"}
             data[t] = [{k: v for k, v in r.items() if k in keep} for r in data[t]]
     sites = json.loads((SRC / "study_country_sites.json").read_text())["rows"]
     data["sites"] = [[r["study_id"], r["geo_id"], r["n_sites_registry"]] for r in sites]
@@ -66,6 +66,8 @@ def main():
     if html.exists():
         html.write_text(re.sub(r'src="data\.js(\?v=\d+)?"', f'src="data.js?v={int(time.time())}"', html.read_text()))
     print(f"{OUT} {OUT.stat().st_size/1024:.0f} KB")
+    from build_simple import main as build_simple
+    build_simple()
 
 
 if __name__ == "__main__":

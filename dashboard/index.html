@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-<script src="data.js?v=1791049065"></script>
+<script src="data.js?v=1791141280"></script>
 <script src="api/overrides.js"></script>
 <style>
 :root {
@@ -391,7 +391,7 @@ body.present .brand { justify-content: center; padding: 4px 0 18px; }
 body.present .nav-btn { justify-content: center; padding: 11px 0; }
 body.present .nav-btn svg { width: 22px; height: 22px; }
 body.present .content { max-width: none; }
-body.present .top .asof { display: none; }
+body.present .top .asof { display: block; }
 .viewmenu { position: absolute; top: calc(100% + 6px); right: 0; z-index: 40; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); padding: 14px; width: 300px; display: none; }
 .viewmenu.open { display: block; }
 .viewmenu .row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; font-size: calc(13px * var(--fs)); }
@@ -419,7 +419,7 @@ body.present .top .asof { display: none; }
   </aside>
   <div class="main">
     <header class="top">
-      <div><h1 id="view-title">Command Center</h1><div class="asof">Data as of 19 Sep 2026 · registry + public sources + simulated inputs</div></div>
+      <div><h1 id="view-title">Command Center</h1><div class="asof">Snapshot: 19 Sep 2026 · dates and countdowns use this snapshot · mixed public / simulated data</div></div>
       <div class="spacer"></div>
       <div class="seg" id="f-brand"></div>
       <div class="seg" id="f-ind"></div>
@@ -469,7 +469,11 @@ function applyOverrides(ops) {
   return changed;
 }
 const PENDING_REBUILD = applyOverrides(window.IBD_OVR || []);
-const TODAY = new Date(2026, 8, 19);
+// All planning calculations use the dataset snapshot, not the browser clock.
+const SNAPSHOT_DATE = D.manifest.snapshot_date || D.manifest.built;
+const TODAY = new Date(SNAPSHOT_DATE + "T12:00:00");
+const snapshotLabel = () => TODAY.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+document.querySelector(".asof").textContent = `Snapshot: ${snapshotLabel()} · dates and countdowns use this snapshot · mixed public / simulated data`;
 const JNJ = ["TRE", "ICO", "JNJ4804"];
 const BRAND_LABEL = { TRE: "TREMFYA", ICO: "Icotrokinra", JNJ4804: "JNJ-4804" };
 const state = { view: "hub", brand: "ALL", ind: "ALL", prov: false };
@@ -525,7 +529,7 @@ const brandColor = b => `var(--${({ TRE: "tre", ICO: "ico", JNJ4804: "jnj4804" }
 const firstBrand = s => String(s || "").split(";")[0].trim();
 const bdot = b => `<span class="dot" style="background:${brandColor(b)}"></span>`;
 const statusBadge = rag => {
-  const m = { green: ["st-green", "✓", "On track"], amber: ["st-amber", "!", "At risk"], red: ["st-red", "✕", "Off track"] }[rag] || ["st-grey", "–", "No data"];
+  const m = { green: ["st-green", "✓", "Readiness: strong"], amber: ["st-amber", "!", "Readiness: partial"], red: ["st-red", "✕", "Readiness: limited"] }[rag] || ["st-grey", "–", "No data"];
   return `<span class="status ${m[0]}"><i>${m[1]}</i>${m[2]}</span>`;
 };
 const simChip = (label = "simulated") => `<span class="chip sim">${label}</span>`;
@@ -678,7 +682,7 @@ function buildActions() {
       title: `Prepare for ${c.acronym || c.study_id} (${(IX.brand[c.brand_id]?.brand_name || c.brand_id).split(" (")[0]}) readout ~${fmtM(r)} — build reactive scientific-exchange pack and brief MSLs`,
       why: [`${c.title}`, `Expected readout ${fmtM(r)} (${c.readout_confidence} confidence, ${c.pcd_date_type || "public"} date)`,
         lead != null ? `Lands ~${lead} months before J&J expects to close ${gid} (${fmtM(jc)})` : `J&J has no dated closure for ${gid}`],
-      cites: [c.study_id, gid], effect: "Protects share of voice; field ready on day 1", owner: "Medical Affairs + Field Medical",
+      cites: [c.study_id, gid], effect: "Supports timely scientific exchange; effect depends on execution", owner: "Medical Affairs + Field Medical",
       due: fmtM(new Date(r.getFullYear(), r.getMonth() - 2, 1)), cost: "<$50K",
       impact: Math.round(g.gap_criticality_score), urgency: monthsFrom(r) < 9 ? 5 : monthsFrom(r) < 18 ? 4 : 3, conf: c.readout_confidence === "confirmed" ? 0.9 : 0.7,
       basis: "registry dates (public) + gap mapping (simulated)" });
@@ -692,7 +696,7 @@ function buildActions() {
       why: [d.real ? `${d.n} congress abstract${d.n > 1 ? "s" : ""} since ${fmtM(d.since)}, no peer-reviewed trial paper found in PubMed/Crossref (as of build date)` : `First public ${d.topline ? "topline" : "presentation"} ${fmtM(d.since)} — ${d.months} months without a primary manuscript`,
         pl ? `Planned manuscript: ${pl.title} (${pl.status}, target ${fmtM(pd(pl.planned_date))})` : "No manuscript in the plan",
         "Congress-only data carries ~0.6 gap-closure weight vs 1.0 for a peer-reviewed primary manuscript"],
-      cites: [d.sid, ...(pl ? [pl.output_id] : [])], effect: "Realised gap closure up; guideline/HTA-citable", owner: "Publications",
+      cites: [d.sid, ...(pl ? [pl.output_id] : [])], effect: "Makes evidence available for review; gap resolution and guideline/HTA use need assessment", owner: "Publications",
       due: pl ? fmtM(pd(pl.planned_date)) : "next 3 months", cost: "<$0.1M", impact: 4, urgency: d.months >= 9 ? 5 : 4, conf: 0.85,
       basis: "public outputs + simulated plan" });
   }
@@ -819,7 +823,7 @@ function briefing() {
   if (opp) items.push(`<b>Opportunity:</b> ${esc(IX.brand[opp.brand_id].brand_name)} — ${esc(opp.description)}. J&J evidence: ${esc(opp.jnj_evidence_refs || "—")}; window ${esc(opp.exploitation_window)}.`);
   const aiP = id => (D.ai_insights || []).find(x => x.insight_id === id);
   for (const id of ["AI-P01", "AI-P02"]) { const x = aiP(id); if (x) items.push(`<b>${esc(x.headline)}.</b> ${esc(x.body.split(". ")[0])}. <span class="chip link" data-goto="publications">evidence</span>`); }
-  items.push(`<b>Next 6 months:</b> ${upcoming.length} competitor events on the calendar and ${evidenceDebt().length} J&J result sets still without a peer-reviewed primary paper.`);
+  items.push(`<b>Next 6 months:</b> ${upcoming.length} competitor events on the calendar and ${evidenceDebt().length} J&J result sets with no matching trial paper identified in this dataset.`);
   return items;
 }
 
@@ -839,25 +843,25 @@ const METHODS = {
     src: "Titles of the congress abstracts and journal publications above.",
     calc: "Keyword rules on the title assign one analysis type per publication (e.g. 'real-world', 'retrospective', 'cohort' → real-world; 'network meta-analysis' → NMA; 'interim' in a trial title → interim).",
     lim: "Approximate: titles can mislead (e.g. a multi-omics study with a real-world cohort is labelled real-world). Check individual items in the Publication explorer.", prov: "Public data, derived by rules" },
-  orals: { t: "Oral podium", what: "Full oral presentations at the four major congresses, and the share of each drug's abstracts selected as orals.",
+  orals: { t: "Oral podium", what: "Full oral presentations at the four major congresses, and the observed proportion of retrieved abstracts identified as full orals.",
     src: "ECCO: OP codes in the abstract supplement (digital orals, DOP, excluded). DDW: numbered oral abstracts (poster sessions excluded). UEG Week: items listed as 'presentation' in Gutflix. ACG: official oral programme incl. late-breakers.",
-    calc: "Oral rate = full orals ÷ all abstracts naming the drug, over three years. Real-world orals = orals whose title is classified as real-world evidence.",
+    calc: "Observed oral proportion = identified full orals ÷ retrieved abstracts naming the drug, over the recorded three-year window. Late-breaking full orals are included; digital orals are separate. This is not a submission acceptance rate. Real-world orals = orals whose title is classified as real-world evidence.",
     lim: "Title-based drug matching; an oral naming several drugs counts for each (e.g. one upadacitinib comparison including guselkumab). Does not say who ran or funded the study.", prov: "Public data, derived" },
   ladder: { t: "Evidence ladder", what: "Which outputs each study has produced, from trial-in-progress poster to long-term extension.",
     src: "Registry milestones, the planned-output list (simulated) and real publications linked to the study by trial name in the title.",
     calc: "A rung is filled when a matching presentation or paper is on record, outlined when an output is planned, empty otherwise. Each rung has a weight toward closing an evidence gap (primary paper 1.0, primary congress 0.6, topline 0.3, interim 0.3–0.5, baseline and trial-in-progress 0).",
     lim: "Rungs, timings and weights are the prototype's reference configuration, to be replaced with J&J publication planning standards. Matching by title is approximate.", prov: "Mixed: public publications; planned outputs simulated" },
-  debt: { t: "Evidence debt", what: "J&J trials with congress results but no peer-reviewed trial paper yet.",
+  debt: { t: "Evidence debt", what: "J&J trials with congress records but no matching trial paper identified in this dataset; verify with the publications owner.",
     src: "Real publications linked to J&J studies by trial name in the title.",
     calc: "A J&J-sponsored study counts when it has at least one congress abstract and no journal publication of a trial analysis (primary/secondary, subgroup, post-hoc, pooled, long-term extension).",
     lim: "Depends on the trial name appearing in the title; a paper that doesn't name the trial is missed.", prov: "Public data, derived" },
   readiness: { t: "Evidence readiness index", what: "How ready each strategic imperative's evidence is by the date it is needed (0–100).",
     src: "Imperatives, gaps and their scores are simulated; study dates come from the registry.",
-    calc: "Readiness = Σ (gap criticality × planned coverage × timeliness) ÷ Σ gap criticality, over the imperative's gaps, × 100. Timeliness = 1 if the gap is expected to close by the imperative's required date, falling linearly to 0 at 24 months late. Status: ≥70 on track, 45–69 at risk, <45 off track.",
+    calc: "Readiness = Σ (gap criticality × planned coverage × timeliness) ÷ Σ gap criticality, over the imperative's gaps, × 100. Timeliness = 1 if the gap is expected to close by the imperative's required date, falling linearly to 0 at 24 months late. Readiness bands: ≥70 strong, 45–69 partial, <45 limited. This weighted planning score is separate from the Evidence Chain delivery-risk check, which flags individual late studies.",
     lim: "Only as good as the gap list and scores, which are simulated in the prototype.", prov: "Derived from simulated inputs" },
   gaps: { t: "Evidence gaps: criticality, coverage, closure", what: "How important each evidence gap is, how well planned studies cover it, and how much is already closed by published evidence.",
     src: "Gap list and scores simulated (replace with the brand plan). Studies from the registry; publications public.",
-    calc: "Criticality (1–5) = 0.25 × stakeholder importance + 0.25 × imperative alignment + 0.15 × uncertainty + 0.15 × HTA/guideline relevance + 0.20 × urgency, +1 if a competitor already has evidence (max 5). Planned coverage = 1 − Π(1 − fit × probability of success) over closing studies, combined with published evidence: 1 − (1 − study coverage) × (1 − published closure, max 0.9). Fit = analyst mapping, capped by what the study's registered endpoints can answer. Realised closure = published and presented outputs × their ladder weights. Orphan gap = no running or planned study.",
+    calc: "Criticality (1–5) = 0.25 × stakeholder importance + 0.25 × imperative alignment + 0.15 × uncertainty + 0.15 × HTA/guideline relevance + 0.20 × urgency, +1 if a competitor already has evidence (max 5). Planned coverage = 1 − Π(1 − fit × probability of success) over closing studies, combined with published evidence: 1 − (1 − study coverage) × (1 − published closure, max 0.9). Fit = analyst mapping, capped by what the study's registered endpoints can answer. Modelled closure = published and presented outputs × prototype weights; it requires scientific validation and is not proof of gap resolution. Orphan gap = no running or planned study.",
     lim: "Gap scores and analyst fits are simulated; probability of success is a benchmark by phase unless the study has read out.", prov: "Derived; key inputs simulated" },
   threats: { t: "Threat to J&J (index 0–100)", what: "How much a competitor event threatens a J&J brand.",
     src: "Competitor event dates from public sources; the impact inputs are AI-inferred (simulated).",
@@ -905,7 +909,7 @@ const METHODS = {
     lim: "Registry locations may be incomplete or out of date; no patient numbers by country and no investigator names.", prov: "Public data, derived" },
   chain: { t: "Evidence chain", what: "How each strategic imperative connects to its evidence gaps, the studies that close them, and when their impact arrives compared with when the imperative needs it.",
     src: "Imperatives, key questions, gaps and desired impact: simulated brand plan. Studies, dates and status: ClinicalTrials.gov and J&J sources. Study-to-gap fit: analyst mapping (simulated).",
-    calc: "Gaps belong to an imperative through their key question. A study counts for a gap when its fit is above 0. Expected impact = when results reach guidelines and payers: readout + time to paper + 18 months for the guideline/HTA cycle (the Lifecycle & LOE model). A study is late when that date is after the imperative's need-by date; a published paper counts as delivered. Status: off track if a gap has no study or a well-fitting study (fit 50% or more) is late; at risk if a gap is under 60% covered or any study is late.",
+    calc: "Gaps belong to an imperative through their key question. A study counts for a gap when its fit is above 0. Expected impact = when results reach guidelines and payers: readout + time to paper + 18 months for the guideline/HTA cycle (the Lifecycle & LOE model). A study is late when that date is after the imperative's need-by date; a published paper counts as delivered. Delivery at risk: no study or a study with fit ≥50% is late. Review needed: coverage below 60%, other delays, missing dates or an empty chain. Counts use unique studies per imperative, taking the worst link status for a study mapped to multiple gaps. Unknown dates remain in the denominator; extra studies on modelled-closed gaps are excluded. Planning readiness is a separate weighted score.",
     lim: "Fit scores and the imperative list are simulated placeholders for the real brand plan. Impact timing uses reference lags, not study-specific publication plans.",
     prov: "Derived from public study dates and simulated plan inputs" },
   glpos: { t: "What the guidelines say", what: "How each main US, European and UK guideline positions TREMFYA and its competitors: strength of recommendation, efficacy tier by line of therapy, head-to-head preferences, perianal disease and route of induction.",
@@ -981,10 +985,10 @@ const PV_CODE = { f: "fact", c: "calc", a: "ai", s: "sim" };
 const pvPill = (k, note) => `<span class="pv pv-${k}" data-pv="${k}"${note ? ` data-pvnote="${esc(note)}"` : ""}><i>${PV_KIND[k].g}</i><span>${PV_KIND[k].label}</span></span>`;
 // card title (prefix) -> kinds it contains + which part is which. Value classes found inside a card are added automatically.
 const CARD_PV = {
-  "What matters this week": ["fcas", "Each line quotes a source: AI insights (calculated figures, AI-written interpretation), the simulated brand plan (imperatives, gaps) or public competitor events."],
+  "Snapshot briefing": ["fcas", "Each line quotes a source: AI insights (calculated figures, AI-written interpretation), the simulated brand plan (imperatives, gaps) or public competitor events."],
   "Ranked by impact": ["cas", "Recommendations are simulated examples of what the engine would propose; their scores are calculated from simulated gaps and AI-estimated probabilities."],
   "Imperative readiness": ["cs", "Imperatives are a simulated brand plan; readiness is calculated from gap coverage and study progress."],
-  "What changed": ["fcs", "Signals come from public events and registry changes; materiality scores are simulated."],
+  "Recent recorded events": ["fcs", "Signals come from public events and registry changes; materiality scores are simulated."],
   "Readout race": ["fc", "Completion dates from ClinicalTrials.gov; readout dates are calculated from them."],
   "Strategic imperatives": ["cs", "A simulated brand plan; readiness is calculated."],
   "Gap map": ["cs", "Evidence gaps and their criticality inputs are a simulated brand plan; coverage is calculated from the studies mapped to each gap."],
@@ -1048,12 +1052,12 @@ const CARD_PV = {
   // KPI tiles
   "Evidence readiness": ["cs"], "Critical gaps open": ["s"], "Readouts · next 12 mo": ["fc"], "Evidence investment": ["s"],
   "TREMFYA LOE": ["fcs", "US from J&J's 10-K patent disclosure; EU is a placeholder."], "TREMFYA studies with": ["fca"], "Tight: 1–3 years": ["fca"], "New TREMFYA study started today": ["fca"],
-  "Avg readiness": ["cs"], "Imperatives off track": ["cs"], "Critical, under-covered gaps": ["cs"], "Total threat index": ["cs"],
+  "Avg readiness": ["cs"], "Low scenario readiness": ["cs"], "Critical, under-covered gaps": ["cs"], "Combined threat points": ["cs"],
   "Committed": ["s"], "Spent to date": ["s"], "Forecast overrun": ["s"], "Funded studies": ["s"],
   "TREMFYA sales": ["f"], "IL-23 UC induction share": ["f"], "STELARA Q2": ["f"], "SKYRIZI 2026 guidance": ["f"],
   "If SKYRIZI SC induction is approved": ["fca", "Label facts and filing dates are public; the comparison is by rule; the reading is AI-written."],
   "ChatGPT": ["fca", "Mention rates counted from observed answers; accuracy checks and issues are AI-scored."], "Claude": ["fca", "Mention rates counted from observed answers; accuracy checks and issues are AI-scored."],
-  "Publications found": ["fc"], "J&J items": ["fc"], "J&J congress share of voice": ["fc"], "J&J share of oral slots": ["fc"],
+  "Publications found": ["fc"], "J&J items": ["fc"], "J&J congress share of voice": ["fc"], "J&J share of oral mentions": ["fc"],
   "Field mentions (180 days)": ["cs"], "Negative sentiment": ["cs"], "Most-heard gap": ["cs"], "Themes": ["cs"],
   "What still needs checking": ["c", "Counted from the provenance tag on every value."],
   "Provenance by table": ["c", "Share of cells per provenance tag, counted by the build script."],
@@ -1138,7 +1142,7 @@ RENDER.command = el => {
   el.innerHTML = header() + `
   <div class="grid g-12">
     <div class="card ai s-7 sim-card">
-      <div class="card-h"><span class="ai-tag"><svg viewBox="0 0 24 24"><path d="M12 2l2.2 6.8L21 11l-6.8 2.2L12 20l-2.2-6.8L3 11l6.8-2.2z"/></svg>AI BRIEFING</span><h2>What matters this week</h2><span class="sub">generated from the dataset · cites its evidence</span></div>
+      <div class="card-h"><span class="ai-tag"><svg viewBox="0 0 24 24"><path d="M12 2l2.2 6.8L21 11l-6.8 2.2L12 20l-2.2-6.8L3 11l6.8-2.2z"/></svg>AI BRIEFING</span><h2>Snapshot briefing</h2><span class="sub">generated from the dataset · cites its evidence</span></div>
       <ul>${briefing().map((t, i) => `<li><span class="n">${i + 1}</span><span>${t}</span></li>`).join("")}</ul>
     </div>
     <div class="s-5 grid" style="grid-template-columns:1fr 1fr;gap:16px">
@@ -1155,7 +1159,7 @@ RENDER.command = el => {
     </div>
     <div class="s-5 grid" style="gap:16px;align-content:start">
       <div class="card"><div class="card-h"><h2>Imperative readiness</h2>${ib("readiness")}<span class="sub">ERI = critical gaps × coverage × timeliness</span></div><div id="si-bars"></div></div>
-      <div class="card"><div class="card-h"><h2>What changed</h2><span class="sub">latest signals</span></div><div id="signals"></div></div>
+      <div class="card"><div class="card-h"><h2>Recent recorded events</h2><span class="sub">latest signals</span></div><div id="signals"></div></div>
     </div>
     <div class="card s-12">
       <div class="card-h"><h2>Readout race · next 30 months</h2>${ib("race")}<span class="sub">J&J evidence milestones vs competitor readouts and decisions</span>
@@ -1234,18 +1238,18 @@ RENDER.strategy = el => {
   const gaps = gapsF();
   el.innerHTML = header(`<b>How to read this:</b> each imperative is scored on how well its evidence gaps will be closed, and how soon. Bubbles in the <b>top-left</b> of the gap map are critical but poorly covered: act on these first. <b>Patient-segment coverage</b> counts studies per patient segment; empty cells in rows with critical gaps are white space. Click anything for detail.`) + `
   <div class="grid g-12">
-    <div class="card s-12 sim-card"><div class="card-h"><h2>Strategic imperatives</h2>${ib("readiness")}<span class="sub">simulated brand plan · ERI derived from gaps & studies</span></div>
+    <div class="card s-12 sim-card"><div class="card-h"><h2>Strategic imperatives</h2>${ib("readiness")}<span class="sub">simulated plan · readiness averages across gaps; delivery risk flags individual late or missing evidence</span></div>
       <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px">${sis.map(s => {
         const gs = D.evidence_gaps.filter(g => siOfGap(g) === s.imperative_id);
         return `<div class="cong" style="cursor:pointer" data-open="${s.imperative_id}">
           <div style="display:flex;justify-content:space-between;gap:8px"><span class="chip">${bdot(s.brand_id)} ${esc(BRAND_LABEL[s.brand_id])} · #${s.priority_rank}</span>${statusBadge(s.status_rag)}</div>
           <div style="font-weight:600;margin:8px 0 6px;font-size: calc(13.5px * var(--fs))">${esc(s.title)}</div>
           <div style="display:flex;align-items:center;gap:10px" title="evidence readiness index, 0-100"><div class="bar-mini" style="flex:1"><span style="width:${s.evidence_readiness_index || 0}%;background:var(--text-2)"></span></div><b class="is-der">${s.evidence_readiness_index ?? "—"}<small style="color:var(--text-3);font-weight:400">/100</small></b></div>
-          <div class="d" style="margin-top:6px">${gs.length} gap${gs.length === 1 ? "" : "s"} · ${esc(s.theme)} · needed by ${fmtM(pd(s.required_by_date))}</div></div>`;
+          <div class="d" style="margin-top:6px">${gs.length} gap${gs.length === 1 ? "" : "s"} · ${esc(s.theme)} · needed by ${fmtM(pd(s.required_by_date))}</div><div style="margin-top:8px">${chBadge(chainVerdict(s, chainOf(s)).lvl)}</div></div>`;
       }).join("")}</div></div>
     <div class="card s-7"><div class="card-h"><h2>Gap map</h2>${ib("gaps")}<span class="sub">criticality vs planned coverage · bigger bubble = longer until the gap closes · labelled: critical gaps under 60% covered</span>
       <span class="right legend"><span>${bdot("TRE")}TREMFYA</span><span>${bdot("ICO")}Icotrokinra</span><span>${bdot("JNJ4804")}JNJ-4804</span></span></div><div id="gapmap"></div></div>
-    <div class="card s-5"><div class="card-h"><h2>Where coverage is not yet evidence</h2><span class="sub">planned coverage vs realised closure (published)</span></div><div class="scroll" id="gap-bars" style="max-height:520px"></div></div>
+    <div class="card s-5"><div class="card-h"><h2>Where coverage is not yet evidence</h2><span class="sub">planned coverage vs modelled closure (published)</span></div><div class="scroll" id="gap-bars" style="max-height:520px"></div></div>
     <div class="card s-8"><div class="card-h"><h2>Patient-segment coverage</h2>${ib("segments")}<span class="sub">number of studies per patient segment (disease × line of therapy × population)</span></div><div id="cc" style="overflow-x:auto"></div></div>
     <div class="card s-4"><div class="card-h"><span class="ai-tag"><svg viewBox="0 0 24 24"><path d="M12 2l2.2 6.8L21 11l-6.8 2.2L12 20l-2.2-6.8L3 11l6.8-2.2z"/></svg>WHITE SPACE</span><h2>Segments with thin evidence</h2>${ib("segments")}</div><div id="ws"></div></div>
     <div class="card s-12"><div class="card-h"><h2>All evidence gaps</h2>${ib("gaps")}<span class="sub">click a row for closing studies, competitor evidence and the recommended route</span></div><div class="scroll-x" id="gap-tbl"></div></div>
@@ -1278,7 +1282,7 @@ function drawGapMap(host, gaps) {
   svg.append("text").attr("x", x(98)).attr("y", y(1.5) - 8).attr("text-anchor", "end").style("font-size", "calc(11px * var(--fs-chart))").style("fill", "var(--text-3)").text("lower priority · well covered");
   svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues([0, 25, 50, 75, 100]).tickFormat(d => d + "%"));
   svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4));
-  svg.append("text").attr("x", (W) / 2).attr("y", H - 6).attr("text-anchor", "middle").style("font-size", "calc(11px * var(--fs-chart))").text("Planned coverage (probability the gap closes)");
+  svg.append("text").attr("x", (W) / 2).attr("y", H - 6).attr("text-anchor", "middle").style("font-size", "calc(11px * var(--fs-chart))").text("Modelled planned coverage (%)");
   svg.append("text").attr("transform", `translate(12,${H / 2}) rotate(-90)`).attr("text-anchor", "middle").style("font-size", "calc(11px * var(--fs-chart))").text("Gap criticality");
   const pts = gaps.map(g => ({ g, mo: Math.max(0, monthsFrom(pd(g.expected_close_date)) ?? 48) }));
   const node = svg.append("g").selectAll("g").data(pts.sort((a, b) => b.mo - a.mo)).join("g").style("cursor", "pointer")
@@ -1400,7 +1404,7 @@ function drawGantt(host, rows) {
     svg.append("text").attr("x", x(t) + 4).attr("y", 12).style("font-size", "calc(11px * var(--fs-chart))").style("fill", "var(--text-3)").text(t.getFullYear());
   });
   svg.append("line").attr("x1", x(TODAY)).attr("x2", x(TODAY)).attr("y1", m.t - 10).attr("y2", H).attr("stroke", "var(--accent)").attr("stroke-width", 1.5);
-  svg.append("text").attr("x", x(TODAY) + 4).attr("y", m.t - 12).style("font-size", "calc(10.5px * var(--fs-chart))").style("font-weight", 600).style("fill", "var(--accent-ink)").text("Today");
+  svg.append("text").attr("x", x(TODAY) + 4).attr("y", m.t - 12).style("font-size", "calc(10.5px * var(--fs-chart))").style("font-weight", 600).style("fill", "var(--accent-ink)").text("Snapshot");
   const clampX = d => x(Math.max(x.domain()[0], Math.min(x.domain()[1], d)));
   rows.forEach((s, i) => {
     const y = m.t + i * rowH;
@@ -1702,7 +1706,7 @@ function drawLoeHorizon(host) {
   x.ticks(d3.timeYear.every(3)).forEach(t => { svg.append("line").attr("class", "grid-line").attr("x1", x(t)).attr("x2", x(t)).attr("y1", m.t - 4).attr("y2", H);
     if (Math.abs(x(t) - x(TODAY)) > 44) svg.append("text").attr("x", x(t) + 3).attr("y", 12).style("font-size", "calc(11px * var(--fs-chart))").style("fill", "var(--text-3)").text(t.getFullYear()); });
   svg.append("line").attr("x1", x(TODAY)).attr("x2", x(TODAY)).attr("y1", m.t - 8).attr("y2", H).attr("stroke", "var(--accent)").attr("stroke-width", 1.5);
-  svg.append("text").attr("x", x(TODAY) + 4).attr("y", 12).style("font-size", "calc(10.5px * var(--fs-chart))").style("font-weight", 600).style("fill", "var(--accent-ink)").text("Today");
+  svg.append("text").attr("x", x(TODAY) + 4).attr("y", 12).style("font-size", "calc(10.5px * var(--fs-chart))").style("font-weight", 600).style("fill", "var(--accent-ink)").text("Snapshot");
   rows.forEach(({ b, r }, i) => {
     const y = m.t + i * rowH + rowH / 2, col = b.is_jnj ? brandColor(b.brand_id) : "var(--text-2)";
     const loe = planLoe(b.brand_id), ap = pd(r.first_approval), ph = r.planning_kind === "placeholder", passed = r.planning_kind === "LOE passed";
@@ -1800,7 +1804,7 @@ function drawProfile() {
     el.innerHTML = opts.map(([v, l]) => `<button data-v="${v}" class="${pfState[key] === v ? "on" : ""}">${l}</button>`).join("");
     el.querySelectorAll("button").forEach(b => b.onclick = () => { pfState[key] = b.dataset.v; drawProfile(); drawJourney(); }); };
   seg("pf-ind", [["CD", "Crohn's"], ["UC", "UC"]], "ind");
-  seg("pf-scen", [["now", "Today's labels"], ["filed", "If SKYRIZI SC induction is approved (as filed)"]], "scen");
+  seg("pf-scen", [["now", "Labels at snapshot"], ["filed", "If SKYRIZI SC induction is approved (as filed)"]], "scen");
   const rows = D.product_attributes.filter(a => a.indication === pfState.ind), filed = pfState.scen === "filed";
   const vOf = a => filed ? a.verdict_if_approved : a.verdict_now, whyOf = a => filed ? a.why_if_approved : a.why_now;
   // AI read-out
@@ -2034,7 +2038,7 @@ RENDER.competition = el => {
     <div class="card s-12"><div class="card-h"><h2>Competitor pipeline</h2><span class="sub">industry Ph2–4 IBD trials from the registry</span></div><div class="scroll" id="cst-tbl"></div></div>
   </div>`;
   const imps = D.competitive_impact.filter(i => brandOk(i.jnj_brand_id));
-  const maxC = d3.max(imps, i => i.competitive_threat_index) || 1;
+  // Each individual threat bar uses the labelled absolute 0–100 scale.
   // one card per competitor event; an event that hits two J&J brands lists both impacts inside it
   const byEvent = [...d3.group(imps, i => i.event_id)].map(([eid, rows]) => ({ eid, rows: rows.sort((a, b) => b.competitive_threat_index - a.competitive_threat_index) }))
     .sort((a, b) => b.rows[0].competitive_threat_index - a.rows[0].competitive_threat_index);
@@ -2048,7 +2052,7 @@ RENDER.competition = el => {
         return `<div style="display:grid;grid-template-columns:1fr 140px;gap:12px;margin-top:6px;${rows.length > 1 ? "border-left:2px solid var(--line);padding-left:10px" : ""}">
           <div><div style="font-size: calc(12px * var(--fs));color:var(--text-3)">${esc(i.impact_mechanism)} · puts ${bdot(i.jnj_brand_id)} ${esc(BRAND_LABEL[i.jnj_brand_id])} at risk · ${i.affected_gap_ids} · ~${i.time_to_impact_months} mo</div>
           <div style="font-size: calc(12px * var(--fs));margin-top:4px"><b>Response:</b> ${esc(i.jnj_response_options)}</div></div>
-          <div><div style="display:flex;justify-content:space-between;font-size: calc(12px * var(--fs))"><span title="P(positive) x segment overlap x magnitude x time decay x J&J commercial stake">Threat to J&J</span><b class="is-der">${i.competitive_threat_index}/100</b></div><div class="bar-mini" style="margin:4px 0 8px"><span style="width:${i.competitive_threat_index / maxC * 100}%;background:var(--text-2)"></span></div>
+          <div><div style="display:flex;justify-content:space-between;font-size: calc(12px * var(--fs))"><span title="P(positive) x segment overlap x magnitude x time decay x J&J commercial stake">Threat to J&J</span><b class="is-der">${i.competitive_threat_index}/100</b></div><div class="bar-mini" style="margin:4px 0 8px"><span style="width:${Math.max(0, Math.min(100, i.competitive_threat_index))}%;background:var(--text-2)"></span></div>
           <span class="status ${prep}"><i>${prep === "st-green" ? "✓" : prep === "st-amber" ? "!" : "✕"}</i>${esc(i.preparedness_status)}</span></div></div>`; }).join("")}
     </div>`; }).join("") || `<div class="empty">No threats for this brand.</div>`;
   drawProfile(); drawJourney(); drawWatch();
@@ -2080,11 +2084,11 @@ RENDER.competition = el => {
 // ---------- DISSEMINATION
 RENDER.dissemination = el => {
   const outs = D.evidence_outputs.filter(o => brandOk(IX.study[o.study_id]?.brand_ids) && !o.is_competitor_output);
-  el.innerHTML = header(`<b>How to read this:</b> each output is classified by <b>analysis type</b> (TiP → primary → post-hoc) and <b>publication type</b> (poster → oral → manuscript). Only peer-reviewed primary manuscripts fully close a gap. <b>Evidence debt</b> is results that are public but not yet in a peer-reviewed paper.`) + `
+  el.innerHTML = header(`<b>How to read this:</b> each output is classified by <b>analysis type</b> (TiP → primary → post-hoc) and <b>publication type</b> (poster → oral → manuscript). Publication format alone does not resolve a gap; relevance, design and results require review. Closure percentages are prototype planning estimates. <b>Evidence debt</b> flags public results for which this dataset has not identified a matching trial paper; confirm with the publications owner.`) + `
   <div class="grid g-12">
     <div class="s-12"><div class="section-title">Upcoming congresses</div><div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px" id="congs"></div></div>
     <div class="card s-6"><div class="card-h"><h2>Analysis × publication type</h2>${ib("mix")}<span class="sub">J&J outputs (published + planned)</span></div><div id="matrix" style="overflow-x:auto"></div></div>
-    <div class="card s-6"><div class="card-h"><h2>Evidence debt</h2>${ib("debt")}<span class="sub">public results without a peer-reviewed primary paper</span></div><div id="debt"></div></div>
+    <div class="card s-6"><div class="card-h"><h2>Evidence debt</h2>${ib("debt")}<span class="sub">public results with no matching trial paper identified in this dataset</span></div><div id="debt"></div></div>
     <div class="card s-7"><div class="card-h"><h2>Share of voice by congress</h2>${ib("sov")}<span class="sub">real abstracts, top 6 assets per edition (2025–26) · <a href="#" data-goto="publications">full analysis →</a></span></div><div id="sov"></div></div>
     <div class="card s-5"><div class="card-h"><h2>Evidence ladders</h2>${ib("ladder")}<span class="sub">progress of key studies · <span style="background:var(--text);color:var(--surface);border-radius:4px;padding:0 5px">dark</span> = done, outlined = not yet</span></div><div id="ladders"></div></div>
     <div class="card s-12"><div class="card-h"><h2>Publication plan</h2><span class="sub">all J&J outputs · upcoming first, then delivered</span></div><div class="scroll-x" id="out-tbl"></div></div>
@@ -2121,7 +2125,7 @@ RENDER.dissemination = el => {
     ["Publication", o => esc(o.publication_type)], ["Venue", o => esc(IX.venue[o.target_venue_id]?.name || "—")], ["Status", o => esc(o.status)],
     ["Date", o => fmtM(pd(o.actual_date || o.planned_date)), "", o => pd(o.actual_date || o.planned_date) || 0],
     ["Closure weight", o => V(o, "gap_closure_weight"), "num", o => o.gap_closure_weight,
-     "How much of its evidence gap this output closes once delivered: 1 = peer-reviewed primary paper; congress formats count less; trial-in-progress 0."],
+     "Prototype publication weight: primary paper 1; congress formats count less; trial-in-progress 0. A weight does not establish that the scientific question is resolved."],
   ], o => o.output_id);
   drawLlm();
 };
@@ -2246,7 +2250,7 @@ RENDER.investment = el => {
 // ---------- DATA & PROVENANCE
 RENDER.data = el => {
   const t = D.manifest.tables;
-  el.innerHTML = header(`<b>Trust layer.</b> Every value in this dashboard carries a provenance tag. Every card carries labels for the kinds of data it contains (fact, calculated, AI-inferred, simulated); hover a label to see which part is which. Turn on <b>Mark values</b> (top right) to underline single simulated, AI-inferred, calculated and unchecked values everywhere. Replace simulated inputs in <code>scripts/build_dataset.py</code> and rebuild.`) + `
+  el.innerHTML = header(`<b>Trust layer.</b> Provenance labels distinguish public-source, calculated, inferred, simulated and manually edited inputs. Every card carries labels for the kinds of data it contains (fact, calculated, AI-inferred, simulated); hover a label to see which part is which. Turn on <b>Mark values</b> (top right) to underline single simulated, AI-inferred, calculated and unchecked values everywhere. Use the <b>Data Editor</b> to replace simulated inputs, record a reason and rebuild. Manual edits are not automatically verified facts. Assigned reviewer workflows and recurring internal-system refresh are not connected in this prototype.`) + `
   <div class="grid g-12"><div class="card s-7"><div class="card-h"><h2>Provenance by table</h2><span class="sub">share of cells</span>
     <span class="right legend"><span><span class="dot" style="background:var(--seq-6);border-radius:2px"></span>public verified</span><span><span class="dot" style="background:var(--unv);border-radius:2px"></span>unverified</span><span><span class="dot" style="background:var(--der);border-radius:2px"></span>calculated</span><span><span class="dot" style="background:var(--ai);border-radius:2px"></span>AI-inferred</span><span><span class="dot" style="background:var(--sim);border-radius:2px"></span>simulated</span><span><span class="dot" style="background:var(--line-strong);border-radius:2px"></span>reference</span></span></div>
     <div class="scroll" style="max-height:620px">${Object.entries(t).map(([k, v]) => { const c = v.cells, tot = d3.sum(Object.values(c)) || 1;
@@ -2421,9 +2425,9 @@ RENDER.scenarios = el => {
     <div class="s-8 grid" style="gap:16px;align-content:start">
       <div class="grid" style="grid-template-columns:repeat(4,minmax(0,1fr));gap:12px" id="sc-kpis">
         ${kpi("Avg readiness", mean(cur), "/100", delta(mean(base), mean(cur)), "is-der", mean(cur) < mean(base))}
-        ${kpi("Imperatives off track", reds(cur), "", delta(reds(base), reds(cur), true), "is-der", reds(cur) > reds(base))}
+        ${kpi("Low scenario readiness", reds(cur), "", delta(reds(base), reds(cur), true), "is-der", reds(cur) > reds(base))}
         ${kpi("Critical, under-covered gaps", crit(cur), "", delta(crit(base), crit(cur), true), "is-der", crit(cur) > crit(base))}
-        ${kpi("Total threat index", thr(cur), "", delta(thr(base), thr(cur), true), "is-der", thr(cur) > thr(base))}
+        ${kpi("Combined threat points", thr(cur), "", delta(thr(base), thr(cur), true) + " · summed event–brand scores; may exceed 100, not a probability", "is-der", thr(cur) > thr(base))}
       </div>
       <div class="card ai sim-card"><div class="card-h"><span class="ai-tag"><svg viewBox="0 0 24 24"><path d="M12 2l2.2 6.8L21 11l-6.8 2.2L12 20l-2.2-6.8L3 11l6.8-2.2z"/></svg>SCENARIO READ-OUT</span><h2>What this scenario means</h2></div><ul id="sc-narr"></ul></div>
       <div class="card"><div class="card-h"><h2>Imperative readiness: expected → scenario</h2>${ib("robust")}<span class="right legend"><span><span class="dot" style="background:var(--text-3)"></span>Expected</span><span><span class="dot" style="background:var(--text)"></span>Scenario (brand colour)</span></span></div><div id="dumbbell"></div></div>
@@ -2495,7 +2499,7 @@ RENDER.scenarios = el => {
   };
   const why = ([cls, , label], vals) => ({ "Robust": "on track in every scenario", "Off track in all": "off track in every scenario",
     "At risk in all": "at risk in every scenario and events barely move it: only new evidence helps", "Sensitive": `moves between ${d3.min(vals)} and ${d3.max(vals)} but never goes off track`,
-    "Fragile": `goes off track in ${vals.filter(v => rag(v) === "red").length} of ${vals.length} scenarios` })[label];
+    "Fragile": `has low modelled readiness in ${vals.filter(v => rag(v) === "red").length} of ${vals.length} scenarios` })[label];
   const E = runs[0].m;
   document.getElementById("robust").innerHTML = `<table class="tbl tight" style="width:100%"><thead><tr><th>Imperative</th><th>Verdict</th>${runs.map(r => `<th class="num" style="white-space:normal" title="${esc(r.p.desc)}">${esc(r.p.name)}</th>`).join("")}</tr></thead><tbody>${sis.filter(s => base.eri[s.imperative_id] != null).map(s => {
     const id = s.imperative_id, vals = runs.map(r => r.m.eri[id]), vd = verdictOf(vals), e0 = vals[0];
@@ -2810,16 +2814,16 @@ RENDER.publications = el => {
   const BIG4 = ["ECCO", "DDW", "UEGW", "ACG"], FULL_ORAL = ["Oral", "Late-breaking oral"];
   const orals = cong.filter(p => BIG4.includes(p.series) && FULL_ORAL.includes(p.presentation_type));
   const sovOral = Math.round(100 * jnjMentions(orals) / Math.max(1, mentions(orals)));
-  el.innerHTML = header(`<b>Real, public data.</b> Every IBD journal article (PubMed) and congress abstract (ECCO, DDW, ACG and Crohn's & Colitis Congress via Crossref; UEG Week via UEG's Gutflix library) that names a tracked asset <b>in its title</b>, ${esc(D.sources.find(s => s.source_id === "SRC-PUBMED") ? "19 Sep 2023 – 19 Sep 2026" : "")}. <b>Share of voice</b> = an asset's share of all tracked-asset mentions; a head-to-head title counts for both assets. Venue, presentation and analysis type are classified by rules, so spot-check them. UEG Week items are title-only (no DOI) and link to the UEG library search.`) + `
+  el.innerHTML = header(`<b>Real, public data.</b> Retrieved IBD journal articles (PubMed) and congress abstracts (ECCO, DDW, ACG and Crohn's & Colitis Congress via Crossref; UEG Week via UEG's Gutflix library) that name a tracked asset <b>in their titles</b>, ${esc(D.sources.find(s => s.source_id === "SRC-PUBMED") ? "19 Sep 2023 – 19 Sep 2026" : "")}. <b>Share of voice</b> = an asset's share of all tracked-asset mentions; a head-to-head title counts for both assets. Coverage is incomplete and varies by source and year. Counts measure tracked mentions, not audience reach or scientific quality. Venue, presentation and analysis type use programme matching or rules; review uncertain classifications. UEG Week items are title-only (no DOI) and link to the UEG library search.`) + `
   <div class="grid g-12">
     ${[["Publications found", pubs.length, `${jour.length} journal · ${cong.length} congress · of ${D.publications.length} retrieved, these name an asset in the title`], ["J&J items (Tremfya, icotrokinra, JNJ-4804)", jnjAll.length, `+ ${count(pubs, "STE")} Stelara`],
-       ["J&J congress share of voice", sovCong + "%", `${sovCong26}% in 2026 congresses`], ["J&J share of oral slots", sovOral + "%", `${orals.length} full orals naming a tracked asset at ECCO, DDW, UEG Week and ACG · digital orals excluded`]]
+       ["J&J congress share of voice", sovCong + "%", `${sovCong26}% in 2026 congresses`], ["J&J share of oral mentions", sovOral + "%", `${orals.length} retrieved full-oral records · share uses asset mentions, including legacy STELARA in the denominator · digital orals excluded`]]
       .map(([l, v, f]) => `<div class="s-3">${kpi(l, v, "", f, "is-der")}</div>`).join("")}
     <div class="card ai s-12"><div class="card-h"><span class="ai-tag"><svg viewBox="0 0 24 24"><path d="M12 2l2.2 6.8L21 11l-6.8 2.2L12 20l-2.2-6.8L3 11l6.8-2.2z"/></svg>SHARE-OF-VOICE READ-OUT</span><h2>What the publication record says</h2><span class="sub">generated from the publication data</span></div><ul id="pub-narr"></ul></div>
-    <div class="card s-12"><div class="card-h"><h2>Oral podium</h2>${ib("orals")}<span class="sub">full oral slots at ECCO, DDW, UEG Week and ACG, last 3 years · ACG orals from the official programme · hover a bar for the split by congress</span>
-      <span class="right legend"><span><span style="display:inline-block;width:14px;height:8px;border-radius:2px;background:var(--text-2)"></span> trial programme</span><span><span style="display:inline-block;width:14px;height:8px;border-radius:2px;background:color-mix(in srgb, var(--text-2) 30%, var(--surface))"></span> real-world study</span></span></div>
-      <div id="podium"></div>
-      <div style="font-size: calc(12px * var(--fs));color:var(--text-3);margin-top:8px">Oral rate = share of the asset's abstracts at these congresses that were selected for a full oral slot. A title naming two assets counts for both. Trial programme = any analysis of a sponsor's trials (primary, extension, subgroup, post-hoc) or economic model.</div></div>
+    <div class="card s-12"><div class="card-h"><h2>Oral podium</h2>${ib("orals")}<span class="sub">retrieved full orals at ECCO, DDW, UEG Week and ACG · snapshot window · ACG orals from the official programme · hover a bar for the split by congress</span>
+      <span class="right legend"><span><span style="display:inline-block;width:14px;height:8px;border-radius:2px;background:var(--text-2)"></span> other / unclassified analysis</span><span><span style="display:inline-block;width:14px;height:8px;border-radius:2px;background:color-mix(in srgb, var(--text-2) 30%, var(--surface))"></span> real-world study</span></span></div>
+      <div id="podium" style="overflow-x:auto"></div>
+      <div style="font-size: calc(12px * var(--fs));color:var(--text-3);margin-top:8px">Observed oral proportion = identified full orals ÷ retrieved abstracts naming that asset at these four congresses. This is not an acceptance rate: submissions and complete programme coverage are unavailable. Digital orals are separate. A multi-asset title counts for each asset. RWE is title-classified; other analyses are not necessarily trials, and funding independence is not established.</div></div>
     <div class="card s-12"><div class="card-h"><h2>Share of voice by congress</h2>${ib("sov")}<span class="sub">% of tracked-asset mentions per congress edition</span>
       <span class="right legend"><span>${bdot("TRE")}TREMFYA</span><span>${bdot("ICO")}Icotrokinra</span><span>${bdot("comp")}Top competitors (labelled)</span></span></div><div id="sov-cong" class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px"></div></div>
     <div class="card s-7"><div class="card-h"><h2>Congress abstracts by asset and edition</h2>${ib("sov")}<span class="sub">count · full orals in brackets (ECCO, DDW, UEG Week, ACG)</span></div><div id="sov-heat" style="overflow-x:auto"></div></div>
@@ -2944,12 +2948,12 @@ RENDER.publications = el => {
   if (trend.length) items.push(`<b>TREMFYA congress share of voice:</b> ${trend.join("; ")}.`);
   const leader = PUB_BRANDS.filter(b => b !== "STE").map(b => ({ b, n: count(cong, b) })).sort((a, b) => b.n - a.n);
   const treRank = leader.findIndex(r => r.b === "TRE") + 1;
-  items.push(`<b>Congress leaderboard (3 years):</b> ${leader.slice(0, 4).map(r => `${esc(bName(r.b))} ${r.n}`).join(" · ")}. TREMFYA ranks #${treRank} with ${count(cong, "TRE")} abstracts.`);
+  items.push(`<b>Tracked congress mentions (3 years; legacy STELARA excluded from ranking):</b> ${leader.slice(0, 4).map(r => `${esc(bName(r.b))} ${r.n}`).join(" · ")}. TREMFYA ranks #${treRank} with ${count(cong, "TRE")} abstracts.`);
   const jl = jb.filter(r => r.b !== "STE");
-  if (jl.length) items.push(`<b>Journals:</b> ${esc(bName(jl[0].b))} leads with ${jl[0].n} titled articles. TREMFYA has ${count(jour, "TRE")}${count(jour, "ICO") ? `, icotrokinra ${count(jour, "ICO")}` : ""}. Congress volume is ${count(jour, "TRE") ? (count(cong, "TRE") / count(jour, "TRE")).toFixed(1) : "–"}× journal volume for TREMFYA vs ${jl[0].b !== "TRE" && count(jour, jl[0].b) ? (count(cong, jl[0].b) / count(jour, jl[0].b)).toFixed(1) : "–"}× for ${esc(bName(jl[0].b))}, a measure of how much congress data reaches peer review.`);
+  if (jl.length) items.push(`<b>Journals:</b> ${esc(bName(jl[0].b))} leads with ${jl[0].n} titled articles. TREMFYA has ${count(jour, "TRE")}${count(jour, "ICO") ? `, icotrokinra ${count(jour, "ICO")}` : ""}. Congress volume is ${count(jour, "TRE") ? (count(cong, "TRE") / count(jour, "TRE")).toFixed(1) : "–"}× journal volume for TREMFYA vs ${jl[0].b !== "TRE" && count(jour, jl[0].b) ? (count(cong, jl[0].b) / count(jour, jl[0].b)).toFixed(1) : "–"}× for ${esc(bName(jl[0].b))}, a count ratio, not a conversion rate: abstract-to-paper trajectories and follow-up time have not been established.`);
   const mixOf = b => { const mine = pubs.filter(p => p.bt.includes(b)); const c = d3.rollup(mine, v => v.length, p => AN_GROUP[p.analysis_type]); return a => Math.round(100 * (c.get(a) || 0) / Math.max(1, mine.length)); };
   const tre = mixOf("TRE"), sky = mixOf("SKY"), rin = mixOf("RIN");
-  items.push(`<b>Evidence mix:</b> TREMFYA is ${tre("Trial (primary/secondary)")}% trial data, ${tre("Post-hoc / subgroup / pooled / LTE")}% post-hoc/LTE and ${tre("Real-world evidence")}% RWE, vs Skyrizi ${sky("Real-world evidence")}% RWE and Rinvoq ${rin("Real-world evidence")}% RWE. ${tre("Real-world evidence") < sky("Real-world evidence") ? "The RWE voice gap versus Skyrizi supports GAP-07/GAP-10." : ""}`);
+  items.push(`<b>Evidence mix:</b> TREMFYA is ${tre("Trial (primary/secondary)")}% trial data, ${tre("Post-hoc / subgroup / pooled / LTE")}% post-hoc/LTE and ${tre("Real-world evidence")}% RWE, vs Skyrizi ${sky("Real-world evidence")}% RWE and Rinvoq ${rin("Real-world evidence")}% RWE. ${tre("Real-world evidence") < sky("Real-world evidence") ? "Review which unanswered questions in GAP-07/GAP-10 need RWE; volume differences alone do not establish an evidence gap." : ""}`);
   const ico = pubs.filter(p => p.bt.includes("ICO"));
   items.push(`<b>Icotrokinra:</b> ${ico.length} IBD items so far (${ico.filter(p => p.kind === "congress").length} congress, ${ico.filter(p => p.kind === "journal").length} journal). An early-phase voice; the ICONIC-UC/CD design and baseline outputs are the next ladder steps.`);
   const stel = count(pubs, "STE");
@@ -2958,21 +2962,21 @@ RENDER.publications = el => {
   document.getElementById("pub-narr").innerHTML = items.map((t, i) => `<li><span class="n">${i + 1}</span><span>${t}</span></li>`).join("");
   // ---- oral podium
   const c4 = cong.filter(p => BIG4.includes(p.series));
-  const pod = ["TRE", "ICO", "SKY", "RIN", "ENT", "OMV", "OBE", "TUL", "DUV", "AFI", "VEL", "ZEP"].map(b => {
+  const pod = PUB_BRANDS.map(b => {
     const mine = c4.filter(p => p.bt.includes(b)), o = mine.filter(p => FULL_ORAL.includes(p.presentation_type));
     return { b, n: mine.length, o: o.length, rwe: o.filter(p => p.analysis_type === "RWE").length, dop: mine.filter(p => p.presentation_type === "Digital oral").length,
       by: BIG4.map(sr => `${sr === "UEGW" ? "UEG Week" : sr} ${o.filter(p => p.series === sr).length}`).join(" · ") };
   }).filter(r => r.n).sort((a, b) => b.o - a.o || b.n - a.n);
   const pmax = d3.max(pod, r => r.o) || 1;
-  const hue = b => b === "TRE" ? "var(--tre)" : b === "ICO" ? "var(--ico)" : "var(--text-3)";
+  const hue = b => JNJ_PUB.includes(b) ? brandColor(b) : "var(--text-3)";
   document.getElementById("podium").innerHTML = pod.map(r => `
-    <div style="display:grid;grid-template-columns:130px 1fr 150px 170px;gap:12px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line);font-size: calc(12.5px * var(--fs))" title="${esc(bName(r.b))}: ${r.by}${r.dop ? ` · plus ${r.dop} ECCO digital orals` : ""}">
+    <div style="display:grid;grid-template-columns:150px minmax(80px,1fr) 150px 225px;gap:12px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line);font-size: calc(12.5px * var(--fs))" title="${esc(bName(r.b))}: ${r.by}${r.dop ? ` · plus ${r.dop} ECCO digital orals` : ""}">
       <span class="nw" style="${JNJ_PUB.includes(r.b) ? "font-weight:600" : ""}">${bdot(JNJ_PUB.includes(r.b) ? r.b : "comp")} ${esc(bName(r.b))}</span>
       <div style="display:flex;gap:2px;height:14px">
         <span style="height:100%;border-radius:4px 0 0 4px;width:${(r.o - r.rwe) / pmax * 100}%;background:${hue(r.b)}"></span>
         ${r.rwe ? `<span style="height:100%;border-radius:0 4px 4px 0;width:${r.rwe / pmax * 100}%;background:color-mix(in srgb, ${hue(r.b)} 30%, var(--surface))"></span>` : ""}</div>
       <span class="nw"><b style="font-variant-numeric:tabular-nums">${r.o}</b> orals${r.rwe ? `<span style="color:var(--text-3)"> · ${r.rwe} real-world</span>` : ""}</span>
-      <span class="nw" style="color:var(--text-2);text-align:right"><b class="is-der">${Math.round(100 * r.o / r.n)}%</b> oral rate · ${r.n} abstracts</span>
+      <span class="nw" style="color:var(--text-2);text-align:right"><b class="is-der">${Math.round(100 * r.o / r.n)}%</b> oral proportion · ${r.n} abstracts</span>
     </div>`).join("");
 };
 
@@ -3276,7 +3280,7 @@ function openGap(gid) {
     <div class="explain"><span class="ai-tag" style="margin-bottom:6px">RECOMMENDED ROUTE</span><div style="margin-top:6px"><b>${esc(route[0])}</b></div><div style="font-size: calc(12px * var(--fs));margin-top:4px">Owner: ${esc(route[1])} · time to first evidence: ${esc(route[2])} · cost: ${esc(route[3])}</div></div>
     ${kv([["Imperative", si ? `${cite(si.imperative_id)} ${esc(si.title)}` : "—"], ["Key question", kq ? esc(kq.question) : "—"], ["Criticality", V(g, "gap_criticality_score", g.gap_criticality_score.toFixed(2) + " / 5")],
       ["Score inputs", `<span class="is-sim">stakeholder ${g.stakeholder_importance} · alignment ${g.imperative_alignment} · uncertainty ${g.uncertainty_magnitude} · HTA/guideline ${g.hta_guideline_relevance} · urgency ${g.urgency}</span>`],
-      ["Planned coverage", V(g, "planned_coverage_pct", g.planned_coverage_pct + "%")], ["Realised closure", V(g, "realised_closure_pct", g.realised_closure_pct + "%")],
+      ["Planned coverage", V(g, "planned_coverage_pct", g.planned_coverage_pct + "%")], ["Modelled closure", V(g, "realised_closure_pct", g.realised_closure_pct + "%")],
       ["Expected closure", V(g, "expected_close_date", fmtM(pd(g.expected_close_date)))], ["Status", V(g, "status")], ["Segments", esc(g.care_segment_ids)], ["Stakeholders", esc(g.stakeholder_ids)], ["Geographies", esc(g.geo_ids)],
       ["Competitor has evidence", g.competitor_has_evidence ? `Yes ${g.competitor_evidence_ref ? cite(g.competitor_evidence_ref) : ""}` : "No"]])}
     <h4>Published evidence on record</h4>
@@ -3475,11 +3479,11 @@ const aiH = id => { const x = (D.ai_insights || []).find(i => i.insight_id === i
 const SX_SUMMARY = {
   chain: () => { const rows = siF().map(si => ({ si, v: chainVerdict(si, chainOf(si)) }));
     const off = rows.filter(r => r.v.lvl === "bad"), orphan = d3.sum(rows, r => r.v.orphan), late = d3.sum(rows, r => r.v.late.length);
-    return { q: "Do our studies close the gaps behind each imperative, in time?", k: "fcs", pts: [`${off.length} of ${rows.length} imperatives are off track${off.length ? `: ${off.slice(0, 3).map(r => `<b>${esc(shortTxt(r.si.title, 50))}</b>`).join("; ")}` : ""}.`,
+    return { q: "Do our studies close the gaps behind each imperative, in time?", k: "fcs", pts: [`${off.length} of ${rows.length} imperatives have delivery risk${off.length ? `: ${off.slice(0, 3).map(r => `<b>${esc(shortTxt(r.si.title, 50))}</b>`).join("; ")}` : ""}.`,
       `${orphan} evidence gap${orphan === 1 ? " has" : "s have"} no study; ${late} study-to-gap link${late === 1 ? " delivers" : "s deliver"} impact after the need-by date.`, "Imperatives, gaps and desired impact are a simulated brand plan."] }; },
   strategy: () => { const gaps = gapsF(), crit = gaps.filter(g => g.gap_criticality_score >= 4 && g.status !== "closed"), low = crit.filter(g => g.planned_coverage_pct < 60).sort((a, b) => b.gap_criticality_score - a.gap_criticality_score), sis = siF();
     return { q: "Which evidence gaps matter most, and will our studies close them?", k: "cs", pts: [`${crit.length} of ${gaps.length} gaps are critical; ${low.length} of those are less than 60% covered by planned studies.`,
-      low[0] ? `Most critical under-covered gap: ${cite(low[0].gap_id)}` : "", `${sis.filter(s => s.status_rag === "red").length} of ${sis.length} strategic imperatives are off track. The gaps and imperatives are a simulated brand plan.`] }; },
+      low[0] ? `Most critical under-covered gap: ${cite(low[0].gap_id)}` : "", `${sis.filter(s => s.status_rag === "red").length} of ${sis.length} strategic imperatives have limited planning readiness. The gaps and imperatives are a simulated brand plan.`] }; },
   scenarios: () => ({ q: "What changes if a competitor or a J&J study succeeds, fails or slips?", k: "cs", pts: ["Pick a preset or change a lever on the left; readiness, gap coverage and threat recalculate at once.", "Probabilities and effects are simulated; the studies and events named are real."] }),
   studies: () => { const in12 = d => d && d >= TODAY && monthsFrom(d) <= 12; const r = studiesF().map(s => [s, nextMilestone(s.study_id, ["TLR", "PCD"])]).filter(([s, m]) => m && in12(pd(m.forecast_date))).sort((a, b) => pd(a[1].forecast_date) - pd(b[1].forecast_date));
     return { q: "What will our studies deliver, and when?", k: "fcs", pts: [r.length ? `${r.length} J&J studies reach primary completion or topline in the next 12 months: ${r.slice(0, 5).map(([s, m]) => `<b>${esc(shortName(s))}</b> (${fmtM(pd(m.forecast_date))})`).join(", ")}${r.length > 5 ? "…" : ""}.` : "No J&J readout in the next 12 months for this filter.", aiH("AI-E01"), aiH("AI-E02")] }; },
@@ -3513,7 +3517,7 @@ function sxSummary(explainHtml) {
 }
 // cards shown first on each page; the rest fold under "More on this page"
 const SX_KEEP = {
-  command: ["Start here", "What matters this week", "Evidence readiness", "Ranked by impact"],
+  command: ["Start here", "Snapshot briefing", "Evidence readiness", "Ranked by impact"],
   strategy: ["Strategic imperatives", "Gap map", "Where coverage"],
   scenarios: ["Scenario levers", "Avg readiness", "What this scenario means", "Expected", "Imperative readiness: expected"],
   studies: ["Evidence timeline"],
@@ -3626,7 +3630,7 @@ function chainOf(si) {
       const w = win[s.study_id] || {}, use = pd(w.uptake_date), paper = pd(w.paper_date), rd = pd(w.readout_date);
       const published = !!s.peer_reviewed_paper;
       const late = !published && use && need ? Math.round(monthsFrom(use, need)) : 0;
-      const status = published ? "delivered" : !use ? "unknown" : late > 0 ? "late" : "ontime";
+      const status = published ? "delivered" : !use || !need ? "unknown" : late > 0 ? "late" : "ontime";
       return { s, fit: s.gap_fit[g.gap_id], w, use, paper, rd, published, late, status, sim: /^SIM-/.test(s.study_id) };
     });
     const closed = g.realised_closure_pct >= 90;  // already answered by published evidence: further studies add support, not a deadline
@@ -3640,10 +3644,20 @@ function chainVerdict(si, chain) {
   const orphan = chain.filter(c => c.status === "orphan").length, risk = chain.filter(c => c.status === "risk").length;
   const late = acts.filter(a => a.status === "late"), ontime = acts.filter(a => a.status === "ontime" || a.status === "delivered");
   const lastUse = d3.max(acts.filter(a => (a.status === "late" || a.status === "ontime") && a.use), a => a.use);
-  const lvl = orphan || late.some(a => a.fit >= 0.5) ? "bad" : risk || late.length ? "warn" : "good";
-  return { need, orphan, risk, late, ontime, lastUse, lvl, nGaps: chain.length, nActs: new Set(acts.map(a => a.s.study_id)).size };
+  const unknown = acts.filter(a => a.status === "unknown");
+  const unique = new Map();
+  const severity = { extra: 0, delivered: 1, ontime: 1, unknown: 2, late: 3 };
+  for (const a of acts) {
+    const prev = unique.get(a.s.study_id);
+    if (!prev || severity[a.status] > severity[prev.status]) unique.set(a.s.study_id, a);
+  }
+  const assessed = [...unique.values()].filter(a => a.status !== "extra");
+  const nInTime = assessed.filter(a => ["ontime", "delivered"].includes(a.status)).length;
+  const nUnknown = assessed.filter(a => a.status === "unknown").length;
+  const lvl = orphan || late.some(a => a.fit >= 0.5) ? "bad" : risk || late.length || unknown.length || !need || !chain.length ? "warn" : "good";
+  return { need, orphan, risk, late, ontime, unknown, nUnknown, nInTime, nAssessed: assessed.length, lastUse, lvl, nGaps: chain.length, nActs: unique.size };
 }
-const CH_LVL = { good: ["On track", "st-green", "✓"], warn: ["At risk", "st-amber", "!"], bad: ["Off track", "st-red", "✕"] };
+const CH_LVL = { good: ["Delivery: no flagged risk", "st-green", "✓"], warn: ["Delivery: review needed", "st-amber", "!"], bad: ["Delivery: at risk", "st-red", "✕"] };
 const chBadge = l => `<span class="status ${CH_LVL[l][1]}"><i>${CH_LVL[l][2]}</i>${CH_LVL[l][0]}</span>`;
 RENDER.chain = el => {
   const sis = siF().slice().sort((a, b) => a.brand_id.localeCompare(b.brand_id) || a.priority_rank - b.priority_rank);
@@ -3654,14 +3668,14 @@ RENDER.chain = el => {
   }
   const linked = new Set(D.evidence_gaps.flatMap(g => D.studies.filter(s => (s.gap_fit || {})[g.gap_id] > 0).map(s => s.study_id)));
   const unlinked = studiesF().filter(s => !linked.has(s.study_id));
-  el.innerHTML = header(`<b>How to read this:</b> each strategic imperative needs evidence gaps closed; studies close them; the impact arrives when results reach guidelines and payers (readout → paper → guideline/HTA use). Pick an imperative in the overview, then click any box in the chain to trace its path. <b>Red</b> means no study, or impact after the imperative's need-by date.`) + `
+  el.innerHTML = header(`<b>How to read this:</b> each strategic imperative needs evidence gaps closed; studies close them; the impact arrives when results reach guidelines and payers (readout → paper → guideline/HTA use). Pick an imperative in the overview, then click any box in the chain to trace its path. <b>Planning readiness</b> is a weighted score across gaps. <b>Delivery risk</b> separately checks individual study timing and missing coverage, so a strong planning score can still carry delivery risk. Dates of evidence use are modelled, not confirmed guideline or payer adoption.`) + `
   <div class="grid g-12">
-    <div class="card s-12"><div class="card-h"><h2>Portfolio overview</h2>${ib("chain")}<span class="sub">one row per strategic imperative · click a row to trace its chain</span></div>
-      <div class="scroll-x"><table class="tbl ch-ov"><thead><tr><th>Strategic imperative</th><th>Status</th><th class="num">Evidence gaps</th><th class="num" title="Gaps with no study planned">Gaps without a study</th><th class="num">Studies</th><th class="num" title="Studies whose results reach guidelines and payers before the evidence is needed">Studies in time</th><th>Evidence needed by</th><th title="When the last of these studies reaches guidelines and payers">Last study usable</th></tr></thead><tbody>
+    <div class="card s-12"><div class="card-h"><h2>Portfolio overview</h2>${ib("chain")}<span class="sub">readiness and delivery risk are separate checks · studies counted once per imperative</span></div>
+      <div class="scroll-x"><table class="tbl ch-ov"><thead><tr><th>Strategic imperative</th><th>Planning readiness</th><th>Delivery risk</th><th class="num">Evidence gaps</th><th class="num" title="Gaps with no study planned">Gaps without a study</th><th class="num">Studies</th><th class="num" title="Unique studies already published or modelled in time, out of unique studies assessed; unknown dates remain in the denominator. Supplementary studies on modelled-closed gaps are excluded.">Published / modelled in time</th><th>Evidence needed by</th><th title="When the last of these studies reaches guidelines and payers">Last study usable</th></tr></thead><tbody>
       ${rows.map(({ si, v }) => `<tr class="click ${si.imperative_id === chainState.si ? "on" : ""}" data-chsi="${si.imperative_id}">
-        <td style="white-space:normal;min-width:260px">${bdot(si.brand_id)} <b>${esc(si.title)}</b></td><td class="nw">${chBadge(v.lvl)}</td>
+        <td style="white-space:normal;min-width:260px">${bdot(si.brand_id)} <b>${esc(si.title)}</b></td><td class="nw">${si.evidence_readiness_index ?? "—"}/100<br>${statusBadge(si.status_rag)}</td><td class="nw">${chBadge(v.lvl)}</td>
         <td class="num">${v.nGaps}</td><td class="num">${v.orphan ? `<b style="color:var(--critical)">${v.orphan}</b>` : "—"}</td><td class="num">${v.nActs}</td>
-        <td class="num">${v.ontime.length}/${v.ontime.length + v.late.length}</td><td class="nw">${fmtM(v.need)}</td>
+        <td class="num">${v.nInTime}/${v.nAssessed}${v.nUnknown ? `<br><span class="muted small">${v.nUnknown} date unknown</span>` : ""}</td><td class="nw">${fmtM(v.need)}</td>
         <td class="nw" style="${v.lastUse && v.lastUse > v.need ? "color:var(--critical)" : ""}">${v.lastUse ? fmtM(v.lastUse) : "—"}</td></tr>`).join("")}</tbody></table></div></div>
     <div class="card s-12"><div class="card-h"><h2>Evidence chain</h2>${ib("chain")}<span class="sub">imperative → evidence gaps → studies → when the evidence can be used · click a box to trace it</span>
       <span class="right legend"><span><span class="dot" style="background:var(--critical)"></span>no study, or impact too late</span><span><span class="dot" style="background:var(--serious)"></span>planned studies answer less than 60% of the gap</span><span><span class="dot" style="background:var(--good)"></span>in time or already published</span></span></div>
@@ -3687,13 +3701,13 @@ function drawChain(row) {
     <div class="chn-d"><span class="eyebrow">Desired impact</span><span class="is-sim">${esc(si.desired_impact || "—")}</span></div></div>`;
   for (const c of ch) {
     const n = Math.max(1, c.acts.length), gk = `gap:${c.g.gap_id}`;
-    const gst = { orphan: ["No study planned", "var(--critical)"], risk: ["Planned studies answer less than 60%", "var(--serious)"], ok: ["Planned studies answer most of it", "var(--good)"], closed: ["Already answered by published papers", "var(--good)"] }[c.status];
+    const gst = { orphan: ["No study planned", "var(--critical)"], risk: ["Planned studies answer less than 60%", "var(--serious)"], ok: ["Planned studies answer most of it", "var(--good)"], closed: ["High modelled closure; verify evidence", "var(--good)"] }[c.status];
     html += `<div class="chn ch-gap st-${c.status}" data-k="${gk}" data-p="si" style="grid-column:2;grid-row:${r} / span ${n}">
       <div class="chn-t">${esc(c.g.title)}</div>
       <div class="chn-m"><span class="dot" style="background:${gst[1]}"></span>${gst[0]}</div>
       <div class="chn-s">Importance ${c.g.gap_criticality_score.toFixed(1)} out of 5</div>
-      <div class="ch-bar" title="Light bar: share of the gap the planned studies would answer if they succeed. Dark bar: share already answered by published papers."><span style="width:${c.g.planned_coverage_pct}%"></span><i style="width:${c.g.realised_closure_pct}%"></i></div>
-      <div class="ch-kv" title="How much of this evidence gap is answered"><span>Answered if planned studies succeed</span><b>${c.g.planned_coverage_pct}%</b><span>Answered by published papers today</span><b>${c.g.realised_closure_pct}%</b></div></div>`;
+      <div class="ch-bar" title="Light: modelled planned coverage, including probability assumptions. Dark: heuristic closure from recorded evidence. Neither is a validated probability of resolving the question."><span style="width:${c.g.planned_coverage_pct}%"></span><i style="width:${c.g.realised_closure_pct}%"></i></div>
+      <div class="ch-kv" title="How much of this evidence gap is answered"><span>Modelled planned coverage</span><b>${c.g.planned_coverage_pct}%</b><span>Modelled closure at snapshot</span><b>${c.g.realised_closure_pct}%</b></div></div>`;
     if (!c.acts.length) {
       html += `<div class="chn ch-act st-orphan" data-k="none:${c.g.gap_id}" data-p="${gk}" style="grid-column:3;grid-row:${r}"><div class="chn-t">No study planned</div><div class="chn-s">Consider a study, real-world evidence or evidence synthesis</div></div>
         <div class="chn ch-imp st-late" data-k="noimp:${c.g.gap_id}" data-p="none:${c.g.gap_id}" style="grid-column:4;grid-row:${r}"><div class="chn-t">Gap stays open</div><div class="chn-s">Nothing will close it before ${fmtM(v.need)}</div></div>`;
@@ -3701,7 +3715,7 @@ function drawChain(row) {
     }
     for (const a of c.acts) {
       const ak = `act:${c.g.gap_id}:${a.s.study_id}`;
-      const verdict = a.status === "delivered" ? ["Published", "var(--good)"] : a.status === "extra" ? ["Adds support; gap already closed", "var(--text-3)"] : a.status === "late" ? [`${a.late} months after it is needed`, "var(--critical)"] : a.status === "ontime" ? ["In time", "var(--good)"] : ["No date yet", "var(--text-3)"];
+      const verdict = a.status === "delivered" ? ["Published", "var(--good)"] : a.status === "extra" ? ["Additional support; high modelled closure", "var(--text-3)"] : a.status === "late" ? [`${a.late} months after it is needed`, "var(--critical)"] : a.status === "ontime" ? ["In time", "var(--good)"] : ["No date yet", "var(--text-3)"];
       const loe = { "after LOE": " · after the US LOE signal", "at LOE": " · around the US LOE signal", "tight": " · 1-3 years of use before LOE" }[a.w.window] || "";
       html += `<div class="chn ch-act ${a.sim ? "is-simbox" : ""}" data-k="${ak}" data-p="${gk}" data-study="${a.s.study_id}" style="grid-column:3;grid-row:${r}">
         <div class="chn-t">${bdot(firstBrand(a.s.brand_ids))} ${esc(shortName(a.s))}${a.sim ? ` <span class="chip sim">planned · simulated</span>` : ""}</div>
@@ -3752,7 +3766,7 @@ function applyChainSel(row) {
       + `<span class="chip link" data-open="${s.study_id}">Open study</span>`;
   } else {
     const gid = k.split(":")[1], c = ch.find(x => x.g.gap_id === gid);
-    txt = c ? `<b>${esc(c.g.title)}</b>: importance ${c.g.gap_criticality_score.toFixed(1)} out of 5. If the planned studies succeed they would answer ${c.g.planned_coverage_pct}% of it; published papers answer ${c.g.realised_closure_pct}% today. `
+    txt = c ? `<b>${esc(c.g.title)}</b>: importance ${c.g.gap_criticality_score.toFixed(1)} out of 5. Modelled planned coverage is ${c.g.planned_coverage_pct}%; modelled closure at snapshot is ${c.g.realised_closure_pct}%. These estimates need scientific review. `
       + (c.acts.length ? `${c.acts.length} stud${c.acts.length > 1 ? "ies" : "y"}: ${c.acts.map(a => esc(shortName(a.s))).join(", ")}. ` : `<b style="color:var(--critical)">No study closes it.</b> `)
       + `<span class="chip link" data-open="${gid}">Open gap</span>` : "";
   }
@@ -3875,8 +3889,8 @@ function changeList() {
   for (const r of D.regulatory_events) { const d = pd(r.date); if (inW(d)) out.push({ d, type: "regulatory", text: `${brandNm(r.brand_id)}: ${r.agency} ${r.indication} ${r.type}`, sm: { view: "access", card: "Regulatory timeline" } }); }
   return out.sort((a, b) => b.d - a.d);
 }
-const changesHtml = (ch, n) => ch.length ? `<ul class="chg">${ch.slice(0, n).map((c, i) => `<li><span class="chg-d">${fmtD(c.d)}</span><span class="chip">${esc(c.type)}</span> <a href="#" data-chg="${i}">${esc(c.text)}</a></li>`).join("")}</ul>${ch.length > n ? `<div class="muted small">+ ${ch.length - n} more</div>` : ""}`
-  : `<div class="empty">Nothing new since you last marked changes as seen. New items appear when the data is refreshed.</div>`;
+const changesHtml = (ch, n) => `<p class="small muted">Events dated within this snapshot. Not a comparison of monthly insights or recommendations.</p>` + (ch.length ? `<ul class="chg">${ch.slice(0, n).map((c, i) => `<li><span class="chg-d">${fmtD(c.d)}</span><span class="chip">${esc(c.type)}</span> <a href="#" data-chg="${i}">${esc(c.text)}</a></li>`).join("")}</ul>${ch.length > n ? `<div class="muted small">+ ${ch.length - n} more</div>` : ""}`
+  : `<div class="empty">No additional recorded events in this snapshot since you marked them seen. This does not check for new events on the web.</div>`);
 function markSeen() { try { localStorage.setItem("ibd-seen", isoDay(TODAY)); } catch (e) {} updateBell(); if (state.view === "hub") render(); }
 
 // ---- guided tasks
@@ -3963,7 +3977,7 @@ RENDER.hub = el => {
     <div class="card s-8"><div class="card-h"><h2>Your top decisions</h2>${ib("actions")}<span class="sub">${list.length} open · role: ${esc(roleName())}</span></div>
       <div class="dec-list">${shown.map(decRow).join("") || `<div class="empty">No open decisions for this role and filter. Try "Everyone" in the role menu.</div>`}</div>
       ${list.length > 5 ? `<button class="btn" id="dec-more" style="margin-top:10px">${hubState.all ? "Show the top 5 only" : `Show ${Math.min(15, list.length)} decisions`}</button>` : ""}</div>
-    <div class="card s-4"><div class="card-h"><h2>What changed</h2><span class="sub">${seenDate() ? `since ${fmtD(seenDate())}` : "last 30 days"}</span></div>
+    <div class="card s-4"><div class="card-h"><h2>Recent recorded events</h2><span class="sub">${seenDate() ? `after last-seen snapshot ${fmtD(seenDate())}` : "30 days ending at snapshot"}</span></div>
       ${changesHtml(ch, 8)}${ch.length ? `<button class="btn" data-seen="1" style="margin-top:10px">Mark all as seen</button>` : ""}</div>
     <div class="card s-12"><div class="card-h"><h2>Coming up</h2><span class="sub">deadlines that force decisions</span>
       <span class="right seg" id="dl-days"><button data-v="90" class="${hubState.days === 90 ? "on" : ""}">90 days</button><button data-v="180" class="${hubState.days === 180 ? "on" : ""}">6 months</button></span></div>
@@ -4011,7 +4025,7 @@ function hubAfterRender(el) {
   const top = document.querySelector("header.top");
   document.getElementById("f-brand").insertAdjacentHTML("beforebegin", `<label class="role-sel" title="Rank decisions for your job"><span>I'm a</span><select id="f-role">${ROLES.map(([v, l]) => `<option value="${v}" ${v === ROLE ? "selected" : ""}>${l}</option>`).join("")}</select></label>`);
   document.getElementById("viewbtn").parentElement.insertAdjacentHTML("beforebegin", `
-    <div style="position:relative"><button class="icon-btn tb-btn" id="bell-btn" aria-label="What changed" title="What changed since your last visit"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="bell-n" id="bell-n"></span></button>
+    <div style="position:relative"><button class="icon-btn tb-btn" id="bell-btn" aria-label="Recent recorded events" title="Recent events in the loaded snapshot"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="bell-n" id="bell-n"></span></button>
       <div class="viewmenu bell-pop" id="bell-pop"></div></div>
     <button class="btn ask-btn" id="ask-btn" title="Ask a question about this data"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.4L19 10l-5.2 1.6L12 17l-1.8-5.4L5 10l5.2-1.6z"/></svg>Ask</button>
     <div style="position:relative"><button class="icon-btn tb-btn" id="help-btn" aria-label="Help" title="Tour and glossary" style="font-weight:700">?</button>
@@ -4020,7 +4034,7 @@ function hubAfterRender(el) {
   const bell = document.getElementById("bell-btn"), pop = document.getElementById("bell-pop");
   bell.onclick = e => { e.stopPropagation(); document.getElementById("help-pop").classList.remove("open");
     const ch = changeList(); pop._ch = ch;
-    pop.innerHTML = `<div class="row" style="margin-bottom:6px"><b>What changed</b><span class="muted small">${seenDate() ? `since ${fmtD(seenDate())}` : "last 30 days"}</span></div>${changesHtml(ch, 8).replace(/data-chg=/g, "data-bchg=")}
+    pop.innerHTML = `<div class="row" style="margin-bottom:6px"><b>Recent recorded events</b><span class="muted small">${seenDate() ? `after last-seen snapshot ${fmtD(seenDate())}` : "30 days ending at snapshot"}</span></div>${changesHtml(ch, 8).replace(/data-chg=/g, "data-bchg=")}
       <div class="row" style="margin:10px 0 0">${ch.length ? `<button class="btn" data-seen="1">Mark all as seen</button>` : ""}<a href="#" data-goto="hub">Open my decisions</a></div>`;
     pop.classList.toggle("open"); };
   pop.onclick = e => e.stopPropagation();
@@ -4052,14 +4066,14 @@ document.addEventListener("click", e => {
 const GLOSSARY = [
   ["Evidence gap", "A question the brand needs evidence to answer (for example head-to-head data vs a competitor). In this prototype the gap list is a simulated brand plan."],
   ["Planned coverage", "How much of a gap the studies in the plan will answer if they succeed (0-100%)."],
-  ["Realised closure", "How much of a gap is already answered by published evidence. A peer-reviewed paper counts fully; congress abstracts count less."],
+  ["Modelled closure", "How much of a gap is already answered by published evidence. This is a heuristic planning estimate using publication weights; publication alone does not prove the question is resolved."],
   ["Criticality", "How much a gap matters, from 1 to 5: stakeholders, strategic fit, uncertainty, guideline and HTA relevance, urgency."],
   ["Evidence readiness", "For each strategic imperative, a 0-100 score of how well and how soon its gaps will be closed."],
   ["Loss of exclusivity (LOE)", "When patents and regulatory protection end and biosimilars or generics can launch."],
   ["Years of use before LOE", "Time between when a study's result reaches guidelines and payers and the LOE date."],
   ["Last useful start", "The last month a new study can start and still give at least two years of use before LOE."],
   ["Evidence debt", "Results already public (topline or congress) that still have no peer-reviewed paper."],
-  ["Share of voice", "Share of congress abstracts or journal papers that name each drug."],
+  ["Share of voice", "Share of tracked-asset title mentions in the retrieved congress or journal records; not audience reach. Multi-asset titles count for each asset."],
   ["Head-to-head", "A trial comparing two active drugs directly, rather than each against placebo."],
   ["HTA", "Health technology assessment: bodies such as NICE, G-BA, HAS and CDA-AMC that judge value for reimbursement."],
   ["Topline / primary completion", "Topline is the first public headline result; primary completion is when the last patient reaches the primary endpoint."],
@@ -4071,7 +4085,7 @@ function openGlossary() { openDrawer("Glossary", "terms used in this dashboard",
 const TOUR = [
   ['[data-nav="hub"]', "Start with your decisions", "The decisions that matter most right now, each with an owner, a deadline and the evidence behind it."],
   ["#f-role", "Pick your role", "Decisions are ranked for your job. Change it any time."],
-  ["#bell-btn", "What changed", "New competitor news, guideline updates and HTA decisions since your last visit."],
+  ["#bell-btn", "Recent recorded events", "Dated events in the loaded snapshot since the last-seen snapshot marker. Monthly recommendation comparison is not connected."],
   ["#ask-btn", "Ask a question", "Ask in plain words. The assistant answers from this data and takes you to the right page."],
   ['[data-nav="guides"]', "Guided tasks", "Step-by-step walk-throughs, such as preparing an evidence plan review."],
   ["#f-version", "Full or simplified", "Two layouts of the same data. Switch at any time."],
@@ -4111,7 +4125,7 @@ document.body.insertAdjacentHTML("beforeend", `<aside class="ask" id="ask" aria-
 </aside>`);
 const ASK = { ai: null, model: "", turns: [], busy: false };
 const ASK_SUGG = ["What are the top 3 studies we need to do?", "What are the recent competitive data releases?", "What deadlines are coming up?",
-  "What changed since my last visit?", "How do guidelines position TREMFYA?", "When does TREMFYA lose exclusivity?"];
+  "Which recent events are in this snapshot?", "How do guidelines position TREMFYA?", "When does TREMFYA lose exclusivity?"];
 function askOpen(open) {
   document.body.classList.toggle("ask-open", open);
   if (open) { askStatus(); if (!document.getElementById("ask-msgs").children.length) askWelcome(); setTimeout(() => document.getElementById("ask-in").focus(), 150); }
@@ -4184,9 +4198,9 @@ function askBuiltIn(q) {
     return { html: `<b>Next 90 days:</b>` + (dl.length ? li(dl.slice(0, 10).map(d => `<b>${fmtD(d.d)}</b> · ${DL_TYPE[d.type][0]}: ${esc(d.label)}${d.est ? " (estimated)" : ""}`)) : "<div>No deadlines in the next 90 days.</div>"),
       sm: { view: "hub", card: "Coming up" } };
   }
-  if (/changed|what'?s new|since (my|the) last|news/.test(s)) {
+  if (/changed|recent|what'?s new|since (my|the) last|news/.test(s)) {
     const ch = changeList();
-    return { html: `<b>What changed ${seenDate() ? `since ${fmtD(seenDate())}` : "in the last 30 days"}:</b>` + (ch.length ? li(ch.slice(0, 8).map(c => `<b>${fmtD(c.d)}</b> · ${esc(c.text)}`)) : "<div>Nothing new.</div>"), sm: { view: "hub", card: "What changed" } };
+    return { html: `<b>Recent recorded events ${seenDate() ? `after last-seen snapshot ${fmtD(seenDate())}` : "in the 30 days ending at snapshot"}:</b>` + (ch.length ? li(ch.slice(0, 8).map(c => `<b>${fmtD(c.d)}</b> · ${esc(c.text)}`)) : "<div>No additional events in this snapshot.</div>") + "<p class=\"small muted\">This lists dated events, not changes between monthly recommendations.</p>", sm: { view: "hub", card: "Recent recorded events" } };
   }
   if (/decision|should (i|we)|priorit|action|to do|what now/.test(s)) {
     const ds = decisionList().slice(0, 5);
@@ -4227,7 +4241,7 @@ const ASK_TABLES = Object.keys(D).filter(k => Array.isArray(D[k]) && D[k].length
 const askTools = () => [
   { name: "get_decisions", description: "Top open decisions for the user's role, ranked by impact x urgency x confidence, with owner, deadline, reason, expected effect and basis. Use for priorities, 'what should we do', top studies to run.", input_schema: { type: "object", properties: { limit: { type: "integer" } } } },
   { name: "get_deadlines", description: "Upcoming deadlines: decision due dates, congress abstract deadlines, J&J and competitor readouts, competitor regulatory events, guideline evidence cut-offs (estimated) and the last useful start for a new study before loss of exclusivity.", input_schema: { type: "object", properties: { days: { type: "integer", description: "look-ahead window in days, default 90" } } } },
-  { name: "get_changes", description: "What changed recently: signals, new journal papers, guideline versions, HTA decisions and regulatory events.", input_schema: { type: "object", properties: {} } },
+  { name: "get_changes", description: "Recent dated events in the loaded snapshot. Does not compare saved monthly insights or recommendations.", input_schema: { type: "object", properties: {} } },
   { name: "get_page_summary", description: "The short computed summary shown at the top of a dashboard page.", input_schema: { type: "object", properties: { page: { type: "string", enum: Object.keys(SX_SUMMARY) } }, required: ["page"] } },
   { name: "search", description: "Find J&J studies, competitor trials, evidence gaps and brands by name or keyword.", input_schema: { type: "object", properties: { text: { type: "string" } }, required: ["text"] } },
   { name: "query_table", description: "Read rows from a dashboard table. Each row has _origin (public_verified, public_unverified, derived, simulated, ai_inferred, mixed, reference) plus lists of simulated and AI-inferred fields.", input_schema: { type: "object", properties: { table: { type: "string", enum: ASK_TABLES }, contains: { type: "string", description: "keep rows whose text contains this, case-insensitive" }, limit: { type: "integer" } }, required: ["table"] } },

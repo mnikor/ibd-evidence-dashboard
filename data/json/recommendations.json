@@ -109,7 +109,7 @@
    "decision_level": "strategic",
    "action_type": "accelerate",
    "target_entity_ids": "GAP-10",
-   "statement": "Ask whether GORGEOUS (German guselkumab RWE, N=500) can report an SC-induction cohort at an earlier data cut, and partner with the independent groups already publishing guselkumab RWE (DDW 2026 propensity-matched studies) rather than starting a new claims study",
+   "statement": "Ask whether GORGEOUS (German guselkumab RWE, N=500) can report an SC-induction cohort at an earlier data cut, and assess collaboration with groups publishing guselkumab RWE (DDW 2026 propensity-matched studies), after verifying funding, design and population relevance",
    "cost_usd": 300000,
    "deadline": "2026-11-30",
    "funder_id": "F-USMAF",

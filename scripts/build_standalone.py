@@ -6,6 +6,7 @@ Output: dist/IBD-Evidence-Dashboard.html — one file, no zip, no .js attachment
 receiving machine. Email-friendly: Gmail and most filters block .js/.bat (even inside a zip) but allow .html.
 Read-only: the Data Editor cannot save (no edit server); everything else works. The world map needs internet.
 """
+import json
 import pathlib
 import re
 import subprocess
@@ -31,8 +32,9 @@ def main():
     banner = ('<div style="position:fixed;bottom:10px;right:10px;z-index:99;background:var(--surface);border:1px solid var(--line);'
               'border-radius:10px;padding:6px 10px;font-size:calc(11.5px * var(--fs));color:var(--text-3);box-shadow:var(--shadow)">'
               'Standalone copy · read-only · data as of {built}</div>')
-    built = re.search(r'Data as of ([^<]+)<', html)
-    html = html.replace("</body>", banner.format(built=built.group(1).split("·")[0].strip() if built else "") + "\n</body>")
+    manifest = json.loads((ROOT / 'data/json/_manifest.json').read_text())
+    built = manifest.get('snapshot_date', manifest['built'])
+    html = html.replace("</body>", banner.format(built=built) + "\n</body>")
     OUT.parent.mkdir(exist_ok=True)
     # the two standalone files link to each other
     OUT.write_text(html.replace("<script>", f'<script>window.IBD_ALT_URL = "{OUT_SIMPLE.name}";</script>\n<script>', 1))

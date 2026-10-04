@@ -65,6 +65,7 @@ def venue_of(r):
 
 
 def presentation_type(series, title, pub_types, source, r=None):
+    r = r or {}
     if series == "UEGW":
         if r.get("uegw_format") == "presentation":
             return "Oral"
@@ -79,9 +80,8 @@ def presentation_type(series, title, pub_types, source, r=None):
             return "Oral"
         return "Abstract"
     if series == "ACG":
-        # ACG presents every accepted abstract as a poster unless the programme lists it as an oral paper.
-        # The AJG number is no guide: plain-numbered items (e.g. 89, 112 in 2025) are not in the oral list.
-        return r.get("acg_oral") or "Poster"
+        # Absence from the retrieved oral list does not verify a poster presentation.
+        return r.get("acg_oral") or "Abstract (format unverified)"
     if series in ("CCC", "Other congress"):
         return "Abstract"
     pt = " ".join(pub_types or [])
@@ -260,7 +260,7 @@ def main():
     sov_congress = []
     for venue, c in counts(cong, lambda p: p["venue"]).items():
         tot = sum(c.values())
-        orals = Counter(b for p in cong if p["venue"] == venue and p["presentation_type"] in ("Oral", "Digital oral") for b in p["brands_title"])
+        orals = Counter(b for p in cong if p["venue"] == venue and p["presentation_type"] in ("Oral", "Late-breaking oral") for b in p["brands_title"])
         for b, n in c.items():
             sov_congress.append({"venue": venue, "series": venue.rsplit(" ", 1)[0], "year": venue.rsplit(" ", 1)[1], "brand_id": b, "n": n,
                                  "n_orals": orals.get(b, 0), "share_pct": round(100 * n / tot, 1), "venue_total_mentions": tot})

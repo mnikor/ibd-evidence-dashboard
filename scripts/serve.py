@@ -62,11 +62,11 @@ class Handler(SimpleHTTPRequestHandler):
         super().__init__(*a, directory=str(DASH), **kw)
 
     def log_message(self, fmt, *args):  # quieter console
-        if "/api/" in (args[0] if args else ""):
+        if "/api/" in str(args[0] if args else ""):
             super().log_message(fmt, *args)
 
     def end_headers(self):
-        if self.path.startswith(("/api/", "/data.js")):
+        if self.path.startswith(("/api/", "/data.js")) or self.path.split("?")[0] in ("/", "/index.html", "/simple.html"):
             self.send_header("Cache-Control", "no-store")
         super().end_headers()
 

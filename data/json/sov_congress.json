@@ -50,7 +50,7 @@
    "year": "2026",
    "brand_id": "ENT",
    "n": 58,
-   "n_orals": 7,
+   "n_orals": 2,
    "share_pct": 19.8,
    "venue_total_mentions": 293,
    "_provenance": {
@@ -91,7 +91,7 @@
    "year": "2026",
    "brand_id": "RIN",
    "n": 60,
-   "n_orals": 6,
+   "n_orals": 2,
    "share_pct": 20.5,
    "venue_total_mentions": 293,
    "_provenance": {
@@ -132,7 +132,7 @@
    "year": "2026",
    "brand_id": "STE",
    "n": 60,
-   "n_orals": 4,
+   "n_orals": 2,
    "share_pct": 20.5,
    "venue_total_mentions": 293,
    "_provenance": {
@@ -214,7 +214,7 @@
    "year": "2026",
    "brand_id": "OBE",
    "n": 22,
-   "n_orals": 6,
+   "n_orals": 1,
    "share_pct": 7.5,
    "venue_total_mentions": 293,
    "_provenance": {
@@ -255,7 +255,7 @@
    "year": "2026",
    "brand_id": "OMV",
    "n": 25,
-   "n_orals": 7,
+   "n_orals": 0,
    "share_pct": 8.5,
    "venue_total_mentions": 293,
    "_provenance": {
@@ -296,7 +296,7 @@
    "year": "2026",
    "brand_id": "SKY",
    "n": 30,
-   "n_orals": 6,
+   "n_orals": 1,
    "share_pct": 10.2,
    "venue_total_mentions": 293,
    "_provenance": {
@@ -337,7 +337,7 @@
    "year": "2026",
    "brand_id": "TRE",
    "n": 19,
-   "n_orals": 4,
+   "n_orals": 1,
    "share_pct": 6.5,
    "venue_total_mentions": 293,
    "_provenance": {
@@ -419,7 +419,7 @@
    "year": "2026",
    "brand_id": "VEL",
    "n": 13,
-   "n_orals": 2,
+   "n_orals": 0,
    "share_pct": 4.4,
    "venue_total_mentions": 293,
    "_provenance": {
@@ -1485,7 +1485,7 @@
    "year": "2025",
    "brand_id": "AFI",
    "n": 2,
-   "n_orals": 2,
+   "n_orals": 1,
    "share_pct": 0.8,
    "venue_total_mentions": 245,
    "_provenance": {
@@ -1567,7 +1567,7 @@
    "year": "2025",
    "brand_id": "ENT",
    "n": 68,
-   "n_orals": 12,
+   "n_orals": 2,
    "share_pct": 27.8,
    "venue_total_mentions": 245,
    "_provenance": {
@@ -1608,7 +1608,7 @@
    "year": "2025",
    "brand_id": "RIN",
    "n": 42,
-   "n_orals": 5,
+   "n_orals": 0,
    "share_pct": 17.1,
    "venue_total_mentions": 245,
    "_provenance": {
@@ -1649,7 +1649,7 @@
    "year": "2025",
    "brand_id": "STE",
    "n": 47,
-   "n_orals": 5,
+   "n_orals": 1,
    "share_pct": 19.2,
    "venue_total_mentions": 245,
    "_provenance": {
@@ -1690,7 +1690,7 @@
    "year": "2025",
    "brand_id": "SKY",
    "n": 29,
-   "n_orals": 5,
+   "n_orals": 0,
    "share_pct": 11.8,
    "venue_total_mentions": 245,
    "_provenance": {
@@ -1731,7 +1731,7 @@
    "year": "2025",
    "brand_id": "OBE",
    "n": 6,
-   "n_orals": 1,
+   "n_orals": 0,
    "share_pct": 2.4,
    "venue_total_mentions": 245,
    "_provenance": {
@@ -1772,7 +1772,7 @@
    "year": "2025",
    "brand_id": "VEL",
    "n": 8,
-   "n_orals": 2,
+   "n_orals": 0,
    "share_pct": 3.3,
    "venue_total_mentions": 245,
    "_provenance": {
@@ -1813,7 +1813,7 @@
    "year": "2025",
    "brand_id": "OMV",
    "n": 18,
-   "n_orals": 5,
+   "n_orals": 1,
    "share_pct": 7.3,
    "venue_total_mentions": 245,
    "_provenance": {
@@ -1854,7 +1854,7 @@
    "year": "2025",
    "brand_id": "TRE",
    "n": 18,
-   "n_orals": 4,
+   "n_orals": 2,
    "share_pct": 7.3,
    "venue_total_mentions": 245,
    "_provenance": {
@@ -2715,7 +2715,7 @@
    "year": "2025",
    "brand_id": "OBE",
    "n": 1,
-   "n_orals": 0,
+   "n_orals": 1,
    "share_pct": 0.5,
    "venue_total_mentions": 186,
    "_provenance": {
@@ -3535,7 +3535,7 @@
    "year": "2024",
    "brand_id": "ENT",
    "n": 64,
-   "n_orals": 5,
+   "n_orals": 2,
    "share_pct": 27.4,
    "venue_total_mentions": 234,
    "_provenance": {
@@ -3576,7 +3576,7 @@
    "year": "2024",
    "brand_id": "STE",
    "n": 85,
-   "n_orals": 8,
+   "n_orals": 3,
    "share_pct": 36.3,
    "venue_total_mentions": 234,
    "_provenance": {
@@ -3617,7 +3617,7 @@
    "year": "2024",
    "brand_id": "SKY",
    "n": 18,
-   "n_orals": 7,
+   "n_orals": 2,
    "share_pct": 7.7,
    "venue_total_mentions": 234,
    "_provenance": {
@@ -3699,7 +3699,7 @@
    "year": "2024",
    "brand_id": "OBE",
    "n": 4,
-   "n_orals": 2,
+   "n_orals": 0,
    "share_pct": 1.7,
    "venue_total_mentions": 234,
    "_provenance": {
@@ -3781,7 +3781,7 @@
    "year": "2024",
    "brand_id": "RIN",
    "n": 24,
-   "n_orals": 2,
+   "n_orals": 1,
    "share_pct": 10.3,
    "venue_total_mentions": 234,
    "_provenance": {
@@ -3822,7 +3822,7 @@
    "year": "2024",
    "brand_id": "TRE",
    "n": 7,
-   "n_orals": 4,
+   "n_orals": 1,
    "share_pct": 3.0,
    "venue_total_mentions": 234,
    "_provenance": {
@@ -3904,7 +3904,7 @@
    "year": "2024",
    "brand_id": "ZEP",
    "n": 11,
-   "n_orals": 2,
+   "n_orals": 0,
    "share_pct": 4.7,
    "venue_total_mentions": 234,
    "_provenance": {

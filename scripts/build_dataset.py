@@ -1075,7 +1075,7 @@ def pub_weight(p):
         return 0.02, "other"
     if p["kind"] == "journal":
         return (0.35, "journal") if pt in ("Original article", "Clinical trial report", "Systematic review / meta-analysis", "Article (not PubMed-indexed)") else (0.05, "other")
-    return (0.15 if pt in ("Oral", "Digital oral") else 0.07), "congress"
+    return (0.15 if pt in ("Oral", "Late-breaking oral", "Digital oral") else 0.07), "congress"
 
 
 pub_by_gap, pub_by_study = defaultdict(list), defaultdict(list)
@@ -1103,7 +1103,7 @@ for p in PUBLIST:
 GAP_PUB_CAP = {
     "GAP-01": (0.35, "needs a randomised head-to-head (CHARGE); MAIC / switch data are supportive only"),
     "GAP-02": (0.6, "indirect comparisons support HTA but not guideline-grade head-to-head claims"),
-    "GAP-07": (0.8, "independent RWE is strong but not J&J-controlled in design or populations"),
+    "GAP-07": (0.8, "recorded RWE needs review for design, population relevance and funding; independence is unverified"),
     "GAP-08": (0.5, "disease/remission models are not a cost-effectiveness analysis vs biosimilar ustekinumab"),
     "GAP-09": (0.5, "phase 2b DUET data; phase 3 DUET ENCORE required for label"),
     "GAP-10": (0.5, "trial data on SC regimens; real-world persistence and preference still needed"),
@@ -1698,7 +1698,7 @@ def _r(x): return math.floor(x + 0.5)
 trend_txt = "; ".join(f"{ser} {_r(v[0][1])}% → {_r(v[-1][1])}% ({v[0][0]}–{v[-1][0]})" for ser, v in trend if len(v) >= 2)
 cong3 = Counter(b for p in PUBLIST if p["kind"] == "congress" for b in p["_bt"] if b != "STE")
 rank = [b for b, _ in cong3.most_common()].index("TRE") + 1 if "TRE" in cong3 else None
-derived_ai.append(("AI-P01", "summary", "GLOBAL", f"TREMFYA's share of congress abstracts rose at all four major congresses; #{rank} by volume over 3 years",
+derived_ai.append(("AI-P01", "summary", "GLOBAL", f"TREMFYA's share of congress abstracts rose at all four major congresses; #{rank} by tracked volume excluding legacy STELARA",
                    f"Share of voice: {trend_txt}. Over 3 years TREMFYA has {cong3['TRE']} congress abstracts vs {', '.join(f'{b} {n}' for b, n in cong3.most_common(4) if b != 'TRE')}.",
                    "SRC-CROSSREF; SRC-UEG", 0.9))
 mix = {b: Counter(p["analysis_type"] for p in PUBLIST if b in p["_bt"]) for b in ("TRE", "SKY", "RIN")}
@@ -1719,7 +1719,7 @@ for i, (g, n) in enumerate(sorted(silent, key=lambda x: -x[1])[:2]):
 debt = [r["fields"] for r in t_study.rows if r["fields"].get("pubs_congress") and not r["fields"].get("peer_reviewed_paper") and r["fields"]["lead_sponsor"].startswith("Janssen")]
 if debt:
     derived_ai.append(("AI-P06", "risk alert", "GLOBAL", f"{len(debt)} J&J trials presented at congresses but without a peer-reviewed trial paper",
-                       "Congress-only: " + ", ".join(f"{d['acronym'] or d['study_id']} ({d['pubs_congress']} abstract{'s' if d['pubs_congress'] != 1 else ''} since {str(d['first_congress_date'])[:7]})" for d in sorted(debt, key=lambda d: -d['pubs_congress'])[:6]) + ". None has a peer-reviewed primary paper yet.",
+                       "Congress-only: " + ", ".join(f"{d['acronym'] or d['study_id']} ({d['pubs_congress']} abstract{'s' if d['pubs_congress'] != 1 else ''} since {str(d['first_congress_date'])[:7]})" for d in sorted(debt, key=lambda d: -d['pubs_congress'])[:6]) + ". No matching peer-reviewed trial paper was identified in this dataset; confirm publication status with the owner.",
                        "; ".join(d["study_id"] for d in debt[:6]), 0.85))
 jumps = [(g, r) for g, r in gap_rows.items() if r["published_closure_pct"] >= 30]
 if jumps:
@@ -2196,11 +2196,13 @@ for b in ("TRE", "ICO", "SKY", "RIN", "ENT", "OMV", "OBE", "TUL", "DUV", "AFI"):
 BN = {"TRE": "TREMFYA", "ICO": "icotrokinra", "SKY": "Skyrizi", "RIN": "Rinvoq", "ENT": "Entyvio", "OMV": "Omvoh"}
 ranked = sorted(("TRE", "SKY", "RIN", "ENT", "OMV"), key=lambda b: -pod[b]["orals"])
 derived_ai.append(("AI-P08", "opportunity", "SI-TRE-01",
-                   f"TREMFYA has the highest oral selection rate among IL-23, JAK and integrin brands ({pod['TRE']['conv']}%) and the most full orals ({pod['TRE']['orals']})",
-                   f"Across ECCO, DDW, UEG Week and ACG (3 years), {pod['TRE']['conv']}% of TREMFYA abstracts were selected as full orals vs "
-                   + ", ".join(f"{BN[b]} {pod[b]['conv']}%" for b in ("SKY", "RIN", "ENT", "OMV")) + ". TREMFYA had fewer abstracts (" + str(pod['TRE']['abstracts']) + " vs " + ", ".join(BN[b] + " " + str(pod[b]["abstracts"]) for b in ("SKY", "RIN", "ENT", "OMV")) + ") but a higher share became orals. "
-                   "ACG orals from the official programme; ECCO digital orals excluded.",
-                   "SI-TRE-01", 0.85))
+                   f"TREMFYA has {pod['TRE']['orals']} identified full orals among {pod['TRE']['abstracts']} retrieved abstracts at four major congresses",
+                   f"The observed oral proportion is {pod['TRE']['conv']}% for TREMFYA, compared with "
+                   + ", ".join(f"{BN[b]} {pod[b]['conv']}%" for b in ("SKY", "RIN", "ENT", "OMV")) + ". "
+                   "These are proportions within retrieved title-matched records, not submission acceptance rates or measures of scientific quality. "
+                   "Coverage varies by congress and year; ACG orals are matched to the official programme, and ECCO digital orals are excluded. "
+                   "Review individual analyses and their relevance before changing dissemination priorities.",
+                   "SI-TRE-01", 0.75))
 rwe_o = {b: [p for p in c4 if b in p["_bt"] and p["presentation_type"] in ORAL_T and p["analysis_type"] == "RWE"] for b in ("TRE", "RIN", "SKY", "ENT")}
 cmp_rx = r"compar|\bversus\b|\bvs\.?\b"
 comp_n = {b: sum(1 for p in o if re.search(cmp_rx, p["title"], re.I)) for b, o in rwe_o.items()}
@@ -2208,9 +2210,9 @@ aff_unknown = sum(1 for b in ("RIN", "SKY", "ENT") for p in rwe_o[b] if not p.ge
 aff_total = sum(len(rwe_o[b]) for b in ("RIN", "SKY", "ENT"))
 tre_rwe = rwe_o["TRE"][0]["title"] if rwe_o["TRE"] else ""
 derived_ai.append(("AI-P09", "so-what", "SI-TRE-05",
-                   f"TREMFYA's orals come almost entirely from trials: {pod['TRE']['rwe_orals']} real-world oral vs {pod['RIN']['rwe_orals']} Rinvoq, {pod['SKY']['rwe_orals']} Skyrizi, {pod['ENT']['rwe_orals']} Entyvio",
-                   f"{pod['TRE']['orals'] - pod['TRE']['rwe_orals']} of {pod['TRE']['orals']} TREMFYA full orals present trial-programme analyses (primary, extension, subgroup, post-hoc) or economic models; randomised trial data is the higher level of evidence, and this share is a strength. "
-                   + (f"The one real-world oral is not a guselkumab study: it is an upadacitinib comparison that includes guselkumab as a comparator ('{tre_rwe[:80].title()}…'). " if re.search(r"upadacitinib", tre_rwe, re.I) else "")
+                   f"Title-classified RWE orals: TREMFYA {pod['TRE']['rwe_orals']}, Rinvoq {pod['RIN']['rwe_orals']}, Skyrizi {pod['SKY']['rwe_orals']}, Entyvio {pod['ENT']['rwe_orals']}",
+                   f"{pod['TRE']['orals'] - pod['TRE']['rwe_orals']} of {pod['TRE']['orals']} TREMFYA full orals have other or unclassified analysis types. This remainder cannot automatically be labelled trial evidence. "
+                   + (f"One matched RWE oral names upadacitinib and guselkumab in a comparative title ('{tre_rwe[:80].title()}…'). " if re.search(r"upadacitinib", tre_rwe, re.I) else "")
                    + f"Of the competitors' real-world orals, {comp_n['RIN']} (Rinvoq), {comp_n['SKY']} (Skyrizi) and {comp_n['ENT']} (Entyvio) compare drugs in routine practice, by their titles. "
                    f"Who ran and funded them is not known for {aff_unknown} of {aff_total}, so this dataset cannot say whether they are independent. "
                    "Question to decide (not a conclusion): are there questions trials will not answer for guselkumab, such as comparisons with upadacitinib or sequencing, where real-world data would be needed (GAP-07, GAP-20)? "
@@ -2218,12 +2220,12 @@ derived_ai.append(("AI-P09", "so-what", "SI-TRE-05",
                    "GAP-07; GAP-20", 0.75))
 tl1a = sum(pod[b]["orals"] for b in ("TUL", "DUV", "AFI"))
 derived_ai.append(("AI-P10", "risk alert", "SI-ICO-02",
-                   f"Anti-TL1A agents hold {tl1a} full orals vs {pod['ICO']['orals']} for icotrokinra",
-                   f"{pod['ICO']['conv']}% of icotrokinra abstracts and "
-                   f"{round(100 * tl1a / max(1, sum(pod[b]['abstracts'] for b in ('TUL', 'DUV', 'AFI'))))}% of anti-TL1A abstracts became orals. "
-                   f"The TL1A class (tulisokibart, duvakitug, afimkibart) has {tl1a / max(1, pod['ICO']['orals']):.0f}x icotrokinra's full orals from {sum(pod[b]['abstracts'] for b in ('TUL', 'DUV', 'AFI'))} abstracts vs {pod['ICO']['abstracts']}; icotrokinra's selection rate is higher. "
-                   "Suggested action: plan ICONIC-UC/CD design, baseline and oral-vs-injectable preference data for oral slots in 2026-27 (GAP-18, GAP-19).",
-                   "GAP-18; GAP-19", 0.75))
+                   f"Three anti-TL1A assets have {tl1a} identified full orals combined; icotrokinra has {pod['ICO']['orals']}",
+                   f"Observed oral proportions in the retrieved records are {pod['ICO']['conv']}% for icotrokinra and "
+                   f"{round(100 * tl1a / max(1, sum(pod[b]['abstracts'] for b in ('TUL', 'DUV', 'AFI'))))}% for the three anti-TL1A assets combined. "
+                   "This compares a three-asset class with one asset; it is not a normalised measure of competitive strength, reach or acceptance. "
+                   "Suggested action: review the populations, endpoints and timing of these presentations, then assess feasible ICONIC-UC/CD submissions against the open comparative and preference questions (GAP-18, GAP-19). Oral selection remains the congress committee's decision.",
+                   "GAP-18; GAP-19", 0.65))
 for iid, typ, scope, head, body, cites, conf in derived_ai:
     t_ai.add(DE, {"insight_id": iid, "insight_type": typ, "scope_entity_ids": scope, "headline": head, "body": body,
                   "cited_entity_ids": cites, "confidence": conf, "review_status": "auto (data-driven)", "generated_at": iso(TODAY)},
@@ -2233,7 +2235,7 @@ t_rec = table("recommendations", "SIMULATED decision-engine recommendations.", [
 RECS = [
     ("REC-001", "E2", "strategic", "publish", "GAP-02", "Publish the existing guselkumab vs risankizumab UC NMA (UEGW 2025) in a peer-reviewed journal and extend it to vedolizumab before REVAMP reads out", 150000, "2026-12-31", "F-HEOR", 0.8),
     ("REC-002", "T2", "tactical", "publish", "NCT05347095", "Prioritise FUZION CD primary manuscript submission (target Gastroenterology)", 60000, "2026-12-15", "F-GMAF", 0.85),
-    ("REC-003", "E3", "strategic", "accelerate", "GAP-10", "Ask whether GORGEOUS (German guselkumab RWE, N=500) can report an SC-induction cohort at an earlier data cut, and partner with the independent groups already publishing guselkumab RWE (DDW 2026 propensity-matched studies) rather than starting a new claims study", 300000, "2026-11-30", "F-USMAF", 0.7),
+    ("REC-003", "E3", "strategic", "accelerate", "GAP-10", "Ask whether GORGEOUS (German guselkumab RWE, N=500) can report an SC-induction cohort at an earlier data cut, and assess collaboration with groups publishing guselkumab RWE (DDW 2026 propensity-matched studies), after verifying funding, design and population relevance", 300000, "2026-11-30", "F-USMAF", 0.7),
     ("REC-004", "E4", "strategic", "review business case", "NCT07499232", "Review CHARGE's business case against the US LOE signal (its answer reaches guidelines around Aug 2031): value for EU HTA re-assessment, class positioning for icotrokinra, interim-analysis options; then decide EMEA MAF co-funding (AI-D01)", 0, "2026-11-30", "F-EMEAMAF", 0.6),
     ("REC-005", "T1", "tactical", "submit to venue", "NCT06408935", "Target REASON primary as late-breaker at UEGW 2027; pre-plan encore at ACG 2027", 0, "2027-06-30", "F-GMAF", 0.7),
     ("REC-006", "T3", "tactical", "reactive material", "EV-001", "Prepare TL1A scientific-exchange pack for MSLs ahead of ATLAS-UC full presentation at UEGW 2026", 40000, "2026-10-10", "F-GMAF", 0.8),
@@ -2344,7 +2346,7 @@ def export():
                                                           indent=1, ensure_ascii=False, default=str))
         cells = Counter(v for r in t.rows for k, v in r["prov"].items() if k not in t.key_fields)
         stats[name] = {"rows": len(t.rows), "cells": dict(cells)}
-    (out_json / "_manifest.json").write_text(json.dumps({"built": iso(TODAY), "tables": stats}, indent=1))
+    (out_json / "_manifest.json").write_text(json.dumps({"built": iso(TODAY), "snapshot_date": iso(TODAY), "tables": stats}, indent=1))
     try:
         write_xlsx(stats)
     except ImportError:
