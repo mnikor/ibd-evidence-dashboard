@@ -19,3 +19,9 @@ deck/png_arial/
 
 # local tool settings
 .claude/
+
+# film build outputs and local secrets
+video3/audio/
+video3/frames/
+video3/preview/
+.env

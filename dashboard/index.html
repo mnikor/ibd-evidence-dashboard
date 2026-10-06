@@ -410,6 +410,51 @@ body.present .top .asof { display: block; }
   .kv { grid-template-columns: 1fr; }
   .act { grid-template-columns: 40px 1fr; } .act .btns { grid-column: 2; }
 }
+/* ---- Overview: the whole chain on one page */
+.ov { display: grid; gap: 14px; }
+.ov-alerts { display: flex; align-items: stretch; gap: 8px; background: color-mix(in srgb, var(--critical) 9%, var(--surface)); border: 1px solid color-mix(in srgb, var(--critical) 35%, transparent); border-radius: 12px; padding: 8px 10px; }
+.ov-alerts .lbl { font-weight: 800; font-size: calc(11px * var(--fs)); letter-spacing: .08em; color: var(--critical); align-self: center; padding: 0 6px; white-space: nowrap; }
+.ov-alert { flex: 1; min-width: 0; text-align: left; border: 1px solid var(--line); background: var(--surface); border-radius: 9px; padding: 7px 10px; cursor: pointer; font: inherit; font-size: calc(13px * var(--fs)); color: var(--text); display: flex; gap: 8px; align-items: flex-start; }
+.ov-alert:hover { border-color: var(--line-strong); box-shadow: var(--shadow); }
+.ov-alert i { flex: none; width: 9px; height: 9px; border-radius: 50%; margin-top: .4em; }
+.ov-alert.red i { background: var(--critical); } .ov-alert.amber i { background: var(--warning); }
+.ov-chain { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 22px; position: relative; }
+.ov-tile { position: relative; text-align: left; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-top: 5px solid var(--text-3); border-radius: 12px; padding: 12px 14px 13px; cursor: pointer; box-shadow: var(--shadow); min-width: 0; }
+.ov-tile:hover { border-color: var(--line-strong); }
+.ov-tile.on { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ov-tile.red { border-top-color: var(--critical); } .ov-tile.amber { border-top-color: var(--warning); } .ov-tile.green { border-top-color: var(--good); }
+.ov-tile .t { font-weight: 800; font-size: calc(12px * var(--fs)); letter-spacing: .06em; text-transform: uppercase; color: var(--text-2); }
+.ov-tile .n { font-size: calc(30px * var(--fs)); font-weight: 800; line-height: 1.1; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.ov-tile .u { font-size: calc(12.5px * var(--fs)); color: var(--text-2); }
+.ov-tile .l { font-size: calc(12.5px * var(--fs)); margin-top: 6px; color: var(--text); }
+.ov-link { position: absolute; left: 0; top: 50%; width: 22px; height: 10px; transform: translate(-100%, -50%); border: 0; padding: 0; cursor: pointer; border-radius: 3px; background: var(--line-strong); }
+.ov-link.red { background: var(--critical); height: 12px; } .ov-link.amber { background: var(--warning); }
+.ov-link:hover { outline: 2px solid var(--text-3); }
+.ov-body { display: grid; grid-template-columns: minmax(0, 1.75fr) minmax(280px, 1fr); gap: 14px; }
+.ov-body.wide { grid-template-columns: 1fr; }
+.ov-body.wide .ov-side { display: grid; grid-template-columns: 1fr 1fr; column-gap: 20px; }
+.ov-panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; box-shadow: var(--shadow); min-width: 0; }
+.ov-panel h2 { font-size: calc(14px * var(--fs)); margin: 0; }
+.ov-panel .ph { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
+.ov-panel .ph .sub { color: var(--text-3); font-size: calc(12px * var(--fs)); }
+.ov-list { display: grid; gap: 8px; margin: 6px 0 14px; }
+.ov-item { text-align: left; font: inherit; color: var(--text); background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; cursor: pointer; display: grid; gap: 3px; }
+.ov-item:hover { border-color: var(--line-strong); }
+.ov-item .h { font-weight: 700; font-size: calc(13px * var(--fs)); }
+.ov-item .m { color: var(--text-2); font-size: calc(12px * var(--fs)); }
+.ov-item .row { display: flex; gap: 8px; align-items: center; justify-content: space-between; }
+.ov-kicker { font-weight: 800; font-size: calc(11px * var(--fs)); letter-spacing: .08em; text-transform: uppercase; color: var(--text-3); margin-top: 2px; }
+#ov-lanes svg { display: block; width: 100%; }
+#ov-lanes .hit { cursor: pointer; }
+.ov-legend { display: flex; flex-wrap: wrap; gap: 12px; font-size: calc(11.5px * var(--fs)); color: var(--text-2); margin-top: 4px; }
+.ov-legend span { display: inline-flex; align-items: center; gap: 5px; }
+.ov-sq { display: inline-block; width: 11px; height: 11px; border-radius: 3px; }
+.ov-dw p { margin: 6px 0; } .ov-dw ul { margin: 6px 0 10px; padding-left: 18px; } .ov-dw li { margin: 3px 0; }
+.ov-dw .ov-go { margin-top: 14px; }
+.ov-gaps { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px; margin: 8px 0; }
+.ov-gaps div { border-radius: 8px; padding: 6px 8px; font-size: calc(11.5px * var(--fs)); color: #10151d; }
+@media (max-width: 1100px) { .ov-chain { grid-template-columns: repeat(3, minmax(0, 1fr)); } .ov-link { display: none; } .ov-body { grid-template-columns: 1fr; } }
+@media (max-width: 640px) { .ov-chain { grid-template-columns: 1fr 1fr; } .ov-alerts { flex-direction: column; } }
 </style>
 </head>
 <body>
@@ -476,7 +521,7 @@ const snapshotLabel = () => TODAY.toLocaleDateString("en-GB", { day: "numeric", 
 document.querySelector(".asof").textContent = `Snapshot: ${snapshotLabel()} · dates and countdowns use this snapshot · mixed public / simulated data`;
 const JNJ = ["TRE", "ICO", "JNJ4804"];
 const BRAND_LABEL = { TRE: "TREMFYA", ICO: "Icotrokinra", JNJ4804: "JNJ-4804" };
-const state = { view: "hub", brand: "ALL", ind: "ALL", prov: false };
+const state = { view: "overview", brand: "ALL", ind: "ALL", prov: false };
 let decisions = {};
 try { decisions = JSON.parse(localStorage.getItem("ibd-decisions") || "{}"); } catch (e) { decisions = {}; }
 const saveDecisions = () => { try { localStorage.setItem("ibd-decisions", JSON.stringify(decisions)); } catch (e) {} };
@@ -4009,7 +4054,7 @@ function drawDeadlines(dls, days) {
 }
 // "N of your decisions use this page"
 function pageBanner(el) {
-  if (["hub", "guides", "editor", "data"].includes(state.view)) return;
+  if (["overview", "hub", "guides", "editor", "data"].includes(state.view)) return;
   const ds = decisionList().filter(a => showMeFor(a).view === state.view); if (!ds.length) return;
   const grid = el.querySelector(":scope > .grid"); if (!grid) return;
   grid.insertAdjacentHTML("beforebegin", `<div class="dec-banner"><b>${ds.length} of your decisions use this page:</b> ${ds.slice(0, 2).map(a => `<a href="#" data-show="${a.id}">${esc(shortTxt(a.title, 70))}</a>`).join(" · ")}${ds.length > 2 ? ` · and ${ds.length - 2} more` : ""} · <a href="#" data-goto="hub">See all decisions</a></div>`);
@@ -4018,6 +4063,227 @@ function hubAfterRender(el) {
   pageBanner(el);
   guideBar(el);
   updateBell();
+}
+
+// ================================================================== OVERVIEW (one page)
+// The whole chain on one screen: alerts → five stages (strategy → evidence needs → studies → disseminate → external impact)
+// with the weakest link between them → the most critical gaps as lanes on a timeline → top insights and actions.
+// Every element opens a side panel with the detail and a link to the full page.
+VIEWS.unshift(["overview", "Overview", '<rect x="3" y="3" width="18" height="5" rx="1.5"/><rect x="3" y="11" width="5" height="10" rx="1.5"/><rect x="10" y="11" width="11" height="10" rx="1.5"/>']);
+SECTIONS.unshift(["overview", "Overview", ["overview"]]);
+SECTION_ICON.overview = "overview"; TAB_LABEL.overview = "Overview";
+const ovState = { focus: null, all: false };
+const OV_ONGOING = /recruiting|active|enrolling/i;
+const OV_RAG = { red: "var(--critical)", amber: "var(--warning)", green: "var(--good)", grey: "var(--line-strong)" };
+const ovLevel = n => (n === "Global MAF" || /Global/.test(n)) ? "Global" : n === "Local operating company" ? "Local" : n.replace(" MAF", "");
+function ovStats() {
+  const sis = siF(), gaps = gapsF(), studies = studiesF(), win = CH_WIN();
+  const off = sis.filter(s => s.status_rag === "red"), watch = sis.filter(s => s.status_rag === "amber");
+  const none = gaps.filter(g => /orphan/.test(g.status) || !g.closing_study_ids);
+  const half = gaps.filter(g => !none.includes(g) && g.planned_coverage_pct < 60), covered = gaps.filter(g => !none.includes(g) && g.planned_coverage_pct >= 60);
+  const ongoing = studies.filter(s => OV_ONGOING.test(s.status));
+  const slip = ongoing.filter(s => (msByStudy.get(s.study_id) || []).some(m => (m.slippage_days || 0) > 180));
+  const afterLoe = ongoing.filter(s => /after/i.test(win[s.study_id]?.window || ""));
+  const debt = evidenceDebt().filter(d => brandOk(firstBrand(d.study.brand_ids)));
+  const venues = D.venues.map(v => ({ v, d: pd(v.abstract_deadline) })).filter(x => x.d && x.d >= TODAY).sort((a, b) => a.d - b.d);
+  const yr = d3.max(D.sov_congress || [], r => r.year), sov = (D.sov_congress || []).filter(r => r.year === yr), tot = d3.sum(sov, r => r.n);
+  const share = b => tot ? Math.round(100 * d3.sum(sov.filter(r => r.brand_id === b), r => r.n) / tot) : 0;
+  const rivals = [...new Set(sov.map(r => r.brand_id))].filter(b => !JNJ.includes(b) && b !== "STE").map(b => [b, share(b)]).sort((a, b) => b[1] - a[1]);
+  const gp = D.guideline_positions.filter(p => p.brand_id === "TRE"), gpRec = gp.filter(p => /recommended|higher/.test(p.position));
+  const hta = D.hta_decisions, htaOk = hta.filter(h => /^recommended/.test(h.decision));
+  const field = D.field_insights || [], neg = field.filter(f => f.sentiment === "negative");
+  return { sis, off, watch, gaps, none, half, covered, studies, ongoing, slip, afterLoe, debt, venues, yr, sovUs: share("TRE"), rivals, gp, gpRec, hta, htaOk, field, neg, win };
+}
+const OV_TILES = [
+  { id: "strategy", t: "Strategy", view: "strategy", n: S => S.sis.length, u: () => "strategic priorities", l: S => `${S.off.length} off track · ${S.watch.length} to watch`, rag: S => S.off.length / Math.max(1, S.sis.length) > .25 ? "red" : S.off.length || S.watch.length ? "amber" : "green" },
+  { id: "needs", t: "Evidence needs", view: "strategy", n: S => S.gaps.length, u: () => "evidence gaps", l: S => `${S.covered.length} covered · ${S.half.length} half covered · ${S.none.length} nothing planned`, rag: S => S.none.length ? "red" : S.half.length ? "amber" : "green" },
+  { id: "studies", t: "Studies", view: "studies", n: S => S.ongoing.length, u: () => "ongoing studies", l: S => `${S.slip.length} slipping over 6 months · ${S.afterLoe.length} land after patent expiry`, rag: S => S.afterLoe.length / Math.max(1, S.ongoing.length) > .3 ? "red" : S.slip.length || S.afterLoe.length ? "amber" : "green" },
+  { id: "dissem", t: "Disseminate", view: "dissemination", n: S => S.debt.length, u: () => "results without a paper", l: S => S.venues[0] ? `Next abstract deadline: ${S.venues[0].v.name}, ${fmtD(S.venues[0].d)}` : "No upcoming abstract deadline", rag: S => S.debt.some(d => d.months >= 18) ? "red" : S.debt.length ? "amber" : "green" },
+  { id: "impact", t: "External impact", view: "access", n: S => `${S.sovUs}%`, u: S => `share of voice at congresses, ${S.yr}`, l: S => `Recommended in ${S.gpRec.length} of ${S.gp.length} guideline settings · ${S.htaOk.length} of ${S.hta.length} HTA decisions positive`, rag: S => S.rivals[0] && S.sovUs < S.rivals[0][1] / 1.5 ? "amber" : "green" },
+];
+const OV_LINKS = [
+  { a: "strategy", b: "needs", n: S => S.off.length, txt: S => `${S.off.length} priorit${S.off.length === 1 ? "y is" : "ies are"} off track. Their evidence gaps decide what to fund first.`, view: "chain" },
+  { a: "needs", b: "studies", n: S => S.none.length * 3 + S.half.length, txt: S => `${S.none.length} gap${S.none.length === 1 ? " has" : "s have"} no study planned and ${S.half.length} ${S.half.length === 1 ? "is" : "are"} only half covered by the studies we run.`, view: "strategy" },
+  { a: "studies", b: "dissem", n: S => S.debt.length * 2, txt: S => `${S.debt.length} study result${S.debt.length === 1 ? " has" : "s have"} been presented but has no peer-reviewed paper yet. Guidelines and HTA bodies rely on papers.`, view: "dissemination" },
+  { a: "dissem", b: "impact", n: S => S.gp.length - S.gpRec.length, txt: S => `TREMFYA is not yet recommended in ${S.gp.length - S.gpRec.length} of ${S.gp.length} guideline settings.`, view: "access" },
+];
+function ovLinkLevels(S) {  // only the weakest link is red, so the colour keeps its meaning
+  const ns = OV_LINKS.map(k => k.n(S)), mx = Math.max(...ns), top = ns.indexOf(mx);
+  return ns.map((n, i) => n <= 0 ? "ok" : i === top ? "red" : "amber");
+}
+function ovAlerts(S) {
+  const out = [];
+  if (S.none.length) out.push({ lvl: "red", txt: `No study planned for “${shortTxt(S.none[0].title, 64)}”`, gap: S.none[0].gap_id });
+  const comp = deadlines(120).find(d => d.type === "comp");
+  if (comp) out.push({ lvl: "red", txt: `${fmtD(comp.d)}: ${shortTxt(comp.label, 80)}`, sm: comp.sm, comp });
+  const dec = decisionList().map(a => ({ a, d: parseDue(a.due) })).filter(x => x.d && daysFrom(x.d) >= 0 && daysFrom(x.d) <= 90).sort((x, y) => x.d - y.d)[0];
+  if (dec) out.push({ lvl: "amber", txt: `Decision due ${/^\d|^[A-Z][a-z]{2}/.test(dec.a.due) ? "by " : "in the "}${dec.a.due}: ${shortTxt(dec.a.title, 80)}`, act: dec.a.id });
+  if (out.length < 3 && S.afterLoe.length) out.push({ lvl: "amber", txt: `${S.afterLoe.length} ongoing studies read out too late to be used before US patent expiry`, tile: "studies" });
+  return out.slice(0, 3);
+}
+// the most critical gaps first: nothing planned, then half covered, then the rest
+function ovLaneGaps(S) {
+  const rank = g => (S.none.includes(g) ? 0 : S.half.includes(g) ? 1 : 2);
+  return S.gaps.slice().sort((a, b) => rank(a) - rank(b) || b.gap_criticality_score - a.gap_criticality_score).slice(0, ovState.all ? 999 : 5);
+}
+function ovImpact(g) {
+  const sth = String(g.stakeholder_ids || ""), fi = (D.field_insights || []).filter(f => f.mapped_gap_id === g.gap_id);
+  const neg = fi.filter(f => f.sentiment === "negative").length;
+  const payer = /PAYER/.test(sth) || /heor|comparative|value|cost/i.test(g.gap_type);
+  const rc = g.realised_closure_pct ?? 0, pc = g.planned_coverage_pct ?? 0, cg = g.pubs_jnj_congress ?? 0;
+  return [
+    { k: "Guidelines", lvl: rc >= 70 ? "green" : rc >= 40 ? "amber" : "red", why: `Published evidence answers ${rc}% of this gap. Guideline panels weigh peer-reviewed papers.` },
+    { k: "HTA and payers", lvl: !payer ? "grey" : pc >= 70 ? "green" : pc >= 40 ? "amber" : "red", why: payer ? `Payers and HTA bodies ask this question; planned studies would answer ${pc}% of it.` : "Not mainly a payer or HTA question." },
+    { k: "Congress voice", lvl: cg >= 5 ? "green" : cg >= 1 ? "amber" : "red", why: `${cg} J&J congress abstract${cg === 1 ? "" : "s"} on this topic.` },
+    { k: "Field feedback", lvl: !fi.length ? "grey" : neg / fi.length > .5 ? "red" : neg / fi.length > .25 ? "amber" : "green", why: fi.length ? `${fi.length} field insight${fi.length === 1 ? "" : "s"} mapped to this gap, ${neg} negative.` : "No field insight mapped to this gap yet." },
+  ];
+}
+function ovGapStudies(g, S, n = 3) {
+  return D.studies.filter(s => (s.gap_fit || {})[g.gap_id] > 0).sort((a, b) => (b.gap_fit[g.gap_id] || 0) - (a.gap_fit[g.gap_id] || 0)).slice(0, n)
+    .map(s => ({ s, w: S.win[s.study_id] || {}, st: pd(s.start_date), rd: pd((S.win[s.study_id] || {}).readout_date) || pd(s.primary_completion_date), use: pd((S.win[s.study_id] || {}).uptake_date) }));
+}
+const ovOutputs = sids => D.evidence_outputs.filter(o => sids.includes(o.study_id) && o.target_venue_id && pd(o.actual_date || o.planned_date));
+
+RENDER.overview = el => {
+  const S = ovStats(), links = ovLinkLevels(S), alerts = ovAlerts(S);
+  const acts = decisionList().slice(0, 3);
+  const order = { "risk alert": 0, "so-what": 1, decision: 1, opportunity: 2 };
+  const ins = (D.ai_insights || []).filter(i => order[i.insight_type] != null).sort((a, b) => order[a.insight_type] - order[b.insight_type] || b.confidence - a.confidence).slice(0, 3);
+  el._ov = { S, alerts, ins, acts };
+  el.innerHTML = `<div class="ov">
+    <div class="ov-alerts"><span class="lbl">ALERTS</span>${alerts.map((a, i) => `<button class="ov-alert ${a.lvl}" data-ova="${i}"><i></i><span>${esc(a.txt)}</span></button>`).join("") || `<span class="muted small">No urgent alerts.</span>`}</div>
+    <div class="ov-chain">${OV_TILES.map((t, i) => `<button class="ov-tile ${t.rag(S)} ${ovState.focus === t.id ? "on" : ""}" data-ovt="${t.id}" title="Open ${t.t}">
+        ${i ? `<span class="ov-link ${links[i - 1] === "ok" ? "" : links[i - 1]}" data-ovl="${i - 1}" title="${esc(OV_LINKS[i - 1].txt(S))}"></span>` : ""}
+        <div class="t">${t.t}</div><div class="n">${t.n(S)}</div><div class="u">${esc(t.u(S))}</div><div class="l">${esc(t.l(S))}</div></button>`).join("")}</div>
+    <div class="ov-body ${ovState.all ? "wide" : ""}">
+      <div class="ov-panel"><div class="ph"><h2>Where the chain is at risk</h2><span class="sub">${ovState.all ? `all ${S.gaps.length} evidence gaps, most at risk first, with every study` : "the 5 most critical evidence gaps"}: studies on a timeline, congresses, and impact so far · click anything</span>
+        <span style="margin-left:auto;display:flex;gap:6px">${ovState.focus ? `<button class="btn" id="ov-clear">Show everything</button>` : ""}<button class="btn ${ovState.all ? "" : "primary"}" id="ov-all">${ovState.all ? "Collapse to top 5" : `Expand: all ${S.gaps.length} gaps and studies`}</button></span></div>
+        <div id="ov-lanes"></div>
+        <div class="ov-legend"><span><span class="ov-sq" style="background:var(--c1)"></span>study runs</span><span><span class="ov-sq" style="background:transparent;border:2px dashed var(--c1)"></span>until guidelines and payers can use it</span>
+          <span>◆ congress</span><span><span class="ov-sq" style="background:var(--good)"></span><span class="ov-sq" style="background:var(--warning)"></span><span class="ov-sq" style="background:var(--critical)"></span>impact: guidelines · HTA/payers · congress voice · field</span></div>${ovState.all ? `<button class="btn" id="ov-all2" style="margin-top:10px">Collapse to top 5</button>` : ""}</div>
+      <div class="ov-panel ov-side"><div class="ov-col"><div class="ph"><h2>Top insights</h2></div>
+        <div class="ov-list">${ins.map((x, i) => `<button class="ov-item" data-ovi="${i}"><span class="h">${esc(x.headline)}</span><span class="m">${esc(x.insight_type)} · confidence ${Math.round(x.confidence * 100)}%</span></button>`).join("") || `<div class="empty">No insights for this filter.</div>`}</div></div>
+        <div class="ov-col"><div class="ph"><h2>Top actions</h2><span class="sub">for ${esc(roleName())}</span></div>
+        <div class="ov-list">${acts.map((a, i) => `<div class="ov-item" data-ovx="${i}"><span class="h">${esc(shortTxt(a.title, 110))}</span>
+          <span class="row"><span class="m">Decide by ${esc(a.due)} · ${esc(a.owner)}</span><button class="btn primary" data-show="${a.id}">Show me</button></span></div>`).join("") || `<div class="empty">No open actions for this role.</div>`}</div>
+        <a href="#" data-goto="hub" class="small">All decisions and deadlines →</a></div></div>
+    </div></div>`;
+  ovDrawLanes(S);
+  el.querySelectorAll("[data-ovt]").forEach(b => b.onclick = e => { if (e.target.closest("[data-ovl]")) return; const id = b.dataset.ovt; ovState.focus = ovState.focus === id ? null : id; render(); ovTilePanel(id, S); });
+  el.querySelectorAll("[data-ovl]").forEach(b => b.onclick = e => { e.stopPropagation(); const k = OV_LINKS[+b.dataset.ovl], from = OV_TILES.find(t => t.id === k.a), to = OV_TILES.find(t => t.id === k.b);
+    ovOpen(`${from.t} → ${to.t}`, "where the chain breaks", `<p>${esc(k.txt(S))}</p>`, k.view); });
+  el.querySelectorAll("[data-ova]").forEach(b => b.onclick = () => { const a = alerts[+b.dataset.ova];
+    if (a.gap) ovGapPanel(IX.gap[a.gap], S); else if (a.act) ovActPanel(buildActions().find(x => x.id === a.act)); else if (a.tile) ovTilePanel(a.tile, S);
+    else if (a.comp) ovOpen("Competitor event", fmtD(a.comp.d), `<p>${esc(a.comp.label)}</p>${a.sm.open ? `<p>${cite(a.sm.open)}</p>` : ""}<p class="muted small">Competitor events and readouts are tracked on the Competition page, with what they threaten and how to respond.</p>`, a.sm.view); });
+  el.querySelectorAll("[data-ovi]").forEach(b => b.onclick = () => { const x = ins[+b.dataset.ovi];
+    ovOpen(esc(x.headline), `${esc(x.insight_type)} · confidence ${Math.round(x.confidence * 100)}%`, `<p>${esc(x.body)}</p>${x.cited_entity_ids ? `<div class="ov-kicker">Based on</div><div>${String(x.cited_entity_ids).split(/;\s*/).filter(Boolean).map(cite).join(" ")}</div>` : ""}`, null); });
+  el.querySelectorAll("[data-ovx]").forEach(b => b.onclick = e => { if (e.target.closest("[data-show]")) return; ovActPanel(acts[+b.dataset.ovx]); });
+  const clr = document.getElementById("ov-clear"); if (clr) clr.onclick = () => { ovState.focus = null; render(); };
+  const a2 = document.getElementById("ov-all2"); if (a2) a2.onclick = () => { ovState.all = false; render(); window.scrollTo(0, 0); };
+  document.getElementById("ov-all").onclick = () => { ovState.all = !ovState.all; render(); if (ovState.all) document.getElementById("ov-lanes").scrollIntoView({ behavior: "smooth", block: "start" }); };
+};
+function ovOpen(title, sub, body, view, extra = "") {
+  openDrawer(title, sub, `<div class="ov-dw">${body}${extra}${view ? `<button class="btn primary ov-go" data-ovgo="${view}">Open the full page →</button>` : ""}</div>`);
+  const b = drawer.querySelector("[data-ovgo]"); if (b) b.onclick = () => { closeDrawer(); goShow({ view: b.dataset.ovgo }); };
+}
+function ovActPanel(a) {
+  if (!a) return;
+  openDrawer(esc(a.title), `${esc(a.level)} · ${esc(a.kind)} · decide by ${esc(a.due)}`, `<div class="ov-dw"><div class="ov-kicker">Why</div><ul>${a.why.map(w => `<li>${esc(w)}</li>`).join("")}</ul>
+    <div class="ov-kicker">If done</div><p>${esc(a.effect)}</p><p class="muted small">Owner: ${esc(a.owner)} · cost ${esc(a.cost || "—")} · based on ${esc(a.basis)}</p>
+    <div>${a.cites.map(cite).join(" ")}</div><button class="btn primary ov-go" data-show="${a.id}">Show me the evidence →</button></div>`);
+  drawer.querySelector("[data-show]").addEventListener("click", () => closeDrawer());
+}
+function ovGapPanel(g, S) {
+  S = S || ovStats();
+  const si = IX.si[siOfGap(g)], rows = ovGapStudies(g, S), outs = ovOutputs(rows.map(r => r.s.study_id)), imp = ovImpact(g);
+  const st = S.none.includes(g) ? ["red", "No study planned"] : S.half.includes(g) ? ["amber", "Only half covered"] : ["green", "Covered by studies"];
+  openDrawer(esc(g.title), `evidence gap · criticality ${g.gap_criticality_score.toFixed(1)} of 5`, `<div class="ov-dw">
+    <p><span class="ov-sq" style="background:${OV_RAG[st[0]]}"></span> <b>${st[1]}</b> · studies would answer ${g.planned_coverage_pct}% · published evidence answers ${g.realised_closure_pct}%</p>
+    ${si ? `<div class="ov-kicker">Strategic priority</div><p>${cite(si.imperative_id)} ${esc(si.title)}</p>` : ""}
+    <div class="ov-kicker">Studies</div>${rows.length ? `<ul>${rows.map(r => `<li>${cite(r.s.study_id)} ${esc(r.s.status)} · results ${fmtM(r.rd)} · usable by guidelines and payers ~${fmtM(r.use)}${/after/i.test(r.w.window || "") ? ` · <b style="color:var(--critical)">after patent expiry</b>` : ""}</li>`).join("")}</ul>` : `<p>No study is planned for this gap.</p>`}
+    ${outs.length ? `<div class="ov-kicker">Congresses and papers</div><ul>${outs.map(o => `<li>${esc(IX.venue[o.target_venue_id]?.name || o.target_venue_id)} · ${fmtM(pd(o.actual_date || o.planned_date))} · ${esc(o.status)}</li>`).join("")}</ul>` : ""}
+    <div class="ov-kicker">Impact so far</div><ul>${imp.map(x => `<li><span class="ov-sq" style="background:${OV_RAG[x.lvl]}"></span> <b>${x.k}:</b> ${esc(x.why)}</li>`).join("")}</ul>
+    <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn primary ov-go" id="ov-chain">Open the evidence chain →</button><button class="btn ov-go" data-open="${g.gap_id}">Gap details</button></div></div>`);
+  document.getElementById("ov-chain").onclick = () => { closeDrawer(); if (si) chainState.si = si.imperative_id; goShow({ view: "chain" }); };
+}
+function ovTilePanel(id, S) {
+  S = S || ovStats();
+  const t = OV_TILES.find(x => x.id === id);
+  const sub = `${t.n(S)} ${t.u(S)}`;
+  if (id === "strategy") {
+    const rows = S.sis.slice().sort((a, b) => ({ red: 0, amber: 1, green: 2 }[a.status_rag] - { red: 0, amber: 1, green: 2 }[b.status_rag]) || a.priority_rank - b.priority_rank);
+    return ovOpen("Strategy", sub, `<p>${esc(t.l(S))}.</p><ul>${rows.map(s => `<li>${statusBadge(s.status_rag)} ${cite(s.imperative_id)} ${esc(s.title)}</li>`).join("")}</ul>`, "strategy");
+  }
+  if (id === "needs") {
+    const col = g => S.none.includes(g) ? OV_RAG.red : S.half.includes(g) ? OV_RAG.amber : OV_RAG.green;
+    return ovOpen("Evidence needs", sub, `<p>${esc(t.l(S))}.</p><div class="ov-gaps">${S.gaps.slice().sort((a, b) => a.planned_coverage_pct - b.planned_coverage_pct).map(g => `<div style="background:${col(g)}" data-open="${g.gap_id}" title="${esc(g.title)}">${esc(shortTxt(g.title, 40))} · ${g.planned_coverage_pct}%</div>`).join("")}</div>`, "strategy");
+  }
+  if (id === "studies") {
+    const lead = s => { const f = (fundByStudy.get(s.study_id) || []).find(x => x.funding_role === "lead funder"); return f ? ovLevel(IX.funder[f.funder_id]?.name || "") : "Partner or investigator"; };
+    const byLead = d3.rollups(S.ongoing, v => v.length, lead).sort((a, b) => b[1] - a[1]);
+    return ovOpen("Studies", sub, `<div class="ov-kicker">Who runs them</div><ul>${byLead.map(([k, n]) => `<li><b>${esc(k)}</b>: ${n}</li>`).join("")}</ul>
+      <div class="ov-kicker">Slipping more than 6 months</div><ul>${S.slip.map(s => `<li>${cite(s.study_id)} ${esc(shortTxt(s.title, 70))}</li>`).join("") || "<li>None</li>"}</ul>
+      <div class="ov-kicker">Results usable only after US patent expiry</div><ul>${S.afterLoe.map(s => `<li>${cite(s.study_id)} ${esc(shortTxt(s.title, 70))}</li>`).join("") || "<li>None</li>"}</ul>`, "studies");
+  }
+  if (id === "dissem") {
+    return ovOpen("Disseminate", sub, `<div class="ov-kicker">Results presented but not yet in a peer-reviewed paper</div><ul>${S.debt.map(d => `<li>${cite(d.sid)} ${d.n} abstract${d.n > 1 ? "s" : ""} since ${fmtM(d.since)} · ${d.months} months without a paper</li>`).join("") || "<li>None</li>"}</ul>
+      <div class="ov-kicker">Next abstract deadlines</div><ul>${S.venues.slice(0, 4).map(x => `<li>${esc(x.v.name)} · ${fmtD(x.d)}</li>`).join("")}</ul>`, "dissemination");
+  }
+  const pos = d3.rollups(S.gp, v => v.length, p => p.position);
+  return ovOpen("External impact", sub, `<div class="ov-kicker">Share of voice at congresses, ${S.yr}</div><ul><li><b>TREMFYA: ${S.sovUs}%</b></li>${S.rivals.slice(0, 3).map(([b, v]) => `<li>${esc(brandNm(b))}: ${v}%</li>`).join("")}</ul>
+    <div class="ov-kicker">Guidelines (TREMFYA)</div><ul>${pos.map(([p, n]) => `<li>${esc(p)}: ${n} setting${n > 1 ? "s" : ""}</li>`).join("")}</ul>
+    <div class="ov-kicker">HTA decisions</div><ul>${S.hta.map(h => `<li>${esc(h.body)} ${esc(h.indication)}: ${esc(h.decision)}</li>`).join("")}</ul>
+    <div class="ov-kicker">Field feedback</div><p>${S.field.length} insights, ${S.neg.length} negative.</p>`, "access");
+}
+function ovDrawLanes(S) {
+  const host = document.getElementById("ov-lanes"); if (!host) return;
+  const gaps = ovLaneGaps(S), loe = pd((D.loe || []).find(l => l.brand_id === "TRE" && l.market === "US")?.planning_loe);
+  const all = ovState.all, sp = all ? 34 : 18, sqW = 4 * sp + 8;
+  const W = Math.max(560, host.clientWidth || 800), fs = CF(), labW = Math.min(all ? 300 : 230, W * .26), x0 = labW + 10, x1 = W - sqW - 14;
+  const lanes = gaps.map(g => ({ g, rows: ovGapStudies(g, S, all ? 99 : 3) })), rowH = l => Math.max((all ? 74 : 58) * fs, 34 + Math.max(1, l.rows.length) * 20 * fs);
+  const H = 26 + d3.sum(lanes, rowH) + (all ? 36 : 20);
+  const x = d3.scaleTime().domain([new Date(TODAY.getFullYear(), TODAY.getMonth() - 3, 1), new Date(2032, 11, 31)]).range([x0, x1]).clamp(true);
+  const f = ovState.focus, dim = part => f && !({ strategy: ["label"], needs: ["label"], studies: ["bars"], dissem: ["dia"], impact: ["sq"] }[f] || []).includes(part) ? .25 : 1;
+  const svg = d3.select(host).append("svg").attr("width", W).attr("height", H).attr("viewBox", `0 0 ${W} ${H}`);
+  x.ticks(d3.timeYear.every(1)).forEach(t => { svg.append("line").attr("x1", x(t)).attr("x2", x(t)).attr("y1", 18).attr("y2", H).attr("stroke", "var(--line)");
+    svg.append("text").attr("x", x(t) + 3).attr("y", 12).style("font-size", `${11 * fs}px`).attr("fill", "var(--text-3)").text(t.getFullYear());
+    if (all) svg.append("text").attr("x", x(t) + 3).attr("y", H - 20).style("font-size", `${11 * fs}px`).attr("fill", "var(--text-3)").text(t.getFullYear()); });
+  const vline = (d, col, lbl) => { if (!d) return; svg.append("line").attr("x1", x(d)).attr("x2", x(d)).attr("y1", 16).attr("y2", H).attr("stroke", col).attr("stroke-width", 2).attr("stroke-dasharray", lbl === "today" ? "" : "4 3");
+    svg.append("text").attr("x", x(d) + 3).attr("y", H - 4).style("font-size", `${10.5 * fs}px`).style("font-weight", 700).attr("fill", col).text(lbl); };
+  vline(TODAY, "var(--text-2)", "today"); vline(loe, "var(--critical)", "US patent expiry");
+  (all ? ["Guide-", "HTA", "Congr.", "Field"] : ["G", "H", "C", "F"]).forEach((k, i) => svg.append("text").attr("x", x1 + 14 + i * sp + 7).attr("y", 12).attr("text-anchor", "middle")
+    .style("font-size", `${(all ? 9.5 : 10) * fs}px`).style("font-weight", 700).attr("fill", "var(--text-3)").text(k).append("title").text(["Guidelines", "HTA and payers", "Congress voice", "Field feedback"][i]));
+  let y = 22;
+  lanes.forEach(({ g, rows }) => {
+    const h = rowH({ rows }), col = S.none.includes(g) ? OV_RAG.red : S.half.includes(g) ? OV_RAG.amber : OV_RAG.green, gr = svg.append("g");
+    gr.append("rect").attr("x", 0).attr("y", y).attr("width", W).attr("height", h - 4).attr("rx", 8).attr("fill", "var(--surface-2)");
+    const lab = gr.append("g").attr("class", "hit").style("opacity", dim("label")).on("click", () => ovGapPanel(g, S))
+      .on("mousemove", e => showTip(e, `<b>${esc(g.title)}</b><br>criticality ${g.gap_criticality_score.toFixed(1)} · studies answer ${g.planned_coverage_pct}%`)).on("mouseleave", hideTip);
+    lab.append("rect").attr("x", 6).attr("y", y + 6).attr("width", 5).attr("height", h - 16).attr("rx", 2).attr("fill", col);
+    const words = shortTxt(g.title, 64).split(" "), lines = [""];
+    words.forEach(w => { if ((lines[lines.length - 1] + " " + w).length > labW / (6.6 * fs)) lines.push(w); else lines[lines.length - 1] = (lines[lines.length - 1] + " " + w).trim(); });
+    lines.slice(0, 3).forEach((l, i) => lab.append("text").attr("x", 18).attr("y", y + 17 + i * 14 * fs).style("font-size", `${11.5 * fs}px`).style("font-weight", i ? 500 : 700).attr("fill", "var(--text)").text(l));
+    if (all) lab.append("text").attr("x", 18).attr("y", y + 17 + Math.min(3, lines.length) * 14 * fs).style("font-size", `${10.5 * fs}px`).attr("fill", "var(--text-2)")
+      .text(`studies answer ${g.planned_coverage_pct}% · published ${g.realised_closure_pct}% · ${rows.length} stud${rows.length === 1 ? "y" : "ies"}`);
+    if (!rows.length) gr.append("text").attr("x", x0 + 6).attr("y", y + 26).style("font-size", `${11.5 * fs}px`).style("font-weight", 700).attr("fill", "var(--critical)").text("No study planned");
+    rows.forEach((r, i) => {
+      const by = y + 16 * fs + i * 20 * fs, a = x(r.st || TODAY), b = x(r.rd || r.st || TODAY), late = /after/i.test(r.w.window || "");
+      const bar = gr.append("g").attr("class", "hit").style("opacity", dim("bars")).on("click", () => openEntity(r.s.study_id))
+        .on("mousemove", e => showTip(e, `<b>${esc(r.s.acronym || r.s.study_id)}</b> · ${esc(r.s.status)}<br>results ${fmtM(r.rd)} · usable ~${fmtM(r.use)}${late ? "<br><b>after US patent expiry</b>" : ""}`)).on("mouseleave", hideTip);
+      bar.append("rect").attr("x", a).attr("y", by).attr("width", Math.max(3, b - a)).attr("height", 9).attr("rx", 3).attr("fill", late ? "var(--critical)" : "var(--c1)");
+      if (r.use && r.rd) bar.append("line").attr("x1", b).attr("x2", x(r.use)).attr("y1", by + 4.5).attr("y2", by + 4.5).attr("stroke", late ? "var(--critical)" : "var(--c1)").attr("stroke-width", 2).attr("stroke-dasharray", "4 3");
+      bar.append("text").attr("x", Math.min(a, x1 - 80) + 2).attr("y", by - 2).style("font-size", `${9.5 * fs}px`).attr("fill", "var(--text-2)").text(r.s.acronym || shortName(r.s));
+    });
+    ovOutputs(rows.map(r => r.s.study_id)).forEach(o => { const d = pd(o.actual_date || o.planned_date), v = IX.venue[o.target_venue_id];
+      gr.append("path").attr("class", "hit").style("opacity", dim("dia")).attr("d", d3.symbol(d3.symbolDiamond, 70 * fs)()).attr("transform", `translate(${x(d)},${y + h - 11})`)
+        .attr("fill", /published|presented|accepted/.test(o.status) ? "var(--text)" : "var(--surface)").attr("stroke", "var(--text)").attr("stroke-width", 1.4)
+        .on("mousemove", e => showTip(e, `<b>${esc(v?.name || o.target_venue_id)}</b> · ${fmtM(d)}<br>${esc(o.title || "")}<br>${esc(o.status)}`)).on("mouseleave", hideTip)
+        .on("click", () => ovOpen(esc(v?.name || "Congress"), `${fmtM(d)} · ${esc(o.status)}`, `<p>${esc(o.title || "")}</p><p>Study: ${cite(o.study_id)}</p>${v?.abstract_deadline ? `<p>Abstract deadline: ${fmtAny(v.abstract_deadline)}</p>` : ""}`, "dissemination")); });
+    ovImpact(g).forEach((m, i) => gr.append("rect").attr("class", "hit").style("opacity", dim("sq")).attr("x", x1 + 14 + i * sp).attr("y", y + h / 2 - 9).attr("width", 14).attr("height", 14).attr("rx", 3).attr("fill", OV_RAG[m.lvl])
+      .on("mousemove", e => showTip(e, `<b>${m.k}</b><br>${esc(m.why)}`)).on("mouseleave", hideTip)
+      .on("click", () => ovOpen(`${m.k}: ${esc(shortTxt(g.title, 60))}`, "impact so far", `<p>${esc(m.why)}</p>`, m.k === "Field feedback" ? "field" : m.k === "Congress voice" ? "publications" : "access")));
+    y += h;
+  });
 }
 
 // ---- top bar: role, what changed, ask, help
@@ -4310,7 +4576,7 @@ async function askAI(q) {
 // first visit: short tour (once per browser)
 setTimeout(() => { let seen = "1"; try { seen = localStorage.getItem("ibd-toured"); } catch (e) {} if (!seen) startTour(); }, 1200);
 
-try { const t = localStorage.getItem("ibd-theme"); if (t) document.documentElement.dataset.theme = t; const v = localStorage.getItem("ibd-view"); if (v && RENDER[v]) state.view = v; } catch (e) {}
+try { const t = localStorage.getItem("ibd-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
 const hashView = location.hash.slice(1);
 if (RENDER[hashView]) state.view = hashView;  // a shared link wins over the last view used here
 addEventListener("popstate", () => { const v = location.hash.slice(1); if (RENDER[v] && v !== state.view) { state.view = v; render(); } });
