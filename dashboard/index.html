@@ -455,6 +455,37 @@ body.present .top .asof { display: block; }
 .ov-gaps div { border-radius: 8px; padding: 6px 8px; font-size: calc(11.5px * var(--fs)); color: #10151d; }
 @media (max-width: 1100px) { .ov-chain { grid-template-columns: repeat(3, minmax(0, 1fr)); } .ov-link { display: none; } .ov-body { grid-template-columns: 1fr; } }
 @media (max-width: 640px) { .ov-chain { grid-template-columns: 1fr 1fr; } .ov-alerts { flex-direction: column; } }
+.cmp-ctl { margin-left: auto; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; } .cmp-ctl .cmp-sel { margin-left: 0; }
+.cmp-cond { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: calc(12.5px * var(--fs)); background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px; padding: 7px 10px; margin-top: 8px; }
+.cmp-cond label { display: inline-flex; gap: 5px; align-items: center; cursor: pointer; }
+.cmp-bar .rng { position: absolute; top: 1px; bottom: 1px; border-radius: 4px; background: color-mix(in srgb, var(--text-3) 30%, transparent); }
+.cmp-chg { margin-left: 6px; font-weight: 700; color: var(--text); }
+.cmp-conf { font-weight: 600; }
+.cmp-proj { display: flex; gap: 14px; align-items: center; margin: 8px 0; } .cmp-proj b { font-size: calc(22px * var(--fs)); } .cmp-proj .arr { font-size: calc(22px * var(--fs)); color: var(--text-3); }
+/* ---- how we compare with the competition */
+.cmp { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; box-shadow: var(--shadow); }
+.cmp-h { display: flex; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.cmp-h h2 { font-size: calc(15px * var(--fs)); margin: 0; }
+.cmp-sum { font-size: calc(13px * var(--fs)); color: var(--text-2); margin-top: 3px; }
+.cmp-sel { margin-left: auto; font-size: calc(12.5px * var(--fs)); color: var(--text-2); display: flex; gap: 6px; align-items: center; }
+.cmp-sel select { font: inherit; padding: 4px 6px; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--surface); color: var(--text); }
+.cmp-key { display: flex; gap: 16px; flex-wrap: wrap; font-size: calc(11px * var(--fs)); color: var(--text-3); margin: 8px 0 4px; }
+.cmp-groups { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.cmp-g { display: grid; gap: 4px; align-content: start; }
+.cmp-row { display: grid; grid-template-columns: minmax(0, 1fr) 84px 54px; grid-template-rows: auto auto; column-gap: 8px; align-items: center; text-align: left; font: inherit; color: var(--text);
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 9px; padding: 6px 9px; cursor: pointer; }
+.cmp-row:hover { border-color: var(--line-strong); }
+.cmp-row .q { font-weight: 700; font-size: calc(12.5px * var(--fs)); }
+.cmp-row .v { font-weight: 800; font-size: calc(12px * var(--fs)); text-align: right; }
+.cmp-row .nums { grid-column: 1 / -1; font-size: calc(11.5px * var(--fs)); color: var(--text-2); }
+.cmp-bar { position: relative; height: 10px; border-radius: 5px; background: linear-gradient(90deg, color-mix(in srgb, var(--critical) 22%, transparent), transparent 40%, transparent 60%, color-mix(in srgb, var(--good) 22%, transparent)); }
+.cmp-bar .mid { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--text-3); }
+.cmp-bar .dot { position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); border: 2px solid var(--surface); }
+.cmp-bar .dot.ghost { background: transparent !important; border: 2px dashed var(--text-2); }
+.cmp-tr { font-weight: 700; margin-left: 6px; } .cmp-tr.up { color: var(--good); } .cmp-tr.down { color: var(--critical); }
+.cmp-ask { font-size: calc(14px * var(--fs)); }
+.cmp-big { display: flex; gap: 22px; align-items: flex-end; margin: 8px 0; } .cmp-big b { font-size: calc(26px * var(--fs)); }
+@media (max-width: 1100px) { .cmp-groups { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -4144,6 +4175,243 @@ function ovGapStudies(g, S, n = 3) {
 }
 const ovOutputs = sids => D.evidence_outputs.filter(o => sids.includes(o.study_id) && o.target_venue_id && pd(o.actual_date || o.planned_date));
 
+// ---- how we compare with the competition (Overview band)
+// TREMFYA against one competitor on 8 plain questions, grouped in three areas. Each verdict is a rule on data the dashboard
+// already holds; the side panel shows the numbers, the rule, what moved it in the last 90 days and what is expected next.
+const CMP_CHOICES = ["SKY", "ENT", "RIN", "OMV"];
+const cmpState = { comp: "SKY", when: 0, cond: { ourPos: true, theirPos: true, appr: true, slip: false } };
+try { const c = localStorage.getItem("ibd-cmp"); if (CMP_CHOICES.includes(c)) cmpState.comp = c; } catch (e) {}
+const CMP_H2H = /versus|\bvs\.?\b|compared (with|to)|head-to-head/i;
+const CMP_RANK = { higher: 4, recommended: 3, suggested: 3, intermediate: 2, lower: 1, "not suggested": .5, "not covered": 0 };
+const ago90 = new Date(TODAY.getTime() - 90 * 864e5), in12 = new Date(TODAY.getTime() + 365 * 864e5), in24 = new Date(TODAY.getTime() + 730 * 864e5);
+function cmpVerdict(ours, theirs, higherIsBetter = true) {
+  if (ours == null || theirs == null) return { v: "na", s: 0 };
+  let s = Math.log2((ours + .5) / (theirs + .5)) / 1.5; if (!higherIsBetter) s = -s;
+  s = Math.max(-1, Math.min(1, s));
+  return { v: s > .2 ? "ahead" : s < -.2 ? "behind" : "level", s };
+}
+function cmpRows(cb) {
+  const cn = brandNm(cb), tre = D.studies.filter(s => String(s.brand_ids).split(";").map(x => x.trim()).includes("TRE") && indOk(s.indication));
+  const theirs = D.competitor_studies.filter(s => s.brand_id === cb && indOk(s.indication));
+  const live = s => /recruiting|active|enrolling/i.test(s.status), win = CH_WIN();
+  const rows = [];
+  // 1 · studies under way (interventional on both sides: the competitor list holds registry interventional studies only)
+  {
+    const ours = tre.filter(s => s.evidence_class === "Interventional" && live(s)), th = theirs.filter(live);
+    const oursThen = ours.filter(s => (pd(s.start_date) || TODAY) <= ago90).length, thThen = th.filter(s => (pd(s.start_date) || TODAY) <= ago90).length;
+    const newOurs = ours.filter(s => (pd(s.start_date) || ago90) > ago90), newTh = th.filter(s => (pd(s.start_date) || ago90) > ago90);
+    const now = cmpVerdict(ours.length, th.length), then = cmpVerdict(oursThen, thThen);
+    rows.push({ g: "Evidence", id: "studies", q: "Studies under way", ask: `Do we run more clinical trials than ${cn}?`, ours: ours.length, theirs: th.length, unit: "ongoing trials", ...now, trend: now.s - then.s,
+      moved: [...newOurs.map(s => `We started ${s.acronym || s.study_id} (${fmtD(pd(s.start_date))})`), ...newTh.map(s => `${cn} started ${s.acronym || s.study_id} (${fmtD(pd(s.start_date))})`)],
+      rule: "Ongoing interventional trials (recruiting or active) in IBD from the trial registry, ours vs theirs. Observational studies are left out because the competitor list only holds trials.", view: "studies" });
+  }
+  // 2 · head-to-head evidence
+  {
+    const ours = tre.filter(s => CMP_H2H.test(s.title) && !/^SIM-/.test(s.study_id) && !/withdrawn|terminated/.test(s.status));
+    const th = theirs.filter(s => (CMP_H2H.test(s.title) || s.comparator_is_jnj_asset) && !/withdrawn|terminated/.test(s.status));
+    const due = [...ours.map(s => ({ s, d: pd(win[s.study_id]?.readout_date) || pd(s.primary_completion_date), us: true })), ...th.map(s => ({ s, d: pd(s.expected_readout), us: false }))].filter(x => x.d && x.d >= TODAY && x.d <= in12);
+    rows.push({ g: "Evidence", id: "h2h", q: "Head-to-head evidence", ask: `Do we compare ourselves directly with other treatments as often as ${cn} does?`, ours: ours.length, theirs: th.length, unit: "comparison studies", ...cmpVerdict(ours.length, th.length), trend: null,
+      list: [...ours.map(s => `Ours: ${s.acronym || s.study_id}, ${shortTxt(s.title, 70)}`), ...th.map(s => `${cn}: ${s.acronym || s.study_id}, ${shortTxt(s.title, 70)}`)],
+      future: due.length ? due.map(x => `${x.us ? "Our" : cn + "'s"} ${x.s.acronym || x.s.study_id} reads out ~${fmtM(x.d)}`).join("; ") : null,
+      rule: "Studies that compare against another treatment (title says versus / compared with / head-to-head), planned or running, ours vs theirs.", view: "competition" });
+  }
+  // 3 · readouts in the next two years
+  {
+    const ours = tre.filter(s => { const d = pd(win[s.study_id]?.readout_date) || pd(s.primary_completion_date); return s.evidence_class === "Interventional" && d && d >= TODAY && d <= in24; });
+    const th = theirs.filter(s => { const d = pd(s.expected_readout); return d && d >= TODAY && d <= in24; });
+    rows.push({ g: "Evidence", id: "readouts", q: "New results coming", ask: `Will we have more new results than ${cn} in the next 2 years?`, ours: ours.length, theirs: th.length, unit: "readouts in 24 months", ...cmpVerdict(ours.length, th.length), trend: null,
+      rule: "Clinical trials expected to report results in the next 24 months (registry dates), ours vs theirs. Observational studies are left out because the competitor list only holds trials.", view: "studies" });
+  }
+  // 4 · guideline position
+  {
+    const key = p => p.guideline_id + "|" + p.setting, mine = Object.fromEntries(D.guideline_positions.filter(p => p.brand_id === "TRE" && CMP_RANK[p.position] != null).map(p => [key(p), p]));
+    const pairs = D.guideline_positions.filter(p => p.brand_id === cb && CMP_RANK[p.position] != null && mine[key(p)]).map(p => ({ p, m: mine[key(p)], d: CMP_RANK[mine[key(p)].position] - CMP_RANK[p.position] }));
+    const better = pairs.filter(x => x.d > 0).length, worse = pairs.filter(x => x.d < 0).length;
+    const gl = id => D.guidelines.find(g => g.guideline_id === id);
+    const recent = D.guidelines.filter(g => { const d = pd(g.version_date); return d && d > ago90 && d <= TODAY; });
+    const next = D.guidelines.filter(g => { const d = pd(g.next_update_expected); return d && d >= TODAY && d <= in12 && indOk(g.indication); });
+    const v = pairs.length ? (better > worse ? { v: "ahead", s: Math.min(1, (better - worse) / 3) } : worse > better ? { v: "behind", s: -Math.min(1, (worse - better) / 3) } : { v: "level", s: 0 }) : { v: "na", s: 0 };
+    rows.push({ g: "Recognition", id: "guidelines", q: "Guideline position", ask: `Do guidelines place us higher than ${cn}?`, ours: better, theirs: worse, unit: `of ${pairs.length} settings`, bigL: ["Settings where TREMFYA is placed higher", `Settings where ${cn} is placed higher`], label: pairs.length ? `better in ${better}, worse in ${worse}, same in ${pairs.length - better - worse}` : "no shared settings", ...v, trend: null,
+      list: pairs.filter(x => x.d).map(x => `${gl(x.p.guideline_id)?.body || x.p.guideline_id} ${gl(x.p.guideline_id)?.indication || ""} (${x.p.setting}): TREMFYA ${x.m.position}, ${cn} ${x.p.position}`),
+      moved: recent.map(g => `${g.body} ${g.indication} guideline updated ${fmtM(pd(g.version_date))}`),
+      future: next.length ? `${next.length} guideline update${next.length > 1 ? "s" : ""} expected in the next 12 months: ${next.map(g => `${g.body.replace(" (living)", "")} ${g.indication} (~${fmtM(pd(g.next_update_expected))})`).join(", ")}` : null,
+      rule: "For each guideline setting where both drugs are graded, we compare the grade (higher > recommended/suggested > intermediate > lower > not covered).", view: "access" });
+  }
+  // 5 · scientific voice at congresses (this year vs last year)
+  {
+    const yrs = [...new Set((D.sov_congress || []).map(r => r.year))].sort(), y = yrs[yrs.length - 1], y0 = yrs[yrs.length - 2];
+    const share = (yy, b) => { const rs = D.sov_congress.filter(r => r.year === yy), t = d3.sum(rs, r => r.n); return t ? 100 * d3.sum(rs.filter(r => r.brand_id === b), r => r.n) / t : 0; };
+    const o = share(y, "TRE"), t = share(y, cb), now = cmpVerdict(o, t), then = cmpVerdict(share(y0, "TRE"), share(y0, cb));
+    rows.push({ g: "Recognition", id: "voice", q: "Scientific voice", ask: `Are we heard as much as ${cn} at congresses?`, ours: Math.round(o), theirs: Math.round(t), unit: `of congress abstracts, ${y}`, pct: true, ...now, trend: now.s - then.s,
+      moved: [`${y0}: TREMFYA ${share(y0, "TRE").toFixed(0)}%, ${cn} ${share(y0, cb).toFixed(0)}% → ${y}: TREMFYA ${o.toFixed(0)}%, ${cn} ${t.toFixed(0)}%`],
+      rule: `Share of abstracts naming each drug at the major IBD congresses in ${y}, compared with ${y0} for the trend.`, view: "publications" });
+  }
+  // 6 · AI assistants
+  {
+    const rs = D.llm_drug_share || [], avg = b => d3.mean(rs.filter(r => r.drug === b), r => r.named_pct);
+    const o = avg("TRE"), t = avg(cb);
+    rows.push({ g: "Recognition", id: "ai", q: "Named by AI assistants", ask: `When patients and doctors ask AI assistants about IBD treatment, are we named as often as ${cn}?`, ours: o == null ? null : Math.round(o), theirs: t == null ? null : Math.round(t), unit: "of answers naming the drug", pct: true, ...cmpVerdict(o, t), trend: null,
+      moved: [`First measurement: ${fmtD(pd(d3.max(rs, r => r.date)))} (ChatGPT and Claude, patient and HCP questions)`],
+      rule: "Average share of unbranded answers that name each drug, across assistants and patient/HCP questions.", view: SIMPLE ? "assistants" : "dissemination" });
+  }
+  // 7 · convenience and label (attribute-by-attribute comparison exists for SKYRIZI)
+  if (cb === "SKY") {
+    const pa = (D.product_attributes || []).filter(a => indOk(a.indication));
+    const adv = (k, w) => pa.filter(a => a[k] === w).length;
+    const o = adv("verdict_now", "TREMFYA advantage"), t = adv("verdict_now", "SKYRIZI advantage"), o2 = adv("verdict_if_approved", "TREMFYA advantage"), t2 = adv("verdict_if_approved", "SKYRIZI advantage");
+    const lost = pa.filter(a => a.changes_on_approval && a.verdict_now === "TREMFYA advantage" && a.verdict_if_approved !== "TREMFYA advantage");
+    rows.push({ g: "Product and time", id: "label", q: "Convenience and label", ask: "Do patients and doctors get practical advantages with us (dosing, route, label)?", ours: o, theirs: t, unit: "attributes where one drug has the edge", bigL: ["Attributes where TREMFYA has the edge", `Attributes where ${cn} has the edge`], ...cmpVerdict(o, t), trend: null,
+      list: pa.filter(a => /advantage/.test(a.verdict_now)).map(a => `${a.indication} · ${a.attribute}: ${a.verdict_now}${a.why_now ? ` (${a.why_now})` : ""}`),
+      future: lost.length ? `If SKYRIZI's pending filing is approved, ${lost.length} TREMFYA advantage${lost.length > 1 ? "s" : ""} would go (${lost.map(a => a.attribute).join("; ")}): ${o2} vs ${t2}.` : null,
+      futureV: cmpVerdict(o2, t2).v,
+      rule: "Label and practical attributes compared one by one (route, dosing, devices, populations); counts the attributes where one drug has a clear edge.", view: "competition" });
+  } else rows.push({ g: "Product and time", id: "label", q: "Convenience and label", ask: "Do patients and doctors get practical advantages with us?", v: "na", s: 0, ours: null, theirs: null, unit: "", label: `not assessed yet for ${cn}`, rule: "The attribute-by-attribute comparison exists for SKYRIZI only so far.", view: "competition" });
+  // 8 · runway before patent expiry (US)
+  {
+    const mine = pd((D.loe || []).find(l => l.brand_id === "TRE" && l.market === "US")?.planning_loe), their = pd((D.loe || []).find(l => l.brand_id === cb && l.market === "US")?.planning_loe);
+    const yo = mine ? monthsFrom(mine) / 12 : null, yt = their ? monthsFrom(their) / 12 : null;
+    rows.push({ g: "Product and time", id: "runway", q: "Time before patent expiry", ask: `How long can we still use new evidence before US patent expiry, compared with ${cn}?`, ours: yo == null ? null : +yo.toFixed(1), theirs: yt == null ? null : +yt.toFixed(1), unit: "years left (US)",
+      ...(yo == null || yt == null ? { v: "na", s: 0 } : { v: yo - yt > .75 ? "ahead" : yo - yt < -.75 ? "behind" : "level", s: Math.max(-1, Math.min(1, (yo - yt) / 3)) }), trend: null,
+      moved: [`TREMFYA US planning date ${fmtM(mine)}; ${cn} ${fmtM(their)}`],
+      rule: "Years until the US planning date for loss of exclusivity (public patent and exclusivity data, planning assumption). Evidence that arrives later protects less.", view: "lifecycle" });
+  }
+  return rows;
+}
+const CMP_V = { ahead: ["Ahead", "var(--good)"], level: ["On par", "var(--text-3)"], behind: ["Behind", "var(--critical)"], na: ["No data", "var(--line-strong)"] };
+const cmpNum = (r, x) => x == null ? "—" : r.pct ? `${x}%` : String(x);
+// ---- projection: where we would stand in 12 or 24 months, under stated conditions
+// Only studies, filings and guideline dates known today count (no new studies on either side). The conditions can be switched.
+const CMP_COND = [
+  ["ourPos", "Our trials read out positive"],
+  ["theirPos", "Competitor trials read out positive"],
+  ["appr", "Competitor approvals now pending are granted"],
+  ["slip", "Our trials slip 6 months"],
+];
+const CMP_CONF = { high: ["High confidence", "var(--good)"], medium: ["Medium confidence", "var(--warning)"], low: ["Low confidence", "var(--serious)"], none: ["Not projected", "var(--text-3)"] };
+function cmpProject(cb, months, c) {
+  const T = new Date(TODAY.getTime() + months * 30.44 * 864e5), cn = brandNm(cb), win = CH_WIN(), add = (d, m) => d ? new Date(d.getFullYear(), d.getMonth() + m, d.getDate()) : null;
+  const tre = D.studies.filter(s => String(s.brand_ids).split(";").map(x => x.trim()).includes("TRE") && indOk(s.indication) && s.evidence_class === "Interventional" && !/withdrawn|terminated/.test(s.status));
+  const th = D.competitor_studies.filter(s => s.brand_id === cb && indOk(s.indication) && !/withdrawn|terminated/.test(s.status));
+  const oEnd = s => add(pd(win[s.study_id]?.readout_date) || pd(s.primary_completion_date), c.slip ? 6 : 0), tEnd = s => pd(s.expected_readout) || pd(s.primary_completion_date);
+  const oStart = s => pd(s.start_date) || TODAY, tStart = s => pd(s.start_date) || TODAY, nm = s => s.acronym || s.study_id;
+  const between = (d, a, b) => d && d > a && d <= b, out = {};
+  // 1 · studies under way at T
+  {
+    const o = tre.filter(s => oStart(s) <= T && oEnd(s) && oEnd(s) > T), t = th.filter(s => tStart(s) <= T && tEnd(s) && tEnd(s) > T);
+    const ch = [...tre.filter(s => between(oEnd(s), TODAY, T)).map(s => [oEnd(s), `Our ${nm(s)} ends`]), ...tre.filter(s => between(oStart(s), TODAY, T)).map(s => [oStart(s), `Our ${nm(s)} starts (planned)`]),
+      ...th.filter(s => between(tEnd(s), TODAY, T)).map(s => [tEnd(s), `${cn}'s ${nm(s)} ends`]), ...th.filter(s => between(tStart(s), TODAY, T)).map(s => [tStart(s), `${cn}'s ${nm(s)} starts`])];
+    out.studies = { ours: o.length, theirs: t.length, ...cmpVerdict(o.length, t.length), conf: "high", ch };
+  }
+  // 2 · head-to-head: comparison studies, plus 2 points for each positive comparison result by T
+  {
+    const treAll = D.studies.filter(s => String(s.brand_ids).split(";").map(x => x.trim()).includes("TRE") && indOk(s.indication) && !/withdrawn|terminated/.test(s.status));
+    const o = treAll.filter(s => CMP_H2H.test(s.title) && !/^SIM-/.test(s.study_id) && oStart(s) <= T), t = th.filter(s => (CMP_H2H.test(s.title) || s.comparator_is_jnj_asset) && tStart(s) <= T);
+    const oRes = o.filter(s => between(oEnd(s), TODAY, T)), tRes = t.filter(s => between(tEnd(s), TODAY, T));
+    const so = o.length + (c.ourPos ? 2 * oRes.length : 0), st = t.length + (c.theirPos ? 2 * tRes.length : 0);
+    out.h2h = { ours: o.length, theirs: t.length, ...cmpVerdict(so, st), conf: "medium", extra: oRes.length || tRes.length ? `results by then: ours ${oRes.length}, theirs ${tRes.length}` : null,
+      ch: [...oRes.map(s => [oEnd(s), `Our ${nm(s)} reads out (${c.ourPos ? "assumed positive" : "assumed not positive"})`]), ...tRes.map(s => [tEnd(s), `${cn}'s ${nm(s)} reads out (${c.theirPos ? "assumed positive" : "assumed not positive"})`])] };
+  }
+  // 3 · results coming in the 24 months after T
+  {
+    const T2 = add(T, 24), o = tre.filter(s => between(oEnd(s), T, T2)), t = th.filter(s => between(tEnd(s), T, T2));
+    out.readouts = { ours: o.length, theirs: t.length, ...cmpVerdict(o.length, t.length), conf: "high", ch: [] };
+  }
+  // 4 · guideline position: each guideline update before T can move one setting, if new positive results are published at least 6 months before it
+  {
+    const key = p => p.guideline_id + "|" + p.setting, mine = Object.fromEntries(D.guideline_positions.filter(p => p.brand_id === "TRE" && CMP_RANK[p.position] != null).map(p => [key(p), p]));
+    const pairs = D.guideline_positions.filter(p => p.brand_id === cb && CMP_RANK[p.position] != null && mine[key(p)]).map(p => ({ gid: p.guideline_id, d: Math.sign(CMP_RANK[mine[key(p)].position] - CMP_RANK[p.position]) }));
+    const ch = [];
+    for (const g of D.guidelines.filter(g => indOk(g.indication))) {
+      const up = pd(g.next_update_expected); if (!up || up > T || up < TODAY) continue;
+      const cut = add(up, -6), ind = s => String(s.indication || "").includes(g.indication) || /UC\+CD|IBD/.test(s.indication || "");
+      const ours = c.ourPos && tre.find(s => ind(s) && between(add(oEnd(s), 12), TODAY, cut)), theirs = c.theirPos && th.find(s => ind(s) && between(add(tEnd(s), 12), TODAY, cut));
+      const mineP = pairs.filter(x => x.gid === g.guideline_id);
+      if (ours && !theirs) { const x = mineP.find(x => x.d < 0) || mineP.find(x => x.d === 0); if (x) { x.d += 1; ch.push([up, `${g.body.replace(" (living)", "")} ${g.indication} update: our ${nm(ours)} results could lift one setting`]); } }
+      else if (theirs && !ours) { const x = mineP.find(x => x.d > 0) || mineP.find(x => x.d === 0); if (x) { x.d -= 1; ch.push([up, `${g.body.replace(" (living)", "")} ${g.indication} update: ${cn}'s ${nm(theirs)} results could lift them one setting`]); } }
+      else ch.push([up, `${g.body.replace(" (living)", "")} ${g.indication} update: no new results from either side in time, no change assumed`]);
+    }
+    const better = pairs.filter(x => x.d > 0).length, worse = pairs.filter(x => x.d < 0).length;
+    out.guidelines = { ours: better, theirs: worse, label: `better in ${better}, worse in ${worse}, same in ${pairs.length - better - worse}`,
+      ...(pairs.length ? (better > worse ? { v: "ahead", s: Math.min(1, (better - worse) / 3) } : worse > better ? { v: "behind", s: -Math.min(1, (worse - better) / 3) } : { v: "level", s: 0 }) : { v: "na", s: 0 }), conf: "low", ch };
+  }
+  // 5 · scientific voice: this year's change carried forward at half pace
+  {
+    const yrs = [...new Set((D.sov_congress || []).map(r => r.year))].sort(), y = yrs[yrs.length - 1], y0 = yrs[yrs.length - 2];
+    const share = (yy, b) => { const rs = D.sov_congress.filter(r => r.year === yy), t = d3.sum(rs, r => r.n); return t ? 100 * d3.sum(rs.filter(r => r.brand_id === b), r => r.n) / t : 0; };
+    const k = months / 12, f = b => Math.max(0, Math.min(60, share(y, b) + k * .5 * (share(y, b) - share(y0, b))));
+    const o = f("TRE"), t = f(cb);
+    out.voice = { ours: Math.round(o), theirs: Math.round(t), ...cmpVerdict(o, t), conf: "low", ch: [[T, `Assumes the ${y0}→${y} change in congress share continues at half pace`]] };
+  }
+  out.ai = { v: "na", s: 0, conf: "none", label: "not projected: only one measurement so far", ch: [] };
+  // 7 · convenience and label (SKYRIZI): pending approvals change the attribute comparison
+  if (cb === "SKY") {
+    const pa = (D.product_attributes || []).filter(a => indOk(a.indication)), adv = (k, w) => pa.filter(a => a[k] === w).length;
+    const ev = D.competitive_events.filter(e => e.brand_id === "SKY" && e.type === "approval" && between(pd(e.date), TODAY, T));
+    const k = c.appr && ev.length ? "verdict_if_approved" : "verdict_now", o = adv(k, "TREMFYA advantage"), t = adv(k, "SKYRIZI advantage");
+    out.label = { ours: o, theirs: t, ...cmpVerdict(o, t), conf: "high", ch: ev.map(e => [pd(e.date), `${shortTxt(e.description, 80)} (${Math.round(e.probability_positive * 100)}% likely; ${c.appr ? "assumed granted" : "assumed not granted"})`]) };
+  } else out.label = { v: "na", s: 0, conf: "none", label: `not assessed yet for ${cn}`, ch: [] };
+  // 8 · runway before US patent expiry
+  {
+    const mine = pd((D.loe || []).find(l => l.brand_id === "TRE" && l.market === "US")?.planning_loe), their = pd((D.loe || []).find(l => l.brand_id === cb && l.market === "US")?.planning_loe);
+    const yo = mine ? Math.max(0, monthsFrom(mine, T) / 12) : null, yt = their ? Math.max(0, monthsFrom(their, T) / 12) : null;
+    out.runway = { ours: yo == null ? null : +yo.toFixed(1), theirs: yt == null ? null : +yt.toFixed(1), ...(yo == null || yt == null ? { v: "na", s: 0 } : { v: yo - yt > .75 ? "ahead" : yo - yt < -.75 ? "behind" : "level", s: Math.max(-1, Math.min(1, (yo - yt) / 3)) }), conf: "high", ch: [] };
+  }
+  for (const k in out) out[k].ch = (out[k].ch || []).sort((a, b) => a[0] - b[0]);
+  return out;
+}
+const CMP_BEST = { ourPos: true, theirPos: false, appr: false, slip: false }, CMP_WORST = { ourPos: false, theirPos: true, appr: true, slip: true };
+function cmpBand() {
+  const cb = cmpState.comp, cn = brandNm(cb), today = cmpRows(cb), m = cmpState.when, P = m ? cmpProject(cb, m, cmpState.cond) : null;
+  const B = m ? cmpProject(cb, m, CMP_BEST) : null, Wo = m ? cmpProject(cb, m, CMP_WORST) : null;
+  const rows = today.map(r => m ? { ...r, now: r, ...P[r.id], unit: r.unit, q: r.q, ask: r.ask, g: r.g, id: r.id, pct: r.pct, label: P[r.id].label || null, trend: null,
+    lo: Math.min(B[r.id].s, Wo[r.id].s, P[r.id].s), hi: Math.max(B[r.id].s, Wo[r.id].s, P[r.id].s) } : r);
+  const n = k => rows.filter(r => r.v === k).length, when = m ? `in ${m} months` : "today";
+  const worst = rows.filter(r => r.v === "behind").sort((a, b) => a.s - b.s)[0], best = rows.filter(r => r.v === "ahead").sort((a, b) => b.s - a.s)[0];
+  const X = s => 50 + s * 46;
+  const bar = r => `<span class="cmp-bar" aria-hidden="true"><span class="mid"></span>
+    ${m && r.v !== "na" && r.hi - r.lo > .04 ? `<span class="rng" style="left:${X(r.lo)}%;width:${X(r.hi) - X(r.lo)}%" title="range from best to worst case"></span>` : ""}
+    ${m && r.now && r.now.v !== "na" ? `<span class="dot ghost" style="left:${X(r.now.s)}%" title="today"></span>` : ""}
+    <span class="dot" style="left:${X(r.s)}%;background:${CMP_V[r.v][1]}"></span>
+    ${!m && r.futureV && r.futureV !== r.v ? `<span class="dot ghost" style="left:${X(r.futureV === "ahead" ? .5 : r.futureV === "behind" ? -.5 : 0)}%" title="in 12 months"></span>` : ""}</span>`;
+  const arrow = r => r.trend == null || Math.abs(r.trend) < .05 ? "" : `<span class="cmp-tr ${r.trend > 0 ? "up" : "down"}" title="Change since about 90 days ago">${r.trend > 0 ? "▲ better" : "▼ worse"}</span>`;
+  const nums = r => r.v === "na" ? esc(r.label || "no data") : r.label ? esc(r.label) : `${cmpNum(r, r.ours)} vs ${cmpNum(r, r.theirs)} ${esc(r.unit)}`;
+  const change = r => m && r.now && r.now.v !== r.v && r.v !== "na" ? `<span class="cmp-chg">was ${CMP_V[r.now.v][0].toLowerCase()} today</span>` : "";
+  return `<div class="cmp">
+    <div class="cmp-h"><div><h2>How are we doing against the competition?</h2>
+      <div class="cmp-sum">${m ? `<b>Projection ${when}</b>, if the conditions below hold. ` : ""}TREMFYA vs <b>${esc(cn)}</b>: <span style="color:var(--good)">ahead in ${n("ahead")}</span> · on par in ${n("level")} · <span style="color:var(--critical)">behind in ${n("behind")}</span>${worst ? ` · biggest gap: <b>${esc(worst.q.toLowerCase())}</b>` : ""}${best ? ` · strongest: <b>${esc(best.q.toLowerCase())}</b>` : ""}</div></div>
+      <div class="cmp-ctl"><span class="seg" id="cmp-when">${[[0, "Today"], [12, "In 12 months"], [24, "In 24 months"]].map(([v, l]) => `<button data-v="${v}" class="${m === v ? "on" : ""}">${l}</button>`).join("")}</span>
+      <label class="cmp-sel">Compare with <select id="cmp-comp">${CMP_CHOICES.map(b => `<option value="${b}" ${b === cb ? "selected" : ""}>${esc(brandNm(b))}</option>`).join("")}</select></label></div></div>
+    ${m ? `<div class="cmp-cond"><b>Conditions:</b> ${CMP_COND.map(([k, l]) => `<label><input type="checkbox" data-cond="${k}" ${cmpState.cond[k] ? "checked" : ""}> ${l}</label>`).join("")}
+      <span class="muted">· Only studies, filings and guideline dates known today count: no new studies on either side.</span></div>` : ""}
+    <div class="cmp-key"><span>← behind</span><span>on par</span><span>ahead →</span><span class="muted">On par = no clear difference (numbers within about 25%) · ${m ? "○ today · shaded band = best to worst case" : "▲▼ change in the last 90 days · ○ expected in 12 months"} · click a row for the numbers</span></div>
+    <div class="cmp-groups">${d3.groups(rows, r => r.g).map(([g, rs]) => `<div class="cmp-g"><div class="ov-kicker">${esc(g)}</div>${rs.map(r => `
+      <button class="cmp-row ${r.v}" data-cmp="${r.id}" title="${esc(r.ask)}">
+        <span class="q">${esc(r.q)}</span>${bar(r)}<span class="v" style="color:${CMP_V[r.v][1]}">${CMP_V[r.v][0]}</span>
+        <span class="nums">${nums(r)} ${arrow(r)}${change(r)}${m && r.conf ? ` <span class="cmp-conf" style="color:${CMP_CONF[r.conf][1]}">· ${CMP_CONF[r.conf][0].toLowerCase()}</span>` : ""}</span>
+      </button>`).join("")}</div>`).join("")}</div></div>`;
+}
+function cmpPanel(id) {
+  const cb = cmpState.comp, cn = brandNm(cb), r = cmpRows(cb).find(x => x.id === id), m = cmpState.when; if (!r) return;
+  const lst = (h, xs) => xs && xs.length ? `<div class="ov-kicker">${h}</div><ul>${xs.slice(0, 12).map(x => `<li>${esc(x)}</li>`).join("")}${xs.length > 12 ? `<li class="muted">and ${xs.length - 12} more</li>` : ""}</ul>` : "";
+  const big = (a, b, cap) => `<div class="cmp-big"><div><div class="ov-kicker">${esc(r.bigL ? r.bigL[0] : "TREMFYA")}</div><b>${a}</b></div><div><div class="ov-kicker">${esc(r.bigL ? r.bigL[1] : cn)}</div><b>${b}</b></div><div class="muted small">${esc(cap)}</div></div>`;
+  if (m) {
+    const p = cmpProject(cb, m, cmpState.cond)[id], B = cmpProject(cb, m, CMP_BEST)[id], Wo = cmpProject(cb, m, CMP_WORST)[id];
+    return ovOpen(`${esc(r.q)} · in ${m} months`, `TREMFYA vs ${esc(cn)} · projection`, `<p class="cmp-ask">${esc(r.ask)}</p>
+      <div class="cmp-proj"><div><div class="ov-kicker">Today</div><b style="color:${CMP_V[r.v][1]}">${CMP_V[r.v][0]}</b><div class="muted small">${r.v === "na" ? esc(r.label || "") : r.label ? esc(r.label) : `${cmpNum(r, r.ours)} vs ${cmpNum(r, r.theirs)}`}</div></div>
+        <div class="arr">→</div><div><div class="ov-kicker">In ${m} months</div><b style="color:${CMP_V[p.v][1]}">${CMP_V[p.v][0]}</b><div class="muted small">${p.v === "na" ? esc(p.label || "") : p.label ? esc(p.label) : `${cmpNum(r, p.ours)} vs ${cmpNum(r, p.theirs)}`}${p.extra ? ` · ${esc(p.extra)}` : ""}</div></div></div>
+      <p><span style="color:${CMP_CONF[p.conf][1]};font-weight:700">${CMP_CONF[p.conf][0]}.</span> Best case: <b>${CMP_V[B.v][0].toLowerCase()}</b> · worst case: <b>${CMP_V[Wo.v][0].toLowerCase()}</b>.</p>
+      <div class="ov-kicker">Conditions used</div><ul>${CMP_COND.map(([k, l]) => `<li>${cmpState.cond[k] ? "✓" : "✗"} ${esc(l)}</li>`).join("")}<li>✓ No new studies on either side beyond those registered today</li></ul>
+      ${lst("What changes it, by date", p.ch.map(([d, t]) => `${fmtM(d)}: ${t}`))}
+      <div class="ov-kicker">How the projection works</div><p class="muted small">${esc(r.rule)} The projection applies the same rule at the future date, using registry dates, pending filings and guideline update dates known today. Best case = our results positive, theirs not, no new approvals; worst case = the opposite and our trials 6 months late.</p>`, r.view);
+  }
+  ovOpen(esc(r.q), `TREMFYA vs ${esc(cn)} · ${CMP_V[r.v][0].toLowerCase()}`, `<p class="cmp-ask">${esc(r.ask)}</p>
+    ${r.v === "na" ? `<p>${esc(r.label || "No data yet.")}</p>` : big(cmpNum(r, r.ours), cmpNum(r, r.theirs), r.label || r.unit)}
+    <p><b style="color:${CMP_V[r.v][1]}">${CMP_V[r.v][0]}.</b> ${r.trend != null && Math.abs(r.trend) >= .05 ? (r.trend > 0 ? "Better than about 90 days ago." : "Worse than about 90 days ago.") : ""}</p>
+    ${lst("What moved it recently", r.moved)}${r.future ? `<div class="ov-kicker">Expected next</div><p>${esc(r.future)}</p>` : ""}${lst("Details", r.list)}
+    <div class="ov-kicker">How this is worked out</div><p class="muted small">${esc(r.rule)} Ahead or behind means a clear difference (about 1.25 times or more); anything closer counts as on par.</p>
+    <p class="muted small">Switch to <b>In 12 months</b> or <b>In 24 months</b> above to see the projection.</p>`, r.view);
+}
+
 RENDER.overview = el => {
   const S = ovStats(), links = ovLinkLevels(S), alerts = ovAlerts(S);
   const acts = decisionList().slice(0, 3);
@@ -4155,6 +4423,7 @@ RENDER.overview = el => {
     <div class="ov-chain">${OV_TILES.map((t, i) => `<button class="ov-tile ${t.rag(S)} ${ovState.focus === t.id ? "on" : ""}" data-ovt="${t.id}" title="Open ${t.t}">
         ${i ? `<span class="ov-link ${links[i - 1] === "ok" ? "" : links[i - 1]}" data-ovl="${i - 1}" title="${esc(OV_LINKS[i - 1].txt(S))}"></span>` : ""}
         <div class="t">${t.t}</div><div class="n">${t.n(S)}</div><div class="u">${esc(t.u(S))}</div><div class="l">${esc(t.l(S))}</div></button>`).join("")}</div>
+    ${cmpBand()}
     <div class="ov-body ${ovState.all ? "wide" : ""}">
       <div class="ov-panel"><div class="ph"><h2>Where the chain is at risk</h2><span class="sub">${ovState.all ? `all ${S.gaps.length} evidence gaps, most at risk first, with every study` : "the 5 most critical evidence gaps"}: studies on a timeline, congresses, and impact so far · click anything</span>
         <span style="margin-left:auto;display:flex;gap:6px">${ovState.focus ? `<button class="btn" id="ov-clear">Show everything</button>` : ""}<button class="btn ${ovState.all ? "" : "primary"}" id="ov-all">${ovState.all ? "Collapse to top 5" : `Expand: all ${S.gaps.length} gaps and studies`}</button></span></div>
@@ -4178,6 +4447,10 @@ RENDER.overview = el => {
   el.querySelectorAll("[data-ovi]").forEach(b => b.onclick = () => { const x = ins[+b.dataset.ovi];
     ovOpen(esc(x.headline), `${esc(x.insight_type)} · confidence ${Math.round(x.confidence * 100)}%`, `<p>${esc(x.body)}</p>${x.cited_entity_ids ? `<div class="ov-kicker">Based on</div><div>${String(x.cited_entity_ids).split(/;\s*/).filter(Boolean).map(cite).join(" ")}</div>` : ""}`, null); });
   el.querySelectorAll("[data-ovx]").forEach(b => b.onclick = e => { if (e.target.closest("[data-show]")) return; ovActPanel(acts[+b.dataset.ovx]); });
+  el.querySelectorAll("[data-cmp]").forEach(b => b.onclick = () => cmpPanel(b.dataset.cmp));
+  el.querySelectorAll("#cmp-when button").forEach(b => b.onclick = () => { cmpState.when = +b.dataset.v; render(); });
+  el.querySelectorAll("[data-cond]").forEach(b => b.onchange = () => { cmpState.cond[b.dataset.cond] = b.checked; render(); });
+  document.getElementById("cmp-comp").onchange = e => { cmpState.comp = e.target.value; try { localStorage.setItem("ibd-cmp", cmpState.comp); } catch (er) {} render(); };
   const clr = document.getElementById("ov-clear"); if (clr) clr.onclick = () => { ovState.focus = null; render(); };
   const a2 = document.getElementById("ov-all2"); if (a2) a2.onclick = () => { ovState.all = false; render(); window.scrollTo(0, 0); };
   document.getElementById("ov-all").onclick = () => { ovState.all = !ovState.all; render(); if (ovState.all) document.getElementById("ov-lanes").scrollIntoView({ behavior: "smooth", block: "start" }); };
